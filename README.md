@@ -30,6 +30,10 @@ This is a repository of teaching notes and labs on the following topics
 
 [Sparta General Course Notes : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/Sparta-General-Course-Notes.md)
 
+## Business Skills
+
+[Sparta Closed Source Business Skills Notes](https://github.com/philandersonsparta/notes/blob/master/Sparta-General-Course-Notes.md#week-1---business-skills)
+
 ## C# #
 
 [C Sharp : philanderson888](https://github.com/philanderson888/c-sharp#c-net-visual-studio-vscore)

@@ -5289,23 +5289,31 @@ Creating Read Only Variable
 	var obj = {get x() {return 0} };
 	
 	
-	
+</STYLE>
 
 
 
+## Javascript Glossary
 
-
-
-# Javascript Glossary
-
-
-	DATETIME
+### DATETIME
 		
-		<time>4h</time>
-		<time>2012</time>
-		<time datetime="2012-10-20">Today</time>
-		<time datetime="09:00:00">9am</time>
-	
+```html
+<time>4h</time>
+<time>2012</time>
+<time datetime="2012-10-20">Today</time>
+<time datetime="09:00:00">9am</time>
+```
+
+### pnpm
+
+```bash
+# instgall
+npm install pnpm
+# upgrade to latest
+pnpm upgrade pnpm
+# install libraries
+pnpm install bootstrap popper jquery 
+```	
 
 
 

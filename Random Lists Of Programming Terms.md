@@ -6,21 +6,29 @@ It's not supposed to be structured or a teaching tool.
 
 [Random Links And Thoughts](#random-links-and-thoughts)
 
-[API](#api)
+[Traditional Javascript Glossary](#traditional-javascript-glossary)
+
+[Javascript Glossary](#javascript-glossary)
+
+[Exciting Modern Server Javascript Glossary](#exciting-modern-server-javascript-glossary)
+
+[Database Glossary](#database-glossary)
+
+[Programming Puzzles](#programming-puzzles)
+
+[Docker Glossary](#docker-glossary)
+
+[Gaming Glossary](#gaming-glossary)
+
+[CSS Glossary](#css-glossary)
+
+[General Glossary](#general-glossary)
+
+[Glossary2](#Glossary2)
 
 ## Random Links And Thoughts
 
-HTTP Party 
-
-RSpec 
-
-Pages Object Model 
-
-Gherkin Syntax 
-
 Store.demoqua.com 
-
-Cucumber test suite 
 
 PUMA Server 
 
@@ -60,8 +68,6 @@ Read https://medium.com/the-mission/do-these-things-aft...
 
 10 Habits : Wake up early, Don't learn random stuff https://medium.com/thrive-global/10-daily-habits-t...  
 
-Success Habits https://medium.com/swlh/there-are-no-shortcuts-to-...   
-
 Read : “If you’re too busy doing the actual work, as a manager, that’s a huge mistake.
 
 Read this on productivity : Tell me what you did 🙂 https://medium.com/the-mission/tell-me-what-you-di... 
@@ -71,10 +77,6 @@ Read : Android Transitions !!! https://medium.com/@andkulikov/animate-all-the-th
 Learn React !!! https://medium.com/javascript-scene/top-javascript…
 
 Apple, , Microsoft, Google by value https://www.nasdaq.com/article/microsoft-overtakes…
-
-Microsoft is buying GitHub https://medium.com/@Michael_Spencer/why-microsoft-…
-
-What will be my next exam - MTA Cloud and CompTIA cloud I think these 2 are the ones I want to head for !!!
 
 Teach and learn at Scrimba.com https://scrimba.com/c/cKp6LhL
 
@@ -119,10 +121,6 @@ Quantum https://medium.com/@americanaffairs/winning-the-ra…
 What did you do today??? https://medium.com/the-mission/tell-me-what-you-di…
 
 Build Angular Web App https://medium.com/@hamedbaatour/build-a-real-worl…
-
-listenonrepeat.com
-
-Readable code https://medium.com/@egonelbre/psychology-of-code-r…
 
 Beginner Code Mistakes https://edgecoders.com/the-mistakes-i-made-as-a-be…
 
@@ -233,17 +231,6 @@ ionic.io can be used to create very quickly a demo app for mobile use, and it's 
 
 TensorFlow for mobile apps!?!?!?!
 
-
-Learn React !!! https://medium.com/javascript-scene/top-javascript…
-
-What is an API??? https://medium.freecodecamp.org/what-is-an-api-in-…
-
-Apple, , Microsoft, Google by value https://www.nasdaq.com/article/microsoft-overtakes…
-
-Microsoft is buying GitHub https://medium.com/@Michael_Spencer/why-microsoft-…
-
-What will be my next exam - MTA Cloud and CompTIA cloud I think these 2 are the ones I want to head for !!!
-
 Teach and learn at Scrimba.com https://scrimba.com/c/cKp6LhL
 
 Programming Javascript https://www.amazon.co.uk/Programming-JavaScript-Ap…
@@ -264,17 +251,9 @@ Learn Python On One Page !! https://medium.freecodecamp.org/learning-python-fr�
 Build a ServerLess app in React on AWS - benefit PAYG data only!! https://blog.usejournal.com/
 serverless-react-web-a…
 
-10 Habits : Wake up early, Don't learn random stuff https://medium.com/thrive-global/10-daily-habits-t…
-
-Productivity https://medium.com/the-mission/tell-me-what-you-di…
-
 Microservices on AWS Fargate https://medium.com/@marcus.cavalcanti/deploying-mi…
 
-Plan https://medium.com/the-mission/do-these-things-aft…
-
 Free Photos !!! The most amazing photos ever at Unsplash.com for free https://unsplash.com/
-
-Learn React https://medium.com/javascript-scene/top-javascript…
 
 Success Habits https://medium.com/swlh/there-are-no-shortcuts-to-…
 
@@ -292,28 +271,15 @@ Build Angular Web App https://medium.com/@hamedbaatour/build-a-real-worl…
 
 Read : “If you’re too busy doing the actual work, as a manager, that’s a huge mistake.”
 
-listenonrepeat.com
-
-Readable code https://medium.com/@egonelbre/psychology-of-code-r…
-
 Beginner Code Mistakes https://edgecoders.com/the-mistakes-i-made-as-a-be…
 
-In JavaScript, we have two excellent tools that work perfectly together: ESLint and Prettier. Do yourself a 
-favor and always use them.
+I personally think that any function that has more than 10 lines is just too long, but this is just a rule of thumb.
 
-I personally think that any function that has more than 10 lines is just too long, but this is just a rule of 
-thumb.
+Measuring programming progress by lines of code is like measuring aircraft building progress by weight. — Bill Gates
 
-Measuring programming progress by lines of code is like measuring aircraft building progress by weight. — Bill 
-Gates
+This is when you should structure your comments to answer the question of WHY this code rather than the question of WHAT is this code doing.
 
-This is when you should structure your comments to answer the question of WHY this code rather than the 
-question of WHAT is this code doing.
-
-Just using better names for functions and arguments simply makes most comments unnecessary. Keep that in mind 
-before writing any comment.
-
-MTA Cloud
+Just using better names for functions and arguments simply makes most comments unnecessary. Keep that in mind before writing any comment.
 
 Read: The best leaders create an environment for people to do their best work.
 
@@ -325,18 +291,6 @@ Read Ideas For Android App Projects https://blog.aritraroy.in/20-awesome-open-so
 
 Buy this - Willpower Doesn't Work https://www.amazon.co.uk/Willpower-Doesnt-Work-Dis…
 
-1) Apple 2) Amazon 3) Microsoft 4) Alphabet (Google) 5) Facebook Companies by valuation https://medium.com
-/@Michael_Spencer/why-microsoft-…
-What's hot in 2018 https://www.infoworld.com/article/3188464/applicat…
-If you’re growing but constantly measuring where you are against your ideal, you’ll never get there. This will lead you to always feeling dissatisfied with yourself,
-
-
-
-
-DT  Read This To Learn Java : https://www.amazon.co.uk/Head-First-Java-Brain-Fri…
-DT  Reddit Lectures https://www.reddit.com/r/lectures/
-DT  Read : If you don’t have a specific measurement criteria, you won’t experience the joy of the progress you’ve made
-JA  Work offline if I can to get my brain togethe
 DT  MindMap yourself & write own obituary https://medium.com/thrive-global/this-2-step-10-mi…
 DT  Programming In Javascript https://www.amazon.co.uk/Programming-JavaScript-Ap…
 DT  Great Code Has This In It https://www.infoworld.com/article/3268310/applicat…
@@ -388,18 +342,8 @@ Passing A Javascript Job Interview https://medium.com/javascript-scene/10-interv
 Choose React https://medium.com/@TechMagic/reactjs-vs-angular5-…
 Amazing Android Apps https://medium.com/@mmbialas/25-new-android-librar…
 Be Still https://medium.com/personal-growth/the-most-import…
-Learn from giants https://medium.com/@swizec/you-dont-need-a-cs-degr…
-Diet https://medium.com/new-york-magazine/the-last-conv…
-GitHub has “27 million software developers working on 80 million repositories of code,” according to Bloomberg.
-Microsoft Bought GitHub https://medium.com/@Michael_Spencer/why-microsoft-…
 7 possible morning routines https://medium.com/s/the-slow-up/i-tried-7-differe…
 Java 8 https://www.infoworld.com/article/2610817/java/jav…
-GitHub Tips https://www.infoworld.com/article/3205884/applicat…
-The New Way Of Working https://www.infoworld.com/article/3213025/devops/2…
-Python v2 and v3 https://www.infoworld.com/article/2619428/python/v…
-Microsoft bought GitHub for 7.5Billion Dollars https://medium.com/@ow/microsoft-acquiring-github-…
-Unread : Android Work Manager https://medium.com/@francescodonzello/android-work…
-Tricks to appear smart ! https://medium.com/conquering-corporate-america/10…
 Start with your death and work backwards! https://medium.com/the-mission/10-rules-to-change-…
 Don't learn GO but be aware of it £20 https://www.amazon.co.uk/Programming-Language-Addi…
 Draw circles and hatches https://medium.com/personal-growth/a-quick-beginne…
@@ -1021,9 +965,9 @@ MVC Controller class : inherit from IController
 
 </pre>
 
-## API
+# Glossary2
 
-What is an API??? https://medium.freecodecamp.org/what-is-an-api-in-…
+[Testing](#testing)
 
 # Graphics
 
@@ -1129,27 +1073,71 @@ D3.JS    Graphs      https://pusher.com/tutorials/live-graph-d3
 
 ### Testing
 
+[Selenium Testing](#selenium-testing)
+
+[Gherkin Testing](#gherkin-testing)
+
+[Cucumber](#cucumber)
+
+SpecFlow is BDD automated testing tool
+
 Test runner - status of tests
 
 Time travel in test runner+
 
 Cyprus.io/dashboard 
 
-UI testing 
-
-https://medium.com/@mottet.dev/lets-create-an-instagram-bot-to-show-you-the-power-of-selenium-349d7a6744f7
-
 appium : automated mobile testing : extension to selenium
-
-selenium : works on browser
 
 tests : firstly : functional tests : most tests through api or component or unit test.
 
 tests : secondly : non-functional tests on many devices.
 
+
+### Cucumber
+
 Cucumber is BDD automated testing tool
 
-SpecFlow is BDD automated testing tool
+### Gherkin
+
+Gherkin is a BDD way of describing tests
+
+The primary keywords are:
+
+	Feature
+	Rule (as of Gherkin 6)
+	Example (or Scenario)
+	Given, When, Then, And, But (steps)
+	Background
+	Scenario Outline (or Scenario Template)#
+
+Examples
+
+There are a few secondary keywords as well:
+
+	""" (Doc Strings)
+	| (Data Tables)
+	@ (Tags)
+	# (Comments)
+
+
+
+
+## Selenium Testing
+
+[Page Object Model](#page-object-model)
+
+### Page Object Model - helps write maintainable test routines.  Pages are written as classes and elements on the page are defined as elements on that class.
+
+### Page Factory
+
+Page factory is used to initialise items on a page
+
+```cs
+LoginPage page = new LoginPage(driver);
+PageFactory.initElements(driver, page);
+```
+
 
 ### HapiJS
 
@@ -2818,23 +2806,7 @@ rootElement.appendChild(element)
 
 
 
-# Glossaries
 
-[Traditional Javascript Glossary](#traditional-javascript-glossary)
-
-[Javascript Glossary](#javascript-glossary)
-
-[Exciting Modern Server Javascript Glossary](#exciting-modern-server-javascript-glossary)
-
-[Database Glossary](#database-glossary)
-
-[Programming Puzzles](#programming-puzzles)
-
-[Docker Glossary](#docker-glossary)
-
-[Gaming Glossary](#gaming-glossary)
-
-[CSS Glossary](#css-glossary)
 
 # Docker Glossary
 
@@ -3008,6 +2980,32 @@ complement($color)
 @import "reset.css";
 ```
 
+
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</pre>
+
 # Database Glossary
 
 [Mongo](#mongo)
@@ -3039,6 +3037,31 @@ keys can contain
 	sorted sets
 
 
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
 
 ## Traditional Javascript Glossary
 
@@ -6057,6 +6080,11 @@ Component takes in parameters which are called PROPS
 
 
 
+# General Glossary
+
+[HTTP Party] (https://github.com/jnunemaker/httparty) - Ruby Gem to query APIs [https://rubygems.org/gems/httparty/versions/0.13.7](https://rubygems.org/gems/httparty/versions/0.13.7)
+
+[RSpec](http://rspec.info/) - Ruby BDD testing framework
 
 
 

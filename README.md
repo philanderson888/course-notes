@@ -22,25 +22,25 @@ This is a repository of teaching notes and labs on the following topics
 
 ## Repos
 
-[Open Source Repos](https://github.com/philanderson888?tab=repositories)
+[Open Source Repos : philanderson888](https://github.com/philanderson888?tab=repositories)
 
-[Sparta Repos](https://github.com/spartaglobal)
+[Sparta Repos : spartaglobal](https://github.com/spartaglobal)
 
 ## General
 
-[Sparta General Course Notes](https://github.com/philandersonsparta/notes/blob/master/Sparta-General-Course-Notes.md)
+[Sparta General Course Notes : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/Sparta-General-Course-Notes.md)
 
 ## C# #
 
-[C Sharp](https://github.com/philanderson888/c-sharp#c-net-visual-studio-vscore)
+[C Sharp : philanderson888](https://github.com/philanderson888/c-sharp#c-net-visual-studio-vscore)
 
-[C Sharp Sparta Official Notes](https://github.com/spartaglobal/NewCSharpCurriculum/tree/dev)
+[C Sharp Sparta Official Notes : spartaglobal](https://github.com/spartaglobal/NewCSharpCurriculum/tree/dev)
 
-[Closed Source C# All-In-One-MegaNotes](https://github.com/philandersonsparta/notes/blob/master/C-Sharp-All-In-One-Notes.md)
+[Closed Source C# All-In-One-MegaNotes : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/C-Sharp-All-In-One-Notes.md)
 
 ## Sparta Course Notes
 
-[GitHub](https://github.com/philandersonsparta/notes/blob/master/GitHub.md)
+[GitHub : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/GitHub.md)
 
 ## Other
 

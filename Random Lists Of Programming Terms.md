@@ -28,8 +28,6 @@ It's not supposed to be structured or a teaching tool.
 
 ## Random Links And Thoughts
 
-Store.demoqua.com 
-
 PUMA Server 
 
 Flask = MVC for Python 
@@ -978,6 +976,8 @@ MVC Controller class : inherit from IController
 * [Sketchpad](https://sketch.io/sketchpad)
 
 ### Moqups
+
+* [DemoQA - Great website for instant snippets of HTML code to build an instant mock-up site](https://demoqa.com/sortable)  
 
 * [Flinto On MAC £50](https://www.flinto.com/educational_purchases)
 

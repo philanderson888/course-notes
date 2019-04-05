@@ -28,7 +28,7 @@ This is a repository of teaching notes and labs on the following topics
 
 ## General
 
-[Sparta General Course Notes : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/Sparta-General-Course-Notes.md)
+[Sparta General Course Notes : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/README.md)
 
 ## Business Skills
 

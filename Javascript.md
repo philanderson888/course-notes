@@ -1,10 +1,27 @@
+# Javascript
+
+This GitHub repo is a place for learning everything about Javascript, in a one-stop shop.
+
+It follows the structure of several different lessons taught in Javascript, so there may be some repetition.
+
+[Javascript Flow 1](#javascript-flow-1)
+
+[Javascript Glossary](#javascript-glossary)
+
+<pre>
+
+
+
+
+
+
+
+
+</pre>
+
+
 # JAVASCRIPT FLOW 1	
-	
 
-
-Javascript
-
-	
 Javascript History
 
 
@@ -5295,6 +5312,12 @@ Creating Read Only Variable
 
 ## Javascript Glossary
 
+DateTime
+
+[Debounce](#debounce)
+
+PNPM
+
 ### DATETIME
 		
 ```html
@@ -5303,6 +5326,36 @@ Creating Read Only Variable
 <time datetime="2012-10-20">Today</time>
 <time datetime="09:00:00">9am</time>
 ```
+
+### Debounce
+
+If a function gets called repeatedly for example onResize() when a window is being resized, then that function can be called over and over and over again as the user resizes the window.  If the function has some work to do, this may cause a lag and a slow-down in the user experience.  Therefore in these situations it can be useful to limit the number of times that this function can be called in any one time period.
+
+The `debounce` Javascript function can set a time limit between function calls for any given function
+
+```javascript
+var output = debounce(DoThis(),250);
+
+function DoThis(){
+	console.log('Doing something')
+}
+
+for (let i=0;i<10;i++){
+	output()
+}
+```
+
+```javascript
+var debounce = require('debounce');
+window.onresize = debounce(resize, 200);
+ 
+function resize(e) {
+  console.log('height', window.innerHeight);
+  console.log('width', window.innerWidth);
+}
+```
+
+
 
 ### pnpm
 

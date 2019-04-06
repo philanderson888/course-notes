@@ -66,15 +66,15 @@ This is a repository of teaching notes and labs on the following topics
 
 ## Setting Up Your Environment : Offline IDE
 
-Visual Studio
+* [Visual Studio](#visual-studio)
 
-VSCode
+* [VSCode](#vscode)
 
-Notepad++
+* [Notepad++](#notepad)
 
-Sublime Text 3
+* [Sublime Text 3](sublime-text-3)
 
-Notion Notes
+* [Notion Desktop](#notion-desktop)
 
 ### Visual Studio
 

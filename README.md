@@ -76,7 +76,7 @@ This is a repository of teaching notes and labs on the following topics
 
 * [Notion Desktop](#notion-desktop)
 
-### Visual Studio
+## Visual Studio
 
 ### Visual Studio Shortcuts
 
@@ -86,7 +86,7 @@ Control-K-C comments code
 
 Control-K-U uncomments code
 
-### VSCode
+## VSCode
 
 ## VSCode Shortcuts on the MAC
 
@@ -94,11 +94,11 @@ File, Preferences, Keyboard Shortcuts
 
 Control K - Delete To End Of Line
 
-### Notepad++
+## Notepad++
 
 Delete Line : Control-Shift-L 
 
-### Sublime Text 3
+## Sublime Text 3
 
 To move to a different tab can hold down Windows or Command and the number of the relevant tab
 

@@ -28,29 +28,23 @@ It's not supposed to be structured or a teaching tool.
 
 ## Random Links And Thoughts
 
-PUMA Server 
+PUMA Server - is a Ruby Web Server at [https://github.com/puma/puma](https://github.com/puma/puma) and [http://puma.io/](http://puma.io/)
 
-Flask = MVC for Python 
+Flask - is a Python web app framework at [http://flask.pocoo.org/](http://flask.pocoo.org/)
 
-Rails = MVC for Ruby 
+Ruby On Rails - allows building web applications from Ruby - see [https://rubyonrails.org](https://rubyonrails.org)
 
-Linux Sugar OS!!
+Sugar is a Linux distro for kids at [https://sugarlabs.org](https://sugarlabs.org)
 
-https://www.sketchapp.com/get/
+Zeplin is a collaborative designing tool with a free single-user licence at [https://zeplin.io/why-zeplin](https://zeplin.io/why-zeplin)
 
-https://zeplin.io/
-
-https://www.lucidchart.com
-
-Always use a new salt per password. Salts do not have to be kept secret and can be stored alongside the hash itself.
+Salts - always use a new salt per password. Salts do not have to be kept secret and can be stored alongside the hash itself.
 
 [30 Days Of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
 
-For data look at [Mockaroo](https://www.mockaroo.com)
+[Mockaroo](https://www.mockaroo.com) is a random data generator at [https://www.mockaroo.com/](https://www.mockaroo.com/)
 
-Also data science https://github.com/datasciencemasters/go#the-internet-is-your-oyster
-
-[Business Skills Exam](https://www.proprofs.com/quiz-school/story.php?title=business-skills-exam-modificationspk)
+[Open Source Data Science Masters](http://datasciencemasters.org/) is an online course for learning data science.  It is free.  GitHub version of the course is here [https://github.com/datasciencemasters/go#the-internet-is-your-oyster](https://github.com/datasciencemasters/go#the-internet-is-your-oyster)
 
 06:00 AM Lately, I’ve been waking up driving to my school and walking to the library I work in. While walking from my car to the library, I drink a 250 calorie plant-based protein shake (approximately 30 grams of protein). Donald Layman, professor emeritus of nutrition at the University of Illinois, recommends consuming at least 30 grams of protein for breakfast. Similarly, Tim Ferriss, in his book, The 4-Hour Body, also recommends 30 grams of protein 30 minutes after awaking
 

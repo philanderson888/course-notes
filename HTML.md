@@ -1,5 +1,4 @@
 How The Web Works - Basic Networking
-
 	
 http request
 

@@ -6,6 +6,8 @@ This is a repository of teaching notes and labs on the following topics
 
 * Programming HTML, CSS and Javascript
 
+* [Programming VueJS](https://github.com/philanderson888/vue#a-place-for-learning-vuejs)
+
 * Bootstrap
 
 * NodeJS

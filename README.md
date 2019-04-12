@@ -1,8 +1,8 @@
-# Course Notes
+	# Course Notes
 
 This is a repository of teaching notes and labs on the following topics 
 
-* Programming C#
+* [Programming C#](#c)
 
 * Programming HTML, CSS and Javascript
 
@@ -30,11 +30,15 @@ This is a repository of teaching notes and labs on the following topics
 
 ## General
 
+[Open Source Course Notes Index : philanderson888](https://github.com/philanderson888/course-notes)
+
 [Sparta General Course Notes : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/README.md)
 
 ## Business Skills
 
 [Sparta Closed Source Business Skills Notes](https://github.com/philandersonsparta/notes/blob/master/Sparta-General-Course-Notes.md#week-1---business-skills)
+
+[Sparta Closed Source Business Skills Notes](https://github.com/philandersonsparta/notes/blob/master/README.md#week-1---business-skills)
 
 ## C# #
 

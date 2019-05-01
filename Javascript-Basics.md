@@ -1,4 +1,4 @@
-# Javascript
+# Javascript Basics
 
 This GitHub repo is a place for learning everything about Javascript, in a one-stop shop.
 

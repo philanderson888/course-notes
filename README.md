@@ -1,10 +1,22 @@
-	# Course Notes
+# Course Notes
 
 This is a repository of teaching notes and labs on the following topics 
 
-* [Programming C#](#c)
+* [All Repositories](https://github.com/philanderson888?tab=repositories)
 
-* Programming HTML, CSS and Javascript
+* [General Index](https://github.com/philanderson888/course-notes)
+
+* [C#](#c)
+
+* [C# GitHub Repo](https://github.com/philanderson888/c-sharp#c-net-visual-studio-vscore)
+
+* Programming HTML and CSS 
+
+* [Javascript Basics](javascript-basics)
+
+* [Javascript GitHub Repo](https://github.com/philanderson888/javascript)
+
+* [AJAX](AJAX.md)
 
 * [Programming VueJS](https://github.com/philanderson888/vue#a-place-for-learning-vuejs)
 
@@ -22,113 +34,22 @@ This is a repository of teaching notes and labs on the following topics
 
 * Windows 10
 
-## Repos
+## Closed Source Notes And Repos
 
-[Open Source Repos : philanderson888](https://github.com/philanderson888?tab=repositories)
-
-[Sparta Repos : spartaglobal](https://github.com/spartaglobal)
-
-## General
-
-[Open Source Course Notes Index : philanderson888](https://github.com/philanderson888/course-notes)
+[SpartaGlobal Repo : spartaglobal](https://github.com/spartaglobal)
 
 [Sparta General Course Notes : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/README.md)
 
-## Business Skills
-
-[Sparta Closed Source Business Skills Notes](https://github.com/philandersonsparta/notes/blob/master/Sparta-General-Course-Notes.md#week-1---business-skills)
-
-[Sparta Closed Source Business Skills Notes](https://github.com/philandersonsparta/notes/blob/master/README.md#week-1---business-skills)
+[Sparta GitHub notes on learning and using GitHub](https://github.com/philandersonsparta/notes/blob/master/GitHub.md)
 
 ## C# #
-
-[C Sharp : philanderson888](https://github.com/philanderson888/c-sharp#c-net-visual-studio-vscore)
 
 [C Sharp Sparta Official Notes : spartaglobal](https://github.com/spartaglobal/NewCSharpCurriculum/tree/dev)
 
 [Closed Source C# All-In-One-MegaNotes : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/C-Sharp-All-In-One-Notes.md)
 
-## Sparta Course Notes
+## Business Skills
 
-[GitHub : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/GitHub.md)
+[Sparta Business Skills Notes](https://github.com/philandersonsparta/notes/blob/master/Sparta-General-Course-Notes.md#week-1---business-skills)
 
-## Other
-
-[AJAX](AJAX.md)
-
-## Setting Up Your Environment 
-
-[IDES](#ides)
-
-[Apps](#apps)
-
-[VS Code](#vscode)
-
-[MAC Setup](#mac-setup)
-
-[Windows Setup](#windows-setup)
-
-## IDEs
-
-## Setting Up Your Environment : Offline IDE
-
-* [Visual Studio](#visual-studio)
-
-* [VSCode](#vscode)
-
-* [Notepad++](#notepad)
-
-* [Sublime Text 3](sublime-text-3)
-
-* [Notion Desktop](#notion-desktop)
-
-## Visual Studio
-
-### Visual Studio Shortcuts
-
-Control-K-D indents code correctly
-
-Control-K-C comments code
-
-Control-K-U uncomments code
-
-## VSCode
-
-## VSCode Shortcuts on the MAC
-
-File, Preferences, Keyboard Shortcuts
-
-Control K - Delete To End Of Line
-
-## Notepad++
-
-Delete Line : Control-Shift-L 
-
-## Sublime Text 3
-
-To move to a different tab can hold down Windows or Command and the number of the relevant tab
-
-Add `C:\Program Files\Sublime Text 3;` to Windows Environment Variables so `subl` and `sublime` should work!
-
-## Notion Desktop
-
-Great note taking software!!!
-
-## Live Server
-
-Install live server from [https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-
-## Setting Up Your Environment : Online IDEs
-
-We can use online IDEs for code sharing and quick testing but also for keeping of good code for quick demo or even as embedded links within our documentation for others to click on and view live code instead of static code.
-
-[JSFiddle](https://jsfiddle.net/) is perhaps the best one to use
-
-[https://codesandbox.io/s/vue](https://codesandbox.io/s/vue)
-
-[https://codeshare.io/aY8PeN](https://codeshare.io/aY8PeN)
-
-[https://codeanywhere.com/#editor](https://codeanywhere.com/#editor)
-
-[http://collabedit.com/fkgcr](http://collabedit.com/fkgcr)
-
+[Sparta Business Skills Notes](https://github.com/philandersonsparta/notes/blob/master/README.md#week-1---business-skills)

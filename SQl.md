@@ -1,5 +1,5 @@
 
-# Week 5 - SQL
+# SQL
 
 [Link to course material : Intro to consultancy, Files, General, Slide Decks, SQL](https://teams.microsoft.com/_#/files/General?threadId=19:33e7287424504617972284fc271cfcbb@thread.skype&ctx=channel&context=Slide%2520Decks%252FSQL)
 
@@ -547,3 +547,83 @@ CREATE TABLE [dbo].[Grades] (
     CONSTRAINT [PK_dbo.Grades] PRIMARY KEY CLUSTERED ([GradeId] ASC)
 );
 ```
+
+
+
+
+<pre>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+
+
+
+
+
+## SqlCmd
+
+SqlCmd is a downloadable utility sqlcmd.exe which can be used to run batch commands against an SQL server
+
+https://docs.microsoft.com/en-us/sql/tools/sqlcmd-utility?view=sql-server-2017
+
+
+
+
+
+
+## SQL
+
+We have already had a look at SQL and how to write SQL queries.
+
+Let's now see how we would incorporate this into a C# application.
+
+Note that we will be looking at databases in 3 distinct stages
+
+1. SQL
+
+2. Entity
+
+3. SQLite
+
+So let's begin with SQL
+
+### String Parsing
+
+We can parse through strings
+
+https://www.periscopedata.com/blog/string-parsing-in-sql
+
+### Count
+
+```sql
+select count(1)
+from table01 
+where url 
+```
+
+## Entity Framework
+
+[http://www.entityframeworktutorial.net](http://www.entityframeworktutorial.net)
+
+
+
+
+
+
+

@@ -56,7 +56,29 @@ With TOR your location is masked.  Use VPN also for extra security.
 
 ## Glossary
 
-# Hacking tools
+# Glossary List Of Cyber Hacking Tools
+
+net user /domain - info about users in the domain
+
+net groups domainadmins - info about domain admins etc
+
+net groups domaincontrollers /domain - information about groups in the domain
+
+Shares - provide useful information
+
+Sharepoint - can be used to glean information about the network
+
+wireshark : used to glean hardware and hostnames
+
+responder : responds to DNS broadcasts and deceives computers into revealing their NTLMv2 salted hash
+
+Hashcat - brute force hash-cracking tool. 
+
+Wordscrape - go through whole intranet
+
+Targeted Spray
+
+Sysvol : Copy all data from it eg scripts, users, usernames, hostnames, group policies, groups
 
 powershell empire
 

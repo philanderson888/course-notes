@@ -1,54 +1,36 @@
-Kubernetes
-Docker
-Orchestrator
-Cloud Native
-WAF
-load balance
-content caching
-web server
-firewall for web app
-JWT Java Web Tokens
-distributed system
-
 # Cloud Native
 
-Container
-Kubernetes
-Orchestrator
-Docker
-CNCF
-Migration
-Microservices
-Dynamic Mangement
-Continuous Delivery
-Node
-Self Healing Node
-Multi Tenant Node
-Microservices
-Devops
-ci/cd integration deployment
-paradigm
-SAAS
-IAAS
-PAAS
-Microservice architecture
-CAPEX : buying up front in anticipation of success
-OPEX : Only Paying Existing Costs
-Cloud native : move quickly by taking small and reversible steps
-Cloud is all about Speed, Scale and Margin
-Cloud Native : 5 principles
-Use IAAS or PAAS with services provided by AWS, Azure, Google, Rackspace
-Go Microservices Architecture : small decoupled individual components
-Automate everything!
-Containerize so dependencies are fixed and won't change when deployed
-Orchestrate to manage multiple containers
+## Cloud Definitions
 
-Infrastructure As Cloud = fully scripted environment
+JWT Java Web Tokens
+
+CNCF Cloud Native Computing Foundation
+
+Self Healing Node
+
+Multi Tenant Node
+
+CI/CD
+
+CAPEX - capital expenditure eg buildings and assets
+
+OPEX - only paying existing costs
+
+Cloud native - move quickly by taking small and reversible steps
+
+Cloud Principles - Speed, Scale, Margin
+
+Containers fix dependencies
+
+Orchestrator - manage multiple containers
+
+IAAC Infrastructure As Cloud - fully scripted environment
+
 Pragmatic
-Cloud enables going fast but going small
-Cloud speed = how to launch sooner
-Cloud scale : supporting more users
-Scale up : more users with better SLA and response times
+
+Cloud - speed 
+
+Cloud - scale up and down
 
 Containers
 
@@ -94,10 +76,6 @@ Stateless
 
 
 
-CICD
-
-
-
 Distributed Systems are hard !!!
 
     Chances increase of one or more instances breaking the more you have
@@ -109,7 +87,7 @@ Container image does not include the kernel - the hosting os provides the kernel
 
 Bin packing - group resources to maximise utilisation
 
-Problems iwth microservices
+Problems with microservices
 
     Message sending can be fraught with difficulties
 
@@ -149,6 +127,7 @@ Security
 
 
     Respond
+
     Recover
 
 
@@ -177,10 +156,6 @@ Grafana does monitoring
 
 Prometheus does monitoring
 
-AWS
-
-CentOS
-
 Terraform
 
 Puppet
@@ -198,16 +173,4 @@ Aurora
 Dynamo DB
 
 Sensu does operational monitoring
-
-
-
-
-
-
-
-
-
-
-
-
 

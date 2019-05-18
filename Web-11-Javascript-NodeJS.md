@@ -1,171 +1,5 @@
 # Node And The MEAN stack 
 
-## Node Topics
-
-NodeJS
-Node Term List
-Node Documentation
-Node Video Tutorials
-Node Overview
-NODE : Overall Philosophy and BIG PICTURE
-What is Node.js?
-The future of NodeJS
-Javascript Overview
-Data types
-assert
-typeof
-arrays
-objects
-JSON
-JSON Encoding
-JSON.Stringify
-JSON.Parse
-Conditional operators
-loops
-OOP Concepts
-OOP Javascript
-What's New In ES6
-Installing Node
-Verifying Node and NPM versions
-REPL Live Command Line
-Hello World Node Application
-npm init to create package.json
-Hello World Web Server
-Serving Static Files In Node
-Node Debugging
-Nodemon
-Chrome LiveReload
-Express Debugging
-Debugging With Node-Inspector
-Auto Restarting Node After Crash
-Forever - Restart After Crash
-PM2 - Restart After Crash
-Middleware
-Node Modules and NPM
-IMPORTING A MODULE
-What is a module
-Require and Module Exports
-Using Core modules
-Creating modules
-Design patterns for organising modules
-Look at useful core modules
-File System
-Node apps and managing a file system
-Creating and deleting files and directories
-Copying and managing files
-Scanning directories
-Processes
-What is a process
-Managing processes
-Creating background process
-Task runners and recovering from failure
-HTTP and HTTPs
-Making a simple server
-When to use HTTP and HTTPs
-Server ports and listening
-HTTP Requests and Responses
-Request and Response headers and body
-Creating a response to incoming requests
-Building a simple HTTP server with static files
-WebSockets
-How do socket servers differ with HTTP
-Using TCP and WebSockets
-Server and Clients
-Native applications vs web applications
-Making a simple chatroom app with HTML5 and WebSockets
-b
-Socket.IO
-Why socket.IO over other WebSocket modules
-Client side and Server side
-Data persistence options
-Web socket simple setup with express in a few lines
-Express
-Node and Express History
-Node Exports
-Express Route handler
-Express Application
-Adding a route with multiple sub-routes inside it
-What is the express framework
-How it differs to using HTTP and other core modules
-Creating an Express application
-Node and Express History
-Node Exports
-Express Route handler
-Express Application
-Adding a route with multiple sub-routes inside it
-Express Server
-Making an HTTP internal server
-Attaching Express to an external server
-The role of semantic requests
-USE, GET, POST, PUT, DELETE etc
-Routing, static routes and data routes
-Routes explained
-Defining routes with paths and URL
-Defining route parameters for data input
-URL Encoded variables
-The use of Route Parameters and URL variables
-Regular Expressions
-External Routing
-Static Routing
-GETTING REQUEST DATA USING EXPRESS
-EXPRESS REQ REQUEST OBJECT
-EXPRESS request.query
-REQUEST METHOD = GET OR POST
-Express Logging
-Middleware
-Express Static
-Rendering views and using a templating engine
-Express Templating - Layout Engines - Jade, EJS, Hogan
-Jade Layout Engine
-EJS Embedded Javascript
-Handlbars
-EXPRESS SUMMARY
-Express And Angular
-STREAMS AND EVENTS
-STREAM
-Unit Testing
-Jasmine Testing
-Mocha Testing
-Cookies
-Sessions
-Forms
-Middleware
-Email
-Production Environment
-Databases
-Routing
-API
-Static Files
-MVC/a>
-Security
-
-
-
-
-MEAN stack
-MEAN Stack Tutorial 1 - Walkthrough - Hello World - May 2017
-MEAN Tutorial 2 - Build API first then front end - YouTube - 1 Oct 2016 - Build API then MEAN on top - 76 minutes, Traversy Media
-MEAN Stack Tutorial 3
-MEAN Stack Tutorial 4
-MEAN Stack Tutorial 5
-MEAN Stack Tutorial 6
-MEAN Stack Tutorial 7
-Rest API
-REST API Video Tutorials
-JSON-Server (NODE REST API)
-MEAN Stack REST API
-MEAN Stack REST API tutorial (May 2017)
-MEAN TODO Tutorials
-Node back end api tutorial
-
-
-
-
-
-
-
-</pre>
-
 # Node
 	
 
@@ -174,6 +8,7 @@ Node back end api tutorial
 What is Node.js?
 
 Create
+
 	Website
 	
 	Chat App
@@ -186,6 +21,7 @@ Create
 	
 	
 Standalone JS virtual machine (V8)
+
 	FIRST EVER PRESENTATION ON NODE BY RYAN DAHL THE CREATOR
 	
 		https://www.youtube.com/watch?v=ztspvPYybIY
@@ -237,7 +73,8 @@ REASONS TO USE NODE
 		
 		
 		
-PROBLEMS WITH AJAX AND JSON ENCODING TO AND FROM PHP 	
+PROBLEMS WITH AJAX AND JSON ENCODING TO AND FROM PHP 
+
 	THREADS : EACH PHP REQUEST CAN REOPEN CONNECTION TO DATABASE.  
 	JSON_ENCODE(php array)
 	
@@ -8114,7 +7951,7 @@ Jasmine Example 3
 		});
 	  });
 	});
-	There we have it! This will test to make sure the our server responds with a status code of 200. Now, let's add another it function to test to make sure the body is equal to 'Hello World'.
+	There we have it! This will test to make sure the our server responds with a status code of 200. Add another function to test to make sure the body is equal to 'Hello World'.
 	var request = require("request");
 	var base_url = "http://localhost:3000/"
 	describe("Hello World Server", function() {
@@ -8133,7 +7970,7 @@ Jasmine Example 3
 		});
 	  });
 	});
-	We use the same pattern as we did for the status code test but instead of looking at the response we are looking at the body. We expect the body to be equal to 'Hello World' and then we run done(); to make sure our expect function runs before our it function finishes. Now that we have set up our Jasmine tests, let's
+	We use the same pattern as we did for the status code test but instead of looking at the response we are looking at the body. We expect the body to be equal to 'Hello World' and then we run done(); to make sure our expect function runs before our it function finishes. 
 	Step 3. Integrate Your Node App with Jasmine
 	Now that we have our testing set up in our spec file, we have to integrate that testing with our Node app. To do this we add a require at the top of the file that points to our Node application. In this case, I have it point towards the app.js file we created in a previous tutorial.
 	var request = require("request");
@@ -8208,7 +8045,7 @@ Jasmine Example 3
 	  "author": "",
 	  "license": "ISC"
 	}
-	We made this change to our package.json file because want to be able to run our tests from the command npm test. Run that command in your project's directory now and you should see an output similar to this:
+	We made this change to our package.json file because want to be able to run our tests from the command npm test. Run that command in your project directory now and you should see an output similar to this:
 	Distellis-MBP:node-tutorial zack$ npm test
 	> jasminetesting@1.0.0 test /Users/zack/ws/src/node-tutorial
 	> jasmine-node spec
@@ -8289,7 +8126,7 @@ Mocha Testing
 	
 TDD TEST DRIVEN DESIGN : MEANS DESIGN YOUR TESTS FIRST! 	
 	
-WON'T ALLOW ANY TEST TO RUN FOR MORE THAN 2 SECONDS BEFORE FAILING IT
+WILL NOT ALLOW ANY TEST TO RUN FOR MORE THAN 2 SECONDS BEFORE FAILING IT
 ACCEPTANCE TESTING - TESTS THE OUTCOMES, DOES NOT TEST THE LOGIC
 	https://github.com/mochajs/mocha
 	http://mochajs.org/
@@ -8349,7 +8186,7 @@ AUTOMATE YOUR BUILD PROCESS
 		deploy to server
 		
 		and run test cases when you change a file to name a few. 
-	At its bare core it does file manipulation (mkdir, reads, write, copy), print messages and helper methods to organize and configure multiple tasks. It takes care of differences among Operating Systems for you. However, the real power comes in with the number of available plugins ready to use. Usually named grunt-contrib-*. Let's start from scratch!
+	At its bare core it does file manipulation (mkdir, reads, write, copy), print messages and helper methods to organize and configure multiple tasks. It takes care of differences among Operating Systems for you. However, the real power comes in with the number of available plugins ready to use. Usually named grunt-contrib-*. Lets start from scratch!
 	
 	
 RUNNING GRUNT FROM SCRATCH 
@@ -8503,7 +8340,7 @@ $ heroku git:clone -a shielded-garden-20236
 $ git add package.json
 $ git commit --allow-empty -m "Upgrade Node.js version"
 $ git push heroku master
-Detecting if you're vulnerable from the Heroku CLI
+Detecting if you are vulnerable from the Heroku CLI
 $ heroku run node -v -a shielded-garden-20236	
 		
 		
@@ -8555,7 +8392,7 @@ Web Faction
 PUBLISHING YOUR MODULE LOCALLY
 	PUT IN YOUR OWN AUTHOR INFORMATION
 		https://gist.github.com/coolaj86/1318304
-		If you haven't already set your NPM author info, now you should:
+		If you havent already set your NPM author info, now you should:
 		npm set init.author.name "Your Name"
 		npm set init.author.email "you@example.com"
 		npm set init.author.url "http://yourblog.com"
@@ -8632,14 +8469,14 @@ Mongo Access Control
 	
 	
 	
-	Enable Access Control¶
+	Enable Access Control
 		MongoDB does not enable access control by default. You can enable authorization using the --auth or the security.authorization setting. Enabling internal authentication also enables client authorization.
 		Once access control is enabled, users must authenticate themselves.
 		
 		--auth
 		
 		
-			Enables authorization to control user's access to database resources and operations. When authorization is enabled, MongoDB requires all clients to authenticate themselves first in order to determine the access for the client.
+			Enables authorization to control users access to database resources and operations. When authorization is enabled, MongoDB requires all clients to authenticate themselves first in order to determine the access for the client.
 			Configure users via the mongo shell. If no users exist, the localhost interface will continue to have access to the database until you create the first user.
 			See Security for more information.
 	
@@ -8654,12 +8491,12 @@ Mongo Access Control
 			MongoDB Challenge and Response (MONGODB-CR)
 			x.509 Certificate Authentication.
 	
-	User Management Interface¶
+	User Management Interface
 		To add a user, MongoDB provides the db.createUser() method. When adding a user, you can assign roles to the user in order to grant privileges.
-		Authentication Database¶
+		Authentication Database
 		When adding a user, you create the user in a specific database. This database is the authentication database for the user.
-		A user can have privileges across different databases; i.e. a user's privileges are not limited to the authentication database. By assigning to the user roles in other databases, a user created in one database can have permissions to act on other databases. For more information on roles, see Role-Based Access Control.
-		The user's name and authentication database serve as a unique identifier for that user. That is, if two users have the same name but are created in different databases, they are two separate users. If you intend to have a single user with permissions on multiple databases, create a single user with roles in the applicable databases instead of creating the user multiple times in different databases.
+		A user can have privileges across different databases; i.e. a users privileges are not limited to the authentication database. By assigning to the user roles in other databases, a user created in one database can have permissions to act on other databases. For more information on roles, see Role-Based Access Control.
+		The users name and authentication database serve as a unique identifier for that user. That is, if two users have the same name but are created in different databases, they are two separate users. If you intend to have a single user with permissions on multiple databases, create a single user with roles in the applicable databases instead of creating the user multiple times in different databases.
 	
 	
 Mongo Authentication Tutorial
@@ -8671,17 +8508,17 @@ Mongo Authentication Tutorial
 		
 	Create the user administrator.
 	
-			Add a user with the userAdminAnyDatabase role. For example, the following creates the user myUserAdmin on the admin database:
-			1) RUN MONGOD 
+			Add a user with the userAdminAnyDatabase role. For example the following creates the user myUserAdmin on the admin database
+			1 RUN MONGOD 
 			
-			2) RUN MONGO 
+			2 RUN MONGO 
 			
-			3) ON MONGO CLIENT TYPE 
+			3 ON MONGO CLIENT TYPE 
 			
 					use admin
 			
 			
-			4)  ON MONGO CLIENT TYPE 
+			4 ON MONGO CLIENT TYPE 
 			
 			
 						db.createUser(
@@ -8691,13 +8528,13 @@ Mongo Authentication Tutorial
 							roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
 						 }
 						)
-			5) STOP MONGOD RUNNING 
+			5 STOP MONGOD RUNNING 
 			
-			6) START MONGOD WITH THIS COMMAND 
+			6 START MONGOD WITH THIS COMMAND 
 			
 					mongod --auth 
 					
-			7) ON MONGO CLIENT TYPE 
+			7 ON MONGO CLIENT TYPE 
 			
 				mongo -u test -p test --authenticationDatabase admin 
 						Or, in the mongo shell connected without authentication, switch to the authentication database, and use db.auth() method to authenticate:
@@ -8708,12 +8545,12 @@ Mongo Authentication Tutorial
 	
 	
 	
-	Authenticate a User¶
+	Authenticate a User
 			To authenticate a user, either
 			Use the command line authentication options (e.g. -u, -p, --authenticationDatabase) when connecting to the mongod or mongos instance, or
 			Connect first to the mongod or mongos instance, and then run the authenticate command or the db.auth() method against the authentication database.
 	
-			To authenticate, the client must authenticate the user against the user's authentication database.
+			To authenticate, the client must authenticate the user against the users authentication database.
 			For instance, if using the mongo shell as a client, you can specify the authentication database for the user with the --authenticationDatabase option.
 				
 	
@@ -8762,7 +8599,6 @@ Auto Login To Website
  
  
  	
-  
 </SCRIPT>
 
 </pre>

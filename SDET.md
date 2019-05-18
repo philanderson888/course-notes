@@ -1,5 +1,7 @@
 # Fundamentals Of Testing 
 
+## Contents
+
 ### [Trello : SDET : Software Development Engineer In Test](https://trello.com/b/eis78gd9/engineering-module-3b-sdet-master-new)
 
 ## SDET Glossary
@@ -146,7 +148,7 @@ Testing depends on the context
 
 Integration Testing
 
-<pre>
+
 
 	Top Down
 
@@ -155,9 +157,6 @@ Integration Testing
 	Bottom Up
 
 
-
-
-</pre>
 
 
 System Testing
@@ -201,7 +200,7 @@ User Acceptance
 
 
 
-Regression Testing
+## Regression Testing
 
 	R Recent - new code features need extensive testing
 	C Core - of app
@@ -211,14 +210,14 @@ Regression Testing
 	C Chronic - some (particularly legacy) code is particularly vulnerable to breaking
 
 
-Change related maintenance testing
+## Change related maintenance testing
 
 	After routine maintenance eg
 
 		upgrade of dependencies
 
 
-Impact Analysis
+## Impact Analysis
 
 	Legacy code - hard to test and predict
 
@@ -837,12 +836,8 @@ Pareto : 80% of problems from 20% of code
 
 
 
-## Testing Notes From Joe's Class : HTTP Testing
+## Performance Test
 
-
-Performance Test
-
-	
 	Load Test : can it handle load eg 100, 1000, 10000 users
 	
 	Spike Test : short spike in load
@@ -852,8 +847,6 @@ Performance Test
 	Soak testing : over period of time
 	
 
-JMeter
+## JMeter
 
 	Tests performance
-	
-HTTP requests

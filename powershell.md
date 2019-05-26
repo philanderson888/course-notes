@@ -68,3 +68,81 @@ Wait enables us to see live when a file has been updated
 ```ps
 Get-Content D:\log.txt –Wait
 ```
+
+
+
+
+
+
+
+
+## Environment Variables
+
+There are some commands which work only on the command line, or are simpler to implement
+
+## set - get environment variables (Command line only)
+
+Run the `set` command in the command line (not Powershell) to view existing environment variables
+
+```bash
+set
+```
+View one environment variable with `echo`
+
+```bash
+echo %ProgramFiles%
+```
+
+In Powershell the command is
+
+```bash
+Get-ChildItem Env:
+```
+### setx - set environment variables (Command Line only)
+
+```bash
+setx subl "C:\Program Files\Sublime Text 3"
+```
+
+
+
+# Setting Up A Windows Computer Completely From The Command Line !!!
+
+```bash
+# Installing applications
+echo "Use Ninite to install your favourite programs - press any key when done"
+pause
+echo "Install GitBash and press any key when done"
+pause
+echo "Download Sublime Text 3 and press any key when it's installed"
+pause
+echo "Install Office"
+pause
+echo "Install Teams"
+pause
+cmd
+echo "Adding Sublime Text 3 to PATH with the `setx` command
+setx subl "C:\Program Files\Sublime Text 3"
+powershell
+echo "Creating SSH keys for GitHub"
+ssh-keygen -t rsa -b 4096 
+# start the ssh agent service to run in the background (Windows needs GitBash)
+cd "C:\Program Files\Git\"
+git-bash.exe"
+echo "Manually run this command on GitBash - `eval $(ssh-agent -s)`" 
+# add key to my account 
+ssh-add ~/.ssh/id_rsa
+# copy the key to the clipboard on Windows
+clip < ~/.ssh/id_rsa.pub
+Echo "Now login to github.com and paste the data into a new key"
+echo "cd reponame..."
+echo "git remote set-url origin git@github.com:username/repo.git "
+echo "git push origin master"
+echo "repeat for every repo"
+pause
+```
+
+
+
+
+

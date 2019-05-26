@@ -109,34 +109,31 @@ setx subl "C:\Program Files\Sublime Text 3"
 # Setting Up A Windows Computer Completely From The Command Line !!!
 
 ```bash
-# Installing applications
-echo "Use Ninite to install your favourite programs - press any key when done"
+echo "Use Ninite to install your favourite programs"
 pause
-echo "Install GitBash and press any key when done"
+echo "Install GitBash"
 pause
-echo "Download Sublime Text 3 and press any key when it's installed"
+echo "Download Sublime Text 3"
 pause
 echo "Install Office"
 pause
 echo "Install Teams"
 pause
-cmd
-echo "Adding Sublime Text 3 to PATH with the `setx` command
-setx subl "C:\Program Files\Sublime Text 3"
-powershell
-echo "Creating SSH keys for GitHub"
-ssh-keygen -t rsa -b 4096 
+echo "Add Sublime Text 3 to PATH"
+pause
+echo "Creating SSH keys for GitHub - uncomment all these commands first"
+# ssh-keygen -t rsa -b 4096 ;
 # start the ssh agent service to run in the background (Windows needs GitBash)
 cd "C:\Program Files\Git\"
-git-bash.exe"
-echo "Manually run this command on GitBash - `eval $(ssh-agent -s)`" 
+./git-bash.exe
+echo "Manually run this command on GitBash - eval $(ssh-agent -s)" 
 # add key to my account 
-ssh-add ~/.ssh/id_rsa
+# ssh-add ~/.ssh/id_rsa;
 # copy the key to the clipboard on Windows
-clip < ~/.ssh/id_rsa.pub
+# clip < ~/.ssh/id_rsa.pub;
 Echo "Now login to github.com and paste the data into a new key"
 echo "cd reponame..."
-echo "git remote set-url origin git@github.com:username/repo.git "
+echo "git remote set-url origin git@github.com:username/repo.git"
 echo "git push origin master"
 echo "repeat for every repo"
 pause

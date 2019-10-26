@@ -24,8 +24,7 @@ It's not supposed to be structured or a teaching tool.
 
 [Glossary2](#Glossary2)
 
-## 2019 Web Glossary
-
+## Javascript Dictionary
 
 	Bulma is a CSS framework based on Flexbox. This makes the placement and responsiveness of elements really easy.  It's also got a very simple class-naming scheme, similar to bootstrap, which makes creating different flavours of the same item very quick indeed.
 	API with HAPI/Mongo/Node/GraphQL/Swagger https://medium.freecodecamp.org/how-to-setup-a-pow…

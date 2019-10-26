@@ -3688,10 +3688,6 @@ touchmove ***
 
 [SEO Search Engine Optimisation](#seo)
 
-[Wordpress](#wordpress)
-
-
-
 ## Using Google - Is There A Demand For Your App?
 
 Prove that DEMAND EXISTS FOR YOUR APP
@@ -3965,7 +3961,8 @@ SEO Tips
 
     DOMAIN : LESS THAN 10 CHARACTERS
 
-SEO Wordpress Tips
+
+## SEO Search Engine Optimisation
 
     PAGE URL : USE KEYWORDS
     PAGE TITLE : USE KEYWORD
@@ -3980,6 +3977,8 @@ SEO Wordpress Tips
     TAKE PICTURES
     ARTICLES
     OPTIMISE CONTENT EG JPG MINI
+
+
 
 ## Wireframes
 

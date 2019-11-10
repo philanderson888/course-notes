@@ -6,11 +6,11 @@ This is a repository of teaching notes and labs on the following topics
 
 * [General Index](https://github.com/philanderson888/course-notes)
 
-* [C#](#c)
+* [C#](https://github.com/philanderson888)
 
-* [C# GitHub Repo](https://github.com/philanderson888/c-sharp#c-net-visual-studio-vscore)
+* [HTML]()
 
-* Programming HTML and CSS 
+* [CSS]()
 
 * [Javascript Basics](javascript-basics)
 
@@ -18,11 +18,13 @@ This is a repository of teaching notes and labs on the following topics
 
 * [AJAX](AJAX.md)
 
-* [Programming VueJS](https://github.com/philanderson888/vue#a-place-for-learning-vuejs)
-
 * Bootstrap
 
 * NodeJS
+
+* [VueJS](https://github.com/philanderson888/vue#a-place-for-learning-vuejs)
+
+### CompTIA
 
 * CompTIA Network+
 
@@ -32,24 +34,6 @@ This is a repository of teaching notes and labs on the following topics
 
 * CyberSecurity
 
+### Windows
+
 * Windows 10
-
-## Closed Source Notes And Repos
-
-[SpartaGlobal Repo : spartaglobal](https://github.com/spartaglobal)
-
-[Sparta General Course Notes : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/README.md)
-
-[Sparta GitHub notes on learning and using GitHub](https://github.com/philandersonsparta/notes/blob/master/GitHub.md)
-
-## C# #
-
-[C Sharp Sparta Official Notes : spartaglobal](https://github.com/spartaglobal/NewCSharpCurriculum/tree/dev)
-
-[Closed Source C# All-In-One-MegaNotes : philandersonsparta](https://github.com/philandersonsparta/notes/blob/master/C-Sharp-All-In-One-Notes.md)
-
-## Business Skills
-
-[Sparta Business Skills Notes](https://github.com/philandersonsparta/notes/blob/master/Sparta-General-Course-Notes.md#week-1---business-skills)
-
-[Sparta Business Skills Notes](https://github.com/philandersonsparta/notes/blob/master/README.md#week-1---business-skills)

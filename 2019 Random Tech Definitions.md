@@ -1,70 +1,18 @@
-[sanity.io/create](http://sanity.io/create)
+Farming as a service
+Jest runs tests
+Gridsome.org is Gatsby for Vue and creates static sites
+gridsome create myapp; gridsome develop
+Sanity.io ???
 
-Farming  as a service
 
-Jest : tests
-
-# Tech Terms
-
-# Gridsome : Gatsby for Vue
-
-Builds static sites like Gatsby for Vue
-
-## Resources
-
-[https://gridsome.org/](https://gridsome.org/)     
-
-[https://gridsome.org/docs/](https://gridsome.org/docs/) 
-
-[https://github.com/gridsome/gridsome](https://github.com/gridsome/gridsome) 
-
-## Install Gridsome
-
-    yarn global add @gridsome/cli
-
-## Create App
-
-    gridsome create app_01
-    
-    cd app_01
-    
-    gridsome develop
-
-[Stackbit.com](http://stackbit.com).    Themes for web 
-
-     / hastytreat 
-
-Philips hue lights with good app 
-
-Chromecast turn tv on and off 
-
-Wise cameras 🎥 
-
-ProProfs keep the email thread going 
-
-Meteor creates front and back end together 
-
-Destroy both courses 
-
-Coriander 
-
-Invite Alex 
-
-ProProfs’s I am going home
-
-To look after my 6 kids
-
- 
-
-[https://www.google.com/search?q=crusader+kings+2&rlz=1CDGOYI_enGB809GB810&hl=en-GB&prmd=vnsi&source=lnms&tbm=shop&sa=X&ved=0ahUKEwiL2ojUjeniAhXxtHEKHccABdgQ_AUIFSgD&biw=375&bih=539](https://www.google.com/search?q=crusader+kings+2&rlz=1CDGOYI_enGB809GB810&hl=en-GB&prmd=vnsi&source=lnms&tbm=shop&sa=X&ved=0ahUKEwiL2ojUjeniAhXxtHEKHccABdgQ_AUIFSgD&biw=375&bih=539)   
-
-Ever roll photo collection
-
-Ever ai facial recognition
-
-Face++
-
-Lighthouse developer tools
+Stackbit.com/hastytreat  has themes for websites
+Phillips has hue lights
+Chromecast ???
+Wise cameras ???
+Meteor is a quick way to build full stack sites
+Paravision.ai does facial recognition (used to be Ever AI)
+Faceplusplus.com is Chinese face recognition company
+Lighthouse runs the Audit tab of Chrome developer tools 
 
 Developer tools simulate network connectivity
 

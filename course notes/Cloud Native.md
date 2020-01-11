@@ -1,218 +1,6 @@
-# Cloud Native
+# Cloud (use deleteme and add terms to list at bottom)
 
-# Cloud Native
 
-## Cloud Definitions
-
-CaaS Communication As A Service
-
-    VOIP
-    VPN
-
-DaaS Desktop As A Service
-
-MaaS Monitoring As A Service
-
-OpEx Operating Expenses
-
-JWT Java Web Tokens
-
-CNCF Cloud Native Computing Foundation
-
-Self Healing Node
-
-Multi Tenant Node
-
-CI/CD
-
-CAPEX - capital expenditure eg buildings and assets
-
-OPEX - only paying existing costs
-
-Cloud native - move quickly by taking small and reversible steps
-
-Cloud Principles - Speed, Scale, Margin
-
-Containers fix dependencies
-
-Orchestrator - manage multiple containers
-
-IAAC Infrastructure As Cloud - fully scripted environment
-
-Pragmatic
-
-Cloud - speed
-
-Cloud - scale up and down
-
-Containers
-
-    Works the same across all operating systems
-    
-    Isolation
-    
-    Standard API
-
-Serverless = function-as-a-service
-
-Note : containers built with Linux applications will run effectively natively on a Linux OS
-
-Containers can give us
-
-    automation
-    
-    resilience
-    
-    resource utilization
-
-Orchestrator : dynamic management
-
-    Examples : Kubernetes, DC/OS, Nomad, Swarm
-
-## Microservices
-
-Applications are broken down into services which are
-
-Single purpose
-
-Decoupled
-
-Self Contained
-
-And that communicate with one another via messages
-
-Stateful : save state to database
-
-Stateless
-
-Distributed Systems are hard !!!
-
-    Chances increase of one or more instances breaking the more you have
-    
-    AWS Simple Queue Service : can guarantee messages get queued until actioned
-
-Container image does not include the kernel - the hosting os provides the kernel
-
-Bin packing - group resources to maximise utilisation
-
-Problems with microservices
-
-    Message sending can be fraught with difficulties
-
-Security
-
-    Biggest challenge is how to secure a distributed system
-    
-    
-    
-    Defend
-    
-        HTTPS
-    
-        Authentication 
-    
-            OAuth
-    
-        Authorisation
-    
-            OAuth
-    
-    
-    
-    Detect
-    
-        Logs
-    
-            ELKstack
-    
-            Logstash
-    
-            ElasticSearch
-    
-            Kibana
-    
-    
-    
-    Respond
-    
-    Recover
-
-Data Warehouse
-
-Deterministic : predictable outcome
-
-Induction : we deduce behaviour
-
-Swagger checks that there are no breaking changes when upgrading versions of dependent libraries
-
-Kubernetes is an Orchestrator of containers
-
-    EKS is AWS service equivalent of Kubernetes
-    
-    GKE is Google's implementation of Kubernetes and is currently better than EKS
-
-NGINX is a load balancer
-
-EKL = Elasticsearch + Logstash + Kibana which is a logging stack
-
-Grafana does monitoring
-
-Prometheus does monitoring
-
-Terraform
-
-Puppet
-
-Jenkins
-
-Postgres
-
-RabbitMQ clusters
-
-AWS SQS Managed Queue service
-
-Aurora
-
-Dynamo DB
-
-Sensu does operational monitoring
-
-### Cloud Native Random Words and Definitions
-
-    Container
-    Migration
-    Dynamic Management
-    Microservices
-    CD
-    CNCF
-    Cloud Native = distributed systems which scale 
-    Nodes
-    Self healing nodes
-    Multi-Tenant nodes
-    hyperscale
-    IAAS 
-    PAAS
-    CI 
-    Orchestrator
-    Containers
-    Goal : speed to market, scalability
-    Cloud native minimises risk by building incrementally
-    CAPEX Capital Expenditure ie buying lots of stuff up front
-    OPEX Only paying on demand expenditure
-    Goal : spend less on hosting
-    Cloud : take small and reversible low-risk steps
-    Cloud Native = containers + dynamic management + microservices
-    IAAS/PAAS hosted on cloud
-    microservices are small and decoupled
-    automatic testing
-    Cloud native : goal is to launch a product sooner
-    Cloud native goal : scale
-    Cloud native goals : focus on one at a time of speed to market/scale/margin
-    Function as a service = AWS Lambda = run code snippets on request
-    Container advantages : Common packaging, common interface tools, application isolation
-    Containers provide an API which provides automation, resilience, resoure utilisation
-    Dynamic Infrastructure management : Network as code
-    Dynamic infrastructure : react consistently to attack or downtime
     Orchestrator eg Kubernetes, Swarm, Nomad, DC/OS
     Cluster of containers
     Bin packing - ensure clusters are being used efficiently
@@ -318,3 +106,55 @@ Tag - apply to image
 Dockerfile is a batch file to create a docker image
 
 docker build - command to build an image
+
+
+### List Of Terms 
+### Cloud
+CapEx Capital Expenditure
+OpEx Operating Expenditure
+CaaS Communication VOIP VPN
+MasS Monitoring Logs Alerts
+NaaS Network
+DaaS Desktop
+JWT Java Web Tokens
+CNCF Cloud Native Computing Foundation
+Self Healing Node
+Multi Tenant Node
+Cloud Native - small reversible steps
+Cloud Principles - Speed + Scale + Margin
+Containers fix code dependencies
+Orchestrator manages containers
+IaaS Infrastructure can be fully scripted
+Cloud can scale up and down
+Serverless provides funcion as a service
+Containers benefits: resource utilisation
+Kubernetes is an orchestrator
+Orchestrators: Kubernetes, DC/OS, Nomad, Swarm
+Microservices are single-purpose, decoupled, self-contained, communicate via 'messages'
+Distributed systems 
+AWS Simple Queue System guaranteed message is queued
+Container does not contain kernel
+Bin packing of resources to maximise resources
+Microservices can have problems with messaging
+Microservices - how are they secured?
+Logging ElkStack, LogStash, ElasticSearch, Kibana
+Deterministic has an output which is pre-determined
+Induction can 'induce' a behaviour
+Swagger checks for breaking changes on library upgrade
+Kubernetes = AWS EKS = Google GKE
+NGINX load balances
+EKL = AWS ElasticSearch + LogStash + Kibana which combine to provide logging
+Grafana monitoring
+Prometheus monitoring
+Terraform
+Puppet
+Jenkins
+Postgres
+Aurora
+DynamoDB
+Self-healing node
+Multitenant node
+Cloud Native are distributed systems which scale
+Cloud Native can focus on incrementally delivering more products to market with scale and margin
+Function as a Service = AWS Lambda
+Containers have API

@@ -4,45 +4,25 @@
 
 This is a repository of teaching notes and labs on a variety of topics
 
-- Shells         [https://github.com/philanderson888/shells](https://github.com/philanderson888/shells)
-- Markdown
-- C#
-- HTML, CSS and Javascript
-- JSON and JQuery
-- AJAX
-- Socket.IO
-- API
-- ES6 Javascript
-- Node
-- Mongo
-- React
-- Vue
-- Gatsby
-- SVG, Canvas and Imaging
-- Infrastructure
-    - Windows10
-    - CompTIA A+, Network+, Security+
-- Cloud
-    - Azure
-    - Devops
-    - Docker
-- Cyber      [https://github.com/philanderson888/cyber](https://github.com/philanderson888/cyber)
+### Humour
 
 [Humour](course%20notes/Humour.md)
-
-### Shells
-
-[https://github.com/philanderson888/shells](https://github.com/philanderson888/shells) 
 
 ### Markdown
 
 [Markdown](course%20notes/Markdown.md)
+
+### Shells
+
+[shells](course%20notes/shells.md)
 
 ### Git and GitHub
 
 [Git and GitHub](course%20notes/Git%20and%20GitHub.md)
 
 ### C#
+
+[C#](course%20notes/C.md)
 
 [C# MTA 98-361 Official Notes](course%20notes/C%20MTA%2098%20361%20Official%20Notes.md)
 
@@ -52,25 +32,25 @@ This is a repository of teaching notes and labs on a variety of topics
 
 [C# Course Notes November 2019](course%20notes/C%20Course%20Notes%20November%202019.md)
 
-### HTML
+## Building Web Pages
 
-[philanderson888/showcase](https://github.com/philanderson888/showcase)
+### Random Web Terms
+
+[Random Web Terms](course%20notes/Random%20Web%20Terms.md)
+
+### HTML
 
 [HTML](course%20notes/HTML.md)
 
 ### CSS
 
-[philanderson888/showcase](https://github.com/philanderson888/showcase)
-
 [CSS](course%20notes/CSS.md)
 
-[CSS Glossary](course%20notes/CSS%20Glossary.md)
+### Bootstrap
 
-- Bootstrap
+[Bootstrap](course%20notes/Bootstrap.md)
 
-### Javascript
-
-[philanderson888/showcase](https://github.com/philanderson888/showcase)
+### Javascript: Basics, Overview, Course, JSON, Glossary
 
 [Javascript Basics](course%20notes/Javascript%20Basics.md)
 
@@ -82,11 +62,21 @@ This is a repository of teaching notes and labs on a variety of topics
 
 [Javascript Glossary](course%20notes/Javascript%20Glossary.md)
 
+### jQuery
+
 [jQuery](course%20notes/jQuery.md)
+
+### AJAX
 
 [AJAX](course%20notes/AJAX.md)
 
+### Socket.IO
+
 [Socket.IO](course%20notes/Socket%20IO.md)
+
+### Typescript
+
+[TypeScript](course%20notes/TypeScript.md)
 
 ### API
 
@@ -106,13 +96,13 @@ This is a repository of teaching notes and labs on a variety of topics
 
 [Gatsby Glossary](course%20notes/Gatsby%20Glossary.md)
 
-### Imaging
+## Imaging
 
 [SVG and Canvas](course%20notes/SVG%20and%20Canvas.md)
 
 [Imaging](course%20notes/Imaging.md)
 
-### Infrastructure
+## Infrastructure
 
 - CompTIA Network+
 - CompTIA A*
@@ -123,27 +113,29 @@ This is a repository of teaching notes and labs on a variety of topics
 
 - Windows 10
 
-### Cloud, Devops and Security
+## Cloud, Devops and Security
 
 [Cloud Native](course%20notes/Cloud%20Native.md)
 
-[Devops Glossary](course%20notes/Devops%20Glossary.md)
+[Cloud Glossary](course%20notes/Cloud%20Glossary.md)
+
+[Devops](course%20notes/Devops.md)
 
 [Azure Complex Notes](course%20notes/Azure%20Complex%20Notes.md)
 
-[Cloud Glossary](course%20notes/Cloud%20Glossary.md)
-
 [Docker](course%20notes/Docker.md)
 
-### Cyber
+## Cyber
 
 [https://github.com/philanderson888/cyber](https://github.com/philanderson888/cyber) 
 
-### Random
+## Random
 
 [Random Programming Notes  (8000 lines)](course%20notes/Random%20Programming%20Notes%208000%20lines.md)
 
-### Archive
+[Random Programming Terms Take 2](course%20notes/Random%20Programming%20Terms%20Take%202.md)
+
+## Archive
 
 [MTA 98-361 C#](course%20notes/MTA%2098%20361%20C.md)
 

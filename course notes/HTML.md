@@ -1,5 +1,7 @@
 # HTML
 
+### Internet Introduction
+
 How The Web Works - Basic Networking
 
 http request
@@ -63,7 +65,7 @@ History of the internet
     
         <https://www.youtube.com/watch?v=guvsH5OFizE&index=31&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo>
 
-IDE Environments
+### IDE Environments
 
 Visual Studio
 
@@ -88,9 +90,6 @@ Live Coding Environments
 Atom by Github(live online collaboration in coding)
 
 # HTML super summary
-
-MODULE 1 : INTRO
-<!DOCTYPE html>
 
     <!DOCTYPE HTML PUBLIC ... 4 ... 
     
@@ -430,3 +429,5 @@ Select name="groupname"
 Option value = "optionvalue" > optionvalue </option>
 
 Option
+
+[philanderson888/showcase](https://github.com/philanderson888/showcase)

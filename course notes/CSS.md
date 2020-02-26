@@ -1,12 +1,138 @@
 # CSS
 
-# CSS TOPICS
-    
-    
-    <pre>
-    
+## Colours
+
+    color:red
+    color:transparent
+    color:#ff0000 RED
+         :#00ff00 GREEN
+    	   :#0000FF BLUE
+    	   :#000000 BLACK
+    	   :#FFFFFF WHITE
+    COLOR:RGB(255,0,0)  RED
+    COLOR:RGBA(255,0,0,0.5)   ALPHA = OPACITY   1=OPAQUE 0=TRANSPARENT
+    	USE WITH FALLBACK AND DO THE PRIMITIVE ONES FIRST
+    COLOR:HSL(240,100%,50%)
+    COLOR:HSLA(240,100%,50%,0,5)
     	
     	
+    	
+
+## Font
+
+    font-family:Arial,Verdana			USES FIRST FOUND ONE
+    
+    font-size:1.5em
+    font-weight:bold/bolder/lighter/100(lightest)-400(normal)/900(boldest)
+    font-style:italic/normal/oblique
+    font-variant:small-caps
+    
+    
+    font		style weight size family
+
+## Downloading A Font
+
+    @font-face{
+    	font-family:'Give-This-A-Name';
+    	src:url('Roboto-Regular-webfont.ttf') format('truetype');
+    }
+    
+    ### Example
+    
+    https://fonts2u.com/sansation-light.font
+    
+    
+    
+    <fieldset>
+    
+        <h1>CSS Font Face</h1>
+    
+        <style> 
+        @font-face {
+            font-family: myFirstFont;
+            src: url(sansation_light.woff);
+        }
+    
+        .CSSfont01 {
+            font-family: myFirstFont;
+        }
+        </style>
+    
+        <div class="CSSfont01" >Some text here</div>
+    
+    </fieldset>
+
+## Letters
+
+    LETTER SPACING
+    
+    LINE HEIGHT
+    
+    TEXT-ALIGN
+    
+    	LEFT
+    	RIGHT
+    	JUSTIFY
+    	
+    TEXT-DECORATION
+    	
+    	UNDERLINE
+    	OVERLINE
+    	LINE-THROUGH
+    	
+    TEXT-TRANSFORM
+    
+    	UPPERCASE
+    	LOWERCASE
+
+## Sizing
+
+    px
+    %
+    cm
+    mm
+    in
+    pt   1/72 inch
+    pc   1/12 inch
+    
+    em		the letter 'm' 
+    		
+    		Parent  2em
+    			Child 2em
+    				RESULT = > 4EM
+    rem		Root  'em'  
+    			ALWAYS REFERS TO THE ROOT VALUE IE 2em
+    
+    ch		width of number 0
+    inherit;	from parent
+    vw		viewport : 1% of viewport width
+    vh		viewport : 1% of viewport height
+    vmin		lesser of vh and vw
+    
+    ex   height of lowercase x
+    	
+    calc(maths_goes_in_here)   can calculate a value at runtime
+    
+    	
+
+## Box Model
+
+    CONTENT = WIDTH
+    
+    PADDING, BORDER, MARGIN ARE EXTRA
+    
+    OUTLINE IS EXTRA
+    
+    PADDING:10PX 10PX 10PX 10PX
+    
+    BORDER-WIDTH
+    BORDER-STYLE:SOLID
+    BORDER-COLOR
+    
+    	BORDER-TOP/BOTTOM/LEFT/RIGHT-COLOR
+
+# CSS All-In-One-Code-Block
+
     CSS STYLING (2-9)
     	SET STYLING 
     		INLINE
@@ -28,63 +154,15 @@
     	
     	
     	
-    	FONT
-    	
-    		font-family:Arial,Verdana			USES FIRST FOUND ONE
-    		font-size:15px
-    		font-style:italic
-    		font-weight:bold/normal/100 up to 900
-    		
-    		font		style weight size family
-    		
-    		
-    	COLOR
-    	
-    		#000000
-    		RED
-    		RGB(0,0,0)
-    		RGBA(R,G,B,0.8)
+    
     		
     	
     	
-    	LETTER SPACING
-    	
-    	LINE HEIGHT
-    	
-    	TEXT-ALIGN
-    	
-    		LEFT
-    		RIGHT
-    		JUSTIFY
-    		
-    	TEXT-DECORATION
-    		
-    		UNDERLINE
-    		OVERLINE
-    		LINE-THROUGH
-    		
-    	TEXT-TRANSFORM
-    	
-    		UPPERCASE
-    		LOWERCASE
+    
     		
     		
     		
-    CSS BOX MODEL (2-12)
-    	CONTENT = WIDTH
-    	
-    	PADDING, BORDER, MARGIN ARE EXTRA
-    	
-    	OUTLINE IS EXTRA
-    	
-    	
-    	PADDING:10PX 10PX 10PX 10PX
-    	
-    	BORDER-WIDTH
-    	BORDER-STYLE:SOLID
-    	BORDER-COLOR
-    	
-    		BORDER-TOP/BOTTOM/LEFT/RIGHT-COLOR
+    
     		
     	
     	
@@ -133,10 +211,6 @@
     
     # CSS SUMMARY
     
-    		
-    	
-    				
-    		
     	CSS
     	
     		H1			TAG
@@ -204,6 +278,19 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     	
     # CSS OVERVIEW
     	h1		TAG
@@ -257,7 +344,10 @@
     		MOST SPECIFIC				ID MORE SPECIFIC
     	
     			IF SAME, THEN APPLIED IN LINE ORDER
-    	FONT
+    	
+    
+    
+    FONT
     		font-family:FancyWebFont,Arial,Verdana    //takes first one
     							// that browser
     							// has loaded
@@ -265,6 +355,8 @@
     		font-style:italic;
     		font-weight:bold/normal/100 up to 900
     		@font-face 		// install from web source
+    
+    
     	COLOR
     		#<RED><GREEN><BLUE>
     		#FF0000   RED
@@ -445,30 +537,6 @@
     			SUBNODE
     					DOES CLASS APPLY HERE???
     						
-    FONT SIZES
-    	px
-    	%
-    	cm
-    	mm
-    	in
-    	pt   1/72 inch
-    	pc   1/12 inch
-    	
-    	em		the letter 'm' 
-    			
-    			Parent  2em
-    				Child 2em
-    					RESULT = > 4EM
-    	rem		Root  'em'  
-    				ALWAYS REFERS TO THE ROOT VALUE IE 2em
-    	
-    	ch		width of number 0
-    	inherit;	from parent
-    	vw		viewport : 1% of viewport width
-    	vh		viewport : 1% of viewport height
-    	vmin		lesser of vh and vw
-    	calc:()		mathematical calculation in here to set css
-    			using code
     	
     TEXT-OVERFLOW
     	controls how text is treated if it exceed the size of the 
@@ -489,6 +557,25 @@
     	STATIC	: DEFAULT
     		float:left/right/none
     		clear:both		CLEAR FLOATS	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -587,6 +674,17 @@
     		
     		
     							
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     SELECTOR
     	#ID
     	
@@ -606,66 +704,21 @@
     	INHERIT CSS STYLING FROM PARENT ELEMENT
     							
     					
-    Font sizes
-    	px
-    	pt 1/72 inch
-    	pc 1/12 inch
-    	in
-    	cm
-    	mm
-    	em    width of m
-    	rem
-    	ch    width of 0
-    	
-    	vw : 1% of viewport width
-    	vh : 1% of viewport height
-    	vmin : lesser of vw and vh
-    	
-    	ex   height of lowercase x
-    	
-    	calc (maths_goes_in_here)   can calculate a value at runtime
+    
     	
     	
     	
+    
     	
     	
-    COLOR
-    	color:red
-    	color:transparent
-    	color:#ff0000 RED
-    	     :#00ff00 GREEN
-    		 :#0000FF BLUE
-    		 :#000000 BLACK
-    		 :#FFFFFF WHITE
-    	COLOR:RGB(255,0,0)  RED
-    	COLOR:RGBA(255,0,0,0.5)   ALPHA = OPACITY   1=OPAQUE 0=TRANSPARENT
-    		USE WITH FALLBACK AND DO THE PRIMITIVE ONES FIRST
-    	COLOR:HSL(240,100%,50%)
-    	COLOR:HSLA(240,100%,50%,0,5)
-    	
-    	
-    	
-    	
-    	
-    TEXT DISPLAY
-    		
-    	Font
-    		@font-face : add web font
-    		
-    		
-    				
-    		@font-face{
-    			font-family:'Give-This-A-Name';
-    			src:url('Roboto-Regular-webfont.ttf') format('truetype');
-    		
-    		
-    		}
-    		
-    		
-    		font-size:1.5em
-    		font-weight:bold/bolder/lighter/100(lightest)-400(normal)/900(boldest)
-    		font-style:italic/normal/oblique
-    		font-variant:small-caps
+    
+    
+    
+    
+    
+    
+    
+    
     	text-align
     	
     		HORIZONTALLY ALIGNS TEXT
@@ -1948,9 +2001,61 @@
     	
     	
     	$('Z').ADDCLASS('ANIMATE')
-    	
-    	
+
+# CSS Glossary
+
+    Houdini CSS
+    CSS Grid and Sub Grid
+    
+    Background-image:url(image.jpg)
+    Background-size:cover
+    
+    Css tricks has a good summary of all css features 
+    
+    Cursor:pointer shows the mouse hand like when hovering over url 
+    
+    Display:block
+    Display : inline-block can produce inline content e.g. menu
+    
+    Colours at paletton.com
     
     
+    Color 
+      #aabbcc hex
+      Rgb(1,2,3)
+      Rgba(1,2,3,0.5)
     
-    	</pre>
+    
+    Selector by Element, ID, Class, Attribute, Pseudo Class, 
+    text-decoration
+    a:visited
+    a:active
+    a:link
+    a:hover
+    sibling +
+    sibling ~
+    input: valid/invalid
+    input: required/optional
+    nth-child
+    Pseudo Class eg nth-child
+    li:first-child, nth-child,nth-child(2),nth-child(2n+1),nth-child(-n+4),nth-child(4+n)
+    Pseudo Element :: nth-child
+    Pseudo Class :active :visited :link :hover
+    Pseudo Element :: nth-child  ::before  ::after  
+    ::after { content: ' " '  }
+    ::after { quotes :  } 
+    li { display:inline-block}  // make a list into a horizontal !!!
+    text-decoration:none/underline
+    :: before/after{ content: ' addin ' }
+    :: first-line 
+    :: first-letter
+    input:placeholder
+    text-transform:uppercase
+    letter-spacing:2px
+    cursor:pointer;
+    pointer-events:none
+    Specificity: 1) Inline 2) ID 3) Class, Attribute, Pseudo Class 4) Element, Pseudo Element
+    
+    SCSS is an extension of CSS which can be used to extend the language
+    SASS is an older way of writing concise CSS.  It's fully compatible with all CSS libraries.
+    LESS stands for Leaner Style Sheets.  LESS is converted to CSS with Less.js

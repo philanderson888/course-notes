@@ -56,8 +56,6 @@
 
 [Connection Strings](C%20Course%20Notes%20August%202019/Connection%20Strings.md)
 
-[Entity Seeding](C%20Course%20Notes%20August%202019/Entity%20Seeding.md)
-
 [Securing Secret Data](C%20Course%20Notes%20August%202019/Securing%20Secret%20Data.md)
 
 [Azure](C%20Course%20Notes%20August%202019/Azure.md)

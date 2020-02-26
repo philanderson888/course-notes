@@ -23,7 +23,7 @@ Running installer
 
     Install Windows & extra command line tools
 
-# Basic Commands
+## Basic Commands
 
 ### git --version
 
@@ -52,12 +52,32 @@ Running installer
     :q       quit
     :w       previous page
     :h       help
+    
+    
+    # check differences before git push
+    git diff --cached
+
+### gitk - viewing proposed changes
+
+Use gitk [https://git-scm.com/docs/gitk](https://git-scm.com/docs/gitk) to see the proposed changes on the command line first
+
+    # Run gitk and view proposed changes
+    gitk
+
+### GitHub Desktop
+
+Use GitHub Desktop at [https://desktop.github.com/](https://desktop.github.com/) to visually see all changes first
+
+## Hiding Secrets
+
+Use this guide [https://gist.github.com/derzorngottes/3b57edc1f996dddcab25](https://gist.github.com/derzorngottes/3b57edc1f996dddcab25) to create a config file with the API keys in it, which is not published to github because it's inside the .gitignore file as well.
 
 ### git add
 
     # add file to staging area so that files are now tracked
     gid add <file>
     git add .
+    git add . --interactive to view changes as you push them
     
     # show differences in files we have just added to the staging area
     git diff --cached 
@@ -84,7 +104,7 @@ Running installer
     
     
 
-## GitHub
+## Working With GitHub Online
 
 ### git clone
 
@@ -101,19 +121,11 @@ git clone can be used to clone a repository
     git remote -v
     git remote get-url --all origin
     # set remote url
-    git remote set-url origin <https://github.com/philandersonsparta/test-project-3>
+    git remote set-url origin 
+        <https://github.com/philandersonsparta/test-project-3>
     # or
-    git remote add origin <https://github.com/philandersonsparta/testproject>
-    # then 
-    git push -u origin master
-
-### git remote with SSH
-
-If you have set up SSH keys the commands with `https://` would be changed to
-
-    git remote set-url origin git@github.com:username/repo.git 
-    # or
-    git remote add origin git@github.com:philandersonsparta/testproject
+    git remote add origin 
+        <https://github.com/philandersonsparta/testproject>
     # then 
     git push -u origin master
 
@@ -219,6 +231,8 @@ These steps will pull down and merge all changes.
     // merge changes from dev into this branch
     git merge dev
 
+## Viewing And Undoing Changes
+
 ### git log
 
 git log can be used to view previous commits
@@ -230,14 +244,25 @@ git log can be used to view previous commits
     # git log with branching
     git log --graph
 
-### git reset
+### git reflog
 
-Undo changes
+    ### git reflog
+    
+    git reflog # display a list of commits with indexes.
+
+### git reset —soft
+
+Undo changes and reset the state of the disk back to a given commit point
 
     git reset --soft  305bf485c68361d3a0ec97192998ea81a6673fbc
 
-Don't use this - git reset --hard as it will actually remove all files and there is hardly ever a need to do this
+### git reset —hard
 
+Use this with extreme care as it wipes the files from your hard drive and they become irrecoverable
+
+    # reset files on your hard disk back to your last commit point
+    git reset HEAD --hard 
+    
     # resets the files on disk to the state registered by this snapshot
     git reset --hard  305bf485c68361d3a0ec97192998ea81a6673fbc
 
@@ -248,15 +273,7 @@ Git clean can be used to remove untracked directories, which may still be hangin
     // force removal of untracked directories
     git clean -fd
 
-# Git Advanced Commands
-
-### git reflog
-
-git reflog # display a list of commits with indexes.
-
-### git reset HEAD
-
-git reset HEAD@{index} # time-machine back to where things worked properly.
+# Other Git Topics And Commands
 
 ### Fixing a merge conflict
 
@@ -277,7 +294,57 @@ It may be that you are working on one git account and want to push under another
 
 It should prompt for fresh credentials and allow a fresh push.
 
-# SSH keys
+### Protecting The Master Branch
+
+Once we have created both master and dev branches we should protect the master from direct updates. All updates should now be done via the dev branch. Once updated, then a pull request gets submitted to allow work to be merged from the dev branch into the master branch, after approval.
+
+1. Select master branch
+2. Go into master branch settings
+3. Choose 'Branches' on the left hand menu
+4. Choose 'Add Rule'
+5. Tick 'Require Pull Request Before Merging' and type in the name of the branch, ie 'master'
+6. The master branch is now protected from direct updates.
+
+### [Configuring a publishing source for GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+
+### Renaming A Branch
+
+If you are on your branch that you want to rename
+
+    git branch -m new-name
+
+If you are on another branch
+
+    git branch -m old-name new-name
+
+Then delete the old local and push the new branch
+
+    git push origin :old-name new-name
+
+Finally reset the upstream branch to point to the new branch
+
+    git push origin -u new-name
+
+## Changing Github User
+
+It may be that you are working on one git account and want to push under another account. Try this
+
+    git config --local credential.helper ""
+    git push origin master
+
+It should prompt for fresh credentials and allow a fresh push.
+
+# Using GitHub with SSH instead of HTTPS
+
+### git remote with SSH
+
+If you have set up SSH keys the commands with `https://` would be changed to
+
+    git remote set-url origin git@github.com:username/repo.git 
+    # or
+    git remote add origin git@github.com:philandersonsparta/testproject
+    # then 
+    git push -u origin master
 
 ### Locating your SSH keys
 
@@ -400,57 +467,3 @@ add key (MAC)
     eval $(ssh-agent -s) 
     # add key to my account
     ssh-add ~/.ssh/id_rsa
-
-### Protecting The Master Branch
-
-Once we have created both master and dev branches we should protect the master from direct updates. All updates should now be done via the dev branch. Once updated, then a pull request gets submitted to allow work to be merged from the dev branch into the master branch, after approval.
-
-1. Select master branch
-2. Go into master branch settings
-3. Choose 'Branches' on the left hand menu
-4. Choose 'Add Rule'
-5. Tick 'Require Pull Request Before Merging' and type in the name of the branch, ie 'master'
-6. The master branch is now protected from direct updates.
-
-### [Configuring a publishing source for GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
-
-### Renaming A Branch
-
-If you are on your branch that you want to rename
-
-    git branch -m new-name
-
-If you are on another branch
-
-    git branch -m old-name new-name
-
-Then delete the old local and push the new branch
-
-    git push origin :old-name new-name
-
-Finally reset the upstream branch to point to the new branch
-
-    git push origin -u new-name
-
-## Changing Github User
-
-It may be that you are working on one git account and want to push under another account. Try this
-
-    git config --local credential.helper ""
-    git push origin master
-
-It should prompt for fresh credentials and allow a fresh push.
-
-## Not publishing sensitive data
-
-Use this guide [https://gist.github.com/derzorngottes/3b57edc1f996dddcab25](https://gist.github.com/derzorngottes/3b57edc1f996dddcab25) to create a config file with the API keys in it, which is not published to github because it's inside the .gitignore file as well.
-
-Use GitHub Desktop at [https://desktop.github.com/](https://desktop.github.com/) to visually see all changes first
-
-Use gitk [https://git-scm.com/docs/gitk](https://git-scm.com/docs/gitk) to see the proposed changes on the command line first
-
-Don't use `git add .` but manually add each file individually
-
-Use `git add --interactive` to review changes
-
-Use `git diff --cached` to review changes ready for pushing

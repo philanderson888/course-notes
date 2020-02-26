@@ -1,45 +1,12 @@
 # Markdown
 
-# Markdown
+## Cheatsheets
 
-.md stands for MarkDown file format
+[https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
 
-[Configuring Markdown In Sublime Text](notion://www.notion.so/philanderson888/Markdown-9aa9c8affbb845b4b67431d2a3c683c2#configuring-markdown-in-sublime-text)
+[https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-[Sublime Text - Installing Markdown Plugin](notion://www.notion.so/philanderson888/Markdown-9aa9c8affbb845b4b67431d2a3c683c2#sublime-text-install-markdown-plugin)
-
-[Cheatsheet](notion://www.notion.so/philanderson888/Markdown-9aa9c8affbb845b4b67431d2a3c683c2#cheatsheet)
-
-[Markdown Summary All-In-One Page](https://sourceforge.net/p/docker10/wiki/markdown_syntax)
-
-## Configuring Markdown In Sublime Text
-
-### Sublime Text - Install Markdown Plugin
-
-    # Windows
-    Control-Shift-P 
-    # Linux
-    Command-Shift-P
-
-Then choose
-
-    Package Control : install Package
-
-Type `Markdown` and choose the package you want eg
-
-Markdown Preview
-
-or
-
-Markdown Live Preview
-
-### Sublime Text - Viewing Markdown
-
-Type Control + Shift + P (Command + Shift + P on a MAC) then type `markdown` in the search box until `Preview Markdown In Browser` appears. Select this item then choose `Markdown` as the final option which then should display your file in your default browser.
-
-To view just a portion of your Markdown, simply highlight it then choose the above steps and the output will be not the whole file but just your highlighted text.
-
-### Cheatsheet
+[https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
     # Markdown Syntax
     
@@ -94,11 +61,7 @@ To view just a portion of your Markdown, simply highlight it then choose the abo
     ![Alt Text](myimage.jpg "Image Title")
     <img src="myimage.jpg" width="200" />
 
-[https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
-
-[https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-[https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+## Markdown Commands
 
 ### Blank Lines
 
@@ -228,3 +191,30 @@ Category 2
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+
+## Sublime Text And Markdown
+
+### Sublime Text - Install Markdown Plugin
+
+    # Windows
+    Control-Shift-P 
+    # Linux
+    Command-Shift-P
+
+Then choose
+
+    Package Control : install Package
+
+Type `Markdown` and choose the package you want eg
+
+Markdown Preview
+
+or
+
+Markdown Live Preview
+
+### Sublime Text - Viewing Markdown
+
+Type Control + Shift + P (Command + Shift + P on a MAC) then type `markdown` in the search box until `Preview Markdown In Browser` appears. Select this item then choose `Markdown` as the final option which then should display your file in your default browser.
+
+To view just a portion of your Markdown, simply highlight it then choose the above steps and the output will be not the whole file but just your highlighted text.

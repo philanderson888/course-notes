@@ -1,8 +1,20 @@
 # C#
 
-# C#
+# Setup and IDE Environments
+
+[Setup and IDE Environments](C/Setup%20and%20IDE%20Environments.md)
 
 # Console Apps
+
+### Hello World
+
+[Hello World ](C/Hello%20World.md)
+
+## c-sharp-tests
+
+[Tests - Questions](C/Tests%20Questions.md)
+
+[Tests - Answers](C/Tests%20Answers.md)
 
 ## Passwords, Hashing And Salting
 
@@ -86,6 +98,8 @@ One such one is `PBKDF2` which can be used to slow down attackers trying to brut
 
 [WPF](C/WPF.md)
 
+[Office](C/Office.md)
+
 API_EF
 API_Core
 
@@ -95,3 +109,5 @@ ASP_Core
 # SQL Legacy Forms Projects
 
 [SQL Legacy Forms Projects](C/SQL%20Legacy%20Forms%20Projects.md)
+
+[C# Not Part Of The Course](C/C%20Not%20Part%20Of%20The%20Course.md)

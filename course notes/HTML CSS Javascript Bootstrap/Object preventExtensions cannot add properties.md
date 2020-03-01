@@ -1,0 +1,1 @@
+# Object.preventExtensions() - cannot add properties

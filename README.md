@@ -38,6 +38,10 @@ This is a repository of teaching notes and labs on a variety of topics
 
 [Random Web Terms](course%20notes/Random%20Web%20Terms.md)
 
+### HTML CSS Javascript Bootstrap - separate out
+
+[HTML CSS Javascript Bootstrap](course%20notes/HTML%20CSS%20Javascript%20Bootstrap.md)
+
 ### HTML
 
 [HTML](course%20notes/HTML.md)
@@ -146,3 +150,5 @@ This is a repository of teaching notes and labs on a variety of topics
 [Ruby](course%20notes/Ruby.md)
 
 [PHP](course%20notes/PHP.md)
+
+[cyber](course%20notes/cyber.md)

@@ -1,1 +1,0 @@
-# Object.freeze() - cannot change value of properties

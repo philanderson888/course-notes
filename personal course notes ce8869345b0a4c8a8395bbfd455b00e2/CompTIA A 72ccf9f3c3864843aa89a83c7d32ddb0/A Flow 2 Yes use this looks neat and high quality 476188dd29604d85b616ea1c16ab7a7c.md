@@ -1,0 +1,3933 @@
+# A+ Flow 2 Yes use this, looks neat and high quality
+
+[philanderson888@hotmail.com](mailto:philanderson888@hotmail.com)
+
+Comptia A+ Notes
+
+Networking
+
+Welcome!!!
+
+CompTIA A+
+
+Today we are going to focus on Networking!!!
+
+Tuesday : Strategy for the day
+
+1. Finish networking
+2. Networking revision cram
+3. CPU
+4. Motherboard
+5. Ports on a computer
+6. Begin book : linear flow through whole book : make a start
+
+Wednesday
+
+1. Theory till lunch
+2. 50 term crash ==> then take lunch
+3. Theory till 4/415
+4. Labs
+5. Term crash??? To close???
+
+Friday
+Strategy for the day
+
+Finish Networking
+Back to page 329 , work forward from there.
+
+Theory until 1/2pm
+Mock Exams Until Close
+Survey?
+430 Finish
+
+WebSites
+
+[CompTIA.org](http://comptia.org/)
+
+Exams
+220-901
+220-902
+
+Mock Exam site
+[ExamCompass.com](http://examcompass.com/)
+
+Binary
+
+```
+1 / 0
+
+```
+
+Byte	8 bits. Decimal 0 through 255
+
+```
+1111 1111. 2 to power 8.    2x2x2x2x2x2x2x2. = 256
+
+```
+
+Nibble
+
+```
+4 bits.  0000 through 1111
+
+```
+
+Binary to Decimal
+
+```
+128		64		32		16		8		4      2.     1.
+1			0		0		0		0		0.    0.      0.       128
+1			1		0		0		0		0.    0.      0.       192 (128+64)
+1			1		1		0		0		0.    0.      0.        224 = 192+32
+1			1		1		1		0		0.    0.      0.       240.     224+16
+1			1		1		1		1		1.    1.      1.       255
+
+1			0		1		0		1		0      1      0.      170 
+
+1			1		0		0		1		1      0.     0.      128+64+8+4=204
+
+```
+
+Decimal to binary
+128	64	32	16	8	4 2. 1.
+
+```
+173
+1			0		1.       0		1		1.      0.      1
+173-128==> 45-32=13
+
+189
+1			0		1		1.     1.     1.      0.       1
+189-128=> 61 - 32 =>   29-16=13
+
+```
+
+Hex
+
+```
+Binary count 0 through 16
+8421			Decimal			Hex
+0000				0					0
+0001
+..
+1001				9					9
+1010				10					A
+1011				11					B
+1100				12					C
+1101				13					D
+1110				14					E
+1111				15					F
+
+ Where do we using HEX?
+	1) Error/Exception 
+	2) MAC address.   Aa-bb-cc-dd-ee-ff
+	
+			IFCONFIG
+
+				2c:be:08 is part of MAC address
+
+				expand binary
+				2			c		b		e.    0.    8
+				0010. 1100.1011 1110. 0000. 1000
+	3) IPV6 ADDRESS
+
+```
+
+Network models
+
+```
+Domain
+
+	Central Server “DOMAIN CONTROLLER” (DC)
+
+		Windows ==> Active Directory creates domain
+
+	Multimaster model : each DC has full rights to update
+			domain database e.g. new user, group etc
+
+	PERMANENT RELATIONSHIP
+
+Client/Server
+
+		Temporary e.g. online banking
+
+Workgroup
+
+		DEFAULT ==> no server at all, just clients on network
+
+Peer-to-peer
+
+	COMMON TO SHARE WORKLOAD
+
+		e.g.  WINDOWS UPDATES ==> DOWNLOADED TO WIN10 
+		BUT SHARED WITH PEOPLE A) LAN B) INTERNET	
+		((Old days ==> ONE CENTRAL SERVER, GET FILES FROM
+					SERVER EG WITH FTP (FILE TRANSFER 											PROTOCOL)
+		Peer-to-peer : CHOP FILE INTO SEEDS.  DOWNLOAD
+				SEEDS.   CAN SHARE SEEDS WITH OTHERS.
+
+```
+
+LAN
+Client ==> Switch ==> Router ==> ((Modem))
+
+WAN
+
+```
+Client => Switch => Router => Modem —————dial up———
+
+				ISP Router ———> INTERNET
+
+```
+
+WAN with VPN
+
+```
+							encrypted tunnel
+LAN1==> Router1==================Router2 => LAN2
+
+		All machines on LAN1 share same GATEWAY which
+			is Router1.   They connect through this to LAN2
+
+```
+
+PAN
+Personal Area Network
+
+```
+	BLUETOOTH : DIRECT CONNECTION
+
+			EG PRINT TO PRINTER OVER BLUETOOTH
+
+			((TODAY WIFI DIRECT ALSO DOES THIS))
+
+```
+
+MAN
+Metropolitan : city-wide e.g. Hospital/Bank/University
+
+```
+			((usually. FIBER OPTIC))
+
+```
+
+LAN COMPONENTS
+
+```
+Hub
+
+	FIRST EVER LAN DEVICE
+
+		Good
+
+		Bad
+			BROADCASTS ALL DATA ON EVERY PORT
+
+		Speed 10Mbps max, 
+
+				1/n. For every device.   1/5 for 5 Devices
+
+```
+
+Bridge
+
+```
+Used to connect 2 NETWORKS OF DIFFERENT TYPES
+
+		Ethernet == BRIDGE == Token Ring
+
+```
+
+Repeater
+
+```
+Ethernet 100m MAX
+
+                 100m                          repeater          100m
+	|<—————————————>|<——————————->
+
+```
+
+FIRST NETWORKS
+
+```
+10Mbps. :  MADE THICK COAX CALLED “ THICKNET  ”
+
+this changed to 
+
+ 10Mbps. THINNET (common TV cable of today)
+
+```
+
+7 Layer Model Of Networking
+
+```
+Used 1) Theory 2) Real world
+
+1. 	Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
+
+Layer 1 : Physical
+	
+		ANYTHING YOU CAN TOUCH
+
+		CABLING
+						COPPER
+									COAX
+									ETHERNET
+						FIBER
+		PORTS
+		
+
+Layer 2 : Data Link
+
+		DEALS WITH GETTING DATA ROUND OUR LAN
+
+			USE UNIQUE ETHERNET ADDRESS
+								  (MAC address)
+								(Physical address)
+
+								IPCONFIG ==> SHOW IP address
+								IPCONFIG /ALL.  ==> SHOW MAC address
+
+		MAC address IS UNIQUE ON LAN
+
+				TWO PARTS
+
+				1ST HALF : OUI : NAME OF COMPANY WHICH BUILT 
+										                     CARD
+								((OUI  organisationally unique id))
+
+				2nd HALF : UNIQUE ID SO FULL MAC address IS
+									UNIQUE
+
+	    SWITCH
+
+				Inspect ‘to’ address of ETHERNET ‘FRAME’
+
+		ETHERNET FRAME
+
+				Preamble : notification that data is following
+				To : 
+				From:
+				Data :   1500 bytes max
+				CRC. : 	Error check (( check data not lost in transit)
+
+		SWITCH : INSPECT ‘TO’ ADDRESS
+
+				create SWITCHING TABLE
+
+				PHYSICAL			MAC 
+				PORT
+
+				1							AA-BB-CC-DD-EE-FF
+				2							….
+
+			Data arrives : check ‘to’ address and see if there is a match
+					in switching table
+
+					IF MATCH : SEND OUT ON THAT PORT
+					IF NO MATCH : BROADCAST ON ALL PORTS
+
+										((ETHERNET : FF-FF-FF-FF-FF-FF
+                                             All one’s broadcast address))
+
+Layer 3 : Network Layer
+
+		Layer 1 ; cabling etc
+		Layer 2 : LOCAL LAN ONLY
+		Layer 3 : IP CAN TALK TO GLOBAL INTERNET
+
+				Public 
+							VALID ANYWHERE ON INTERNET
+							(( our address ==> WHATISMYIP ))
+								((THIS IS OUR LAN ROUTER == GATEWAY ))
+				Private
+						4 ranges
+							1)	10.X.Y.Z
+							2) 172.16.Y.Z - 172.31.Y.Z
+							3)	192.168.X.Y
+							4) APIPA	   169.254.X.Y.  when DHCP NOT
+										                            WORKING
+
+									((DHCP : dynamic host configuration 
+											protocol : job is to GIVE IP address
+											TO CLIENT MACHINES))
+											ipconfig /release
+											ifconfig /renew.      GET NEW IP
+										                                   ADDRESS	
+
+Layer 3 : ROUTING
+
+		ROUTING DOES TWO THINGS
+	
+			1) CREATE FAST ROUTES (CHANNELS) FOR DATA TO 
+											                   FLOW
+						((Think : build road infrastructure in a country))	
+
+			2) SEND DATA
+
+		ROUTING PROTOCOL
+
+				SOFTWARE WORKING ON ROUTERS
+
+				ENABLE ONE ROUTER TO TALK WITH ANOTHER
+						ROUTER AND SHARE ‘BEST ROUTES’
+
+				EG 
+					RIP
+					EIGRP
+					OSPF
+					BGP
+
+				A) RIP : Routing Internet Protocol
+
+						RIPV2. Is in use now
+						Uses ‘HOPS’ to measure distance
+
+								((Look at.  PING/ PATHPING / TRACERT))
+
+										                          ((TRACEROUTE LINUX))
+				
+							HOP COUNT == ‘METRIC’.  (MEASUREMENT 
+											OF DISTANCE ACROSS INTERNET)
+
+					RIP : BAD POINTS : EVERY 30 SECONDS IT WILL
+							BROADCAST TO ALL ROUTERS ITS FULL
+							ROUTING TABLE!!!!    Creating NOISE!!!
+
+				2). EIGRP.    ((Enhanced Interior Gateway Routing 
+											Protocol))		
+							CISCO
+										HOPS FOR DISTANCE											DATA SENT 1-1 UNICAST
+										ONLY CHANGES SENT
+				
+
+				3) OSPF. Open Shortest Path First
+
+						SPLIT WORLD INTO ‘AREAS’
+		
+							((think paper letter : to S.America=> Brazil => 
+										Sao Paulo => District => Street => 5))
+
+					EVERY COMPANY GETS GLOBAL ID : SEND DATA TO 
+					THIS ID AND INTERNALLY COMPANY CREATE 
+					AREAS TO GET DATA TO FINAL DESTINATION
+
+			4)   BGP BORDER GATEWAY PROTOCOL : BACKBONE (
+						Fast Internet )
+
+	Layer 4 : Transport Layer
+
+			Layer 1 : Cabling
+			Layer 2 : Local Network
+			Layer 3 : Global IP
+
+			Layer 3 lacks CHECKING THAT DATA HAS ARRIVED
+
+			Layer 4 provides two fields 
+
+				1) SEQUENCE NUMBER : 1,2,3,4,5,… COUNT PACKETS
+										                                        OUT
+				2) ACK (ACKNOWLEDGEMENT) 1,2,3,4,5.  RECEIVER 
+								CAN LET SENDER KNOW DATA ARRIVED
+
+				SEND 5 PACKETS : SEQ 1,2,3,4,5 
+				RECEIVER : ACK 1,2,4,5
+				SENDER : PACKET 3 MISSING : RESEND 3
+				RECEIVER : ACK 3
+
+		TCP : 3-WAY HANDSHAKE TO BEGIN
+				1) Sender : are you ready?  2) Receiver : yes 3) Sender : 
+										                  Let’s begin
+
+				TCP : SLOW!!!
+
+		UDP : CAN BE USED IF NO CHECKING NEEDED
+
+				User Datagram Protocol
+
+				FAST BUT NO CHECKING : USEFUL EG 
+										YOUTUBE/STREAMING
+
+		TCP : CHECK (SLOW)
+		UDP : FAST BUT NO CHECK
+
+	Layer 5 : Session
+
+		CREATES ‘FLOW/STREAM OF DATA TO/FROM COMPUTER’
+
+		EG. 5 tabs in browser: each playing same Youtube video
+
+				==> SESSION LAYER SORT STREAMS
+
+	 Layer 6 : Presentation
+
+			1) ENCRYPTION
+
+			2) COMPRESSION
+
+					e.g. WAV audio => compress to MP3
+						   RAW/BMP image ==> compress to JPG
+							WMV         ==> MP4
+
+		Layer 7 : Application Layer
+
+				PROGRAM EG OUTLOOK WHICH REQUESTS ACCESS 									TO NETWORK
+
+```
+
+Switching Table
+
+```
+View on PC
+
+			arp -a
+
+						ARP Address Resolution Protocol
+
+						Map IP to Mac
+
+```
+
+Routing Table
+
+```
+	windows : view with ROUTE PRINT
+
+```
+
+Modem
+
+```
+Mo			Modulate
+Dem			Demodulate
+
+		Modulate ==> create a WAVE
+
+	PC (101010 BINARY). ==> MODEM ==> create wave to send on 
+										                               phone line
+
+     CABLE MODEM : CSU/DSU.  (DIGITAL LINES)
+
+```
+
+IP address : Port
+
+```
+	Every address on the web has an IP:PORT convention
+
+		IP : think of IP address as a MEDIEVAL SECURE CASTLE
+
+				NO ACCESS UNLESS USE APPROVED CHANNEL
+
+		PORTS : 2^16 CHANNELS = 65536
+
+			1-1000 FIXED
+			1000+.  FREE FOR USE BY ANYONE
+			
+		Most companies use a limited range of ports
+		
+			FREE ONLINE PORT SCAN
+
+```
+
+FIREWALL
+
+```
+	BLOCK BY
+
+		1) IP
+		2) PORT
+		3) PROTOCOL TCP/UDP
+
+```
+
+PATCH PANEL
+
+```
+	Client PC ==> WIRED CONNECTION TO WALL SOCKET ==> 
+
+				through wall ==> hard wired in at the rear of PATCH 
+								PANEL (punchdown block)
+
+				FRONT OF PATCH PANEL : CONNECT PORT INTO 
+					SWITCH AND GO LIVE
+
+```
+
+SERVER ROLES
+
+```
+FILE SERVER
+
+		SHARE : CREATED USING SMB. (Server message block)
+
+				((UPGRADE : CIFS Common Internet Filing System))
+
+				\\\\server\\share	  UNC path.  Uniform Naming Convention 
+
+			NOTE : VSS : VOLUME SHADOW COPY : Enable ‘instant’
+						snapshot backups of volume, very common on shared
+						volumes
+
+DC DOMAIN CONTROLLER : ACTIVE DIRECTORY
+
+EMAIL : EXCHANGE
+
+DATABASE : 
+
+			OPEN SOURCE		MYSQL
+			MICROSOFT 			SQL     Structured Query Language
+											MS ACCESS : OFFICE TOOL 
+		
+WEB
+			OPEN SOURCE		L.  inux
+											A. pache
+											M ySQL
+											PHP
+			MICROSOFT			
+											IIS INTERNET INFORMATION 
+											      SERVICES
+                                                 Create/run web server on 
+											      Win7/10 and Server 
+
+PRINT
+
+DNS
+
+	Maps IP to Name.   	(Forward Lookup)
+
+			Name to IP		(Reverse)
+
+			DNS RECORD TYPES
+
+					A				IPV4 address.        1.2.3.4.  mysite.com
+					AAAA		IPV6	address        fe80:1234:5678::abcd
+					MX			EMAIL (Mail Exchange)
+					CNAME.   CANONICAL (ALIAS, FALSE) NAME
+										USER see   www….
+										DNS translate to myWebServer01
+
+										((hackers don’t know real web server
+										name))
+					PTR				POINTER : REVERSE DNS RECORD
+				
+					SOA				Start Of Authority ; ROOT/BOSS DNS
+										                                SERVER
+					NS				NAME SERVER : ANY DNS SERVER
+
+			NSLOOKUP : COMMAND LINE TOOL TO QUERY DNS
+
+		DNS PORT : 53
+
+DHCP
+
+		D		DISCOVER.     CLIENT BROADAST “IS THERE A
+										DHCP SERVER?”
+		O		OFFER				SERVER : OFFER IP
+		R		REQUEST		CLIENT : YES I’LL TAKE THAT ONE
+		A		ACK					OK DONE
+
+		DHCP has a POOL of addresses.  Also called a SCOPE.
+					IP, MASK, GATEWAY, DNS
+
+```
+
+Hardware : Cabling
+
+```
+Coax Cabling
+
+	Thicknet : original      RG8
+
+				10BASE5.      SPEED 10,  LENGTH 500M
+
+	Thinnet                      RG58
+
+				10BASE2.     SPEED 10 , LENGTH 200M (185M)
+
+	COAX CONNECTOR
+			
+		BNC 				
+		F-connector			
+
+TWISTED PAIR CABLING
+
+	Ethernet			8 wires, 4 pairs
+
+			UTP unshielded
+			STP shielded
+
+			RJ45
+
+		WIRING STANDARDS
+			568A
+			568B. ==> most common
+
+	Phone Line		4 wires, 2 pairs
+
+			RJ11	
+
+	Plenum Cabling : USED IN AIR DUCT : IF FIRE, CABLE WILL
+							NOT CATCH ALIGHT QUICKLY (SO WON’T
+							SPEAD FIRE)
+
+	Straight-through cabling
+
+		Standard Ethernet = Patch cable = straight through = 
+							network cable
+
+			JOIN DEVICES WHICH ARE DIFFERENT
+			
+					PC====SWITCH====ROUTER
+
+	Cross-over cable
+
+			Used to connect SIMILAR DEVICES EG switch-to-switch
+
+					USE CROSS-OVER CABLE ((out PIN mapped
+						to IN PIN on other device)
+
+			
+
+WIRING SPEEDS
+
+		CAT3				10Mbps
+		CAT5				100Mbps *** CALLED 
+											      FAST ETHERNET!!!
+		CAT5E				1000Mbps. HALF DUPLEX. (Only use 4 of 8 
+											wires)
+		CAT6				1000Mbps. FULL DUPLEX
+		CAT7				10Gbps
+
+					Note.    B.    	STORAGE BYTES.  USB.  1TB
+								b		TRANSIT BITS.        Phone 5Mbps
+
+1-WAY / 2-WAY
+		SIMPLEX					One way                    think TV
+		HALF DUPLEX			One way at time.       Walkie talkie
+		FULL DUPLEX			Both ways                 phone line
+
+```
+
+COMMON NETWORK PORTS
+
+```
+FTP		20/21		File Transfer Protocol
+								20 data
+								21 admin
+SSH		22				Secure Shell. (Encrypted commands)
+Telnet	23				Plain text commands
+SMTP	25				Send email
+DNS		53				Map IP to NAME.   www.facebook.com to 2.3.4.5
+DHCP	67	/8			issue IP address
+TFTP.    69
+HTTP	80				
+POP		110			Receive email (simple)
+IMAP	143			Receive email (complex)
+NETBIOS. 137-139.   Networking using HOSTNAME ONLY
+HTTPS	443
+RDP		3389			Remote Desktop
+
+```
+
+Fiber Optic
+
+```
+Light carries data as 1 or 0 pulses
+
+Exam : Fiber is immune to EMI
+
+					EMI : Electro-Magnetic Interference
+
+								Microwave/Fluorescent Light/Motor
+
+					RFI : Radio Frequency Interference
+					
+Fiber has TWO MODES
+
+		MONO MODE
+
+			PURE LASER LIGHT : 50KM+ DISTANCE
+			EXPENSIVE!!!
+
+		MULTIMODE
+
+			CHEAP LED LIGHT; 2KM MAX DISTANCE
+
+	Fiber Connectors
+
+			SC
+			ST
+			MT-RJ
+			FC			FERRULE CONNECTOR : 
+
+							FE = IRON. : METAL CONNECTOR 
+									(MOST ROBUST)
+
+					APC ANGLED PHYSICAL CONNECTOR : 
+						GOOD CONNECTION
+
+```
+
+Connect to the internet
+
+```
+Require
+	
+	IP				192.168.10.10
+	Mask			255.255.255.0
+	Gateway		192.168.10.254.    INTERNAL ROUTER
+
+						TWO INTERFACES
+								PRIVATE LAN : 192.168.10.254
+								PUBLIC IP FROM ISP ((WHATISMYIP)..
+
+	DNS			INTERNAL (COMPANY) DNS
+							((INSTALL ACTIVE DIRECTORY ALSO CREATE 
+									INTERNAL DNS SERVER))
+							KNOWN RECORDS OF ALL COMPANY OWNED
+								COMPUTERS/SERVER/PRINTERS ETC
+
+					EXTERNAL DNS
+						ISP PROVIDE ONE
+						PUBLIC : MANY FOR FREE EG GOOGLE 8.8.8.8
+
+					DNS QUERIES CAN BE CACHED
+	
+					1) LOCAL PC : VIEW WITH IPCONFIG /DISPLAYDNS
+									  ERASE WITH IPCONFIG /FLUSHDNS
+
+					2) DNS SERVER CAN CACHE QUERIES ALSO
+							TTL TIME TO LIVE : SECONDS : THEN RECORD 
+							WILL EXPIRE
+
+	SUBNET MASK
+
+```
+
+IP	192	168	10 50
+MASK.	255	255	255 0
+MASK	1111 1111	1111 1111	1111 1111 0000 0000
+
+```
+										                      ^
+										               SPLIT POINT
+
+						NETWORK ID                           PC HOST ID
+                  192   			168			10                      50
+			<————————————————><——————>
+
+			ALL COMPUTERS ON THIS NETWORK HAVE SAME NETWORK ID
+
+						192.168.10.0
+
+			EVERY COMPUTER HAS UNIQUE ‘HOST ID’ EG 50 IN THIS CASE
+
+			CLASS A/B/C MASK
+
+			CLASS A			255.0.0.0	         LARGE COMPANIES
+			CLASS B			255.255.0.0       MEDIUM SIZE COMPANIES
+											         2^16 COMPUTERS == 65000 
+			CLASS C			255.255.255.0
+									(EACH NETWORK CAN HAVE 256-2 COMPUTERS)
+										256 PLACES MINUS
+											0 => NETWORK ID
+											255 => BROADCAST ID
+
+			CLASS A / B/ C PUBLIC ADDRESS RANGES
+
+			CLASS A			1-126.  (LOOK AT FIRST DIGIT ONLY
+
+											EG 72.150.150.150
+			LOOPBACK		127.0.0.1	  RESERVED USE
+                                               ::1               IPV6
+			CLASS B			128-191
+			CLASS C			192-223
+			CLASS D			224-239	    MULTICAST
+											SEND BIG FILE TO GROUP OF IP
+											ADDRESSES
+											INDIVIDUALLY : CRASH NETWORK
+											MULTICAST : CREATE GROUP IP
+											AND CLIENTS ‘SUBSCRIBE’ TO GROUP
+											- RECEIVE DATA SENT TO GROUP IP
+			CLASS E			240-255       RESEARCH / MILITARY / GOV
+
+	
+			PRIVATE RANGES (FREE FOR USE)
+					10.X.Y.Z
+					172.16-31.Y.Z
+					192.168.X.Y
+					((169.254.X.Y). APIPA
+
+	CIDR. 
+
+			CIDR IS SHORTHAND WAY OF WRITING SUBNET MASK
+
+			CLASS C MASK. 255.255.255.0
+					BINARY.   11111111.  11111111. 1111111. 00000000
+					CIDR.       /24
+
+			WRITE ADDRESS + MASK.  192.169.10.50/24. 
+
+IPV4 VS IPV6
+	
+						LENGTH		    MASK
+	IPV4		            32 BIT               /8 /16 /24
+
+	IPV6				128 BIT			/64
+
+IPV6
+
+	PRIVATE
+
+				FE80:…..
+
+	GLOBAL (PUBLIC)
+
+				2001:……
+
+```
+
+DHCP
+
+```
+	GIVE COMPUTER IP address
+
+	SERVER : CREATE A ‘SCOPE’ WITH A POOL OF ADDRESSES
+
+	APIPA ADDRESS IS ISSUED WHEN DHCP NOT WORKING
+
+		COMPUTER SELF-ASSIGN.     169.254.X.Y. ==>.  DHCP DOWN
+
+	BOOTP ==> PRIMITIVE DHCP
+
+	DHCP RELAY AGENT 
+
+		ROUTER : BY DEFAULT : WILL NOT PASS ON ANY BROADCAST MESSAGES
+				((INCLUDES DHCP ‘GIVE ME IP’ BROADCAST’))
+
+			RELAY AGENT : ROUTERS WILL PASS ON DHCP REQUESTS ONLY,
+					MUST HAVE SPECIFIC DHCP IP AND SEND UNICAST (NOT
+					BROADCAST)
+        								 broadcast            |          unicast
+		CLIENT —————SWITCH ————ROUTER======>>>>> DHCP
+
+```
+
+WAN TECHNOLOGIES
+
+DIAL-UP (OLD STYLE PHONE)
+
+```
+PPP POINT-TO-POINT PROTOCOL : CREATES CONNECTION
+
+POTS		PLAIN OLD TELEPHONE SERVICE
+PSTN		PUBLIC SWITCHED TELEPHONE NETWORK
+
+RJ11
+
+MODEM :  PC (DIGITAL) TO PHONE (ANALOGUE)
+
+```
+
+ADSL
+
+```
+DSL => DIGITAL SUBSCRIBER LINE
+
+A ==> ASYNCHRONOUS.  ==> 8X FASTER DOWNLOAD THAN UPLOAD
+
+SPLITTER
+
+		SPLITS TRAFFIC INTO 2 PARTS
+
+			1) VOICE			HUMAN LOW FREQ 1-2000 HZ
+			2) DATA			DIGITAL HIGH FREQ. 20,000 HZ
+
+```
+
+ISDN
+
+```
+INTEGRATED SERVICES DIGITAL NETWORK
+
+USED BY TELCO PROVIDERS INTERNALLY
+
+	(NOT FOR CUSTOMERS)
+
+SINGLE LINE ==> 64k.  (Kbps). SPEED
+
+	BRI		BASIC RATE				2 LINES : 128K TOTAL
+
+	PRI		PRIMARY RATE			23 LINES : 1.5Mbps TOTAL
+											1.  LINE.  :  ADMIN
+
+	T1			AS PRI.     1.5M. 
+	
+	E1			31 LINES.   2M              ((.  PLUS ONE LINE ADMIN))
+
+	T3/DS3	480 LINES.   45M
+
+		OLD DAYS : BUSINESS COJLD BUY DEDICATED ‘LEASED LINE’
+
+```
+
+WIFI
+
+```
+802.11 IS OFFICIAL NAME 
+
+				(ETHERNET 802.3)
+
+IEEE 802.11.  (IEEE GLOBAL BODY FOR ELECTRONIC STANDARDS)
+
+					
+
+AD-HOC MODE
+
+		2 LAPTOPS CONNECT DIRECTLY. 
+
+INFRASTRUCTURE MODE
+
+		USE WIFI ROUTER
+
+		TURN ON ENCRYPTION
+
+		1) WEP
+					OLD, HACKED ==> DON’T USE!!!
+
+		2) WPA
+					ENCRYPTED WITH ‘TKIP’
+
+		3) WPA2
+
+					*** CURRENT **
+
+					ENCRYPTED WITH AES
+	
+						AES ENCRYPTION ==> GOOD ANSWER !!!
+
+				WPA2 PERSONAL
+
+						ONE KEY (REGULAR WIFI)
+
+				WPA2 ENTERPRISE
+
+						USE REGULAR WINDOWS COMPANY LOGIN
+
+                         802.1x
+
+		CLIENT====WIFI=====RADIUS ======> ACTIVE DIRECTORY
+									SERVER.               (AUTHENTICATION)
+
+WIFI FREQUENCIES
+
+						SPEED	           FREQ GHZ
+
+		A	               ignore.  ((54mbps, 5ghz)
+
+		B					11				2.4
+
+		G					54				2.4
+
+		N					300+			2.4 and 5
+
+					speed of N varies because of MIMO multiple aerials
+
+		AC					3000+			           5		
+
+		WIFI CHANNEL. 1-14
+
+				DEFAULT.  CHANNEL 1 OR 6. OR 11
+
+					((CAN CHANGE))
+
+```
+
+50 CRAZY NETWORK REVISION TERMS
+
+```
+1.	DNS : DOMAIN NAME SYSTEM / SERVER :    MAP IP TO NAME
+2.	DHCP : GIVE IP
+3.	DORA PROCESS
+4.	BINARY
+5.	BIT.  		1 OR 0
+6.	BYTE		8 BITS
+7.	NIBBLE	4 BITS
+8.	HEX.  0000 TO 1111.  0 THROUGH 9 THEN A (10) THROUGH F (15)
+9.	ACTIVE DIRECTORY
+10.	DC DOMAIN CONTROLLER
+11.	     DOMAIN
+12.	FOREST (GROUP OF DOMAINS) EG LIVE.COM, MSN.COM
+13.	SWITCH : CENTRE OF LAN
+14.	ROUTER : GATEWAY
+15.	GATEWAY : TRAFFIC TO INTERNET
+16.	LAN
+17.	WAN
+18.	PAN	PERSONAL (BLUETOOTH)
+19.	MAN	METROPOLITAN (HOSPITAL)
+20.	POP : EMAIL IN : 110
+21.	IMAP : EMAIL IN (COMPLEX) : 143
+22.	SMTP : EMAIL OUT : 25
+23.	HTTP : 80\\
+24.	HTTPS : 443. ENCRYPTED WITH.  SSL /  TLS
+25.	SSL SECURE SOCKETS LAYER
+26.	TLS TRANSPORT LAYER SECURITY (NEW SSL)
+27.	METRIC : MEASURE DISTANCE
+28.	HOPS : ONE ROUTER TO NEXT.  
+29.	TTL : MAX HOP OF 31
+30.	DESTINATION UNREACHABLE 
+31.	RIP : ROUTING INTERNET PROTOCOL
+32.	RIP2 : BROADCAST EVERY 30 SECS
+33.	EIGRP : CISCO UPGRADE TO RIP
+34.	OSPF : SPLIT WORLD INTO AREAS
+35.	HASH : TURN PASSWORD INTO HASH STRING
+36.	AES ENCRYPTION STRONG
+37.	WEP : OLD
+38.	WPA2 : STRONG
+39.	OSI 7 LAYER
+40.	1	PHYSICAL
+41.	2	DATA LINK
+42.	3	NETWORK
+43.	4	TRANSPORT
+44.	5	SESSION
+45.	6	PRESENTATION
+46.	7	APPLICATION
+47.	PLEASE DO NOT THROW SAUSAGE PIZZA AWAY
+48.	ALL PEOPLE SEEM TO NEED DATA PROCESSING
+49.	
+
+```
+
+CPU
+
+```
+Central Processing Unit : BRAINS OF COMPUTER
+
+ALU : ARITHMETIC LOGIC UNIT : HANDLES WHOLE NUMBERS
+
+FPU : FLOATING POINT UNIT : HANDLES DECIMAL MATHS (2.67899345)
+
+REGISTER : LIKE OPERATING THEATRE IN HOSPITAL
+
+			DATA IN : GETS CHANGED : DATA OUT 
+
+L1 CACHE : RAM ON CHIP
+
+			(( MADE SPECIAL RAM MATERIAL CALLED SRAM (STATIC RAM)
+											                                       EXPENSIVE
+
+L2 CACHE : OUTSIDE CHIP : CONNECT BACKSIDE BUS
+
+L3 CACHE SERVER (SHARED MEMORY)
+
+```
+
+MOTHERBOARD
+
+```
+CPU	
+RAM
+NORTHBRIDGE : FAST (CPU/RAM/GRAPHICS)
+GRAPHICS
+			BUS :  PCIe.   PCI EXPRESS X 16
+			((OLD GRAPHICS : AGP ACCELERATED GRAPHICS PORT)
+
+SOUTHBRIDGE : SLOWER PART OF PC : ALL OTHER PORTS
+
+BIOS : FIXED INSTRUCTIONS/BRAINS TO BOOT MOTHERBOARD (MINI OS
+							FOR MOTHERBOARD)
+
+		ROM (FIXED) CHIP.   ((( NOTE : CAN ‘FLASH’ IT LIKE OVERWRITE USB))))
+
+										EEPROM. ELECTRONICALLY ERASABLE AND
+											            PROGRAMMABLE ROM
+
+CMOS : VARIABLE SETTINGS LIKE TIME, DATE, CPU TEMP, ADMIN PASSWORD
+				, SATA DRIVES….
+
+PIEZO-ELECTRIC CRYSTAL : PROVIDES CLOCK CHIP ((VOLTAGE ACROSS 
+				CRYSTAL : WILL VIBRATE SET FREQ))
+
+IRQ INTERRUPT REQUEST : LETS CPU KNOW A DEVICE WANTS TO TALK TO IT					((HOTLINE TO VIP))
+
+```
+
+PORTS ON A COMPUTER
+
+ISA.	OLDEST. 1981 PC-AT FIRST COMMERCIAL COMPUTER
+PCI	EXPANSION SLOT
+RJ45	NETWORK
+RJ11	TELEPHONE / MODEM
+USB	4 PINS
+USB 1	12	MBPS
+USB 2	480
+USB 3	5000
+3.1. 10000
+MAX LENGTH 5M
+
+```
+		TYPE A : STANDARD
+		TYPE B : CHUNKY PRINTER CONNECTION
+		MINI 			CAMERA
+		MICRO		MOBILE PHONE
+
+```
+
+SERIAL	9 PINS
+DIN
+MINI-DIN
+PS/2	GREEN	((GREY MOUSE))
+PURPLE	KEYBOARD
+PARALLEL.	25 PIN	PRINTER
+CENTRONICS	36 PIN
+VGA PORT	15 PIN	3X5
+DVI	DIGITAL VIDEO
+DVI-A	ANALOGUE
+DVI-D	DIGITAL
+DVI-I	INTERACTIVE : BOTH DIGITAL / ANALOGUE
+HDMI	VIDEO + AUDIO
+THUNDERBOLT 1 10. 2 20. 3. 40 Gbps
+LIGHTNING	APPLE IPHONE 5/6 CONNECTOR
+FIREWIRE. GUARANTEED THROUGHPUT FOR LIVE VIDEO TRANSFER
+FIREWIRE A	400 Mbps
+FIREWIRE B	800 Mbps
+IDE	4 DRIVES MAX PER COMPUTER (2 PER CONTROLLER
+X 2 CONTROLLERS)
+40-PIN
+RIBBON CABLE. (RED STRIPE : PIN 1)
+
+SATA	7 PIN DATA TRANSFER
+HOT SWAP : MACHINE CAN BE RUNNING
+SATA I	1.5 Gbps
+SATA II	3.0
+SATA III	6.0
+E-SATA	LAPTOP SATA
+FLOPPY	34 PIN DATA
+MOLEX	STANDARD 4-PIN POWER
+BERG	FLOPPY DRIVE POWER
+AUDIO
+LINE IN	BLUE
+LINE OUT (HEADPHONES) GREEN
+RECORD	PINK
+
+SOUND CARD
+YELLOW : SUBWOOFER
+DOLBY SURROUND L+R
+3.5MM	HEADPHONE JACK
+6.3MM	LARGE HEADPHONE JACK
+RCA	RED/WHITE STEREO CONNECTORS
+YELLOW VIDEO ALL-IN-ONE. COMPOSITE VIDEO
+R/G/B. RED/GREEN/BLUE. COMPONENT VIDEO
+SPDIF	DIGITAL SOUND
+S-VIDEO	OLD (ANALOGUE) 4-PIN VIDEO
+MAGSAFE
+MOTHERBOARD 20/24 PIN. (VOLTAGES. 12/5/3.3)
+FAN	4 PIN
+DISPLAY PORT
+MINI-DISPLAYPORT
+
+Chapter 1
+
+```
+VOLATILE						RAM ==> TURN OFF ==> DATA GONE!!!
+
+NON-VOLATILE				HARD DRIVE / USB  ==> PERMANENT
+
+RISER CARD				VERY SMALL ADD-IN CARD EG NIC
+
+DAUGHTER BOARD		SERVER : ADD-ON MINI-BOARD WITH ADDED
+											FUNCTIONALITY
+
+FIRMWARE				BIOS CHIP ==> ROM PROGRAMMING TO MAKE
+											MOTHERBOARD WORK
+
+							    FIRMWARE = FIXED INSTRUCTIONS
+
+MBR			TRADITIONAL WAY TO BOOT COMPUTER
+
+				—————————hard drive———————————————
+				|||MBR|||
+
+					INSTRUCTIONS WHERE ALL DATA LIVES ON DRIVE
+						EG PARTITION INFO, WHERE OS LIVES 
+
+						LIMITATION EG 4 PARTITIONS MAX
+											2TB HARD DRIVE MAX
+
+UEFI
+				128 PARTITIONS
+
+				18 EB MAX HARD DRIVE
+
+						BYTE, KB,     MB, GB, TERAB, PETAB, EXAB
+								1024	
+
+				‘SIGN’ BOOT FILES IE ENSURE MALWARE NOT CORRUPTED
+						BOOT FILES
+
+POST TEST
+
+				PC BOOT ==> SELF-TEST ON COMPONENTS
+						1) RAM 2) GRAPHICS 3) OTHER COMPONENTS
+		
+						BEEP AUDIBLY IF FAILURE. … CHECK MEANING ON WEB
+
+```
+
+STORAGE DEVICES
+
+```
+CONTROLLER
+
+	CHIP ON MOTHERBOARD
+
+SPEEDS
+		10000RPM FAST
+		7200		AVERAGE
+		5400		LAPTOP DRIVE
+
+HARD DRIVE SIZES
+
+	OLDER.  3.5 INCH SIZE
+	LAPTOP 2.5 INCH SIZE
+
+IDE ORIGINAL
+
+SATA HOT SWAP
+
+SSD SOLID STATE : NO MOVING PARTS
+
+```
+
+FLASH DRIVE
+
+```
+SSD
+
+USB
+
+SD CARD EG CAMERA
+
+LAPTOP CARD
+
+	PCMCIA
+	
+	EXPRESSCARD
+
+		54mm
+		34mm
+
+	TYPE I			3.3	mm
+	TYPE II			5
+	TYPE III			10
+
+```
+
+OPTICAL
+
+```
+CD			700MB STORAGE
+
+DVD		4.7 GB STORAGE
+
+BLURAY		25GB
+
+```
+
+LEGACY
+
+```
+FLOPPY DRIVE 1.44MB. 
+
+```
+
+TAPE DRIVES
+
+```
+GOOD FOR LONG TERM ARCHIVAL STORAGE
+
+DAT DIGITAL AUDIO TAPE
+
+LTO LINEAR TAPE OPEN
+
+```
+
+PORT
+
+```
+EITHER 
+
+		ANALOGUE
+		DIGITAL
+
+```
+
+USB
+4 PINS
+5M MAX
+127 DEVICES MAX
+(5 STACKED HUBS MAX)
+
+FIREWIRE
+
+```
+IEEE 1394 
+
+A		400				4/6PIN
+
+B		800				9PIN
+
+MAX 63 DEVICES
+
+```
+
+THUNDERBOLT
+
+```
+1		10
+2		20
+3		40
+
+MAX DISTANCE. 3M.  
+
+				60M FIBER
+
+```
+
+SATA
+1	1.5G
+2	3
+3	6
+3.2	16Gbps
+
+DISPLAY
+
+```
+VGA 		15 PIN.  ANALOGUE
+
+HDMI		DIGITAL AUDIO/VIDEO
+
+DVI			VIDEO ONLY
+
+				DVI-A	ANALOGUE
+				DVI-D	DIGITAL
+				DVI-I	BOTH
+
+```
+
+SPDIF ==> ALSO CALLED TOSLINK
+
+```
+	DIGITAL SOUND
+
+```
+
+RJ45. 8 WIRES
+
+RJ11. 4 WIRES
+
+PS/2. SERIAL OLD MOUSE/KEYBOARD
+
+WIRELESS
+
+```
+NFC			10CM.   
+				NEAR FIELD COMMS
+
+IR				1M. LINE OF SIGHT
+
+BLUETOOTH.    	10M.  
+
+WIFI			30M
+					((WIFI AC==> 100M))
+
+RADIO			1000 MILES
+
+INTERFERENCE
+		MICROWAVE
+		FLUORESCENT LIGHT
+		MOTOR
+
+```
+
+WINDOWS
+
+```
+XP
+VISTA
+7
+8		2012
+8.1		2014
+10		2016
+	ANNIVERSARY EDITION (JULY)
+
+```
+
+Windows
+
+```
+FILES AND PATHS ARE NOT CASE 
+	SENSITIVE
+
+ONEDRIVE		==.  ICLOUD
+
+BITLOCKER : ENCRYPT ENTIRE HARD
+			DRIVE (EXCEPT BOOT
+			FILES NEED SMALL PARTITION
+			100MB PLAIN TEXT)
+
+	TPM CHIP REQUIRED 
+
+		TPM 1.2
+
+		TRUSTED PLATFORM MODULE
+		(STORE ENCRYPTION KEYS)
+
+	((NO TPM : USE USB STICK ))
+
+SHADOW COPY. (VSS VOLUME
+			SHADOW COPY)
+
+	INSTANT BACKUP OF VOLUME
+
+SYSTEM RESTORE : RESTORE YOUR 
+		COMPUTER
+
+		((NOTE : ONLY SYSTEM FILES
+			NOT USER DATA))
+
+DEFENDER : MALWARE
+
+ACTION CENTER : WARNS IF AV OUT OF
+		DATE OR NEED TO BACKUP
+		
+
+READYBOOST : IF RAM IS LOW THEN 
+	CAN PUT USB STICK IN AND
+	USE USB STICK AS EXTRA RAM
+
+COMPATIBILITY : FOR OLDER OS
+
+	EXE. ==> RIGHT CLICK ==> 
+		RUN IN OLDER COMPATIBILITY
+
+```
+
+WIN7
+STARTER
+HOME
+PRO
+ULTIMATE
+ENTERPRISE. (LICENSED WITH
+COMPANY KEY - VOLUME
+LICENCE)
+
+OPERATING SYSTEMS
+
+```
+SDK SOFTWARE DEVELOPMENT KIT
+
+	BUILD APPS
+
+WINDOWS : C# / C++
+
+	LIBRARY OF SYSTEM FILES
+
+		.NET
+
+WINDOWS APPS
+
+	EXE FILE.  
+	MSI FILE
+	APPX. STORE APP
+
+IOS : SWIFT/OBJECTIVE-C
+	APP		
+
+ANDROID : JAVA
+	APK.  (APP FILE EXTENSION)
+
+ALL OPERATING SYSTEMS BUILT FROM
+
+	C++
+
+```
+
+AUTHENTICATION
+
+```
+LOCAL USER
+
+	ADMIN 
+	REGULAR (NON-ADMIN)
+
+	SAM = LOCAL DATABASE OF USERS
+
+AUTHENTICATE : LOG IN
+
+	SOMETHING YOU 
+
+		KNOW (PASSWORD)
+		ARE(FINGERPRINT)
+		HAVE (SMARTCARD)
+
+MULTI-FACTOR
+		TEXT TO PHONE AS WELL
+
+```
+
+UAC USER ACCOUNT CONTROL
+
+```
+XP : MALWARE COULD INSTALL SILENTLY
+		WITHOUT USER KNOWING
+
+UAC : PROMPT USER IF ANY APPLICATION
+		IS INSTALLING OR CHANGING 
+		SYSTEM
+
+	TWO PROMPTS
+
+	1) ADMIN PROMPT. YES/NO
+	2) CREDENTIAL PROMPT IF
+		REGULAR USER : ENTER
+		ADMIN CREDENTIALS
+
+```
+
+SYSTEM FILES
+
+```
+C:\\WINDOWS\\SYSTEM32 IS WHERE WINDOWS LIVES!!!
+
+LIBRARIES
+	DOCUMENTS/MUSIC/VIDEO
+
+EXPLORER.EXE
+
+IEXPLORE.EXE
+
+FILE EXTENSIONS
+
+	.DOCX
+
+	.PDF
+
+FILE ATTRIBUTES
+
+	EVERY FILE HAS 4 CRITICAL 
+			ATTRIBUTES
+
+	R		READ-ONLY	
+	H		HIDDEN
+	S		SYSTEM
+	A		ARCHIVE (READY TO 
+						BACK UP)
+
+ATTRIB. +H. -H.   ADD/REMOVE H 
+
+	ATTRIB +H ABC.TXT
+
+	ATTRIB.         VIEW 
+
+MD= MAKE DIRECTORY
+
+CD = CHANGE DIRECTORY
+
+RD = REMOVE DIRECTORY
+
+CD ..   UP ONE LEVEL
+
+CD\\    TO ROOT
+
+DIR.      LS 
+
+DEL				ONE FILE
+COPY			ONE FILE
+XCOPY			FOLDER
+ROBOCOPY		ADVANCED
+
+/?  HELP
+
+```
+
+OSX
+man <<command>. MANUAL : HELP
+
+POE POWER OVER ETHERNET
+
+```
+SEND LIMITED POWER TO DEVICE WHICH
+	HAS NO MAINS POWER
+
+802.3AT			15 WATTS POWER
+
+802.3AF			25 WATTS POWER
+
+```
+
+Internet Roles
+
+```
+IDS
+	
+	Intrusion Detection System : ALERT IF 
+		THREAT DETECTED	
+
+IPS
+
+	Intrusion Protection System : 			attempt to take action if threat detected
+		e.g. move machine to quarantine 
+				network via dhcp???
+
+UTM
+	
+	Unified Threat Management : BIG
+		OVERALL PICTURE OF YOUR
+		THREAT DEFENCES
+			Firewall + AV + IPS + 
+			monitoring….
+
+Node
+
+	general term for ANY DEVICE
+		WHATSOEVER ON THE NETWORK
+		EG MOBILE PHONE, RASPBERRY PI
+		CLIENT, SERVER, ROUTER, SWITCH
+
+Host
+
+	Bigger device ==> HOSTING some 
+		SERVICE etc
+
+HIDS
+
+	HOST-BASED INTRUSION DETECTION
+		((PROTECTING ONE MACHINE))
+
+NIDS
+
+	NETWORK-BASED INTRUSION DETECTION
+
+		((FIREWALL/GATEWAY IE PROTECTS
+			WHOLE NETWORK))
+
+```
+
+CLOUD SERVICES
+
+```
+WHY CLOUD??
+
+	HOSTING LOCALLY
+
+	++
+
+			LAN SPEEDS (GIGABIT)
+			HOST HUGE FILES EG
+			VIDEOS WITH EASE
+
+			YOUR SECURITY IS IN YOUR 
+				HANDS!!!
+
+	--
+
+		COSTS : BUY EVERYTHING
+			STAFF, MAINTENANCE,
+			BUILDING SPACE, 
+			POWER, UPKEEP, 	
+			UPDATES, COPE WITH
+			FAILURE ==> HEADACHE
+			OF MANAGING…
+
+	HOSTING IN CLOUD
+
+	++
+
+		OFFSITE RECOVERY AND
+		BACKUP ALWAYS AVAILABLE
+
+		SCALABILITY : AUTOMATICALLY
+			SET CLOUD TO SCALE UP
+			(HIGHER SPEC)
+			AND OUT (MORE MACHINES)
+
+		FINE PERMISSIONS 
+
+	__	
+
+		DELAY : WAIT FOR OTHERS TO 
+						SERVE YOU
+
+		SERVICES DO COST !!!
+
+		PAY FOR GOOD PIPE TO INTERNET
+
+		INTERNET GOES DOWN ==> NO
+			ACCESS TO ANYTHING!!!
+
+```
+
+CLOUD SERVICES
+
+```
+SAAS
+
+	SOFTWARE AS A SERVICE
+
+		LOG IN AND USE CLOUD
+		SOFTWARE WHICH SOMEONE
+		ELSE HAS BUILT EG FACEBOOK
+
+PAAS
+
+	PLATFORM AS A SERVICE
+
+	CITRIX OR REMOTE DESKTOP
+
+	CLIENT : LOG IN AND GAIN ACCESS
+		TO VIRTUAL DESKTOP
+			EG MANAGING SERVER
+					/ COLLEGE WORKSPACE
+
+	“HOT DESK”. :  EMPLOYEES COME
+			IN AND RENT A SPACE : 
+			LOG IN TO VIRTUAL DESKTOP 
+
+IAAS
+
+	INFRASTRUCTURE AS A SERVICE
+
+	MOST EXPENSIVE
+
+	THINK CONSTRUCTION SITE : 
+		EQUIVALENT OF BUYING PLOT
+		OF LAND, CLEARING FROM SCRATCH
+		AND RE-BUILDING FROM SCRATCH
+
+	 BUILD	
+		1) VIRTUAL NETWORK (SWITCH/
+				ROUTER)
+		2) SERVERS
+		3) CONFIGURE SERVERS  
+		4) SET UP SERVICES	
+
+```
+
+CLOUD TYPES
+
+```
+PRIVATE
+
+	YOU OWN DEDICATED HARDWARE
+		BASED IN DATA CENTRE
+
+PUBLIC
+
+	YOU RENT SPACE; MANY OTHERS
+		SHARING SAME SERVER 
+			((EG BLACKNIGHT WEB 
+				HOSTING))
+
+COMMUNITY
+
+	2 OR 3 COMPANIES GET TOGETHER
+		FOR A PROJECT AND SHARE
+		COST AND RUNNING OF A PRIVATE
+		SERVER
+
+HYBRID
+
+	MIX OF ABOVE
+
+```
+
+SECURITY
+
+```
+POLICY
+
+	WRITTEN DOCUMENTATION AS TO
+		WHAT SHOULD HAPPEN!!
+
+COMPLIANCE
+
+	REPORTING ON WHO / WHICH 
+	MACHINES ARE VALID AND
+	KEEPING POLICIES CORRECTLY
+
+GROUP POLICY
+
+	COMPUTER ==> MACHINE
+
+	USER ==> INDIVIDUAL
+
+	POLICY : FIXED
+	PREFERENCE : USER CAN CHANGE
+
+PASSWORD POLICY
+
+	COMPUTER => POLICY => 
+		SECURITY ==> ACCOUNT
+
+	COMPLEXITY
+
+		3 OUT OF 4 CATEGORIES:
+			UPPER, lower, 12345, !@£$%%^
+
+LOCKOUT POLICY
+
+	LOCK COMPUTER FOR X MINUTES			AFTER Y FAILURES
+
+LEAST PRIVILEGE
+
+	GIVE USER MIN PERMISSIONS
+		TO DO JOB
+
+SOCIAL NETWORKING
+
+	TAKE CARE!!! LEGAL CONSEQUENCES
+		JUST PERSONAL COMMENTS
+
+SOCIAL ENGINEERING
+
+	HUMAN TRICKERY TO DECEIVE
+		OR GAIN ACCESS TO COMPUTER
+		SYSTEM
+
+		EG KEYLOGGER TO DETECT 
+				EVERY KEYSTROKE
+
+			DUMPSTER DIVING : GOING
+				THROUGH TRASH FOR 
+				CONFIDENTIAL STUFF
+
+			SHOULDER SURF : WATCH
+				PEOPLE TYPE PASSWORDS
+
+			TEL CALL TO IMPERSONATE
+				ENGINEER
+
+```
+
+AUTHENTICATION
+
+```
+WHAT YOU 
+	KNOW					PASSWORD
+
+	ARE						BIOMETRIC
+
+			FINGER, RETINA, VOICE,
+			FACIAL RECOGNITION
+
+	HAVE					SMART CARD
+
+	MULTIFACTOR
+
+			TEXT TO PHONE AS WELL
+
+			OTP ONE TIME PASSWORD
+
+	MUTUAL
+
+		NORMAL AUTHENTICATION IS
+			ONE-WAY : CLIENT 
+			HAS TO AUTHENTICATE INTO 
+			SERVER
+
+		BUT!!!
+
+		WHAT IF 2 SERVERS WISH TO TALK?
+
+			EACH HAS TO AUTHENTICATE
+			THE OTHER ==> MUTUAL
+
+			USE
+					1) 802.1X ENABLES TWO
+							SERVERS TO TALK
+					2) SWAP CERTIFICATES TO
+							TRUST EACH OTHER
+
+```
+
+ENCRYPTION
+
+```
+	MAKING SURE 
+
+		PLAIN TEXT DATA CHANGED
+
+		INTO ‘CIPHER TEXT’ SO 
+
+		UNREADABLE BY HACKERS
+
+```
+
+TOOLS
+
+```
+PHILLIPS :     X HEAD
+
+TORX	     :     STAR HEAD
+
+CHIP EXTRACTOR
+
+CABLE CRIMPER
+
+	RJ45 ONTO NETWORK CABLE
+
+		CAN’T UNDO ==> CUT AND
+					START AGAIN
+
+CABLE TESTER
+
+	EG NETWORK CABLE / MAINS
+
+PUNCH DOWN TOOL/BLOCK
+
+MULTIMETER
+
+		AMPS/VOLTS/RESISTANCE
+
+```
+
+ANTI-STATIC
+
+```
+GOAL : ENSURE ANY EXCESS CHARGE
+		SENT TO GROUND (ZERO VOLTS)
+	
+STRAP
+			REMOVE RAM FROM PC
+			STRAP ATTACHED TO CASE 
+					(NEARLY SAME AS EARTH)
+
+GROUNDING MAT
+
+		COMPONENTS
+
+BAG
+
+		BUY NIC FROM SHOP 
+
+```
+
+CLOTHS/WIPES/CLEANING
+
+```
+EXAM: ALCOHOL-BASED WHICH
+				EVAPORATE INSTANTLY
+
+LINT-BASED CLOTH : DOES NOT LEAVE
+		‘THREADS’ INSIDE COMPONENTS
+
+```
+
+HEALTH AND SAFETY
+
+```
+POWER
+
+	EXAM
+
+		CARE!  
+
+			PSU SHOULD NEVER 
+				BE OPENED : BIN
+				AND BUY NEW
+				(DON’T FIX)
+			
+			LASER PRINTER : 600V
+				INSIDE SO CARE WHEN
+				OPENING
+
+			CRT OLD STYLE MONITOR
+				(CATHODE RAY TUBE)
+				HIGH VOLTAGE INSIDE
+				+ VACUUM : GLASS
+				CAN IMPLODE
+
+```
+
+FIRE
+
+```
+NON-ELECTRICAL			WATER (RED)
+
+OIL						FOAM (YELLOW)
+		OR USE WET RAG
+
+ELECTRICAL		C02 GAS. (BLACK)
+
+DATACENTER.  INERT GAS (HALON,
+			ARGON)
+
+	(((LIQUID GEL COOLING)
+
+```
+
+CABLING
+
+```
+LIVE
+NEUTRAL
+EARTH. ===> CONNECTED TO GROUND!!!
+
+		((LIGHNING CONDUCTOR ALSO
+			TO GROUND))
+
+```
+
+EXAM
+
+```
+	LASER : TAKE CARE WITH EYE
+
+	RSI : TYPING TOO MUCH!
+
+```
+
+POWER
+
+```
+SAG					DIP
+
+BROWNOUT	LOSE POWER
+						SHORT WHILE (1/2 SEC)
+
+BLACKOUT		POWER CUT
+
+SURGE			FLICK SWITCH, SURGE
+						HITS CIRCUIT (EXCESS
+						OF POWER)
+
+SPIKE				SEVERE EG LIGHNING
+
+```
+
+UPS
+UNINTERRUPTIBLE POWER
+
+```
+	CLEANING OF INPUT SIGNAL
+
+GENERATOR
+
+```
+
+LIQUID HAZARDS
+
+```
+MSDS. MATERIAL SAFETY DATA SHEET
+
+	INSTRUCTIONS HOW TO HANDLE
+		DANGEROUS LIQUIDS AND WHAT
+		TO DO IF SPILLAGE OR GETS
+		ON SKIN
+
+```
+
+FORENSICS
+
+```
+SCIENCE OF INVESTIGATING A CRIME
+
+VOLATILE DATA
+
+	QUICKLY VANISH EG RAM IN LIVE PC
+
+		==> IMAGE COMPUTER ASAP
+
+CHAIN OF CUSTODY
+
+	SIGN FOR OWNERSHIP OF
+		PC & DATA SO DATA IS
+		ACCOUNTED FOR AT ALL TIMES
+
+```
+
+AUP
+
+```
+USER SIGNS : AGREES TO USE
+		COMPUTERS FOR APPROVED
+		USE
+
+```
+
+PII
+
+```
+PERSONALLY IDENTIFIABLE INFO
+
+		NI NO; 
+		DATE OF BIRTH
+		PASSPORT
+
+```
+
+LICENSING
+
+```
+EULA. :   END USER LICENCE AGREEMENT
+
+DRM.    DIGITAL RIGHTS MANAGEMENT
+
+GPL. : OPEN SOURCE
+
+		GENERAL PUBLIC LICENCE
+
+		GNU ALSO
+
+MIT : GIT CODE : FREE AND OPEN FOR ALL
+
+```
+
+DISPLAY (CH 5)
+
+DISPLAY TYPES
+
+```
+CRT CATHODE RAY TUBE
+
+	HIGH VOLTAGE 600V TO FIRE 
+		RAY OF ELECTRONS AT A
+		PHOSPHOR SCREEN TO CREATE
+		IMAGE
+
+LCD LIQUID CRYSTAL DISPLAY
+
+	CRYSTAL IS SUSPENDED IN LIQUID
+	TURN WITH ELECTRIC FIELD : GOES
+	LIGHT OR DARK
+
+LED LIGHT EMITTING DIODE (OLDER)
+
+OLED ORGANIC LED
+
+PLASMA (OLDER)
+
+4K
+
+```
+
+RGB RED GREEN BLUE
+
+```
+	COLOUR WHEN TRANSMITTING LIGHT
+	EG LIGHT BULB, MONITOR
+
+		<<<HTML COLOR PICKER>>>
+
+```
+
+CMYK COLOR : REFLECTED LIGHT
+
+```
+	PAPER DOES NOT TRANSMIT 
+		((JUST REFLECT))
+
+		4 COLORS IN PRINTER
+			CYAN, MAGENTA, YELLOW, BLACK
+
+```
+
+VIDEO PORTS
+
+VGA
+
+```
+	15 PIN ANALOGUE
+
+```
+
+DVI
+
+```
+OLD
+		DVI-A. ANALOGUE
+		DVI-D DIGITAL
+		DVI-I.  BOTH 
+
+```
+
+HDMI
+
+```
+	DIGITAL VIDEO + SOUND
+
+```
+
+DISPLAY PORT
+
+```
+AUDIO + VIDEO
+
+```
+
+RCA
+
+```
+COMPOSITE YELLOW 
+
+COMPONENT RGB VIDEO
+
+```
+
+TV CABLE
+
+```
+	COAX. (THICK CORE + OUTER
+						PROTECTOR)
+	RG-58
+	BNC CONNECTOR
+
+```
+
+ASPECT RATIO
+
+```
+	16:9			CINEMA
+
+	4:3			STANDARD SCREEN
+
+```
+
+RESOLUTION
+
+```
+NUMBER OF PIXEL ON SCREEN
+
+VGA				640X480
+SVGA			800X600
+XVGA			1024X768
+
+```
+
+DOT PITCH : DISTANCE ONE PIXEL TO NEXT
+
+REFRESH RATE : 60HZ
+
+BRIGHTNESS : LUMENS ((ENERGY/METRE
+SQUARED))
+
+CONTRAST RATIO. : WHITE : BLACK
+
+```
+		500: 1     POOR SCREEN
+
+		2000:1.   GOOD SCREEN
+
+```
+
+SYSTEM INFORMATION
+
+```
+MSINFO32
+
+```
+
+DEVICE MANAGER
+
+```
+LIST OF ALL HARDWARE ON PC
+
+	DRIVERS
+
+		((DRIVER IS SOFTWARE WHICH
+				MAKES HARDWARE WORK ))
+
+			.INF 
+				SOURCE FILE WHICH 
+				HAS INFO ON DRIVER PACKAGE
+
+	UPDATE DRIVER
+
+		((FAILS ==> ROLL BACK))
+
+```
+
+KVM SWITCH
+
+```
+KEYBOARD VIDEO MOUSE : ONE 
+		MONITOR TO MANAGE MANY
+		SERVERS
+
+```
+
+MOTHERBOARDS
+
+```
+FORM FACTOR.  SIZE/SHAPE
+
+	ATX
+
+	BTX ==> BETTER AT HEAT DISSIPATION
+						(DID NOT TAKE OFF)
+
+	MINI-ATX
+
+	ITX		MINI, NANO, PICO
+
+```
+
+VOLTAGES
+
+```
+	12, 5, 3,3 (CPU)
+
+```
+
+EXPANSION SLOTS
+
+```
+ISA OLDEST
+PCI CURRENT
+AGP OLD GRAPHICS
+PCIe.  X 1.  NIC / TV CARD ****
+PCIe.  x 16.  GRAPHICS CARD
+
+		250 MBps.  One channel
+		4.    GBps.  16 channels
+
+		((note : PCIe versions now go up to 
+				v4 which has 64GBps max))
+
+PCI-X. ** wrong answer in exam *** 
+					SERVER-SIDE CARD
+
+```
+
+CHIPSET
+
+```
+NORTHBRIDGE + SOUTHBRIDGE DEFINES
+		CHIPSET ==>
+
+			INTEL
+			AMD
+
+```
+
+SOCKET TYPES
+
+```
+PENTIUM III.   VERTICAL CARTRIDGE
+
+PGA PIN GRID ARRAY.     PINS BROKE!
+
+LGA LAND GRID ARRAY.   
+					BUMPS NOT PINS
+
+		SOCKET T 			775 PINS
+
+						H1		1156
+						H2		1155
+
+							H1/H2. I3/i5/i7/Xeon
+
+						upgraded further
+
+						H3		1150.  (Replace H2)
+
+						B			1366. HIGH END
+											   CORE I7
+
+						R			2011	   REPLACED 
+											   1366 
+
+INTEL
+	CHEAP BRANDS CELERON / DURON
+
+	XEON : HIGH SERVER END
+
+AMD
+	ATHLON : NORMAL BRAND
+	CHEAP : SEMPRON
+
+```
+
+CPU TECH. (225)
+
+```
+FSB = FRONT SIDE BUS = SYSTEM BUS
+		= MAIN TRANSPORT AROUND
+			FAST PART OF COMPUTER
+
+CLOCK SPEED 1333MHZ
+
+		(OLDEST 100MHZ)
+
+CLOCK MULTIPLIER
+
+	X10 INSIDE CPU SO SYSTEM BUS
+		SPEED GETS MULTIPLIED
+		SO CPU GOES MUCH FASTER
+
+OVERCLOCK : INCREASE SPEED
+
+				(MANUAL)
+
+THROTTLE
+		LAPTOP : AUTO-DECREASE CPU
+						SPEED TO SAVE BATTERY
+
+HYPERTRANSPORT
+
+	NORTHBRIDGE AND SOUTHBRIDGE
+		DISAPPEARED==> INTO CPU
+
+HYPERTHREADING
+
+	ONE PHYSICAL CORE APPEAR AS
+	TWO VIRTUAL CORES : USE
+	MULTI-CORE TECHNOLOGY EVEN
+	THOUGH ONLY ONE CORE!
+
+VIRTUALIZATION CHIPS
+
+	INTEL-VT				AMD-V
+
+			
+VRM VOLTAGE REGULATOR MODULE
+
+MMX PENTIUM MULTIMEDIA EXTENSIONS
+		(GRAPHICS)
+
+```
+
+COOLING (228)
+
+```
+HEAT SINK
+
+	MAXIMISE SURFACE AREA
+
+		FINS ==> HEAT CAN DISSIPATE
+
+THERMAL PASTE ==> PROVIDES MAX
+		CONDUCTIVITY OF HEAT FROM CPU
+
+FAN : BLOW AIR FROM HEAT SINK
+
+```
+
+POWER. (233)
+
+```
+12/5/3.3 VOLTS
+
+MOLEX : STANDARD POWER
+
+BERG : FLOPPY
+
+SATA : THIN (((15 PIN)))
+
+MOTHERBOARD :   20/24 PIN 
+
+```
+
+FORMULAE
+
+```
+VOLTAGE ==> PUSH (PRESSURE) ON 
+			A CIRCUIT (THINK WATER 
+				HOSE : HIGH PRESSURE)
+
+					VOLTS
+
+CURRENT : FLOW OF ELECTRONS
+
+					AMPS.  
+
+RESISTANCE    V =  I  X.  R
+
+					I = CURRENT
+
+POWER = ENERGY FLOWING
+
+		POWER (WATTS) = V X I
+
+```
+
+CARE!!!! UNPLUG ALL EQUIPMENT AND TURN
+SWITCHES OFF WHEN DEALING
+WITH ALL ELECTRONICS
+
+RAM (252)
+
+```
+BANK IS A CHIP ON A STICK OF RAM
+
+FIRST RAM 
+
+	SINGLE-SIDED
+
+		SIMM SINGLE INLINE MEMORY MODULE
+
+		72 PIN
+
+	DOUBLE SIDED
+
+		DIMM DUAL INLINE MEMORY MODULE
+
+		144 PIN
+
+	DRAM. DYNAMIC RAM
+
+		MUST BE REFRESHED OR DATA WILL 
+			BE LOST
+
+	SDRAM SYNCHRONOUS DYNAMIC RAM
+
+			SYNCHRONOUS : REFRESH RAM
+					WITH CLOCK PULSE
+
+			CHEAP
+
+	SRAM : STATIC RAM : EXPENSIVE INSIDE CPU
+				((DOES. NOT NEED TO BE REFRESHED))
+
+```
+
+RAM PINS
+
+```
+72				FIRST SIMM
+
+144			FIRST DIMM
+
+168			SDRAM
+
+184			DDR RAM 
+								X2.    DOUBLE DATA RATE
+
+240			DDR2		X4
+
+240			DDR3		X8
+
+```
+
+LAPTOP
+
+```
+SO-DIMM		SMALL-OUTLINE DIMM
+
+						(LAPTOP RAM)
+
+							SHORTER, WIDER
+
+144		SDRAM
+
+200		DDR
+
+200		DDR2
+
+204		DDR3
+
+```
+
+PARITY RAM
+
+```
+	1010 1110.       ADD UP BITS : ODD/EVEN?
+
+						ODD ==> ADD PARITY BIT 1
+						EVEN ==>.       PARITY.       0
+
+	1010 1110.   1				1 IS PARITY BIT
+
+		RAM STICK WITH 9 CHIPS NOT 8
+
+		!!!! CHECKING SLOWS RAM !!!
+
+```
+
+ECC RAM
+
+```
+ERROR CORRECTING CODE
+
+		NOT ONLY DETECT ERROR
+		TRY TO FIX MEMORY FAULTS ALSO!!!
+
+	!!!! SLOW, SERVER SIDE RAM !!!
+
+```
+
+PAIRING UP RAM
+
+```
+DUAL-CHANNEL RAM MUST BE IN PAIRS
+
+```
+
+((((OLD RIMM STICKS WERE IN PAIRS ALSO
+((ONE CRIMM WAS BLANK ‘CONTINUITY’
+RIMM)))
+
+RAM TROUBLESHOOTING
+
+```
+FAULTY RAM			POST TEST : BEEP AT YOU
+
+NOT IN PAIRS			AS ABOVE : PC WILL NOT START / OR WILL
+									BEEP AT YOU
+
+									((RIMM OLD RAM ==> CRIMM IS A BLANK
+										         “CONTINUITY RIMM))
+
+MEMORY ERROR.     SPURIOUS : ONE-OFF : RESTART 
+
+```
+
+STORAGE
+
+```
+FLOPPY 		
+		BERG POWER
+		34 PIN
+		1.44 MB SIZE DRIVE
+
+IDE 	
+	OLD	
+	40-PIN RIBBON 		
+	ONE RIBBON : 2 DRIVES MAX   (END = MASTER, MIDDLE = 
+										                            SLAVE DRIVE)
+
+	JUMPER TO SET DRIVE. MASTER/SLAVE
+
+HARD DRIVE 
+		2.5 LAPTOP
+		3.5 FULL PC SIZE
+
+RAID  (265)
+
+		COMBINE DRIVES AS ONE “VOLUME”
+
+		RAID 0				NO REDUNDANY (FAILURE CAPABILITY)
+
+								SUPER FAST !!!    GAMING / WEB SERVER
+
+		RAID 1				MIRROR : 2 DRIVES.  (COST : 50% OF 
+											                             SPACE)
+
+		RAID 5				3 - 32 DRIVES
+								STRIPING WITH PARITY
+								PROTECTION DATA : LOSE ONE DRIVE
+								STILL KEEP DATA
+
+		RAID 0+1.  1+0			    BOTH RAID 0 AND RAID 1 
+
+		RAID 6			DOUBLE RAID 5 : CAN LOSE 2 DRIVES AND 
+								STILL KEEP YOUR DATA
+
+```
+
+WINDOWS 10 : STORAGE SPACES : POOLS OF HARD DRIVES
+
+```
+	“STORAGE SPACE”  :   POOL OF DATA ACROSS MULTIPLE 
+											                 DRIVES
+
+	“THIN PROVISIONING”.   SAY SIZE IS 100TB. BUT ONLY 
+									PROVIDE 5TB.     ADD SPACE  WHEN
+								                                    NEEDED
+
+	USER : THINK THEY HAVE 100TB
+	ACTUAL : 5TB       ==> SERVER ADMIN ADD SPACE WHEN
+										GETS TO THIS LIMIT
+
+```
+
+FIRMWARE (268)
+
+```
+BIOS : ROM CHIP : FIXED INSTRUCTIONS FOR MOTHERBOARD
+
+		FLASH : UPDATE
+
+CMOS : RAM : 
+
+```
+
+BOOT COMPUTER
+
+```
+MBR : OLD.
+
+		MASTER BOOT RECORD : ONE FILE ON HARD DRIVE : 
+					PARTITION INFO
+
+				2TB MAX
+				4 PARTITIONS MAX
+
+UEFI
+		128 PARTITIONS
+		UNLIMITED SPACE
+		SECURE BOOT : HASH BOOT FILES (ENSURE VIRUS HAS
+						CORRUPTED)
+
+```
+
+HARD DRIVE TOOLS (276)
+
+```
+DEFRAG :   PUT BACK LARGE FILES AS WHOLE UNITS AGAIN 
+							(IF THEY GET SPLIT UP)
+		
+		LOTS OF SMALL PARTS : PERFORMACE WILL SUFFER	
+
+CHKDSK.  : CHECK DISK FOR FAULTS
+
+		/F.     FIX FAULTS
+		/R.    REPAIR : GO THROUGH DRIVE IN MORE DETAIL
+
+FORMAT.    FORMAT C: /FS:NTFS.        Format as NTFS
+
+CONVERT.   FROM FAT32 TO NTFS.   CONVERT C: /FS: NTFS
+
+DISKPART.   CREATE / MANAGE PARTITIONS. ==> LABS LATER
+
+FDISK ==> WINDOWS 98 ==> WRONG ANSWER!!!
+
+```
+
+CRITICAL WINDOWS RECOVERY
+
+```
+WINDOWS DOESN’T BOOT!!!
+
+	BOOT FROM DVD
+
+			==> WINRE.  “RECOVERY ENVIRONMENT”
+
+			COMMAND LINE TO ACCESS WINDOWS ‘OFFLINE’
+
+					BOOTREC.  /REBUILDBCD
+
+							BCD ==> BOOT CONFIGURATION DATA 
+									(WINDOWS 7 BOOT INSTRUCTIONS)
+
+					BOOTREC /FIXBOOT
+					BOOTREC /FIXMBR
+
+```
+
+HARD DRIVE DOES NOT BOOT!!!
+
+```
+	MBR  MISSING
+
+```
+
+HARD DRIVE : CLICKING ==> MAY IMMINENTLY FAIL : GET DATA OFF NOW!
+
+SMART MONITORING : UTILITY : HEALTH OF DRIVE
+
+VIRTUALIZATION (286)
+
+```
+SOFTWARE VIRTUALISATION
+
+	OLD : SLOW
+
+									VM GUEST
+	
+						APPS : VM HOST
+
+						====GUI===========
+
+						===== SHELL ========.          COMMAND LINE
+											                            (LINUX : BASH)
+
+						===== SECURITY======.        LOGIN
+
+						=====KERNEL========.         CORE OF OS
+
+						=====. HAL ===========.   HARDWARE   
+                                                                      ABSTRACTION LAYER
+			
+						======HARDWARE=====
+
+HARDWARE VIRTUALISATION
+
+		
+						== VM GUESTS ==
+		
+						== HYPERVISOR==.   (MINI OS)
+										                  WINDOWS : HYPERV
+                                                          VMWARE : ESX-I
+
+						== HARDWARE ===.        BARE METAL
+
+					VM GUESTS GET REAL ACCESS TO REAL RAM,
+						REAL NIC SO CAN BE VERY FAST
+
+TYPE 1/2
+		
+		UP TO WINDOWS 7. 	TYPE 1
+		WIN8, WIN10              TYPE 2. : UEFI BOOT
+
+				WIN10 HAS HYPERV BUILT IN!!
+
+```
+
+Windows Spec
+
+```
+						CPU				RAM           HDD
+
+Win7 x86			1GHz			1GB           16GB
+		 x64			1GHz			2GB           20GB
+
+Win10
+		same as Win7
+
+x86. ==> 32 bit
+
+			History : first chips Intel 8086 
+			80286 ,  80386, 80486. ==> PENTIUM
+
+```
+
+INSTALLING
+
+```
+	CLEAN INSTALL
+
+	UPGRADE
+
+	DEPLOYMENT : SERVER HOLDING ‘IMAGE’
+
+		WINDOWS IMAGE HELD INSIDE ‘WIM’ FILE
+
+				VIEW : DVD : SOURCES FOLDER
+
+						1) BOOT. WIM.  ==>  INSTALL SCREENS
+
+						2) INSTALL.WIM. ==> WIN7/10
+
+						NOTE : ONE WIM FILE CAN HOLD MULTIPLE
+							VERSIONS OF OS 
+								HOME/PRO/ENTERPRISE…
+
+								INDEX = 1/2/3. EACH VERSION
+
+				DISM : MANUALLY LOAD WIM IMAGES AND 
+								UPDATE THEM
+
+```
+
+INSTALLING WINDOWS : PARTITIONS. (298)
+
+```
+MBR : 4 PRIMARY (BOOTABLE) PARTITIONS MAX
+
+UEFI : 128 PARTITIONS
+
+BOOT PARTITION : WHERE OS LIVES (THAT COMPUTER
+								 			IS BOOTING FROM)
+
+SYSTEM PARTITION : WHERE MBR/UEFI FILES LIVE
+				(USUALLY C:\\ DRIVE OR UNNAMED DRIVE)
+
+ACTIVE PARTITION : GOES LIVE WHEN TURN PC ON	
+			LAB : DISKMGMT.MSC
+
+DISKPART
+	LIST DISK
+	SELECT DISK 1
+	CREATE PARTITION PRIMARY SIZE=500
+	LIST PARTITION
+
+BASIC PARTITION : STANDARD (ALL ON ONE DISK)
+
+DYNAMIC VOLUME  :  CAN COPE WITH SPACE ACROSS
+									MULTIPLE DRIVES EG RAID
+
+				PARTITION ==> ONE DRIVE ONLY
+				VOLUME.   ==>. CAN SPAN MULTIPLE DRIVES
+
+PRIMARY PARTITION : BOOTABLE
+
+LOGICAL PARTITION : SHELL TO PUT EXTRA 
+			(NON-BOOTABLE) EXTENDED PARTITIONS IN				
+				
+	PRIMARY.   PRIMARY.  PRIMARY.  LOGICAL
+										                        EXTENDED1
+					                                            EXTENDED2..
+
+```
+
+FILING SYSTEMS
+
+```
+FAT16
+FAT32. FLASH ==> NO SECURITY
+	32GB PARITION MAX
+EXFAT		EXTENDED FAT. (64 BIT FAT)
+CDFS.   	CD
+UDF			DVD
+NTFS
+NFS			NETWORK FILING SYSTEM : UNIX
+EXT3/4		LINUX
+SMB			SAMBA SHARES
+CIFS			UPGRADE TO SMB
+
+CLUSTER SIZE : SMALLEST UNIT FOR SAVING DATA ON
+			A HARD DRIVE
+
+		SPINNING DRIVE
+
+			TRACK ==> SPLIT INTO SECTORS ==> GROUP INTO
+											                                   CLUSTERS
+
+			ACTUATOR MOTOR : DRIVE THE SPEED 5400RPM
+
+			READ-WRITE HEAD. 
+
+				
+NTFS
+			PERMISSIONS
+						ACL			ACCESS CONTROL LIST (OF USERS)
+
+						ACE			ACCESS CONTROL ENTRY (
+										                OF PERMISSIONS)
+
+			COMPRESSION
+	
+			ENCRYPTION
+
+```
+
+WINDOWS
+
+```
+HOMEGROUP
+
+		EASY SHARING FOR NON-TECH HOME USERS
+
+		1. CREATE HOMEGROUP 
+
+					==> GET PASSWORD
+
+		2) SECOND MACHINE : RUN HOMEGROUP. :PUT 
+							IN PASSWORD
+
+			==> SHARE EG MUSIC FILES
+
+```
+
+UPDATES
+
+```
+FEATURE UPDATES : IMPROVE WINDOWS
+
+SECURITY UPDATES
+
+WIN10 : ROLLING UPDATES ALL THE TIME NOW
+
+	PEER-TO-PEER MECHANISM : GET UPDATES FROM
+			PEER COMPUTERS / INTERNET
+
+WIN7 ==> UPGRADE TO WIN7.1.  (SERVICE PACK)
+
+WIN8.  ==> 8.1.  
+
+WIN10. ==> ANNIVERSARY EDITION
+
+CABINET FILE : ZIP FILE WITH EG UPDATE
+
+		EXPAND TO VIEW CONTENTS
+
+ACTIVATE : ONLINE OR BY PHONE : LICENCE KEY
+
+		RETAIL LICENCE : KEY FROM SHOP
+
+		VOLUME LICENCE : ONE KEY FOR COMPANY
+
+		SLMGR /ATO    ACTIVATE ONLINE
+			         /DLI.    DISPLAY LICENCE INFO
+
+```
+
+WINDOWS TOOLS
+
+```
+UAC 	:    USER ACCOUNT CONTROL
+	
+			FLAG : ABOUT TO CHANGE —> ARE YOU OK? Y/N
+
+EVENT VIEWER
+
+			LOGS ON COMPUTER
+
+				SYSTEM
+				SECURITY
+				APPLICATION
+
+```
+
+TOOLS (311)
+
+```
+TASK MANAGER
+
+		CPU, RAM 		
+
+RESOURCE MONITOR. (RESMON)
+
+		ADVANCED TASK MANAGER
+
+PERFORMANCE MONITOR
+
+		ADVANCED : DETAILED GRAPHS
+
+RELIABILITY MONITOR
+
+		SHOWING CRASHES OVER TIME
+
+MSCONFIG
+					==> STARTUP ITEMS
+MSINFO32
+					SYSTEM INFO
+
+PSR.EXE PROBLEM STEPS RECORDER
+
+```
+
+FIREWALL
+
+POWER
+
+```
+	POWER PLAN. : BALANCED, HIGH/LOW POWER
+
+	ACPI. :   WINDOWS POWER MANAGEMENT
+
+			(APM IN WINXP)
+
+SLEEP : KEEPS RAM ALIVE
+
+HIBERNATE : PUTS RAM INTO HARD DRIVE (HIBERFIL.SYS). :   
+							PC IS OFF
+
+```
+
+CUSTOM ENVIRONMENTS (CH12). (407)
+
+```
+	** SIMULATION QUESTIONS **
+
+	MAINFRAME
+
+			THIN CLIENT : GREEN SCREEN FOR DISPLAY
+
+	CITRIX/Remote Desktop SERVER
+
+			THIN CLIENT : CITRIX/RDP CLIENT
+
+	THICK CLIENT : MAC/WINDOWS/LINUX/IOS/ANDROID
+								RUNNING FULL OS
+
+	
+	HIGH END SETUPS (411)
+
+		CAD : COMPUTER AIDED DESIGN
+		CAM : COMPUTER AIDED MANUFACTURE
+
+				==> HIGH CPU + GRAPHICS + LARGE RAM + MULTI-
+											                                            DISPLAY
+
+										       GPU : GRAPHICS CPU
+
+		MULTIMEDIA EDITING
+
+				AUDIO/VIDEO CARD + GPU GRAPHICS + MULTI 
+										DISPLAY
+
+		GAMING
+
+				…
+
+		HOME THEATRE
+
+			HIGH RAM + GRAPHICS + HDMI + TV TUNER
+
+```
+
+NETWORKING (419)
+
+```
+FIBER
+
+		CONNECTORS
+						SC.    ST.    MT-RJ     FC (FERRULE, STRONG)
+
+										APC ANGLED PHYSICAL CONNECTOR
+		SPEED
+
+				MONOMODE (SINGLEMODE).  £££ FIBER.   50KM
+					
+				MULTIMODE.            CHEAP LED                    2KM
+
+```
+
+WIFI
+
+```
+	802.11
+
+	TYPES
+
+					SPEED			  FREQ
+
+	A						========
+
+	B				11						2.4
+
+	G				54					2.4
+
+	N				300+					2.4 AND 5
+
+	AC			3000+			             5				
+
+```
+
+LEGACY TECHNOLOGY
+
+```
+	RS-232 = OLD SERIAL LINE
+
+```
+
+ISDN
+
+```
+	ONE LINE 			64K
+
+	BRI				2LINES		128K
+
+	PRI				23 LINES		1.5M
+
+	T1									1.5M
+
+	E1				31 				2M
+
+	DS3				480 LINES 	45M
+
+	CSU/DSU				DIGITAL MODEM
+
+```
+
+3G/4G
+
+```
+	EDGE / GSM / CDMA 
+
+```
+
+20/21	FTP
+22	SSH
+23	TELNET
+25	SMTP
+53	DNS
+67/8	DHCP
+80	HTTP
+110	POP
+143	IMAP
+137-139	NETBIOS
+443	HTTPS
+3389	RDP
+
+LDAP
+USED TO CREATE ACTIVE DIRECTORY
+
+```
+PORT 389
+
+CN=“PHIL ANDERSON”,OU=“EMPLOYEE”,DC=MICROSOFT,DC=COM
+
+		OU = FOLDER IN ACTIVE DIRECTORY
+
+```
+
+SNMP SIMPLE NETWORK MANAGEMENT PROTOCOL
+
+```
+	USED TO MANAGE 50 ROUTERS ALL ROUND WORLD
+	
+		KEEP TABS ON UPTIME, AND OTHER STATS
+
+		ROUTER/SWITCH. ==> INSTALL ‘AGENT’
+
+				CENTRAL DB. (MIB MGT INFO DB)
+
+				STATS : 1) HEARTBEAT. 
+
+										30/60 SECS : I AM ALIVE
+
+							2) STATS : MB THROUGHPUT OR OTHER
+
+											  UPTIME …
+	PORT 161
+
+```
+
+TOOLS
+
+```
+TONE GENERATOR : CLIP ONE CLIP TO END OF WIRE
+
+				GO TO SERVER CABINET : MAKE SOUND WHEN
+						APPROACH OTHER END
+
+```
+
+WINDOWS TOOLS
+
+```
+NBTSTAT -c   CACHE.    -n. NAMES
+
+	OLD : NETBIOS NAMES 
+
+NETSTAT -a. ACTIVE.  -n. BY NUMBER
+
+	CURRENT NETWORK STATS
+
+NET
+	
+	NET USE.  \\\\SERVER\\SHARE.  Y:   MAP SHARE
+
+	NET SHARE.  C:\\SHAREME2. \\\\WIN7PHIL\\SHARE2
+
+	NET STOP <<SERVICE>>
+
+	NET START <<SERVICE>>
+
+	NET VIEW     ==> ALL SHARES
+
+```
+
+((Page 460))
+
+IPCONFIG
+
+```
+SHOW IP address, MASK, GATEWAY
+
+/ALL				SHOW DNS SERVERS AND MAC address
+
+/RELEASE		GET RID OF IP address
+
+/RENEW			ASK FOR NEW IP
+
+/DISPLAYDNS		DISPLAY CACHED DNS ENTRIES
+
+/FLUSHDNS			REMOVE DNS CACHED ENTRIES
+
+```
+
+NETWORK LOCATIONS
+
+```
+PROFILE IS EITHER
+
+	WORK. (FIREWALL IS OPEN)
+	HOME (FIREWALL IS OPEN)
+	PUBLIC (FIREWALL CLOSED, LOCKED DOWN)
+
+```
+
+NETWORK TOOLS
+
+```
+WOL WAKE ON LAN
+
+		PC / LAPTOP : SLEEPS POWER OFF, HARD DRIVES CAN 
+				BE OFF BUT ==> NIC STAYS ACTIVE
+
+					SEND COMPUTER ‘MAGIC PACKET’ TO WAKE 
+							COMPUTER
+
+		NOTE : MOST MODERN COMPUTERS HAVE ‘ALWAYS-ON’
+			LAN TO GET EMAILS/NOTIFICATIONS ALL THE TIME
+
+POE
+		POWER OVER ETHERNET.       
+
+				802.3AT			15 WATTS POWER
+
+				802.3AF			25 WATTS POWER
+
+QOS
+			QUALITY OF SERVICE
+
+			PERSON ON VOIP HELPDESK
+
+			PERSON DOWLOADS 10GB ISO IMAGE
+
+				NO QOS ==> VOIP CAN SUFFER
+
+				WITH QOS ==> VOIP/CONFERENCE CALLS-REALTIME
+
+											CRITICAL SERVICE.  HIGH
+
+											INTRANET WEBSITE. MEDIUM
+
+											WEB BROWSING/DOWNLOADS LOW
+					
+										
+						EVERY PACKET ‘TAGGED’.  
+
+						(( SIMILARY TO 802.1Q VLAN TAGGING. 
+							TAG EVERY PACKET WITH UNIQUE VLAN ID))
+
+```
+
+ALTERNATIVE NETWORK IP ** SIMULATION **
+
+DOMAINS
+
+```
+ACTIVE DIRECTORY
+
+OU ==> FOLDER (ORGANISATIONAL UNIT)
+
+```
+
+NETWORK TECHNOLOGIES
+
+```
+PROXY
+
+	USED TO DIRECT ALL COMPANY INTERNET TRAFFIC
+			THROUGH CENTRAL MACHINE TO MONITOR:
+			1) WHICH USERS VISITING WHICH SITES
+			2) BLACKLIST 
+			3) WHITELIST   :  SCHOOL : ONLY APPROVED SITES
+			4) AV CHECK
+			5) ??? BILLING ??? EG Internet cafe???
+
+DMZ		DE-MILITARIZED ZONE.  (((PERIMITER NETWORK)))
+
+		USED TO HOST A PUBLIC-FACING SERVER EG WEB, 
+				GAMING SERVER.   HOSTED OUTSIDE FIREWALL.
+
+					EVEN IF HACKED SHOULD NOT COMPROMISE
+							INTERNAL LAN SECURITY
+
+									LAN====GATEWAY=====DMZ=====WEB
+
+		
+NAT.  NETWORK ADDRESS TRANSLATION
+
+			PUBLIC IP address COSTS MONEY ££5 A MONTH PER IP
+						((GET FROM ISP)
+
+			COMPANY 5000 COMPUTERS £££££LOTS TO GIVE
+					EVERY COMPUTER PUBLIC IP
+
+			
+			SOLUTION : NAT
+
+									PUBLIC.     39.67.108.221.    (WHATISMYIP)
+							GATEWAY WITH 2 INTERFACES
+									PRIVATE.  192.168.10.1
+
+							PC WITH PRIVATE IP 192.168.10.50
+		
+
+				LOOK AT IP PACKET
+							REMOVE SOURCE (PRIVATE) IP
+							REPLACE WITH PUBLIC IP AS SOURCE
+							++ MAP A PORT NUMBER TO TRACK WHICH
+									PC SENT WHICH DATA
+
+```
+
+SHARING
+
+```
+	HIDDEN SHARE        MYSHARE2$.      SHARE WON’T APPEAR
+										                          BUT CAN CONNECT
+
+	ADMIN SHARE			PREBUILT SHARES
+
+										C$  : ACCESS C DRIVE OF REMOTE 
+											          COMPUTER
+
+```
+
+SOHO : SMALL OFFICE, HOME OFFCE ==> 5 USER HOME /
+OFFICE NETWORK (NO SERVER)
+
+WIFI
+
+```
+	SSID =>  NAME OF WIFI NETWORK THAT WE CONNECT TO
+
+	SECURITY
+
+		1) FILTER BY MAC ADDRESS
+
+		2) TURN OFF SSID BROADCAST. (( APPEAR AS UNNAMED 
+						NETWORK))
+
+	PORT FORWARD
+
+			TRAFFIC COMING INTO LAN : DIRECT TO SPECIFIC PC
+				EG RDP 3389 ==> SERVER22
+
+	PORT TRIGGER
+	
+			TRAFFIC LEAVING LAN CAN BE SENT TO PARTICULAR
+					ADDRESS
+
+```
+
+== END NETWORKING ==
+
+==. 328 ===
+
+WINDOWS TOOLS (328)
+
+```
+BOOTREC
+
+		REPAIR BCD (BOOT FILE)
+
+SHUTDOWN
+
+		/S shutdown
+		/R restart
+						 					/T. 60 SECONDS
+
+TASKLIST
+					LIST PROCESSES
+
+TASKKILL
+					TERMINATE PROCESS.  /PID.1234.   /F
+
+SFC SYSTEM FILE CHECKER
+
+			VERIFIES SYSTEM FILES ARE NOT CORRUPT
+
+			/SCANNOW
+
+CHKDSK C:   /F     (FIX).        /R (SLOW SCAN)
+
+GROUP POLICY
+	
+	GPUPDATE /FORCE
+
+	GPRESULT /R
+
+	RSOP
+				GRAPHIC REPORT (RESULTANT SET OF POLICY)
+
+GPEDIT.MSC	
+
+	LOCAL GROUP POLICY.   ==> ONE PC ONLY
+
+MDSCHED.EXE
+
+		Memory Diagnostic Scheduler. : CHECK RAM FOR FAULTS
+
+DXDIAG
+
+		DIRECT X			:    GRAPHICS (GAMES) 
+
+		GRAPHICS DIAGNOSTIC TOOL 
+
+EXPLORER.EXE
+
+		FILE BROWSING TOOL FOR COMPUTER. (WIN + E )
+
+MMC.EXE
+
+		SHELL WHICH CAN HOLD WINDOWS TOOLS
+
+		MMC ==> MICROSOFT MANAGEMENT CONSOLE
+
+			ADD ‘SNAP-IN’.  TOOL
+
+		MODE
+				AUTHOR : READ/WRITE
+				USER		: READ ONLY
+
+MSTSC			Remote Desktop 
+
+REGEDIT			
+
+		REGISTRY
+
+				INTERNAL WINDOWS DATABASE OF ALL SETTINGS
+				FOR ALL HARDWARE 
+
+		REGEDIT.EXE.  /. REGEDT32.EXE
+
+		FIVE ‘HIVES’
+
+				HKEY_LOCAL_MACHINE.          HARDWARE
+				          _USERS		                        ALL USERS
+                                                                      (BY SID)
+                          _CURRENT_USER.         LOGGED ON NOW
+						 _CURRENT_CONFIG.      CHANGES MADE
+										                         THIS SESSION
+											                     (SAVED LOGOFF)
+
+						 _CLASSES_ROOT.        FILE TYPES EG DOCX
+
+			.REG.   IMPORT/EXPORT
+
+			
+
+SERVICES.MSC
+
+	LIST OF RUNNING SERVICES
+
+	STARTUP TYPE : DISABLED/MANUAL/AUTOMATIC
+
+	DEPENDENCY : MUST RUN IF YOU DEPEND ON IT
+
+```
+
+MIGRATION TOOLS
+
+```
+WET WINDOWS EASY TRANSFER
+
+	TRANSFER USER FILES TO NEW PC
+
+USMT USER STATE MIGRATION TOOL
+
+	COMMAND LINE : TRANSFER FILES FROM OLD TO NEW PC
+
+	SCANSTATE.EXE
+
+		SCAN OLD PC
+
+	LOADSTATE.EXE
+
+		LOAD FILES ONTO NEW PC
+
+	
+
+UPGRADE ADVISOR : 
+
+		WIN7 COMPUTER. ;   DOWNLOAD WIN10 ADVISOR…
+
+```
+
+VIRTUAL MEMORY = PAGE FILE = SWAP FILE
+
+DISK CLEANUP
+
+```
+	REMOVE JUNK FROM PC
+
+```
+
+APPLE …
+
+LINUX
+
+```
+UBUNTU			CLIENT FREE LINUX OS
+
+RED HAT			BUSINESS
+
+CENTOS			CLIENT
+
+“LINUX DISTRO”
+
+BOOT LOADER : GRUB
+
+SUPERUSER : ROOT
+
+SHELL : COMMAND : SEVERAL
+
+		 BASH
+	
+NAVIGATION
+
+		\\ 		ROOT
+		LS			LIST
+		CD			CHANGE DIRECTORY
+		PWD		SHOW CURRENT DIRECTORY. (PRINT WORKING 
+							DIR)
+
+		MV		MOVE
+		CP		COPY
+		CHMOD		PERMISSIONS
+
+							4		READ
+							2		WRITE
+							1		EXECUTE
+							==
+							7
+						   ==
+
+						USER PERMISSIONS SET BY A NUMBER 0-7
+					
+
+	APT-GET			INSTALL AN APPLICATION
+
+	SUDO				RUN AS ADMIN
+
+									SUDO APT-GET XXX. 
+
+	VI						BUILT-IN TEXT EDITOR
+
+	GREP				SEARCH
+
+	MAN					HELP : MANUAL
+
+	TOP 				LIST PROCESSES
+
+	KILL					TERMINATE PROCESS		
+
+```
+
+Random Term List
+
+Latency	DELAY BETWEEN SENDING AND RECEIVING
+Attenuation	Over distance, SIGNAL LOSE STRENGTH (( BOOST :
+USE REPEATER ))
+BIOS	BASIC INPUT OUTPUT SYSTEM
+CMOS	COMPLIMENTARY METAL OXIDE SEMICONDUCTOR
+Domain	CENTRAL SECURITY UNIT FOR MANAGING OUR
+COMPANY
+Tree	GROUP OF DOMAINS WITH SAME root name
+[east.microsoft.com](http://east.microsoft.com/)[west.microsoft.com](http://west.microsoft.com/)
+
+Forest	GROUP OF DOMAINS WITH UNRELATED NAMES
+[microsoft.com](http://microsoft.com/) ROOT
+xbox
+azure
+[live.com](http://live.com/)[hotmail.com](http://hotmail.com/)
+
+MOBILE (496)
+
+LAPTOPS
+
+```
+	COMPONENTS
+			SMALLER, EXPENSIVE, LOWER POWER, LOWER HEAT
+
+	NUMLOCK ON :  LETTERS WILL TYPE AS NUMBER 
+
+	PORT REPLICATOR
+
+		ADD PORTS
+
+	DOCKING STATION
+
+		HEAVY DUTY EG PRINTER ETC, FULL WORKSTATION
+			PLUG LAPTOP IN
+
+```
+
+FQDN fully qualified domain name [server.domain.com](http://server.domain.com/)
+NETBIOS : old HOSTNAME ((NAME OF COMPUTER))
+
+ESD
+SAG
+BLACKOUT
+BROWNOUT
+SPIKE
+SURGE
+AUP
+PII
+SAAS.
+PAAS. : VIRTUAL DESKTOP
+IAAS. : BUILD EVERYTHING
+WEP OLD
+WPA2 NEW
+AES ENCRYPTION
+DNS MAPS IP TO NAME
+DHCP GIVE IP
+TORX
+BIT. 1/0
+BYTE. 8
+NIBBLE. 4
+HEX. 000 TO 1111. 0 THROUGH F
+POP. 110
+IMAP. 143
+80
+443
+RDP. 3389
+21. FTP. FILE TRANSFER
+DNS. 53
+DHCP. 67/8
+RIP ROUTING INTERNET PROTOCL : BROADCAST 30 SECS
+EIGRP : CISCO UPGRADE TO RIP
+OSPF : WORLD INTO AREAS
+HOP. MAX 31
+SWITCH. LAYER. 2.
+MAC address.
+ETHERNET
+LAYER 1 : PHYSICAL
+CABLING
+RJ45
+RJ11
+RIBBON CABLE INSIDE PC
+CAT 3. 10MBPS
+CAT 5	100MBPS. FAST ETHERNET
+CAT 5E	1000
+CAT 6	1000
+CAT 7	10gbps
+THICKNET. 500M. 10BASE5
+THINNET. 185M 10BASE2
+BNC. COAX
+F-CONNECTOR. COAX
+BIT
+Byte
+nibble
+binary
+hex 0000 through 1111
+1001. 9
+1010. 10. A
+1111. 15. F. 8+4+2+1
+1010 1010. ((HEX AA ))
+0111. 1010. ((HEX. 7A))
+0111. 0001. 0000. HEX 710
+10101010. ==> DECIMAL 128+32+8+2. ==> 170
+CLASS A MASK	255.0.0.0 /8
+11111111. 255
+CLASS B MASK	255.255.0.0. /16
+CLASS C MASK	255.255.255.0. /24
+CLASS A RANGE	1-126. (ONLY LOOK AT FIRST DIGIT).
+LOOPBACK 127.0.0.1
+IPV6 LOOPBACK. ::1
+CLASS B RANGE 128-191. (BEFORE 1100 0000. 192)
+CLASS C RANGE 192-223. (BEFORE 1110 0000. 224)
+CLASS D RANGE	MULTICAST. 224-239. (1111 0000 = 240)
+MULTICAST => SEND LARGE DATA TO GROUP OF COMPUTERS WHICH ALL SUBSCRIBE TO ONE GROUP MULTICAST IP IN THIS RANGE
+CLASS E RANGE. RESEARCH. 240-255
+CLASS A PRIVATE IP RANGE. 10.X.Y.Z
+CLASS B PRIVATE IP RANGE 172.16-172.31.X.Y
+CLASS C PRIVATE IP RANGE 192.168.X.Y
+APIPA BLOCK ((DHCP BROKEN)). 169.254.X.Y.
+RDP : Remote Desktop PROTOCOL. :
+RDP : 3389
+FTP : 20/21
+FTP DATA 20
+FTP ADMIN 21
+22
+23
+25 SMTP : SEND EMAIL
+53 DNS
+67/8 DHCP
+80 HTTP
+110 POP. : RECEIVE EMAIL (SIMPLE)
+143 IMAP : RECEIVE EMAIL (COMPLEX)
+443 HTTPS
+BONUS PROTOCOLS
+69. TFTP. TRIVIAL FTP ON LAN
+137-139. NETBIOS. (NETWORKING USING HOSTNAME EG PC01)
+VPN PROTOCOLS
+PPTP. POINT-TO-POINT TUNNELING PROTOCOL. 1723
+L2TP/IPSEC. LAYER 2 TUNNELING 1701
+SSTP. SECURE SOCKETS TUNNELING 443
+IKEv2. 500, 4500
+CPU
+L1 CACHE : MEMORY
+ALU : ARITHMETIC LOGIC UNIT : INTEGERS
+FPU : FLOATING POINT : DECIMALS
+REGISTER : DATA CHANGED
+L2 CACHE : OUTSIDE OF CPU. : RAM
+BUS. WIRE
+SYSTEM BUS. == FSB
+FSB. : FRONT-SIDE BUS. 1333Mhz
+PIEZO-ELECTRIC CRYSTAL : CLOCK
+IRQ : INTERRUPT REQUEST LINE. : MOUSE HAS CLICKED
+NORTHBRIDGE
+SOUTHBRIDGE
+HYPERTRANSPORT : NO NORTHBRIDGE
+PORTS
+ISA : OLDEST
+PCI
+AGP GRAPHICS
+PCIe. X1. NIC/ WIFI/ TV TUNER
+PCIe. X16. GRAPHICS
+FLOPPY : 34 PIN
+IDE : OLD HARD DRIVE : 40
+SATA : 7
+MOLEX POWER : 4
+BERG : FLOPPY
+MOTHERBOARD : 20/24
+USB : PINS. 4
+USB : LENGTH : 5M
+USB : MAX. 127
+USB : SPEED. 12, 480, 5000
+FIREWIRE : PINS. 4/6 A 9 B
+FIREWIRE. 400 / 800
+FIREWIRE : MAX 63 DEVICES
+HOT SWAP : RUNNING
+SATA : HOT SWAP
+IDE : COLD SWAP
+PNP. : PLUG AND PLAY. : AUTO-INSTALL DRIVERS
+PAN
+MAN
+LAN
+WAN
+POP
+IMAP
+HOP
+SAN
+SAM
+NIBBLE
+DHCP
+BIT
+BYTE
+HEX
+VPN
+BINARY
+CPU
+HEX
+PORTS
+RAM
+USB
+NETBIOS
+BIOS
+SATA
+PCI
+NORTHBRIDGE
+SOUTHBRIDGE
+BUS
+FSB
+IDE
+RIBBON CABLE
+TORX
+PCIE
+SAAS
+CLASS A/B/C MASK
+7 LAYERS
+PHYSICAL
+DATALINK
+NETWORK
+TRANSPORT
+SESSION
+PRESENTATION
+HEAT SINK
+BERG
+GPU
+ROM
+SOLID STATE
+MICRO-USB
+TASK MANAGER
+CHKDSK
+FIREWIRE

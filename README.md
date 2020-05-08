@@ -1,154 +1,95 @@
-# course-notes
+# personal-course-notes
 
-# Course Notes
+# course-notes
 
 This is a repository of teaching notes and labs on a variety of topics
 
-### Humour
-
-[Humour](course%20notes/Humour.md)
-
-### Markdown
-
-[Markdown](course%20notes/Markdown.md)
-
-### Shells
-
-[shells](course%20notes/shells.md)
-
-### Git and GitHub
-
-[Git and GitHub](course%20notes/Git%20and%20GitHub.md)
-
 ### C#
 
-[C#](course%20notes/C.md)
+[C# Course Notes June 2019](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4.md)
 
-[C# MTA 98-361 Official Notes](course%20notes/C%20MTA%2098%20361%20Official%20Notes.md)
+[C# Course Notes August 2019](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20August%202019%20845b4e4d8e47496ba7ac17f831b5b749.md)
 
-[C# Course Notes June 2019](course%20notes/C%20Course%20Notes%20June%202019.md)
+[C# Course Notes November 2019](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20November%202019%2014add714b7c341daa07cbc2244c5ca64.md)
 
-[C# Course Notes August 2019](course%20notes/C%20Course%20Notes%20August%202019.md)
-
-[C# Course Notes November 2019](course%20notes/C%20Course%20Notes%20November%202019.md)
-
-## Building Web Pages
+[C# Course Notes January 2020](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20January%202020%20d50471904dd146018aba699bef6ad451.md)
 
 ### Random Web Terms
 
-[Random Web Terms](course%20notes/Random%20Web%20Terms.md)
+[Random Web Terms And Glossary](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/Random%20Web%20Terms%20And%20Glossary%2046fe102dd2b64fefbb0572bdf5d05878.md)
 
-### HTML CSS Javascript Bootstrap - separate out
+[Random Web, Programming And Productivity](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/Random%20Web%20Programming%20And%20Productivity%20702fbe38a4c5437d92e25a7339333955.md)
 
-[HTML CSS Javascript Bootstrap](course%20notes/HTML%20CSS%20Javascript%20Bootstrap.md)
+### HTML CSS Javascript Bootstrap don't use
+
+[HTML CSS JS dont use](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/HTML%20CSS%20JS%20dont%20use%20d2c12576994747488311397f3ffaf42e.md)
 
 ### HTML
 
-[HTML](course%20notes/HTML.md)
+[HTML](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/HTML%20f91895a986c84c629c3724e456dcaf57.md)
 
 ### CSS
 
-[CSS](course%20notes/CSS.md)
+[CSS](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/CSS%20ca97d281b5ca4f9e9d940230c6261c22.md)
 
 ### Bootstrap
 
-[Bootstrap](course%20notes/Bootstrap.md)
+### Javascript
 
-### Javascript: Basics, Overview, Course, JSON, Glossary
+[Javascript](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/Javascript%209d0e9d2186b14d89902b61638db10240.md)
 
-[Javascript Basics](course%20notes/Javascript%20Basics.md)
+[HTML CSS Javascript MTA 98-375](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/HTML%20CSS%20Javascript%20MTA%2098%20375%20655379f952bd4eb2b794f6a44651c9be.md)
 
-[Javscript Overview](course%20notes/Javscript%20Overview.md)
-
-[Javascript Formal Course ](course%20notes/Javascript%20Formal%20Course.md)
-
-[JSON](course%20notes/JSON.md)
-
-[Javascript Glossary](course%20notes/Javascript%20Glossary.md)
+[Javascript Formal Course ](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/Javascript%20Formal%20Course%208a26124f8df54b48b4c6ed241c23eb0f.md)
 
 ### jQuery
 
-[jQuery](course%20notes/jQuery.md)
+[jQuery](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/jQuery%205394599124d447e9875af1d695cccfc0.md)
 
 ### AJAX
 
-[AJAX](course%20notes/AJAX.md)
-
-### Socket.IO
-
-[Socket.IO](course%20notes/Socket%20IO.md)
-
-### Typescript
-
-[TypeScript](course%20notes/TypeScript.md)
+[AJAX](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/AJAX%20fc1de5023c514b708ce4553008d6ff91.md)
 
 ### API
 
-[REST API](course%20notes/REST%20API.md)
+[REST API](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/REST%20API%204ddf81774155465d997176e5eef689f4.md)
 
-### Modern ES6+ Javascript
+### Vue
 
-[Node](course%20notes/Node.md)
-
-[Mongo](course%20notes/Mongo.md)
-
-- [VueJS](https://github.com/philanderson888/vue#a-place-for-learning-vuejs)
-
-    [philanderson888/vue](https://github.com/philanderson888/vue#a-place-for-learning-vuejs)
-
-[React](course%20notes/React.md)
-
-[Gatsby Glossary](course%20notes/Gatsby%20Glossary.md)
-
-## Imaging
-
-[SVG and Canvas](course%20notes/SVG%20and%20Canvas.md)
-
-[Imaging](course%20notes/Imaging.md)
+[VueJS](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/VueJS%203450bb3d940b46aea590a34194ef4522.md)
 
 ## Infrastructure
 
-- CompTIA Network+
-- CompTIA A*
+### CompTIA A+
 
-[CompTIA Network+](course%20notes/CompTIA%20Network.md)
+[CompTIA A+](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/CompTIA%20A%2072ccf9f3c3864843aa89a83c7d32ddb0.md)
 
-[Network+ Lab Work](course%20notes/Network%20Lab%20Work.md)
+### CompTIA Network+
 
-- Windows 10
+[CompTIA Net+](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/CompTIA%20Net%20b091887ebb3c4c608d7882ff3232449d.md)
 
-## Cloud, Devops and Security
+[CompTIA Network+](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/CompTIA%20Network%2065d741b754284331b5bb4544f9c5cadc.md)
 
-[Cloud Native](course%20notes/Cloud%20Native.md)
+### CompTIA Security+
 
-[Cloud Glossary](course%20notes/Cloud%20Glossary.md)
+[CompTIA Sec+ Key Notes And Terms](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/CompTIA%20Sec%20Key%20Notes%20And%20Terms%20a015ea4842864d138eaf8194d2403dee.md)
 
-[Devops](course%20notes/Devops.md)
+[MTA Security](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/MTA%20Security%20002a50f2cddf480caeba37d6473e7339.md)
 
-[Azure Complex Notes](course%20notes/Azure%20Complex%20Notes.md)
+[CompTIA Sec+ Flow 1  ](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/CompTIA%20Sec%20Flow%201%20e4af0be21fc940d5bd249569f7c184fb.md)
 
-[Docker](course%20notes/Docker.md)
+[CompTIA Sec+ Notes Flow 2 (2018)](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/CompTIA%20Sec%20Notes%20Flow%202%202018%20489628ccd72847e39352b8725464fc0d.md)
 
-## Cyber
+[CompTIA Sec+ Notes Flow 3 (2018)](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/CompTIA%20Sec%20Notes%20Flow%203%202018%209d1223809f5f420f932275bf181d8290.md)
 
-[https://github.com/philanderson888/cyber](https://github.com/philanderson888/cyber) 
+### Windows 10
 
-## Random
+### Server 2008/12/16/19
 
-[Random Programming Notes  (8000 lines)](course%20notes/Random%20Programming%20Notes%208000%20lines.md)
+[MTA Server Notes Flow 1](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/MTA%20Server%20Notes%20Flow%201%2042efe00fed9f4ef1ad34f2ed82740903.md)
 
-[Random Programming Terms Take 2](course%20notes/Random%20Programming%20Terms%20Take%202.md)
+## Mobile, Angular, Programming Languages
 
-## Archive
+[Programming Languages](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/Programming%20Languages%20bfdbb9e67ca2496caf7c83e79cd859e3.md)
 
-[MTA 98-361 C#](course%20notes/MTA%2098%20361%20C.md)
-
-[Javascript MVC](course%20notes/Javascript%20MVC.md)
-
-[Angualar (new) and AngularJS (old)](course%20notes/Angualar%20new%20and%20AngularJS%20old.md)
-
-[Ruby](course%20notes/Ruby.md)
-
-[PHP](course%20notes/PHP.md)
-
-[cyber](course%20notes/cyber.md)
+[Angular ](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/Angular%20a18d3231825d4b2686118380f1056ea4.md)

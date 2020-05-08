@@ -1,6 +1,0 @@
-﻿Pseudo-element,Targets
-::after,creates a pseudo-element after the element
-::before,creates a pseudo-element before the element
-::first-letter,can be used to style the first letter of a block of text
-::first-line,can be used to style the first line of a block of text
-::selection,targets the text selected by the user

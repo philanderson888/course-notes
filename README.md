@@ -4,7 +4,7 @@
 
 This is a repository of teaching notes and labs on a variety of topics
 
-### [Git And GitHub](GitHub\README.md)
+### [Git And GitHub](GitHub)
 
 ### C#
 

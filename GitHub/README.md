@@ -4,6 +4,57 @@
 
 These are rough notes used in teaching students how to use GitHub
 
+## Contents
+
+- [Git and GitHub](#git-and-github)
+  - [Introduction](#introduction)
+  - [Contents](#contents)
+  - [Resources](#resources)
+  - [Installing Git](#installing-git)
+    - [Linux](#linux)
+    - [MAC and Windows](#mac-and-windows)
+  - [Basic Commands](#basic-commands)
+    - [git --version](#git---version)
+    - [git init](#git-init)
+    - [git diff  (avoid posting sensitive info)](#git-diff-avoid-posting-sensitive-info)
+    - [gitk - viewing proposed changes](#gitk---viewing-proposed-changes)
+    - [GitHub Desktop](#github-desktop)
+  - [Hiding Secrets](#hiding-secrets)
+    - [git add](#git-add)
+    - [git reset](#git-reset)
+    - [git status](#git-status)
+    - [git commit](#git-commit)
+  - [Working With GitHub Online](#working-with-github-online)
+    - [git clone](#git-clone)
+    - [git remote](#git-remote)
+    - [git push](#git-push)
+    - [git pull](#git-pull)
+    - [git config](#git-config)
+    - [git branch](#git-branch)
+    - [git checkout](#git-checkout)
+    - [git pull origin dev and git merge dev](#git-pull-origin-dev-and-git-merge-dev)
+  - [Viewing And Undoing Changes](#viewing-and-undoing-changes)
+    - [git log](#git-log)
+    - [git reflog](#git-reflog)
+    - [git reset —soft](#git-reset-soft)
+    - [git reset —hard](#git-reset-hard)
+    - [git clean](#git-clean)
+    - [github tagging](#github-tagging)
+- [Other Git Topics And Commands](#other-git-topics-and-commands)
+    - [Fixing a merge conflict](#fixing-a-merge-conflict)
+    - [Change Git User](#change-git-user)
+    - [Protecting The Master Branch](#protecting-the-master-branch)
+    - [Configuring a publishing source for GitHub Pages](#configuring-a-publishing-source-for-github-pages)
+    - [Renaming A Branch](#renaming-a-branch)
+  - [Changing Github User](#changing-github-user)
+    - [Tagging](#tagging)
+- [GitHub with SSH](#github-with-ssh)
+    - [git remote with SSH](#git-remote-with-ssh)
+    - [Locating your SSH keys](#locating-your-ssh-keys)
+    - [Adding SSH keys to github with SSH Keygen](#adding-ssh-keys-to-github-with-ssh-keygen)
+  - [Github With SSH](#github-with-ssh-1)
+    - [Keygen - walkthrough from scratch](#keygen---walkthrough-from-scratch)
+
 ## Resources
 
 [Intro to Git and GitHub : 31 minute video from Traversy Media](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
@@ -229,7 +280,19 @@ git push origin --delete branch_name
 git checkout master
 git push origin --delete remote-branch-name
 
+
 ```
+
+#### rename a branch
+
+```bash
+git checkout old_name
+git branch -m new_name
+git push origin -u new_name
+git push origin --delete old_name
+```
+
+
 
 ### git checkout
 

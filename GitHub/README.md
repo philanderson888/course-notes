@@ -31,6 +31,7 @@ These are rough notes used in teaching students how to use GitHub
     - [git pull](#git-pull)
     - [git config](#git-config)
     - [git branch](#git-branch)
+      - [rename a branch](#rename-a-branch)
     - [git checkout](#git-checkout)
     - [git pull origin dev and git merge dev](#git-pull-origin-dev-and-git-merge-dev)
   - [Viewing And Undoing Changes](#viewing-and-undoing-changes)

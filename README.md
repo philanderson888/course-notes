@@ -6,6 +6,8 @@ This is a repository of teaching notes and labs on a variety of topics
 
 ### [Git And GitHub](GitHub)
 
+### [Shells - Bash, Zsh, CMD and Powershell](https://github.com/philanderson888/shells)
+
 ### C#
 
 [C# Course Notes June 2019](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4.md)

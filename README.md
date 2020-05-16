@@ -4,6 +4,8 @@
 
 This is a repository of teaching notes and labs on a variety of topics
 
+### [All GitHub Repositories](https://github.com/philanderson888/repositories)
+
 ### [Git And GitHub](GitHub)
 
 ### [Shells - Bash, Zsh, CMD and Powershell](https://github.com/philanderson888/shells)
@@ -52,7 +54,9 @@ This is a repository of teaching notes and labs on a variety of topics
 
 ### AJAX
 
-[AJAX](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/AJAX%20fc1de5023c514b708ce4553008d6ff91.md)
+[AJAX Code Demos](https://github.com/philanderson888/ajax)
+
+[AJAX Notes](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/AJAX%20fc1de5023c514b708ce4553008d6ff91.md)
 
 ### API
 
@@ -62,7 +66,15 @@ This is a repository of teaching notes and labs on a variety of topics
 
 [VueJS](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/VueJS%203450bb3d940b46aea590a34194ef4522.md)
 
+[Vue With Paypal](https://github.com/philanderson888/vue-with-paypal-payment) with live demo at [https://friendly-leakey-f345f4.netlify.app](https://friendly-leakey-f345f4.netlify.app)
+
+### React
+
+[React Starter Demo](https://github.com/philanderson888/gatsby-03) live at [https://www.philandersontraining.com](https://www.philandersontraining.com)
+
 ## Infrastructure
+
+[CompTIA Training (empty repo)](https://github.com/philanderson888/comptia-training)
 
 ### CompTIA A+
 
@@ -97,3 +109,15 @@ This is a repository of teaching notes and labs on a variety of topics
 [Programming Languages](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/Programming%20Languages%20bfdbb9e67ca2496caf7c83e79cd859e3.md)
 
 [Angular ](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/Angular%20a18d3231825d4b2686118380f1056ea4.md)
+
+## [General Programming](https://github.com/philanderson888/programming)
+
+## Personal Coding Projects
+
+[ASP.NET Core MVC `Tasks App` To Show Daily ToDo Items With SQLite Database https://github.com/philanderson888/tasks](https://github.com/philanderson888/tasks)
+
+*No live demo*
+
+[Kids Holiday Tasks](https://github.com/philanderson888/kids-holiday-tasks)
+
+*ASP MVC Database Application*

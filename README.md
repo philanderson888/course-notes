@@ -8,7 +8,7 @@ This is a repository of teaching notes and labs on a variety of topics
 
 ### [Git And GitHub](GitHub)
 
-### [Shells - Bash, Zsh, CMD and Powershell](https://github.com/philanderson888/shells)
+### [Shells - Bash, Zsh, CMD and Powershell](Shells)
 
 ### C#
 

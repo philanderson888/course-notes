@@ -1,16 +1,44 @@
 # personal-course-notes
 
-# course-notes
-
 This is a repository of teaching notes and labs on a variety of topics
 
-### [All GitHub Repositories](https://github.com/philanderson888/repositories)
+## Contents
 
-### [Git And GitHub](GitHub)
+- [personal-course-notes](#personal-course-notes)
+  - [Contents](#contents)
+  - [All GitHub Repositories](#all-github-repositories)
+  - [Git And GitHub](#git-and-github)
+  - [Shells - Bash, Zsh, CMD and Powershell](#shells---bash-zsh-cmd-and-powershell)
+  - [C](#c)
+  - [Web](#web)
+    - [Random Web Terms](#random-web-terms)
+    - [HTML CSS Javascript Bootstrap don't use](#html-css-javascript-bootstrap-dont-use)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Bootstrap](#bootstrap)
+    - [Javascript](#javascript)
+    - [jQuery](#jquery)
+    - [AJAX](#ajax)
+    - [API](#api)
+    - [Vue](#vue)
+    - [React](#react)
+  - [Infrastructure](#infrastructure)
+    - [CompTIA A+](#comptia-a)
+    - [CompTIA Network+](#comptia-network)
+    - [CompTIA Security+](#comptia-security)
+    - [Windows 10](#windows-10)
+    - [Server 2008/12/16/19](#server-2008121619)
+  - [Mobile, Angular, Programming Languages](#mobile-angular-programming-languages)
+    - [General Programming](#general-programming)
+  - [Personal Coding Projects](#personal-coding-projects)
 
-### [Shells - Bash, Zsh, CMD and Powershell](Shells)
+## [All GitHub Repositories](https://github.com/philanderson888/repositories)
 
-### C#
+## [Git And GitHub](GitHub)
+
+## [Shells - Bash, Zsh, CMD and Powershell](Shells)
+
+## C#
 
 [C# Course Notes June 2019](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4.md)
 
@@ -19,6 +47,8 @@ This is a repository of teaching notes and labs on a variety of topics
 [C# Course Notes November 2019](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20November%202019%2014add714b7c341daa07cbc2244c5ca64.md)
 
 [C# Course Notes January 2020](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20January%202020%20d50471904dd146018aba699bef6ad451.md)
+
+## Web
 
 ### Random Web Terms
 
@@ -68,7 +98,7 @@ This is a repository of teaching notes and labs on a variety of topics
 
 [Vue With Paypal](https://github.com/philanderson888/vue-with-paypal-payment) with live demo at [https://friendly-leakey-f345f4.netlify.app](https://friendly-leakey-f345f4.netlify.app)
 
-### React
+### [React](React)
 
 [React Starter Demo](https://github.com/philanderson888/gatsby-03) live at [https://www.philandersontraining.com](https://www.philandersontraining.com)
 
@@ -110,7 +140,7 @@ This is a repository of teaching notes and labs on a variety of topics
 
 [Angular ](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/Angular%20a18d3231825d4b2686118380f1056ea4.md)
 
-## [General Programming](https://github.com/philanderson888/programming)
+### [General Programming](https://github.com/philanderson888/programming)
 
 ## Personal Coding Projects
 

@@ -40,6 +40,7 @@
 		- [Environment Variables: setting](#environment-variables-setting)
 		- [ps Process Status](#ps-process-status)
 - [ZSH](#zsh)
+	- [zsh - Z Shell : Custom Shell for MAC](#zsh---z-shell--custom-shell-for-mac)
 		- [Installing](#installing)
 		- [Using](#using)
 	- [Oh My Zsh](#oh-my-zsh)
@@ -427,11 +428,29 @@ ps -A
 top
 ```
 
+
+
+
+
+
+
 # ZSH
+
+[ZSH = Z Shell](https://ohmyz.sh/)
+
+## zsh - Z Shell : Custom Shell for MAC
+
+Find and edit the shell commands from the root of the home directory - the `.zshrc` file
+
+```
+nano .zshrc
+```
+
+
 
 ### Installing
 
-```csharp
+```js
 sudo apt-get update
 # install zsh
 sudo apt-get install -y zsh
@@ -451,9 +470,7 @@ sh -c "$(curl -fsSL
    https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-```sql
 
-```
 
 # Powershell
 

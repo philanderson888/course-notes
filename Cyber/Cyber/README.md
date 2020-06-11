@@ -430,7 +430,7 @@
     - [Offensive Tools](#offensive-tools)
     - [Certs](#certs)
     - [Cloud Random](#cloud-random)
-- [Cyber Labs 1](#cyber-labs-1)
+- [Cyber Labs](#cyber-labs)
   - [Cyber Labs Online](#cyber-labs-online)
     - [TryHackMe](#tryhackme)
       - [Getting Started](#getting-started)
@@ -442,6 +442,7 @@
       - [Build](#build)
       - [Connect](#connect)
     - [AWS Linux Virtual Machine With Apache Running](#aws-linux-virtual-machine-with-apache-running)
+    - [AWS Linux Virtual Machine With Apache Running](#aws-linux-virtual-machine-with-apache-running-1)
     - [AWS Kali Linux with VNC GUI](#aws-kali-linux-with-vnc-gui)
     - [Cyber Docker Labs On AWS](#cyber-docker-labs-on-aws)
   - [Docker Pull Metasploitable](#docker-pull-metasploitable)
@@ -585,7 +586,7 @@
   - [Ransomware](#ransomware)
     - [Reveton - encrypts entire hard drive](#reveton---encrypts-entire-hard-drive)
   - [Offensive Penetration Testing And Exploits](#offensive-penetration-testing-and-exploits)
-- [Attacking 2](#attacking-2)
+  - [PCI DSS](#pci-dss-1)
     - [Exploit Frameworks](#exploit-frameworks)
     - [Metasploit](#metasploit-4)
       - [EXPLOIT MODULE = TRY AND EXPLOIT A VULNERABILITY](#exploit-module--try-and-exploit-a-vulnerability)
@@ -6381,28 +6382,16 @@ net groups domaincontrollers/domain
 //server/share
 https://sharepoint sites
 sysvol 
-Vulnerability feed of latest vulnerabilities discovered
-SCAP Security Content Automation Protocol - does a system meet baseline security?
-CVE common vulernabilities and exposures
-Exploit Framework
-EMET Enhanced Mitigation Experience Toolkit forces 3rd party apps to use NX and DEP for access ie No Execute and Data Execution Prevention - both prevent EXE from running
-Framework = Policy + Procedures + Guidelines
-Kill Chain is a sequence of steps taken by an attacker
+EMET Enhanced Mitigation Experience Toolkit forces 3rd party apps to use NX and DEP for access ie No Execute and Data Execution Prevention - both prevent Framework = Policy + Procedures + Guidelines
 SIEM logs events - Security Info and Log Mgt
-Data Exfitration OUT
-Blackhole - Drop Packets
-Sinkhole - Redirect Packets
 Content based authentication eg date, time, location
 Exploit identity - gain access through identity of another
 Exploit browser - gain access through browser
 Exploit apps - gain access through apps
 APT Advanced Persistent Threat 
-C2 command and control
 Kill Chain (Military) - Find, fix, track, target, engage, assess
 Kill Chain (Cyber) - Reconnaisance, Weaponise, Deliver, Exploit, Install, C2
 Pivot Point = weak point of entry for the attack
-Callback to rogue C2
-lateral = sideways
 action on objectives = goal
 attack vector = path of attack
 dropped = malware placed on your system
@@ -6511,7 +6500,6 @@ dirbuster dictionary/brute force attack
 CASP CompTIA Advanced Security Practitioner
 CISA Certified Info Systems Auditor
 CISM Certified Info Security Manager
-SCAP security content automation protocol - verify if a system meets security baseline
 ingress IN
 egress OUT
 blackhole DROP PACKETS
@@ -6576,13 +6564,7 @@ NIST provides standards
 CIS provides benchmarks
 Data is classified, unclassified, confidential, secret, top secret
 scanning frequency depends on risk appetite, regulations, technical constraints, workflow
-footprint is visible
-fingerprint is os and software
-nessus scans for vulnerabilities
-known
-unknown
 known unknown means we know of its existence but no fix found
-SCAP security content automation protocol
 ACS authenticated config scanner
 CPE common platform enumeration = OS
 CCE common config enumeration = config settings
@@ -6973,10 +6955,6 @@ NVD National Vulnerability Database
 [https://nvd.nist.gov/](https://nvd.nist.gov/)
 CVE common vulns
 NVT network vuln tests : scan for NVD and CVE known vulns
-SCAP security content automation protocol which can organise known vulnerabilities in an automated fashion to help enterprises deal with known vulnerabilities and organise them
-SCAP slides
-Can use SCAP to output the results of Vulnerability Scans into meaningful data
-Vulnerability SCAN ==> output in a format specified by SCAP which taps into the NVD vulnerability database and also the CVE vulnerability/exploits list
 OVAL also is web exploits
 Merterpreter
 Payload to inject onto remote system for purpose of running commands, showing screnshots etc
@@ -7121,7 +7099,6 @@ S/MIME encrypts email
 SABSA Sherwood Applied Business Security Architecture
 SANS SysAdmin, Network, Security
 SCADA = manage industrial systems
-SCAP = Security Content Automation Protocol = does computer meet baseline security standards
 SCEP Simple Certificate Enrolment Protocol
 SCP Secure Copy Protection
 SEH Structured Exception Handler : handles exception
@@ -7960,7 +7937,7 @@ Palo Alto
 
 
 
-# Cyber Labs 1
+# Cyber Labs
 
 ## Cyber Labs Online
 
@@ -8073,6 +8050,24 @@ ssh -i ~/.ssh/AWSLinuxKeyPair.pem ec2-user@34.242.114.92
 ```
 
 
+### AWS Linux Virtual Machine With Apache Running
+
+Install this on machine with Kali already installed
+
+```
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install -y lamp-mariadb10.2-php7.2 php7.2 httpd mariadb-server
+systemctl start https
+systemctl enable httpd
+usermod -a -G apache ec2-user
+chown -R ec2-user:apache /var/www
+chmod 2775 /var/www
+find /var/www -type d -exec chmod 2775 {} \;
+find /var/www -type f -exec chmod 0664 {} \;
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+```
+
 
 ### AWS Linux Virtual Machine With Apache Running
 
@@ -8129,7 +8124,7 @@ tightvncpasswd
 # exit aws vm and return to local powershell
 exit
 # connect via vnc port
-ssh -L 5901:localhost:5901 -i ~/.ssh/KaliLinuxKeyPair.pem ec2-user@35.176.24.73vnc
+ssh -L 5901:localhost:5901 -i ~/.ssh/KaliLinuxKeyPair.pem ec2-user@35.176.24.73
 # run vnc server
 vncserver
 # download vnc viewer from https://www.realvnc.com/en/connect/download/viewer/linux/
@@ -10345,9 +10340,7 @@ SecTools.org => different kinds of tools
 
 ## Vulnerability Scanners
 
-
 Qualsys, Nessus, OpenVAS, Nexpose, Nikto, MBSA
-
 
 Web app scanner eg Nikto : check for SQL injection and XSS vulnerability
 
@@ -10450,6 +10443,15 @@ does a computer meet a certain baseline?
 
 Allows automation of vulnerability management, and also manage compliance with policy
 
+organise known vulnerabilities in an automated fashion
+
+output the results of Vulnerability Scans into meaningful data
+
+  Vulnerability SCAN ==> output in a format specified by SCAP which taps into 
+
+    - NVD vulnerability database 
+    - CVE vulnerability/exploits list
+
 SCAP allocates a certificate to software based on its capabilities
 
   ACS Authenticated Config Scanner : scans software while logged in
@@ -10470,6 +10472,7 @@ CPE common platform enumeration by NIST (standard names for different platforms 
 CCE common config enumneration by NIST (best practice)
 
 CWE common weakness enumeration : broader categories of coding errors which lead to 
+
               specific CVE vulernabilities
 
               Full list at cwe.mitre.org
@@ -10556,31 +10559,27 @@ A       Availability : Potential impact on availability of the system as a whole
 
 Typical output : CVSS2#  AV:L  /   AC:H   /   Au:M   /
                                           C:P  /    I:N   /    A:N
-
-
-​                                                              
-​                                                              
-​                                                              
-​              Also generated are scores
+                                               
+  Also generated are scores
 ​              
-​                      eg https://www.first.org/cvss/v2/guide
+​   eg https://www.first.org/cvss/v2/guide
 ​              
-​                      Impact Score   -  calculate from a formula
+​   Impact Score   -  calculate from a formula
 ​                      
-​                             Impact Score =
-​    
-                     10.41*(1-(1-ConfImpact)*(1-IntegImpact)*(1-AvailImpact))
+​   Impact Score = 10.41*(1-(1-ConfImpact)*(1-IntegImpact)*(1-AvailImpact))
 
-              Impact Function
-              
-                     0              if Impact Score = 0
-                     1.176   otherwise
-              
-              Exploitability Score
-                                                 
-                     Exploitability = 20* AccessVector*AccessComplexity*Authentication
+    Impact Function
 
-              Base Score = ((0.6*Impact)+(0.4*Exploitability)-1.5)*f(Impact)
+            0              if Impact Score = 0
+            1.176   otherwise
+    
+    Exploitability Score
+                                        
+            Exploitability = 20* AccessVector*AccessComplexity*Authentication
+
+    Base Score = ((0.6*Impact)+(0.4*Exploitability)-1.5)*f(Impact)
+
+
 
 
 ​                                                             
@@ -10949,32 +10948,6 @@ Loki : Password stealer
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Exploit Malware
 
 ### Angler Exploit Kit
@@ -11033,38 +11006,6 @@ Encrypts hard drive and blackmails people into paying around $200 Bitcoin to dec
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Offensive Penetration Testing And Exploits
 
 Red attack
@@ -11090,24 +11031,11 @@ Pre-engagement before test
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Attacking 2
+## PCI DSS
 
 https://www.pcisecuritystandards.org/documents/Penetration_Testing_Guidance_March_2015.pdf
+
+
 
 
 Vulnerability scan                    vs             Pen Test
@@ -12104,27 +12032,9 @@ Software updating : libraries
 
 ### Intrusion
 
-DOS
-
-DDOS
-
-PING Flood
-
-Smurf attack
-
-TCP SYN attack
-
 DNS Poisoning
 
-IDS
 
-IPS
-
-Firewall Rules
-
-Baselines of normal behaviour
-
-Alerts on Anomalies
 
 
 
@@ -12497,10 +12407,7 @@ SDLC : Agile, Waterfall
 
 Agile
 
-```
-       Maturity model : each iteration is more mature
-       
-```
+  Maturity model : each iteration is more mature     
 
 Microsoft SDL
 

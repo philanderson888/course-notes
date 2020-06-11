@@ -14020,19 +14020,17 @@ sector-by-sector replication of image
 
 ### Password Storage
 
-```
-       most passwords stored as MD5 or SHA1
+most passwords stored as MD5 or SHA1
 
-       Windows System 
+Windows System 
 
-              32\CONFIG\SAM          LOCAL USERS    
-              C:\WINDOWS\NTDS\NTDS.DIT       DOMAIN USERS
+      32\CONFIG\SAM          LOCAL USERS    
+      C:\WINDOWS\NTDS\NTDS.DIT       DOMAIN USERS
 
-       Linux
-       
-              /etc/passwd    All users can reach this location
-              /etc/shadow Only root user can reach this location
-```
+Linux
+
+      /etc/passwd    All users can reach this location
+      /etc/shadow Only root user can reach this location
 
 ### Password cracking
 

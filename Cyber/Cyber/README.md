@@ -115,16 +115,37 @@
     - [Create Dynamic Route](#create-dynamic-route)
 - [Network Security](#network-security)
   - [Project And Risk Management](#project-and-risk-management)
-    - [Encryption - Data In Transit](#encryption---data-in-transit)
-    - [Active Directory](#active-directory)
-    - [Encryption](#encryption)
-    - [WAYS TO ENCRYPT DATA](#ways-to-encrypt-data)
-    - [NETWORKING](#networking-2)
-      - [ACTIVE DIRECTORY](#active-directory-1)
-      - [INSECURE AUTHENTICATION](#insecure-authentication)
-      - [SECURE AUTHENTICATION](#secure-authentication)
-      - [DIAL-IN AUTHENTICATION](#dial-in-authentication)
-      - [SINGLE-SIGN-ON LOGIN](#single-sign-on-login)
+  - [Encryption - Data In Transit](#encryption---data-in-transit)
+  - [Active Directory](#active-directory)
+  - [Encryption](#encryption)
+  - [WAYS TO ENCRYPT DATA](#ways-to-encrypt-data)
+  - [SNMP](#snmp)
+  - [IPSEC](#ipsec)
+  - [SCSI](#scsi)
+  - [SAN STORAGE AREA NETWORK](#san-storage-area-network)
+  - [SITE SURVEY](#site-survey)
+  - [ACTIVE DIRECTORY](#active-directory-1)
+    - [LDAP](#ldap)
+    - [LDAPS = SECURE VERSION](#ldaps--secure-version)
+    - [KERBEROS](#kerberos)
+  - [INSECURE AUTHENTICATION](#insecure-authentication)
+    - [PAP](#pap)
+    - [CHAP](#chap)
+  - [SECURE AUTHENTICATION](#secure-authentication)
+    - [MS-CHAP2](#ms-chap2)
+    - [EAP-TLS](#eap-tls)
+    - [PEAP](#peap)
+    - [LEAP](#leap)
+  - [ONE-TIME PASSWORDS](#one-time-passwords)
+    - [OTP](#otp)
+    - [TOTP](#totp)
+  - [EMAIL ENCYRYPT/AUTHENTICATE](#email-encyryptauthenticate)
+    - [PGP](#pgp)
+  - [DIAL-IN AUTHENTICATION](#dial-in-authentication)
+    - [RADIUS](#radius)
+    - [DIAMETER](#diameter)
+    - [TACACS+](#tacacs)
+  - [SSO](#sso)
       - [FEDERATION](#federation)
       - [BACKUPS](#backups)
       - [Risk Analysis Process](#risk-analysis-process)
@@ -150,7 +171,7 @@
       - [STORAGE TYPES](#storage-types)
     - [MOBILE SECURITY](#mobile-security)
     - [VIRTUALIZATION](#virtualization)
-    - [Site Survey](#site-survey)
+    - [Site Survey](#site-survey-1)
     - [Encryption Methods](#encryption-methods)
     - [Mobile Encryption](#mobile-encryption)
     - [WIFI](#wifi-1)
@@ -168,7 +189,7 @@
     - [Broadband Methods](#broadband-methods)
     - [Dial up](#dial-up)
     - [VPN](#vpn)
-    - [IPSEC](#ipsec)
+    - [IPSEC](#ipsec-1)
   - [Network Architecture](#network-architecture)
     - [Defense-in-depth](#defense-in-depth-1)
       - [Physical Security](#physical-security)
@@ -224,10 +245,10 @@
         - [Certificates](#certificates)
         - [Rogue machine identity](#rogue-machine-identity)
       - [Digital signing](#digital-signing)
-    - [RADIUS](#radius)
-    - [TACACS+](#tacacs)
+    - [RADIUS](#radius-1)
+    - [TACACS+](#tacacs-1)
     - [LDAP (Active Directory)](#ldap-active-directory)
-    - [SSO](#sso)
+    - [SSO](#sso-1)
       - [SAML : token-based SSO (security assertion markup language)](#saml--token-based-sso-security-assertion-markup-language)
       - [OpenID](#openid)
       - [OpenAuth (Open Authorization)](#openauth-open-authorization)
@@ -2277,7 +2298,7 @@ GUID Global User ID (domain)
 
 
 
-### Encryption - Data In Transit
+## Encryption - Data In Transit
 
 ```
 SSH Secure Shell : Encrypted commands
@@ -2301,7 +2322,7 @@ Keylogger - Record keystrokes and send data to storage or internet
 
 
 
-### Active Directory
+## Active Directory
 
 ```
 LDAP Port 389
@@ -2311,7 +2332,7 @@ Kerberos : domain security
 ```
 
 
-### Encryption
+## Encryption
 
 Stream vs Block Cipher
 Stream cipher = 1 bit at a time , fast
@@ -2320,7 +2341,7 @@ Email Encryption :
        PGP	Pretty Good Privacy
        S/MIME
 
-### WAYS TO ENCRYPT DATA
+## WAYS TO ENCRYPT DATA
 
 	STREAM CIPHER
 	
@@ -2349,9 +2370,9 @@ Email Encryption :
 
 
 
-### NETWORKING
+## SNMP 
 
-SNMP SIMPLE NETWORK MANAGEMENT PROTOCOL
+SIMPLE NETWORK MANAGEMENT PROTOCOL
 
 ```
 MANAGE NETWORK OF EG 50 DEVICES
@@ -2364,7 +2385,7 @@ PORT 161/2
 
 ```
 
-IPSEC
+## IPSEC
 
 ```
 IP SECURITY
@@ -2373,7 +2394,9 @@ BUILT-IN ENCRYPTION FOR ALL IP TRAFFIC
 
 ```
 
-SCSI (SMALL COMUTER SYSTEMS INTERFACE)
+## SCSI 
+
+SMALL COMUTER SYSTEMS INTERFACE
 
 ```
 ROCK SOLID TECHNOLOGY FOR SERVER RAID 5 FOR YEARS...
@@ -2382,7 +2405,9 @@ REPLACED BY SATA HARD DRIVES
 
 ```
 
-SAN STORAGE AREA NETWORK (LIGHNING FAST BUT EXPENSIVE)
+## SAN STORAGE AREA NETWORK 
+
+LIGHNING FAST BUT EXPENSIVE
 
 ```
 ISCSI ==> INTERNET SCSI : NETWORK STORAGE PROTOCOL
@@ -2399,115 +2424,121 @@ FCOE  FIBER CHANNEL OVER ETHERNET : UTILISING CHEAP CAT6
 
 ```
 
-SITE SURVEY : MARKING COVERAGE OF WIFI POINTS
+## SITE SURVEY
+
+MARKING COVERAGE OF WIFI POINTS
 
 ```
 EXAM : ENSURE WIFI NOT GOING TOO FAR OUTSIDE BUILDING
 
 ```
 
-#### ACTIVE DIRECTORY
+## ACTIVE DIRECTORY
 
-```
 ACTIVE DIRECTORY IS BUILT ON A SPECIAL PROTOCOL CALLED
 
-LDAP = LIGHTWEIGHT DIRECTORY ACCESS PROTOCOL.  THIS ALSO
+### LDAP
+
+LIGHTWEIGHT DIRECTORY ACCESS PROTOCOL.  THIS ALSO
 	BUILDS LINUX PROGRAMS, NOT JUST WINDOWS.
 
 	LDAP BUILDS THE STRUCTURE FOR ACTIVE DIRECTORY
 
-LDAPS = SECURE VERSION
+### LDAPS = SECURE VERSION
 
-KERBEROS = USED TO PROVIDE ENCRYPTION FOR ACTIVE DIRECTORY
+### KERBEROS
+
+USED TO PROVIDE ENCRYPTION FOR ACTIVE DIRECTORY
 	(ROCK SOLID GRADE ENCRYPTION)
 
-```
+
+## INSECURE AUTHENTICATION
+
+### PAP
+
+PASSWORD AUTHENTICATION PROTOCOL : PLAIN TEXT SO DON'T USE!
+
+### CHAP	
+
+EARLY AUTHENTICATION PROTOCOL USING MD5 SO NOT SECURE.  DON'T USE.
+
+## SECURE AUTHENTICATION
+
+### MS-CHAP2	
+
+CURRENT VERSION OF CHAP
+
+### EAP-TLS 	
+
+AUTHENTICATION USING CERTIFICATES
+
+### PEAP		
+
+PROTECTED EAP 
+
+### LEAP
+
+LIGHTWEIGHT EAP
 
 
-#### INSECURE AUTHENTICATION
+## ONE-TIME PASSWORDS
 
-```
-PAP	PASSWORD AUTHENTICATION PROTOCOL : PLAIN TEXT 
-	SO DON'T USE!
+### OTP
 
-CHAP	EARLY AUTHENTICATION PROTOCOL USING MD5 SO NOT
-	VERY SECURE.  DON'T USE.
+ONE TIME PASSWORD TO PHONE
 
-```
+### TOTP
 
-#### SECURE AUTHENTICATION
-
-```
-MS-CHAP2	CURRENT VERSION OF CHAP
-
-EAP-TLS 	AUTHENTICATION USING CERTIFICATES
-
-PEAP		PROTECTED EAP 
-
-LEAP		LIGHTWEIGHT EAP
-
-```
-
-ONE-TIME PASSWORDS
-
-```
-OTP	ONE TIME PASSWORD TO PHONE
-
-TOTP	TIME-BASED FOR EG 10 MINUTES
+TtIME-BASED FOR EG 10 MINUTES
 
 HOTP	HASH-BASED WHICH VERIFY HASH ALSO ON TOP : CAN
 	BE USED TO ENSURE AUTHENTICATION REQUEST IS
 	GENUINE
 
-```
 
-EMAIL ENCYRYPT/AUTHENTICATE
+## EMAIL ENCYRYPT/AUTHENTICATE
 
-```
-PGP PRETTY GOOD PRIVACY
+### PGP 
 
-```
+PRETTY GOOD PRIVACY
 
-#### DIAL-IN AUTHENTICATION
 
-```
-RADIUS
+## DIAL-IN AUTHENTICATION
+
+### RADIUS
 
 	VPN CLIENT -> DIALS UP -> RAS (DIAL-IN) VPN SERVER
 
 		--> TALKS TO RADIUS SERVER
 		--> TALKS TO ACTIVE DIRECTORY TO AUTHENTICATE
 
-DIAMETER
+### DIAMETER
 
 	DIAMETER IS TWICE AS STRONG AS RADIUS (PUN ON WORDS
 		AS DIAMETER IS TWICE AS LONG AS RADIUS OF
 		ANY CIRCLE)
 
-TACACS+
+### TACACS+
 
 	PROVIDES A GREATER DEGREE OF ENCRYPTION OVER THE
 	WHOLE AUTHENTICATION PROCESS.  ALSO ALLOWS 
 	MULTI-FACTOR AUTHENTICATION
 
-```
 
-#### SINGLE-SIGN-ON LOGIN
 
-```
+## SSO
+
 SSO = ONE LOGIN TO MULTIPLE SITES
 
 	<< SAML = USED TO PASS INFO BETWEEN SITES >>
 
 		SAML = SECURITY ASSOCIATION MARKUP LANGUAGE
 
-```
 
 #### FEDERATION
 
 MULTIPLE COMPANIES WORKING TOGETHER
 
-```
 FEDERATION = A GROUP OF UNRELATED COMPANIES WORKING
 	TOGETHER ON A PROJECT.  NEED TO SECURELY SHARE
 	INFORMATION.
@@ -2521,18 +2552,17 @@ EXTRANET = PROVIDE AUTHENTICATION AND HAVE YOUR BUSINESS
 
 PUBLIC WEBSITE = ACCESSIBLE TO ALL (FROM YOUR DMZ)
 
-```
 
 MANAGE 'CREDENTIALS' SECURELY IN WINDOWS
 
-```
+
 CREDENTIAL MANAGER (CONTROL PANEL)
 
-```
+
 
 CREATING YOUR OWN CERTIFICATES IN A PKI INFRASTRUCTURE
 
-```
+
 PUBLIC CERTIFICATES
 
 	VALID FOR USE ON THE INTERNET 
@@ -2613,11 +2643,11 @@ BACK UP CERTIFICATES
 
 		2 OF 4 PEOPLE MUST BE PRESENT TO UNLOCK
 
-```
+
 
 COMPLIANCE
 
-```
+
 MANTRAP
 
 	DOOR CLOSES BEHIND YOU BEFORE IT WILL OPEN IN
@@ -2687,11 +2717,11 @@ FIRE CONTROL
 					FIRE BUT PRESERVE
 					ELECTRONICS
 
-```
+
 
 SECURITY AGREEMENTS WITH 3RD PARTIES
 
-```
+
 SLA SERVICE LEVEL AGREEMENT
 
 	CONTRACT WITH IT PROVIDER STATING WHAT SERVICES
@@ -2703,14 +2733,14 @@ SLA SERVICE LEVEL AGREEMENT
 		     PLATINUM          2 HOURS
 
 
-```
+
 
 
 
 
 #### BACKUPS
 
-```
+
 FULL (NORMAL) BACKUP
 
 	A) BACK UP ALL FILES REGARDLESS IF THEY HAVE
@@ -2744,7 +2774,7 @@ DIFFERENTIAL BACKUP
 		RECOVER WITH 2 TAPES
 		1) FRIDAY FULL 2) WED (INCLUDES MON,TUES)
 
-```
+
 
 
 
@@ -2759,7 +2789,7 @@ DIFFERENTIAL BACKUP
 
 #### Risk Analysis Process
 
-```
+
 	1. IDENTIFY YOUR ASSETS
 	
 		Equipment of value
@@ -2830,7 +2860,7 @@ DIFFERENTIAL BACKUP
 			   EDUCATE USERS, ADVICE FROM EXPERTS,
 			   TAKE AGGRESSIVE ACTION AGAINST
 			   POTENTIAL ATTACKER
-```
+
 
 
 
@@ -3128,16 +3158,16 @@ https://medium.com/bugbountywriteup/how-i-hacked-into-my-neighbours-wifi-and-har
 
 DAS DIRECT ATTACHED STORAGE
 
-```
+
 ANYTHING DIRECTLY ATTACHED TO YOUR COMPUTER
 
 	EG SATA DRIVE / SCSI DRIVE / IDE DRIVE
 
-```
+
 
 NAS NETWORK ATTACHED STORAGE
 
-```
+
 NAS DRIVE 
 
 	USE FOR 'SOHO' SMALL-OFFICE HOME-OFFICE
@@ -3156,21 +3186,21 @@ NAS DRIVE
 			ALREADY 'STRIPED' ACROSS OTHER
 			DRIVES SO YOUR DATA IS SAFE
 
-```
+
 
 SAN STORAGE AREA NETWORK
 
-```
+
 USED BY LARGE COMPANIES TO STORE DATA USING FIBER OR 10GBPS
 	COPPER LINES TO LIGHNING-FAST STORAGE NETWORK
 
 LAN------FIBER SWITCH-------------SAN STORAGE AREA 10GBPS
 
-```
+
 
 CLUSTERING
 
-```
+
 SERVERA
 	------------> SAN ----------> DATABASE FOR DATA
 SERVERB
@@ -3183,7 +3213,7 @@ SERVERB
 		SERVERA 'FAILOVER' TO B
 		      B  FAILBACK  TO A   WHEN A FIXED
 
-```
+
 
 
 
@@ -3211,7 +3241,7 @@ SERVERB
 
 Virtualization
 
-```
+
 RUNNING MULTIPLE MACHINES OFF ONE 'HOST' MAIN MACHINE
 
 SNAPSHOT 
@@ -3223,11 +3253,11 @@ SANDBOX
 	SECURE, CUT-OFF ENVIROMENT WHERE RUN TESTS
 	ETC WITHOUT AFFECTING 'REAL WORLD'
 
-```
+
 
 Managing Hardware Installations eg Factories, Offices
 
-```
+
 HVAC Heating, Ventilation, Air Con for all standard
 	Buildings
 
@@ -3237,12 +3267,12 @@ SCADA
 	EG HVAC, OR MORE ADVANCED EG POWER PLANT, CAR
 	FACTORY ETC...
 
-```
+
 
 
 ### MOBILE SECURITY
 
-```
+
 MOBILE SECURITY IS A 'HOT' ISSUE - WHY???
 
 BYOD : BRING OWN DEVICE : PEOPLE USING PERSONAL DEVICES
@@ -3275,7 +3305,7 @@ FIND-MY-DEVICE IF LOST
 OFF-BOARDING : WIPE DEVICE SECURELY TO ERASE ALL DATA
 		(EMPLOYEE LEAVE ORGANISATION)
 
-```
+
 
 
 
@@ -3292,7 +3322,7 @@ OFF-BOARDING : WIPE DEVICE SECURELY TO ERASE ALL DATA
 
 ### VIRTUALIZATION
 
-```
+
 RUNNING ONE OR MORE SERVERS FROM A LARGER 'VIRTUAL HOST'
 
 GOOD
@@ -3317,7 +3347,7 @@ BAD
 
 	COSTLY $$$ JUST TO HOST A SERVER FOR YOU...!!!
 
-```
+
 
 
 
@@ -3338,7 +3368,7 @@ BAD
 
 ### Site Survey
 
-```
+
 Used to check
 	1) POWER IS NOT TOO GREAT FOR OUR WIFI : SOLUTION : REDUCE
 			POWER  (Power in DECIBEL units)
@@ -3347,7 +3377,7 @@ Used to check
 
 HACKER OUTSIDE IN CAR : REDUCE POWER TO MAKE IT HARDER FOR THEM 				OUTSIDE	
 
-```
+
 
 
 
@@ -3361,7 +3391,7 @@ HACKER OUTSIDE IN CAR : REDUCE POWER TO MAKE IT HARDER FOR THEM 				OUTSIDE
 
 ### Encryption Methods
 
-```
+
 These are in increasing order  ((EAP : shell : container))
 
 LEAP		weak		L => LIGHTWEIGHT EAP
@@ -3373,15 +3403,15 @@ PEAP		good		PEAP = PROTECTED EAP
 EAP-TLS		best		CERTIFICATES : BOTH ON SERVER
 				AND CLIENT : ULTRA-SECURE
 
-```
+
 
 ### Mobile Encryption
 
-```
+
 ECC Elliptic Curve Cryptography : SMALL, FAST ==> GOOD FOR MOBILE
 					PHONE ENCRYPTION!!!
 
-```
+
 
 
 
@@ -3407,7 +3437,7 @@ connect to free wifi
 
 #### Secure WIFI
 
-```
+
 1) MAC filtering ==> a LOT OF WORK!!!  (only connect if your MAC 
 						matches)
 
@@ -3422,19 +3452,19 @@ connect to free wifi
 		
 		(( PHONE ==> SEE 'UNNAMED NETWORK'))
 
-```
+
 
 
 ### WIFI CHANNELS
 
-```
+
 WIFI HAS 13 CHANNELS
 
 	BUY DEVICE SET TO CHANNEL 1,6, OR 11
 
 		POOR SIGNAL ==> CHANGE CHANNEL
 
-```
+
 
 
 
@@ -3448,16 +3478,16 @@ WIFI HAS 13 CHANNELS
 
 #### War driving / war chalking
 
-```
+
 WAR CHALKING	: MARKING OUTSIDE FREE WIFI
 
 WAR DRIVING     : LOOKING FOR FREE WIFI
 
-```
+
 
 #### WPS WIFI Protected Setup
 
-```
+
 ONE BUTTON PUSH SETUP : AUTOMATIC 8-DIGIT PIN USED TO CONNECT
 
 	VULERNABILITY : SPLITS INTO TWO 4-DIGIT PINS, EACH ONE
@@ -3465,7 +3495,7 @@ ONE BUTTON PUSH SETUP : AUTOMATIC 8-DIGIT PIN USED TO CONNECT
 
 	EXAM : TURN OFF WPS !!!
 
-```
+
 
 
 
@@ -3510,7 +3540,7 @@ Steal data eg contacts over bluetooth
 
 #### Distances
 
-```
+
 NFC		10cm		Near Field Communication
 
 IR 		1m		Infra Red
@@ -3529,20 +3559,20 @@ ETHERNET	100m		(Repeater : 200m)
 
 USB		5m
 
-```
+
 
 ### Broadband Methods
 
 ### Dial up
 
-```
+
 Modem : used to dial up (56k or 92k)
 
-```
+
 
 ### VPN
 
-```
+
 PPP	Point-to-point		dial up layer 2
 
 Encryption : 
@@ -3559,7 +3589,7 @@ IKEV
 
 SSTP
 	==> USES HTTPS WEB CERTIFICATES (SECURE)
-```
+
 			
 ### IPSEC	
 	AH AUTHENTICATION
@@ -3737,7 +3767,7 @@ Steganography hiding data in innocent packages
 
 ### Virtualization
 
-```
+
 VM = VIRTUAL MACHINE
 
 .VHD = VIRTUAL HARD DRIVE		WIN7
@@ -3754,13 +3784,13 @@ VHDX = HARD DRIVE
 
 AVHDX = CHANGES SINCE LAST SNAPSHOT!!!
 
-```
+
 
 
 
 Problems with VMs
 
-```
+
 Easy to COPY AND STEAL A WHOLE VM!!!
 
 	VM ESCAPE : Lock VM so it only runs on ONE HOST WHICH
@@ -3770,7 +3800,7 @@ VM sprawl : easy to create new VMs which can be unpatched / unmanaged
 
 VM escape : Virus from VM can INFECT HOST
 
-```
+
 
 
 
@@ -3805,7 +3835,7 @@ VM escape : Virus from VM can INFECT HOST
 
 VIRUS SCAN : BASED ON VIRUS HASH = SIGNATURE
 
-```
+
 HOW DOES ANTIVIRUS SOFTWARE WORK?
 
 	ALL KNOWN VIRUSES ==> TAKE THEIR 'HASH' THEN
@@ -3825,7 +3855,7 @@ OR : BEHAVIOUR-BASED
 	'FALSE POSITIVE'  ((GOOD FILE IDENTIFIED 
 				INCORRECTLY AS A VIRUS))
 
-```
+
 
 
 
@@ -3843,7 +3873,7 @@ OR : BEHAVIOUR-BASED
 
 ### NETWORK ATTACKS
 
-```
+
 ROGUE ACCESS POINT
 
 	WIFI POINT (UNAUTHORISED) SET UP IN YOUR 
@@ -3920,7 +3950,7 @@ DNS POISON
 DNS HIJACK : FULL DNS SERVER BUILT AND SET UP BY ATTACKER
 	TO POINT PEOPLE TO THE WRONG SITES
 
-```
+
 
 
 
@@ -3932,7 +3962,7 @@ DNS HIJACK : FULL DNS SERVER BUILT AND SET UP BY ATTACKER
 
 
 
-```
+
 ROGUE POINT : FAKE WIFI POINT
 
 EVIL TWIN : WIFI POINT WITH SAME NAME
@@ -4000,7 +4030,7 @@ WPS : ONE-BUTTON AUTO-SETUP OF HOME WIFI
 
 		EACH NUMBER CAN BE HACKED SEPARATELY
 		(1 IN 10000 SO EASY TO CRACK)
-```
+
 
 
 
@@ -4024,7 +4054,7 @@ WPS : ONE-BUTTON AUTO-SETUP OF HOME WIFI
 
 #### S/MIME
 
-```
+
 ENABLES MAPPING OF CORRECT PROGRAM TO RUN APPLICATIONS 
 	INSIDE BROWSER
 
@@ -4032,28 +4062,28 @@ ENABLES MAPPING OF CORRECT PROGRAM TO RUN APPLICATIONS
 
 		   MP3 : GET CORRECT PLUG-IN TO PLAY FILE	
 
-```
+
 
 #### PGP PRETTY GOOD PRIVACY
 
-```
+
 EMAIL ENCRYPTION
 
-```
+
 
 #### HARDWARE ENCYPTION
 
-```
+
 HSM HARDWARE SECURITY MODULE
 
 	DEDICATED DEVICE : ENCRYPTION ONLY (STORE
 		PRIVATE ENCRYPTION KEYS SECURELY)		
 
-```
+
 
 #### NTFS ENCRYPTION
 
-```
+
 USED BY WINDOWS TO ENCRYPT FILES
 
 LIMITED USE!!!
@@ -4073,11 +4103,11 @@ LIMITED USE!!!
 				PERMANENT STORAGE
 				AND SHUTS PC DOWN
 
-```
+
 
 #### BITLOCKER
 
-```
+
 PROVIDES FULL DRIVE ENCRYPTION, UNLIKE NTFS
 
 PROBLEM!!!  OUR HARD DRIVES BOOT USING MBR MASTER
@@ -4101,11 +4131,11 @@ TPM CHIP  (TRUSTED PLATFORM MODULE)
 	(( IF NO TPM CHIP IS PRESENT, CAN STORE 
 		BITLOCKER KEYS ON USB STICK ))
 
-```
+
 
 #### SQL DATA
 
-```
+
 STANDARD DATABASES STORE DATA IN ROWS AND COLUMNS LIKE EXCEL
 
 	TABLE NAME
@@ -4121,11 +4151,11 @@ STANDARD DATABASES STORE DATA IN ROWS AND COLUMNS LIKE EXCEL
 		SQL   = PAID (MICROSOFT)
 		ORACLE = PAID
 
-```
+
 
 #### BIG DATA / NO-SQL
 
-```
+
 TODAY SO MUCH INFORMATION GETS CREATED AND STORED THAT
 TRADITIONAL 'RELATIONAL' DATABASES ARE TOO SLOW...
 
@@ -4141,11 +4171,11 @@ FIELDS LOOK LIKE
 ISSUES WITH SECURITY : DEVELOPING TECHNOLOGY : SECURITY,
 	ENCRYPTION, PROTECTING DATA
 
-```
+
 
 #### DATA DISPOSAL
 
-```
+
 MAGNETIC DATA CAN BE RESTORED BY CROOKS IF WE DISPOSE
 	OF IT CASUALLY.  STRICT POLICIES EXIST TO 
 	ENFORCE CORRECT METHOD OF 'DISPOSING' OF DATA
@@ -4160,11 +4190,11 @@ MAGNETIC DATA CAN BE RESTORED BY CROOKS IF WE DISPOSE
 
 3. PHYSICAL DESTRUCTION EG HAMMER OR PHYSICALLY SHRED DRIVE
 
-```
+
 
 #### HARDENING YOUR SERVER
 
-```
+
 HARDEN SERVER = INCREASE SECURITY
 
 BASELINE = ORIGINAL SETTINGS
@@ -4177,11 +4207,11 @@ GET BASICS RIGHT
 	UPDATES FOR AV SOFTWARE : ON
 	UPDATES FOR APPLICATIONS : PATCH MANAGEMENT : ON
 
-```
+
 
 #### INPUT VALIDATION
 
-```
+
 STOP 'COMMAND INJECTION' ATTACK   
 
 	FORM  ==>   INJECT CODE EG <script>....code </script>
@@ -4203,11 +4233,11 @@ XSS : TRYING TO HACK FROM YOUR SITE TO NEIGHBOURING SITE
 XSRF : LOGGED IN ALREADY SO POSSIBLE POTENTIAL TO HACK 
 		GREATER 
 
-```
+
 
 ### Types of testing
 
-```
+
 BLACK BOX TESTING : JUST LOOK AT INPUT / OUTPUT ONLY
 		(NOT DETAILS OF INSIDE CODING)
 
@@ -4251,7 +4281,7 @@ Fuzz Testing		THROWING RANDOM DATA AT OUR APPLICATION
 			TO SEE IF IT CATCHES ALL ERRORS, EVEN
 			FROM RANDOM RUBBISH
 
-```
+
 
 
 
@@ -4259,7 +4289,7 @@ Fuzz Testing		THROWING RANDOM DATA AT OUR APPLICATION
 
 #### PROXY SERVER
 
-```
+
 USED IN BIG COMPANIES FOR MANY REASONS : 
 
 1) SECURITY : USING DIFFERENT IP THAN REAL GATEWAY
@@ -4274,14 +4304,14 @@ USED IN BIG COMPANIES FOR MANY REASONS :
 4) USER ACTIVITY : KNOW WHICH USERS ONLINE, HOW LONG, WHICH
 			SITES...BILLING PURPOSES...
 
-```
+
 
 #### TCP TRUSTED COMPUTING BASE
 
-```
+
 OPERATING SYSTEM WHICH CAN BE 'HARDENED' OR LOCKED DOWN
 
-```
+
 
 
 #### UTM UNIFIED THREAT MANAGEMENT
@@ -5048,7 +5078,7 @@ AND EXPLOIT IT BEFORE GOOD GUYS GET TO KNOW WHAT'S HAPPENING
 
 Hardening Your System
 
-```
+
 Harden = make more secure
 
 	Disable unused services and ports
@@ -5090,7 +5120,7 @@ Trusted OS ==> can LOCK DOWN AND MAKE SURE!!!
 
 	TCB Trusted Computing Base : secure OS eg LINUX
 
-```
+
 
 
 
@@ -5148,7 +5178,7 @@ Man In The Middle
 ### Forensics
 
 
-```
+
 Forensics : Science of criminology : examining a PC as part of
 		a crime scene
 
@@ -5178,7 +5208,7 @@ On board/off board
 	ON BOARD ==> HIRE, NEW EMPLOYEE
 	OFF BOARD ==> EXIT ORGANISATION
 
-```
+
 
 
 
@@ -5256,39 +5286,39 @@ DLP = data loss prevention
 
 ### DLP
 
-```
+
 TWO MEANINGS
 
 	DATA LOSS PREVENTION : DATA TAKEN (STOLEN AND REMOVED)
 
 	DATA LEAK PREVENTION : COPY TAKEN 
 
-```
+
 
 FAILSAFE : Industrial chain saw will not work unless thumb and fingers
 pressing on two separate buttons
 
 FAILSECURE
 
-```
+
 POWER GOES OUT : SECURE LOCKED DOOR : REMAIN LOCKED BUT
 	IF PERSON TRAPPED INSIDE THEY STILL CAN FORCE
 	THE DOOR OPEN AND GET OPEN
 
 	EG SERVER ROOM / SAFE
 
-```
+
 
 FAILOPEN
 
-```
+
 POWER GOES OUT : DOOR SWING WIDE OPEN
 
-```
+
 
 RESPONDING TO SECURITY INCIDENTS
 
-```
+
 IRP : INCIDENT RESPONSE POLICY
 
 	EG PEOPLE TO CONTACT STRAIGHT AWAY
@@ -5297,11 +5327,11 @@ IRP : INCIDENT RESPONSE POLICY
 		OF UNCERTAINTY
 	   FIRST RESPONDER : EMERGENCY RESPONSE TEAM
 
-```
+
 
 FIGHTING CRIME : FORENSICS
 
-```
+
 IT IS IMPORTANT IN A COURT OF LAW THAT EVIDENCE IS 
 	ADMISSIBLE.  IF NOT, IT CANNOT BE USED
 	AGAINST A DEFENDANT	
@@ -5323,11 +5353,11 @@ INVESTIGATING A CRIME
 		SIGNED LIST OF PEOPLE RESPONSIBLE FOR
 		EVIDENCE AT ALL TIMES
 
-```
+
 
 DISASTER RECOVERY
 
-```
+
 FAULT TOLERANCE = RECOVERY FROM FAULT
 
 	EG RAID 5  :   DRIVE FAILS ==> STILL SURVIVE
@@ -5359,11 +5389,11 @@ RPO : RECOVERY POINT OBJECTIVE
 RTO RECOVERY TIME OBJECTIVE : PLANNED TIME BY WHICH WE 
 	HAVE FIXED AN ITEM AND GET EVERYTHING WORKING
 
-```
+
 
 HOT/WARM/COLD SITE
 
-```
+
 HOT SITE : 100% READY TO GO - COMPUTERS, NETWORK
 
 		*** TOO COSTLY ! ***
@@ -5378,14 +5408,14 @@ COLD SITE : JUST BARE SHELL OF BUILDING WITH WATER AND
 
 	1-2 WEEKS TO SET UP
 
-```
+
 
 MTTF MEAN TIME TO FAIL = AVERAGE TIME BEFORE EG HARD DRIVE FAIL (3 YEARS)
 
-```
+
 ==> MTBF MEAN TIME BETWEEN FAILURES
 
-```
+
 
 MTTR MEAN TIME TO REPAIR : AVERAGE TIME TO FIX EG SERVER
 
@@ -5449,11 +5479,11 @@ TCP SYN Flood
 TCP : Always send a '3-WAY HANDSHAKE' to set up
 1) Hello : I'm going to send you data 2) Server : OK 3) Client : Done
 
-```
+
 SYN FLOOD : Send lots of 'hello' (stage 1) requests ONLY
 	Server : reserve space for conversations which never happen
 
-```
+
 
 Flood guard : watches for and prevents flood attacks (DOS flood)
 
@@ -5464,7 +5494,7 @@ TO PROVOKE A RESPONSE
 
 MITM Man In The Middle
 
-```
+
 Client			Bad Router 		Server
 
 		Can be used 
@@ -5474,11 +5504,11 @@ Client			Bad Router 		Server
 
 Prevent : HTTPS Scanning (part of UTM Threat Management)
 
-```
+
 
 Session Hijack
 
-```
+
 Client---------------Bad Router----------------Server
 
 	Bad router can actually 'take over' session
@@ -5489,11 +5519,11 @@ Client---------------Bad Router----------------Server
 		BAD ROUTER IS IMPERSONATING AND HAS TAKEN
 		OVER THE SESSION
 
-```
+
 
 Session Replay Attack
 
-```
+
 Valid session is copied and played back later
 
 Client---------------Bad Router---------------Server
@@ -5503,7 +5533,7 @@ Client---------------Bad Router---------------Server
 
 Mitigate using TIMESTAMPS
 
-```
+
 
 Passord Attack
 
@@ -5530,13 +5560,13 @@ Fake/change some ARP data to cause trouble
 
 Typo Squatting
 
-```
+
 	Gooogle.com
 	Amazone.com     MIS-SPELLING OF COMMON SITES : PEOPLE BUY
 			DOMAIN NAME THEN SELL TO CORRECT OWNER FOR
 			LOTS OF MONEY
 
-```
+
 
 URL Hijacking
 Buy domain names of companies and 'sit on them'. Force
@@ -5572,7 +5602,7 @@ SERVICES
 
 Injection Attacks
 
-```
+
 Website : FORM TO COLLECT INFORMATION
 	  eg
 		name..........  dob........  
@@ -5590,18 +5620,18 @@ SQL
 LDAP	
 XML
 
-```
+
 
 Input Validation
 
-```
+
 Check for 'strange' characters like \\ / < > ' "   etc in fields
 
-```
+
 
 Buffer Overflow Attack
 
-```
+
 Buffer 
 	Temporary data store to hold information when network
 	is slow : waiting for data to either send or receive
@@ -5612,29 +5642,29 @@ Buffer
 		POSSIBLY GET ACCESS TO AREAS OF RAM NEXT TO 
 		THE BUFFER WHICH NORMALLY WE DON'T HAVE ACCESS TO
 
-```
+
 
 XSS Cross Site Scripting
 
-```
+
 Hack in to one website and from there, hack into another	
 
-```
+
 
 Folder Traversal Attack
 
-```
+
 Reach one folder : from there, navigate and reach another folder
 
-```
+
 
 XSRF Cross Site Request Forgery
 
-```
+
 Hack a website but ALREADY LOGGED IN ==> YOU HAVE MORE POWER
 	TO DO MORE DAMAGE WHEN YOU HACK IN
 
-```
+
 
 
 
@@ -5680,11 +5710,11 @@ CODE INJECTION ATTACK : CAN PUT <script>....code..</script>
 		XML (TEXT DATABASE)
 		LDAP (ACTIVE DIRECTORY)
 
-```
+
 
 PORT
 
-```
+
 1.2.3.4 : 80
 
 IP      : PORT

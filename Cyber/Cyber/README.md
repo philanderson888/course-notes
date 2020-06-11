@@ -442,8 +442,8 @@
       - [Build](#build)
       - [Connect](#connect)
     - [AWS Linux Virtual Machine With Apache Running](#aws-linux-virtual-machine-with-apache-running)
-    - [AWS Linux Virtual Machine With Apache Running](#aws-linux-virtual-machine-with-apache-running-1)
     - [AWS Kali Linux with VNC GUI](#aws-kali-linux-with-vnc-gui)
+  - [Ubuntu Install MongoDB](#ubuntu-install-mongodb)
     - [Cyber Docker Labs On AWS](#cyber-docker-labs-on-aws)
   - [Docker Pull Metasploitable](#docker-pull-metasploitable)
   - [Docker Metasploitable From GitHub](#docker-metasploitable-from-github)
@@ -8050,23 +8050,6 @@ ssh -i ~/.ssh/AWSLinuxKeyPair.pem ec2-user@34.242.114.92
 ```
 
 
-### AWS Linux Virtual Machine With Apache Running
-
-Install this on machine with Kali already installed
-
-```
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt install -y lamp-mariadb10.2-php7.2 php7.2 httpd mariadb-server
-systemctl start https
-systemctl enable httpd
-usermod -a -G apache ec2-user
-chown -R ec2-user:apache /var/www
-chmod 2775 /var/www
-find /var/www -type d -exec chmod 2775 {} \;
-find /var/www -type f -exec chmod 0664 {} \;
-echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
-```
 
 
 ### AWS Linux Virtual Machine With Apache Running
@@ -8136,6 +8119,29 @@ vncserver
 
 
 
+
+## Ubuntu Install MongoDB
+
+```bash
+sudo apt install gnupg
+wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+echo "mongodb-org hold" | sudo dpkg --set-selections
+echo "mongodb-org-server hold" | sudo dpkg --set-selections
+echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+ps --no-headers -o comm 1
+sudo systemctl start mongod
+#sudo systemctl daemon-reload
+#sudo systemctl start mongod
+sudo systemctl status mongod
+sudo systemctl enable mongod
+# client
+mongo
+```
 
 
 

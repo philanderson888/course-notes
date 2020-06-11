@@ -444,7 +444,7 @@
     - [AWS Linux Virtual Machine With Apache Running](#aws-linux-virtual-machine-with-apache-running)
     - [AWS Kali Linux with VNC GUI](#aws-kali-linux-with-vnc-gui)
   - [Ubuntu Install MongoDB](#ubuntu-install-mongodb)
-    - [Cyber Docker Labs On AWS](#cyber-docker-labs-on-aws)
+    - [Ubuntu Install Docker](#ubuntu-install-docker)
   - [Docker Pull Metasploitable](#docker-pull-metasploitable)
   - [Docker Metasploitable From GitHub](#docker-metasploitable-from-github)
   - [Kali](#kali)
@@ -8135,49 +8135,49 @@ echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
 echo "mongodb-org-tools hold" | sudo dpkg --set-selections
 ps --no-headers -o comm 1
 sudo systemctl start mongod
-#sudo systemctl daemon-reload
-#sudo systemctl start mongod
 sudo systemctl status mongod
 sudo systemctl enable mongod
-# client
+# run the client
 mongo
 ```
 
 
 
-### Cyber Docker Labs On AWS
 
-Start, run and connect to an AWS instance
+
+
+
+
+### Ubuntu Install Docker
 
 ```bash
-sudo apt install docker -y
-# no
-# try this instead
-# remove invalid binaries
-sudo apt remove docker docker-engine docker.io containerd runc  
+# remove invalid binaries 
+sudo apt remove docker docker.io containerd runc  -y
 # set up environment  (note : some did not fully work)
-sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+sudo apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common -y
 # key
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 # check key installed
 sudo apt-key fingerprint 0EBFCD88
-# set up repository (failed)
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-# insall docker
-sudo apt install docker-ce 
-sudo apt install docker-ce-cli 
-sudo apt install containerd.io
-# actually came to a grinding halt here so I think we might need to delete some or all of this
-# try a new, single line command
-sudo curl -sSL https://get.docker.com/ | sh
-# add user to docker users group
-sudo usermod -aG docker ec2-user
+# set up repository
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic test"
+sudo apt update
+# insall docker 
+sudo apt install docker-ce docker-ce-cli  containerd.io -y
+# run docker
+docker
 ```
+
+
+
+
+
+
 
 ## Docker Pull Metasploitable
 
 ```
-docker pull peakkk/metasploitable`
+docker pull peakkk/metasploitable
 # or
 docker pull tleemcjr/metasploitable2
 ```

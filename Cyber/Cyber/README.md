@@ -19,6 +19,7 @@
   - [Install](#install)
     - [install apps](#install-apps)
     - [install ifconfig](#install-ifconfig)
+    - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
     - [dig](#dig)
     - [mtr](#mtr)
@@ -1262,6 +1263,21 @@ sudo apt autoremove
 
 ```bash
 sudo apt install net-tools
+```
+
+### install a service like MongoDB on AWS Linux
+
+```bash
+# install mongo
+sudo yum install -y mongodb-org
+# check which version we are using
+ps --no-headers -o comm 1
+# start
+sudo systemctl start mongod
+# check status
+sudo systemctl status mongod
+# start when system starts
+sudo systemctl enable mongod
 ```
 
 ## Labs
@@ -8112,14 +8128,44 @@ Go to <<Public IP>> and you should now have a web server!!!
 ```bash
 # check which version of linux we are using
 grep ^NAME  /etc/*release
+# create environment
+sudo touch /etc/yum.repos.d/mongodb-org-4.2.repo 
+sudo chmod 777 mongodb-org-4.2.repo
+sudo echo [mongodb-org-4.2] >> /etc/yum.repos.d/mongodb-org-4.2.repo 
+sudo echo name=MongoDB Repository >> /etc/yum.repos.d/mongodb-org-4.2.repo 
+sudo echo baseurl=https://repo.mongodb.org/yum/amazon/2/mongodb-org/4.2/x86_64/ >> /etc/yum.repos.d/mongodb-org-4.2.repo 
+sudo echo gpgcheck=1 >> /etc/yum.repos.d/mongodb-org-4.2.repo 
+sudo echo enabled=1 >> /etc/yum.repos.d/mongodb-org-4.2.repo 
+sudo echo gpgkey=https://www.mongodb.org/static/pgp/server-4.2.asc >> /etc/yum.repos.d/mongodb-org-4.2.repo 
+
 # install mongo
 sudo yum install -y mongodb-org
 # check which version we are using
 ps --no-headers -o comm 1
 # start
 sudo systemctl start mongod
+# check status
+sudo systemctl status mongod
+# start when system starts
+sudo systemctl enable mongod
 # client
 mongo
+# database
+use test-database-01
+# show databases
+show dbs
+# insert data
+db.table01.insert({"name":"test name"})
+# show databases again
+show dbs
+# create collection
+db.createCollection("table02")
+db.table02.insert({"name":"test name"})
+# show collections / tables
+show collections
+# show data
+db.table01.find()
+db.table02.find()
 ```
 
 

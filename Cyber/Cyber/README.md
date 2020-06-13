@@ -21,6 +21,7 @@
     - [install ifconfig](#install-ifconfig)
     - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
+    - [Set Password](#set-password)
     - [dig](#dig)
     - [mtr](#mtr)
     - [ss (Netstat equivalent)](#ss-netstat-equivalent)
@@ -461,23 +462,24 @@
       - [Vulnversity](#vulnversity)
   - [Cyber Labs on AWS](#cyber-labs-on-aws)
     - [AWS Linux Virtual Machine](#aws-linux-virtual-machine)
-      - [Build](#build)
+      - [Build A New Instance (T2 Large)](#build-a-new-instance-t2-large)
       - [Connect](#connect)
     - [AWS Linux Install Apache](#aws-linux-install-apache)
     - [AWS Linux Install Mongo](#aws-linux-install-mongo)
-    - [AWS Kali Linux with VNC GUI](#aws-kali-linux-with-vnc-gui)
-  - [Ubuntu Install MongoDB](#ubuntu-install-mongodb)
+    - [AWS Kali with VNC](#aws-kali-with-vnc)
+    - [Ubuntu Install MongoDB](#ubuntu-install-mongodb)
+      - [start mongodb](#start-mongodb)
+      - [run mongo client](#run-mongo-client)
+    - [Kali Install OpenVAS  (1 hour with attended input)](#kali-install-openvas-1-hour-with-attended-input)
     - [Ubuntu Install Docker](#ubuntu-install-docker)
+    - [AWS Run Container](#aws-run-container)
+  - [Docker Kali](#docker-kali)
   - [Docker Pull Metasploitable](#docker-pull-metasploitable)
   - [Docker Metasploitable From GitHub](#docker-metasploitable-from-github)
   - [Kali](#kali)
     - [Kali Handbook](#kali-handbook)
     - [About Kali](#about-kali)
     - [Installing Kali](#installing-kali)
-    - [Kali OpenVAS Install on AWS Linux](#kali-openvas-install-on-aws-linux)
-    - [Kali Greenbone 11 Install](#kali-greenbone-11-install)
-    - [Kali From Docker](#kali-from-docker)
-    - [AWS Container](#aws-container)
   - [Metasploit](#metasploit-1)
     - [What is Metasploit?](#what-is-metasploit)
   - [Metasploitable](#metasploitable)
@@ -1281,6 +1283,16 @@ sudo systemctl enable mongod
 ```
 
 ## Labs
+
+### Set Password
+
+```bash
+
+sudo passwd <<user>>
+
+echo -e "kali\nkali" | sudo passwd ec2-user
+echo -e "kali\nkali" | sudo passwd kali
+```
 
 ### dig
 
@@ -8076,10 +8088,7 @@ gobuster dir -u http://10.10.196.4:3333 -w directory-list-2.3-medium.txt
 
 ### AWS Linux Virtual Machine
 
-#### Build
-
-1. New Instance
-2. T2 Large
+#### Build A New Instance (T2 Large)
 
 #### Connect
 
@@ -8116,6 +8125,8 @@ chmod 2775 /var/www
 find /var/www -type d -exec chmod 2775 {} \;
 find /var/www -type f -exec chmod 0664 {} \;
 echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+touch /var/www/html/index.html
+echo "<html>hello world from phil</html>" > /var/www/html/index.html
 ```
 
 Unblock port 80 using EC2 > Security Groups > <<Group>> > Change rule and add port 80
@@ -8171,24 +8182,23 @@ db.table02.find()
 
 
 
-### AWS Kali Linux with VNC GUI
+### AWS Kali with VNC
 
-Find `Kali` on AWS store, run and install T2 Large 
-
-Check the release version
+Find `Kali` on AWS store, run and install T2 Large via EC2
 
 ```bash
 # connect
 ssh -i ~/.ssh/KaliLinuxKeyPair.pem ec2-user@35.176.24.73
+# set password
+echo -e "kali\nkali" | sudo passwd ec2-user
+echo -e "kali\nkali" | sudo passwd kali
 # version
 cat /etc/os-release
 # run nmap
 nmap
 # run metasploit
 msfconsole
-# set password
-sudo passwd ec2-user 
-sudo passwd kali
+exit
 # run postgresql
 sudo service postgresql start
 # tightvnc
@@ -8202,7 +8212,7 @@ ssh -L 5901:localhost:5901 -i ~/.ssh/KaliLinuxKeyPair.pem ec2-user@35.176.24.73
 vncserver
 # download vnc viewer from https://www.realvnc.com/en/connect/download/viewer/linux/
 # run vnc viewer
-# enter address `locahost:1`
+# enress `locahost:1`
 # enter password and connect!
 ```
 
@@ -8210,7 +8220,7 @@ vncserver
 
 
 
-## Ubuntu Install MongoDB
+### Ubuntu Install MongoDB
 
 ```bash
 sudo apt install gnupg
@@ -8224,12 +8234,79 @@ echo "mongodb-org-shell hold" | sudo dpkg --set-selections
 echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
 echo "mongodb-org-tools hold" | sudo dpkg --set-selections
 ps --no-headers -o comm 1
+```
+
+#### start mongodb
+
+```bash
 sudo systemctl start mongod
 sudo systemctl status mongod
 sudo systemctl enable mongod
+```
+
+#### run mongo client
+
+```bash
 # run the client
 mongo
+# database
+use test-database-01
+# show databases
+show dbs
+# insert data
+db.table01.insert({"name":"test name"})
+# show databases again
+show dbs
+# create collection
+db.createCollection("table02")
+db.table02.insert({"name":"test name"})
+# show collections / tables
+show collections
+# show data
+db.table01.find()
+db.table02.find()
 ```
+
+
+
+
+
+
+
+
+### Kali Install OpenVAS  (1 hour with attended input)
+
+*Note: Total time around 1 hour*
+*Note: Downloads a lot of data* 
+*Note: During install have to a) select `package maintainer` option 
+                              b) select `y` option*
+
+```bash
+# check update sources are valid
+#//sudo nano /etc/apt/sources.list  
+#//deb http://http.kali.org/kali kali-rolling main contrib non-free  
+#//deb http://http.kali.org/kali sana main non-free contrib  
+#//deb http://security.kali.org/kali-security sana/updates main contrib non-free  
+#//deb http://old.kali.org/kali moto main non-free contrib 
+# save and close
+sudo apt update -y
+sudo apt upgrade -y
+# openvas
+sudo apt install openvas -y
+sudo openvas-setup -y               // lab works fine to here!
+# user with 4c9c6ce9-6602-48bc-9212-55d3d0610493
+netstat -antp
+sudo openvas-start 
+# now connect with VNC as other tutorial details
+# now open browser to https://localhost:9392
+# and log in !
+# if you forget your password you can reset it with
+sudo openvasmd --user=admin --new-password=admin
+```
+
+
+
+
 
 
 
@@ -8254,9 +8331,62 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 # insall docker 
 sudo apt install docker-ce docker-ce-cli  containerd.io -y
+# [ i think this is not required
+# set permissions : create docker group
+# sudo groupadd docker
+# add your user to this group
+# sudo usermod -aG docker ${USER}
+# log out
+# exit
+# log in ]
 # run docker
 docker
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### AWS Run Container
+
+First thing is to get a container running on AWS
+
+Using the `Elastic Container Registry`
+
+or
+
+`aws fargate`
+
+
+ECS Elastic Container Service using Fargate
+
+```bash
+# Launch a container in EC2
+# Launch Instance
+# Community AMI
+# Tick Ubuntu
+# select a ubuntu
+```
+
+
+
+
+
+
+
+
+## Docker Kali 
+
+https://github.com/admirito/gvm-containers
 
 
 
@@ -8274,8 +8404,6 @@ docker pull tleemcjr/metasploitable2
 
 
 ## Docker Metasploitable From GitHub
-
-
 
 
 
@@ -8326,123 +8454,6 @@ Metasploitable “GUEST” Minimal Memory Requirements
 
 
 
-
-
-
-
-
-
-
-
-
-
-### Kali OpenVAS Install on AWS Linux
-
-```bash
-# check update sources are valid
-#//sudo nano /etc/apt/sources.list  
-#//deb http://http.kali.org/kali kali-rolling main contrib non-free  
-#//deb http://http.kali.org/kali sana main non-free contrib  
-#//deb http://security.kali.org/kali-security sana/updates main contrib non-free  
-#//deb http://old.kali.org/kali moto main non-free contrib 
-# save and close
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt install openvas -y
-sudo openvas-setup -y               // lab works fine to here!
-# user with 4c9c6ce9-6602-48bc-9212-55d3d0610493
-netstat -antp
-sudo openvas-start 
-# now connect with VNC as other tutorial details
-# now open browser to https://localhost:9392
-# and log in !
-# if you forget your password you can reset it with
-sudo openvasmd --user=admin --new-password=admin
-```
-
-
-
-
-
-
-
-
-### Kali Greenbone 11 Install
-
-Install Greenbone11 (GVM11) on Ubuntu
-
-```bash
-# postgres
-sudo apt install postgresql
-# greenbone 11
-sudo add-apt-repository ppa:mrazavi/gvm
-sudo apt install gvm -y
-# set permissions
-cd /var/lib/openvas && sudo chmod 777 plugins && cd ~
-# update sync
-greenbone-nvt-sync && sudo greenbone-scapdata-sync && sudo greenbone-certdata-sync
-curl
-You can access the Greenbone Security Assistant web interface at:
-
-https://localhost:4000
-
-The default username/password is as follows:
-
-Username: admin
-Password: admin
-
-You can check the status of greenbone daemons with systemctl:
-
-systemctl status ospd-openvas # scanner
-systemctl status gvmd # manager
-systemctl status gsad # web ui
-
-
-# the http web page does not work as it was ubuntu server I installed - maybe I should have chosen the client!
-sudo apt-get install tasksel -y 
-//sudo apt-get install slim -y 
-sudo apt-get install lightdm -y
-
-cd /etc/apt
-nano sources.list
-# alt-shift-t and delete contents of file
-# replace with
-deb http://archive.ubuntu.com/ubuntu/ bionic main restricted
-deb http://archive.ubuntu.com/ubuntu/ bionic-updates main restricted
-deb http://archive.ubuntu.com/ubuntu/ bionic universe
-deb http://archive.ubuntu.com/ubuntu/ bionic-updates universe
-deb http://archive.ubuntu.com/ubuntu/ bionic multiverse
-deb http://archive.ubuntu.com/ubuntu/ bionic-updates multiverse
-deb http://archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
-deb http://security.ubuntu.com/ubuntu bionic-security main restricted
-deb http://security.ubuntu.com/ubuntu bionic-security universe
-deb http://security.ubuntu.com/ubuntu bionic-security multiverse
-
-
-sudo apt-get install kde-plasma-desktop
-
-tasksel
-```
-
-
-
-
-### Kali From Docker
-
-https://github.com/admirito/gvm-containers
-
-
-
-
-### AWS Container
-
-First thing is to get a container running on AWS
-
-Using the `Elastic Container Registry`
-
-or
-
-`aws fargate`
 
 
 

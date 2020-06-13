@@ -90,7 +90,7 @@
     - [Microservices](#microservices)
 - [DevSecOps](#devsecops)
 - [AWS](#aws)
-    - [AWS secure web app demo in Intro to AWS Cloud Security Course at Secure Communication part](#aws-secure-web-app-demo-in-intro-to-aws-cloud-security-course-at-secure-communication-part)
+    - [AWS secure web app demo](#aws-secure-web-app-demo)
   - [AWS Container Services](#aws-container-services)
   - [AWS Abstracted Services](#aws-abstracted-services)
   - [AWS Environment Security](#aws-environment-security)
@@ -1761,7 +1761,9 @@ Nagios monitoring
 
 # AWS
 
-### AWS secure web app demo in Intro to AWS Cloud Security Course at Secure Communication part
+### AWS secure web app demo 
+
+in Intro to AWS Cloud Security Course at Secure Communication part
 
 ```
 Goal : communicate web app to database in AWS

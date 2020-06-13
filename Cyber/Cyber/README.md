@@ -308,13 +308,13 @@
     - [UFED - Extract data off mobiles](#ufed---extract-data-off-mobiles)
     - [Check Point : firewall](#check-point--firewall)
     - [CIS Center for Internet Security](#cis-center-for-internet-security)
-    - [SANS : Sysadmin, Audit, Networking, Security](#sans--sysadmin-audit-networking-security)
-    - [CISO Chief Info Security Officer](#ciso-chief-info-security-officer)
-    - [COBIT : Control Objectives for IT](#cobit--control-objectives-for-it)
+    - [SANS](#sans)
+    - [CISO](#ciso)
+    - [COBIT](#cobit)
     - [CSIRT](#csirt)
-    - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures)
+    - [CVE](#cve)
     - [DIG = NSLOOKUP](#dig--nslookup)
-    - [Tasting = try domain to see if it gets hits](#tasting--try-domain-to-see-if-it-gets-hits)
+    - [Tasting](#tasting)
     - [Cybersquatting](#cybersquatting)
     - [Hijacking](#hijacking)
     - [EMET](#emet)
@@ -336,7 +336,7 @@
     - [Kill Chain](#kill-chain)
     - [Kiwi Syslog](#kiwi-syslog)
     - [Metasploit](#metasploit)
-    - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures-1)
+    - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures)
     - [MoA : Memorandum Of Agreement](#moa--memorandum-of-agreement)
     - [ModSecurity = open source WAF](#modsecurity--open-source-waf)
     - [MRTG Multi Router Traffic Grapher](#mrtg-multi-router-traffic-grapher)
@@ -381,15 +381,15 @@
     - [Splunk : big data gather and analyse](#splunk--big-data-gather-and-analyse)
     - [taskkill](#taskkill)
     - [tasklist](#tasklist-1)
-    - [tcpdump : command line packet sniffer](#tcpdump--command-line-packet-sniffer)
-    - [TOGAF The Open Group Architecture Framework](#togaf-the-open-group-architecture-framework)
-    - [Trusted Foundry - supply chain vetting](#trusted-foundry---supply-chain-vetting)
+    - [tcpdump](#tcpdump)
+    - [TOGAF](#togaf)
+    - [Trusted Foundry](#trusted-foundry)
     - [UAT User Acceptance Testing](#uat-user-acceptance-testing)
     - [UEFI UNC](#uefi-unc)
     - [VAS Vulnerability Assessment](#vas-vulnerability-assessment)
     - [White Team : admin](#white-team--admin)
     - [Write Blocker](#write-blocker)
-    - [Xmas Attack : Scanning with flags set to ON](#xmas-attack--scanning-with-flags-set-to-on)
+    - [Xmas Attack](#xmas-attack)
     - [XSRF : Authenticated session attack](#xsrf--authenticated-session-attack)
     - [XSS Cross Site Scripting](#xss-cross-site-scripting-1)
     - [Zero day attack : new software](#zero-day-attack--new-software)
@@ -623,7 +623,7 @@
     - [Controls](#controls)
   - [Cyber Organisations](#cyber-organisations)
   - [Cyber Roles](#cyber-roles)
-    - [CISO Chief Info Security Officer](#ciso-chief-info-security-officer-1)
+    - [CISO Chief Info Security Officer](#ciso-chief-info-security-officer)
   - [Framework](#framework)
     - [NIST National Institue Standards Technology](#nist-national-institue-standards-technology)
 - [Frameworks and Policies](#frameworks-and-policies)
@@ -631,7 +631,7 @@
   - [ISO 27001 : is an ISMS Info Security Management System](#iso-27001--is-an-isms-info-security-management-system)
   - [COBIT Control Objectives for IT](#cobit-control-objectives-for-it)
   - [ITIL v 3 = Best Practice (Note : NIST is similar but guidance only)](#itil-v-3--best-practice-note--nist-is-similar-but-guidance-only)
-  - [TOGAF The Open Group Architecture Framework](#togaf-the-open-group-architecture-framework-1)
+  - [TOGAF The Open Group Architecture Framework](#togaf-the-open-group-architecture-framework)
   - [SABSA Sherwood Applied Business Security Architecture](#sabsa-sherwood-applied-business-security-architecture)
     - [CSA+ categories](#csa-categories)
     - [classify by function](#classify-by-function)
@@ -6472,7 +6472,7 @@ Air gap = isolation
 RBAC Role Based Access Control
 Sinkhole: detect flood and redirect
 TCP SYN attack can do service discovery
-nmap -o can detect operating system
+nmap -O can detect operating system
 Syslog = logs only
 SIEM = logs + analysis
 nmap -sL = live hosts
@@ -7369,13 +7369,19 @@ wireless APT Advanced Persistent Threat : stronghold from which bad guys launch 
  
  by SANS 
  
- ### SANS : Sysadmin, Audit, Networking, Security
+ ### SANS
+ 
+ Sysadmin, Audit, Networking, Security
  
  not-for-profit 
  
- ### CISO Chief Info Security Officer 
+ ### CISO 
  
- ### COBIT : Control Objectives for IT
+ Chief Info Security Officer 
+ 
+ ### COBIT 
+ 
+ Control Objectives for IT
  
  security framework 
  
@@ -7383,11 +7389,15 @@ wireless APT Advanced Persistent Threat : stronghold from which bad guys launch 
  
  Computer Security Incident Response Team 
  
- ### CVE Common Vulnerabilities and Exposures 
+ ### CVE 
+ 
+ Common Vulnerabilities and Exposures 
  
  ### DIG = NSLOOKUP 
  
- ### Tasting = try domain to see if it gets hits 
+ ### Tasting
+ 
+ try domain to see if it gets hits 
  
  ### Cybersquatting
  
@@ -7611,11 +7621,17 @@ wireless APT Advanced Persistent Threat : stronghold from which bad guys launch 
  
  ### tasklist 
  
- ### tcpdump : command line packet sniffer 
+ ### tcpdump
  
- ### TOGAF The Open Group Architecture Framework 
+ command line packet sniffer 
  
- ### Trusted Foundry - supply chain vetting
+ ### TOGAF 
+ 
+ The Open Group Architecture Framework 
+ 
+ ### Trusted Foundry
+ 
+ supply chain vetting
  
  full hardware supply chain of vendors all vetted as secure
 
@@ -7633,7 +7649,9 @@ wireless APT Advanced Persistent Threat : stronghold from which bad guys launch 
  
  prevent the forensic analysis software from interfering with the data on a drive 
  
- ### Xmas Attack : Scanning with flags set to ON 
+ ### Xmas Attack
+ 
+ Scanning with flags set to ON 
  
  to provoke a response
  
@@ -8341,6 +8359,20 @@ sudo apt install docker-ce docker-ce-cli  containerd.io -y
 # log in ]
 # run docker
 docker
+# metasploitable
+# docker pull peakkk/metasploitable
+docker pull tleemcjr/metasploitable2
+docker run -it tleemcjr/metasploitable2
+# note we are now inside the container!!!
+hostname
+ip a  # inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0
+# on another shell on the Kali host 
+ip a # inet 172.31.4.186/20 brd 172.31.15.255 scope global dynamic eth0
+ip a # inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+# ping metasploitable from docker host
+ping 172.17.0.2 
+sudo nmap -O 172.17.0.2
+
 ```
 
 

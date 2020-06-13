@@ -113,7 +113,7 @@
     - [Scaling Load Balancers](#scaling-load-balancers)
     - [NGINX Load Balancing](#nginx-load-balancing)
 - [Cloud Labs](#cloud-labs)
-    - [EC2 Instance with SSH access](#ec2-instance-with-ssh-access)
+    - [Install AWS Linux](#install-aws-linux)
     - [AWS RDS database access](#aws-rds-database-access)
     - [AWS Securing Access To S3](#aws-securing-access-to-s3)
 - [DevOps Intro](#devops-intro)
@@ -130,12 +130,14 @@
     - [nginx](#nginx)
     - [Provisioning an environment](#provisioning-an-environment)
     - [Running your app](#running-your-app)
+    - [Ubuntu Install Node](#ubuntu-install-node)
   - [Environment Variables](#environment-variables)
-  - [Packer - creates images and runs them on AWS](#packer---creates-images-and-runs-them-on-aws)
+  - [Packer](#packer)
+    - [Intro To Packer](#intro-to-packer)
     - [Packer simple commands](#packer-simple-commands)
   - [Provisioning](#provisioning-1)
     - [Provisioning can can be done via](#provisioning-can-can-be-done-via)
-    - [Terraform by HashiCorps - provisioning](#terraform-by-hashicorps---provisioning)
+  - [Terraform](#terraform)
   - [Chef](#chef)
 - [Docker](#docker)
     - [Install Docker](#install-docker)
@@ -678,6 +680,13 @@ AWS CloudFormation [https://aws.amazon.com/cloudformation/](https://aws.amazon.c
 AWS CloudFormation is free on AWS
 AWS CloudFormation allows a text-based configuration of all your apps
 ```
+
+
+
+
+
+
+
 
 # Cloud Overview
 
@@ -1996,7 +2005,7 @@ NGINX offers authentication via JWT web tokens
 
 # Cloud Labs
 
-### EC2 Instance with SSH access
+### Install AWS Linux 
 
 ```
 EC2 => launch => choose AMI => Free => Launch => Key pair => Store
@@ -2011,7 +2020,6 @@ EC2 => instance => connect => use given code to connect
 Create mysql database
 add security group with inbound and outbound rules
 can configure inbound rules to only allow set ip addresses
-
 ```
 
 ### AWS Securing Access To S3
@@ -2208,9 +2216,9 @@ which ruby
 ### update and upgrade
 
 ```
-# upgrade metadata on available apps and their latest versions
-sudo apt-get update
-# actually upgrade available programs
+# update metadata
+sudo apt update
+# upgrade
 sudo apt-get upgrade -y
 ```
 
@@ -2319,6 +2327,29 @@ node app.js
 http://development.local:3000 and the test app should appear
 ```
 
+
+
+
+
+
+### Ubuntu Install Node
+
+```bash
+#!/bin/bash
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install nginx -y
+sudo apt-get install python-software-properties
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install nodejs -y
+sudo npm install pm2 -g
+```
+
+
+
+
+
+
 ## Environment Variables
 
 ```
@@ -2371,7 +2402,11 @@ echo 'The tail contents of .bashrc :'
 tail .bashrc
 ```
 
-## Packer - creates images and runs them on AWS
+## Packer
+
+### Intro To Packer
+
+Packer creates images and runs them on AWS
 
 choco install packer
 
@@ -2412,7 +2447,9 @@ Powershell
 
 Bash
 
-### Terraform by HashiCorps - provisioning
+## Terraform 
+
+by HashiCorps - provisioning
 
 [Terraform by HashiCorp](https://www.terraform.io/)
 

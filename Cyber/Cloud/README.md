@@ -18,11 +18,14 @@
     - [Vagrant Quick-Fire Terms](#vagrant-quick-fire-terms)
   - [Azure Random Terms](#azure-random-terms)
 - [Cloud Overview](#cloud-overview)
+  - [Introduction](#introduction)
   - [History](#history)
     - [Virtualization](#virtualization)
     - [Limitations](#limitations)
     - [Limitations broken by](#limitations-broken-by)
     - [App development](#app-development)
+  - [6 Benefits Of Cloud Computing](#6-benefits-of-cloud-computing)
+    - [1 Capital Fixed expenses for hardware become variable expenses](#1-capital-fixed-expenses-for-hardware-become-variable-expenses)
   - [Cloud Types 2020](#cloud-types-2020)
     - [On-Premises (No cloud) (27%)](#on-premises-no-cloud-27)
     - [Private (20%)](#private-20)
@@ -89,6 +92,15 @@
     - [Microservices](#microservices)
 - [DevSecOps](#devsecops)
 - [AWS](#aws)
+  - [AWS Introduction](#aws-introduction)
+  - [Course Structure](#course-structure)
+  - [Fundamentals](#fundamentals)
+    - [5 Pillars](#5-pillars)
+    - [Security](#security)
+      - [IAM Security](#iam-security)
+        - [IAM Policy](#iam-policy)
+      - [Network Security](#network-security)
+        - [VPC Virtual Private Cloud](#vpc-virtual-private-cloud)
     - [AWS secure web app demo](#aws-secure-web-app-demo)
   - [AWS Container Services](#aws-container-services)
   - [AWS Abstracted Services](#aws-abstracted-services)
@@ -694,6 +706,14 @@ AWS CloudFormation allows a text-based configuration of all your apps
 
 # Cloud Overview
 
+## Introduction
+
+Cloud computing is the delivery of computing services over the internet with a pay as you go pricing model
+
+Cloud computing allows you to think of your infrastructure as software and no longer as hardware (physical servers)
+
+You can scale up or down your resources as required
+
 ## History
 
 Decentralised computing
@@ -745,6 +765,19 @@ Abstract app from hardware?
 Provision hardware as a service for the app
 
 Client consumes hardware as a service
+
+
+
+## 6 Benefits Of Cloud Computing
+
+### 1 Capital Fixed expenses for hardware become variable expenses
+
+....... to be continued
+
+
+
+
+
 
 ## Cloud Types 2020
 
@@ -1775,6 +1808,93 @@ Nagios monitoring
 ```
 
 # AWS
+
+## AWS Introduction
+
+AWS has a free online guide to its services and we will be starting here for our AWS studies https://aws.amazon.com/getting-started/fundamentals-core-concepts/?e=gs2020&p=gsrc
+
+## Course Structure
+
+- Intro
+- Mental Model
+- Concepts
+- Conclusion
+- Further Reading
+
+## Fundamentals
+
+AWS has 175 services!
+
+### 5 Pillars
+
+- Security
+- Performance Efficiency
+- Reliability
+- Operational Excellence
+- Cost Optimization
+
+### Security
+
+Zero Trust - potentially all services and apps can be malicious including all network infrastructure
+
+3 Levels Of Security
+
+- IAM Identity and Access
+- Network Security
+- Data Encryption
+
+#### IAM Security
+
+- Principal is the person we are giving permissions to 
+- Action is what is being applied
+- Resource is which properties are being accessed
+
+Least Privilege - minimal permissions
+
+##### IAM Policy
+
+    - Identity Policy applies to a principal
+    - Resource Policy applies to a resource
+
+#### Network Security
+
+Defense in depth : multi-layered approach
+
+##### VPC Virtual Private Cloud
+
+This is a logical network to which permissions can be applied
+
+It consists of 
+
+- Subnet (ranges of IP)
+- Route tables to direct traffic
+- Gateway to communicate with outside world
+
+.... to be continued !!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### AWS secure web app demo 
 

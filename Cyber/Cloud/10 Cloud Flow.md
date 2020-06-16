@@ -1,104 +1,125 @@
-Cloud
+# Cloud
 
 SAAS
+
 PAAS
+
 IAAS
-AWS
-AZURE
-CLOUD SECURITY
-DEVOPS
-VAGRANT 
-PACKER
+
+Cloud discussion
+    High availability
+    Scale horizontally and verically
+    Self Healing
+
+Cloud types
+    on premesis
+    private
+    public
+    hybrid
+
+
 
 AWS
-devops
-containers
-kubernetes
-vagrant
-azure
 
-virtualisation
-on premesis
-private 
-public
+EC2
 
-aws outposts
-openstack
-iot
-greengrass
-azure hub
-identity
-rbac
-ipsec
+S3
 
-ipsec
-tls
-ssl
+Identity IAM
 
-cipher
-async
-federation
-machine learning
-cognitive
-iot
-automation
-containers
-microservices
+Groups
 
-aws 
-    secure web app
-    container
-    security
-        iam
-        logs cloudwatch
-        scanning inspector
-container
-    kms key service
-    elastic beanstalk
-load balancing
-rds
-s3
-devops
-vagrant
-packer
-terraform 
-chef
-docker
-    nginx
-    push to docker hub
-    docker node
-    .net on docker
-    docker on azure
-    new image to docker hub
+Firewall Access
 
-kubernetes
-    orchestrate containers
-    kubectl
-    minikube
+Certificates
+    KMS 
 
-puppet
-ansible
+Logging Cloudwatch
 
-jenkins
+Alerts
 
-azure
-blockchain
+Billing
 
-## terms
+Subnets
 
-high availability with clusters and load balancing
+Routing
 
-vertical scaling to get bigger
+Load Balancing
 
-horizontal scaling to get more items
+Database RDS
 
-self healing with multiple instances
+Big Data / Unstructured Data
 
-private cloud locally
-    rackspace - openstack private cloud 
-    azure stack
-    aws outposts
+Data Lake
 
-public cloud
-    data lake 100TB £68 per month
+Azure
 
+Cloud Security - Inspector
+
+Devops
+
+Vagrant
+
+Packer
+
+Terraform
+
+Chef
+
+Ansible
+
+Containers
+
+Microservices
+
+
+
+Deployment
+    Vagrant
+    Docker
+        Create Image
+        Push Image
+            .NET
+            ASP
+            Node
+            Website
+            Java
+            Python
+    AWS
+        WebApp
+        NodeApp
+        RubyApp
+        C# App
+        JavaApp
+        Apache Web Server
+        NGINX Web Server
+
+Kubernetes
+    KubeCtl
+    MiniKube
+
+Puppet
+
+Jenkins
+
+Azure
+
+Blockchain
+
+
+### AWS Certification 
+
+### Random
+
+AWS Outposts
+Openstack
+IOT
+GreenGrass
+AzureHub
+IPSEC
+RBAC
+
+Federation
+ML
+Automation
+Elastic Beanstalk

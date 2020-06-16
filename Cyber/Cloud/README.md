@@ -5,7 +5,6 @@
 - [cyber-cloud](#cyber-cloud)
   - [Contents](#contents)
 - [Cloud Objectives](#cloud-objectives)
-    - [MTA Cloud (retired exam)](#mta-cloud-retired-exam)
     - [CompTIA Cloud+](#comptia-cloud)
 - [Cloud Random Terms](#cloud-random-terms)
     - [Mind Map Of Cloud, Tech And Devops](#mind-map-of-cloud-tech-and-devops)
@@ -139,6 +138,8 @@
     - [Provisioning can can be done via](#provisioning-can-can-be-done-via)
   - [Terraform](#terraform)
   - [Chef](#chef)
+    - [Downloading Chef](#downloading-chef)
+    - [Kitchen](#kitchen)
 - [Docker](#docker)
     - [Install Docker](#install-docker)
     - [Hello World](#hello-world)
@@ -169,6 +170,7 @@
   - [Kubernetes Terminology](#kubernetes-terminology)
   - [Orchestration](#orchestration)
   - [Kubernetes Basic Online Tutorial](#kubernetes-basic-online-tutorial)
+    - [Install Kubernetes On Ubuntu](#install-kubernetes-on-ubuntu)
     - [Install kubectl](#install-kubectl)
     - [MiniKube](#minikube)
     - [Kubernetes Commands](#kubernetes-commands)
@@ -181,13 +183,14 @@
   - [Puppet](#puppet)
   - [Ansible](#ansible)
     - [Enable Linux Ubuntu On Windows](#enable-linux-ubuntu-on-windows)
+      - [Install Ansible On Ubuntu](#install-ansible-on-ubuntu)
     - [Install Ansible On Windows](#install-ansible-on-windows)
     - [Install Ansible On MAC](#install-ansible-on-mac)
     - [Creating 3 Virtual Machines On MAC](#creating-3-virtual-machines-on-mac)
     - [Ansible playbook](#ansible-playbook)
   - [Jenkins CI](#jenkins-ci)
     - [MAC Install Jenkins](#mac-install-jenkins)
-    - [AWS Ubuntu Instsall Jenkins](#aws-ubuntu-instsall-jenkins)
+    - [AWS Ubuntu Install Jenkins](#aws-ubuntu-install-jenkins)
     - [AWS Scripted Jenkins Install](#aws-scripted-jenkins-install)
 - [Azure](#azure)
   - [Azure Devops](#azure-devops)
@@ -224,13 +227,14 @@
 
 # Cloud Objectives
 
-### MTA Cloud (retired exam)
-
-[https://www.microsoft.com/en-us/learning/exam-98-369.aspx](https://www.microsoft.com/en-us/learning/exam-98-369.aspx)
-
 ### CompTIA Cloud+
 
 [https://www.comptia.jp/pdf/Cloud%2B CV0-002 objectives.pdf](https://www.comptia.jp/pdf/Cloud%2B%20CV0-002%20objectives.pdf)
+
+
+    Essentials CLO-001
+
+    Cloud+ CLO-002
 
 Config
 
@@ -2338,12 +2342,12 @@ http://development.local:3000 and the test app should appear
 
 ```bash
 #!/bin/bash
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install nginx -y
-sudo apt-get install python-software-properties
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install nginx -y
+sudo apt install python-software-properties
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-sudo apt-get install nodejs -y
+sudo apt install nodejs -y
 sudo npm install pm2 -g
 ```
 
@@ -2457,7 +2461,6 @@ by HashiCorps - provisioning
 
 ## Chef
 
-```
 Vagrant
 
     Crude
@@ -2537,9 +2540,7 @@ Chef
         
         Stores community cookbooks
 
-Downloading Chef
-
-Chef install
+### Downloading Chef
 
     Download from 
     
@@ -2553,7 +2554,7 @@ Chef install
         
         chef generate cookbook node
 
-Kitchen
+### Kitchen
 
     Runs all tools
     
@@ -2632,7 +2633,8 @@ Make a change
     kitchen test
     
     Then push to github
-```
+
+
 
 # Docker
 
@@ -3120,6 +3122,18 @@ Add the docker hub name with tag
 
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Kubernetes - Orchestrates multiple containers
 
 ## Kubernetes Terminology
@@ -3153,6 +3167,13 @@ Minikube - lightweight version of Kubernetes
 ## Kubernetes Basic Online Tutorial
 
 [https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/)
+
+
+### Install Kubernetes On Ubuntu
+
+```bash
+
+```
 
 ### Install kubectl
 
@@ -3469,6 +3490,11 @@ Puppet allows the state of your infrastructure to be set in code and then this i
 
 Ansible is agentless software connecting via SSH
 
+
+
+
+
+
 ### Enable Linux Ubuntu On Windows
 
 ```
@@ -3476,6 +3502,14 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 Then install Ubuntu 18.04 LTS from the Windows Store
 ```
+
+
+#### Install Ansible On Ubuntu
+
+```bash
+sudo apt install ansible -y
+```
+
 
 ### Install Ansible On Windows
 
@@ -3540,7 +3574,7 @@ phil  Pa$$
 Create a new project as Freestyle
 ```
 
-### AWS Ubuntu Instsall Jenkins
+### AWS Ubuntu Install Jenkins
 
 ```
 # ssh

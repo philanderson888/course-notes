@@ -22,7 +22,7 @@
     - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
     - [Set Password](#set-password)
-- [## Check version](#h2-idcheck-version-1017check-versionh2)
+- [## Check version](#h2-idcheck-version-243check-versionh2)
     - [dig](#dig)
     - [mtr](#mtr)
     - [ss (Netstat equivalent)](#ss-netstat-equivalent)
@@ -475,21 +475,25 @@
     - [AWS Linux Install Apache](#aws-linux-install-apache)
     - [AWS Linux Install Mongo](#aws-linux-install-mongo)
     - [AWS Ubuntu Build Kali](#aws-ubuntu-build-kali)
+      - [install nmap](#install-nmap)
+      - [install metasploit (Part I)](#install-metasploit-part-i)
+      - [install metasploit (Part II)](#install-metasploit-part-ii)
+      - [install java and metasploit (Part III)](#install-java-and-metasploit-part-iii)
     - [AWS Kali with VNC](#aws-kali-with-vnc)
     - [Ubuntu Install MongoDB](#ubuntu-install-mongodb)
       - [start mongodb](#start-mongodb)
       - [run mongo client](#run-mongo-client)
     - [Kali Install OpenVAS  (1 hour with attended input)](#kali-install-openvas-1-hour-with-attended-input)
-    - [Ubuntu Install Docker](#ubuntu-install-docker)
+    - [Ubuntu Install Docker (Easy version)](#ubuntu-install-docker-easy-version)
+    - [Ubuntu Install Docker (Not so easy version)](#ubuntu-install-docker-not-so-easy-version)
     - [Docker Install Metasploitable](#docker-install-metasploitable)
+      - [Run an exploit](#run-an-exploit)
     - [AWS Run Container](#aws-run-container)
-  - [Docker Kali](#docker-kali)
-  - [Docker Pull Metasploitable](#docker-pull-metasploitable)
-  - [Docker Metasploitable From GitHub](#docker-metasploitable-from-github)
   - [Kali](#kali)
     - [Kali Handbook](#kali-handbook)
     - [About Kali](#about-kali)
     - [Installing Kali](#installing-kali)
+  - [Docker Kali](#docker-kali)
   - [Penetration](#penetration)
   - [Metasploit](#metasploit-1)
     - [What is Metasploit?](#what-is-metasploit)
@@ -8294,65 +8298,59 @@ Set-ItemProperty -Path ~/.ssh/KaliLinuxKeyPair2.pem -Name IsReadOnly -Value $tru
 ssh -i ~/.ssh/KaliLinuxKeyPair2.pem ubuntu@35.178.191.151
 # update
 sudo apt update -y
-# apt-get --yes --force-yes -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" upgrade
-# apt-get --yes --force-yes -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
-# upgrade only adds packages
-sudo apt-get -o Dpkg::Options::=--force-confold -o Dpkg::Options::=--force-confdef -y --allow-downgrades --allow-remove-essential --allow-change-held-packages upgrade
-# dist-upgrade adds or removes packages *** note that this does not quite work and it still asks the question! **
-sudo apt-get -o Dpkg::Options::=--force-confold -o Dpkg::Options::=--force-confdef -y --allow-downgrades --allow-remove-essential --allow-change-held-packages dist-upgrade
-# install nmap
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+```
+
+#### install nmap
+
+```bash
 sudo apt install nmap -y
 # verify version
 nmap --version
-# install metasploitable (many steps)
+```
+
+#### install metasploit (Part I)
+
+```bash
 # install java
-# i think this step is not needed any more
-#sudo add-apt-repository -y ppa:webupd8team/java
-# but this one is to install java
 sudo add-apt-repository ppa:linuxuprising/java -y
-sudo apt update
-# sudo add-apt-repository -y ppa:webupd8team/java
-# sudo apt update
+sudo apt update -y
+
 echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
 echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections
 echo oracle-java11-installer shared/accepted-oracle-license-v1-2 select true | sudo /usr/bin/debconf-set-selections 
-
-# reboot computer???
+# reboot
 sudo reboot
-# download java ==> fails here so skip down to attempt with version 11.0.4 instead!
-# wget -O jdk-11.0.7_linux-x64_bin.tar.gz 'https://1drv.ms/u/s!AqdmkFhDCyDCzqwSzmHS6QZMBgMz8w?e=eXcCzI'
-# does sha match
-# sha256sum jdk-11.0.7_linux-x64_bin.tar.gz
-# create folder to put download
-# sudo mkdir -p /var/cache/oracle-jdk11-installer-local/
-# sudo cp jdk-11.0.7_linux-x64_bin.tar.gz /var/cache/oracle-jdk11-installer-local/
-# update package list
-# sudo add-apt-repository ppa:linuxuprising/java -y
-# sudo apt-get update -y
-# download java
-# sudo apt install oracle-java11-installer-local -y
-# sudo apt install software-properties-common -y
-# sudo apt install oracle-java11-installer-local -y 
-# sudo apt install -y oracle-java11-installer-local 
-# apt install oracle-java11-set-default
-# sudo apt-get update
-### try again
-exit
-# get the jdk and download it to your computer (localhost)
+```
+
+#### install metasploit (Part II)
+
+```bash
+# scp copy JDK to Ubuntu from local 
+cd ~/Downloads
+# check file is present (get from Java)
+ls
+# copy (takes 10 minutes or so)
 scp -i ~/.ssh/KaliLinuxKeyPair2.pem .\jdk-11.0.7_linux-x64_bin.tar.gz ubuntu@18.132.64.57:/home/ubuntu
+```
+
+#### install java and metasploit (Part III)
+
+```bash
+# log in again
 ssh -i ~/.ssh/KaliLinuxKeyPair2.pem ubuntu@18.132.64.57
 sudo mkdir -p /var/cache/oracle-jdk11-installer-local/
 sudo cp jdk-11.0.7_linux-x64_bin.tar.gz /var/cache/oracle-jdk11-installer-local/
 sudo add-apt-repository ppa:linuxuprising/java -y
 sudo apt-get update -y
-
+# 
 echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
 echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections
 echo oracle-java11-installer shared/accepted-oracle-license-v1-2 select true | sudo /usr/bin/debconf-set-selections 
-
-
+# install java
 sudo apt install default-jre -y
-# check java is installed
+# check version
 java --version
 # install metasploit
 sudo curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
@@ -8380,11 +8378,11 @@ echo -e "kali\nkali" | sudo passwd kali
 cat /etc/os-release
 # run nmap
 nmap
+# run postgresql
+sudo service postgresql start
 # run metasploit
 msfconsole
 exit
-# run postgresql
-sudo service postgresql start
 # tightvnc
 tightvncpasswd 
 # view only password => NO
@@ -8490,10 +8488,20 @@ sudo openvasmd --user=admin --new-password=admin
 
 
 
+### Ubuntu Install Docker (Easy version)
+
+*1 minute install*
+
+```bash
+# install
+sudo apt install docker.io
+# run docker
+docker
+```
 
 
 
-### Ubuntu Install Docker 
+### Ubuntu Install Docker (Not so easy version)
 
 *1 minute install*
 
@@ -8514,6 +8522,11 @@ sudo apt install docker-ce docker-ce-cli  containerd.io -y
 # run docker
 docker
 ```
+
+
+
+
+
 
 ### Docker Install Metasploitable
 
@@ -8538,6 +8551,9 @@ sudo nmap -Pn 172.17.0.2
 # tcp syn scan
 sudo nmap -PS 172.17.0.2
 ```
+
+
+#### Run an exploit
 
 ```
 msfconsole
@@ -8588,51 +8604,6 @@ ECS Elastic Container Service using Fargate
 
 
 
-## Docker Kali 
-
-https://github.com/admirito/gvm-containers
-
-
-
-
-
-
-
-## Docker Pull Metasploitable
-
-```
-docker pull peakkk/metasploitable
-# or
-docker pull tleemcjr/metasploitable2
-```
-
-
-## Docker Metasploitable From GitHub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Kali
@@ -8657,6 +8628,12 @@ Metasploitable “GUEST” Minimal Memory Requirements
   512MB
 
 
+
+
+
+## Docker Kali 
+
+https://github.com/admirito/gvm-containers
 
 
 

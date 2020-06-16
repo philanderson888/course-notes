@@ -38,7 +38,7 @@
     - [Overview of different cloud platforms](#overview-of-different-cloud-platforms)
     - [Vendor](#vendor)
   - [Private Cloud](#private-cloud)
-    - [Deploying Cloud Technology Locall : Azure Stack and AWS Outposts](#deploying-cloud-technology-locall--azure-stack-and-aws-outposts)
+    - [Deploying Cloud Technology Locally : Azure Stack and AWS Outposts](#deploying-cloud-technology-locally--azure-stack-and-aws-outposts)
     - [OpenStack which builds a private cloud](#openstack-which-builds-a-private-cloud)
     - [IoT : AWS, Greengrass, Azure Hub](#iot--aws-greengrass-azure-hub)
   - [Public Cloud Storage](#public-cloud-storage)
@@ -714,6 +714,8 @@ CPU
 
 Bus speeds
 
+Before the cloud we had to maintain enough of these resources to meet our peak load conditions - very expensive!
+
 ### Limitations broken by
 
 Old disk array model replaced by
@@ -1007,7 +1009,7 @@ NoSQL document oriented JSON storage
 
 Hosting cloud services on premises
 
-### Deploying Cloud Technology Locall : Azure Stack and AWS Outposts
+### Deploying Cloud Technology Locally : Azure Stack and AWS Outposts
 
 - Azure Stack : subset of its services and makes available to local providers
 - Sold as hardware and software package together

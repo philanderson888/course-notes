@@ -22,6 +22,7 @@
     - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
     - [Set Password](#set-password)
+- [## Check version](#h2-idcheck-version-1017check-versionh2)
     - [dig](#dig)
     - [mtr](#mtr)
     - [ss (Netstat equivalent)](#ss-netstat-equivalent)
@@ -49,6 +50,9 @@
       - [ip address](#ip-address)
       - [ifconfig](#ifconfig)
     - [firewall](#firewall)
+    - [Create Group](#create-group)
+    - [Show default gateway](#show-default-gateway)
+    - [wget download file](#wget-download-file)
 - [Linux Notes](#linux-notes)
   - [Linux Introduction](#linux-introduction)
 - [Windows Administrator Labs](#windows-administrator-labs)
@@ -164,6 +168,7 @@
       - [DNS Labs](#dns-labs)
     - [Wireshark](#wireshark)
         - [Install Wireshark](#install-wireshark)
+    - [Cookies](#cookies)
     - [WIFI labs](#wifi-labs)
         - [Hacking Into Symmetric Encryption - Part 1](#hacking-into-symmetric-encryption---part-1)
         - [Hacking Into Symmetric Encryption - Part II](#hacking-into-symmetric-encryption---part-ii)
@@ -260,6 +265,7 @@
     - [Code Injection Vulnerabilities](#code-injection-vulnerabilities)
     - [Forensics](#forensics)
   - [Network Scanning](#network-scanning)
+    - [Scanning for vulnerabilities](#scanning-for-vulnerabilities)
     - [DLP](#dlp)
     - [Advanced Malware Attacks](#advanced-malware-attacks)
       - [CODE INJECTION ATTACK = APPLICATION ATTACK](#code-injection-attack--application-attack)
@@ -430,7 +436,6 @@
     - [httrack.com - website download](#httrackcom---website-download)
     - [Droplet - mini vm](#droplet---mini-vm)
     - [SSL3.0 old](#ssl30-old)
-    - [Passive reconnaisance](#passive-reconnaisance)
     - [bulletproof ISP](#bulletproof-isp)
     - [Google hacking](#google-hacking-1)
     - [Google Dork](#google-dork)
@@ -454,7 +459,10 @@
     - [Certs](#certs)
     - [Cloud Random](#cloud-random)
 - [Cyber Labs](#cyber-labs)
+  - [Tools](#tools)
+    - [Use of VPNs for security researching.](#use-of-vpns-for-security-researching)
   - [Cyber Labs Online](#cyber-labs-online)
+  - [Regex labs](#regex-labs)
     - [TryHackMe](#tryhackme)
       - [Getting Started](#getting-started)
       - [RDP  root Tryh4ckm3](#rdp-root-tryh4ckm3)
@@ -466,12 +474,14 @@
       - [Connect](#connect)
     - [AWS Linux Install Apache](#aws-linux-install-apache)
     - [AWS Linux Install Mongo](#aws-linux-install-mongo)
+    - [AWS Ubuntu Build Kali](#aws-ubuntu-build-kali)
     - [AWS Kali with VNC](#aws-kali-with-vnc)
     - [Ubuntu Install MongoDB](#ubuntu-install-mongodb)
       - [start mongodb](#start-mongodb)
       - [run mongo client](#run-mongo-client)
     - [Kali Install OpenVAS  (1 hour with attended input)](#kali-install-openvas-1-hour-with-attended-input)
     - [Ubuntu Install Docker](#ubuntu-install-docker)
+    - [Docker Install Metasploitable](#docker-install-metasploitable)
     - [AWS Run Container](#aws-run-container)
   - [Docker Kali](#docker-kali)
   - [Docker Pull Metasploitable](#docker-pull-metasploitable)
@@ -480,6 +490,7 @@
     - [Kali Handbook](#kali-handbook)
     - [About Kali](#about-kali)
     - [Installing Kali](#installing-kali)
+  - [Penetration](#penetration)
   - [Metasploit](#metasploit-1)
     - [What is Metasploit?](#what-is-metasploit)
   - [Metasploitable](#metasploitable)
@@ -492,9 +503,8 @@
       - [Scripts including Meterpreter Path](#scripts-including-meterpreter-path)
   - [Ruby](#ruby)
   - [Other Cyber Labs](#other-cyber-labs)
-    - [Forensic Labs](#forensic-labs)
+    - [NMap](#nmap)
     - [netdiscover](#netdiscover)
-    - [nmap](#nmap)
     - [dig](#dig-1)
     - [traceroute](#traceroute)
     - [openvas](#openvas)
@@ -521,6 +531,8 @@
     - [sysmon](#sysmon)
     - [pcap](#pcap-1)
     - [ossim](#ossim)
+  - [Forensic Labs](#forensic-labs)
+    - [CyberChef](#cyberchef)
     - [autopsy](#autopsy)
     - [Lab 11](#lab-11)
     - [Lab 12 : Network Segmentation : PFSense](#lab-12--network-segmentation--pfsense)
@@ -543,6 +555,7 @@
   - [Getting location from IP](#getting-location-from-ip)
   - [Domain Analysis](#domain-analysis)
   - [Website Ripping = website copier](#website-ripping--website-copier)
+- [Scanning](#scanning)
   - [Social Engineering](#social-engineering)
   - [Conversion Tools](#conversion-tools)
   - [Scanning Labs](#scanning-labs)
@@ -594,7 +607,10 @@
     - [Exploit Stories 2018](#exploit-stories-2018)
     - [Exploit Stories 2017](#exploit-stories-2017)
     - [Exploit Stories 2016](#exploit-stories-2016)
+    - [Exploit Stories 2015](#exploit-stories-2015)
     - [Exploit Stories 2014](#exploit-stories-2014)
+    - [Exploit Stories 2013](#exploit-stories-2013)
+    - [Exploit Stories 2011](#exploit-stories-2011)
     - [Exploit Stories Undated](#exploit-stories-undated)
   - [Exploit Malware](#exploit-malware)
     - [Angler Exploit Kit](#angler-exploit-kit)
@@ -611,7 +627,7 @@
   - [Ransomware](#ransomware)
     - [Reveton - encrypts entire hard drive](#reveton---encrypts-entire-hard-drive)
   - [Offensive Penetration Testing And Exploits](#offensive-penetration-testing-and-exploits)
-  - [PCI DSS](#pci-dss-1)
+  - [PCI *DSS*](#pci-dss-1)
     - [Exploit Frameworks](#exploit-frameworks)
     - [Metasploit](#metasploit-4)
       - [EXPLOIT MODULE = TRY AND EXPLOIT A VULNERABILITY](#exploit-module--try-and-exploit-a-vulnerability)
@@ -733,6 +749,8 @@
       - [TCPDump : Linux](#tcpdump--linux)
       - [Dsniff : Linux](#dsniff--linux)
       - [Ettercap](#ettercap)
+      - [Sniffing Tools](#sniffing-tools)
+      - [TCP FLAGS WHEN SNIFFING](#tcp-flags-when-sniffing)
   - [WIFI tools](#wifi-tools)
   - [Network Monitoring](#network-monitoring)
     - [MTRG Multi Router Traffic Grapher](#mtrg-multi-router-traffic-grapher)
@@ -1103,6 +1121,8 @@ CPUZ
 # Networking
 
 
+
+
 ## Networking Random Terms
 
 ```
@@ -1293,6 +1313,14 @@ sudo passwd <<user>>
 echo -e "kali\nkali" | sudo passwd ec2-user
 echo -e "kali\nkali" | sudo passwd kali
 ```
+
+# ## Check version
+
+```
+cat /etc/os-release
+```
+
+
 
 ### dig
 
@@ -1544,6 +1572,24 @@ sudo ufw status
 sudo ufw enable/disable
 sudo ufw status verbose
 ```
+
+
+### Create Group
+
+sudo groupadd docker
+
+### Show default gateway
+
+route -n  
+ip route show
+netstat -rn
+
+
+### wget download file
+
+wget https://raw.githubusercontent.com/philanderson888/data/master/sampletextfile.txt
+
+
 
 # Linux Notes
 
@@ -3039,9 +3085,24 @@ As an interesting lab we can filter for `udp` traffic and then send a PING reque
 
 
 
+### Cookies
+
+Lab - click on any https:// website and click to view the cookies
+
+
+
+
+
 
 
 ### WIFI labs
+
+
+
+See ui.linksys.com labs for an example of SSID Broadcast and MAC filtering settings
+
+
+
 
 ##### Hacking Into Symmetric Encryption - Part 1
 
@@ -4970,7 +5031,8 @@ Cookies
        XSS ATTEMPTS TO USE COOKIE ON ANOTHER SITE
        
        SSL COOKIES ARE TRANSMITTED ENCRYPTED BUT STORED PLAIN TEXT
-       
+
+
        
 
 
@@ -5308,8 +5370,53 @@ DLP = data loss prevention
 
 
 
+## Network Scanning 
+   
+			   
+ATTACK SURFACE ==> SOMETHING IN WHICH WE ARE EXPOSED TO a4 THREAT
 
-## Network Scanning
+HONEYPOT
+
+	DECOY TO DISTRACT ATTACKER 1) THEY ARE DISTRACTED
+				   2) WE CAN PERHAPS MONITOR
+					  THEM
+HONEYNET
+
+	WHOLE NETWORK OF DISTRACTION
+
+
+### Scanning for vulnerabilities
+
+Enemy may do the following : 
+
+	Footprinting : use common sense methods to try and
+			gain info on you.  Using methods
+			which may be legal eg public 
+			birth/death/marriage records, 
+			public accounts records, website info
+
+	Enumerating : Using illegal methods to gain further
+		      detailed info about you.
+
+		      EG  COMPANY : DOING PORT SCANS, 
+			   HACKING IN AND GETTING NETWORK INFO,
+			   IP INFO, PORT INFO, SERVER NAME 
+			   INFO, NAMES OF KEY PEOPLE WHO
+	
+			Personal level : credit card info,
+				security answers to questions
+
+You may do the following
+
+	Vulnerability Scan
+
+	Port scan
+
+	Deep-level test to try and penetrate your network
+			eg using ethical hackers etc
+
+
+
 
 
 
@@ -6290,7 +6397,6 @@ PMI PRIVILEGE MANAGEMENT INFRASTRUCTURE : USE PKI CERTIFS TO MANAGE PERMISSIONS
 PMI USES PKI CERTIFICATES TO MANAGE
 STREAM CIPHER ONE CHARACTER AT TIME
 BLOCK CIPER SLOWER
-STEGANOGRAPHY HIDE EVEN FACT DATA EXISTS
 SYMMETRIC : AES => BLOW => TWO => RC6
 CIPHER SUITE EG SSL OR TLS
 PERFECT FORWARD : KEYS CANNOT BE REUSED
@@ -6371,7 +6477,6 @@ CONTAIN : SHORT TERM + FORENSIC + LONG TERM
 TEMPEST IS EMI
 INCIDENT IDENTIFY WHICH SERVERS WHAT IMPACT
 PHARM DNS ALTER
-STEGANOGRAPHY IN IMAGE
 CDP CLEAN DESK POLICY
 MTR RESTORE TO WORKING ORDER
 TRANSFER RISK = INSURANCE
@@ -6472,13 +6577,8 @@ Air gap = isolation
 RBAC Role Based Access Control
 Sinkhole: detect flood and redirect
 TCP SYN attack can do service discovery
-nmap -O can detect operating system
 Syslog = logs only
 SIEM = logs + analysis
-nmap -sL = live hosts
-nmap -sn = ping scan (also -sP)
-nmap -Pn = port scan every IP on subnet
-nmap -PS 1.2.3.4-5.6.7.8 TCP SYN service discovery scan
 scope of scan = numbers of computers
 # Repeat of above list
 scan sensitivity = how deep we are trying to penetrate
@@ -6545,16 +6645,9 @@ burner phone
 burner app
 htttrack copies site 
 maltego
-nmap -sS TCP/SYN
-nmap -A OS detection
-dig = nslookup
 openvas-start 
 openvas-check-setup
-greenbone = openvas GUI
-msfconsole = metasploit
-load openvas
 vulns -R show vulnerabilities
-zenmap host/port scan
 dirbuster dictionary/brute force attack
 CASP CompTIA Advanced Security Practitioner
 CISA Certified Info Systems Auditor
@@ -6577,12 +6670,6 @@ heuristic
 anomaly = pattern
 behaviour = beyond anomaly, sees results of attack eg files change.
 TTP tactics techniques and procedures
-nmap -o operating system
-nmap -sL hosts
-nmap -sn ping
-nmap -Pn port scan on every computer in range
-nmap -PS TCP SYN service discovery scan
-
 RFC request for change / comments
 CCB Change control board
 Masquerade = NAT
@@ -6913,7 +7000,6 @@ Furby connect
 
 
 Story : Stuxnet
-[haveibeenpwned.com](http://haveibeenpwned.com/)
 ADS Alternate Data Stream : can 'fork' a file into 2 parts and use this to effectively embed one file into another one
 TTP Tactics Techniques Procedures
 Exfiltrate
@@ -6934,10 +7020,6 @@ Command and control
 Exfiltration
 Removal
 point weak password. No logging etc
-Stories : Premium phone number hack : default voicemail PIN is last 4 digits of phone number
-
-Metasploit
-CVE
 Aircrack
 Bash Bunny
 [webkay.robinlinus.com](http://webkay.robinlinus.com/) Browser Fingerprinting
@@ -7030,8 +7112,6 @@ File signatures
 [https://filesignatures.net/index.php?page=all](https://filesignatures.net/index.php?page=all)
 Base64
 [https://www.base64encode.org/](https://www.base64encode.org/)[https://en.wikipedia.org/wiki/Base64](https://en.wikipedia.org/wiki/Base64)
-Steganography
-[http://stylesuxx.github.io/steganography/](http://stylesuxx.github.io/steganography/)
 Network Analyzer App
 [https://techet.net/netanalyzer/](https://techet.net/netanalyzer/)
 Google Hacking Master List
@@ -7053,10 +7133,6 @@ Data Breaches 2018
 
 Hacker News
 Hacker News [news.ycombinator.com](http://news.ycombinator.com/)
-
-Pen Test Cyber Hacking Labs
-Golden Ticket Pen Test Lab [https://pentestlab.blog/2018/04/09/golden-ticket/](https://pentestlab.blog/2018/04/09/golden-ticket/)
-
 
 
 
@@ -7793,10 +7869,6 @@ is a mini-virtual-private-server running on DigitalOcean hosting; set one up in 
 
 is no longer deemed to be secure (Minimum TLS1.1 required) TLS1.1 and 1.2 are deemed secure POODLE is vulnerability in SSL3.0
 
-### Passive reconnaisance
-
-uses OSINT 
-
 ### bulletproof ISP
 
 no questions asked
@@ -8016,6 +8088,17 @@ Palo Alto
 
 # Cyber Labs
 
+## Tools
+
+### Use of VPNs for security researching.
+
+Please download and use a VPN when doing research, even as an ethical hacker, so that you are not targeted by your ISP or other person who is watching out for such activity, as you are entering territory which can be deemed as invasive so you must be very careful not to go beyond certain boundaries in your research, but also you should use a VPN to protect yourself as well from being targeted by your ISP.
+
+A free one would be `HotspotShield` and a paid one would be `OpenVPN` which costs
+
+
+
+
 ## Cyber Labs Online
 
 [TryHackMe](https://tryhackme.com)
@@ -8043,6 +8126,11 @@ pipl.com
 carrot2.org
 
 https://google-gruyere.appspot.com/
+
+
+## Regex labs
+
+see regexone and also regexr for some REGEX labs
 
 
 
@@ -8100,9 +8188,6 @@ gobuster dir -u http://10.10.196.4:3333 -w directory-list-2.3-medium.txt
 
 
 ## Cyber Labs on AWS
-
-
-
 
 ### AWS Linux Virtual Machine
 
@@ -8196,6 +8281,87 @@ show collections
 db.table01.find()
 db.table02.find()
 ```
+
+
+
+### AWS Ubuntu Build Kali
+
+```bash
+# Ubuntu Server
+# Key Pair set permissions to read only
+Set-ItemProperty -Path ~/.ssh/KaliLinuxKeyPair2.pem -Name IsReadOnly -Value $true
+# log in
+ssh -i ~/.ssh/KaliLinuxKeyPair2.pem ubuntu@35.178.191.151
+# update
+sudo apt update -y
+# apt-get --yes --force-yes -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" upgrade
+# apt-get --yes --force-yes -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
+# upgrade only adds packages
+sudo apt-get -o Dpkg::Options::=--force-confold -o Dpkg::Options::=--force-confdef -y --allow-downgrades --allow-remove-essential --allow-change-held-packages upgrade
+# dist-upgrade adds or removes packages *** note that this does not quite work and it still asks the question! **
+sudo apt-get -o Dpkg::Options::=--force-confold -o Dpkg::Options::=--force-confdef -y --allow-downgrades --allow-remove-essential --allow-change-held-packages dist-upgrade
+# install nmap
+sudo apt install nmap -y
+# verify version
+nmap --version
+# install metasploitable (many steps)
+# install java
+# i think this step is not needed any more
+#sudo add-apt-repository -y ppa:webupd8team/java
+# but this one is to install java
+sudo add-apt-repository ppa:linuxuprising/java -y
+sudo apt update
+# sudo add-apt-repository -y ppa:webupd8team/java
+# sudo apt update
+echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
+echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections
+echo oracle-java11-installer shared/accepted-oracle-license-v1-2 select true | sudo /usr/bin/debconf-set-selections 
+
+# reboot computer???
+sudo reboot
+# download java ==> fails here so skip down to attempt with version 11.0.4 instead!
+# wget -O jdk-11.0.7_linux-x64_bin.tar.gz 'https://1drv.ms/u/s!AqdmkFhDCyDCzqwSzmHS6QZMBgMz8w?e=eXcCzI'
+# does sha match
+# sha256sum jdk-11.0.7_linux-x64_bin.tar.gz
+# create folder to put download
+# sudo mkdir -p /var/cache/oracle-jdk11-installer-local/
+# sudo cp jdk-11.0.7_linux-x64_bin.tar.gz /var/cache/oracle-jdk11-installer-local/
+# update package list
+# sudo add-apt-repository ppa:linuxuprising/java -y
+# sudo apt-get update -y
+# download java
+# sudo apt install oracle-java11-installer-local -y
+# sudo apt install software-properties-common -y
+# sudo apt install oracle-java11-installer-local -y 
+# sudo apt install -y oracle-java11-installer-local 
+# apt install oracle-java11-set-default
+# sudo apt-get update
+### try again
+exit
+# get the jdk and download it to your computer (localhost)
+scp -i ~/.ssh/KaliLinuxKeyPair2.pem .\jdk-11.0.7_linux-x64_bin.tar.gz ubuntu@18.132.64.57:/home/ubuntu
+ssh -i ~/.ssh/KaliLinuxKeyPair2.pem ubuntu@18.132.64.57
+sudo mkdir -p /var/cache/oracle-jdk11-installer-local/
+sudo cp jdk-11.0.7_linux-x64_bin.tar.gz /var/cache/oracle-jdk11-installer-local/
+sudo add-apt-repository ppa:linuxuprising/java -y
+sudo apt-get update -y
+
+echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
+echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections
+echo oracle-java11-installer shared/accepted-oracle-license-v1-2 select true | sudo /usr/bin/debconf-set-selections 
+
+
+sudo apt install default-jre -y
+# check java is installed
+java --version
+# install metasploit
+sudo curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
+# run metasploit
+msfconsole -y
+# was db set up
+db_status
+```
+
 
 
 
@@ -8300,19 +8466,13 @@ db.table02.find()
                               b) select `y` option*
 
 ```bash
-# check update sources are valid
-#//sudo nano /etc/apt/sources.list  
-#//deb http://http.kali.org/kali kali-rolling main contrib non-free  
-#//deb http://http.kali.org/kali sana main non-free contrib  
-#//deb http://security.kali.org/kali-security sana/updates main contrib non-free  
-#//deb http://old.kali.org/kali moto main non-free contrib 
-# save and close
 sudo apt update -y
 sudo apt upgrade -y
 # openvas
 sudo apt install openvas -y
-sudo openvas-setup -y               // lab works fine to here!
+sudo openvas-setup -y            
 # user with 4c9c6ce9-6602-48bc-9212-55d3d0610493
+sudo openvasmd --user=admin --new-password=admin
 netstat -antp
 sudo openvas-start 
 # now connect with VNC as other tutorial details
@@ -8333,7 +8493,9 @@ sudo openvasmd --user=admin --new-password=admin
 
 
 
-### Ubuntu Install Docker
+### Ubuntu Install Docker 
+
+*1 minute install*
 
 ```bash
 # remove invalid binaries 
@@ -8349,20 +8511,16 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 # insall docker 
 sudo apt install docker-ce docker-ce-cli  containerd.io -y
-# [ i think this is not required
-# set permissions : create docker group
-# sudo groupadd docker
-# add your user to this group
-# sudo usermod -aG docker ${USER}
-# log out
-# exit
-# log in ]
 # run docker
 docker
-# metasploitable
+```
+
+### Docker Install Metasploitable
+
+```bash
 # docker pull peakkk/metasploitable
-docker pull tleemcjr/metasploitable2
-docker run -it tleemcjr/metasploitable2
+sudo docker pull tleemcjr/metasploitable2
+sudo docker run -it tleemcjr/metasploitable2
 # note we are now inside the container!!!
 hostname
 ip a  # inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0
@@ -8508,9 +8666,9 @@ Metasploitable “GUEST” Minimal Memory Requirements
 
 
 
+## Penetration 
 
-
-
+Golden Ticket Pen Test Lab [https://pentestlab.blog/2018/04/09/golden-ticket/](https://pentestlab.blog/2018/04/09/golden-ticket/)
 
 
 
@@ -8710,11 +8868,30 @@ end
 
 
 
-### Forensic Labs
 
-https://gchq.github.io/CyberChef  Convert from binary to hex to base64 etc
+### NMap
+
+// get help
+nmap -h
+
+// TCP SYN scan
+nmap -sS
+
+// UDP Scan
+nmap -sU
+
+nmap -O can detect operating system
+nmap -sL = live hosts
+nmap -sn = ping scan (also -sP)
+nmap -Pn = port scan every IP on subnet
+nmap -PS 1.2.3.4-5.6.7.8 TCP SYN service discovery scan
+nmap -sS TCP/SYN
+nmap -A OS detection
 
 
+nmap -sS -sU -p ... nmapoutput.xml
+
+zenmap nmapoutput.xml
 
 
 
@@ -8732,17 +8909,7 @@ netdiscover -h view help
 netdiscover -i eth0 -r <<ip range>>
 
 
-### nmap
 
-nmap -sS 1.2.3.4
-
-nmap -A 1.2.3.4
-
-nmap host discovery
-
-nmap -sS -sU -p ... nmapoutput.xml
-
-zenmap nmapoutput.xml
 
 
 
@@ -8773,6 +8940,8 @@ openvas-check-setup
 [http://127.0.0.1:9392](http://127.0.0.1:9392/) = greenbone security assistant = openvas GUI output. Perform a network vulnerability scan using this tool.
 
 openvas : check greenbone reports
+
+demo at https://livedemo.greenbone.net/login
 
 service postgresql start : Start database
 
@@ -9076,6 +9245,17 @@ OSSIM Dashboard
 OSSIM Analysis
 
 OSSIM Analysis => Security Feed shows live events
+
+
+
+
+## Forensic Labs
+
+### CyberChef
+
+https://gchq.github.io/CyberChef  Convert from binary to hex to base64 etc
+
+
 
 
 
@@ -9861,6 +10041,20 @@ https://www.exploit-db.com/
 
 
        httrack.com - download full site to local; ensures all paths work locally
+
+        archive.org
+        httrack
+        spider netcraft.com
+
+
+# Scanning
+
+  attentionmeter.com
+  edgesecurity.com
+  lmgtfy.com
+  osrframework
+  web spider
+
 
 
 
@@ -11028,6 +11222,10 @@ Phosporous/APT35/Charming Kitten/Ajax Hacking Group in Iran targeting Journalist
 
 9 million EasyJet customers had credit card data compromised
 
+February 2020 - iPhone 14 leaked by Chinese hackers
+
+
+
 ### Exploit Stories 2018
 
 
@@ -11042,13 +11240,13 @@ Yahoo 2017 : 3 Billion Email accounts hacked by tools developed by NSA
 
 ### Exploit Stories 2016
 
-
-Uber
-Oct 2016
-paid $100,000 to hackers to delete their stolen data of 
+Oct 2016  Uber paid $100,000 to hackers to delete their stolen data of 
    50 million Uber users 
    7 million drivers
 
+### Exploit Stories 2015
+
+2015 VTech Kids toys Parent/Child website : 4.8 million users affected
 
 ### Exploit Stories 2014
 
@@ -11059,7 +11257,41 @@ Hack was Russian sponsored.
 (Yahoo has been merged with AOL to create OATH after being bought by Verizon)
 
 
+### Exploit Stories 2013
+
+Yahoo 2013 : 1 Billion email accounts breached
+
+### Exploit Stories 2011
+
+2011 Diginotar hack where certificates in the name of Google were issued which led to fake Google sites stealing google credentials. 
+
 ### Exploit Stories Undated
+
+Premium phone number hack : default voicemail PIN is last 4 digits of phone number
+
+Asusgate : admin admin routers across internet, FTP as well
+
+Talk Talk bought Tiscali then got caught out with 14000 SQL injection attacks because the Tiscali servers were not updated for 3 years!
+
+
+Gary Mckinnon (Script Kiddie) Hacked into NASA to look for evidence of UFOs
+
+Steve Wozniak One of the original Computer Hackers (not Crackers) went on to create Apple
+
+Dmitriy Smilianets (Russian Criminal Hacker) stole 300m credit card details which were sold on to criminal gangs, he was then extradited to US.
+
+Kevin Mitnick (Hacked into FBI/CIA/NSA whilst on the run to find out what they knew about his whereabouts.)
+
+Wannacry [https://www.symantec.com/connect/blogs/wannacry-ransomware-attacks-show-strong-links-lazarus-group](https://www.symantec.com/connect/blogs/wannacry-ransomware-attacks-show-strong-links-lazarus-group)
+
+Swift attack by Lazarus group 2016 [https://www.symantec.com/connect/blogs/swift-attackers-malware-linked-more-financial-attacks](https://www.symantec.com/connect/blogs/swift-attackers-malware-linked-more-financial-attacks)
+
+Lazarus Group
+$81 million stolen from Bangladesh Bank
+Stopped stealing $1 million from Vietnam Tien Phong Bank
+[https://www.symantec.com/connect/blogs/swift-attackers-malware-linked-more-financial-attacks](https://www.symantec.com/connect/blogs/swift-attackers-malware-linked-more-financial-attacks)
+
+
 
 Meltdown : Memory Dump, passwords etc by joining user to OS - CVE-2017-5754 [meltdownattack.com](http://meltdownattack.com/)
 
@@ -11070,8 +11302,6 @@ WannaCry : NSA tools stolen and used to create ransomware affecting NHS, Telefon
 NotPeyta
 
 BadRabbit
-
-Yahoo 2013 : 1 Billion email accounts breached
 
 WeCry : precursor to WannaCry : Ransomware to unlock for $177
 
@@ -11184,7 +11414,7 @@ Pre-engagement before test
 
 
 
-## PCI DSS
+## PCI *DSS*
 
 https://www.pcisecuritystandards.org/documents/Penetration_Testing_Guidance_March_2015.pdf
 
@@ -11601,11 +11831,12 @@ NIST Operational - centred on people eg training, security guard, configuration,
 CSA+ Controls - Physical (alarm, lock, fence,CCTV, mantrap, guard, badge), Logical, Admin 
 CSA+ Logical Control = software - OS, app, AV, ACL, IDS, password, biometric, smartcard, encryption, backup
 CSA+ Admin - Policy, Procedure
+
+Compensating Control - use when primary control fails.  EG encryption, separation of duties, user training
+
 Function : prevent, deter, detect, correct(during), compensate(after)
 CoA = Courses of Action = Matrix of Action
 FIPS 199 Impact Analysis = High/Med/Low
-Compensating Control - use when primary control fails.  EG encryption, separation of duties, user training
-compensating control = fallback plan if main control fails
 CSIRT computer security incident response team 
 NIST controls: access, audit, incident response, risk assess
 NIST class of control: technical, operational, management
@@ -13114,7 +13345,7 @@ Netflow Analysis : from Cisco : looks at different ‘flows’ of traffic or ‘
 
 Network monitoring most active hosts hosts producing packets in error filter baseline generate frames for testing bandwidth alarms
 
-Sniffing Tools
+#### Sniffing Tools
 
 TCPDump
        windump
@@ -13124,6 +13355,16 @@ Wireshark
        .pcap file output
 
 Netscout / Network General
+
+#### TCP FLAGS WHEN SNIFFING
+
+  colasoft packet builder
+    
+    RST reset forcibly
+    
+    FIN reset cleanly
+
+
 
 ## WIFI tools
 
@@ -14165,6 +14406,15 @@ sector-by-sector replication of image
 
 ## Passwords
 
+HaveIBeenPwned - has my username and password already been hacked?
+
+[haveibeenpwned.com](http://haveibeenpwned.com/)
+
+[Howsecureismypassword.net](http://howsecureismypassword.net/)
+
+
+
+
 ### Password Storage
 
 most passwords stored as MD5 or SHA1
@@ -14179,11 +14429,16 @@ Linux
       /etc/passwd    All users can reach this location
       /etc/shadow Only root user can reach this location
 
+
+
+
 ### Password cracking
 
 #### Cain and abel
 
 #### John the Ripper
+
+John The Ripper : use to find a password from a hash
 
 #### THC Hydra
 
@@ -14213,6 +14468,24 @@ if hash is obtained, submit it directly
                                           credentials can be used
                                           
 Note : live system : might be possible to obtain from memory (RAM)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ##  Forensic Analysis Of Computer
@@ -14483,6 +14756,10 @@ Note that PFS Perfect Forward Secrecy can be used to prevent a VPN key from bein
 ##### Steganography
 
 can be done for small amounts of data - hide data within an image, audio or video
+
+[http://stylesuxx.github.io/steganography/](http://stylesuxx.github.io/steganography/)
+
+https://0xrick.github.io/lists/stego/
 
 ##### VLAN double-tagging
 

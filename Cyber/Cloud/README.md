@@ -26,6 +26,16 @@
     - [App development](#app-development)
   - [6 Benefits Of Cloud Computing](#6-benefits-of-cloud-computing)
     - [1 Capital Fixed expenses for hardware become variable expenses](#1-capital-fixed-expenses-for-hardware-become-variable-expenses)
+    - [Agile : learn quickly](#agile--learn-quickly)
+    - [Reducing Risk](#reducing-risk)
+    - [Reduce Security Risk](#reduce-security-risk)
+    - [Also](#also)
+    - [Scalability](#scalability)
+    - [Agility](#agility)
+    - [Cloud formation](#cloud-formation)
+    - [Elasticity](#elasticity)
+    - [Reliability](#reliability)
+    - [Security](#security)
   - [Cloud Types 2020](#cloud-types-2020)
     - [On-Premises (No cloud) (27%)](#on-premises-no-cloud-27)
     - [Private (20%)](#private-20)
@@ -96,7 +106,7 @@
   - [Course Structure](#course-structure)
   - [Fundamentals](#fundamentals)
     - [5 Pillars](#5-pillars)
-    - [Security](#security)
+    - [Security](#security-1)
       - [IAM Security](#iam-security)
         - [IAM Policy](#iam-policy)
       - [Network Security](#network-security)
@@ -178,7 +188,7 @@
 - [Docker Images In Azure](#docker-images-in-azure)
   - [Push And Use A Docker Image From Azure](#push-and-use-a-docker-image-from-azure)
     - [Deploy Container Image In Azure From Docker Hub](#deploy-container-image-in-azure-from-docker-hub)
-- [Kubernetes - Orchestrates multiple containers](#kubernetes---orchestrates-multiple-containers)
+- [Kubernetes](#kubernetes)
   - [Kubernetes Terminology](#kubernetes-terminology)
   - [Orchestration](#orchestration)
   - [Kubernetes Basic Online Tutorial](#kubernetes-basic-online-tutorial)
@@ -774,6 +784,70 @@ Client consumes hardware as a service
 ### 1 Capital Fixed expenses for hardware become variable expenses
 
 ....... to be continued
+
+### Agile : learn quickly
+
+### Reducing Risk
+
+Insist on results as soon as investment is being 
+
+### Reduce Security Risk
+
+Test often
+patch quickly
+respond to incidents at lightning speed
+
+### Also
+
+Scalability
+Agility
+Innovation
+
+### Scalability
+
+re-size as required
+
+### Agility
+
+Increase speed
+experiment more
+  with low cost
+  and low risk
+innovate more
+
+### Cloud formation
+
+Use for testing
+
+### Elasticity
+
+scale up or down easily
+
+### Reliability
+
+Ability to recover for failure
+
+- meet demand
+- recover from failures
+- auto healing
+
+AWS Regions contain multiple `availability zones`
+
+Each `availability zone` has one or more data centers with redundant power and networking in separate facilities
+
+### Security
+
+Keys
+Compliance
+Continual monitoring of compliance
+
+
+
+
+
+
+
+
 
 
 
@@ -3255,7 +3329,9 @@ Add the docker hub name with tag
 
 
 
-# Kubernetes - Orchestrates multiple containers
+# Kubernetes
+
+Orchestrates multiple containers
 
 ## Kubernetes Terminology
 

@@ -22,7 +22,7 @@
     - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
     - [Set Password](#set-password)
-- [## Check version](#h2-idcheck-version-909check-versionh2)
+- [## Check version](#h2-idcheck-version-1395check-versionh2)
     - [dig](#dig)
     - [mtr](#mtr)
     - [ss (Netstat equivalent)](#ss-netstat-equivalent)
@@ -115,6 +115,9 @@
   - [Azure VM Install Windows Server](#azure-vm-install-windows-server)
   - [Azure VM Install Ubuntu Server](#azure-vm-install-ubuntu-server)
   - [Azure Nested Virtualization](#azure-nested-virtualization)
+  - [Azure Ubuntu Install VirtualBox](#azure-ubuntu-install-virtualbox)
+- [Azure Ubuntu Install Minikube](#azure-ubuntu-install-minikube)
+- [Azure Install Win10](#azure-install-win10)
 - [HyperV Labs](#hyperv-labs)
   - [Virtual Switching](#virtual-switching)
     - [Create a virtual switch](#create-a-virtual-switch)
@@ -491,6 +494,7 @@
     - [AWS Kali with VNC](#aws-kali-with-vnc)
     - [Kali Install OpenVAS  (1 hour with attended input)](#kali-install-openvas-1-hour-with-attended-input)
     - [Ubuntu Install Docker](#ubuntu-install-docker-1)
+    - [Docker Install Metasploitable](#docker-install-metasploitable-1)
       - [Run an exploit](#run-an-exploit)
     - [AWS Run Container](#aws-run-container)
   - [Kali](#kali)
@@ -2187,16 +2191,9 @@ az vm list-sizes --location uksouth
 # create vm
 az vm create --resource-group ubuntu01 --name ubuntu01 --image UbuntuLTS --admin-username ubuntu --generate-ssh-keys
 
-# create big vm which is big enough for nested virtualization
-# If you would like to create the Linux VM in Azure, make sure you pick “D V3” or “E V3” instance, these VM 
-# instances enabled for nested virtualization. Visit this link for more details. For the purpose of this post, I # used Standard E4s v3 instance with Ubuntu Server operating system.
-
-
-az vm create --resource-group ubuntu01 --name ubuntu01 --image UbuntuLTS --admin-username ubuntu --generate-ssh-keys --size Standard_E4s_v3
-
+# create big vm which is big enough for nested virtualization eg Dv3 or Ev3. E4 is too big?
 
 az vm create --resource-group NestedVirtualization --name ubuntu03 --image UbuntuLTS --admin-username ubuntu --generate-ssh-keys --size Standard_E4s_v3
-
 
 # output
 #  "privateIpAddress": "10.0.0.5",
@@ -2237,12 +2234,71 @@ grep -cw vmx /proc/cpuinfo
 grep -E --color 'vmx|svm' /proc/cpuinfo
 ```
 
+## Azure Ubuntu Install VirtualBox
+```bash
+sudo add-apt-repository universe
+sudo add-apt-repository multiverse
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo apt install build-essential dkms unzip wget -y
+sudo reboot
+sudo chmod 777 sources.list
+sudo echo "deb http://download.virtualbox.org/virtualbox/debian bionic contrib" >> /etc/apt/sources.list
+# add key
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+# install virtualbox
+sudo apt install virtualbox-5.2
+# add user to group
+sudo usermod -aG vboxusers ubuntu
+# start virtual box
+sudo systemctl status vboxdrv
+# get extension pack
+wget https://download.virtualbox.org/virtualbox/5.2.30/Oracle_VM_VirtualBox_Extension_Pack-5.2.30.vbox-extpack
+# install 
+sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.30.vbox-extpack
+```
+
+
+# Azure Ubuntu Install Minikube
+
+Minikube is a mini virtual machine running ubuntu and it is used for running clusters ....
+
+```bash
+# does the machine support virtualization?  
+grep -cw vmx /proc/cpuinfo  
+grep -E --color 'vmx|svm' /proc/cpuinfo
+# install virtualbox (above)
+# install Kubernetes
+cd /usr/local/bin
+sudo curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+sudo chmod +x ./kubectl
+# note 'kubectl' command now works
+# get minikube
+sudo wget https://github.com/kubernetes/minikube/releases/download/v0.25.0/minikube_0.25-0.deb
+# install minikube
+sudo dpkg -i ./minikube_0.25-0.deb
+# start minikubem
+minikube start
+minikube status
+# log in to minikube
+minikube ssh
+```
 
 
 
+# Azure Install Win10
 
-
-
+```bash
+# new VM E4s_v3 (too big)  AzureUser
+# rdp to it
+# enable hypervisor
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+# plus also have to enable two other windows optional features (used the GUI here)
+```
 
 
 
@@ -6728,8 +6784,6 @@ burner phone
 burner app
 htttrack copies site 
 maltego
-openvas-start 
-openvas-check-setup
 vulns -R show vulnerabilities
 dirbuster dictionary/brute force attack
 CASP CompTIA Advanced Security Practitioner
@@ -8660,16 +8714,20 @@ vncserver
 *Note: During install have to a) select `package maintainer` option 
                               b) select `y` option*
 
+
 ```bash
 sudo apt update -y
 sudo apt upgrade -y
 # install openvas (not silent - requires user input)
 sudo apt install openvas -y
+# download vulnerability feeds (takes a while!)
 sudo openvas-setup -y            
 # user with 4c9c6ce9-6602-48bc-9212-55d3d0610493
 sudo openvasmd --user=admin --new-password=admin
 netstat -antp
 sudo openvas-start 
+openvas-check-setup
+
 # now connect with VNC as other tutorial details
 # now open browser to https://localhost:9392
 # and log in !
@@ -8692,10 +8750,26 @@ sudo openvasmd --user=admin --new-password=admin
 sudo apt install docker.io -y
 # run docker
 docker
+# check service status
+sudo service docker start
 ```
 
 
+### Docker Install Metasploitable 
 
+*Takes about a minute*
+
+```bash
+# docker pull peakkk/metasploitable 
+sudo docker pull tleemcjr/metasploitable2
+sudo docker run -it tleemcjr/metasploitable2
+# note we are now inside the container!!!
+hostname
+ip a  # inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0
+# on another shell on the Kali host 
+ip a # inet 172.31.4.186/20 brd 172.31.15.255 scope global dynamic eth0
+ip a # inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+```
 
 
 

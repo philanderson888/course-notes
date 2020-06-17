@@ -208,6 +208,7 @@
   - [Azure Devops](#azure-devops)
     - [Blockchain](#blockchain)
 - [HyperV](#hyperv)
+  - [Nested Virtualisation](#nested-virtualisation)
     - [NAT](#nat)
   - [Nano Server](#nano-server)
   - [Security Features](#security-features)
@@ -3807,7 +3808,7 @@ Blockchain has a low cost of entry and a relatively high return on investment.
 
 Shielded VM has Credential Guard + Bitlocker + TPM + can only run on approved hosts
 
-Nested Virtualisation
+## Nested Virtualisation
 
 ```
 Set-VMProcessor -VMName <VMName> -ExposeVirtualizationExtensions $true

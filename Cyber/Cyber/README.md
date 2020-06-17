@@ -22,7 +22,7 @@
     - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
     - [Set Password](#set-password)
-- [## Check version](#h2-idcheck-version-243check-versionh2)
+- [## Check version](#h2-idcheck-version-52check-versionh2)
     - [dig](#dig)
     - [mtr](#mtr)
     - [ss (Netstat equivalent)](#ss-netstat-equivalent)
@@ -113,6 +113,7 @@
   - [Create Resource Group](#create-resource-group)
   - [Azure VM Install Windows Server](#azure-vm-install-windows-server)
   - [Azure VM Install Ubuntu Server](#azure-vm-install-ubuntu-server)
+  - [Azure Nested Virtualization](#azure-nested-virtualization)
 - [HyperV Labs](#hyperv-labs)
   - [Virtual Switching](#virtual-switching)
     - [Create a virtual switch](#create-a-virtual-switch)
@@ -2175,6 +2176,33 @@ sudo apt update
 sudo apt upgrade
 
 ```
+
+
+
+## Azure Nested Virtualization
+
+```bash
+# New VM at least D3_v3 size or bigger for example E3 size
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

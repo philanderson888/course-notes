@@ -22,7 +22,7 @@
     - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
     - [Set Password](#set-password)
-- [## Check version](#h2-idcheck-version-169check-versionh2)
+- [## Check version](#h2-idcheck-version-657check-versionh2)
     - [dig](#dig)
     - [mtr](#mtr)
     - [ss (Netstat equivalent)](#ss-netstat-equivalent)
@@ -36,6 +36,7 @@
     - [Compressing](#compressing)
     - [Wildcards](#wildcards)
     - [Permissions](#permissions)
+    - [change owner](#change-owner)
     - [head and tail](#head-and-tail)
     - [sort](#sort)
     - [Viewing Data](#viewing-data)
@@ -475,20 +476,22 @@
       - [Connect](#connect)
     - [AWS Linux Install Apache](#aws-linux-install-apache)
     - [AWS Linux Install Mongo](#aws-linux-install-mongo)
+    - [AWS Build Ubuntu](#aws-build-ubuntu)
     - [Ubuntu Install Apache](#ubuntu-install-apache)
-    - [AWS Ubuntu Build Kali](#aws-ubuntu-build-kali)
-      - [install nmap](#install-nmap)
-      - [install metasploit (Part I)](#install-metasploit-part-i)
-      - [install metasploit (Part II)](#install-metasploit-part-ii)
-      - [install java and metasploit (Part III)](#install-java-and-metasploit-part-iii)
+    - [Ubuntu Install NGINX](#ubuntu-install-nginx)
+    - [Ubuntu install nmap (1 minute install)](#ubuntu-install-nmap-1-minute-install)
+    - [Ubuntu Install Docker](#ubuntu-install-docker)
+    - [Docker Install Metasploitable](#docker-install-metasploitable)
+    - [NMap Scan Metasploitable](#nmap-scan-metasploitable)
+    - [Ubuntu Install Java Part I](#ubuntu-install-java-part-i)
+    - [install java (Part II)](#install-java-part-ii)
+    - [Ubuntu Install Metasploit](#ubuntu-install-metasploit)
     - [AWS Kali with VNC](#aws-kali-with-vnc)
     - [Ubuntu Install MongoDB](#ubuntu-install-mongodb)
       - [start mongodb](#start-mongodb)
       - [run mongo client](#run-mongo-client)
     - [Kali Install OpenVAS  (1 hour with attended input)](#kali-install-openvas-1-hour-with-attended-input)
     - [Ubuntu Install Docker (Easy version)](#ubuntu-install-docker-easy-version)
-    - [Ubuntu Install Docker (Not so easy version)](#ubuntu-install-docker-not-so-easy-version)
-    - [Docker Install Metasploitable](#docker-install-metasploitable)
       - [Run an exploit](#run-an-exploit)
     - [AWS Run Container](#aws-run-container)
   - [Kali](#kali)
@@ -1284,6 +1287,8 @@ whoami
 groups <<username>>
 ````
 
+The output will read  ubuntu: ubuntu ... and this means ubuntu is your primary group name
+
 ## Install
 
 ### install apps
@@ -1470,6 +1475,18 @@ chmod 777 file.txt
 # 1) owner
 # 2) root 
 ```
+
+### change owner
+
+```bash
+# get username eg `ubuntu`
+whoami
+# get groups 
+groups ubuntu
+# change owner
+sudo chown -R root:ubuntu /path/to/folder
+```
+
 
 ### head and tail
 
@@ -8328,31 +8345,8 @@ db.table01.find()
 db.table02.find()
 ```
 
-### Ubuntu Install Apache
 
-```bash
-# update
-sudo apt update -y
-sudo -E apt-get -qy -o "Dpkg::Options::=--force-confdef" -o "Dpkg::Options::=--force-confold" upgrade
-sudo -E apt-get -qy -o "Dpkg::Options::=--force-confdef" -o "Dpkg::Options::=--force-confold" dist-upgrade
-# install
-sudo apt-get install apache2 -y
-# go to web page at http://<IP> to view it!
-
-c
-usermod -a -G apache ec2-user
-chown -R ec2-user:apache /var/www
-chmod 2775 /var/www
-find /var/www -type d -exec chmod 2775 {} \;
-find /var/www -type f -exec chmod 0664 {} \;
-echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
-touch /var/www/html/index.html
-
-echo "<html>hello world from phil</html>" > /var/www/html/index.html
-
-```
-
-### AWS Ubuntu Build Kali
+### AWS Build Ubuntu
 
 ```bash
 # Ubuntu Server
@@ -8366,7 +8360,49 @@ sudo apt upgrade -y
 sudo apt dist-upgrade -y
 ```
 
-#### install nmap
+
+### Ubuntu Install Apache
+
+```bash
+# update
+sudo apt update -y
+sudo -E apt-get -qy -o "Dpkg::Options::=--force-confdef" -o "Dpkg::Options::=--force-confold" upgrade
+sudo -E apt-get -qy -o "Dpkg::Options::=--force-confdef" -o "Dpkg::Options::=--force-confold" dist-upgrade
+# install
+sudo apt-get install apache2 -y
+# go to web page at http://<IP> to view it!
+# modify files - set ownership
+# get username eg `ubuntu`
+whoami
+# get groups 
+groups ubuntu
+# change owner
+sudo chown -R root:ubuntu /var/www
+# replace file 
+echo "<html>hello world from phil</html>" > /var/www/html/index.html
+# status
+systemctl status apache2
+sudo systemctl stop apache2
+```
+
+### Ubuntu Install NGINX
+
+```bash
+# install
+sudo apt install -y nginx
+# check status
+systemctl status nginx
+# stop apache if running
+sudo systemctl stop apache2
+# run
+sudo systemctl start nginx
+```
+
+
+
+### Ubuntu install nmap (1 minute install)
+
+*1 minute install*
 
 ```bash
 sudo apt install nmap -y
@@ -8374,13 +8410,91 @@ sudo apt install nmap -y
 nmap --version
 ```
 
-#### install metasploit (Part I)
+
+### Ubuntu Install Docker
+
+*1 minute install*
 
 ```bash
-# install java
+# install
+sudo apt install docker.io -y
+# run docker
+docker
+```
+
+
+
+
+
+### Docker Install Metasploitable 
+
+*Takes about a minute*
+
+```bash
+# docker pull peakkk/metasploitable 
+sudo docker pull tleemcjr/metasploitable2
+sudo docker run -it tleemcjr/metasploitable2
+# note we are now inside the container!!!
+hostname
+ip a  # inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0
+# on another shell on the Kali host 
+ip a # inet 172.31.4.186/20 brd 172.31.15.255 scope global dynamic eth0
+ip a # inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+```
+
+### NMap Scan Metasploitable
+
+*Connect on a new shell, leaving the metasploitable shell open*
+
+```
+# ping metasploitable from docker host
+ping 172.17.0.2 
+# os scan
+sudo nmap -O 172.17.0.2
+# ping scan
+sudo nmap -sn 172.17.0.2
+# port scan
+sudo nmap -Pn 172.17.0.2
+# tcp syn scan
+sudo nmap -PS 172.17.0.2
+# other nmap labs
+nmap -sV 
+# scan all ports
+nmap -p- 
+# scan first 400 ports
+nmap -p-400  
+# os and version *** use this one!
+nmap -A 
+# lots of info but not as much as A
+nmap -sC
+# verbose but not as good as A 
+nmap -v  
+# scan UDP (no response)
+nmap -sU
+# scan TCP SYN
+nmap -sS
+# don't resolve dns
+nmap -n 1.2.3.4
+```
+
+
+
+
+
+
+### Ubuntu Install Java Part I
+
+```bash
+# scp copy JDK to Ubuntu from local 20 minutes
+cd ~/Downloads
+# check file is present (get from Java)
+ls
+# copy
+scp -i ~/.ssh/KaliLinuxKeyPair2.pem .\jdk-11.0.7_linux-x64_bin.tar.gz ubuntu@18.132.64.57:/home/ubuntu
+# Prepare environment - add repository
 sudo add-apt-repository ppa:linuxuprising/java -y
 sudo apt update -y
-
+# set config
 echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
 echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections
 echo oracle-java11-installer shared/accepted-oracle-license-v1-2 select true | sudo /usr/bin/debconf-set-selections 
@@ -8388,22 +8502,13 @@ echo oracle-java11-installer shared/accepted-oracle-license-v1-2 select true | s
 sudo reboot
 ```
 
-#### install metasploit (Part II)
+
+### install java (Part II)
 
 ```bash
-# scp copy JDK to Ubuntu from local 
-cd ~/Downloads
-# check file is present (get from Java)
-ls
-# copy (takes 10 minutes or so)
-scp -i ~/.ssh/KaliLinuxKeyPair2.pem .\jdk-11.0.7_linux-x64_bin.tar.gz ubuntu@18.132.64.57:/home/ubuntu
-```
-
-#### install java and metasploit (Part III)
-
-```bash
-# log in again
+# log in
 ssh -i ~/.ssh/KaliLinuxKeyPair2.pem ubuntu@18.132.64.57
+# install java
 sudo mkdir -p /var/cache/oracle-jdk11-installer-local/
 sudo cp jdk-11.0.7_linux-x64_bin.tar.gz /var/cache/oracle-jdk11-installer-local/
 sudo add-apt-repository ppa:linuxuprising/java -y
@@ -8416,7 +8521,13 @@ echo oracle-java11-installer shared/accepted-oracle-license-v1-2 select true | s
 sudo apt install default-jre -y
 # check version
 java --version
-# install metasploit
+```
+
+### Ubuntu Install Metasploit
+
+*Have to install Java first*
+
+```bash
 sudo curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 # run metasploit
 msfconsole -y
@@ -8530,7 +8641,7 @@ db.table02.find()
 ```bash
 sudo apt update -y
 sudo apt upgrade -y
-# openvas
+# install openvas (not silent - requires user input)
 sudo apt install openvas -y
 sudo openvas-setup -y            
 # user with 4c9c6ce9-6602-48bc-9212-55d3d0610493
@@ -8565,78 +8676,10 @@ docker
 
 
 
-### Ubuntu Install Docker (Not so easy version)
-
-*1 minute install*
-
-```bash
-# remove invalid binaries 
-sudo apt remove docker docker.io containerd runc  -y
-# set up environment  (note : some did not fully work)
-sudo apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common -y
-# key
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-# check key installed
-sudo apt-key fingerprint 0EBFCD88
-# set up repository
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic test"
-sudo apt update
-# insall docker 
-sudo apt install docker-ce docker-ce-cli  containerd.io -y
-# run docker
-docker
-```
 
 
 
 
-
-
-### Docker Install Metasploitable
-
-```bash
-# docker pull peakkk/metasploitable
-sudo docker pull tleemcjr/metasploitable2
-sudo docker run -it tleemcjr/metasploitable2
-# note we are now inside the container!!!
-hostname
-ip a  # inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0
-# on another shell on the Kali host 
-ip a # inet 172.31.4.186/20 brd 172.31.15.255 scope global dynamic eth0
-ip a # inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
-# ping metasploitable from docker host
-ping 172.17.0.2 
-# os scan
-sudo nmap -O 172.17.0.2
-# ping scan
-sudo nmap -sn 172.17.0.2
-# port scan
-sudo nmap -Pn 172.17.0.2
-# tcp syn scan
-sudo nmap -PS 172.17.0.2
-
-
-nmap -sV 
-# scan all ports
-nmap -p- 
-# scan first 400 ports
-nmap -p-400  
-# os and version *** use this one!
-nmap -A 
-# lots of info but not as much as A
-nmap -sC
-# verbose but not as good as A 
-nmap -v  
-# scan UDP (no response)
-nmap -sU
-# scan TCP SYN
-nmap -sS
-# don't resolve dns
-nmap -n 1.2.3.4
-
-
-
-```
 
 
 #### Run an exploit

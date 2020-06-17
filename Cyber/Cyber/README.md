@@ -22,7 +22,7 @@
     - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
     - [Set Password](#set-password)
-- [## Check version](#h2-idcheck-version-657check-versionh2)
+- [## Check version](#h2-idcheck-version-909check-versionh2)
     - [dig](#dig)
     - [mtr](#mtr)
     - [ss (Netstat equivalent)](#ss-netstat-equivalent)
@@ -483,15 +483,14 @@
     - [Ubuntu Install Docker](#ubuntu-install-docker)
     - [Docker Install Metasploitable](#docker-install-metasploitable)
     - [NMap Scan Metasploitable](#nmap-scan-metasploitable)
-    - [Ubuntu Install Java Part I](#ubuntu-install-java-part-i)
-    - [install java (Part II)](#install-java-part-ii)
-    - [Ubuntu Install Metasploit](#ubuntu-install-metasploit)
-    - [AWS Kali with VNC](#aws-kali-with-vnc)
+    - [Ubuntu Install Metasploit Part I](#ubuntu-install-metasploit-part-i)
+    - [install metasploit (Part II)](#install-metasploit-part-ii)
     - [Ubuntu Install MongoDB](#ubuntu-install-mongodb)
       - [start mongodb](#start-mongodb)
       - [run mongo client](#run-mongo-client)
+    - [AWS Kali with VNC](#aws-kali-with-vnc)
     - [Kali Install OpenVAS  (1 hour with attended input)](#kali-install-openvas-1-hour-with-attended-input)
-    - [Ubuntu Install Docker (Easy version)](#ubuntu-install-docker-easy-version)
+    - [Ubuntu Install Docker](#ubuntu-install-docker-1)
       - [Run an exploit](#run-an-exploit)
     - [AWS Run Container](#aws-run-container)
   - [Kali](#kali)
@@ -2182,13 +2181,33 @@ Now view our website in any browser
 az group list --output table
 az group create --name ubuntu01 --location uksouth
 
+# list sizes
+az vm list-sizes --location uksouth
+
 # create vm
 az vm create --resource-group ubuntu01 --name ubuntu01 --image UbuntuLTS --admin-username ubuntu --generate-ssh-keys
+
+# create big vm which is big enough for nested virtualization
+# If you would like to create the Linux VM in Azure, make sure you pick “D V3” or “E V3” instance, these VM 
+# instances enabled for nested virtualization. Visit this link for more details. For the purpose of this post, I # used Standard E4s v3 instance with Ubuntu Server operating system.
+
+
+az vm create --resource-group ubuntu01 --name ubuntu01 --image UbuntuLTS --admin-username ubuntu --generate-ssh-keys --size Standard_E4s_v3
+
+
+az vm create --resource-group NestedVirtualization --name ubuntu03 --image UbuntuLTS --admin-username ubuntu --generate-ssh-keys --size Standard_E4s_v3
+
+
+# output
+#  "privateIpAddress": "10.0.0.5",
+#  "publicIpAddress": "51.132.26.53",
 
 # open for port 80
 az vm open-port --port 80 --resource-group ubuntu01 --name ubuntu01
 
-# get public ip
+az vm open-port --port 80 --resource-group NestedVirtualization --name ubuntu03
+
+# get public ip  (using -g for group alias)
 az vm list -g ubuntu01 --show-details --output table
 
 # output
@@ -2203,8 +2222,8 @@ ssh ubuntu@51.140.51.98
 
 we are now in!
 
-sudo apt update
-sudo apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
 
 ```
 
@@ -2213,8 +2232,9 @@ sudo apt upgrade
 ## Azure Nested Virtualization
 
 ```bash
-# New VM at least D3_v3 size or bigger for example E3 size
-
+# does the machine support virtualization?  
+grep -cw vmx /proc/cpuinfo  
+grep -E --color 'vmx|svm' /proc/cpuinfo
 ```
 
 
@@ -8426,6 +8446,8 @@ docker
 
 
 
+
+
 ### Docker Install Metasploitable 
 
 *Takes about a minute*
@@ -8482,7 +8504,7 @@ nmap -n 1.2.3.4
 
 
 
-### Ubuntu Install Java Part I
+### Ubuntu Install Metasploit Part I
 
 ```bash
 # scp copy JDK to Ubuntu from local 20 minutes
@@ -8503,7 +8525,7 @@ sudo reboot
 ```
 
 
-### install java (Part II)
+### install metasploit (Part II)
 
 ```bash
 # log in
@@ -8513,7 +8535,7 @@ sudo mkdir -p /var/cache/oracle-jdk11-installer-local/
 sudo cp jdk-11.0.7_linux-x64_bin.tar.gz /var/cache/oracle-jdk11-installer-local/
 sudo add-apt-repository ppa:linuxuprising/java -y
 sudo apt-get update -y
-# 
+# set config
 echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
 echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections
 echo oracle-java11-installer shared/accepted-oracle-license-v1-2 select true | sudo /usr/bin/debconf-set-selections 
@@ -8521,57 +8543,14 @@ echo oracle-java11-installer shared/accepted-oracle-license-v1-2 select true | s
 sudo apt install default-jre -y
 # check version
 java --version
-```
-
-### Ubuntu Install Metasploit
-
-*Have to install Java first*
-
-```bash
+# install metasploit
 sudo curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 # run metasploit
-msfconsole -y
+msfconsole
 # was db set up
 db_status
 ```
 
-
-
-
-
-### AWS Kali with VNC
-
-Find `Kali` on AWS store, run and install T2 Large via EC2
-
-```bash
-# connect
-ssh -i ~/.ssh/KaliLinuxKeyPair.pem ec2-user@35.176.24.73
-# set password
-echo -e "kali\nkali" | sudo passwd ec2-user
-echo -e "kali\nkali" | sudo passwd kali
-# version
-cat /etc/os-release
-# run nmap
-nmap
-# run postgresql
-sudo service postgresql start
-# run metasploit
-msfconsole
-exit
-# tightvnc
-tightvncpasswd 
-# view only password => NO
-# exit aws vm and return to local powershell
-exit
-# connect via vnc port
-ssh -L 5901:localhost:5901 -i ~/.ssh/KaliLinuxKeyPair.pem ec2-user@35.176.24.73
-# run vnc server
-vncserver
-# download vnc viewer from https://www.realvnc.com/en/connect/download/viewer/linux/
-# run vnc viewer
-# enress `locahost:1`
-# enter password and connect!
-```
 
 
 
@@ -8631,8 +8610,51 @@ db.table02.find()
 
 
 
+
+
+
+
+
+### AWS Kali with VNC
+
+Find `Kali` on AWS store, run and install T2 Large via EC2
+
+```bash
+# connect
+ssh -i ~/.ssh/KaliLinuxKeyPair.pem ec2-user@35.176.24.73
+# set password
+echo -e "kali\nkali" | sudo passwd ec2-user
+echo -e "kali\nkali" | sudo passwd kali
+# version
+cat /etc/os-release
+# run nmap
+nmap
+# run postgresql
+sudo service postgresql start
+# run metasploit
+msfconsole
+exit
+# tightvnc
+tightvncpasswd 
+# view only password => NO
+# exit aws vm and return to local powershell
+exit
+# connect via vnc port
+ssh -L 5901:localhost:5901 -i ~/.ssh/KaliLinuxKeyPair.pem ec2-user@35.176.24.73
+# run vnc server
+vncserver
+# download vnc viewer from https://www.realvnc.com/en/connect/download/viewer/linux/
+# run vnc viewer
+# enress `locahost:1`
+# enter password and connect!
+```
+
+
+
+
 ### Kali Install OpenVAS  (1 hour with attended input)
 
+*Does this work on Raw Ubuntu?  Think not.*
 *Note: Total time around 1 hour*
 *Note: Downloads a lot of data* 
 *Note: During install have to a) select `package maintainer` option 
@@ -8661,19 +8683,16 @@ sudo openvasmd --user=admin --new-password=admin
 
 
 
-
-
-### Ubuntu Install Docker (Easy version)
+### Ubuntu Install Docker
 
 *1 minute install*
 
 ```bash
 # install
-sudo apt install docker.io
+sudo apt install docker.io -y
 # run docker
 docker
 ```
-
 
 
 

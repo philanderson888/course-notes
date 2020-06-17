@@ -16,13 +16,13 @@
   - [VM Labs](#vm-labs)
 - [Advanced Networking](#advanced-networking)
 - [Linux Administration Labs](#linux-administration-labs)
-  - [Install](#install)
-    - [install apps](#install-apps)
+  - [Who Am I](#who-am-i)
+  - [What groups am I a member of?](#what-groups-am-i-a-member-of)
     - [install ifconfig](#install-ifconfig)
     - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
     - [Set Password](#set-password)
-- [## Check version](#h2-idcheck-version-52check-versionh2)
+- [## Check version](#h2-idcheck-version-169check-versionh2)
     - [dig](#dig)
     - [mtr](#mtr)
     - [ss (Netstat equivalent)](#ss-netstat-equivalent)
@@ -475,6 +475,7 @@
       - [Connect](#connect)
     - [AWS Linux Install Apache](#aws-linux-install-apache)
     - [AWS Linux Install Mongo](#aws-linux-install-mongo)
+    - [Ubuntu Install Apache](#ubuntu-install-apache)
     - [AWS Ubuntu Build Kali](#aws-ubuntu-build-kali)
       - [install nmap](#install-nmap)
       - [install metasploit (Part I)](#install-metasploit-part-i)
@@ -1269,6 +1270,19 @@ ngrok - Mention ngrok as a way to direct traffic from internet to local IP
 
 
 # Linux Administration Labs
+
+## Who Am I
+
+```bash
+# returns username eg `ubuntu`
+whoami 
+```
+
+## What groups am I a member of?
+
+```bash
+groups <<username>>
+````
 
 ## Install
 
@@ -8314,7 +8328,29 @@ db.table01.find()
 db.table02.find()
 ```
 
+### Ubuntu Install Apache
 
+```bash
+# update
+sudo apt update -y
+sudo -E apt-get -qy -o "Dpkg::Options::=--force-confdef" -o "Dpkg::Options::=--force-confold" upgrade
+sudo -E apt-get -qy -o "Dpkg::Options::=--force-confdef" -o "Dpkg::Options::=--force-confold" dist-upgrade
+# install
+sudo apt-get install apache2 -y
+# go to web page at http://<IP> to view it!
+
+c
+usermod -a -G apache ec2-user
+chown -R ec2-user:apache /var/www
+chmod 2775 /var/www
+find /var/www -type d -exec chmod 2775 {} \;
+find /var/www -type f -exec chmod 0664 {} \;
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+touch /var/www/html/index.html
+
+echo "<html>hello world from phil</html>" > /var/www/html/index.html
+
+```
 
 ### AWS Ubuntu Build Kali
 
@@ -8578,6 +8614,28 @@ sudo nmap -sn 172.17.0.2
 sudo nmap -Pn 172.17.0.2
 # tcp syn scan
 sudo nmap -PS 172.17.0.2
+
+
+nmap -sV 
+# scan all ports
+nmap -p- 
+# scan first 400 ports
+nmap -p-400  
+# os and version *** use this one!
+nmap -A 
+# lots of info but not as much as A
+nmap -sC
+# verbose but not as good as A 
+nmap -v  
+# scan UDP (no response)
+nmap -sU
+# scan TCP SYN
+nmap -sS
+# don't resolve dns
+nmap -n 1.2.3.4
+
+
+
 ```
 
 

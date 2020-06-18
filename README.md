@@ -22,6 +22,7 @@ This is a repository of teaching notes and labs on a variety of topics
     - [API](#api)
     - [Vue](#vue)
     - [React](#react)
+    - [Python](#python)
   - [Infrastructure](#infrastructure)
     - [CompTIA A+](#comptia-a)
     - [CompTIA Network+](#comptia-network)
@@ -101,6 +102,8 @@ This is a repository of teaching notes and labs on a variety of topics
 ### [React](React)
 
 [React Starter Demo](https://github.com/philanderson888/gatsby-03) live at [https://www.philandersontraining.com](https://www.philandersontraining.com)
+
+### [Python](https://github.com/philanderson888/python)
 
 ## Infrastructure
 

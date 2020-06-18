@@ -22,7 +22,7 @@
     - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
     - [Set Password](#set-password)
-- [## Check version](#h2-idcheck-version-1395check-versionh2)
+    - [Check version](#check-version)
     - [dig](#dig)
     - [mtr](#mtr)
     - [ss (Netstat equivalent)](#ss-netstat-equivalent)
@@ -480,8 +480,11 @@
     - [AWS Linux Install Apache](#aws-linux-install-apache)
     - [AWS Linux Install Mongo](#aws-linux-install-mongo)
     - [AWS Build Ubuntu](#aws-build-ubuntu)
+    - [AWS Upgrade Ubuntu To Latest](#aws-upgrade-ubuntu-to-latest)
+    - [AWS Ubuntu via CLI](#aws-ubuntu-via-cli)
     - [Ubuntu Install Apache](#ubuntu-install-apache)
     - [Ubuntu Install NGINX](#ubuntu-install-nginx)
+    - [Ubuntu Install python](#ubuntu-install-python)
     - [Ubuntu install nmap (1 minute install)](#ubuntu-install-nmap-1-minute-install)
     - [Ubuntu Install Docker](#ubuntu-install-docker)
     - [Docker Install Metasploitable](#docker-install-metasploitable)
@@ -1341,7 +1344,7 @@ echo -e "kali\nkali" | sudo passwd ec2-user
 echo -e "kali\nkali" | sudo passwd kali
 ```
 
-# ## Check version
+### Check version
 
 ```
 cat /etc/os-release
@@ -8346,8 +8349,6 @@ ssh -i ~/.ssh/AWSLinuxKeyPair.pem ec2-user@34.242.114.92
 ```
 
 
-
-
 ### AWS Linux Install Apache
 
 Add in User Data secion of startup script
@@ -8435,6 +8436,36 @@ sudo apt dist-upgrade -y
 ```
 
 
+### AWS Upgrade Ubuntu To Latest
+
+```bash
+sudo apt update -y
+sudo -E apt-get -qy -o "Dpkg::Options::=--force-confdef" -o "Dpkg::Options::=--force-confold" upgrade
+# This should be silent but is not!
+sudo -E apt-get -qy -o "Dpkg::Options::=--force-confdef" -o "Dpkg::Options::=--force-confold" dist-upgrade
+# reboot
+sudo reboot
+# move from LTS to regular version
+sudo nano /etc/update-manager/release-upgrades
+# set Release=normal   (from LTS) to get latest version 
+sudo do-release-upgrade -d -f DistUpgradeViewNonInteractive
+sudo do-release-upgrade -f DistUpgradeViewNonInteractive
+# check version ie 20.10
+cat /etc/os-release 
+```
+
+
+
+### AWS Ubuntu via CLI
+
+Download run and install the `aws cli` installer
+
+```bash
+# check install
+aws --version
+
+```
+
 ### Ubuntu Install Apache
 
 ```bash
@@ -8472,7 +8503,17 @@ sudo systemctl stop apache2
 sudo systemctl start nginx
 ```
 
+### Ubuntu Install python
 
+```bash
+# install
+sudo apt install python
+# create and run
+touch HelloWorld.py
+nano HelloWorld.py     
+# print("Hello World")
+python HelloWorld.py
+```
 
 ### Ubuntu install nmap (1 minute install)
 

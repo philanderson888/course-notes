@@ -463,6 +463,67 @@ Exam
 
 
 
+### GitHub Pull Request
+
+
+
+lab-submissions
+
+
+
+​	master 
+
+​		dev
+
+​			presentation
+
+
+
+Tonight when you send me your presentation (on Teams) also on GitHub you can create a README and let me know you have completed this work.
+
+​	((Can attach presentation in GitHub))
+
+
+
+```powershell
+# show branches
+git branch
+
+# create dev and switch to it
+git checkout -b dev
+
+# push branch
+git push -u origin dev
+
+# push folder
+git add .
+git commit -m ..
+git push
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

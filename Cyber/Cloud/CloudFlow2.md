@@ -1,4 +1,20 @@
+# Wednesday Agenda
 
+
+
+
+
+# Thursday Agenda
+
+## Communication 2
+
+NLP Neuro Linguistic Programming 
+
+
+
+
+
+# Friday Agenda
 
 
 

@@ -325,7 +325,61 @@ Stages of SDLC
 
 ##### Problem with waterfall
 
-- larger projects 
+- larger projects requirements can change during lifetime of development
+- timescale between start and end 
+
+##### Agile solutions
+
+- Don't think long term but start simple and build out 
+- Build in 'iterations' from simple to complex
+
+
+
+![https://hangoutagile.com/wp-content/uploads/2018/09/Scrum.jpg](https://hangoutagile.com/wp-content/uploads/2018/09/Scrum.jpg)
+
+##### Scrum Methodology (part of agile)
+
+- Build in discrete stages 'sprints'
+- Sprint 0 - planning
+- Sprint 1 - first iteration - MVP Minimum Viable Product
+
+
+
+##### Each 'sprint' is an agreed, discrete portion of work
+
+- Sprint Planning Meeting  
+  - Analyse existing **project** backlog of 'requirements'
+  - Work with customer
+  - Agree first increment 
+  - Select for development items from backlog into development
+    - Create '**sprint**' backlog of requirements for this sprint
+      - Each item ==> ensure that 'definition of done' is clear
+- Daily Standup
+  - 3 questions
+    - What you did yesterday
+    - Plan for today
+    - Blockers
+- Sprint Review 
+  - Check items are 'done'
+  - Quality Assurance  (QA) 
+    - Automated Tests
+    - Static (manual) code tests / walkthrough 
+      - Peer review when colleague examines your code
+  - Invite customer to VIEW OUR WORK
+  - Demonstrate code 
+- Sprint Retrospective
+  - Internal review
+    - Internal practices - what can be improved!
+
+
+
+
+
+
+
+
+
+
 
 
 

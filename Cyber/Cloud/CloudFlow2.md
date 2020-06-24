@@ -373,11 +373,31 @@ Stages of SDLC
 
 
 
+![https://www.visual-paradigm.com/servlet/editor-content/scrum/what-are-scrum-ceremonies/sites/7/2018/11/the-agile-scrum-framework.png](https://www.visual-paradigm.com/servlet/editor-content/scrum/what-are-scrum-ceremonies/sites/7/2018/11/the-agile-scrum-framework.png)
+
+
+
+### Scrum Team Members
+
+- Customer  =  client   (not part of our team)
+- Product Owner
+  - Liaise with customer
+  - Manage 'backlog'
+- Dev team 3-9  ==> give timescale estimates
+- Scrum Master (servant helper / coordinator)
+  - Coordination meetings & timescales
 
 
 
 
 
+### Other Agile Methodologies
+
+Agile is any iterative process simple => complex
+
+- Kanban  24/7 always 'on' model
+
+  
 
 
 

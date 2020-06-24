@@ -1,6 +1,16 @@
 # Wednesday Agenda
 
+## Software Development Life Cycle
 
+## Interview Skills
+
+### Blank Master Sparta Profile & Example 
+
+## Elevator Pitch : 4pm 
+
+## Presentation Skills
+
+## Classroom etiquette 
 
 
 
@@ -10,11 +20,17 @@
 
 NLP Neuro Linguistic Programming 
 
+## Project Management 
 
+## Build-a-spaghetti-tower as engineers 
 
 
 
 # Friday Agenda
+
+## Delivery of presentations !!!
+
+## GDPR
 
 
 

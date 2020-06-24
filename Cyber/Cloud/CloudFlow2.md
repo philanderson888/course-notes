@@ -40,32 +40,50 @@ NLP Neuro Linguistic Programming
 
 # Project Management
 
-## Modern IT
+## Introduction and Random Thoughts From Class
+
+#### Modern IT
 
 Contrast with previous IT failures!
 
-
-
-
-
-
-
-
-
-# Software Development Life Cycle
+#### Software Development Life Cycle
 
 Key words
 
 Long Term Project
 
+Scope
+
+​	What we are / are not going to build!!!!
+
+​	Scope drift ==> requirements can change over time!
+
+​	Feature creep ==> lose clarity on management of what exactly we are building & features in it.
+
 Requirements - Backlog - 
 
-- Functional  
-- Non Functional  
+- Functional  -  what software DOES - does it FUNCTION?
+- Non Functional 
+  - Speed
+  - Efficiency
+  - Appearance
+  - UI/UX User Interface / User Experience 
 
 Sprint - short period of work with fixed focus and goal  
 
 Agile  
+
+​	Flexible
+
+​	Ongoing change OK
+
+​	Each step called an 'increment'  which is built in a 'sprint'
+
+Waterfall
+
+​	Fixed
+
+​	Short Term Projects
 
 Short Life Cycle
 
@@ -74,6 +92,8 @@ Short Life Cycle
 
 
 
+
+## Project Management
 
 
 

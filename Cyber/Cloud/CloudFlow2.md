@@ -38,6 +38,39 @@ NLP Neuro Linguistic Programming
 
 
 
+# Project Management
+
+## Modern IT
+
+Contrast with previous IT failures!
+
+
+
+
+
+
+
+
+
+# Software Development Life Cycle
+
+Key words
+
+Long Term Project
+
+Requirements - Backlog - 
+
+- Functional  
+- Non Functional  
+
+Sprint - short period of work with fixed focus and goal  
+
+Agile  
+
+Short Life Cycle
+
+ 'Retro' spective  =  review 
+
 
 
 

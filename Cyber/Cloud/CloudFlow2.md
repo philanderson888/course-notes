@@ -97,6 +97,73 @@ Short Life Cycle
 
 
 
+Project => specific body of work often with given start, middle, end and goal in mind
+
+BAU Business As Usual => Day to day work!
+
+Project ==> not business as usual.
+
+Often require specialist help
+
+​	Manage project
+
+​	Consultant skills 
+
+
+
+Manage 3 things
+
+​	TIME
+
+​	MONEY
+
+​	RESOURCES
+
+​		PEOPLE
+
+​		ASSETS
+
+​			FIXED - BUILDINGS
+
+​			COMPUTER SYSTEMS
+
+
+
+​	Use Gantt chart to help manage timescale aspect
+
+
+
+#### Feasibility Study
+
+Meet with client and discuss requirements
+
+Initial analysis of project
+
+Do we think it makes sense - 
+
+	- technically
+	- financially
+ - risk analysis
+   	- contingency
+
+
+
+#### Metholology
+
+Way of building software
+
+​	Waterfall
+
+​		V-Model
+
+​	Agile
+
+​		Scrum
+
+​		Kanban
+
+
+
 
 
 

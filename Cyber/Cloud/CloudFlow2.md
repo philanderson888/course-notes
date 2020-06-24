@@ -146,7 +146,7 @@ Do we think it makes sense -
  - risk analysis
    	- contingency
 
-
+##### 
 
 #### Metholology
 
@@ -164,6 +164,78 @@ Way of building software
 
 
 
+#### Waterfall and the 'Software Development Life Cycle (SDLC for short)'
+
+First IT Projects
+
+Initial analysis up front
+
+built
+
+release ==> too late!!!
+
+
+
+Stages of SDLC 
+
+##### Initial Analysis And Feasibility Study
+
+- Can we predict success of project?  
+- Any flags?
+- Risks to consider?
+- Financial basis?
+
+##### Architecture = High Level Design
+
+- Major thinking
+- Big decisions
+- Technical 'stack'
+  - Linux
+  - Windows
+  - AWS Cloud
+  - Databases?
+  - Legacy technology to consider
+    - Greenfield ==> no legacy
+    - Brownfield ==> consider legacy 
+
+
+
+##### Low Level Design of 'Detail'
+
+- Spec = specification
+  - Document give to developer or graphic designers or ..
+- Data / Database design 
+  - Relationships between tables 
+  - ID
+- GUI design (UI/UX)
+
+
+
+##### Build code
+
+
+
+##### Test code
+
+
+
+##### TDD => Test Driven Development
+
+​	Tests written in code beforehand
+
+​	Developers must write code so tests pass
+
+​	 Red - Green - Refactor        
+
+​			RED - WRITE TESTS AND THEY FAIL
+
+​		 	GREEN - CODE PASSES TESTS
+
+​			REFACTOR - EFFICIENT
+
+##### BDD => Behaviour Driven Development 
+
+​	
 
 
 
@@ -187,12 +259,11 @@ Way of building software
 
 
 
+# Random Terms
 
+White box test - tester gets to see full code
 
-
-
-
-
+Black box test - only get to see inputs and outputs
 
 
 

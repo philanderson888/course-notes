@@ -495,12 +495,26 @@ git checkout -b dev
 # push branch
 git push -u origin dev
 
-# push folder
+# push folder and README
 git add .
 git commit -m ..
 git push
 
+# pull request from DEV to MASTER (online)
 
+# status is MASTER = DEV
+
+# create branch presentation from dev
+git checkout dev
+git branch presentation
+git checkout presentation
+git push -u origin presentation
+
+# presentation is done - edit the file to say so 
+git status (red)
+git add/commit/push
+
+# alert trainer add trainer github id to settings
 
 ```
 

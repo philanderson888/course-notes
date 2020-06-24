@@ -197,6 +197,9 @@ Stages of SDLC
   - Legacy technology to consider
     - Greenfield ==> no legacy
     - Brownfield ==> consider legacy 
+- Output is
+  - List of requirements = backlog
+    - User Story => each item in backlog ==> write in form 'given..when...then..' ==> create these BDD tests
 
 
 
@@ -235,7 +238,15 @@ Stages of SDLC
 
 ##### BDD => Behaviour Driven Development 
 
-​	
+​	Backlog list ==> User Stories =>  'Given..When..Then'  => Write tests in 'Cucumber / Gherkin' format ==> create tests for us in code
+
+​	Epic ==== Project
+
+​		Feature ===  Major Component Of Project
+
+​			User Story === 'humanise' how feature will work and write in form of BDD ==> create test
+
+​				
 
 
 

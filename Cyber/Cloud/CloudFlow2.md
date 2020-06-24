@@ -403,6 +403,39 @@ Agile is any iterative process simple => complex
 
 
 
+# Interview Skills
+
+
+
+...own notes
+
+- S	SITUATION   SETTING THE SCENE
+- T     WHAT YOU HAD TO DO
+- A     WHAT YOU DID
+- R     RESULT - OUTCOME!
+
+
+
+
+
+
+
+# Presentation Skills
+
+...own notes
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

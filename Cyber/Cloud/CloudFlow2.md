@@ -148,7 +148,7 @@ Do we think it makes sense -
 
 ##### 
 
-#### Metholology
+#### Methodology
 
 Way of building software
 
@@ -247,6 +247,85 @@ Stages of SDLC
 ​			User Story === 'humanise' how feature will work and write in form of BDD ==> create test
 
 ​				
+
+##### Release / Deploy code into production
+
+3 environments
+
+- Dev
+  - Git branches
+    - Master
+      - Dev
+        - Feature
+- Staging ==> take 'Master' and put it ready to go live
+- Live
+
+
+
+##### Helpdesk Ongoing Support
+
+- 1st line - easy fixes eg password reset
+- 2nd line - tough fixes
+- 3rd line  - deep code fix / specialist help
+
+
+
+##### Documentation
+
+- User
+- Technical for support staff
+
+
+
+
+
+##### Uses for waterfall today
+
+- critical systems where either
+
+  - life
+
+  - large financial sums
+
+    .. are at stake
+
+  - Civil engineering - bridge, dam, power plant
+
+  - Military
+
+
+
+##### V-model
+
+- use this where extra testing is needed at all stages of design
+
+
+
+​         	Feasibility
+
+​				Requirements Gathering                            UAT User Acceptance Testing    (user tests for us)
+
+​					Analysis                                                 System Testing (as a whole)
+
+​						Design                                     Integration  (modules together)
+
+​							Build              
+
+​								Test             =>          Unit Testing (one module)
+
+
+
+![https://media.geeksforgeeks.org/wp-content/uploads/V-Model.png](https://media.geeksforgeeks.org/wp-content/uploads/V-Model.png)
+
+
+
+
+
+## Agile
+
+##### Problem with waterfall
+
+- larger projects 
 
 
 

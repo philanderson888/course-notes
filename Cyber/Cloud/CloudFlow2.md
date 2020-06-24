@@ -424,7 +424,21 @@ Agile is any iterative process simple => complex
 
 ...own notes
 
+Tips	
 
+- Confidence
+- 
+- Simple (KISS Keep It Simple, Stupid!!)
+
+
+
+Exam
+
+- CONFIDENCE
+- MANNER
+- A
+- D
+- E
 
 
 

@@ -403,42 +403,7 @@ Agile is any iterative process simple => complex
 
 
 
-# Interview Skills
-
-
-
-...own notes
-
-- S	SITUATION   SETTING THE SCENE
-- T     WHAT YOU HAD TO DO
-- A     WHAT YOU DID
-- R     RESULT - OUTCOME!
-
-
-
-
-
-
-
-# Presentation Skills
-
-...own notes
-
-Tips	
-
-- Confidence
-- 
-- Simple (KISS Keep It Simple, Stupid!!)
-
-
-
-Exam
-
-- CONFIDENCE
-- MANNER
-- A
-- D
-- E
+.
 
 
 
@@ -448,75 +413,11 @@ Exam
 
 
 
-## Overnight Challenge
-
-1. Presentation : send me draft
-2. Optional codewars : 1 item
-3. Optional Sparta Profile
-4. GitHub challenge 
 
 
 
 
 
-
-
-
-
-### GitHub Pull Request
-
-
-
-lab-submissions
-
-
-
-​	master 
-
-​		dev
-
-​			presentation
-
-
-
-Tonight when you send me your presentation (on Teams) also on GitHub you can create a README and let me know you have completed this work.
-
-​	((Can attach presentation in GitHub))
-
-
-
-```powershell
-# show branches
-git branch
-
-# create dev and switch to it
-git checkout -b dev
-
-# push branch
-git push -u origin dev
-
-# push folder and README
-git add .
-git commit -m ..
-git push
-
-# pull request from DEV to MASTER (online)
-
-# status is MASTER = DEV
-
-# create branch presentation from dev
-git checkout dev
-git branch presentation
-git checkout presentation
-git push -u origin presentation
-
-# presentation is done - edit the file to say so 
-git status (red)
-git add/commit/push
-
-# alert trainer add trainer github id to settings
-
-```
 
 
 

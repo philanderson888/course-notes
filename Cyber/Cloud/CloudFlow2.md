@@ -693,10 +693,162 @@ Black box test - only get to see inputs and outputs
 
 - Different Learning Styles
   - Read
+    - Official Documentation
   - Videos
   - Notes
   - Doing (code)
+    - Stack Overflow
   - Listen
+- Regular Review
+  - Random terms
+  - Mind maps
+  - Flash Card learning  (Quizlet / Proprofs)
+
+
+
+### Project Management
+
+- Project is specific with time frame
+
+- Projects manage 3 things
+
+  - Time
+  - Money
+  - Resource
+    - Asset 
+      - Fixed eg building, hardware
+      - Liquid asset = cash
+    - People
+
+- BAU Business As Usual
+
+- Triple Constraint 
+
+  - Time
+  - Money
+  - Quality
+    - QA Quality Assurance
+
+- Constraints
+
+  - Legal
+  - Cybersecurity
+  - Software 
+  - Hardware 
+  - Legacy (old)
+  - Time
+  - People skill
+
+  
+
+
+
+
+
+
+
+### SDLC Software Development Life Cycle
+
+
+
+Waterfall
+
+- Fixed and inflexible
+- Good for
+  - Small
+  - Repeatable (machinery / factory )
+  - Civil engineering  /  military
+
+- Single flow of work
+  - Feasibility
+  - Requirements
+  - Analysis
+    - Risk
+  - Design
+    - High
+      - Tech environment
+    - Low
+      - Detail
+        - UI/UX
+        - Code
+  - Build and Test
+  - Release / Deploy
+  - Support / Maintain / Helpdesk
+    - 1st easy
+    - 2nd tough
+    - 3rd specialist
+  - Document
+
+
+
+V-Model
+
+​	Extra testing
+
+- Unit testing
+- Integration test
+- System
+- UAT User Acceptance Test
+
+
+
+Testing
+
+- TDD Test Driven 
+  - tests in code  
+    - RED
+    - GREEN
+    - REFACTOR
+      - Efficient
+- BDD Behaviour Driven
+  - Epic
+    - Feature
+      - User Stories
+        - Given..When..Then      Gherkin / Cucumber 
+
+
+
+Agile
+
+- Build in iterative steps from simple to complex
+- Accepts change
+
+
+
+Scrum
+
+- Sprint 0
+  - Initial Planning
+  - MVP Minimum Viable Product
+
+- 4 Sprint Events
+  - Sprint Plan
+  - Daily
+    - Yesterday
+    - Today
+    - Blocker
+  - Review with client
+  - Retrospective internally
+- Scrum Artifacts
+  - Backlog
+    - List Of Requirements
+      - Product Backlog = all tasks
+      - Sprint Backlog = just this sprint
+  - Burndown chart of tasks left
+  - User Story
+    - Definition Of Done
+    - Acceptance Criteria
+- Team Members
+  - Scrum Master
+  - Product Owner
+  - Dev Team 3-9
+- Not Team Members
+  - Client
+  - Stakeholders
+    - Anyone with interest
+      - Competition
+    - Attitude
+      - 
 
 
 

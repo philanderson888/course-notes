@@ -530,3 +530,141 @@ Black box test - only get to see inputs and outputs
 ## Slides
 
 ## GDPR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Thursday Random Review
+
+### Behaviour
+
+- Analytical
+  - Critical Thinker
+    - Outside Box
+  - Efficient In Work - Smarter Not Harder
+  - Research
+    - Passion
+    - Efficient
+- Imaginative
+  - Open Minded
+  - New Ideas
+  - Open To Feedback 
+    - Negative Feedback
+    - Different Opinions
+    - Win-Win
+- Determined
+  - Positive Mind Set
+  - Endurance
+  - Resilience after setbacks
+  - Goal Oriented
+  - Self Tracking
+- Independent
+  - Disciplined
+  - Accountable
+  - Networking
+  - Self Starter
+  - Courageous
+    - Try new
+- Creative
+  - Open Minded
+  - New ideas
+  - Break through 'wall'
+- Professionalism
+  - Reliability
+  - Appearance
+
+
+
+### Time Management
+
+- Eisenhower
+
+  - 1 Urgent + Important              Necessity 
+
+  - 2 Important                                Quality 
+
+  - 3 Urgent Not Important          Deception
+
+  - 4                                                  Waste
+
+    
+
+- Pareto 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

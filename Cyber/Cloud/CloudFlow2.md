@@ -729,6 +729,13 @@ Black box test - only get to see inputs and outputs
   - Quality
     - QA Quality Assurance
 
+- POPIT Model
+
+  - IT at heart 
+    - People
+    - Processes
+    - Organisation (company)
+
 - Constraints
 
   - Legal
@@ -738,6 +745,12 @@ Black box test - only get to see inputs and outputs
   - Legacy (old)
   - Time
   - People skill
+
+- Proposal = Business 'Case'
+
+  - PESTLE  = influences Political Economic Social Tech Legal Environmental
+
+- 
 
   
 
@@ -812,6 +825,8 @@ Agile
 
 - Build in iterative steps from simple to complex
 - Accepts change
+- Silo
+  - People in teams but have expert knowledge.  In general, disperse these so knowledge goes cross-functional across all teams
 
 
 
@@ -822,6 +837,7 @@ Scrum
   - MVP Minimum Viable Product
 
 - 4 Sprint Events
+
   - Sprint Plan
   - Daily
     - Yesterday
@@ -829,7 +845,9 @@ Scrum
     - Blocker
   - Review with client
   - Retrospective internally
+
 - Scrum Artifacts
+
   - Backlog
     - List Of Requirements
       - Product Backlog = all tasks
@@ -838,17 +856,46 @@ Scrum
   - User Story
     - Definition Of Done
     - Acceptance Criteria
+
 - Team Members
+
   - Scrum Master
   - Product Owner
   - Dev Team 3-9
+
 - Not Team Members
+
   - Client
+
   - Stakeholders
-    - Anyone with interest
+
+    - Anyone with interest or affected
+
       - Competition
+
+      - Investor (financial stake)
+
+      - Manager
+
+      - Colleague
+
+      - Customers
+
+        
+
     - Attitude
-      - 
+
+      - Champion
+      - Supporter
+      - Neutral
+      - Critic
+      - Blocker
+
+  - Stakeholder Grid 
+
+
+
+
 
 
 

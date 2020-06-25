@@ -611,24 +611,92 @@ Black box test - only get to see inputs and outputs
 ### Time Management
 
 - Eisenhower
-
   - 1 Urgent + Important              Necessity 
-
   - 2 Important                                Quality 
-
   - 3 Urgent Not Important          Deception
-
   - 4                                                  Waste
-
-    
-
+- Work hard but have regular breaks
+  - Drink lots of liquid
 - Pareto 
+  - 20% of critical tasks cause 80% of growth and development
+- Time Box
+  - Help focus and pressure
+  - Pomadoro = Tomato Timer
+- Productivity
+  - Use best time of day where you focus and get maximum work done
+  - Workspace
+  - Get 'changed' every day and 'go to work'
+  - Plan night before or morning of your day, every working day
+- Calendar Management
+  - a) Tracking Time Spent ==> previous day
+  - b) Blocking out future time ==> productivity
+- Don't try and multi task too much.  Instead, focus on quality work with single tasks
 
 
 
+### Communication
+
+- Verbal   what you say         10%
+- Vocal     intonation              30%
+- Visual    body language      60%
 
 
 
+- Questions
+  - Open     tell me ...
+  - Closed    Y/N 
+
+
+
+- Barriers
+  - Language
+  - Cultural
+  - Different Personality Types
+    - Introvert
+    - Extrovert
+    - Analytical 
+    - Supporter
+    - Director
+  - Best teams made up from diverse mindset of people 
+
+
+
+- Listening
+  - Cosmetic      not interested
+  - Conversational     some interest
+  - Active
+  - Deep     
+
+
+
+- Rapport
+  - Remember the details
+  - Empathy
+  - Caring
+
+
+
+- 7 habits
+  - Win Win
+  - Proactive
+  - Sharpen Saw - ongoing training
+
+
+
+- Email
+  - Hi Phil, are you going out tonight?
+  - Hi Rich, as per your request I enclose the documents for you.  Thank you, Philip 
+
+
+
+### Lifelong Learning
+
+- Different Learning Styles
+  - Read
+  - Videos
+  - Notes
+  - Doing (code)
+  - Listen
 
 
 

@@ -471,7 +471,12 @@
     - [TryHackMe](#tryhackme)
       - [Getting Started](#getting-started)
       - [RDP  root Tryh4ckm3](#rdp-root-tryh4ckm3)
+      - [Complete Beginner Path](#complete-beginner-path)
+        - [Introductory Research](#introductory-research)
+          - [Steganography](#steganography)
+          - [Steghide](#steghide)
       - [BurpSuite](#burpsuite)
+        - [Burp Repeater](#burp-repeater)
       - [Vulnversity](#vulnversity)
   - [Cyber Labs on AWS](#cyber-labs-on-aws)
     - [AWS Linux Virtual Machine](#aws-linux-virtual-machine)
@@ -921,7 +926,7 @@
     - [DLP Data Loss Prevention](#dlp-data-loss-prevention)
       - [Data Exfiltration](#data-exfiltration)
         - [HTTP/S onedrive, google drive, dropbox](#https-onedrive-google-drive-dropbox)
-        - [Steganography](#steganography)
+        - [Steganography](#steganography-1)
         - [VLAN double-tagging](#vlan-double-tagging)
         - [File copy to USB etc](#file-copy-to-usb-etc)
         - [RAT Remote Access Trojan](#rat-remote-access-trojan)
@@ -8285,7 +8290,33 @@ https://tryhackme.com/my-machine
 
 #### RDP  root Tryh4ckm3
 
+#### Complete Beginner Path 
+
+##### Introductory Research
+
+###### Steganography
+
+https://0xrick.github.io/lists/stego/ 
+
+###### Steghide
+
+```bash
+# install
+sudo apt-get install steghide
+# does a file have embedded data
+steghide info file
+# extract embedded data from a file
+steghide extract -sf file
+
+```
+
+
+
 #### BurpSuite
+
+##### Burp Repeater
+
+Can be used to manually send HTTP and Websockets requests over and over again
 
 #### Vulnversity
 
@@ -14663,6 +14694,25 @@ Windows System
 
       32\CONFIG\SAM          LOCAL USERS    
       C:\WINDOWS\NTDS\NTDS.DIT       DOMAIN USERS
+
+  Windows 10 Passwords are stored as
+
+    [Jason, :, 502, :, aad3c435b514a4eeaad3b935b51304fe, :, c46b9e588fa0d112de6f59fd6d58eae3, :, :, :] 
+
+    Username : account type eg 502 = kerberos : LM hash : NT hash
+
+    Note : LM hash is only backwards compatible and not enabled on newer systems
+
+      Authentication types 
+        LM      uses ASCII character set
+        NTLM    uses UNICODE character set so much harder to brute force
+        NTLM2
+        Kerberos  
+
+      Implement NoLM Group Policy to prevent LM hashes being stored
+
+      Most password crackers crack the 
+
 
 Linux
 

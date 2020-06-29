@@ -17,6 +17,7 @@
     - [Kubernetes Quick Fire Terms And Definitions](#kubernetes-quick-fire-terms-and-definitions)
     - [Vagrant Quick-Fire Terms](#vagrant-quick-fire-terms)
   - [Azure Random Terms](#azure-random-terms)
+  - [Office 365 Random Notes](#office-365-random-notes)
 - [Cloud Overview](#cloud-overview)
   - [Introduction](#introduction)
   - [History](#history)
@@ -708,7 +709,95 @@ AWS CloudFormation is free on AWS
 AWS CloudFormation allows a text-based configuration of all your apps
 ```
 
+## Office 365 Random Notes
 
+```
+Multi-tenancy   Same codebase but data stored in different containers 
+EMS Enterprise Mobility 
+Azure AD 
+Intune 
+RMS 
+CapEx buys physical things once 
+OpEx annually 
+NewRelic  Server uptime monitoring 
+SCOM can monitor Windows, Linux, UNIX, Switches, Routers 
+SC Global Center Monitor 
+Availability Monitoring : tests one URL from one location 
+
+Private Cloud 
+	SAAS : Sharepoint, Exchange 
+	PAAS : SQL, .NET 
+	IAAS : Server, SCCM 
+ 
+Public Cloud 
+	SAAS : Office 365, Sharepoint Svc 
+	PAAS : Azure, SQL, AWS 
+	IAAS : Server, SCCM, EC2, Azure Rackspace, Google Compute 
+ 
+Hybrid Cloud : On Premise + Cloud 
+ 
+	Extra costs 
+		Management costs of two clouds 
+		Data transfer 
+		Integration 
+		Storage 
+		Platform 
+		Licence 
+		Personnel 
+ 
+Azure Fabric 
+ 
+Ports 
+  443 : ADFS 
+  587 : SMTP 
+  143/993 IMAP 
+  995 POP 
+ 
+ 
+
+Domains 
+	Manage.microsoft.com 
+	Microsoftonline-p.com 
+	Spynet2.microsoft.com 
+	Blob.core.windows.net 
+	c.microsoft.com 
+	C1.microsoft.com 
+	Googleapis.com
+	Livemeeting.com 
+	Microsoftonline.com 
+	Social.technet.microsoft.com 
+	Blogs.technet.com 
+	Go.microsoft.com 
+ 
+ 
+Azure 
+	Application Insights : App Stats & Issues 
+	Automation eg of deployment 
+	Batch : parallel HPC High Performance Computing workloads 
+	DocumentDB NoSQL  
+	ExpressRoute : High Speed Azure to Datacenter 
+	HDInsight : Hadoop manage big data 
+	Operational Insights : Machine data 
+	Redis cache 
+	StorSimple : hybrid cloud storage 
+	Traffic Manager : load balancer 
+ 
+Availability Set 
+	Ensures 2 machines inside this are hosted on different physical servers for redundancy sake 
+ 
+FC Fabric Controller 
+	Monitors compute instances and if fails, will move VM to another location 
+ 
+Identity 
+	Online only 
+	Sync with local AD 
+	ADFS Federated with other provider in charge 
+ 
+Admin roles 
+	Delegated to a 3rd party 
+	Full = Global admin 
+	Limited = same as password admin 
+```
 
 
 

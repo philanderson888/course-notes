@@ -41,10 +41,15 @@
     - [sort](#sort)
     - [Viewing Data](#viewing-data)
     - [Piping Data](#piping-data)
+    - [nano](#nano)
     - [top](#top)
     - [shasum checks hash](#shasum-checks-hash)
     - [diskutil](#diskutil)
     - [lspci lists pci information](#lspci-lists-pci-information)
+    - [scp Secure Copy Protection](#scp-secure-copy-protection)
+    - [fdisk](#fdisk)
+    - [nano](#nano-1)
+    - [netcat](#netcat)
     - [Linux Rescue Environment](#linux-rescue-environment)
     - [Apple Rescue Environment](#apple-rescue-environment)
     - [Networking](#networking-1)
@@ -569,6 +574,7 @@
 - [Reconnaisance](#reconnaisance)
   - [OSINT](#osint)
   - [Google Hacking / Dorking](#google-hacking--dorking)
+  - [Crawling](#crawling)
   - [Exploits](#exploits-1)
   - [Email harvesting](#email-harvesting)
   - [Social Media profiling](#social-media-profiling)
@@ -1571,6 +1577,11 @@ ls | head -3
 ls | head -3 | tail -1
 ```
 
+### nano
+
+https://linux.die.net/man/1/nano 
+
+
 ### top
 
 ```
@@ -1606,6 +1617,27 @@ sudo diskutil eraseDisk FAT32 RASPBIAN MBRFormat /dev/disk2
 
 lspci is a command on Unix-like operating systems that prints ("lists") detailed information about all PCI buses and devices in the system
 
+
+### scp Secure Copy Protection
+
+-r recursive copies entire directory
+
+### fdisk
+
+-l list partitions
+
+### nano
+
+-B create backup of file
+
+### netcat
+
+https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf
+
+```bash
+# listen on port 12345
+nc -l -p 12345
+```
 
 ### Linux Rescue Environment
 
@@ -6356,11 +6388,6 @@ LEAP MUTUALLY AUTHENTICATES WITH USERNAME AND PASSWORD HASH.
 LEAP : BECAUSE HASH-BASED IS INSECURE IF POOR PASSWORDS ARE USED AS HASHES CAN BE CRACKED EASILY FOR POOR PASSWORDS.
 EAP-MD5 AUTHENTICATES CLIENT ONLY
 PORT FORWARDING CAN ENABLE A COMPUTER TO BE OPEN TO RECEIVING CONNECTIONS FROM THE INTERNET
-NAC NETWORK ACCESS CONTROL LIKE NAP
-NAC like NAP
-Community cloud shared by several organisations
-SCP SECURE COPY IS OVER PORT 22 SSH
-FTP USES 20 (DATA) TCP,UDP AND 21 (ADMIN) TCP
 FTPS USES FTP OVER SSL USING 989 (DATA) TCP,UDP AND 990(ADMIN) OVER TCP
 IPSEC PORTS 500 UDP AND 4500 UDP
 WINS 137
@@ -6594,14 +6621,9 @@ RPO Back to backup point
 RTO Max Recovery time
 MTR Mean Time To Recover
 WAF Web Application Firewall : Deep packet inspection + Prevents SQL Injection 
-Signature based : Fixed
 Anomaly based : deviations can block
 Web Security Gateway : URL Filter, malware
 WAF Web Application Firewall : Deep packet inspection + SQL Injection + XSS prevention
-DNS 53 UDP TCP
-TFTP 69 UDP TCP
-SCP 22 SSH FILE TRANSFER
-COMMUNITY CLOUD SHARES PRIVATE CLOUD
 BPDU BRIDGE PROTOCOL DATA UNIT : SPOOF WHEN UNAUTHORISED USER CONNECTS TO PORT
 FLOOD GUARD AGAINST DOS EG AAA LOGIN ATTACK
 RADIUS DOES AAA
@@ -10233,6 +10255,9 @@ intitle:"index of" "passwords.yml"
 intitle:"index of " "*.passwords.txt"
 
 
+## Crawling
+
+Crawlers `scrape` websites and `index` their `keywords`
 
 
 ## Exploits 

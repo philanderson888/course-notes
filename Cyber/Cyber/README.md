@@ -294,6 +294,7 @@
 - [Repeat of above list](#repeat-of-above-list)
     - [Stuxnet : Countdown To ZeroDay Book](#stuxnet--countdown-to-zeroday-book)
 - [Cyber Glossary Handout](#cyber-glossary-handout)
+    - [Analysis Of network traffic](#analysis-of-network-traffic)
     - [Bastion Host](#bastion-host)
     - [Credential Stuffing](#credential-stuffing)
     - [Crimeware - General Tools](#crimeware---general-tools)
@@ -7534,6 +7535,22 @@ CVSS Common vulnerability scoring system - indicates how severe a vulnerability 
 
 # Cyber Glossary Handout
 
+### Analysis Of network traffic
+
+- traffic - type of traffic
+
+- protocol - packet headers
+
+- packet - payload
+
+- availability 
+
+- anomaly - IDS and IPS traffic flow - can generate false positives
+
+- behaviour - known patterns + TTP inferences about possible behaviour
+
+- heuristic - zero day 
+
 ### Bastion Host
 
 Any device which is connected to the internet
@@ -7619,7 +7636,7 @@ Checking out social media profiles
 
 ### syslog
 
-Linux logs
+Centralised Linux logs
 
 ### Sysvol
 

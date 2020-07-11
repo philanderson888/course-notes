@@ -301,12 +301,14 @@
     - [multihomed firewall](#multihomed-firewall)
     - [net user](#net-user)
     - [net groups](#net-groups)
+    - [os fingerprinting](#os-fingerprinting)
     - [service discovery](#service-discovery)
     - [shares](#shares)
     - [sharepoint](#sharepoint)
     - [smurf attack](#smurf-attack)
     - [Sysvol](#sysvol)
     - [Targeted Attack And Tools](#targeted-attack-and-tools)
+    - [vm sprawl](#vm-sprawl)
     - [wireshark](#wireshark-1)
     - [Targeted Spray](#targeted-spray)
     - [Wordscrape - go through whole intranet](#wordscrape---go-through-whole-intranet)
@@ -7559,6 +7561,10 @@ net groups domainadmins - info about domain admins etc
 
 net groups domaincontrollers /domain - information about groups in the domain
 
+### os fingerprinting
+
+Allow one to determine the operating system and version and from this determine which common vulnerabilities will exist
+
 ### service discovery
 
 nmap -PS (port scan) is TCP SYN scan which shows open ports and services running
@@ -7586,6 +7592,10 @@ evil jinks : phishing platform
 ### Targeted Attack And Tools
 
 With a specific target in mind
+
+### vm sprawl
+
+Large number of virtual machines are hard to manage and to keep track of, and it's easy to let the vulnerabilities stack up through unmanaged software and operating systems
 
 ### wireshark
 

@@ -301,11 +301,14 @@
     - [multihomed firewall](#multihomed-firewall)
     - [net user](#net-user)
     - [net groups](#net-groups)
+    - [nslookup](#nslookup)
     - [os fingerprinting](#os-fingerprinting)
     - [service discovery](#service-discovery)
     - [shares](#shares)
     - [sharepoint](#sharepoint)
     - [smurf attack](#smurf-attack)
+    - [social media profiling](#social-media-profiling)
+    - [syslog](#syslog)
     - [Sysvol](#sysvol)
     - [Targeted Attack And Tools](#targeted-attack-and-tools)
     - [vm sprawl](#vm-sprawl)
@@ -583,7 +586,7 @@
   - [Crawling](#crawling)
   - [Exploits](#exploits-1)
   - [Email harvesting](#email-harvesting)
-  - [Social Media profiling](#social-media-profiling)
+  - [Social Media profiling](#social-media-profiling-1)
   - [DNS harvesting](#dns-harvesting)
   - [Getting location from IP](#getting-location-from-ip)
   - [Domain Analysis](#domain-analysis)
@@ -7561,11 +7564,17 @@ net groups domainadmins - info about domain admins etc
 
 net groups domaincontrollers /domain - information about groups in the domain
 
+### nslookup
+
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup
+
 ### os fingerprinting
 
 Allow one to determine the operating system and version and from this determine which common vulnerabilities will exist
 
 ### service discovery
+
+discovering which ports are open and if they are protected by a firewall
 
 nmap -PS (port scan) is TCP SYN scan which shows open ports and services running
 
@@ -7580,6 +7589,14 @@ Sharepoint - can be used to glean information about the network
 ### smurf attack
 
 ICMP Ping sent to a broadcast address
+
+### social media profiling
+
+Checking out social media profiles
+
+### syslog
+
+Linux logs
 
 ### Sysvol
 
@@ -8391,7 +8408,11 @@ Can be used to manually send HTTP and Websockets requests over and over again
 
 https://tryhackme.com/room/vulnversity
 
-```
+```bash
+# service discovery - scan for open ports
+nmap 1.2.3.4
+nmap domain.com
+# scan version
 nmap -sV 
 # scan all ports
 nmap -p- 
@@ -10735,6 +10756,11 @@ Social Media footprint
               Works by a) PING b) ARP c) ND neighbour discovery 
     
               https://highon.coffee/blog/nmap-cheat-sheet/
+
+              nmap domain.com 
+
+              nmap -v domain.com   verbose
+
               
               -sL = List Scan = produces a list of computers (get IP, can do reverse DNS to get name)
 

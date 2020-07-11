@@ -316,6 +316,7 @@
     - [Targeted Attack And Tools](#targeted-attack-and-tools)
     - [trend analysis](#trend-analysis)
     - [vm sprawl](#vm-sprawl)
+    - [Wireless Analysis](#wireless-analysis)
     - [wireshark](#wireshark-1)
     - [Targeted Spray](#targeted-spray)
     - [Wordscrape - go through whole intranet](#wordscrape---go-through-whole-intranet)
@@ -829,7 +830,7 @@
       - [Wireshark](#wireshark-4)
       - [Netflow - visualise data](#netflow---visualise-data)
       - [EtherApe (Linux)](#etherape-linux)
-    - [Wireless Analysis](#wireless-analysis)
+    - [Wireless Analysis](#wireless-analysis-1)
       - [NetScout](#netscout-1)
       - [Also](#also)
       - [Beacon wifi packet](#beacon-wifi-packet)
@@ -7558,9 +7559,15 @@ Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
 
 ### Netflow
 
-Cisco export IP traffic stats
+Router traffic flow stats
 
 Has two or more interfaces eg facing LAN and internet
+
+Same `flow`
+  Source/Destination MAC
+  Source/Destination IP and Port
+  Protocol type
+  Router interface
 
 ### net user
 
@@ -7633,6 +7640,10 @@ Over time
 ### vm sprawl
 
 Large number of virtual machines are hard to manage and to keep track of, and it's easy to let the vulnerabilities stack up through unmanaged software and operating systems
+
+### Wireless Analysis
+
+Beacon and probe request frames only on wireless networks
 
 ### wireshark
 

@@ -294,6 +294,7 @@
 - [Repeat of above list](#repeat-of-above-list)
     - [Stuxnet : Countdown To ZeroDay Book](#stuxnet--countdown-to-zeroday-book)
 - [Cyber Glossary Handout](#cyber-glossary-handout)
+    - [802.1x](#8021x)
     - [Analysis Of network traffic](#analysis-of-network-traffic)
     - [Bastion Host](#bastion-host)
     - [Credential Stuffing](#credential-stuffing)
@@ -306,10 +307,12 @@
     - [nslookup](#nslookup)
     - [os fingerprinting](#os-fingerprinting)
     - [packet analysis](#packet-analysis)
+    - [penetration test steps](#penetration-test-steps)
     - [protocol analysis](#protocol-analysis)
     - [service discovery](#service-discovery)
     - [shares](#shares)
     - [sharepoint](#sharepoint)
+    - [sheep dip](#sheep-dip)
     - [sinkhole](#sinkhole)
     - [smurf attack](#smurf-attack)
     - [social media profiling](#social-media-profiling)
@@ -669,6 +672,7 @@
     - [Wordscrape](#wordscrape)
   - [Ransomware](#ransomware)
     - [Reveton - encrypts entire hard drive](#reveton---encrypts-entire-hard-drive)
+    - [penetration test steps](#penetration-test-steps-1)
   - [Offensive Penetration Testing And Exploits](#offensive-penetration-testing-and-exploits)
   - [PCI *DSS*](#pci-dss-1)
     - [Exploit Frameworks](#exploit-frameworks)
@@ -7536,6 +7540,12 @@ CVSS Common vulnerability scoring system - indicates how severe a vulnerability 
 
 # Cyber Glossary Handout
 
+### 802.1x
+
+- Supplicant - requests access to network
+- Authenticator - device through which supplicant is attempting to gain access
+- Authentication server - grants access
+
 ### Analysis Of network traffic
 
 - traffic - type of traffic
@@ -7614,6 +7624,16 @@ Allow one to determine the operating system and version and from this determine 
 
 Analyse the whole packet not just the headers
 
+### penetration test steps
+
+1. Scoping
+2. Reconnaissance
+3. Vulnerability Assessment
+4. Penetration Test
+5. Lateral Movement
+6. Artifact Collection/Destruction
+7. Reporting/Debriefing
+
 ### protocol analysis
 
 analyse the packet headers
@@ -7631,6 +7651,10 @@ Shares - provide useful information
 ### sharepoint
 
 Sharepoint - can be used to glean information about the network
+
+### sheep dip
+
+isolated computer for investigating malware
 
 ### sinkhole
 
@@ -11825,7 +11849,15 @@ Encrypts hard drive and blackmails people into paying around $200 Bitcoin to dec
 
 
 
+### penetration test steps
 
+1. Scoping
+2. Reconnaissance
+3. Vulnerability Assessment
+4. Penetration Test
+5. Lateral Movement
+6. Artifact Collection/Destruction
+7. Reporting/Debriefing
 
 
 

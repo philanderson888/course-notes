@@ -310,6 +310,7 @@
     - [service discovery](#service-discovery)
     - [shares](#shares)
     - [sharepoint](#sharepoint)
+    - [sinkhole](#sinkhole)
     - [smurf attack](#smurf-attack)
     - [social media profiling](#social-media-profiling)
     - [syslog](#syslog)
@@ -7545,7 +7546,10 @@ CVSS Common vulnerability scoring system - indicates how severe a vulnerability 
 
 - availability 
 
-- anomaly - IDS and IPS traffic flow - can generate false positives
+- anomaly
+  - IDS and IPS traffic flow
+  - unusual activity
+  - can generate false positives
 
 - behaviour - known patterns + TTP inferences about possible behaviour
 
@@ -7586,6 +7590,8 @@ Same `flow`
   Protocol type
   Router interface
 
+  - heuristic - zero day 
+
 ### net user
 
 net user /domain - info about users in the domain
@@ -7625,6 +7631,10 @@ Shares - provide useful information
 ### sharepoint
 
 Sharepoint - can be used to glean information about the network
+
+### sinkhole
+
+router which directs traffic to location for analysis
 
 ### smurf attack
 

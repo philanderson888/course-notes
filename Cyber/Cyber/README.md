@@ -293,15 +293,18 @@
   - [Cyber terms](#cyber-terms)
 - [Repeat of above list](#repeat-of-above-list)
     - [Stuxnet : Countdown To ZeroDay Book](#stuxnet--countdown-to-zeroday-book)
-- [Cyber Glossary](#cyber-glossary)
+- [Cyber Glossary Handout](#cyber-glossary-handout)
+    - [Bastion Host](#bastion-host)
     - [Credential Stuffing](#credential-stuffing)
     - [Crimeware - General Tools](#crimeware---general-tools)
     - [Dark Web](#dark-web)
+    - [multihomed firewall](#multihomed-firewall)
     - [net user](#net-user)
     - [net groups](#net-groups)
     - [service discovery](#service-discovery)
     - [shares](#shares)
     - [sharepoint](#sharepoint)
+    - [smurf attack](#smurf-attack)
     - [Sysvol](#sysvol)
     - [Targeted Attack And Tools](#targeted-attack-and-tools)
     - [wireshark](#wireshark-1)
@@ -7517,9 +7520,13 @@ CVSS Common vulnerability scoring system - indicates how severe a vulnerability 
 
 
 
-# Cyber Glossary
 
-Put Into Handouts
+
+# Cyber Glossary Handout
+
+### Bastion Host
+
+Any device which is connected to the internet
 
 ### Credential Stuffing
 
@@ -7537,6 +7544,10 @@ TOR + VPN
 .onion sites are on the dark web
 
 Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
+
+### multihomed firewall
+
+Has two or more interfaces eg facing LAN and internet
 
 ### net user
 
@@ -7559,6 +7570,10 @@ Shares - provide useful information
 ### sharepoint
 
 Sharepoint - can be used to glean information about the network
+
+### smurf attack
+
+ICMP Ping sent to a broadcast address
 
 ### Sysvol
 

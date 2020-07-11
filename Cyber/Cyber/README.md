@@ -304,6 +304,7 @@
     - [Netflow](#netflow)
     - [net user](#net-user)
     - [net groups](#net-groups)
+    - [network segmentation](#network-segmentation)
     - [nslookup](#nslookup)
     - [os fingerprinting](#os-fingerprinting)
     - [packet analysis](#packet-analysis)
@@ -317,6 +318,7 @@
     - [smurf attack](#smurf-attack)
     - [social media profiling](#social-media-profiling)
     - [syslog](#syslog)
+    - [system isolation](#system-isolation)
     - [Sysvol](#sysvol)
     - [Targeted Attack And Tools](#targeted-attack-and-tools)
     - [trend analysis](#trend-analysis)
@@ -7612,6 +7614,10 @@ net groups domainadmins - info about domain admins etc
 
 net groups domaincontrollers /domain - information about groups in the domain
 
+### network segmentation
+
+creates security zones which are separated by vlans and firewalls
+
 ### nslookup
 
 https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup
@@ -7671,6 +7677,10 @@ Checking out social media profiles
 ### syslog
 
 Centralised Linux logs
+
+### system isolation
+
+Isolation of a system with regards to the communication
 
 ### Sysvol
 

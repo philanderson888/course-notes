@@ -299,6 +299,7 @@
     - [Crimeware - General Tools](#crimeware---general-tools)
     - [Dark Web](#dark-web)
     - [multihomed firewall](#multihomed-firewall)
+    - [Netflow](#netflow)
     - [net user](#net-user)
     - [net groups](#net-groups)
     - [nslookup](#nslookup)
@@ -372,7 +373,7 @@
     - [NAPT = NAT](#napt--nat)
     - [NAXSI = nginX Anti XSS and SQL Injection](#naxsi--nginx-anti-xss-and-sql-injection)
     - [Nessus vulnerability scanner](#nessus-vulnerability-scanner)
-    - [Netflow](#netflow)
+    - [Netflow](#netflow-1)
     - [NetScout](#netscout)
     - [Nexpose vulnerability scan](#nexpose-vulnerability-scan)
     - [Nikto - web server vulnerability](#nikto---web-server-vulnerability)
@@ -795,7 +796,7 @@
     - [MTRG Multi Router Traffic Grapher](#mtrg-multi-router-traffic-grapher)
     - [MTRG as a (ongoing) service](#mtrg-as-a-ongoing-service)
     - [Cacti.net SNMP Monitoring](#cactinet-snmp-monitoring)
-    - [Netflow](#netflow-1)
+    - [Netflow](#netflow-2)
     - [Nagios.org](#nagiosorg)
     - [Log Review](#log-review)
     - [SIEM Security Info/Incident and Event Mgt](#siem-security-infoincident-and-event-mgt)
@@ -7554,6 +7555,10 @@ TOR + VPN
 Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
 
 ### multihomed firewall
+
+### Netflow
+
+Cisco export IP traffic stats
 
 Has two or more interfaces eg facing LAN and internet
 

@@ -303,6 +303,8 @@
     - [net groups](#net-groups)
     - [nslookup](#nslookup)
     - [os fingerprinting](#os-fingerprinting)
+    - [packet analysis](#packet-analysis)
+    - [protocol analysis](#protocol-analysis)
     - [service discovery](#service-discovery)
     - [shares](#shares)
     - [sharepoint](#sharepoint)
@@ -311,6 +313,7 @@
     - [syslog](#syslog)
     - [Sysvol](#sysvol)
     - [Targeted Attack And Tools](#targeted-attack-and-tools)
+    - [trend analysis](#trend-analysis)
     - [vm sprawl](#vm-sprawl)
     - [wireshark](#wireshark-1)
     - [Targeted Spray](#targeted-spray)
@@ -7572,6 +7575,14 @@ https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/
 
 Allow one to determine the operating system and version and from this determine which common vulnerabilities will exist
 
+### packet analysis
+
+Analyse the whole packet not just the headers
+
+### protocol analysis
+
+analyse the packet headers
+
 ### service discovery
 
 discovering which ports are open and if they are protected by a firewall
@@ -7609,6 +7620,10 @@ evil jinks : phishing platform
 ### Targeted Attack And Tools
 
 With a specific target in mind
+
+### trend analysis 
+
+Over time
 
 ### vm sprawl
 

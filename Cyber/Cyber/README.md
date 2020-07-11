@@ -296,16 +296,17 @@
 - [Cyber Glossary](#cyber-glossary)
     - [Credential Stuffing](#credential-stuffing)
     - [Crimeware - General Tools](#crimeware---general-tools)
+    - [Dark Web](#dark-web)
     - [net user](#net-user)
     - [net groups](#net-groups)
+    - [service discovery](#service-discovery)
     - [shares](#shares)
     - [sharepoint](#sharepoint)
+    - [Sysvol](#sysvol)
     - [Targeted Attack And Tools](#targeted-attack-and-tools)
     - [wireshark](#wireshark-1)
     - [Targeted Spray](#targeted-spray)
-    - [Sysvol](#sysvol)
     - [Wordscrape - go through whole intranet](#wordscrape---go-through-whole-intranet)
-    - [Dark Web](#dark-web)
     - [Aircrack-ng](#aircrack-ng)
     - [Beaconing : phoning home](#beaconing--phoning-home)
     - [Birthday Attack](#birthday-attack)
@@ -1210,6 +1211,7 @@ TRACERT
 PATHPING
 NETSTAT
 NSLOOKUP
+CentralOps.Net/Co => NSLOOKUP with details
 WIRESHARK
 SNMP : Simple Network Management Protocol
        Manage network of many devices : routers, switches, printers,servers.
@@ -7359,7 +7361,6 @@ CISO Chief Info Security Officer
 COBIT : Control Objectives for IT : security framework
 CSIRT Computer Security Incident Response Team
 CVE Common Vulnerabilities and Exposures
-DIG = NSLOOKUP
 Tasting = try domain to see if it gets hits
 Cybersquatting = buying someone else's domain name
 Hijacking = using someone else's domain name (or similar)
@@ -7529,6 +7530,14 @@ Credential stuffing is the technique of using compromised credentials
 
 Crimeware : scan internet for vulernabilities
 
+### Dark Web
+
+Alpha bay dark market
+TOR + VPN 
+.onion sites are on the dark web
+
+Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
+
 ### net user
 
 net user /domain - info about users in the domain
@@ -7539,6 +7548,10 @@ net groups domainadmins - info about domain admins etc
 
 net groups domaincontrollers /domain - information about groups in the domain
 
+### service discovery
+
+nmap -PS (port scan) is TCP SYN scan which shows open ports and services running
+
 ### shares
 
 Shares - provide useful information
@@ -7546,6 +7559,14 @@ Shares - provide useful information
 ### sharepoint
 
 Sharepoint - can be used to glean information about the network
+
+### Sysvol
+
+Sysvol : Copy all data from it eg scripts, users, usernames, hostnames, group policies, groups
+
+powershell empire
+
+evil jinks : phishing platform
 
 ### Targeted Attack And Tools
 
@@ -7557,23 +7578,8 @@ wireshark : used to glean hardware and hostnames
 
 ### Targeted Spray
 
-### Sysvol
-
-Sysvol : Copy all data from it eg scripts, users, usernames, hostnames, group policies, groups
-
-powershell empire
-
-evil jinks : phishing platform
-
 ### Wordscrape - go through whole intranet
 
-### Dark Web
-
-Alpha bay dark market
-TOR + VPN 
-.onion sites are on the dark web
-
-Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
 
 ### Aircrack-ng
 
@@ -10309,19 +10315,16 @@ https://www.exploit-db.com/
 
 ## DNS harvesting
 
-
        Try and obtain the DNS records from a server
+
+        https://centralops.net/co/  can give very detailed information
     
        Sysinternals => whois -v abc.com
 
-
-​       
 ​       Zone transfer
 ​       
 ​              NSLOOKUP SET TYPE=ANY ls-d abc.com      list all records
-
-
-​              
+ 
 ​       Zone transfer (Linux)
 ​       
 ​              dig axfr dns-server-1.domain.com thiscompany.com
@@ -10330,6 +10333,18 @@ https://www.exploit-db.com/
 ​                      IXFR = INCREMENTAL TRANSFER
 
 
+```bash
+# interactive
+nslookup
+set type=any
+google.com
+# list nameservers
+ls
+# show all settings
+set all
+# set domain
+set domain=google.com
+```
 ​              
 ​              
 ​              
@@ -10816,9 +10831,12 @@ zenmap host/port scan
        netstat Linux
        
        TCP SYN packets can be sent as part of service discovery
-       
-              SYN/ACK packet returned? Then port is open and service is available
-       
+
+        TCP SYN => SENT OUT
+
+          SYN/ACK packet returned? Then port is open and service is available
+          RST returned?  Device reachable but port closed and no service available
+
        tcpview in SysInternals : GUI alternative to netstat
        
        nmap 

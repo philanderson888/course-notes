@@ -41,13 +41,9 @@ This is a repository of teaching notes and labs on a variety of topics
 
 ## C#
 
+[C#](c-sharp)
+
 [C# Course Notes June 2019](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4.md)
-
-[C# Course Notes August 2019](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20August%202019%20845b4e4d8e47496ba7ac17f831b5b749.md)
-
-[C# Course Notes November 2019](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20November%202019%2014add714b7c341daa07cbc2244c5ca64.md)
-
-[C# Course Notes January 2020](personal%20course%20notes%20ce8869345b0a4c8a8395bbfd455b00e2/C%20Course%20Notes%20January%202020%20d50471904dd146018aba699bef6ad451.md)
 
 ## Web
 

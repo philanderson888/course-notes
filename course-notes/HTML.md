@@ -2,19 +2,6 @@
 
 ### Internet Introduction
 
-How The Web Works - Basic Networking
-
-http request
-
-http response
-
-Speed up process
-
-```
-1. Servers nearby
-2. Reduce number of trips
-3. Reduce file of size
-```
 
 History of the internet
 

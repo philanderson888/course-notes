@@ -128,9 +128,6 @@ Split
 a.CompareTo(b)
 Compare(a,b,comparisonType)
 CultureInfo german = CultureInfo.GetCultureInfo("de-DE")
-Encoding.ASCII/UTF8/Unicode
-Encoding.Unicode is default encoding for .NET
-Encoding.UTF8 is default encoding for streaming
 Timespan : 100ns
 Timespan(ticks)
 dt.Add(timespan)

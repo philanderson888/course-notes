@@ -1,70 +1,8 @@
 # HTML
-
-### Internet Introduction
-
-
-History of the internet
-
-```
-ARPANET 1969 controlled by military; built and used by universities
-
-    https://www.vox.com/a/internet-maps
-
-1984 ARPANET becomes the INTERNET
-
-    TCP/IP was new standard on 1 Jan 1983
-
-1986 NFSNET first backbone
-
-    Global speeds per country http://www.speedtest.net/global-index
-
-First web page
-
-    http://info.cern.ch/hypertext/WWW/TheProject.html
-
-1995/1996 CSS and Javascript introduced
-
-    Different web browsers
-
-    Different screen sizes
-
-Brief history of networking video
-
-    https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29
-
-Internet video basics
-
-    https://www.youtube.com/watch?v=AEaKrq3SpW8&index=30&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo
-
-HTML Internet basics
-
-    https://www.youtube.com/watch?v=guvsH5OFizE&index=31&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo
-```
-
-### IDE Environments
-
-Visual Studio
-
-Visual Studio Code
-
-Keyboard Shortcuts
-
-Go to end of line is Command right / left arrow
-Also Option up/down
-Move one word is Option + right/left arrow
-Move windows is Controle + right/left arrow
-View all open windows at once is Control + Up/Down
-Command up/down goes to top/bottom of file
-Command left/right moves to start and end of line
-Option up/down moves up or down one line, but goes also to the start/end of the line
+x
 
 
-Live Coding Environments
 
-```
-<http://jsbin.com>   with live code updates to see the effect of code dynamically as you type, without having to 'save' your code
-<https://plnkr.co/edit/?p=preview>
-```
 
 # HTML super summary
 

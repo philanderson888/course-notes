@@ -8,7 +8,7 @@ History of the internet
 ```
 ARPANET 1969 controlled by military; built and used by universities
 
-    vox.com/a/internet-maps
+    https://www.vox.com/a/internet-maps
 
 1984 ARPANET becomes the INTERNET
 
@@ -16,23 +16,11 @@ ARPANET 1969 controlled by military; built and used by universities
 
 1986 NFSNET first backbone
 
-    Global speeds per country <http://www.speedtest.net/global-index/>
-
-Censorship
-
-    <https://cdn0.vox-cdn.com/assets/4464815/world_censorship.png>
-
-Social Media Control
-
-    <https://cdn1.vox-cdn.com/assets/4464847/socialmediamap.jpg>
-
-Twitter : how the world wakes up
-
-    <https://cdn2.vox-cdn.com/assets/4413993/2014-05-06_09_44_53.gif>
+    Global speeds per country http://www.speedtest.net/global-index
 
 First web page
 
-    <http://info.cern.ch/hypertext/WWW/TheProject.html>
+    http://info.cern.ch/hypertext/WWW/TheProject.html
 
 1995/1996 CSS and Javascript introduced
 
@@ -42,15 +30,15 @@ First web page
 
 Brief history of networking video
 
-    <https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29>
+    https://www.youtube.com/watch?v=3QhU9jd03a0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=29
 
 Internet video basics
 
-    <https://www.youtube.com/watch?v=AEaKrq3SpW8&index=30&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo>
+    https://www.youtube.com/watch?v=AEaKrq3SpW8&index=30&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo
 
 HTML Internet basics
 
-    <https://www.youtube.com/watch?v=guvsH5OFizE&index=31&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo>
+    https://www.youtube.com/watch?v=guvsH5OFizE&index=31&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo
 ```
 
 ### IDE Environments
@@ -59,9 +47,8 @@ Visual Studio
 
 Visual Studio Code
 
-View, Command Palette, type in 'install extensions' and select
-In the extensions marketplace box type 'angular' and select appropriate Angular and TypeScript extensions
-Visual Studio Code - Keyboard Shortcuts
+Keyboard Shortcuts
+
 Go to end of line is Command right / left arrow
 Also Option up/down
 Move one word is Option + right/left arrow
@@ -70,14 +57,14 @@ View all open windows at once is Control + Up/Down
 Command up/down goes to top/bottom of file
 Command left/right moves to start and end of line
 Option up/down moves up or down one line, but goes also to the start/end of the line
+
+
 Live Coding Environments
 
 ```
 <http://jsbin.com>   with live code updates to see the effect of code dynamically as you type, without having to 'save' your code
 <https://plnkr.co/edit/?p=preview>
 ```
-
-Atom by Github(live online collaboration in coding)
 
 # HTML super summary
 

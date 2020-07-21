@@ -18,7 +18,6 @@ This is a repository of teaching notes and labs on a variety of topics
     - [Javascript](#javascript)
     - [jQuery](#jquery)
     - [AJAX](#ajax)
-    - [API](#api)
     - [Vue](#vue)
     - [React](#react)
     - [Python](#python)
@@ -81,10 +80,6 @@ This is a repository of teaching notes and labs on a variety of topics
 [AJAX Code Demos](https://github.com/philanderson888/ajax)
 
 [AJAX Notes](course-notes/AJAX%20fc1de5023c514b708ce4553008d6ff91.md)
-
-### API
-
-[REST API](course-notes/REST%20API%204ddf81774155465d997176e5eef689f4.md)
 
 ### Vue
 

@@ -90,7 +90,6 @@ flex-pack:justify, start, end, center
 flex-direction:row,column,reverse
 flex-order
 grid-columns/rows
-1fr
 grid-template
 grid-position
 column-count
@@ -104,47 +103,15 @@ transition
 animation
 @keyframes
 canvas : context
-CSS overflow
 CSS gradient : linear, radial, repeating
-display:grid
-display:flex
-manifest file
 position:fixed(to page), absolute (to first non-static), relative(to nearest non-static), static
 manifest : name, publisher, prerequisites, language, logo, start page
 permission : full trust or execution only
 appcache : cache (always), network (never), fallback(display if a certain folder goes offline and the app tries to access it)
 capture boolean : camera/mic/video/doc
 navigator.getUserMedia
-flex-wrap
-flex-pack : alignment : start,end,center, justify
 navigator.getUserMedia
 display:flexbox / inline-flexbox
-flex-wrap
-flex-pack : alignment : start, end, center, justify
-flex-direction: row, column, row/column-reverse
-flex-order
-display:grid/inline-grid
-grid-colums/rows
-fr=fraction 1fr 2fr 
-grid-template
-grid-position
-column-count
-column-gap
-column-rule
-Exclusions : wrap-flow:both,clear,shape-inside,shape-outside
-border-radius
-box-shadow:h/v-shadow,blur,spread,colour, inset
-colour stop
-canvas : context
-moveTo,lineTo,stroke
-<section>
-  <article>
-              <aside>
-
-<video  width="200px"  height="200px" autoplay  controls  muted  ><   src="play.mp4"> 
-<audio 
-codec
-resolution
 em
 pc
 fr

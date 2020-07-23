@@ -3,40 +3,6 @@
 [https://developer.mozilla.org/en-US/docs/Web/Demos_of_open_web_technologies](https://developer.mozilla.org/en-US/docs/Web/Demos_of_open_web_technologies)
 
 
-      
-```
-number min= max=
-
-range min= max=
-
-required
-
-placeholder
-
-autocomplete
-
-    browser will predict
-    WORKS WITH text/search/email/tel/password/datepicker/range/color
-```
-
-anchor
-<a href="#"> reloads page
-
-```
-NOTE : TO PERFORM JAVASCRIPT BUT NOT LET THE HYPERLINK CAUSE A PAGE RELOAD
-            YOU CAN ADD THE FOLLOWING
-            
-            <a href="Javascript:void(0)" onClick="alert('hi');">
-
-target 
-
-    target="_self"      open in same window (default)
-    
-    target="_blank"      open in new window
-```
-
-HTML ELEMENTS
-
 ```
 abbr
     
@@ -114,63 +80,4 @@ table text-align left/right/center/justify
 table thead tbody tfoot can be styled by CSS eg <thead><tr><th>Month</th><th>Savings</th> </tr></thead>
 table vertical-align sets the heght of text in the box eg top/middle/bottom
 
-# HTML flow 2
 
-HTML OVERVIEW
-<H1> TEXT HERE</H1>
-<PRE>
-IMG
-SRC= ALT= WIDTH= HEIGHT=
-TITLE = APPEAR OVER IMAGE WHEN USER HOVERS
-
-```
-Lowsrc = low res version of an image
-                    
-                    
-    
-A   HREF=
-    TARGET =_SELF    (DEFAULT) 
-        _BLANK   OPENS LINK IN NEW WINDOW/TAB
-            PARENT/TOP   DON'T USE  (RELATED TO FRAMES)
-            
-            <a href="Javascript:void(0)" onClick="alert('hi');">
-FORM
-    METHOD  GET/POST
-        GET = SEND DATA USING .. URL
-            <http://remotesite/page.htm?id=4&name=bob&>..
-                QUERYSTRING
-        POST  :   DATA SENT PART OF MESSAGE BODY
-         
-    ACTION = "URL-TO-SEND-DATA-TO"
-    NAME = myForm
-            document.myForm.submit()
-TEXTAREA
-    ROWS=3  COLS=50
-    
-SELECT     DROPDOWN
-    <SELECT NAME="this_item"
-    MULTIPLE        SELECT MULTIPLE ITEMS
-    <OPTION VALUE="X"    SELECTED  >Option Here</Option>
-        Value data get submitted with form
-BLOCK LEVEL VS INLINE
-```
-
-## HTML Forms
-
-Forms
-Password minlength
-
-Radio
-Input type =Radio
-Name (of group)group ="gender"
-Value (of option)option = "red" (this is sent on click)click
-
-Checkbox
-Input name ="dog" (if submitted shows dog=on)
-
-Select name="groupname"
-Option value = "optionvalue" > optionvalue </option>
-
-Option
-
-[philanderson888/showcase](https://github.com/philanderson888/showcase)

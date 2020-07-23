@@ -55,7 +55,7 @@ This is a repository of teaching notes and labs on a variety of topics
 
 ### HTML
 
-[HTML](course-notes/HTML.md)
+[HTML](web\html.md)
 
 ### CSS
 

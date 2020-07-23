@@ -2,37 +2,7 @@
 
 # HTML super summary
 
-```
-       
-
-DISPLAY
-
-    H1..6
-    
-    <<NOTE : ALL SPACES TREATED AS ONE SPACE>>
-    
-        <PRE>   KEEPS ALL SPACES EXACTLY</PRE>
-        
-        
-    STRONG
-    
-    EM          ITALIC
-    
-    B           BOLD
-    
-    I           ITALIC
-    
-    
-    UL
-    
-    OL
-    
-        LI
-        
-    IMG SRC= WIDTH= HEIGHT= ALT=
-    
-        TITLE=          APPEARS IN TEXT WHEN USER HOVERS OVER IMAGE
-        
+```        
     A HREF= 
     
         TARGET=         _SELF   open in same window (default)

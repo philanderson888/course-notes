@@ -1,26 +1,9 @@
 # HTML
-x
-
-
-
 
 # HTML super summary
 
 ```
-<!DOCTYPE HTML PUBLIC ... 4 ... 
-
-        STRICT      ==> NO DEPRECATED ELEMENTS
-
-HEAD
-
-BODY
-
-ELEMENT
-
-    ATTRIBUTE 
-    
-        VALUE
-        
+       
 
 DISPLAY
 

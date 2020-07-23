@@ -1006,19 +1006,19 @@ sentence02 = string.Join(" ", words);
 Console.WriteLine(sentence02);
 ```
 
-[Integers](C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4/Integers%20bfc83cf4d05d413cbe0f9f8856e2cd98.md)
+[Integers](c-sharp-course-notes/Integers%20bfc83cf4d05d413cbe0f9f8856e2cd98.md)
 
-[Decimals (Float, Double, Decimal)](C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4/Decimals%20Float%20Double%20Decimal%20a3c92aa083224d47a3358fe23574dbf4.md)
+[Decimals (Float, Double, Decimal)](c-sharp-course-notes/Decimals%20Float%20Double%20Decimal%20a3c92aa083224d47a3358fe23574dbf4.md)
 
-[Null](C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4/Null%209374309dc07e4aeeb219fced78362e70.md)
+[Null](c-sharp-course-notes/Null%209374309dc07e4aeeb219fced78362e70.md)
 
-[Dates And Times](C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4/Dates%20And%20Times%20f6692916c6424b998abe2904f9decba9.md)
+[Dates And Times](c-sharp-course-notes/Dates%20And%20Times%20f6692916c6424b998abe2904f9decba9.md)
 
-[Byte](C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4/Byte%207f37f0ee719046b9a4f19ea2fa04ba3b.md)
+[Byte](c-sharp-course-notes/Byte%207f37f0ee719046b9a4f19ea2fa04ba3b.md)
 
-[Tuple](C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4/Tuple%20c57061f39801420f94ea0fbf7de172b7.md)
+[Tuple](c-sharp-course-notes/Tuple%20c57061f39801420f94ea0fbf7de172b7.md)
 
-[Null Check](C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4/Null%20Check%20532f7ae4ebbe44dbb804c50d1bc58420.md)
+[Null Check](c-sharp-course-notes/Null%20Check%20532f7ae4ebbe44dbb804c50d1bc58420.md)
 
 # Loops
 
@@ -6414,10 +6414,10 @@ All of the technical questions that I think you might get asked.
 
 40 questions C# - much harder - may not be appropriate for today's prep as might be too much [https://www.proprofs.com/quiz-school/story.php?title=software-fundamentals-1](https://www.proprofs.com/quiz-school/story.php?title=software-fundamentals-1) 
 
-[Interview Quiz Question Text ](C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4/Interview%20Quiz%20Question%20Text%2037eddb9655d1415bb49160a79eeee8fa.md)
+[Interview Quiz Question Text ](c-sharp-course-notes/Interview%20Quiz%20Question%20Text%2037eddb9655d1415bb49160a79eeee8fa.md)
 
 Things to add : HTML image, headings, paragraph, small table, ordered list, unordered list, See if you can add some CSS styling with colour on some of the items.  Finally can you add a Javascript 'alert' box just to get going on Javascript? 
 
 Create a new ASP Web Application which has got the Home, About and Contact pages.  See if you can develop this site by adding HTML content to the page.  
 
-[Technical Interview Prep](C%20Course%20Notes%20June%202019%200fe5801fa8bf4c86923048bcf3ea85f4/Technical%20Interview%20Prep%202bbaa4d9da3f4c40bdcbb8c56f9d32cb.md)
+[Technical Interview Prep](c-sharp-course-notes/Technical%20Interview%20Prep%202bbaa4d9da3f4c40bdcbb8c56f9d32cb.md)

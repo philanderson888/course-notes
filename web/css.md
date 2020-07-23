@@ -246,35 +246,6 @@ TEXT-TRANSFORM
 
 
 
-## Sizing
-
-```csharp
-px
-%
-cm
-mm
-in
-pt   1/72 inch
-pc   1/12 inch
-
-em		the letter 'm' 
-		
-		Parent  2em
-			Child 2em
-				RESULT = > 4EM
-rem		Root  'em'  
-			ALWAYS REFERS TO THE ROOT VALUE IE 2em
-
-ch		width of number 0
-inherit;	from parent
-vw		viewport : 1% of viewport width
-vh		viewport : 1% of viewport height
-vmin		lesser of vh and vw
-
-ex   height of lowercase x
-	
-calc(maths_goes_in_here)   can calculate a value at runtime
-
 
 	
 ```

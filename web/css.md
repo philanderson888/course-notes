@@ -164,27 +164,9 @@ complement($color)
 
 
 
-# CSS
 
-## Colours
 
-```csharp
-color:red
-color:transparent
-color:#ff0000 RED
-     :#00ff00 GREEN
-	   :#0000FF BLUE
-	   :#000000 BLACK
-	   :#FFFFFF WHITE
-COLOR:RGB(255,0,0)  RED
-COLOR:RGBA(255,0,0,0.5)   ALPHA = OPACITY   1=OPAQUE 0=TRANSPARENT
-	USE WITH FALLBACK AND DO THE PRIMITIVE ONES FIRST
-COLOR:HSL(240,100%,50%)
-COLOR:HSLA(240,100%,50%,0,5)
-	
-	
-	
-```
+
 
 ## Font
 
@@ -260,6 +242,10 @@ TEXT-TRANSFORM
 	LOWERCASE
 ```
 
+
+
+
+
 ## Sizing
 
 ```csharp
@@ -288,6 +274,7 @@ vmin		lesser of vh and vw
 ex   height of lowercase x
 	
 calc(maths_goes_in_here)   can calculate a value at runtime
+
 
 	
 ```

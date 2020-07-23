@@ -181,46 +181,13 @@ CSS GET AND SET BY JAVASCRIPT CLASSNAME
 
 
 
-```
-FLOAT:LEFT
 
-OVERFLOW
 
-BOX-SIZING
-	CONTENT-BOX			DEFAULT IE WIDTH IS CONTENT ONLY
-	BORDER-BOX			WIDTH IS UP TO BORDER, ONLY MARGIN IS NOT INCLUDED
-	
-	
-BACKGROUND-IMAGE:URL('')
 
-BACKGROUND-REPEAT
-	REPEAT
-	REPEAT-X 
-	REPEAT-Y 
-	
-	
-BACKGROUND-ATTACHMENT:SCROLL (WITH PAGE) OR FIXED(STAYS IN PLACE AS PAGE
-		SCROLLS DOWN)
-		
-		
-		
-BACKGROUND : SHORTHAND WAY OF WRITING ALL OTHER PROPERTIES
 
-	BACKGROUND : TRANSPARENT REPEAT-X URL('ABC.JPG');
+###
 
-```
 
-# CSS SUMMARY
-
-```
-CSS
-
-	H1			TAG
-	
-	.CLASS
-	
-	#ID
-	
 	P.YELLOW		PARAGRAPH AND CLASS YELLOW
 	
 	#ID:HOVER
@@ -268,18 +235,13 @@ CSS RULES APPLIED
 		
 		
 
-CSS
-	INTERNAL
-		<link href="" rel="stylesheet" media="screen/print">
-	EXTERNAL
-	INLINE
-	
-		
-<<< VISUAL STUDIO DEBUG LAB >>
-
-F12 DEMO
 
 ```
+
+
+
+
+
 
 # CSS OVERVIEW
 
@@ -337,63 +299,27 @@ CSS RULES APPLIED
 
 ```
 
-FONT
-font-family:FancyWebFont,Arial,Verdana //takes first one
-// that browser
-// has loaded
-font-size:15px
-font-style:italic;
-font-weight:bold/normal/100 up to 900
-@font-face	// install from web source
 
-```
-COLOR
-	#<RED><GREEN><BLUE>
-	#FF0000   RED
-	red;
-	rgb(255,0,0)
-	rgba(255,0,0,0.5)
-				a is opacity    0 HIDDEN (TRANSPARENT)
-						1 OPAQUE
-TEXT STYLES
-	letter-spacing
-	line-height;
-	text-align: left/right/justify/center
-	
-	text-decoration:underline/line-through
-	text-transform:uppercase/lowercase/capitalize(first letter)
 
-DISPLAY:NONE			REMOVED FROM PAGE COMPLETELY
-				(TAKES UP NO SPACE)
-VISIBILITY:HIDDEN		THERE BUT INVISIBLE
-BLOCK
-	TAKES UP FULL SPACE ON ONE LINE
-	DIV
-	P
-	H1..6
-		
-INLINE
-	
-	SPAN		FOR INLINE ELEMENTS
-BACKGROUND-IMAGE:URL('ABC.GIF')
-	BACKGROUND-REPEAT:
-			REPEAT-X
-			REPEAT-Y
-			REPEAT
-BACKGROUND : 
 
-```
 
-CSS BOX MODEL
-STANDARD MODEL
-WIDTH IS CONTENT ONLY
-BOX-SIZING: CONTENT-BOX
 
-```
-ALTERNATIVE  BOX-SIZING : BORDER-BOX	
-	WIDTH IS   CONTENT + PADDING + BORDER
 
-```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 USER INTERFACES (MODULE 10)
 'ADAPTIVE UI'

@@ -3,40 +3,9 @@
 # HTML super summary
 
 ```        
-    A HREF= 
-    
-        TARGET=         _SELF   open in same window (default)
-                        _BLANK  open in new window
-                        _PARENT don't use (frameset parent)
-                        _TOP    don't use (fill topmost frame)
+                 
                         
-            NOTE : TO PERFORM JAVASCRIPT BUT NOT LET THE HYPERLINK CAUSE A PAGE RELOAD YOU CAN ADD THE FOLLOWING
-            
-            <a href="Javascript:void(0)" onClick="alert('hi');">
-                        
-                        
-    FORM
-        ACTION
-        METHOD          GET POST
-        
-        INPUT   
-            TEXT
-            PASSWORD
-            HIDDEN
-            CHECKBOX
-            RADIO
-            RESET
-            SUBMIT
-            IMAGE
-            BUTTON
-            FILE
-            DATE
-            MONTH
-            WEEK
-            
-        TEXTAREA
-            ROWS
-            COLS
+
             
         SELECT
             MULTIPLE : CAN SELECT MORE THAN ONE ITEM

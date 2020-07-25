@@ -637,14 +637,13 @@
       - [Bugtraq - detailed analysis of vulnerability disclosures](#bugtraq---detailed-analysis-of-vulnerability-disclosures)
     - [Vulnerability Access](#vulnerability-access)
     - [Scan types](#scan-types)
-      - [DISCOVERY SCAN : of network](#discovery-scan--of-network)
-      - [ASSESSMENT SCAN : of vulnerabilities](#assessment-scan--of-vulnerabilities)
-      - [Scan Scope Define IP and port ranges](#scan-scope-define-ip-and-port-ranges)
-      - [Scan authorisation Can configure scan to obtain credentials which are not revealed to the scan operator](#scan-authorisation-can-configure-scan-to-obtain-credentials-which-are-not-revealed-to-the-scan-operator)
-        - [credentialed non-credentialed](#credentialed-non-credentialed)
+      - [DISCOVERY SCAN](#discovery-scan)
+      - [ASSESSMENT SCAN](#assessment-scan)
+      - [Scope](#scope)
+      - [credentialed scan](#credentialed-scan)
+      - [non-credentialed scan](#non-credentialed-scan)
       - [Scan scheduling](#scan-scheduling)
-    - [Scan reports](#scan-reports)
-    - [Non-Intrusive and Intrusive Scanning](#non-intrusive-and-intrusive-scanning)
+      - [Reporting](#reporting)
       - [Non-intrusive scanning](#non-intrusive-scanning)
       - [Intrusive = invasive scanning](#intrusive--invasive-scanning)
 - [Attacking](#attacking)
@@ -704,7 +703,7 @@
     - [Quantitative risk](#quantitative-risk)
     - [Qualitative](#qualitative)
 - [Module 2 : Vulnerability Management](#module-2--vulnerability-management)
-  - [Steps](#steps)
+  - [Vulnerability Management Steps](#vulnerability-management-steps)
     - [Regulatory environments](#regulatory-environments)
     - [Assets : DEFINE WHAT YOU HAVE TO PROTECT!!!](#assets--define-what-you-have-to-protect)
     - [Identify CRITICAL SYSTEMS](#identify-critical-systems)
@@ -11486,22 +11485,28 @@ Vulnerability results store securely
 
 ### Scan types
 
-#### DISCOVERY SCAN : of network
+#### DISCOVERY SCAN 
 
-#### ASSESSMENT SCAN : of vulnerabilities
+of network
 
+#### ASSESSMENT SCAN
+
+of vulnerabilities
 
        can scan against a baseline
        
        Sensor-based : running from a central point 
+
        Agent-based : running on each client
 
 
-#### Scan Scope Define IP and port ranges
+#### Scope 
 
-#### Scan authorisation Can configure scan to obtain credentials which are not revealed to the scan operator
+Define IP and port ranges
 
-##### credentialed non-credentialed
+#### credentialed scan
+
+#### non-credentialed scan
 
 #### Scan scheduling
 
@@ -11525,7 +11530,7 @@ False negatives : risks NOT IDENTIFIED
 
 Mitigate by ongoing scanning; also by using scans from different vendors so chances are greater on picking up on threats
 
-### Scan reports
+#### Reporting
 
 care as this info is confidential
 
@@ -11536,8 +11541,6 @@ monitors load on a network line
 uses SNMP
 
 other tools : Scrutinizer, Nagios, SolarWinds, Cacti, NetFlow Analyzer
-
-### Non-Intrusive and Intrusive Scanning
 
 #### Non-intrusive scanning
 
@@ -12735,27 +12738,30 @@ Risk Likelihood Impact Direct cost downtime reputation and other intangible asse
 
 # Module 2 : Vulnerability Management
 
-## Steps
+## Vulnerability Management Steps
 
-```
-       1       Identify Requirements
-                             Document regulatory environments
-                             Document corporate policy
-                             Classify Data
-                             Asset Inventory
-                                     Critical assets
-                                     Non-critical assets
-       2       Choose Freqency of scan which will depend on
-                      Risk appetite of company
-                      regulatory requirements
-                      technical constraints
-                      workflow
-       3       Choose tools to perform vulnerability scan
-       4       Run scan
-       5       Report on scan output
-       6       Remediate any CVE found
-       7       Ongoing scanning and monitoring
-```
+1. Identify Requirements
+
+    Document regulatory environments
+    Document corporate policy
+    Classify Data
+    Asset Inventory
+            Critical assets
+            Non-critical assets
+
+2. Choose Freqency of scan which will depend on
+    Risk appetite of company
+    regulatory requirements
+    technical constraints
+    workflow
+
+3. Choose tools to perform vulnerability scan
+4. Run scan
+5. Report on scan output
+6. Remediate any CVE found
+7. Ongoing scanning and monitoring
+
+
 
 Security Policy
 

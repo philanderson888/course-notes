@@ -704,6 +704,7 @@
     - [Qualitative](#qualitative)
 - [Module 2 : Vulnerability Management](#module-2--vulnerability-management)
   - [Vulnerability Management Steps](#vulnerability-management-steps)
+  - [Risk Assessment Matrix](#risk-assessment-matrix)
     - [Regulatory environments](#regulatory-environments)
     - [Assets : DEFINE WHAT YOU HAVE TO PROTECT!!!](#assets--define-what-you-have-to-protect)
     - [Identify CRITICAL SYSTEMS](#identify-critical-systems)
@@ -12430,41 +12431,32 @@ Organisational Parameters
 
 Security control
 
-```
-       Make things secure
-       
-              Give them      
-                             C
-                             I
-                             A
-                             and 
-                             non-repudiation
 
-```
+
+
 
 
 ### NIST National Institue Standards Technology
 
 NIST provides GUIDANCE (not best practice which is ITIL)
 
-```
-       => Computer Security Division
-       
-              => FIPS Federal Info Processing Standards
-              
-                      FIPS 200 : minimum standards for US government non-military computers
-                      NIST 800-53 : setting baseline security standards
-                      
-                      18 families of control eg Access, Audit, Incident Response,
-                                     Risk Assessment
-                                     
-                      also 
-                      
-                      Classes
-                      
-                             Technical control eg firewall, av, OS ACL
-                      
-                                     Access, Audit, Authentication, Sys/Comms,
+  => Computer Security Division
+  
+        => FIPS Federal Info Processing Standards
+        
+                FIPS 200 : minimum standards for US government non-military computers
+                NIST 800-53 : setting baseline security standards
+                
+                18 families of control eg Access, Audit, Incident Response,
+                                Risk Assessment
+                                
+                also 
+                
+                Classes
+                
+                        Technical control eg firewall, av, OS ACL
+                
+                                Access, Audit, Authentication, Sys/Comms,
 
 
 ​                      
@@ -12477,11 +12469,10 @@ NIST provides GUIDANCE (not best practice which is ITIL)
 ​                             
 ​                             Management
 ​                             
-                                     Assess, Authorise, Plan, Risk Assess, Acquisition
+                                Assess, Authorise, Plan, Risk Assess, Acquisition
 
+        
 
-​              
-```
 
 
 # Frameworks and Policies 
@@ -12760,6 +12751,13 @@ Risk Likelihood Impact Direct cost downtime reputation and other intangible asse
 5. Report on scan output
 6. Remediate any CVE found
 7. Ongoing scanning and monitoring
+
+
+
+## Risk Assessment Matrix
+
+Criticality vs Difficulty of implementation
+
 
 
 

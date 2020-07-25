@@ -853,8 +853,9 @@
     - [HR Human Resources](#hr-human-resources)
     - [Law Enforcement Agencies](#law-enforcement-agencies)
     - [3rd Party Incident Response Team](#3rd-party-incident-response-team)
+  - [Incident Response Steps (Exam)](#incident-response-steps-exam)
     - [NIST Incident Handling Guide](#nist-incident-handling-guide)
-  - [Incident Response Stages](#incident-response-stages)
+  - [Incident Response Steps](#incident-response-steps)
     - [Preparation : Prepare Your System](#preparation--prepare-your-system)
     - [Detection : Detect An Attack](#detection--detect-an-attack)
     - [Analysis : Analyse The Attack](#analysis--analyse-the-attack)
@@ -905,6 +906,7 @@
     - [Crime Scene](#crime-scene)
     - [Order of volatility](#order-of-volatility)
 - [Forensics](#forensics-1)
+  - [Forensic Workstation](#forensic-workstation)
   - [FTK Forensic Toolkit](#ftk-forensic-toolkit)
     - [EnCase](#encase)
     - [eDiscovery](#ediscovery)
@@ -14388,9 +14390,20 @@ Marketing Talk to media during a crisis - press release Create educational mater
 
 For small companies Capture Data Provide Logs Identify good tools Identify poor tools which could taint evidence
 
+
+## Incident Response Steps (Exam)
+
+1. Detect
+2. Respon
+3. Report
+4. Recover
+5. Remediate
+6. Review
+
+
 ### NIST Incident Handling Guide
 
-## Incident Response Stages
+## Incident Response Steps
 
 ### Preparation : Prepare Your System
 
@@ -14697,6 +14710,19 @@ For Evidence eg Hard drives or images
 # Forensics 
 
 Forensics is science of collecting data in a criminal investigation
+
+## Forensic Workstation
+
+These contain
+
+- Imaging Utilities to image drives
+- Analysis - to analyse the images
+- Chain of custody - to account for who holds the forensic data
+- Hashing - to verify integrity
+- OS and process analysis - to analyse processes and OS 
+- Mobile forensics
+- Password cracker - to crack passwords
+- Cryptography - to crack encryption
 
 ## FTK Forensic Toolkit
 

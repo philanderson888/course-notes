@@ -328,10 +328,11 @@
     - [Targeted Spray](#targeted-spray)
     - [Wordscrape - go through whole intranet](#wordscrape---go-through-whole-intranet)
     - [Aircrack-ng](#aircrack-ng)
-    - [Beaconing : phoning home](#beaconing--phoning-home)
+    - [Beaconing](#beaconing)
     - [Birthday Attack](#birthday-attack)
+  - [Black hole](#black-hole)
     - [Blind FTP](#blind-ftp)
-    - [Blue team : defensive](#blue-team--defensive)
+    - [Blue team](#blue-team)
     - [Bluejack](#bluejack)
     - [Snarf : steal data](#snarf--steal-data)
     - [Bluesnarf : steal data](#bluesnarf--steal-data)
@@ -7363,7 +7364,6 @@ ArcSight by HP : security suite
 SIEM = general term = Security Info and Event Mgt. COLLECT AND ANALYSE DATA
 Syslog = COLLECT DATA ONLY
 Autopsy = front end for Sleuth : disk imaging and file analysis
-Beaconing : phoning home
 Birthday Attack = 2 files, same hash
 Black hole = drop all traffic
 Blind FTP : no file or folder listing provided
@@ -7731,16 +7731,31 @@ wireshark : used to glean hardware and hostnames
 
 wireless APT Advanced Persistent Threat : stronghold from which bad guys launch other software ArcSight by HP : security suite SIEM = general term = Security Info and Event Mgt. COLLECT AND ANALYSE DATA Syslog = COLLECT DATA ONLY Autopsy = front end for Sleuth : disk imaging and file analysis
 
-### Beaconing : phoning home
+### Beaconing
+
+Beaconing = phoning home 
+
+Can be on a schedule also
+
+Both good and bad devices do this. 
+
+Check for malicious IP 
+
+Check for bad packet sizes
 
 ### Birthday Attack
- = 2 files, same hash Black hole = drop all traffic 
+
+2 files, same hash 
+
+## Black hole
+
+drop all traffic 
  
  ### Blind FTP
  
  no file or folder listing provided 
  
- ### Blue team : defensive 
+ ### Blue team
  
  defensive team in simulation role play 
  

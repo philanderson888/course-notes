@@ -7640,6 +7640,15 @@ Analyse the whole packet not just the headers
 6. Artifact Collection/Destruction
 7. Reporting/Debriefing
 
+Exam version although I prefer the one above
+
+1. Plan and prepare
+2. Info gathering
+3. Vulnerability detect
+4. Penetration attempt
+5. Analysis
+6. Clean up
+
 ### protocol analysis
 
 analyse the packet headers
@@ -10543,8 +10552,10 @@ set domain=google.com
        Riding on back of existing work eg server upgrade; pose as 
                       contractor to gain access
                       
-       Social Engineer Toolkit at social-engineer.org : used for Penetration
-                      Testing
+       Social Engineer Toolkit 
+        https://github.com/trustedsec/social-engineer-toolkit
+        https://www.social-engineer.org/framework/se-tools/computer-based/social-engineer-toolkit-set
+      
                       
        Burner phones with fake numbers
        

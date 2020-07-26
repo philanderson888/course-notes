@@ -4,7 +4,6 @@
 
 - [cyber](#cyber)
   - [Contents](#contents)
-  - [Cyber (Manual Index)](#cyber-manual-index)
   - [Links](#links)
 - [Hardware](#hardware)
   - [Hardware Labs](#hardware-labs)
@@ -801,10 +800,6 @@
 
 
 
-
-## Cyber (Manual Index)
-
-[Frameworks And Policies](frameworks-and-policies.md))
 
 
 
@@ -4632,10 +4627,11 @@ DOS attacks - consider possibility and mitigate or provide backup resources
 
 #### Compensating control
 
+Compensating control - in place in case the primary control fails
 
-Compensating control - mitigates for the failure of a control
 eg data backup
 eg putting a system offline
+
 
 #### Group Policies
 
@@ -7252,10 +7248,7 @@ SMTP Open Relay : can be used by spammers to send email
 Snort : Open Source NIDS
 SourceFire IDS owned by Cisco
 Splunk : big data gather and analyse
-taskkill
-tasklist
 tcpdump : command line packet sniffer
-TOGAF The Open Group Architecture Framework
 Trusted Foundry : full chain of hardware suppliers can be verified to be security vetted (so not inserting any spying or other malware in the very hardware)
 UAT User Acceptance Testing
 UEFI
@@ -7343,7 +7336,7 @@ CVSS Common vulnerability scoring system - indicates how severe a vulnerability 
 
 
 
-## [Cyber Glossary](cyber-glossary.md)
+## [Cyber Glossary](glossary.md)
 
 
 
@@ -11340,9 +11333,10 @@ CSA+ Controls - Physical (alarm, lock, fence,CCTV, mantrap, guard, badge), Logic
 CSA+ Logical Control = software - OS, app, AV, ACL, IDS, password, biometric, smartcard, encryption, backup
 CSA+ Admin - Policy, Procedure
 
-Compensating Control - use when primary control fails.  EG encryption, separation of duties, user training
-
 Function : prevent, deter, detect, correct(during), compensate(after)
+- Compensating Control - use when primary control fails.  EG encryption, separation of duties, user training
+- Corrective Control - takes action to reduce effect of an attack (during)
+
 CoA = Courses of Action = Matrix of Action
 FIPS 199 Impact Analysis = High/Med/Low
 CSIRT computer security incident response team 
@@ -11482,6 +11476,8 @@ NIST provides GUIDANCE (not best practice which is ITIL)
                                 Assess, Authorise, Plan, Risk Assess, Acquisition
 
         
+
+
 
 ## [Frameworks And Policies](frameworks-and-policies.md)
 

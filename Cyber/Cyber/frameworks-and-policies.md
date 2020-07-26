@@ -24,6 +24,8 @@ Compliance is testing if an organisation is putting the required policies into e
 
 *NIST is used for guidance only*
 
+*Exam question - most likely to use this one rather than ISO27001*
+
 NIST 5 CORE FUNCTIONS / FRAMEWORK (guidance not best practice) 
 
        Identify (threats)
@@ -118,16 +120,14 @@ Continual Service Improvement
 
 ## TOGAF The Open Group Architecture Framework
 
-```
-       Guidance on the architecture and design of an enterprise IT architecture
+Guidance on the architecture and design of an enterprise IT architecture
 
-       Modelling a business through IT
-```
+Modelling a business through IT
+
 
 ## SABSA Sherwood Applied Business Security Architecture
 
-```
-       Deals with ENTERPRISE SECURITY AND SERVICE ARCHITECTURE
+Deals with ENTERPRISE SECURITY AND SERVICE ARCHITECTURE
 
        What - ASSETS
        Why - MOTIVATION
@@ -135,7 +135,6 @@ Continual Service Improvement
        Who - PEOPLE
        Where - LOCATION
        When - TIME
-```
 
 
 ## NIST 800-137 

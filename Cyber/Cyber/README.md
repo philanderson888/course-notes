@@ -294,10 +294,11 @@
   - [Cyber terms](#cyber-terms)
 - [Repeat of above list](#repeat-of-above-list)
     - [Stuxnet : Countdown To ZeroDay Book](#stuxnet--countdown-to-zeroday-book)
-- [Cyber Glossary Handout](#cyber-glossary-handout)
+- [Cyber Glossary](#cyber-glossary)
     - [802.1x](#8021x)
     - [Analysis Of network traffic](#analysis-of-network-traffic)
     - [Bastion Host](#bastion-host)
+  - [CFAA Computer Fraud And Abuse Act](#cfaa-computer-fraud-and-abuse-act)
     - [Credential Stuffing](#credential-stuffing)
     - [Crimeware - General Tools](#crimeware---general-tools)
     - [Dark Web](#dark-web)
@@ -310,7 +311,9 @@
     - [os fingerprinting](#os-fingerprinting)
     - [packet analysis](#packet-analysis)
     - [penetration test steps](#penetration-test-steps)
+    - [PIPEDA](#pipeda)
     - [protocol analysis](#protocol-analysis)
+    - [Safe Harbor Privacy Principles](#safe-harbor-privacy-principles)
     - [service discovery](#service-discovery)
     - [shares](#shares)
     - [sharepoint](#sharepoint)
@@ -692,13 +695,7 @@
     - [CISO Chief Info Security Officer](#ciso-chief-info-security-officer)
   - [Framework](#framework)
     - [NIST National Institue Standards Technology](#nist-national-institue-standards-technology)
-- [Frameworks and Policies](#frameworks-and-policies)
-  - [NIST National Institute Standards Technology](#nist-national-institute-standards-technology)
-  - [ISO 27001 : is an ISMS Info Security Management System](#iso-27001--is-an-isms-info-security-management-system)
-  - [COBIT Control Objectives for IT](#cobit-control-objectives-for-it)
-  - [ITIL v 3 = Best Practice (Note : NIST is similar but guidance only)](#itil-v-3--best-practice-note--nist-is-similar-but-guidance-only)
-  - [TOGAF The Open Group Architecture Framework](#togaf-the-open-group-architecture-framework)
-  - [SABSA Sherwood Applied Business Security Architecture](#sabsa-sherwood-applied-business-security-architecture)
+  - [Frameworks And Policies](#frameworks-and-policies)
     - [CSA+ categories](#csa-categories)
     - [classify by function](#classify-by-function)
     - [CoA Courses Of Action Matrix](#coa-courses-of-action-matrix)
@@ -1005,7 +1002,7 @@
 
 ## Cyber (Manual Index)
 
-[Policies](policies.md))
+[Frameworks And Policies](frameworks-and-policies.md))
 
 
 
@@ -7546,7 +7543,7 @@ CVSS Common vulnerability scoring system - indicates how severe a vulnerability 
 
 
 
-# Cyber Glossary Handout
+# Cyber Glossary
 
 ### 802.1x
 
@@ -7576,6 +7573,8 @@ CVSS Common vulnerability scoring system - indicates how severe a vulnerability 
 ### Bastion Host
 
 Any device which is connected to the internet
+
+## CFAA Computer Fraud And Abuse Act
 
 ### Credential Stuffing
 
@@ -7655,7 +7654,15 @@ Exam version although I prefer the one above
 5. Analysis
 6. Clean up
 
+### PIPEDA 
+
+Canadian Privacy Law
+
 ### protocol analysis
+
+### Safe Harbor Privacy Principles
+
+Guide the USA with regards to EU Privacy Laws
 
 analyse the packet headers
 
@@ -12494,118 +12501,7 @@ NIST provides GUIDANCE (not best practice which is ITIL)
 
         
 
-
-
-# Frameworks and Policies 
-
-Framework = set of policies put in place.
-
-Compliance is testing if an organisation is putting the required policies into effect
-
-## NIST National Institute Standards Technology
-
-```
-       NIST 5 CORE FUNCTIONS / FRAMEWORK (guidance not best practice) 
-       
-              Identify (threats)
-
-                      Manage Assets
-                      Risk Assess
-                      Govern
-                      Business Environment
-                      Risk Strategy
-                      
-
-              Protect (data and systems)
-                      Information Processes
-                      Access Control
-                      User Training 
-                      Data Security
-                      Maintenance
-
-              Detect
-                      Events
-                      Anomalies
-                      Continuous Monitoring
-
-              Respond
-                      Response Plan
-                      Comms
-                      Analysis
-                      Mitigate
-
-              Recover
-                             Recovery Plan
-                             Improve
-                             Comms
-
-       Implementation
-       
-              Partial, Risk Informed (Policies and procedures), Repeatable, Adaptive (continuous improvement)
-              
-       Profiles
-       
-              Maximise productivity in expenditure by identifying 
-              current and expected states, and investing to bring
-              an organisation into an expected state
-
-       Secure By Default : out-of-the-box-security is turned on
-                                             Design : programmers build with security in mind
-                                             Deployment : info secure environment
-```
-
-## ISO 27001 : is an ISMS Info Security Management System
-
-```
-       Manages sensitive company information, keeping it secure.
-       Paid $$$ 
-       Applies Risk Management to help keep systems secure
-```
-
-## COBIT Control Objectives for IT
-
-```
-       Business Framework for managing IT within a business framework.
-       Reflects role of IT in creating value for a company
-
-       Paid standard
-
-       CISA Certified Info Systems Auditor
-       CISM Certified Info Security Manager
-       
-```
-
-## ITIL v 3 = Best Practice (Note : NIST is similar but guidance only)
-
-```
-       Service Strategy
-               Design
-               Transition
-               Operation
-       Continual Service Improvement
-```
-
-## TOGAF The Open Group Architecture Framework
-
-```
-       Guidance on the architecture and design of an enterprise IT architecture
-
-       Modelling a business through IT
-```
-
-## SABSA Sherwood Applied Business Security Architecture
-
-```
-       Deals with ENTERPRISE SECURITY AND SERVICE ARCHITECTURE
-
-       What - ASSETS
-       Why - MOTIVATION
-       How - PROCESSES
-       Who - PEOPLE
-       Where - LOCATION
-       When - TIME
-```
-
+## [Frameworks And Policies](frameworks-and-policies.md)
 
 
 

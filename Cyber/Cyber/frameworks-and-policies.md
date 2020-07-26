@@ -12,6 +12,8 @@
   - [NIST 800-82](#nist-800-82)
   - [NIST 800-88](#nist-800-88)
   - [NIST 800-53](#nist-800-53)
+  - [GLBA](#glba)
+  - [HIPAA](#hipaa)
   - [Policies](#policies)
 
 ## Introduction
@@ -136,7 +138,6 @@ Deals with ENTERPRISE SECURITY AND SERVICE ARCHITECTURE
        Where - LOCATION
        When - TIME
 
-
 ## NIST 800-137 
 
 Continuous Monitoring
@@ -153,7 +154,13 @@ Sanitizes devices
 
 Baseline security standards
 
+## GLBA
 
+Finance
+
+## HIPAA
+
+Medical
 
 ## Policies
 

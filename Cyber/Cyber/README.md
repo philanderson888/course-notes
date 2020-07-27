@@ -491,6 +491,7 @@
       - [GUI for Metasploit](#gui-for-metasploit)
 - [Defending](#defending)
     - [Controls](#controls)
+      - [NIST](#nist)
   - [Cyber Organisations](#cyber-organisations)
   - [Cyber Roles](#cyber-roles)
     - [CISO Chief Info Security Officer](#ciso-chief-info-security-officer)
@@ -11317,10 +11318,15 @@ Remediating Vulnerabilities
 # Defending
 
 
+CISO Info Security Officer
+
+CSIRT Computer Security Incident Response Team
+
 
 ### Controls
-CISO Info Security Officer
-CSIRT Computer Security Incident Response Team
+
+#### NIST
+
 NIST National Institute for Standards and Tech
 NIST CSD Computer Security Division
 NIST FIPS Federal Information Processing Standards
@@ -11329,6 +11335,9 @@ NIST 800-53
 NIST control family - Access, Audit, Response, Risk
 NIST class - Technical (Firewall, AV, ACL, Audit), Operational, Management (Plan, Assess Risk, Authorise)
 NIST Operational - centred on people eg training, security guard, configuration, contingency plan, response plan, maintenance, media control, physical control
+
+
+
 CSA+ Controls - Physical (alarm, lock, fence,CCTV, mantrap, guard, badge), Logical, Admin 
 CSA+ Logical Control = software - OS, app, AV, ACL, IDS, password, biometric, smartcard, encryption, backup
 CSA+ Admin - Policy, Procedure
@@ -11340,13 +11349,17 @@ Function : prevent, deter, detect, correct(during), compensate(after)
 CoA = Courses of Action = Matrix of Action
 FIPS 199 Impact Analysis = High/Med/Low
 CSIRT computer security incident response team 
+
 NIST controls: access, audit, incident response, risk assess
 NIST class of control: technical, operational, management
 NIST tech control: firewall, acl, av, audit
 NIST operational control: training, security guard, configuration, maintenance
 NIST management control: planning, risk assessment, authorise
+
+
 CSA+ controls: physical, logical, admin
 CSA+ admin control: planning, policy
+
 Functions: prevent deter detect correct compensate
 
 

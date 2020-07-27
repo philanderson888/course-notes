@@ -2,10 +2,10 @@
 
 - [Frameworks and Policies](#frameworks-and-policies)
   - [Introduction](#introduction)
-  - [NIST National Institute Standards Technology](#nist-national-institute-standards-technology)
   - [ISO 27001](#iso-27001)
-  - [COBIT Control Objectives for IT](#cobit-control-objectives-for-it)
+  - [NIST National Institute Standards Technology](#nist-national-institute-standards-technology)
   - [ITIL](#itil)
+  - [COBIT Control Objectives for IT](#cobit-control-objectives-for-it)
   - [TOGAF The Open Group Architecture Framework](#togaf-the-open-group-architecture-framework)
   - [SABSA Sherwood Applied Business Security Architecture](#sabsa-sherwood-applied-business-security-architecture)
   - [NIST 800-137](#nist-800-137)
@@ -22,15 +22,28 @@ Framework = set of policies put in place.
 
 Compliance is testing if an organisation is putting the required policies into effect
 
+
+
+
+
+
+## ISO 27001
+
+ISMS Info Security Management System
+
+Provides risk management to keep systems secure
+
+
+
+
+
 ## NIST National Institute Standards Technology
 
-*NIST is used for guidance only*
+*ITIL best practice, NIST guidance*
 
-*Exam question - most likely to use this one rather than ISO27001*
+5 Core Functions - Identify, Protect, Detect, Respond, Recover
 
-NIST 5 CORE FUNCTIONS / FRAMEWORK (guidance not best practice) 
-
-       Identify (threats)
+1. Identify (threats)
 
                      Manage Assets
                      Risk Assess
@@ -38,26 +51,24 @@ NIST 5 CORE FUNCTIONS / FRAMEWORK (guidance not best practice)
                      Business Environment
                      Risk Strategy
                      
-
-       Protect (data and systems)
+2. Protect (data and systems)
                      Information Processes
                      Access Control
                      User Training 
                      Data Security
                      Maintenance
 
-       Detect
+3. Detect
                      Events
                      Anomalies
                      Continuous Monitoring
 
-       Respond
+4. Respond
                      Response Plan
                      Comms
                      Analysis
                      Mitigate
-
-       Recover
+5. Recover
                             Recovery Plan
                             Improve
                             Comms
@@ -77,17 +88,17 @@ Secure By Default : out-of-the-box-security is turned on
                                           Deployment : info secure environment
 
 
+## ITIL 
 
+ITIL is a best practices framework
 
-## ISO 27001
+*ITIL best practice, NIST guidance*
 
-ISO 27001 is an ISMS Info Security Management System
-
-Manages sensitive company information, keeping it secure.
-
-Paid $$$ 
-
-Applies Risk Management to help keep systems secure
+- Service Strategy
+- Service Design
+- Service Transition
+- Service Operation
+- Service Improvement
 
 
 
@@ -104,19 +115,7 @@ CISA Certified Info Systems Auditor
 CISM Certified Info Security Manager
        
 
-## ITIL 
 
-ITIL is a best practices framework
-
-*Note : NIST is similar but guidance only*
-
-Service Strategy
-
-              Design
-              Transition
-              Operation
-
-Continual Service Improvement
 
 
 

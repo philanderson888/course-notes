@@ -490,7 +490,7 @@
     - [Armitage](#armitage-1)
       - [GUI for Metasploit](#gui-for-metasploit)
 - [Defending](#defending)
-    - [Controls](#controls)
+    - [Classes Of Controls](#classes-of-controls)
       - [NIST](#nist)
   - [Cyber Organisations](#cyber-organisations)
   - [Cyber Roles](#cyber-roles)
@@ -11323,50 +11323,52 @@ CISO Info Security Officer
 CSIRT Computer Security Incident Response Team
 
 
-### Controls
+### Classes Of Controls
 
 #### NIST
 
 NIST National Institute for Standards and Tech
 NIST CSD Computer Security Division
 NIST FIPS Federal Information Processing Standards
+
 NIST FIPS 200
+
 NIST 800-53
+
 NIST control family - Access, Audit, Response, Risk
-NIST class - Technical (Firewall, AV, ACL, Audit), Operational, Management (Plan, Assess Risk, Authorise)
-NIST Operational - centred on people eg training, security guard, configuration, contingency plan, response plan, maintenance, media control, physical control
 
-
+NIST classes are 
+- Technical
+  - Firewall
+  - AV
+  - ACL
+  - Auditing
+- Operational 
+  - Training
+  - Security Guards
+  - Configuration
+  - Contingency Planning
+  - Response Planning
+  - Maintenance
+  - Physical Controls
+  - Media Controls
+- Management
+  - Planning
+  - Risk Assessment
+  - Authorisation
 
 CSA+ Controls - Physical (alarm, lock, fence,CCTV, mantrap, guard, badge), Logical, Admin 
 CSA+ Logical Control = software - OS, app, AV, ACL, IDS, password, biometric, smartcard, encryption, backup
 CSA+ Admin - Policy, Procedure
+
 
 Function : prevent, deter, detect, correct(during), compensate(after)
 - Compensating Control - use when primary control fails.  EG encryption, separation of duties, user training
 - Corrective Control - takes action to reduce effect of an attack (during)
 
 CoA = Courses of Action = Matrix of Action
+
 FIPS 199 Impact Analysis = High/Med/Low
-CSIRT computer security incident response team 
-
-NIST controls: access, audit, incident response, risk assess
-NIST class of control: technical, operational, management
-NIST tech control: firewall, acl, av, audit
-NIST operational control: training, security guard, configuration, maintenance
-NIST management control: planning, risk assessment, authorise
-
-
-CSA+ controls: physical, logical, admin
-CSA+ admin control: planning, policy
-
-Functions: prevent deter detect correct compensate
-
-
-
-
-
-
 
 
 
@@ -11374,17 +11376,21 @@ Functions: prevent deter detect correct compensate
 
 ## Cyber Organisations
 
-```
-EC-Council : Certified Ethical Hacker CEH
-(ISC)squared - CISSP Certified Info Security Systems Professional 
-CASP CompTIA Advanced Security Practitioner
-SANS/GIAC
-ISACA - CISA/CISM Certified Info Systems Auditor/Manager 
+- EC-Council : Certified Ethical Hacker CEH
+- (ISC)squared - CISSP Certified Info Security Systems Professional 
+- CASP CompTIA Advanced Security Practitioner
+- SANS/GIAC
+- ISACA - CISA/CISM Certified Info Systems Auditor/Manager 
 
-CIS Center for Internet Security [cisecurity.org](http://cisecurity.org/)
-CIS controls : Hardware assets, Software assets, Vulnerabilities, Admin Privileges, Secure Config on Client/Servers, Log monitoring, Email, Browser, Malware, Network ports & protocols, Data recovery, Firewall/Router/Switch config, Boundary Defence, Training, App security, Incident Response, Pen Tests
-ISO 27001 Describes ISMS Info Security Management System = set of policies and procedures for managing sensitive data
-ISO 9001 Quality Management System
+
+- CIS Center for Internet Security [cisecurity.org](http://cisecurity.org/)
+- CIS controls : Hardware assets, Software assets, Vulnerabilities, Admin Privileges, Secure Config on Client/Servers, Log monitoring, Email, Browser, Malware, Network ports & protocols, Data recovery, Firewall/Router/Switch config, Boundary Defence, Training, App security, Incident Response, Pen Tests
+
+- ISO 27001 Describes ISMS Info Security Management System = set of policies and procedures for managing sensitive data
+
+- ISO 9001 Quality Management System
+
+
 
 CyberArk
 
@@ -11397,7 +11403,7 @@ CyberArk
 
 NSO in Israel [https://en.wikipedia.org/wiki/NSO_Group](https://en.wikipedia.org/wiki/NSO_Group)
 
-```
+
 
 
 

@@ -8,7 +8,7 @@
   - [COBIT Control Objectives for IT](#cobit-control-objectives-for-it)
   - [TOGAF The Open Group Architecture Framework](#togaf-the-open-group-architecture-framework)
   - [SABSA Sherwood Applied Business Security Architecture](#sabsa-sherwood-applied-business-security-architecture)
-  - [NIST 800-137](#nist-800-137)
+  - [NIST 800-137 Continuous Monitoring](#nist-800-137-continuous-monitoring)
   - [NIST 800-82](#nist-800-82)
   - [NIST 800-88](#nist-800-88)
   - [NIST 800-53](#nist-800-53)
@@ -45,33 +45,35 @@ Provides risk management to keep systems secure
 
 1. Identify (threats)
 
-                     Manage Assets
-                     Risk Assess
-                     Govern
-                     Business Environment
-                     Risk Strategy
+       Manage Assets
+       Risk Assess
+       Govern
+       Business Environment
+       Risk Strategy
                      
-2. Protect (data and systems)
-                     Information Processes
-                     Access Control
-                     User Training 
-                     Data Security
-                     Maintenance
+2. Protect
+   
+       Information Processes
+       Access Control
+       User Training 
+       Data Security
+       Maintenance
 
 3. Detect
-                     Events
-                     Anomalies
-                     Continuous Monitoring
+       Events
+       Anomalies
+       Continuous Monitoring
 
 4. Respond
-                     Response Plan
-                     Comms
-                     Analysis
-                     Mitigate
+       Response Plan
+       Comms
+       Analysis
+       Mitigate
+
 5. Recover
-                            Recovery Plan
-                            Improve
-                            Comms
+       Recovery Plan
+       Improve
+       Comms
 
 Implementation
 
@@ -86,6 +88,9 @@ Profiles
 Secure By Default : out-of-the-box-security is turned on
                                           Design : programmers build with security in mind
                                           Deployment : info secure environment
+
+
+
 
 
 ## ITIL 
@@ -137,9 +142,14 @@ Deals with ENTERPRISE SECURITY AND SERVICE ARCHITECTURE
        Where - LOCATION
        When - TIME
 
-## NIST 800-137 
+## NIST 800-137 Continuous Monitoring
 
-Continuous Monitoring
+1. Define strategy
+2. Establish continuous monitoring
+3. Implement and collect info
+4. Analyse findings
+5. Mitigate
+6. Update program
 
 ## NIST 800-82
 

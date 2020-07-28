@@ -2758,7 +2758,9 @@ Fuzz Testing		THROWING RANDOM DATA AT OUR APPLICATION
 			TO SEE IF IT CATCHES ALL ERRORS, EVEN
 			FROM RANDOM RUBBISH
 
+Validation Testing - high level overview - has original purpose of software been achieved
 
+Verification Testing - have the design specs been met
 
 
 
@@ -5010,7 +5012,6 @@ mitigate: deter, avoid, transfer, accept
 personnel: train, dual control, separate duty, cross train, mandatory vacation
 RUM real user monitor - capture transactions
 V&V verify (meet compliance policy) and validate (does approved task)
-RUM real user monitor: capture transactions
 maturity model 2=risk 3=policy 4=management 5=CEO
 maturity: react, comply, proact, optimise
 Gantt/PERT
@@ -12982,33 +12983,26 @@ Guidance : where no procedures exist
 
 Continuous security monitoring
 
-RUM Real User Monitoring : Captures every transaction on a live web app Synthetic Monitoring : Only testing simulated transactions (not real ones)
+RUM Real User Monitoring : Captures every transaction on a live web app 
+
+Synthetic Monitoring : Only testing simulated transactions (not real ones)
 
 Continusously monitor for:
 
-```
-       Assets
-       Vulnerabilities
-       Threats
-       Business Impact
-```
+  Assets
+  Vulnerabilities
+  Threats
+  Business Impact
 
-Create continuous monitoring program: Define strategy with assets, vulnerabilities, threats, business impact all with a view on the company’s levels of risk tolerance
+  Establish continuous monitoring program which has
+    Metrics (what we measure)
+    Frequency of measurement of metrics
+    Frequency of review of whole process
 
-```
-       Establish continuous monitoring program which has
-              Metrics (what we measure)
-              Frequency of measurement of metrics
-              Frequency of review of whole process
-
-       Implement
-
-       Analyze data
-
-       Respond to findings
-
-       Review and update the program
-```
+    Implement
+    Analyze data
+    Respond to findings
+    Review and update the program
 
 Exceptions to the policy : reason why is not compliant
 

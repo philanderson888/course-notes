@@ -6,7 +6,7 @@ In this folder are courses related to web technologies
   
 - [Javascript Formal Course](javascript-formal-course.md)
 
-- [NodeJS](nodejs.md)
+- [NodeJS](https://github.com/philanderson888/nodejs)
 
 - [jQuery](jquery.md)
 

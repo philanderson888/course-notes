@@ -9746,16 +9746,22 @@ FIPS 199 Impact Analysis = High/Med/Low
 - EC-Council : Certified Ethical Hacker CEH
 - (ISC)squared - CISSP Certified Info Security Systems Professional 
 - CASP CompTIA Advanced Security Practitioner
-- SANS/GIAC
 - ISACA - CISA/CISM Certified Info Systems Auditor/Manager 
 
 
 - CIS Center for Internet Security [cisecurity.org](http://cisecurity.org/)
-- CIS controls : Hardware assets, Software assets, Vulnerabilities, Admin Privileges, Secure Config on Client/Servers, Log monitoring, Email, Browser, Malware, Network ports & protocols, Data recovery, Firewall/Router/Switch config, Boundary Defence, Training, App security, Incident Response, Pen Tests
+  - Publishes 20 categories of security controls
+  - CIS controls
+    - Hardware assets, Software assets, Vulnerabilities, Admin Privileges, Secure Config on Client/Servers, Log monitoring, Email, Browser, Malware, Network ports & protocols, Data recovery, Firewall/Router/Switch config, Boundary Defence, Training, App security, Incident Response, Pen Tests
 
-- ISO 27001 Describes ISMS Info Security Management System = set of policies and procedures for managing sensitive data
 
-- ISO 9001 Quality Management System
+- OWASP has top 10 web attacks
+- SANS/GIAC
+  - software development
+
+- ISO provides standards
+  - ISO 27001 Describes ISMS Info Security Management System = set of policies and procedures for managing sensitive data
+  - ISO 9001 Quality Management System
 
 
 
@@ -9767,6 +9773,9 @@ CyberArk
        Skytap cloud migration [https://www.skytap.com/](https://www.skytap.com/)
        EDR Endpoint Detection and Response (eg Antivirus)
        NGAV Next Generation Anti Virus : has AV + detects common attack vectors with both client/server detection
+
+
+
 
 NSO in Israel [https://en.wikipedia.org/wiki/NSO_Group](https://en.wikipedia.org/wiki/NSO_Group)
 

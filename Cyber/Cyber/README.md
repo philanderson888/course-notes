@@ -9780,7 +9780,12 @@ CyberArk
 
 NSO in Israel [https://en.wikipedia.org/wiki/NSO_Group](https://en.wikipedia.org/wiki/NSO_Group)
 
-
+Summary of organisations
+- SANS/GIAC - secure coding
+- OWASP - top 10 web vulnerabilities
+- CIS top 20 internet controls
+- ISO standards
+- NIST guidance
 
 
 
@@ -10719,7 +10724,17 @@ Only testing simulated transactions (not real ones)
 
 Captures every transaction on a live web app
 
+Used as part of Web App Vulnerability Testing
+
 #### Interception Proxy testing
+
+#### Verification Testing
+
+Has design spec been met
+
+#### Validation Testing
+
+High level - has overall purpose of software been fulfilled
 
 #### burp suite 
 

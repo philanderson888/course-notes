@@ -2283,15 +2283,13 @@ Must be able to scale load balancers
 
 ### NGINX Load Balancing
 
-```
-NGINX is an Application Deliver Contoller
-NGINX is a load balancer
-NGINX is a reverse proxy
-NGINX can load balance TCP, UDP, HTTP, HTTPS, Email
-NGINX is extensible via C and LUA
-NGINX has MODSECURITY3 which turns NGINX into a WAF Web Application Firewall
-NGINX offers authentication via JWT web tokens
-```
+- NGINX is an Application Deliver Contoller
+- NGINX is a load balancer
+- NGINX is a reverse proxy
+- NGINX can load balance TCP, UDP, HTTP, HTTPS, Email
+- NGINX is extensible via C and LUA
+- NGINX has MODSECURITY3 which turns NGINX into a WAF Web Application Firewall
+- NGINX offers authentication via JWT web tokens`
 
 # Cloud Labs
 

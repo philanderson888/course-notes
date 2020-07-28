@@ -437,6 +437,8 @@
       - [Synthetic Monitoring](#synthetic-monitoring)
       - [RUM Real User Monitoring](#rum-real-user-monitoring)
       - [Interception Proxy testing](#interception-proxy-testing)
+      - [Verification Testing](#verification-testing)
+      - [Validation Testing](#validation-testing)
       - [burp suite](#burp-suite)
       - [OWASP Zed Attack proxy](#owasp-zed-attack-proxy)
       - [Zap Vega](#zap-vega)
@@ -444,7 +446,6 @@
       - [WAF Web App Firewall = IDS](#waf-web-app-firewall--ids)
       - [ModSecurity WAF](#modsecurity-waf)
       - [NAXSI NGINX WAF](#naxsi-nginx-waf)
-      - [Imperva SecureSphere WAF](#imperva-securesphere-waf)
     - [Trusted environment](#trusted-environment)
     - [Code Signing](#code-signing)
     - [Reverse engineer](#reverse-engineer)
@@ -479,16 +480,15 @@
       - [TCP FLAGS WHEN SNIFFING](#tcp-flags-when-sniffing)
   - [WIFI tools](#wifi-tools)
   - [Network Monitoring](#network-monitoring)
-    - [MTRG Multi Router Traffic Grapher](#mtrg-multi-router-traffic-grapher)
-    - [MTRG as a (ongoing) service](#mtrg-as-a-ongoing-service)
+    - [MRTG SNMP](#mrtg-snmp)
     - [Cacti.net SNMP Monitoring](#cactinet-snmp-monitoring)
     - [Netflow](#netflow)
     - [Nagios.org](#nagiosorg)
     - [Log Review](#log-review)
     - [SIEM Security Info/Incident and Event Mgt](#siem-security-infoincident-and-event-mgt)
     - [Big Data](#big-data)
-    - [SIEM tools : SPLUNK, ARCSIGHT, QRADAR, AlienValut, OSSIM, SysLog, Event Viewer](#siem-tools--splunk-arcsight-qradar-alienvalut-ossim-syslog-event-viewer)
-    - [SPLUNK analytics : big data : uses Hadoop](#splunk-analytics--big-data--uses-hadoop)
+    - [SIEM tools](#siem-tools)
+      - [SPLUNK analytics : big data : uses Hadoop](#splunk-analytics--big-data--uses-hadoop)
       - [ArcSight by HP](#arcsight-by-hp)
       - [QRadar](#qradar)
       - [Alien Vault is SIEM (gathering data) tool](#alien-vault-is-siem-gathering-data-tool)
@@ -591,7 +591,7 @@
     - [Endpoint Investigator](#endpoint-investigator)
     - [Sleuth Kit](#sleuth-kit)
       - [Autopsy = GUI](#autopsy--gui)
-    - [Helix](#helix)
+    - [Helix Live CD](#helix-live-cd)
     - [Cellebrite](#cellebrite)
     - [Sysinternals](#sysinternals-1)
   - [Forensics Workstation](#forensics-workstation)
@@ -4898,7 +4898,6 @@ Windows freeSSHd telnet server	http://www.freesshd.com/?ctt=overview  Can SSH in
 VLAN Pooling	
 ICS Industrial Control System	
 DCS Distributed Control System	
-Netflow Cisco 	
 LiveAction Network Monitoring 	
 PASSWORD CRACKER
 NIDS INSTALL
@@ -4974,14 +4973,11 @@ vulnerability scan: nessus, nexpose, openVAS
 nessus scans against CIS benchmark
 CIS
 BURP is pentest for web app
-MODSECURITY = OWASP WAF firewall
 OWASP
 NGINX
 NAXSI
-IMPERVA WAF
 Foundry = trace hardware
 Snort
-Sourcefire
 Bro
 Polymorphic change
 Metamorphic recompile
@@ -5092,7 +5088,6 @@ ACS authenticated config scanner
 CPE common platform enumeration = OS
 CCE common config enumeration = config settings
 CWE common weaknesses enumeration
-MRTG multi router traffic grapher shows SNMP bandwidth utilisation
 network fingerprint
 banner grabbing of headers
 metasploit
@@ -5122,9 +5117,7 @@ synthetic monitoring provides a path of inputs to simulate a user journey throug
 Interception proxy - sits as a proxy server between the client and the internet
 BURP suite is interception proxy
 ZAP Zed Attack Proxy is interception proxy
-ModSecurity is WAF
 NAXSI is Nginx Anti XSS and Injection
-Imperva WAF
 Trusted environment = OS + drivers + firmware + apps
 Trusted foundry validates all hardware suppliers
 Disassemble - take back to assembly language
@@ -5162,11 +5155,9 @@ promisuous = all packets
 wireshark = kismet = tcpdump = dsniff = ettercap
 protocol analysers looks at headers
 packet analyser looks at data inside
-netflow analyses tcp
 AirPcap over WIFI
 Aircrack-ng WIFI
 Injection: DSniff ettercap hping nemesis scapy
-mtrg = traffic grapher : snmp
 cacti.net snmp
 solarwinds netflow : tcp
 nagios snmp needs agent
@@ -5222,7 +5213,6 @@ MAC moves adds changes
 CAB change advisory board
 Air gap isolated
 sheep dip to study virus
-modsecurity = waf
 naxsi = nginx anti xss and injection
 Prevent: ips, firewall, av, emet, waf
 collect: scan siem, ids
@@ -5562,7 +5552,6 @@ Fuzzing - generate random testing data
 Google Hacking : detailed google search to discover otherwise hidden data about your potential targets
 Helix : Linux Live CD
 Heuristic : live active searching for patterns in viruses
-Imperva : WAF Web Application Firewall : data center security
 MITM
 Interception Proxy = MITM : Receives all the requests and the responses before passing them on
 Jump Box = in DMZ, provides access to admin consoles of other machines in DMZ
@@ -5573,14 +5562,11 @@ Kiwi Syslog = central log management
 Metasploit = exploit framework = launch modular attacks from this; each module attacks one particular CVE
 CVE Common Vulnerabilities and Exposures
 MoA : Memorandum Of Agreement : informal agreement for 2 parties to work together : forms basis of legal contract
-ModSecurity = open source WAF
 MoU : Memorandum Of Understanding : preliminary expression of wish to work together
-MRTG Multi Router Traffic Grapher - monitors load on network links
 Nagios = open source stats on services
 NAPT = NAT
 NAXSI = nginX Anti XSS and SQL Injection
 Nessus = commercial vulnerability scanner
-Netflow = Cisco IP traffic flow diagramming tool
 NetScout = commercial enterprise-level network service assurance products
 Nexpose = vulnerability scanner (Metasploit)
 Nikto = web server vulnerability scanner
@@ -10750,17 +10736,13 @@ portswigger.net
 
 Open Source WAF 
 
-       uses OWASP rules, originally for Apache but now other platforms also)
+uses OWASP rules, originally for Apache but now other platforms also
 
 #### NAXSI NGINX WAF
 
 Nginx Anti XSS and Injection 
 
-       WAF Web Application Firewall uses White List technologies for Nginx web server
-
-#### Imperva SecureSphere WAF 
-
-       Web Application Firewall : for data center
+uses White List technologies for Nginx web server
 
 ### Trusted environment
 
@@ -11166,24 +11148,26 @@ Scapy
 
 ## Network Monitoring
 
-### MTRG Multi Router Traffic Grapher
 
-```
-       SNMP tool : creates graphs
-       
-       open source 
-       
-       Linux (can be used in Windows via Perl)
-       
-```
 
-### MTRG as a (ongoing) service
+### MRTG SNMP
 
-```
-       use crontab (Linux)
-       run MTRG as a service (Windows)
+Multi Router Traffic Grapher
+
+SNMP tool : creates graphs
+
+monitors load on network links
+
+shows SNMP bandwidth utilisation       
+
+open source 
        
-```
+Linux (can be used in Windows via Perl)
+       
+uses crontab (Linux)
+
+Windows runs this as a service
+
 
 ### Cacti.net SNMP Monitoring
 
@@ -11191,25 +11175,20 @@ with graphs using SNMP on Linux
 
 ### Netflow
 
-```
-       This analyses stats on flow of IP traffic : equivalent of taking all of Wireshark collection but then aggregating and collecting the different 'flows' of traffic and reporting on each individual flow - stats, throughput etc
+This analyses stats on flow of IP traffic : equivalent of taking all of Wireshark collection but then aggregating and collecting the different 'flows' of traffic and reporting on each individual flow - stats, throughput etc
        
-              SolarWinds.com 
+   SolarWinds.com 
 
-                      Netflow Analyser on RHEL / CentOS
-                      Reports network flow to proper database for display and analysis
+     Netflow Analyser on RHEL / CentOS
+     Reports network flow to proper database for display and analysis
               
-              alternatives : sFlow, jFlow, IPFIX IP Flow Info Export
-       
-       
-```
+    alternatives : sFlow, jFlow, IPFIX IP Flow Info Export
 
 ### Nagios.org
 
-```
-       SNMP and HTTP info gathering.  Agent installed on client.
+SNMP and HTTP info gathering.  Agent installed on client.
        
-```
+
 
 Resmon
 

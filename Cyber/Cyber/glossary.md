@@ -38,10 +38,10 @@
   - [Targeted Spray](#targeted-spray)
   - [Wordscrape - go through whole intranet](#wordscrape---go-through-whole-intranet)
   - [Aircrack-ng](#aircrack-ng)
-    - [ArcSight SIEM](#arcsight-siem)
-    - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt)
-    - [Syslog](#syslog-1)
-    - [Autopsy](#autopsy)
+  - [ArcSight SIEM](#arcsight-siem)
+  - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt)
+  - [Syslog](#syslog-1)
+  - [Autopsy](#autopsy)
   - [Beaconing](#beaconing)
   - [Birthday Attack](#birthday-attack)
   - [Black hole](#black-hole)
@@ -51,7 +51,7 @@
   - [Snarf : steal data](#snarf--steal-data)
   - [Bluesnarf : steal data](#bluesnarf--steal-data)
   - [Bro Linux IDS](#bro-linux-ids)
-  - [Cacti logs](#cacti-logs)
+  - [Cacti Logging](#cacti-logging)
   - [CAN Controller Area network](#can-controller-area-network)
   - [PLC Programmable Logic Controllers](#plc-programmable-logic-controllers)
   - [CAPTCHA](#captcha)
@@ -80,7 +80,7 @@
   - [Google Hacking](#google-hacking)
   - [Helix : Linux Live CD](#helix--linux-live-cd)
   - [Heuristic](#heuristic)
-  - [Imperva : WAF](#imperva--waf)
+  - [Imperva WAF](#imperva-waf)
   - [MITM Interception Proxy](#mitm-interception-proxy)
   - [Jump Box](#jump-box)
   - [escrow = 3rd party trust](#escrow--3rd-party-trust)
@@ -90,13 +90,12 @@
   - [Metasploit](#metasploit)
   - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures)
   - [MoA : Memorandum Of Agreement](#moa--memorandum-of-agreement)
-  - [ModSecurity = open source WAF](#modsecurity--open-source-waf)
+  - [ModSecurity WAF](#modsecurity-waf)
   - [MRTG Multi Router Traffic Grapher](#mrtg-multi-router-traffic-grapher)
   - [Nagios = open source stats on services](#nagios--open-source-stats-on-services)
   - [NAPT = NAT](#napt--nat)
   - [NAXSI = nginX Anti XSS and SQL Injection](#naxsi--nginx-anti-xss-and-sql-injection)
   - [Nessus vulnerability scanner](#nessus-vulnerability-scanner)
-  - [Netflow](#netflow-1)
   - [NetScout](#netscout)
   - [Nexpose vulnerability scan](#nexpose-vulnerability-scan)
   - [Nikto - web server vulnerability](#nikto---web-server-vulnerability)
@@ -259,17 +258,24 @@ Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
 
 ## Netflow
 
+Cisco IP traffic flow diagramming tool 
+
+analyses tcp
+
 Router traffic flow stats
 
 Has two or more interfaces eg facing LAN and internet
 
-Same `flow`
+Identifies unidirectional sequence of packets sharing 7 values - Same `flow`
+
   Source/Destination MAC
   Source/Destination IP and Port
   Protocol type
   Router interface
 
-  - heuristic - zero day 
+heuristic - zero day 
+
+
 
 ## net user
 
@@ -403,19 +409,19 @@ wireshark : used to glean hardware and hostnames
 
 wireless APT Advanced Persistent Threat : stronghold from which bad guys launch other software 
 
-### ArcSight SIEM
+## ArcSight SIEM
 
 by HP
 
-### SIEM Security Info and Event Mgt
+## SIEM Security Info and Event Mgt
 
 COLLECT AND ANALYSE DATA 
 
-### Syslog
+## Syslog
 
 COLLECT DATA ONLY 
 
-### Autopsy
+## Autopsy
 
 front end for Sleuth : disk imaging and file analysis
 
@@ -457,7 +463,7 @@ drop all traffic
  
  ## Bro Linux IDS
  
- ## Cacti logs
+ ## Cacti Logging
  
  open source logs with graphs 
  
@@ -559,11 +565,9 @@ drop all traffic
  
  live active searching for patterns in viruses 
  
- ## Imperva : WAF 
+ ## Imperva SecureSphere WAF 
  
- Web Application Firewall
- 
- data center security 
+Web Application Firewall : for data center
  
  ## MITM Interception Proxy
  
@@ -599,9 +603,11 @@ drop all traffic
  
  informal agreement for 2 parties to work together : forms basis of legal contract 
  
- ## ModSecurity = open source WAF 
+ ## ModSecurity WAF
  
- ## MRTG Multi Router Traffic Grapher
+ open source WAF 
+ 
+ ## MRTG Multi Router Traffic Grapher SNMP
  
  monitors load on network links 
  
@@ -612,11 +618,7 @@ drop all traffic
  ## NAXSI = nginX Anti XSS and SQL Injection 
  
  ## Nessus vulnerability scanner
- 
- ## Netflow
-
- Cisco IP traffic flow diagramming tool 
- 
+  
  ## NetScout
  
  commercial enterprise-level network service assurance products 
@@ -671,7 +673,9 @@ drop all traffic
  
  ## Privilege Escalation 
  
- ## QRadar = SIEM from IBM
+ ## QRadar SIEM 
+ 
+ SIEM from IBM
  
  logs, analysis and policies 
  

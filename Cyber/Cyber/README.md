@@ -5140,8 +5140,6 @@ NIDS operates INSIDE firewall
 port mirror - passive logging
 shun = block attacker IP
 snort = windows ids / ips
-sourcefire = cisco ids
-bro = linux ids
 idp can throttle bandwidth and change firewall rules
 anomaly compares with baseline for changes eg volume, url length, packet headers
 behaviour based more complex than anomaly
@@ -5207,7 +5205,6 @@ eDiscovery manages data
 endpoint investigator
 sleuth kit 
 autopsy
-helix
 cellebrite
 UFED universal forensic extraction device - take data without affecting it
 forensic pc has no or limited internet
@@ -5266,7 +5263,6 @@ playbook: get secure, get evidence, prevent re-attack
 volatile: swap file, router, RAM
 encase
 sleuth autopsy
-helix live
 cellebrite mobile
 UFED universal forensic extraction device
 forensic machine: task browser, autopsy browser, memoryze fireeye, f-resrponse tactical
@@ -5614,8 +5610,6 @@ SCP Secure Copy Protection
 SEH Structured Exception Handler : handles exception
 SIEM Security Info and Event Mgt = collect and analyse data
 SMTP Open Relay : can be used by spammers to send email
-Snort : Open Source NIDS
-SourceFire IDS owned by Cisco
 Splunk : big data gather and analyse
 tcpdump : command line packet sniffer
 Trusted Foundry : full chain of hardware suppliers can be verified to be security vetted (so not inserting any spying or other malware in the very hardware)
@@ -11276,14 +11270,14 @@ Critical part
        
 ```
 
-### SIEM tools : SPLUNK, ARCSIGHT, QRADAR, AlienValut, OSSIM, SysLog, Event Viewer
+### SIEM tools
 
-### SPLUNK analytics : big data : uses Hadoop
+SPLUNK, ARCSIGHT, QRADAR, AlienValut, OSSIM, SysLog, Event Viewer
 
-       SPL splunk search processing language
+#### SPLUNK analytics : big data : uses Hadoop
+
+SPL splunk search processing language
        
-
-
 #### ArcSight by HP
 
 #### QRadar
@@ -12024,9 +12018,9 @@ command line tools
               
               create a case
               
-### Helix
+### Helix Live CD
     
-              Linux LIVE CD : does not affect host
+Linux LIVE CD : does not affect host
               
 ### Cellebrite
 

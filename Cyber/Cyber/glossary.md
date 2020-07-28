@@ -38,6 +38,10 @@
   - [Targeted Spray](#targeted-spray)
   - [Wordscrape - go through whole intranet](#wordscrape---go-through-whole-intranet)
   - [Aircrack-ng](#aircrack-ng)
+    - [ArcSight SIEM](#arcsight-siem)
+    - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt)
+    - [Syslog](#syslog-1)
+    - [Autopsy](#autopsy)
   - [Beaconing](#beaconing)
   - [Birthday Attack](#birthday-attack)
   - [Black hole](#black-hole)
@@ -46,7 +50,7 @@
   - [Bluejack](#bluejack)
   - [Snarf : steal data](#snarf--steal-data)
   - [Bluesnarf : steal data](#bluesnarf--steal-data)
-  - [Bro = LINUX IDS](#bro--linux-ids)
+  - [Bro Linux IDS](#bro-linux-ids)
   - [Cacti logs](#cacti-logs)
   - [CAN Controller Area network](#can-controller-area-network)
   - [PLC Programmable Logic Controllers](#plc-programmable-logic-controllers)
@@ -122,11 +126,11 @@
   - [SCEP Certificate Enrolment](#scep-certificate-enrolment)
   - [SCP send files](#scp-send-files)
   - [SEH exception handler](#seh-exception-handler)
-  - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt)
+  - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt-1)
   - [SMTP Open Relay](#smtp-open-relay)
-  - [Snort : Open Source NIDS](#snort--open-source-nids)
-  - [SourceFire IDS owned by Cisco](#sourcefire-ids-owned-by-cisco)
-  - [Splunk : big data gather and analyse](#splunk--big-data-gather-and-analyse)
+  - [Snort IDS](#snort-ids)
+  - [SourceFire IDS](#sourcefire-ids)
+  - [Splunk SIEM](#splunk-siem)
   - [taskkill](#taskkill)
   - [tasklist](#tasklist)
   - [tcpdump](#tcpdump)
@@ -149,7 +153,7 @@
     - [LDAPS 636](#ldaps-636)
   - [ADS Alternate Data Streams](#ads-alternate-data-streams)
   - [TTP Tactics, Techniques and Procedures](#ttp-tactics-techniques-and-procedures)
-  - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt-1)
+  - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt-2)
   - [Exfiltration = data out](#exfiltration--data-out)
   - [Exploits](#exploits)
     - [Flame](#flame)
@@ -397,7 +401,23 @@ wireshark : used to glean hardware and hostnames
 
 ## Aircrack-ng
 
-wireless APT Advanced Persistent Threat : stronghold from which bad guys launch other software ArcSight by HP : security suite SIEM = general term = Security Info and Event Mgt. COLLECT AND ANALYSE DATA Syslog = COLLECT DATA ONLY Autopsy = front end for Sleuth : disk imaging and file analysis
+wireless APT Advanced Persistent Threat : stronghold from which bad guys launch other software 
+
+### ArcSight SIEM
+
+by HP
+
+### SIEM Security Info and Event Mgt
+
+COLLECT AND ANALYSE DATA 
+
+### Syslog
+
+COLLECT DATA ONLY 
+
+### Autopsy
+
+front end for Sleuth : disk imaging and file analysis
 
 ## Beaconing
 
@@ -435,7 +455,7 @@ drop all traffic
  
  ## Bluesnarf : steal data 
  
- ## Bro = LINUX IDS 
+ ## Bro Linux IDS
  
  ## Cacti logs
  
@@ -705,11 +725,17 @@ drop all traffic
  
  can be used by spammers to send email 
  
- ## Snort : Open Source NIDS 
+ ## Snort IDS
  
- ## SourceFire IDS owned by Cisco 
+ Open Source NIDS 
  
- ## Splunk : big data gather and analyse 
+ ## SourceFire IDS 
+ 
+ owned by Cisco 
+ 
+ ## Splunk SIEM
+
+ big data gather and analyse 
  
  ## taskkill 
  

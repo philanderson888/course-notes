@@ -12958,8 +12958,8 @@ Make threat less likely or less costly
 Avoid risk
 
 Transfer risk
-
 Accept risk
+
 
 Defence In Depth : Technical
 

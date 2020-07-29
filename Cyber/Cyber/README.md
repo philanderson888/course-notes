@@ -8261,6 +8261,10 @@ Social Media footprint
               filtered       
               
                       when a nmap scan returns a status of 'filtered' on a port this indicates that the port is being blocked by a firewall
+
+             open/filtered
+
+                      the ports are not responding so it's impossible to tell if the ports are open or filtered
               
               unfiltered
               

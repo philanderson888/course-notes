@@ -3002,6 +3002,8 @@ Compensating control - in place in case the primary control fails
 eg data backup
 eg putting a system offline
 
+Also compensating control can be implemented if the preferred solution is not implemented
+
 
 #### Group Policies
 

@@ -9713,6 +9713,18 @@ CSA+ Controls - Physical (alarm, lock, fence,CCTV, mantrap, guard, badge), Logic
 CSA+ Logical Control = software - OS, app, AV, ACL, IDS, password, biometric, smartcard, encryption, backup
 CSA+ Admin - Policy, Procedure
 
+CSA+ Controls
+  Operational
+    Policy
+      AUP
+      Clean Desk
+      Disaster Recovery
+      Business Continuity
+    Procedures
+  Technical
+    Permissions
+  Physical
+
 
 Function : prevent, deter, detect, correct(during), compensate(after)
 - Compensating Control - use when primary control fails.  EG encryption, separation of duties, user training

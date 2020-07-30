@@ -229,8 +229,6 @@ For small companies Capture Data Provide Logs Identify good tools Identify poor 
 
 ## Incident Response Steps
 
-Exam
-
 1. Detect
 2. Respond
 3. Report
@@ -238,15 +236,21 @@ Exam
 5. Remediate
 6. Review
 
+SANS Incident Response Steps
 
-
-
-
+1. Prepare
+2. Identify
+3. Contain
+4. Eradicate
+5. Recover
+6. Lessons Learned
 
 
 ## NIST Incident Handling Guide
 
-Incident Response Steps
+
+
+
 
 ### Preparation : Prepare Your System
 

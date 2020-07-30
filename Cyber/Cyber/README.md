@@ -164,6 +164,7 @@
       - [SESSION HIJACKING](#session-hijacking)
       - [SESSION REPLAY](#session-replay)
   - [Threat Map](#threat-map)
+  - [Cyber Random Terms](#cyber-random-terms)
   - [Cyber Glossary](#cyber-glossary)
 - [Cyber Labs](#cyber-labs)
   - [Tools](#tools)
@@ -4500,7 +4501,9 @@ https://www.fireeye.com/cyber-map/threat-map.html
 
 
 
+## Cyber Random Terms
 
+[Cyber Random Terms](cyber-random-terms.md)
 
 ## Cyber Glossary
 

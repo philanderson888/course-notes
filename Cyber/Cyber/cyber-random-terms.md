@@ -3,8 +3,6 @@
 - [Cyber Random Terms](#cyber-random-terms)
   - [Network Security](#network-security)
   - [Cyber](#cyber)
-  - [Repeat of above list](#repeat-of-above-list)
-    - [Stuxnet : Countdown To ZeroDay Book](#stuxnet--countdown-to-zeroday-book)
 
 
 ## Network Security 
@@ -465,9 +463,6 @@ TCP SYN attack can do service discovery
 Syslog = logs only
 SIEM = logs + analysis
 scope of scan = numbers of computers
-
-## Repeat of above list
-
 scan sensitivity = how deep we are trying to penetrate
 RFC request for change
 RFC request for comments
@@ -1008,11 +1003,14 @@ Hacker News [news.ycombinator.com](http://news.ycombinator.com/)
 
 
 
-### Stuxnet : Countdown To ZeroDay Book
-Kim Zetter : Stuxnet was US and Israel.
+Stuxnet : Countdown To ZeroDay Book - Kim Zetter : Stuxnet was US and Israel
+
 https://www.powershellempire.com
+
 Bandook v1.1 By Princeali    
+
 https://hackerspassion.wordpress.com/category/downloads
+
 Flame
 Operation Olympic Games
 Mydoom

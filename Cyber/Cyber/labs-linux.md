@@ -447,9 +447,13 @@ socket -wslqvp "socket is listening here" 12345
 
 # connect
 socket -v 1.2.3.4 12345
-
 ```
 
+Python socket!  https://www.youtube.com/watch?v=Xer7CRr73g4
+
+Linux sockets  https://www.youtube.com/watch?v=uXve8WYiGts
+
+Create a socket in c  https://www.youtube.com/watch?v=iEhDQyfB01s
 
 # Linux Notes
 

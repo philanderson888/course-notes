@@ -9,6 +9,7 @@
   - [Crimeware - General Tools](#crimeware---general-tools)
   - [Dark Web](#dark-web)
   - [dd](#dd)
+  - [degauss](#degauss)
   - [DTP Dynamic Trunking Protocol](#dtp-dynamic-trunking-protocol)
   - [EHR Electronic Health Record](#ehr-electronic-health-record)
   - [MAC Overflow Attack](#mac-overflow-attack)
@@ -24,6 +25,7 @@
   - [penetration test steps](#penetration-test-steps)
   - [PIPEDA](#pipeda)
   - [protocol analysis](#protocol-analysis)
+  - [Reverse Proxy Server](#reverse-proxy-server)
   - [Safe Harbor Privacy Principles](#safe-harbor-privacy-principles)
   - [service discovery](#service-discovery)
   - [shares](#shares)
@@ -37,7 +39,9 @@
   - [Sysvol](#sysvol)
   - [Targeted Attack And Tools](#targeted-attack-and-tools)
   - [trend analysis](#trend-analysis)
+  - [Virtual Network Types](#virtual-network-types)
   - [vm sprawl](#vm-sprawl)
+  - [WIDS Wireless Intrusion Detection](#wids-wireless-intrusion-detection)
   - [Wireless Analysis](#wireless-analysis)
   - [wireshark](#wireshark)
   - [Targeted Spray](#targeted-spray)
@@ -262,6 +266,12 @@ Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
 
 Linux command to image a drive
 
+## degauss
+
+Uses magnetism to wipe a drive
+
+Can wipe a hard drive or magnetic tape
+
 ## DTP Dynamic Trunking Protocol
 
 Permits a switch to automatically link to other switches
@@ -358,6 +368,10 @@ Canadian Privacy Law
 
 ## protocol analysis
 
+## Reverse Proxy Server
+
+Can filter incoming traffic preventing DDOS attacks from reaching your server
+
 ## Safe Harbor Privacy Principles
 
 Guide the USA with regards to EU Privacy Laws
@@ -418,9 +432,19 @@ With a specific target in mind
 
 Over time
 
+## Virtual Network Types
+
+- External - Internet
+- Internal - with each other and host
+- Private - communicate with each other but not with host nor internet
+
 ## vm sprawl
 
 Large number of virtual machines are hard to manage and to keep track of, and it's easy to let the vulnerabilities stack up through unmanaged software and operating systems
+
+## WIDS Wireless Intrusion Detection
+
+Can locate rogue wireless AP
 
 ## Wireless Analysis
 

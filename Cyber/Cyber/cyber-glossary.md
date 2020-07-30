@@ -8,6 +8,8 @@
   - [Credential Stuffing](#credential-stuffing)
   - [Crimeware - General Tools](#crimeware---general-tools)
   - [Dark Web](#dark-web)
+  - [MAC Overflow Attack](#mac-overflow-attack)
+  - [Man In The Middle Attack](#man-in-the-middle-attack)
   - [multihomed firewall](#multihomed-firewall)
   - [Netflow](#netflow)
   - [net user](#net-user)
@@ -80,7 +82,7 @@
   - [Google Hacking](#google-hacking)
   - [Helix : Linux Live CD](#helix--linux-live-cd)
   - [Heuristic](#heuristic)
-  - [Imperva WAF](#imperva-waf)
+  - [Imperva SecureSphere WAF](#imperva-securesphere-waf)
   - [MITM Interception Proxy](#mitm-interception-proxy)
   - [Jump Box](#jump-box)
   - [escrow = 3rd party trust](#escrow--3rd-party-trust)
@@ -91,7 +93,7 @@
   - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures)
   - [MoA : Memorandum Of Agreement](#moa--memorandum-of-agreement)
   - [ModSecurity WAF](#modsecurity-waf)
-  - [MRTG Multi Router Traffic Grapher](#mrtg-multi-router-traffic-grapher)
+  - [MRTG Multi Router Traffic Grapher SNMP](#mrtg-multi-router-traffic-grapher-snmp)
   - [Nagios = open source stats on services](#nagios--open-source-stats-on-services)
   - [NAPT = NAT](#napt--nat)
   - [NAXSI = nginX Anti XSS and SQL Injection](#naxsi--nginx-anti-xss-and-sql-injection)
@@ -114,7 +116,7 @@
   - [PHI Personal Health Info](#phi-personal-health-info)
   - [PII](#pii)
   - [Privilege Escalation](#privilege-escalation)
-  - [QRadar = SIEM from IBM](#qradar--siem-from-ibm)
+  - [QRadar SIEM](#qradar-siem)
   - [Qualys cloud vulnerability](#qualys-cloud-vulnerability)
   - [RPO Recovery point objective](#rpo-recovery-point-objective)
   - [RTO Recovery time objective](#rto-recovery-time-objective)
@@ -204,8 +206,6 @@
   - [Certs](#certs)
 
 
-
-
 ## 802.1x
 
 - Supplicant - requests access to network
@@ -253,6 +253,18 @@ TOR + VPN
 .onion sites are on the dark web
 
 Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
+
+## MAC Overflow Attack
+
+Causes the CAM Content Addressable Memory of a switch to be full
+
+Address resolution is therefore not possible
+
+Traffic is then sent out broadcast to all ports
+
+## Man In The Middle Attack
+
+For switches this can be caused by ARP Poisoning - false MAC address so traffic sent to wrong computer
 
 ## multihomed firewall
 

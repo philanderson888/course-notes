@@ -365,9 +365,9 @@ Data integrity
 
 #### Downtime 
 
-Critical - Resources should be down for only a few minutes or hours up to 24 hours max
+Critical - few minutes or hours response
 
-Urgent resources should be less than 24 hours
+Urgent - 24 hours response
 
 Normal - 7 days
 

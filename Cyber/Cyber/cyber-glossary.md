@@ -8,6 +8,7 @@
   - [Credential Stuffing](#credential-stuffing)
   - [Crimeware - General Tools](#crimeware---general-tools)
   - [Dark Web](#dark-web)
+  - [dd](#dd)
   - [DTP Dynamic Trunking Protocol](#dtp-dynamic-trunking-protocol)
   - [EHR Electronic Health Record](#ehr-electronic-health-record)
   - [MAC Overflow Attack](#mac-overflow-attack)
@@ -256,6 +257,10 @@ TOR + VPN
 .onion sites are on the dark web
 
 Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
+
+## dd
+
+Linux command to image a drive
 
 ## DTP Dynamic Trunking Protocol
 

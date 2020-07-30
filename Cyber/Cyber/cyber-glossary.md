@@ -8,6 +8,8 @@
   - [Credential Stuffing](#credential-stuffing)
   - [Crimeware - General Tools](#crimeware---general-tools)
   - [Dark Web](#dark-web)
+  - [DTP Dynamic Trunking Protocol](#dtp-dynamic-trunking-protocol)
+  - [EHR Electronic Health Record](#ehr-electronic-health-record)
   - [MAC Overflow Attack](#mac-overflow-attack)
   - [Man In The Middle Attack](#man-in-the-middle-attack)
   - [multihomed firewall](#multihomed-firewall)
@@ -254,6 +256,16 @@ TOR + VPN
 
 Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
 
+## DTP Dynamic Trunking Protocol
+
+Permits a switch to automatically link to other switches
+
+Potential rogue switch can auto join legitimate switches
+
+## EHR Electronic Health Record
+
+Contains PHI Personal Health Information
+
 ## MAC Overflow Attack
 
 Causes the CAM Content Addressable Memory of a switch to be full
@@ -395,8 +407,6 @@ evil jinks : phishing platform
 ## Targeted Attack And Tools
 
 With a specific target in mind
-
-
 
 ## trend analysis 
 

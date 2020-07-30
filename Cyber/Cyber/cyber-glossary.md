@@ -117,6 +117,7 @@
   - [PCI DSS](#pci-dss)
   - [PHI Personal Health Info](#phi-personal-health-info)
   - [PII](#pii)
+  - [PVLAN Private VLAN](#pvlan-private-vlan)
   - [Privilege Escalation](#privilege-escalation)
   - [QRadar SIEM](#qradar-siem)
   - [Qualys cloud vulnerability](#qualys-cloud-vulnerability)
@@ -695,6 +696,12 @@ Web Application Firewall : for data center
  
  ## PII 
  
+## PVLAN Private VLAN
+
+Isolated VLAN within VLAN
+
+PVLAN promiscuous talks on all ports
+
  ## Privilege Escalation 
  
  ## QRadar SIEM 

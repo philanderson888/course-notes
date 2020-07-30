@@ -45,6 +45,7 @@
     - [Create Group](#create-group)
     - [Show default gateway](#show-default-gateway)
     - [wget download file](#wget-download-file)
+    - [Linux socket](#linux-socket)
 - [Linux Notes](#linux-notes)
   - [Linux Introduction](#linux-introduction)
 
@@ -390,6 +391,8 @@ https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf
 nc -l -p 12345
 ```
 
+
+
 ### Linux Rescue Environment
 
 ### Apple Rescue Environment
@@ -420,15 +423,32 @@ sudo groupadd docker
 
 ### Show default gateway
 
+```bash
 route -n  
 ip route show
 netstat -rn
-
+```
 
 ### wget download file
 
 wget https://raw.githubusercontent.com/philanderson888/data/master/sampletextfile.txt
 
+
+### Linux socket
+
+http://manpages.ubuntu.com/manpages/trusty/man1/socket.1.html
+
+```bash
+# create server socket listening
+socket -sl 12345
+
+# create server socket and respond with message
+socket -wslqvp "socket is listening here" 12345
+
+# connect
+socket -v 1.2.3.4 12345
+
+```
 
 
 # Linux Notes

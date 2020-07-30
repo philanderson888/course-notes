@@ -517,7 +517,8 @@
       - [Probe wifi packet](#probe-wifi-packet)
     - [Availability Analysis](#availability-analysis)
 - [Incident Management](#incident-management)
-  - [IR = Incident Response Team](#ir--incident-response-team)
+  - [Incident Response Summary](#incident-response-summary)
+  - [CSIRT](#csirt)
     - [ITIL IT Support Best Practice Overview](#itil-it-support-best-practice-overview)
     - [ITIL Incident Management](#itil-incident-management)
     - [Technical](#technical)
@@ -525,9 +526,8 @@
     - [HR Human Resources](#hr-human-resources)
     - [Law Enforcement Agencies](#law-enforcement-agencies)
     - [3rd Party Incident Response Team](#3rd-party-incident-response-team)
-  - [Incident Response Steps (Exam)](#incident-response-steps-exam)
-    - [NIST Incident Handling Guide](#nist-incident-handling-guide)
   - [Incident Response Steps](#incident-response-steps)
+  - [NIST Incident Handling Guide](#nist-incident-handling-guide)
     - [Preparation : Prepare Your System](#preparation--prepare-your-system)
     - [Detection : Detect An Attack](#detection--detect-an-attack)
     - [Analysis : Analyse The Attack](#analysis--analyse-the-attack)
@@ -537,7 +537,6 @@
     - [Validate (that now OK)](#validate-that-now-ok)
     - [Corrective Actions](#corrective-actions)
     - [Summary Reporting](#summary-reporting)
-  - [CSIRT](#csirt)
     - [Comms](#comms)
     - [Classifying](#classifying)
       - [APT Advanced Persistent Threat](#apt-advanced-persistent-threat)
@@ -645,6 +644,7 @@
         - [RAT Remote Access Trojan](#rat-remote-access-trojan)
         - [nc Netcat (linux and windows)](#nc-netcat-linux-and-windows)
       - [Staging Area](#staging-area)
+  - [Incident Response](#incident-response)
     - [Lockdown](#lockdown)
       - [Removal](#removal)
       - [Isolate](#isolate)
@@ -10344,7 +10344,41 @@ Five 9’s = 99.999% uptime (gold standard of uptime over course of a year)
 
 # Incident Management
 
-## IR = Incident Response Team
+
+
+
+## Incident Response Summary
+
+incident preparation: irp harden comms
+
+incident prepare detect analyse recover
+
+incident recovery: containment: segmentation remove isolate reverse engineer
+
+incident recovery: eradication: sanitise(clean, wipe, zeros(not ssd)),reimage, dispose 
+
+incident recovery: validation: patch permission scan log
+
+incident recovery: correction: change control, lessons learned, update irp
+
+recovery phase: containment, eradication, validation
+
+containment: segment remove isolate reverse engineer
+
+eradicate: sanitise reconstruct secure-disposal
+
+correction: change control, lessons learned, update IRP
+
+
+## CSIRT 
+
+Computer Security Incident Response Team
+
+       Legal
+       HR
+       Marketing
+
+
 
 IRP
 
@@ -10355,6 +10389,8 @@ Runbook
 Emergency Contacts
 
 First Responders
+
+
 
 ### ITIL IT Support Best Practice Overview
 
@@ -10369,6 +10405,9 @@ Risk Management
 ISO Security Awareness
 
 Service Management
+
+
+
 
 ### ITIL Incident Management
 
@@ -10430,19 +10469,26 @@ Marketing Talk to media during a crisis - press release Create educational mater
 For small companies Capture Data Provide Logs Identify good tools Identify poor tools which could taint evidence
 
 
-## Incident Response Steps (Exam)
+## Incident Response Steps
+
+Exam
 
 1. Detect
-2. Respon
+2. Respond
 3. Report
 4. Recover
 5. Remediate
 6. Review
 
 
-### NIST Incident Handling Guide
 
-## Incident Response Steps
+
+
+
+
+## NIST Incident Handling Guide
+
+Incident Response Steps
 
 ### Preparation : Prepare Your System
 
@@ -10491,13 +10537,14 @@ Confidential communications
 
  on the Incident 
        
-## CSIRT 
 
-Computer Security Incident Response Team
 
-       Legal
-       HR
-       Marketing
+
+
+
+
+
+
        
 ### Comms
 
@@ -11549,6 +11596,12 @@ Analysis Paralysis
 
 
 
+## Incident Response
+
+Recovery: contain, eradicate, validate
+Containment: segment, remove, isolate, reverse engineer
+eradicate: sanitise,reconstruct,secure disposal
+Correction: Change control, lessons learned, update IRP
 
 
 ### Lockdown
@@ -11582,6 +11635,17 @@ Prevent ongoing intrusion
 #### Eradication
 
 Clean image on top of CE Cryptographic Erase (like bitlocker but throw away the key)
+
+
+
+
+
+
+
+
+
+
+
 
 ##### NIST 800-88 sanitizatision
 

@@ -444,10 +444,6 @@ attack vector = path of attack
 dropped = malware placed on your system
 malvertising
 malspam
-Recovery: contain, eradicate, validate
-Containment: segment, remove, isolate, reverse engineer
-eradicate: sanitise,reconstruct,secure disposal
-Correction: Change control, lessons learned, update IRP
 Sheep dip = isolated computer and allow virus to try to attack while monitoring it
 Heuristic = real time
 Anomaly = pattern
@@ -537,10 +533,6 @@ CoA courses of action
 Kill Chain: find fix track target engage assess
 Kill Chain: reconnaisance weaponise deliver exploit install command and control actions
 pivot point of entry
-recovery phase: containment, eradication, validation
-containment: segment remove isolate reverse engineer
-eradicate: sanitise reconstruct secure-disposal
-correction: change control, lessons learned, update IRP
 sheep dip is isolated infected computer
 heuristic
 anomaly = pattern
@@ -733,12 +725,6 @@ siem = log and analyse
 siem = hadoop 
 siem = alien vault
 event viewer = evtx
-incident preparation: irp harden comms
-incident prepare detect analyse recover
-incident recovery: containment: segmentation remove isolate reverse engineer
-incident recovery: eradication: sanitise(clean, wipe, zeros(not ssd)),reimage, dispose 
-incident recovery: validation: patch permission scan log
-incident recovery: correction: change control, lessons learned, update irp
 CSIRT
 MITRE STIX Structured Threat Info Expression
 MITRE STIX: observe, indicator (patterns of observables), TTP tactics threats and procedures

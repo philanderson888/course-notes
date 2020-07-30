@@ -14,6 +14,7 @@
     - [run a new shell](#run-a-new-shell)
     - [reboot](#reboot)
     - [Get Linux Running Processes](#get-linux-running-processes)
+    - [List Open Files](#list-open-files)
     - [Everything is a file!](#everything-is-a-file)
     - [Naming](#naming)
     - [Hidden Files](#hidden-files)
@@ -162,6 +163,10 @@ cd 'Macintosh HD'
 or 
 cd Volumes
 ```
+
+### List Open Files
+
+lsof
 
 ### Everything is a file!
 

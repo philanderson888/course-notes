@@ -38,8 +38,6 @@ CTI COMPUTER TELEPHONY INTEGRATION
 ISA INTERCONNECTION SECURITY AGREEMENT BETWEEN TWO COMPANIES TO SPECIFY TECHNICAL RELATIONSHIPS
 MOU MEMORANDUM OF UNDERSTANDING : INFORMAL AGREEMENT
 BPA BUSINESS PARTNER AGREEMENT
-IRP INCIDENT RESPONSE POLICY
-AUP ACCEPTABLE USE POLICY
 BCP BUSINESS CONTINUITY PLAN
 DRP DISASTER RECOVERY PLAN
 BIA BUSINESS IMPACT ANALYSIS : ANALYSE THREATS AND VULNERABILITIES
@@ -306,7 +304,6 @@ Asymmetric : DH RSA ECC
 Cipher Suite uses both Asymmetric and Symmetric tools
 CTI Computer-Telephony Integration
 ISA Interconnection Security Agreement in technical detail between two parties
-IRP Incident Response Policy
 AUP Acceptable Use Policy
 BCP Business Continuity Plan
 DRP Disaster Recovery Plan
@@ -676,14 +673,13 @@ probe in wifi
 STIX structured threat info expression
 Mandiant = OpenIOC indicators of compromise
 Scope = downtime + recovery time + data integrity + economic loss
-playbook = runbook = incident response 'what to do if get hit'
+playbook = runbook = 'what to do if get hit'
 playbook = contains runbooks 
 runbook = sequence of steps
 PHI personal health info
 PII
 FTK forensic toolkit
 write blocker
-IRP incident response plan
 playbook 1) get system running 2) preserve evidence 3) prevent recurrence
 volatile places: Swap file, routing table, RAM
 EnCase does forensics

@@ -5,31 +5,45 @@
 - [Controls](#controls)
   - [Contents](#contents)
   - [Introduction](#introduction)
-      - [NIST](#nist)
+  - [NIST](#nist)
+  - [CSA+](#csa)
+  - [CIS](#cis)
   - [Control Standards](#control-standards)
   - [Control Classifications](#control-classifications)
   - [Physical Control](#physical-control)
   - [Logical Control](#logical-control)
   - [Access Controls](#access-controls)
   - [Compensating control](#compensating-control)
+    - [CSA+ categories](#csa-categories)
+    - [classify by function](#classify-by-function)
+  - [Mangement Controls](#mangement-controls)
+    - [User Training](#user-training)
+    - [Policies and Procedures](#policies-and-procedures)
+    - [Auditing](#auditing)
+  - [Technical Controls](#technical-controls)
+    - [Sofware updating](#sofware-updating)
+    - [Intrusion](#intrusion)
 
 ## Introduction
 
 This section deals with the different classes of control
 
-#### NIST
+## NIST
 
-NIST National Institute for Standards and Tech
-NIST CSD Computer Security Division
-NIST FIPS Federal Information Processing Standards
+National Institute for Standards and Tech
 
-NIST FIPS 200
+- CSD Computer Security Division
+- FIPS Federal Information Processing Standards
+  - FIPS 200
+- NIST 800-53 baseline security standards
 
-NIST 800-53 baseline security standards
+NIST Control Families
+- Access
+- Audit
+- Response
+- Risk
 
-NIST control family - Access, Audit, Response, Risk
-
-NIST classes are 
+NIST Control Classes
 - Technical
   - Firewall
   - AV
@@ -48,6 +62,8 @@ NIST classes are
   - Planning
   - Risk Assessment
   - Authorisation
+
+## CSA+
 
 CSA+ Controls - Physical (alarm, lock, fence,CCTV, mantrap, guard, badge), Logical, Admin 
 CSA+ Logical Control = software - OS, app, AV, ACL, IDS, password, biometric, smartcard, encryption, backup
@@ -75,6 +91,13 @@ CoA = Courses of Action = Matrix of Action
 FIPS 199 Impact Analysis = High/Med/Low
 
 
+##  CIS 
+
+Center For Internet Security
+
+  - Publishes 20 categories of security controls
+  - CIS controls
+    - Hardware assets, Software assets, Vulnerabilities, Admin Privileges, Secure Config on Client/Servers, Log monitoring, Email, Browser, Malware, Network ports & protocols, Data recovery, Firewall/Router/Switch config, Boundary Defence, Training, App security, Incident Response, Pen Tests
 
 
 
@@ -349,3 +372,103 @@ eg data backup
 eg putting a system offline
 
 Also compensating control can be implemented if the preferred solution is not implemented
+
+
+
+### CSA+ categories
+
+```
+       Physical controls eg alarm, gateway, locks, fence, guard, CCTV, badge
+       
+       Logical controls eg OS, apps, ACL, IDS, passwords, biometrics, smartcards
+              encryption, backups
+    
+       Admin controls
+              admin 
+              personnel
+    
+              eg policy, procedure, admin, separation of duties, job rotation, disaster plan, 
+                      security awareness training
+    
+       Detective controls alert if issue
+              monitoring, job rotation, IDS, audit, guard, CCTV
+    
+       Recovery controls return to normal function eg DRP Disaster recovery plan, 
+              data backup, alternate sites
+    
+       Preventative controls prevent issues from happening
+              Security awareness training, separation of duties, biometrics, encryption, 
+                      mantrap, badge, guard
+```
+
+### classify by function
+
+```
+       Prevent
+       
+       Deter
+       
+              discourages
+              
+       Detect
+       
+       Corrective : detect and act
+    
+              Change control happens here
+       
+       Compensating : restore backup or alternative site
+
+
+       NIST 5 CORE FUNCTIONS (for Improving Critical Infrastructure Cybersecurity)
+    
+              Identify
+                      Risk Assess
+                      Asset Manage
+                      Govern
+                      Business Environment
+                      Risk Management Strategy
+    
+              Protect
+    
+              Detect
+    
+              Respond
+    
+              Recover
+    
+                      ... see other place in this document for full detail on this ...
+```
+
+
+## Mangement Controls
+
+### User Training
+
+### Policies and Procedures
+
+IRP Incident Response Policy
+
+Ethical Hacking : Penetration Testing
+
+### Auditing
+
+Log management
+
+## Technical Controls
+
+### Sofware updating
+
+Software updating : OS
+
+Software updating : AV
+
+Software updating : apps
+
+Software updating : libraries
+
+### Intrusion
+
+DNS Poisoning
+
+
+

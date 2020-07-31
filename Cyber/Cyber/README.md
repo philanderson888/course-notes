@@ -366,11 +366,9 @@
     - [CISO Chief Info Security Officer](#ciso-chief-info-security-officer)
   - [Framework](#framework)
     - [NIST National Institue Standards Technology](#nist-national-institue-standards-technology)
-  - [Control](#control)
-  - [Frameworks And Policies](#frameworks-and-policies)
+  - [Control Types](#control-types)
+  - [Frameworks](#frameworks)
   - [Controls](#controls)
-    - [CSA+ categories](#csa-categories)
-    - [classify by function](#classify-by-function)
     - [CoA Courses Of Action Matrix](#coa-courses-of-action-matrix)
     - [Quantitative risk](#quantitative-risk)
     - [Qualitative](#qualitative)
@@ -386,13 +384,6 @@
     - [Scanning frequency](#scanning-frequency)
     - [Ongoing scanning](#ongoing-scanning)
 - [Threat Management](#threat-management)
-  - [Mangement Controls](#mangement-controls)
-    - [User Training](#user-training)
-    - [Policies and Procedures](#policies-and-procedures)
-    - [Auditing](#auditing)
-  - [Technical Controls](#technical-controls)
-    - [Sofware updating](#sofware-updating)
-    - [Intrusion](#intrusion)
   - [Certification](#certification)
   - [policies](#policies)
 - [Succession planning](#succession-planning)
@@ -8330,47 +8321,20 @@ CSIRT Computer Security Incident Response Team
 
 ## Cyber Organisations
 
+- NIST guidance
 - EC-Council : Certified Ethical Hacker CEH
 - (ISC)squared - CISSP Certified Info Security Systems Professional 
 - CASP CompTIA Advanced Security Practitioner
 - ISACA - CISA/CISM Certified Info Systems Auditor/Manager 
-
-
-- CIS Center for Internet Security [cisecurity.org](http://cisecurity.org/)
+- CIS Center for Internet Security [cisecurity.org](http://cisecurity.org/)  
   - Publishes 20 categories of security [controls](controls.md)
-
-
-- OWASP has top 10 web attacks
-- SANS/GIAC
-  - software development
-
-- ISO provides standards
-  - ISO 27001 Describes ISMS Info Security Management System = set of policies and procedures for managing sensitive data
-  - ISO 9001 Quality Management System
-
-
-
-CyberArk
-
-       CyberArk bought Conjur who deal with DevOps
-       CybarArk bought Vaultive who deal with cloud security
-       Cyborg Security [https://www.ccfis.net/](https://www.ccfis.net/)
-       Skytap cloud migration [https://www.skytap.com/](https://www.skytap.com/)
-       EDR Endpoint Detection and Response (eg Antivirus)
-       NGAV Next Generation Anti Virus : has AV + detects common attack vectors with both client/server detection
-
-
-
-
-NSO in Israel [https://en.wikipedia.org/wiki/NSO_Group](https://en.wikipedia.org/wiki/NSO_Group)
-
-Summary of organisations
-- SANS/GIAC - secure coding
-- OWASP - top 10 web vulnerabilities
-- CIS top 20 internet controls
+- OWASP has top 10 web vulnerabilities and attacks
+- SANS/GIAC - secure coding and software development
 - ISO standards
-- NIST guidance
-
+  - ISO 27001 Describes ISMS Info Security Management System = set of policies and procedures for 
+    - managing sensitive data
+  - ISO 9001 Quality Management System
+- NSO in Israel [https://en.wikipedia.org/wiki/NSO_Group](https://en.wikipedia.org/wiki/NSO_Group)
 
 
 
@@ -8427,6 +8391,8 @@ Security control
 
 ### NIST National Institue Standards Technology
 
+[](frameworks.md)
+
 NIST provides GUIDANCE (not best practice which is ITIL)
 
   => Computer Security Division
@@ -8434,6 +8400,7 @@ NIST provides GUIDANCE (not best practice which is ITIL)
         => FIPS Federal Info Processing Standards
         
                 FIPS 200 : minimum standards for US government non-military computers
+
                 NIST 800-53 : setting baseline security standards
                 
                 18 families of control eg Access, Audit, Incident Response,
@@ -8462,81 +8429,17 @@ NIST provides GUIDANCE (not best practice which is ITIL)
 
         
 
-## [Control](controls.md)
+## Control Types
 
-## Frameworks And Policies
+[Controls](controls.md)
 
-[Frameworks And Policies](frameworks-and-policies.md)
+## Frameworks
+
+[Frameworks](frameworks.md)
 
 ## Controls
 
 [controls](controls.md)
-
-
-### CSA+ categories
-
-```
-       Physical controls eg alarm, gateway, locks, fence, guard, CCTV, badge
-       
-       Logical controls eg OS, apps, ACL, IDS, passwords, biometrics, smartcards
-              encryption, backups
-    
-       Admin controls
-              admin 
-              personnel
-    
-              eg policy, procedure, admin, separation of duties, job rotation, disaster plan, 
-                      security awareness training
-    
-       Detective controls alert if issue
-              monitoring, job rotation, IDS, audit, guard, CCTV
-    
-       Recovery controls return to normal function eg DRP Disaster recovery plan, 
-              data backup, alternate sites
-    
-       Preventative controls prevent issues from happening
-              Security awareness training, separation of duties, biometrics, encryption, 
-                      mantrap, badge, guard
-```
-
-### classify by function
-
-```
-       Prevent
-       
-       Deter
-       
-              discourages
-              
-       Detect
-       
-       Corrective : detect and act
-    
-              Change control happens here
-       
-       Compensating : restore backup or alternative site
-
-
-       NIST 5 CORE FUNCTIONS (for Improving Critical Infrastructure Cybersecurity)
-    
-              Identify
-                      Risk Assess
-                      Asset Manage
-                      Govern
-                      Business Environment
-                      Risk Management Strategy
-    
-              Protect
-    
-              Detect
-    
-              Respond
-    
-              Recover
-    
-                      ... see other place in this document for full detail on this ...
-```
-
 
 
 
@@ -8770,37 +8673,7 @@ Workflow - who can approve changes
 
 # Threat Management
 
-## Mangement Controls
-
-### User Training
-
-### Policies and Procedures
-
-IRP Incident Response Policy
-
-Ethical Hacking : Penetration Testing
-
-### Auditing
-
-Log management
-
-## Technical Controls
-
-### Sofware updating
-
-Software updating : OS
-
-Software updating : AV
-
-Software updating : apps
-
-Software updating : libraries
-
-### Intrusion
-
-DNS Poisoning
-
-
+[controls](controls.md)
 
 
 
@@ -10342,19 +10215,14 @@ Audits Internal External
 
 Assessments
 
-```
        Formal evaluation against a checklist 
-```
 
 Evaluations
 
-```
        Evaluation = bigger picture : several assessments make up one evaluation
-```
 
 Maturity Models
 
-```
        Assess how well developed a company's security models are
 
        Tier 2 : Risk Assess
@@ -10367,4 +10235,3 @@ Maturity Models
               Compliant
               Proactive
               Optimised
-```

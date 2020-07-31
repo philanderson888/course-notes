@@ -501,7 +501,6 @@ bastion on DMZ
 DAI dynamic APR
 HSTS https strict transport security only allows HTTPS
 NIST core : identify (assets and risks) protect (acl, train, maintain) detect (event, anomalies, continuous) respond (IRP, comms,analyse, mitigate) recover
-
 COBIT control objectives for IT ie how do we manage IT in business environment
 ITIL best practice
 NIST standards

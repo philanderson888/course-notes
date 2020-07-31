@@ -25,6 +25,7 @@
   - [packet analysis](#packet-analysis)
   - [penetration test steps](#penetration-test-steps)
   - [vulnerability scan steps](#vulnerability-scan-steps)
+  - [incident response steps](#incident-response-steps)
   - [PIPEDA](#pipeda)
   - [protocol analysis](#protocol-analysis)
   - [Reverse Proxy Server](#reverse-proxy-server)
@@ -382,6 +383,15 @@ Exam version although I prefer the one above
 5. Results
 6. Remediate
 7. Ongoing scanning
+
+## incident response steps
+
+1. detect
+2. respond
+3. report
+4. recover
+5. remediate
+6. review
 
 ## PIPEDA 
 

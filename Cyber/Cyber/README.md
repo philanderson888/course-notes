@@ -479,10 +479,9 @@
       - [QRadar](#qradar)
       - [Alien Vault is SIEM (gathering data) tool](#alien-vault-is-siem-gathering-data-tool)
       - [OSSIM Open Source Security Info Mgt](#ossim-open-source-security-info-mgt)
-      - [Syslog COLLECTS LOGS CENTRALLY](#syslog-collects-logs-centrally)
-        - [KiwiSyslog.com](#kiwisyslogcom)
+      - [KiwiSyslog.com](#kiwisyslogcom)
     - [Windows Event Viewer](#windows-event-viewer)
-    - [Syslog (linux events)](#syslog-linux-events)
+    - [Syslog](#syslog)
     - [Firewall logging](#firewall-logging)
       - [Linux iptables](#linux-iptables)
       - [Packet logging](#packet-logging)
@@ -512,10 +511,15 @@
   - [Data Aggregation](#data-aggregation)
   - [Data Correlation](#data-correlation)
   - [Logs](#logs-1)
-  - [Trends](#trends)
+  - [Syslog](#syslog-1)
   - [Remediation = risk mitigation = reducing risk](#remediation--risk-mitigation--reducing-risk)
-  - [Deterrent](#deterrent)
-- [SECaaS security as a service eg cloud AV](#secaas-security-as-a-service-eg-cloud-av)
+  - [Managed Security Services Provider](#managed-security-services-provider)
+- [SECaaS](#secaas)
+  - [Policy](#policy)
+  - [Procedure : task steps](#procedure--task-steps)
+  - [SOP Standard Operating Procedure](#sop-standard-operating-procedure)
+  - [Guidance](#guidance)
+  - [Continuous security monitoring](#continuous-security-monitoring)
   - [V&V Verification and Validation](#vv-verification-and-validation)
     - [Verification = compliance](#verification--compliance)
     - [Validation = functionality](#validation--functionality)
@@ -9748,11 +9752,9 @@ SPL splunk search processing language
 
    integrate SNORT and OpenVAS vulnerability scanner
               
-#### Syslog COLLECTS LOGS CENTRALLY
+#### KiwiSyslog.com
 
-##### KiwiSyslog.com
-
-      store SNMP logs
+store SNMP logs
 
 
 ### Windows Event Viewer
@@ -9765,7 +9767,9 @@ Information Event 1102 is CLEARING THE SECURITY LOGS (Note : Transcender error :
 
 Information Event 4719 is CHANGING AUDIT POLICY
 
-### Syslog (linux events)
+### Syslog 
+
+linux event log
 
 centralised collection
 
@@ -9773,14 +9777,12 @@ collect CISCO events
 
 severity
 
-```
        0 emergency
        1 alert
        2 critical
        3 error
        4 warning 
        5,6 info
-```
 
 ### Firewall logging
 
@@ -10124,56 +10126,43 @@ SIEM eg Splunk and OSSIM : relating data to each other to find trends or relatio
 
 ## Logs
 
-Firewall eg block packet at layer 3 Syslog - central logging for Unix and Linux Authentication eg Security Log Event Logs eg System or Application Log
+Firewall eg block packet at layer 3 
 
-Historical Trends, lessons learned
+## Syslog
 
-## Trends
+central logging for Unix and Linux Authentication eg Security Log Event Logs eg System or Application Log
 
 ## Remediation = risk mitigation = reducing risk
 
-## Deterrent
+## Managed Security Services Provider
 
-Make threat less likely or less costly
+outsource your security!!!
 
-Avoid risk
+# SECaaS 
 
-Transfer risk
-Accept risk
+Security as a service eg cloud AV
 
-
-Defence In Depth : Technical
-
-Scanning Permissions Prevent machine on network (NAC) Auto reporting Security hardware Security software Outsourcing to experts CIA encryption etc
-
-Defence in Depth : Personnel User training Dual control Separation of duties Cross train Vet 3rd party Mandatory vacation
-
-Consultants : give advice
-
-Managed Security Services Provider : outsource your security!!!
-
-# SECaaS security as a service eg cloud AV
-
-Policy
+## Policy
 
 Standard : measure compliance with a policy
 
-Procedure : SOP : task steps
+## Procedure : task steps
 
-Guidance : where no procedures exist
+## SOP Standard Operating Procedure
 
-Continuous security monitoring
+## Guidance
 
-RUM Real User Monitoring : Captures every transaction on a live web app 
+where no procedures exist
 
-Synthetic Monitoring : Only testing simulated transactions (not real ones)
+## Continuous security monitoring
 
-Continusously monitor for:
-
-  Assets
-  Vulnerabilities
-  Threats
-  Business Impact
+- RUM Real User Monitoring : Captures every transaction on a live web app 
+- Synthetic Monitoring : Only testing simulated transactions (not real ones)
+- Continusously monitor for:
+  - Assets
+  - Vulnerabilities
+  - Threats
+  - Business Impact
 
   Establish continuous monitoring program which has
     Metrics (what we measure)

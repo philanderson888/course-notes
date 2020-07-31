@@ -50,7 +50,6 @@
   - [Aircrack-ng](#aircrack-ng)
   - [ArcSight SIEM](#arcsight-siem)
   - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt)
-  - [Syslog](#syslog-1)
   - [Autopsy](#autopsy)
   - [Beaconing](#beaconing)
   - [Birthday Attack](#birthday-attack)
@@ -96,7 +95,6 @@
   - [escrow = 3rd party trust](#escrow--3rd-party-trust)
   - [M of N](#m-of-n)
   - [Kill Chain](#kill-chain)
-  - [Kiwi Syslog](#kiwi-syslog)
   - [Metasploit](#metasploit)
   - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures)
   - [MoA : Memorandum Of Agreement](#moa--memorandum-of-agreement)
@@ -483,10 +481,6 @@ by HP
 
 COLLECT AND ANALYSE DATA 
 
-## Syslog
-
-COLLECT DATA ONLY 
-
 ## Autopsy
 
 front end for Sleuth : disk imaging and file analysis
@@ -653,10 +647,6 @@ Web Application Firewall : for data center
  
  stages of attack 
  
- ## Kiwi Syslog
- 
- central log management 
- 
  ## Metasploit
  
  exploit framework
@@ -768,6 +758,8 @@ PVLAN promiscuous talks on all ports
  ## SABSA 
  
  Sherwood Applied Business Security Architecture 
+
+ Risk-driven enterprise security architecture
  
  ## SANS SysAdmin, Network, Security 
  

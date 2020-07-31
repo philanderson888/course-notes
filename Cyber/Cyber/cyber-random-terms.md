@@ -490,7 +490,6 @@ OPENVAS vulnerability scanner part of OSSIM
 FPC full packet capture
 1102 clear security logs
 4719 change audit policy
-syslog 3 error
 RNA retrospective network analysis
 playbook
 runbook 
@@ -593,7 +592,6 @@ armitage = metasploit GUI
 Nessus scans against CIS benchmarks for compliance
 CVSS common vulneraibility scoring system : how vulnerable is a system
 alient vault SIEM
-syslog - logs only
 SIEM log and analyse
 SOP standard operating procedures
 RFC request for change
@@ -663,8 +661,6 @@ SIEM splunk arcsight qradar alienvault ossim syslog eventviewer
 splunk = hadoop big data
 spl = splunk = search processing language
 OSSIM open source security info mgt : integrates snort with openvas
-syslog has central logs
-kiwisyslog
 iptables logs linux firewall activity
 pcap logs packets
 tcpdump uses pcap
@@ -720,7 +716,6 @@ blinding = flood plus attack
 proxy can be transparent or non-transparent when have to configure client
 NIDS: Snort Bro Sourcefire 
 Injection: ettercap dsniff hping nemesis
-syslog = log
 siem = log and analyse
 siem = hadoop 
 siem = alien vault
@@ -1007,7 +1002,6 @@ Aircrack-ng wireless
 APT Advanced Persistent Threat : stronghold from which bad guys launch other software
 ArcSight by HP : security suite
 SIEM = general term = Security Info and Event Mgt. COLLECT AND ANALYSE DATA
-Syslog = COLLECT DATA ONLY
 Autopsy = front end for Sleuth : disk imaging and file analysis
 Birthday Attack = 2 files, same hash
 Black hole = drop all traffic
@@ -1050,7 +1044,6 @@ Jump Box = in DMZ, provides access to admin consoles of other machines in DMZ
 escrow = 3rd party trust
 M of N = M keyholders must be present to unlock N keys
 Kill Chain - stages of attack
-Kiwi Syslog = central log management
 Metasploit = exploit framework = launch modular attacks from this; each module attacks one particular CVE
 CVE Common Vulnerabilities and Exposures
 MoA : Memorandum Of Agreement : informal agreement for 2 parties to work together : forms basis of legal contract

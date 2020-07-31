@@ -206,7 +206,6 @@
   - [lan turtle](#lan-turtle)
   - [Dark Web Scanning](#dark-web-scanning)
   - [Hacking Techniques](#hacking-techniques)
-  - [Packet Analyzer](#packet-analyzer)
   - [Password Crackers](#password-crackers)
   - [Hosting](#hosting)
   - [Hacker Tools](#hacker-tools)
@@ -1059,11 +1058,6 @@ https://www.echosec.net/open-source-threat-intelligence#software
 War Driving [https://wigle.net/](https://wigle.net/)
 
 Targeted Spray
-
-## Packet Analyzer
-
-TCPDump.org
-
 
 ## Password Crackers
 - Caine

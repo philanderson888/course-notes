@@ -663,7 +663,6 @@ spl = splunk = search processing language
 OSSIM open source security info mgt : integrates snort with openvas
 iptables logs linux firewall activity
 pcap logs packets
-tcpdump uses pcap
 TTP tactics techniques procedures
 FPC full packet capture needs a lot of disk space
 RNA retrospective network analysis needs loads of storage

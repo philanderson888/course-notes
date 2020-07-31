@@ -192,7 +192,6 @@ incident response
 
 book 2 random
 
-tcpdump
 windump
 sniffer ettercap
 snort

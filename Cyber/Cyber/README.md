@@ -288,7 +288,6 @@
     - [Superscan 4](#superscan-4)
     - [Angry IP Scanner](#angry-ip-scanner)
     - [IPScan24](#ipscan24)
-    - [TcpDump on Linux](#tcpdump-on-linux)
   - [Footprinting](#footprinting)
   - [Footprinting = Topology Discover](#footprinting--topology-discover)
     - [Network Mapping Tools](#network-mapping-tools)
@@ -453,18 +452,6 @@
       - [C2](#c2)
     - [Action on objectives](#action-on-objectives)
     - [Concealment](#concealment)
-- [Logging](#logging)
-    - [Sniffer](#sniffer)
-      - [WinPCAP = sniffer = LibPCAP](#winpcap--sniffer--libpcap)
-    - [Network Protocol Analyser](#network-protocol-analyser)
-      - [Wireshark](#wireshark-2)
-      - [Kismet : WIFI linux](#kismet--wifi-linux)
-      - [TCPDump : Linux](#tcpdump--linux)
-      - [Dsniff : Linux](#dsniff--linux)
-      - [Ettercap](#ettercap)
-      - [Sniffing Tools](#sniffing-tools)
-      - [TCP FLAGS WHEN SNIFFING](#tcp-flags-when-sniffing)
-  - [WIFI tools](#wifi-tools)
   - [Network Monitoring](#network-monitoring)
   - [Incident Response](#incident-response)
 - [Analysing Data : Data Analytics](#analysing-data--data-analytics)
@@ -6668,10 +6655,6 @@ http://cleansofts.org/download/advanced-ip-scanner.html
 Download http://www.advanced-ip-scanner.com/download/ipscan24.exe
 ```
 
-### TcpDump on Linux
-
-
-
 
 
 
@@ -9477,87 +9460,6 @@ AV : EMET Enhanced Mitigation Experience Toolkit
 
 
 
-
-
-
-
-
-
-# Logging
-
-### Sniffer
-
-#### WinPCAP = sniffer = LibPCAP
-   
-       promiscuous mode : listen to all packets
-       
-                     Switch : must port mirror to listen to traffic on other ports
-                     
-       Note : can disable promiscuous mode on all network devices to prevent a sniffer from reading full contents of all packets
-              
-              
-              
-### Network Protocol Analyser
-
-#### Wireshark
-
-#### Kismet : WIFI linux
-
-#### TCPDump : Linux
-    
-#### Dsniff : Linux
-
-#### Ettercap
-       
-
-Protocol Analysis : analyse IP TO/FROM, PORT TO/FROM, MAC TO/FROM
-
-Packet Analysis : analyse the WHOLE PACKET INCLUDING DATA
-
-Traffic Analysis : different types of traffic
-
-Netflow Analysis : from Cisco : looks at different ‘flows’ of traffic or ‘conversations’ eg Skype conversation, DNS traffic flow, etc
-
-Network monitoring most active hosts hosts producing packets in error filter baseline generate frames for testing bandwidth alarms
-
-#### Sniffing Tools
-
-TCPDump
-       windump
-       tcpdump -i eth0
-
-Wireshark
-       .pcap file output
-
-Netscout / Network General
-
-#### TCP FLAGS WHEN SNIFFING
-
-  colasoft packet builder
-    
-    RST reset forcibly
-    
-    FIN reset cleanly
-
-
-
-## WIFI tools
-
-AirPCAP
-
-Aircrack-ng
-
-Injection Tools
-
-Dsniff
-
-Ettercap
-
-hping
-
-Nemesis
-
-Scapy
 
 
 

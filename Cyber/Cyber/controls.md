@@ -5,28 +5,51 @@
 - [Controls](#controls)
   - [Contents](#contents)
   - [Introduction](#introduction)
+  - [Overview Summary Notes](#overview-summary-notes)
+  - [Controls By Function](#controls-by-function)
   - [NIST](#nist)
-  - [CSA+](#csa)
+  - [CSA+ Control Classes](#csa-control-classes)
   - [CIS](#cis)
+  - [Control Types](#control-types)
+    - [Technical Control](#technical-control)
+    - [Management Control](#management-control)
+    - [Operational Control](#operational-control)
   - [Control Standards](#control-standards)
   - [Control Classifications](#control-classifications)
-  - [Physical Control](#physical-control)
-  - [Logical Control](#logical-control)
-  - [Access Controls](#access-controls)
-  - [Compensating control](#compensating-control)
+    - [Preventive Controls](#preventive-controls)
+    - [Detective Controls ** AFTER THE EVENT **](#detective-controls--after-the-event-)
+    - [Corrective Controls](#corrective-controls)
+    - [Deterrent](#deterrent)
+    - [Compensating Control](#compensating-control)
+  - [Controls](#controls-1)
+    - [Physical Control](#physical-control)
+    - [Logical Control](#logical-control)
+    - [Access Controls](#access-controls)
+    - [Compensating control](#compensating-control-1)
     - [CSA+ categories](#csa-categories)
-    - [classify by function](#classify-by-function)
+    - [Control Classes](#control-classes)
+  - [NIST 5 Core Functions](#nist-5-core-functions)
   - [Mangement Controls](#mangement-controls)
-    - [User Training](#user-training)
-    - [Policies and Procedures](#policies-and-procedures)
-    - [Auditing](#auditing)
   - [Technical Controls](#technical-controls)
-    - [Sofware updating](#sofware-updating)
-    - [Intrusion](#intrusion)
+  - [Extra](#extra)
 
 ## Introduction
 
 This section deals with the different classes of control
+
+## Overview Summary Notes
+
+
+
+## Controls By Function
+- Prevent
+- Deter
+- Detect
+- Correct during
+- Compensate - can use instead of recommended control 
+
+
+
 
 ## NIST
 
@@ -63,32 +86,35 @@ NIST Control Classes
   - Risk Assessment
   - Authorisation
 
-## CSA+
+## CSA+ Control Classes
 
-CSA+ Controls - Physical (alarm, lock, fence,CCTV, mantrap, guard, badge), Logical, Admin 
-CSA+ Logical Control = software - OS, app, AV, ACL, IDS, password, biometric, smartcard, encryption, backup
-CSA+ Admin - Policy, Procedure
+- Physical (alarm, lock, fence,CCTV, mantrap, guard, badge)
+- Logical
+  - software
+  - OS
+  - app
+  - AV
+  - ACL
+  - IDS
+  - password
+  - biometric, smartcard, encryption, backup
+- Admin 
+  - Policy
+  - Procedure
 
 CSA+ Controls
-  Operational
-    Policy
-      AUP
-      Clean Desk
-      Disaster Recovery
-      Business Continuity
-    Procedures
-  Technical
-    Permissions
-  Physical
+- Operational
+  - Policy
+  - AUP
+  - Clean Desk
+  - Disaster Recovery
+  - Business Continuity
+  - Procedures
+- Technical
+    - Permissions
+- Physical
 
 
-Function : prevent, deter, detect, correct(during), compensate(after)
-- Compensating Control - use when primary control fails.  EG encryption, separation of duties, user training
-- Corrective Control - takes action to reduce effect of an attack (during)
-
-CoA = Courses of Action = Matrix of Action
-
-FIPS 199 Impact Analysis = High/Med/Low
 
 
 ##  CIS 
@@ -100,8 +126,9 @@ Center For Internet Security
     - Hardware assets, Software assets, Vulnerabilities, Admin Privileges, Secure Config on Client/Servers, Log monitoring, Email, Browser, Malware, Network ports & protocols, Data recovery, Firewall/Router/Switch config, Boundary Defence, Training, App security, Incident Response, Pen Tests
 
 
+## Control Types
 
-Technical Control
+### Technical Control
 
     Using technology eg 
 
@@ -125,7 +152,7 @@ Technical Control
 
         Motion detection camera
 
-Management Control
+### Management Control
 
     Create POLICIES 
 
@@ -169,7 +196,7 @@ Management Control
 
         ACTUALLY BREAK IN TO YOUR SYSTEM
 
-Operational Control
+### Operational Control
 
     Day-to-day implementation of policies etc advised
         by management
@@ -203,7 +230,7 @@ NIST National Institute for Standards And Technology
 
 ## Control Classifications
 
-Preventive Controls
+### Preventive Controls
 
     STOP ATTACK!!
 
@@ -231,7 +258,7 @@ Preventive Controls
             PERIOD OF TIME
 
         
-Detective Controls ** AFTER THE EVENT **
+### Detective Controls ** AFTER THE EVENT **
 
     Logs
         Firewall Log        
@@ -261,7 +288,7 @@ Detective Controls ** AFTER THE EVENT **
 
     Video : detect AFTER if something happened
 
-Corrective Controls
+### Corrective Controls
 
     IPS Intrusion Prevention (active control)
         TAKE ACTION EG PUT ATTACKER MACHINE ON 
@@ -269,7 +296,7 @@ Corrective Controls
 
     Backup : can restore if attacked
 
-Deterrent
+### Deterrent
 
     Warning signs eg Building, at Logon
 
@@ -279,21 +306,24 @@ Deterrent
 
     Just a clear sign to enemy : don't attack
 
-Compensating Control
+### Compensating Control
 
     If primary mechanism not working, then do x instead
 
     eg Smart cards not working ==> instead get ONE TIME 
             PASSWORD TO LOG IN
 
-## Physical Control
+
+## Controls
+
+### Physical Control
 
 - Cipher Lock on door = KEYPAD
 - Proximity Card 
 - Tailgating : following someone through secure door
 - Mantrap : force people one by one 
 
-## Logical Control
+### Logical Control
 
 - admin
 - computer
@@ -320,7 +350,7 @@ Compensating Control
     guest account is built in to Windows! DISABLE IT!!
 - Time-of-day restrictions 
 
-## Access Controls
+### Access Controls
 
 - Role Based Access
     Permissions AUTO SET according to your job role
@@ -364,7 +394,7 @@ Compensating Control
 
                 ((Linux SELinux))
 
-## Compensating control
+### Compensating control
 
 Compensating control - in place in case the primary control fails
 
@@ -377,98 +407,57 @@ Also compensating control can be implemented if the preferred solution is not im
 
 ### CSA+ categories
 
-```
-       Physical controls eg alarm, gateway, locks, fence, guard, CCTV, badge
-       
-       Logical controls eg OS, apps, ACL, IDS, passwords, biometrics, smartcards
-              encryption, backups
-    
-       Admin controls
-              admin 
-              personnel
-    
-              eg policy, procedure, admin, separation of duties, job rotation, disaster plan, 
-                      security awareness training
-    
-       Detective controls alert if issue
-              monitoring, job rotation, IDS, audit, guard, CCTV
-    
-       Recovery controls return to normal function eg DRP Disaster recovery plan, 
-              data backup, alternate sites
-    
-       Preventative controls prevent issues from happening
-              Security awareness training, separation of duties, biometrics, encryption, 
-                      mantrap, badge, guard
-```
+- Physical controls eg alarm, gateway, locks, fence, guard, CCTV, badge
+- Logical controls eg OS, apps, ACL, IDS, passwords, biometrics, smartcards, encryption, backups
+- Admin controls eg policy, procedure, admin, separation of duties, job rotation, disaster plan, security awareness training
+- Detective controls alert if issue eg monitoring, job rotation, IDS, audit, guard, CCTV
+- Recovery controls return to normal function eg DRP Disaster recovery plan, data backup, alternate sites
+- Preventative controls prevent issues from happening eg Security awareness training, separation of duties, biometrics, encryption, mantrap, badge, guard
 
-### classify by function
+### Control Classes
 
-```
-       Prevent
-       
-       Deter
-       
-              discourages
-              
-       Detect
-       
-       Corrective : detect and act
-    
-              Change control happens here
-       
-       Compensating : restore backup or alternative site
+- Prevent
+- Deter
+- Detect
+- Corrective : detect and act
+  - Change control 
+- Compensating : restore backup or alternative site
 
+## NIST 5 Core Functions
 
-       NIST 5 CORE FUNCTIONS (for Improving Critical Infrastructure Cybersecurity)
-    
-              Identify
+- Identify
                       Risk Assess
                       Asset Manage
                       Govern
                       Business Environment
                       Risk Management Strategy
     
-              Protect
-    
-              Detect
-    
-              Respond
-    
-              Recover
-    
-                      ... see other place in this document for full detail on this ...
-```
+- Protect
+- Detect
+- Respond
+- Recover
 
 
 ## Mangement Controls
+- User Training
+- Policies and Procedures
+  - IRP Incident Response Policy
+- Auditing
+- Log management
 
-### User Training
 
-### Policies and Procedures
-
-IRP Incident Response Policy
-
-Ethical Hacking : Penetration Testing
-
-### Auditing
-
-Log management
 
 ## Technical Controls
-
-### Sofware updating
-
-Software updating : OS
-
-Software updating : AV
-
-Software updating : apps
-
-Software updating : libraries
-
-### Intrusion
-
-DNS Poisoning
+- Sofware updating
+  - OS
+  - AV
+  - Apps
+  - Libraries
 
 
 
+## Extra
+
+CoA = Courses of Action = Matrix of Action
+
+FIPS 199 Impact Analysis = High/Med/Low

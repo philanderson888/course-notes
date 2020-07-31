@@ -125,6 +125,7 @@
   - [Privilege Escalation](#privilege-escalation)
   - [QRadar SIEM](#qradar-siem)
   - [Qualys cloud vulnerability](#qualys-cloud-vulnerability)
+  - [rootkit](#rootkit)
   - [RPO Recovery point objective](#rpo-recovery-point-objective)
   - [RTO Recovery time objective](#rto-recovery-time-objective)
   - [SABSA](#sabsa)
@@ -745,6 +746,13 @@ PVLAN promiscuous talks on all ports
  cloud based vulnerability management 
  
  agents run on clients
+
+ ## rootkit
+
+ 1. Wipe hard drive
+ 2. Reinstall OS
+ 3. Reinstall Apps
+ 4. Restore data
  
  ## RPO Recovery point objective
  

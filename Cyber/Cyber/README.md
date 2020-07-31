@@ -122,7 +122,6 @@
     - [Jump Box](#jump-box)
   - [Hardening](#hardening)
     - [Baselining](#baselining)
-      - [Compensating control](#compensating-control)
       - [Group Policies](#group-policies)
   - [Endpoint security](#endpoint-security)
     - [Port security : restrict access](#port-security--restrict-access)
@@ -362,13 +361,14 @@
       - [GUI for Metasploit](#gui-for-metasploit)
 - [Defending](#defending)
     - [Classes Of Controls](#classes-of-controls)
-      - [NIST](#nist)
   - [Cyber Organisations](#cyber-organisations)
   - [Cyber Roles](#cyber-roles)
     - [CISO Chief Info Security Officer](#ciso-chief-info-security-officer)
   - [Framework](#framework)
     - [NIST National Institue Standards Technology](#nist-national-institue-standards-technology)
+  - [Control](#control)
   - [Frameworks And Policies](#frameworks-and-policies)
+  - [Controls](#controls)
     - [CSA+ categories](#csa-categories)
     - [classify by function](#classify-by-function)
     - [CoA Courses Of Action Matrix](#coa-courses-of-action-matrix)
@@ -2849,16 +2849,6 @@ Install and update AV. Autoscan USB&Email&Downloads
 Routers and Switches: Update OS, Firmware, ROMMON = OS in NVRAM
 
 DOS attacks - consider possibility and mitigate or provide backup resources
-
-#### Compensating control
-
-Compensating control - in place in case the primary control fails
-
-eg data backup
-eg putting a system offline
-
-Also compensating control can be implemented if the preferred solution is not implemented
-
 
 #### Group Policies
 
@@ -8333,63 +8323,7 @@ CSIRT Computer Security Incident Response Team
 
 ### Classes Of Controls
 
-#### NIST
-
-NIST National Institute for Standards and Tech
-NIST CSD Computer Security Division
-NIST FIPS Federal Information Processing Standards
-
-NIST FIPS 200
-
-NIST 800-53 baseline security standards
-
-NIST control family - Access, Audit, Response, Risk
-
-NIST classes are 
-- Technical
-  - Firewall
-  - AV
-  - ACL
-  - Auditing
-- Operational 
-  - Training
-  - Security Guards
-  - Configuration
-  - Contingency Planning
-  - Response Planning
-  - Maintenance
-  - Physical Controls
-  - Media Controls
-- Management
-  - Planning
-  - Risk Assessment
-  - Authorisation
-
-CSA+ Controls - Physical (alarm, lock, fence,CCTV, mantrap, guard, badge), Logical, Admin 
-CSA+ Logical Control = software - OS, app, AV, ACL, IDS, password, biometric, smartcard, encryption, backup
-CSA+ Admin - Policy, Procedure
-
-CSA+ Controls
-  Operational
-    Policy
-      AUP
-      Clean Desk
-      Disaster Recovery
-      Business Continuity
-    Procedures
-  Technical
-    Permissions
-  Physical
-
-
-Function : prevent, deter, detect, correct(during), compensate(after)
-- Compensating Control - use when primary control fails.  EG encryption, separation of duties, user training
-- Corrective Control - takes action to reduce effect of an attack (during)
-
-CoA = Courses of Action = Matrix of Action
-
-FIPS 199 Impact Analysis = High/Med/Low
-
+[controls](controls.md)
 
 
 
@@ -8403,9 +8337,7 @@ FIPS 199 Impact Analysis = High/Med/Low
 
 
 - CIS Center for Internet Security [cisecurity.org](http://cisecurity.org/)
-  - Publishes 20 categories of security controls
-  - CIS controls
-    - Hardware assets, Software assets, Vulnerabilities, Admin Privileges, Secure Config on Client/Servers, Log monitoring, Email, Browser, Malware, Network ports & protocols, Data recovery, Firewall/Router/Switch config, Boundary Defence, Training, App security, Incident Response, Pen Tests
+  - Publishes 20 categories of security [controls](controls.md)
 
 
 - OWASP has top 10 web attacks
@@ -8530,11 +8462,15 @@ NIST provides GUIDANCE (not best practice which is ITIL)
 
         
 
+## [Control](controls.md)
 
+## Frameworks And Policies
 
-## [Frameworks And Policies](frameworks-and-policies.md)
+[Frameworks And Policies](frameworks-and-policies.md)
 
+## Controls
 
+[controls](controls.md)
 
 
 ### CSA+ categories

@@ -22,7 +22,10 @@
     - [Compressing](#compressing)
     - [Wildcards](#wildcards)
     - [Permissions](#permissions)
+- [Groups](#groups)
+  - [permissions](#permissions-1)
     - [change owner](#change-owner)
+    - [Add currennt user to a group](#add-currennt-user-to-a-group)
     - [head and tail](#head-and-tail)
     - [sort](#sort)
     - [Viewing Data](#viewing-data)
@@ -212,7 +215,7 @@ tar -cvf archive.tar ~/myfolder/
 
 ### Wildcards
 
-```
+```bash
 # list all files beginning with V
 ls V* 
 # list all two-letter phrases beginning with V
@@ -223,19 +226,20 @@ ls Vagrant[1-9]
 
 ### Permissions
 
-```
-r # read
-w # write
-x # execute
+- r # read
+- w # write
+- x # execute
 
 # Groups
-Owner
-Group
-Others
+-  Owner
+- Group
+- Others
 
+## permissions
+
+```bash
 # show permissions
 ls -l
-
 # change permissions - add +x (execute) permission to the owner (the user)
 chmod u+x file.txt   
 # add +x for all groups
@@ -266,6 +270,12 @@ groups ubuntu
 sudo chown -R root:ubuntu /path/to/folder
 ```
 
+### Add currennt user to a group
+
+```bash
+adduser `id -un` libvirt
+adduser `id -un` kvm
+```
 
 ### head and tail
 

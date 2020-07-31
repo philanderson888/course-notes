@@ -4,6 +4,7 @@
   - [802.1x](#8021x)
   - [Analysis Of network traffic](#analysis-of-network-traffic)
   - [Bastion Host](#bastion-host)
+  - [Certifications In Cyber](#certifications-in-cyber)
   - [CFAA Computer Fraud And Abuse Act](#cfaa-computer-fraud-and-abuse-act)
   - [Credential Stuffing](#credential-stuffing)
   - [Crimeware - General Tools](#crimeware---general-tools)
@@ -140,6 +141,7 @@
   - [Snort IDS](#snort-ids)
   - [SourceFire IDS](#sourcefire-ids)
   - [Splunk SIEM](#splunk-siem)
+  - [SPML](#spml)
   - [taskkill](#taskkill)
   - [tasklist](#tasklist)
   - [tcpdump](#tcpdump)
@@ -150,6 +152,7 @@
   - [VAS Vulnerability Assessment](#vas-vulnerability-assessment)
   - [White Team : admin](#white-team--admin)
   - [Write Blocker](#write-blocker)
+  - [XACML](#xacml)
   - [Xmas Attack](#xmas-attack)
   - [XSRF : Authenticated session attack](#xsrf--authenticated-session-attack)
   - [XSS Cross Site Scripting](#xss-cross-site-scripting)
@@ -211,7 +214,6 @@
   - [Hacker Tools](#hacker-tools)
   - [Hashing](#hashing)
   - [Offensive Tools](#offensive-tools)
-  - [Certs](#certs)
 
 
 ## 802.1x
@@ -242,6 +244,16 @@
 ## Bastion Host
 
 Any device which is connected to the internet
+
+## Certifications In Cyber
+
+- CEH Certified Ethical Hacker
+- EC Electronic Commerce
+- CISSP Certified Info Systems Security Practitioner
+- ISC2 Internation Info Systems Security Certification Consortium
+- CASP CompTIA advanced security practitioner
+- CISA Auditor
+- CISM Manager
 
 ## CFAA Computer Fraud And Abuse Act
 
@@ -800,6 +812,10 @@ PVLAN promiscuous talks on all ports
  ## Splunk SIEM
 
  big data gather and analyse 
+
+ ## SPML
+
+ XML standard for provisioning data and operations
  
  ## taskkill 
  
@@ -833,6 +849,12 @@ PVLAN promiscuous talks on all ports
  
  prevent the forensic analysis software from interfering with the data on a drive 
  
+## XACML
+
+eXtensible ACL Markup Language
+
+ACL standard via XML
+
  ## Xmas Attack
  
  Scanning with flags set to ON 
@@ -1115,19 +1137,6 @@ wordscrape the internet
 
 
 
-
-
-
-
-## Certs
-
-- CEH Certified Ethical Hacker
-- EC Electronic Commerce
-- CISSP Certified Info Systems Security Practitioner
-- ISC2 Internation Info Systems Security Certification Consortium
-- CASP CompTIA advanced security practitioner
-- CISA Auditor
-- CISM Manager
 
 
 

@@ -24,6 +24,7 @@
   - [os fingerprinting](#os-fingerprinting)
   - [packet analysis](#packet-analysis)
   - [penetration test steps](#penetration-test-steps)
+  - [vulnerability scan steps](#vulnerability-scan-steps)
   - [PIPEDA](#pipeda)
   - [protocol analysis](#protocol-analysis)
   - [Reverse Proxy Server](#reverse-proxy-server)
@@ -371,6 +372,16 @@ Exam version although I prefer the one above
 4. Penetration attempt
 5. Analysis
 6. Clean up
+
+## vulnerability scan steps
+
+1. Add IPs
+2. Choose scanner appliance
+3. Set scan option
+4. Scan
+5. Results
+6. Remediate
+7. Ongoing scanning
 
 ## PIPEDA 
 

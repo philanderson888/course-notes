@@ -564,12 +564,10 @@ detective control provides alerts
 recovery control eg backup, alternative site, DRP
 preventative control eg biometric, encryption, mantrap
 functional classifications: prevention deterrence detection correction compensating
-NIST functions: identify protect detect respond recover
 Vulnerability scan is automated
 Pen test is manual
 Perimiter test
 pen test: document target, research attack methods, vulnerability scan to get vulnerabilities, exploit to match vulnerability
-VMEscape from VM to host
 FISMA federal info security management act
 OWASP web
 SANS GIAC

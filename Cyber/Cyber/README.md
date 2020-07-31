@@ -8341,7 +8341,7 @@ NIST FIPS Federal Information Processing Standards
 
 NIST FIPS 200
 
-NIST 800-53
+NIST 800-53 baseline security standards
 
 NIST control family - Access, Audit, Response, Risk
 

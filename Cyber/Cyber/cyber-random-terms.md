@@ -501,11 +501,10 @@ bastion on DMZ
 DAI dynamic APR
 HSTS https strict transport security only allows HTTPS
 NIST core : identify (assets and risks) protect (acl, train, maintain) detect (event, anomalies, continuous) respond (IRP, comms,analyse, mitigate) recover
-ISO 27001 is ISMS Info Security Mgt System
+
 COBIT control objectives for IT ie how do we manage IT in business environment
 ITIL best practice
 NIST standards
-TOGAF the open group architecture framework - how to design IT system
 SABSA sherwood applied business security architecture for enterprise solutions
 mitigate: deter, avoid, transfer, accept
 personnel: train, dual control, separate duty, cross train, mandatory vacation

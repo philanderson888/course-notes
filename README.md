@@ -8,6 +8,7 @@ This is a repository of teaching notes and labs on a variety of topics
   - [Contents](#contents)
   - [Git And GitHub](#git-and-github)
   - [Shells - Bash, Zsh, CMD and Powershell](#shells---bash-zsh-cmd-and-powershell)
+  - [IDE](#ide)
   - [C](#c)
   - [Web](#web)
     - [Random Web Terms](#random-web-terms)
@@ -34,6 +35,10 @@ This is a repository of teaching notes and labs on a variety of topics
 ## [Git And GitHub](GitHub)
 
 ## [Shells - Bash, Zsh, CMD and Powershell](Shells)
+
+## IDE
+
+[ide](ide.md)
 
 ## C#
 

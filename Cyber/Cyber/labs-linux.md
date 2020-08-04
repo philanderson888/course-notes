@@ -14,6 +14,7 @@
     - [run a new shell](#run-a-new-shell)
     - [reboot](#reboot)
     - [Get Linux Running Processes](#get-linux-running-processes)
+    - [List Open Files](#list-open-files)
     - [Everything is a file!](#everything-is-a-file)
     - [Naming](#naming)
     - [Hidden Files](#hidden-files)
@@ -21,7 +22,10 @@
     - [Compressing](#compressing)
     - [Wildcards](#wildcards)
     - [Permissions](#permissions)
+- [Groups](#groups)
+  - [permissions](#permissions-1)
     - [change owner](#change-owner)
+    - [Add currennt user to a group](#add-currennt-user-to-a-group)
     - [head and tail](#head-and-tail)
     - [sort](#sort)
     - [Viewing Data](#viewing-data)
@@ -44,6 +48,7 @@
     - [Create Group](#create-group)
     - [Show default gateway](#show-default-gateway)
     - [wget download file](#wget-download-file)
+    - [Linux socket](#linux-socket)
 - [Linux Notes](#linux-notes)
   - [Linux Introduction](#linux-introduction)
 
@@ -163,6 +168,10 @@ or
 cd Volumes
 ```
 
+### List Open Files
+
+lsof
+
 ### Everything is a file!
 
 ```
@@ -206,7 +215,7 @@ tar -cvf archive.tar ~/myfolder/
 
 ### Wildcards
 
-```
+```bash
 # list all files beginning with V
 ls V* 
 # list all two-letter phrases beginning with V
@@ -217,19 +226,20 @@ ls Vagrant[1-9]
 
 ### Permissions
 
-```
-r # read
-w # write
-x # execute
+- r # read
+- w # write
+- x # execute
 
 # Groups
-Owner
-Group
-Others
+-  Owner
+- Group
+- Others
 
+## permissions
+
+```bash
 # show permissions
 ls -l
-
 # change permissions - add +x (execute) permission to the owner (the user)
 chmod u+x file.txt   
 # add +x for all groups
@@ -260,6 +270,12 @@ groups ubuntu
 sudo chown -R root:ubuntu /path/to/folder
 ```
 
+### Add currennt user to a group
+
+```bash
+adduser `id -un` libvirt
+adduser `id -un` kvm
+```
 
 ### head and tail
 
@@ -385,6 +401,8 @@ https://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf
 nc -l -p 12345
 ```
 
+
+
 ### Linux Rescue Environment
 
 ### Apple Rescue Environment
@@ -415,16 +433,37 @@ sudo groupadd docker
 
 ### Show default gateway
 
+```bash
 route -n  
 ip route show
 netstat -rn
-
+```
 
 ### wget download file
 
 wget https://raw.githubusercontent.com/philanderson888/data/master/sampletextfile.txt
 
 
+### Linux socket
+
+http://manpages.ubuntu.com/manpages/trusty/man1/socket.1.html
+
+```bash
+# create server socket listening
+socket -sl 12345
+
+# create server socket and respond with message
+socket -wslqvp "socket is listening here" 12345
+
+# connect
+socket -v 1.2.3.4 12345
+```
+
+Python socket!  https://www.youtube.com/watch?v=Xer7CRr73g4
+
+Linux sockets  https://www.youtube.com/watch?v=uXve8WYiGts
+
+Create a socket in c  https://www.youtube.com/watch?v=iEhDQyfB01s
 
 # Linux Notes
 

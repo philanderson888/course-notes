@@ -22,11 +22,6 @@ Framework = set of policies put in place.
 
 Compliance is testing if an organisation is putting the required policies into effect
 
-
-
-
-
-
 ## ISO 27001
 
 ISMS Info Security Management System

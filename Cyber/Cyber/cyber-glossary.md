@@ -4,10 +4,17 @@
   - [802.1x](#8021x)
   - [Analysis Of network traffic](#analysis-of-network-traffic)
   - [Bastion Host](#bastion-host)
+  - [Certifications In Cyber](#certifications-in-cyber)
   - [CFAA Computer Fraud And Abuse Act](#cfaa-computer-fraud-and-abuse-act)
   - [Credential Stuffing](#credential-stuffing)
   - [Crimeware - General Tools](#crimeware---general-tools)
   - [Dark Web](#dark-web)
+  - [dd](#dd)
+  - [degauss](#degauss)
+  - [DTP Dynamic Trunking Protocol](#dtp-dynamic-trunking-protocol)
+  - [EHR Electronic Health Record](#ehr-electronic-health-record)
+  - [MAC Overflow Attack](#mac-overflow-attack)
+  - [Man In The Middle Attack](#man-in-the-middle-attack)
   - [multihomed firewall](#multihomed-firewall)
   - [Netflow](#netflow)
   - [net user](#net-user)
@@ -17,8 +24,11 @@
   - [os fingerprinting](#os-fingerprinting)
   - [packet analysis](#packet-analysis)
   - [penetration test steps](#penetration-test-steps)
+  - [vulnerability scan steps](#vulnerability-scan-steps)
+  - [incident response steps](#incident-response-steps)
   - [PIPEDA](#pipeda)
   - [protocol analysis](#protocol-analysis)
+  - [Reverse Proxy Server](#reverse-proxy-server)
   - [Safe Harbor Privacy Principles](#safe-harbor-privacy-principles)
   - [service discovery](#service-discovery)
   - [shares](#shares)
@@ -32,7 +42,9 @@
   - [Sysvol](#sysvol)
   - [Targeted Attack And Tools](#targeted-attack-and-tools)
   - [trend analysis](#trend-analysis)
+  - [Virtual Network Types](#virtual-network-types)
   - [vm sprawl](#vm-sprawl)
+  - [WIDS Wireless Intrusion Detection](#wids-wireless-intrusion-detection)
   - [Wireless Analysis](#wireless-analysis)
   - [wireshark](#wireshark)
   - [Targeted Spray](#targeted-spray)
@@ -40,7 +52,6 @@
   - [Aircrack-ng](#aircrack-ng)
   - [ArcSight SIEM](#arcsight-siem)
   - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt)
-  - [Syslog](#syslog-1)
   - [Autopsy](#autopsy)
   - [Beaconing](#beaconing)
   - [Birthday Attack](#birthday-attack)
@@ -80,18 +91,17 @@
   - [Google Hacking](#google-hacking)
   - [Helix : Linux Live CD](#helix--linux-live-cd)
   - [Heuristic](#heuristic)
-  - [Imperva WAF](#imperva-waf)
+  - [Imperva SecureSphere WAF](#imperva-securesphere-waf)
   - [MITM Interception Proxy](#mitm-interception-proxy)
   - [Jump Box](#jump-box)
   - [escrow = 3rd party trust](#escrow--3rd-party-trust)
   - [M of N](#m-of-n)
   - [Kill Chain](#kill-chain)
-  - [Kiwi Syslog](#kiwi-syslog)
   - [Metasploit](#metasploit)
   - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures)
   - [MoA : Memorandum Of Agreement](#moa--memorandum-of-agreement)
   - [ModSecurity WAF](#modsecurity-waf)
-  - [MRTG Multi Router Traffic Grapher](#mrtg-multi-router-traffic-grapher)
+  - [MRTG Multi Router Traffic Grapher SNMP](#mrtg-multi-router-traffic-grapher-snmp)
   - [Nagios = open source stats on services](#nagios--open-source-stats-on-services)
   - [NAPT = NAT](#napt--nat)
   - [NAXSI = nginX Anti XSS and SQL Injection](#naxsi--nginx-anti-xss-and-sql-injection)
@@ -113,9 +123,11 @@
   - [PCI DSS](#pci-dss)
   - [PHI Personal Health Info](#phi-personal-health-info)
   - [PII](#pii)
+  - [PVLAN Private VLAN](#pvlan-private-vlan)
   - [Privilege Escalation](#privilege-escalation)
-  - [QRadar = SIEM from IBM](#qradar--siem-from-ibm)
+  - [QRadar SIEM](#qradar-siem)
   - [Qualys cloud vulnerability](#qualys-cloud-vulnerability)
+  - [rootkit](#rootkit)
   - [RPO Recovery point objective](#rpo-recovery-point-objective)
   - [RTO Recovery time objective](#rto-recovery-time-objective)
   - [SABSA](#sabsa)
@@ -130,6 +142,7 @@
   - [Snort IDS](#snort-ids)
   - [SourceFire IDS](#sourcefire-ids)
   - [Splunk SIEM](#splunk-siem)
+  - [SPML](#spml)
   - [taskkill](#taskkill)
   - [tasklist](#tasklist)
   - [tcpdump](#tcpdump)
@@ -140,6 +153,7 @@
   - [VAS Vulnerability Assessment](#vas-vulnerability-assessment)
   - [White Team : admin](#white-team--admin)
   - [Write Blocker](#write-blocker)
+  - [XACML](#xacml)
   - [Xmas Attack](#xmas-attack)
   - [XSRF : Authenticated session attack](#xsrf--authenticated-session-attack)
   - [XSS Cross Site Scripting](#xss-cross-site-scripting)
@@ -195,15 +209,11 @@
   - [lan turtle](#lan-turtle)
   - [Dark Web Scanning](#dark-web-scanning)
   - [Hacking Techniques](#hacking-techniques)
-  - [Packet Analyzer](#packet-analyzer)
   - [Password Crackers](#password-crackers)
   - [Hosting](#hosting)
   - [Hacker Tools](#hacker-tools)
   - [Hashing](#hashing)
   - [Offensive Tools](#offensive-tools)
-  - [Certs](#certs)
-
-
 
 
 ## 802.1x
@@ -235,6 +245,16 @@
 
 Any device which is connected to the internet
 
+## Certifications In Cyber
+
+- CEH Certified Ethical Hacker
+- EC Electronic Commerce
+- CISSP Certified Info Systems Security Practitioner
+- ISC2 Internation Info Systems Security Certification Consortium
+- CASP CompTIA advanced security practitioner
+- CISA Auditor
+- CISM Manager
+
 ## CFAA Computer Fraud And Abuse Act
 
 ## Credential Stuffing
@@ -253,6 +273,38 @@ TOR + VPN
 .onion sites are on the dark web
 
 Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
+
+## dd
+
+Linux command to image a drive
+
+## degauss
+
+Uses magnetism to wipe a drive
+
+Can wipe a hard drive or magnetic tape
+
+## DTP Dynamic Trunking Protocol
+
+Permits a switch to automatically link to other switches
+
+Potential rogue switch can auto join legitimate switches
+
+## EHR Electronic Health Record
+
+Contains PHI Personal Health Information
+
+## MAC Overflow Attack
+
+Causes the CAM Content Addressable Memory of a switch to be full
+
+Address resolution is therefore not possible
+
+Traffic is then sent out broadcast to all ports
+
+## Man In The Middle Attack
+
+For switches this can be caused by ARP Poisoning - false MAC address so traffic sent to wrong computer
 
 ## multihomed firewall
 
@@ -322,11 +374,34 @@ Exam version although I prefer the one above
 5. Analysis
 6. Clean up
 
+## vulnerability scan steps
+
+1. Add IPs
+2. Choose scanner appliance
+3. Set scan option
+4. Scan
+5. Results
+6. Remediate
+7. Ongoing scanning
+
+## incident response steps
+
+1. detect
+2. respond
+3. report
+4. recover
+5. remediate
+6. review
+
 ## PIPEDA 
 
 Canadian Privacy Law
 
 ## protocol analysis
+
+## Reverse Proxy Server
+
+Can filter incoming traffic preventing DDOS attacks from reaching your server
 
 ## Safe Harbor Privacy Principles
 
@@ -388,9 +463,19 @@ With a specific target in mind
 
 Over time
 
+## Virtual Network Types
+
+- External - Internet
+- Internal - with each other and host
+- Private - communicate with each other but not with host nor internet
+
 ## vm sprawl
 
 Large number of virtual machines are hard to manage and to keep track of, and it's easy to let the vulnerabilities stack up through unmanaged software and operating systems
+
+## WIDS Wireless Intrusion Detection
+
+Can locate rogue wireless AP
 
 ## Wireless Analysis
 
@@ -416,10 +501,6 @@ by HP
 ## SIEM Security Info and Event Mgt
 
 COLLECT AND ANALYSE DATA 
-
-## Syslog
-
-COLLECT DATA ONLY 
 
 ## Autopsy
 
@@ -587,10 +668,6 @@ Web Application Firewall : for data center
  
  stages of attack 
  
- ## Kiwi Syslog
- 
- central log management 
- 
  ## Metasploit
  
  exploit framework
@@ -671,6 +748,12 @@ Web Application Firewall : for data center
  
  ## PII 
  
+## PVLAN Private VLAN
+
+Isolated VLAN within VLAN
+
+PVLAN promiscuous talks on all ports
+
  ## Privilege Escalation 
  
  ## QRadar SIEM 
@@ -684,6 +767,13 @@ Web Application Firewall : for data center
  cloud based vulnerability management 
  
  agents run on clients
+
+ ## rootkit
+
+ 1. Wipe hard drive
+ 2. Reinstall OS
+ 3. Reinstall Apps
+ 4. Restore data
  
  ## RPO Recovery point objective
  
@@ -696,6 +786,8 @@ Web Application Firewall : for data center
  ## SABSA 
  
  Sherwood Applied Business Security Architecture 
+
+ Risk-driven enterprise security architecture
  
  ## SANS SysAdmin, Network, Security 
  
@@ -740,6 +832,10 @@ Web Application Firewall : for data center
  ## Splunk SIEM
 
  big data gather and analyse 
+
+ ## SPML
+
+ XML standard for provisioning data and operations
  
  ## taskkill 
  
@@ -773,6 +869,12 @@ Web Application Firewall : for data center
  
  prevent the forensic analysis software from interfering with the data on a drive 
  
+## XACML
+
+eXtensible ACL Markup Language
+
+ACL standard via XML
+
  ## Xmas Attack
  
  Scanning with flags set to ON 
@@ -986,11 +1088,6 @@ War Driving [https://wigle.net/](https://wigle.net/)
 
 Targeted Spray
 
-## Packet Analyzer
-
-TCPDump.org
-
-
 ## Password Crackers
 - Caine
 - Encase
@@ -1055,19 +1152,6 @@ wordscrape the internet
 
 
 
-
-
-
-
-## Certs
-
-- CEH Certified Ethical Hacker
-- EC Electronic Commerce
-- CISSP Certified Info Systems Security Practitioner
-- ISC2 Internation Info Systems Security Certification Consortium
-- CASP CompTIA advanced security practitioner
-- CISA Auditor
-- CISM Manager
 
 
 

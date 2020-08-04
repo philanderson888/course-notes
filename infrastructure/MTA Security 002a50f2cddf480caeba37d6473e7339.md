@@ -1289,6 +1289,7 @@ Honeypot
 Honeynet
 IDS intrusion DETECT = ALERT
 IPS intrusion PREVENT = PROACTIVE
+Vulnerability scan : Electronic methods to scan our systems for flaws.
 Penetration test : pay WHITE HAT (GOOD) HACKER TO TRY AND HACK YOUR COMPANY
 HIDS HOST BASED PROTECTION ON ONE MACHINE EG SERVER
 HIPS

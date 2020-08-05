@@ -566,7 +566,7 @@ function isCollide(a, b) {
 
 # Random List 1 - mostly web
 
-```
+```js
 GIF !!! [https://giphy.com](https://giphy.com/)
     
 AWS - Amazon's cloud computing arm, Amazon Web Services provided two thirds of the firm's profit last quarter.
@@ -692,7 +692,8 @@ Big O notation is measure of complexity or speed of operation
 0.1 + 0.2 === 0.3 returns false
 Css Bem block element modifier-
 [https://www.apollographql.com/](https://www.apollographql.com/)[https://jamstack.org/](https://jamstack.org/)[https://advancedreact.com/](https://advancedreact.com/)[https://modernizr.com/](https://modernizr.com/)[https://autoprefixer.github.io/](https://autoprefixer.github.io/)[https://www.meteor.com](https://www.meteor.com/)
-Template literals with e.g. backticks style.div with function
+Template literals with e.g. backticks style.div with `function`
+
 Object destructuring - can all rename at same time . Can have a default fall back value
 Object computed property name by using square bracketsvto create a new object property
 React suspense
@@ -700,10 +701,10 @@ Esx spread - array items
 Object spread literals using . . .
 Object.asdign
 Lodash
-Arrow function - implicit return . Also 'this' is not scoped
+Arrow `function` - implicit return . Also 'this' is not scoped
 Default arguments in functions
 GraphCMS is GraphQL CMS = API for future
-Named parameters in function
+Named parameters in `function`
 Modules : commonjs
 Imports. Exports. Must use webpage or similar
 Meteor
@@ -728,7 +729,7 @@ Maps and sets
 Use to de-duplicate an array
 [Es6.io](http://es6.io/) es6 for everybody
 Better JavaScript course by author Wes boss or Scott with reduction in video at final seconds GET THISCOURSE 25 PERCENT OFF
-React classes or stateless function
+React classes or stateless `function`
 Stateless can painfully convert to class function. But now react hooks.
 React mixin not used
 Render props jsx

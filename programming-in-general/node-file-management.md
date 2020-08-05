@@ -1,4 +1,154 @@
 
+	
+	
+	
+	
+	
+	
+	
+REFERENCING FILES 
+	REFERENCE A FILE IN THIS DIRECTORY WITH ./
+	
+	REFERENCE A FILE IN SUBDIRECTORY WITH FOLDER/FILE 
+	
+	REFERENCE A FILE IN HIGHER DIRECTORY WITH ../
+	
+	ABSOLUTE PATH C:\X\Y\Z.HTM 
+	
+	RELATIVE PATH IS FROM THE BASE OR ROOT DIRECTORY OF OUR PROJECT 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+PATH MANAGEMENT TO REACH FILES IN NODE 
+	
+		
+Path Module 
+	var path = require('path');
+	Used for working with all file paths in NODE
+	
+	/ and \ both used 
+	
+	path.sep ==> separator character being used ie \ or /
+	
+		sep will automatically use the correct separator character depending on the operating system you are using
+			
+		
+		var parentFolder = "parentFolder";
+		var childFolder = "childFolder";
+		var totalFolderPath = parentFolder + path.sep + childFolder;
+		node_19_path_module.js
+			
+		
+	path.normalise 
+	
+		will change your path string to reflect the correct path.sep separator character depening on your operating system ie Windows or Linux 
+		
+		path.normalise(<your_path_here>);
+		
+				return your path string with		orrect version of \ or / depending Windows (\) or linux (/)
+		
+		
+	path.dirname =>    	Folder path to file 
+	File Name Minus Extension
+	
+		path.basename(fileName,extension);
+	
+	path.extname ==> 	file extension name 
+	
+		fileName="C:\\folder\\folder\\file.exe";
+		path.extname(fileName);
+		
+		
+		
+	
+	__dirname  ==> Full directory name of the JAVASCRIPT FILE WHICH IS CURRENTLY RUNNING 
+	
+	__filename ==> FULL PATH AND FILENAME OF THE JAVASCRIPT FILE WHICH IS CURRENTLY RUNNING 
+		node_19_path_module.js
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+EXTRA : NODE PROCESS.CWD CURRENT WORKING DIRECTORY
+	
+	process
+	
+	process.cwd()  CURRENT WORKING DIRECTORY (EG OF ROOT OF YOUR WEBSITE)
+	
+	process.chdir("<relative change in path from current working directory")
+		process.chdir("../");  means move up one directory
+		
+			Note : if fails to locate new directory the current working directory 
+					remains the same as it was before.   You can code for this error
+					using try()catch()finally() loop 
+					
+	process.execPath ==> tells you the location of the NODE.JS EXECUTABLE FILE 
+	
+	process.env.PATH is the ARRAY of your PATH VARIABLES with a delimiter of
+		Windows - semi colon
+		Linux -  colon
+		node - path.delimiter 
+		
+		so can split the PATH strings into an array of strings using 
+		
+		process.env.PATH.split(path.delimiter) which works equally well on Windows 
+				and Linux
+				
+				PRINT OUT EVERY ITEM IN PATH VARIABLE
+				
+				process.env.PATH.split(path.delimiter).forEach(function(dir){
+					console.log(dir);
+				});
+				
+			
+		RUN IN NODE process.env.PATH.split(path.delimiter).forEach(function(dir){ console.log(dir); });
+	
+	
+	          node_65_process.js 
+	
+	
+	
+	
+	
+	
+	
+	
 		
 		
 		

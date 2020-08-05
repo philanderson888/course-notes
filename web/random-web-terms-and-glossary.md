@@ -1,5 +1,94 @@
 # Random Web Terms And Glossary
 
+## Contents
+
+- [Random Web Terms And Glossary](#random-web-terms-and-glossary)
+  - [Contents](#contents)
+  - [Gatsby](#gatsby)
+    - [Random Mixed Modern Web Terms](#random-mixed-modern-web-terms)
+    - [Ajax](#ajax)
+    - [jQuery](#jquery)
+    - [Web Database Glossary](#web-database-glossary)
+  - [Javascript Random Terms From 480 Course](#javascript-random-terms-from-480-course)
+- [Web Glossary](#web-glossary)
+  - [ASCII](#ascii)
+  - [BigInt](#bigint)
+  - [Console Output](#console-output)
+  - [const](#const)
+  - [Cordova - build multi-platform web apps](#cordova---build-multi-platform-web-apps)
+  - [First Class Object](#first-class-object)
+  - [Headers in HTML](#headers-in-html)
+  - [History.length/back/forward/go](#historylengthbackforwardgo)
+  - [Immutable](#immutable)
+  - [Lexical Scoping](#lexical-scoping)
+  - [Location](#location)
+  - [OnResize Window Event](#onresize-window-event)
+  - [Primitive Types](#primitive-types)
+  - [Progressive Javascript Framework](#progressive-javascript-framework)
+  - [Window - Create, Resize, Manage and Close](#window---create-resize-manage-and-close)
+  - [Window.Scroll](#windowscroll)
+- [Javascript Modern Glossary](#javascript-modern-glossary)
+    - [Hacker News](#hacker-news)
+    - [MeteorJS](#meteorjs)
+    - [NativeScript](#nativescript)
+    - [Node Streams](#node-streams)
+    - [Password Generator](#password-generator)
+    - [PWA Progressive Web Apps](#pwa-progressive-web-apps)
+    - [Typescript](#typescript)
+    - [Typescript interfaces](#typescript-interfaces)
+    - [Typescript Classes](#typescript-classes)
+    - [Typescript tsconfig.json](#typescript-tsconfigjson)
+    - [Webpack](#webpack)
+    - [Canvas](#canvas)
+    - [Selenium](#selenium)
+    - [Three.js](#threejs)
+    - [Webpack](#webpack-1)
+    - [Yarn](#yarn)
+- [Node Random Term List](#node-random-term-list)
+- [Programming Glossary](#programming-glossary)
+  - [Android Studio](#android-studio)
+  - [BATCH FILES .BAT](#batch-files-bat)
+  - [Docker For Windows !!!](#docker-for-windows-)
+  - [GIT](#git)
+  - [Google Lens](#google-lens)
+  - [Keyboard Shortcuts](#keyboard-shortcuts)
+  - [zsh - Z Shell : Custom Shell for MAC](#zsh---z-shell--custom-shell-for-mac)
+  - [Kotlin](#kotlin)
+  - [MegaCompanies](#megacompanies)
+  - [nchar and nvarchar SQL Data Types](#nchar-and-nvarchar-sql-data-types)
+  - [PostgreSQL](#postgresql)
+  - [SEO Search Engine Optimisation](#seo-search-engine-optimisation)
+  - [SEO Search Engine Optimisation](#seo-search-engine-optimisation-1)
+  - [Wireframes](#wireframes)
+
+
+
+
+## Gatsby
+
+```
+Gatsby
+gatsby new mysite [https://link-to-template](https://link-to-template/); cd mysite; gatsby develop
+contentful : deploy content for site easily
+graphql : new alternative to REST API
+Apollo : works with GraphQl
+React
+Vue
+Angular
+Library
+NextJS
+[Sanity.IO](http://sanity.io/) is a headless CMS ie provides API
+Apollo
+Shopify
+Axios
+Hooks : notifies of instant changes
+Appium does Mobile and Web testing [appium.io](http://appium.io/)
+Rust
+Python
+Go
+```
+
+
 ### Random Mixed Modern Web Terms
 
 ```

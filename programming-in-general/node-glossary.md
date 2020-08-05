@@ -1,10 +1,16 @@
 # Node Glossary
 
+- [Node Glossary](#node-glossary)
+	- [Callbacks](#callbacks)
+
+
+
+
+
 ## Callbacks
 
-	
-	
-MANAGING CALLBACKS 
+```js
+
 	https://strongloop.com/strongblog/node-js-callback-hell-promises-generators/
 	
 	https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make
@@ -193,3 +199,220 @@ How do I fix callback hell?
 		
 		
 		
+
+
+```
+
+
+
+
+## JSONP
+
+```js
+	JSONP = JSON PADDING TO GET AROUND CROSS-DOMAIN RESTRICTIONS
+	
+	https://www.youtube.com/watch?v=GcHWqyzSCc8
+	
+	
+	http://stackoverflow.com/questions/3839966/can-anyone-explain-what-jsonp-is-in-layman-terms
+	
+	JSON Request:
+	var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function () {
+  if (xhr.readyState == 4 && xhr.status == 200) {
+    // success
+  };
+};
+	xhr.open("GET", "somewhere.php", true);
+xhr.send();
+	
+	From <http://stackoverflow.com/questions/3839966/can-anyone-explain-what-jsonp-is-in-layman-terms> 
+	
+	
+	
+	JSONP Request:
+	var tag = document.createElement("script");
+tag.src = 'somewhere_else.php?callback=foo';
+	document.getElementsByTagName("head")[0].appendChild(tag);
+	
+	From <http://stackoverflow.com/questions/3839966/can-anyone-explain-what-jsonp-is-in-layman-terms> 
+	
+	
+	
+	The difference between a JSON response and a JSONP response, is that the JSONP response is formulated such that the response object is passed as an argument to a callback function.
+	JSON:
+	{
+    "bar": "baz"
+}
+	JSONP:
+	foo({
+    "bar": "baz"
+});
+	
+	From <http://stackoverflow.com/questions/3839966/can-anyone-explain-what-jsonp-is-in-layman-terms> 
+	
+	
+	
+	The usefulness of using jQuery to make JSONP requests, is that jQuery does alllllllll of the work for you in the background.
+	jQuery requires (by default), for you to include &callback=? in the URL of your AJAX request. jQuery will take the success function you specify, assign it a unique name and publish it in the global scope. It will then replace the ? in &callback=? with the name it's just assigned the function.
+	
+	From <http://stackoverflow.com/questions/3839966/can-anyone-explain-what-jsonp-is-in-layman-terms> 
+	
+	
+	
+	
+	Comparable JSON/ JSONP Implementations (assuming response object is {"bar":"baz"}:
+	JSON
+	var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function () {
+  if (xhr.readyState == 4 && xhr.status == 200) {
+    document.getElementById("output").innerHTML = eval('(' + this.responseText + ')').bar;
+  };
+};
+	xhr.open("GET", "somewhere.php", true);
+xhr.send();
+	JSONP:
+	function foo(response) {
+  document.getElementById("output").innerHTML = response.bar;
+};
+	var tag = document.createElement("script");
+tag.src = 'somewhere_else.php?callback=foo';
+	document.getElementsByTagName("head")[0].appendChild(tag);
+	
+	From <http://stackoverflow.com/questions/3839966/can-anyone-explain-what-jsonp-is-in-layman-terms>
+
+CORS = CROSS-ORIGIN REQUEST IE REQUESTING INFORMATION FROM A DIFFERENT DOMAIN
+	
+			https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS#Browser_compatibility
+			
+```
+
+
+
+## Heap
+
+MEMORY LEAKS
+
+	To examine memory usage of our process with ps:
+	ps -p $PID -o rss,vsz
+	(you can find out the PID of your Node.js process with pgrep -lfa node)
+	
+	This shows us the resident set size (RSS) and the virtual set size (VSZ) of our process.
+	RSS is a measurement of how much RAM the process is currently using. This would include all stack and heap memory, as well as memory from shared 
+	libraries if pages from those libraries are actually in memory.
+	VSZ is how much memory the process has available to it. This includes memory that is in swap and all shared libraries. VSZ includes RSS and is always 
+	larger.
+	And to watch memory usage in real time, we can use top:
+	top -pid $PID  
+	
+	From <http://blog.yld.io/2015/08/10/debugging-memory-leaks-in-node-js-a-walkthrough/#.Vz5yQpErIdU> 
+	
+	
+	HEAP ANALYSIS
+	
+		NODE HEAPDUMP
+		
+			NPM INSTALL HEAPDUMP
+			
+			REQUIRE HEAPDUMP IN OUR SERVER.JS OR INDEX.JS
+
+
+## Processes
+
+			
+```js		
+var ps = require('ps-node');
+	ps.lookup({
+
+command: 'node',
+arguments: '--debug',
+}, function(err, resultList ) {
+if (err) {
+    throw new Error( err );
+}
+	resultList.forEach(function( process ){
+    if( process ){
+	console.log( 'PID: %s, COMMAND: %s, ARGUMENTS: %s', process.pid, process.command, process.arguments );
+        }
+    });
+});
+	
+	From <http://stackoverflow.com/questions/13206724/how-to-get-the-list-of-process> 
+	
+	
+```
+
+
+## Patterns
+
+```js
+	
+Singletons
+Observers
+Factories
+Middleware
+Dependency Injection
+Design Pattern is resuable solution to commonly occurring problem
+Singleton
+	One instance only
+Observer
+	Object maintains list of 'observers'
+	Object notifies 'observers' on change
+	EventEmitter is used
+Factory
+	Generic object
+Dependency Injection = Pass By Reference
+Middleware = pipeline = output from one is the input into another
+	Express
+	Koa
+	Streaming
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+	The Module Pattern
+		The Module pattern was originally defined as a way to provide both private and public encapsulation for classes in conventional software engineering.
+		In JavaScript, the Module pattern is used to further emulate the concept of classes in such a way that we're able to include both public/private methods and variables inside a single object, thus shielding particular parts from the global scope. What this results in is a reduction in the likelihood of our function names conflicting with other functions defined in additional scripts on the page.
+	
+	DESIGN PATTERN = REPEATABLE SOLUTION  (IN MODULAR FORM)
+	
+		IT'S NOT A FINISHED SOLUTION THOUGH, JUST A REPEATABLE TEMPLATE WHICH 
+				WE CAN USE OVER AND OVER AGAIN AS PART OF SOLVING SIMILAR PROBLEMS 
+				
+				
+	EBOOK 
+		
+		https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+				
+				
+	PRINCIPAL DESIGN PATTERN IS JAVASCRIPT MODULES 
+	
+		REVEALING MODULE PATTERN HAS PRIVATE AND PUBLIC FIELDS 
+	http://alistapart.com/article/the-design-of-code-organizing-javascript
+	
+	
+	The module pattern
+		There are a lot of design patterns out there, and equally as many resources on them. Addy Osmani wrote an amazing (free!) book on design patterns in JavaScript, which I highly recommend to developers of all levels.
+		The module pattern is a simple structural foundation that can help keep your code clean and organized. A “module” is just a standard object literal containing methods and properties, and that simplicity is the best thing about this pattern: even someone unfamiliar with traditional software design patterns would be able to look at the code and instantly understand how it works.
+		In applications that use this pattern, each component gets its own distinct module. For example, to build autocomplete functionality, you'd create a module for the textfield and a module for the results list. These two modules would work together, but the textfield code wouldn't touch the results list code, and vice versa.
+		That decoupling of components is why the module pattern is great for building solid system architecture. Relationships within the application are well-defined; anything related to the textfield is managed by the textfield module, not strewn throughout the codebase—resulting in clear code.
+		Another benefit of module-based organization is that it is inherently maintainable. Modules can be improved and optimized independently without affecting any other part of the application.
+		I used the module pattern for the basic structure of jPanelMenu, the jQuery plugin I built for off-canvas menu systems. I'll use that as an example to illustrate the process of building a module.
+		Building a module
+		
+			To begin, I define three methods and a property that are used to manage the interactions of the menu system.
+			var jpm = {
+				animated: true,
+				openMenu: function( ) {
+					…
+					this.setMenuStyle( );
+				},
+				closeMenu: function( ) {
+					…
+					this.setMenuStyle( );
+				},
+				setMenuStyle: function( ) { … }
+			};
+			The idea is to break down code into the smallest, most reusable bits possible. I could have written just one toggleMenu( ) method, but creating distinct openMenu( ) and closeMenu( ) methods provides more control and reusability within the module.
+			Notice that calls to module methods and properties from within the module itself (such as the calls to setMenuStyle( )) are prefixed with the this keyword—that's how modules access their own members.
+			That's the basic structure of a module. You can continue to add methods and properties as needed, but it doesn't get any more complex than that. After the structural foundations are in place, the reusability layer—options and an exposed API—can be built on top.
+			
+		
+```

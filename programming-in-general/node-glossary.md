@@ -2,6 +2,11 @@
 
 - [Node Glossary](#node-glossary)
 	- [Callbacks](#callbacks)
+	- [JSONP](#jsonp)
+	- [Heap](#heap)
+	- [Process.nextTick()](#processnexttick)
+	- [Processes](#processes)
+	- [Patterns](#patterns)
 
 
 
@@ -315,6 +320,35 @@ MEMORY LEAKS
 			NPM INSTALL HEAPDUMP
 			
 			REQUIRE HEAPDUMP IN OUR SERVER.JS OR INDEX.JS
+
+
+## Process.nextTick()
+
+https://medium.com/javascript-in-plain-english/what-is-vue-nexttick-89d6878c1162
+
+```js
+setImmediate(() => {
+  console.log('immediate');
+});
+
+process.nextTick(() => {
+  console.log('nextTick');
+});
+
+setTimeout(() => {
+  console.log('timeout');
+}, 0);
+
+Promise.resolve().then(() => console.log('promise'));
+
+/*
+nextTick
+promise
+timeout
+immediate
+*/
+```
+
 
 
 ## Processes

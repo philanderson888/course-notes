@@ -58,6 +58,8 @@ https://revivaldirect.co.uk/wp-admin/post.php?post=316&action=edit
 
 ## Elementor
 
+Pages have `sections` with `columns` inside the section.  Easy!
+
 https://revivaldirect.co.uk/wp-admin/post.php?post=316&action=elementor
 
 https://revivaldirect.co.uk/?elementor_library=316
@@ -65,6 +67,11 @@ https://revivaldirect.co.uk/?elementor_library=316
 - Links look like `/%year%/%monthnum%/%day%/%postname%/`
 - Getting Started https://revivaldirect.co.uk/wp-admin/admin.php?page=elementor-getting-started
   - Wordpress -> Pages -> Add New
+
+Advanced settings can
+- hide on mobile/desktop etc
+- fade in/out
+- 
 
 ## Home Page
 

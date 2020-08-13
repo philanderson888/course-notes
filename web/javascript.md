@@ -21,6 +21,10 @@
 		- [Try . Catch . Finally Exception Handler](#try--catch--finally-exception-handler)
 		- [Function](#function)
 - [Document Object Model (DOM)](#document-object-model-dom)
+- [SVG](#svg)
+	- [CREATE SVG ELEMENT](#create-svg-element)
+	- [CANVAS](#canvas)
+	- [JS](#js)
 - [Arrays](#arrays)
 		- [Array.of](#arrayof)
 		- [Spread Operator - Use to pass in elements of an array into a function](#spread-operator---use-to-pass-in-elements-of-an-array-into-a-function)
@@ -1100,7 +1104,9 @@ SpanID.firstChild is the text element in <span>
 SpanID.firstChild.nodeValue = "text"  to change <span> text
 ```
 
-SVG (11)
+# SVG
+
+```
 SCALAR VECTOR GRAPHICS
 SCALES INDEPENDENT OF HOW BIG OR SMALL SCREEN IS
 DRAWN WITH VECTOR MATHS
@@ -1112,14 +1118,20 @@ PERFORMANCE : BECAUSE DRAWING : MANY ITEMS, CAN SLOW PERFORMANCE
 STATIC
 DYNAMIC ITEMS : BETTER USING CANVAS (SIMILAR)
 (BETTER FOR LIVE JAVASCRIPT)
-CREATE SVG ELEMENT
+```
+
+## CREATE SVG ELEMENT
+
+```html
 <svg>
 <svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
 STROKE : DRAW OUTSIDE
 STROKE-WIDTH:
 FILL : INSIDE CONTENT
-
 ```
+
+
+```js
 RECT : X Y WIDTH HEIGHT
 CIRCLE : CX CY R
 ELLIPSE : CX CY RX RY
@@ -1137,21 +1149,39 @@ TRANSFORM
 	SKEW()			SHEAR IN X AND Y DIRECTION
 ```
 
-CANVAS
+
+
+
+
+
+## CANVAS
+
 SVG BEST FOR STATIC ITEMS
+
 CANVAS BEST FOR DYNAMIC INTERACTION WITH JAVASCRIPT ON PAGE
 
-```
 EG GAMES
+
 <CANVAS ID="">
 CANVAS{ // CSS }
-JS
-	var canvas = document.getElementById('myCanvas')
-	var context = canvas.getContext('2d');
+
+
+## JS
+
+```js
+
+var canvas = document.getElementById('myCanvas')
+
+var context = canvas.getContext('2d');
+
 RECTANGE
+
 	ctx.fillstyle="red"
+
 	ctx.fillrect(x,y,width,height)
+
 CLEAR
+
 	ctx.clearrect(x,y,width,height)
 
 STROKE : OUTSIDE
@@ -1172,8 +1202,9 @@ TRIANGLE
 	triangle(x,y,x1,y1,x2,y2)
 
 TEXT
-```
 
+
+```
 WEB SOCKETS
 USES HTTP TO SEND DATA
 SPECIAL PROTOCOL WS:// WSS://
@@ -1189,8 +1220,9 @@ mysocket.send('message')
 2) BLOB EG FILE
 3) BUFFER
 READYSTATE
-
 ```
+
+
 0	CONNECTING
 	1	GOOD (OPEN AND READY)
 	2	CLOSING

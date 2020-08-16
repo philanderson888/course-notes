@@ -2148,35 +2148,13 @@ Babel : use latest versions of dependencies
 Backbone JS
 BitBucket Storage And Version Control [https://bitbucket.org/](https://bitbucket.org/)
 Browserify
-Callback
-Closures
-Docker
 Docker Environment Variables
 EJS Embedded Javascript
 Ember JS
 ESTree used with Transpilers
-GitHub
 Git Identifier
-HapiJS (Node Express)
-Headers
-History
-Hosting Node Sites
-Immutable
 Isomorphic
-Jade - Deprecated - use Pug
-Javascript Course Notes (Microsoft Word)
-JSON-Server (NODE REST API)
 JSX (Advanced Javascript, compiles to Javascript)
-Knockout
-Lambda Arrow Functions
-LESS
-Lexical Scoping
-Lint
-Location
-Minification
-MYSQL
-OnResize Event
-Partials
 Primitive Types
 Progressive Framework
 RawGit
@@ -2245,51 +2223,10 @@ nextAll
 nextUntil('y')
 prev/All/Until
 first/last match
-All Javsacript Topics - Random Trainer Notes
-
 Prettier - opinionated web formatter at [prettier.io](http://prettier.io/)
-Typescript
-Laravel - PHP framework
-ReactJS - renders a view for different states of your app
-Version control
-Cordova - build apps for multiple platform eg web, mobile
-Electron
-Browser API
-Library API
-Npm
 Map (array)
 Reduce (array)
 Filter (array)
-Replace (string)
-Slice (string)
-Split(string)
-True/false
-JSON data
-Variable scope
-ES6
-Promises
-Modules
-Classes
-Template literals
-Generators
-Destructuring
-Callback
-Promises
-Event loop
-setTimeout
-Fetch
-Async-await
-RxJS
-Function scope
-Closures
-This
-Normal function
-Arrow function
-Visual design
-White Space Is Not Your Enemy
-Don't Make Me Think
-480 Terms
-
 script async as soon as ready
 script defer after load
 checkbox.checked
@@ -2339,10 +2276,7 @@ window.history.length
 image interlacing
 canvas good for games. resolution-dependent. rendered pixel by pixel.
 canvas image map is hyperlink from point
-<script>	has type/src/charset/defer
-break
-byClassName(selector)
-change
+script tag has type/src/charset/defer
 checkbox : onclick
 checkbox.checked = true will set a checkbox to be checked
 window.closed	BOOLEAN true if window has been closed

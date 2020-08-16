@@ -53,6 +53,14 @@
 		- [Closures](#closures)
 - [Javascript - Decrement This Section Over Time](#javascript---decrement-this-section-over-time)
 - [JAVASCRIPT FLOW - 480 structured notes - Too long so decrement over time](#javascript-flow---480-structured-notes---too-long-so-decrement-over-time)
+	
+		- [Console Debugging : Console.log, info, debug, warn, error](#console-debugging--consolelog-info-debug-warn-error)
+		- [DATETIME](#datetime)
+		- [Debounce](#debounce)
+		- [pnpm](#pnpm)
+		- [Closures](#closures)
+- [Javascript - Decrement This Section Over Time](#javascript---decrement-this-section-over-time)
+- [JAVASCRIPT FLOW - 480 structured notes - Too long so decrement over time](#javascript-flow---480-structured-notes---too-long-so-decrement-over-time)
 
 
 
@@ -4021,7 +4029,9 @@ pnpm install bootstrap popper jquery
 ```
 
 Javascript variables can be global or local
+
 Variables created without var are always global, even if declared within a function
+
 Javascript inner function can solve the problem of wanting a private variable, which is not destroyed every time the function finishes
 
 All functions have access to the scope 'above' them
@@ -4042,8 +4052,7 @@ add();
 
 The function only runs once and returns a function. Calling add() does not run the closure again, just the part which returns, which accesses the private variable (does not reset it)
 
-See index.htm#javascript-closure Javascript Closures for a working example
-
+See https://gifted-haibt-065acd.netlify.app/#javascript-closures and https://codepen.io/philanderson888/pen/QJNwGN for a working example.
 
 
 Javascript closures are inner functions which have access to the
@@ -4054,10 +4063,7 @@ Outer function parameters
 		
 	(but not the arguments array)
 
-```
 
-	
-		
 		
 Key features of closures
 
@@ -4068,7 +4074,16 @@ Key features of closures
 	3. Access to parent function variables even
 			after the function has returned which
 			means effectively the parent function 'stays' in RAM and we can use or increment the same variable in the same state that it was when the function returned ie is not re-declared but we still have access to it.
-```
+
+
+
+
+
+
+
+
+
+
 
 # Javascript - Decrement This Section Over Time
 

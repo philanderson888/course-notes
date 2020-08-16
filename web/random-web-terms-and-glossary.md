@@ -161,14 +161,7 @@ setTimeout
 Fetch
 Async-await
 RxJS
-Function scope
-Closures
-This
-Normal function
-Arrow function
-Visual design
-White Space Is Not Your Enemy
-Don't Make Me Think
+
 
 GIF !!! [https://giphy.com](https://giphy.com/)
 

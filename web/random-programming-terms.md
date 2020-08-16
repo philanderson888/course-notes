@@ -2456,11 +2456,6 @@ GLOBAL SCOPE
 !important
 Css ordering !important first (top priority), then ID, then CLASS, then ELEMENT
 Css : INLINE ALWAYS TOP PRIORITY compared with	INTERNAL AND EXTERNAL CSS
-LINK REL=”” HREF=””
-SCRIPT SRC=””
-STYLE INTERNAL CSS
-IFRAME PAGE WITHIN PAGE
-<FRAMESET> DEPRECATED
 CHILDNODES[] ARRAY
 CHILDNODES[0]
 NEXTSIBLING
@@ -2476,18 +2471,11 @@ STROKEWIDTH
 BEGINPATH
 ANCHOR TAG HREF
 EVENT.TARGET RECEIVES ACTUAL EVENT
-CAPTURE
-BUBBLE
 ADDEVENTLISTENER('CLICK',FUNCTION,FALSE) ? BUBBLE UP
-ONMOUSEOVER
-ONMOUSEOUT
-ONCLICK	EVENT
-CLICK()	METHOD
 TRIGGER('EVENT',FUNCTION)	SIMULATE EG A CLICK INSIDE CODE
 OBJECT { ID:”1” }
 myObject.prototype.newfield=1 / newMethod=function(){}
 PRE INCLUDES SPACES
-CODE
 BDI BI-DIRECTIONAL ISOLATION
 HOISTING
 WBR TAG
@@ -2509,8 +2497,11 @@ worker.terminate() FROM PARENT
 close()
 self.close() from WORKER
 INITATE	START
-Node Term List
 
+
+## Node Term List
+
+```js
 npm init -y : default install
 npm cache -verify
 express.static
@@ -2526,7 +2517,7 @@ native app talks to OS
 vows
 should
 cors
-closure : inner function access to outer variables
+`closure : inner function access to outer variables`
 gulp better than grunt
 promise
 generator
@@ -2554,7 +2545,11 @@ web app - general app for all OS
 mongo
 mongodb
 async
+```
+
 [https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make](https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make)[https://github.com/alessioalex/airpair-nodejs-mistakes/blob/master/4-nested-callbacks/after.js](https://github.com/alessioalex/airpair-nodejs-mistakes/blob/master/4-nested-callbacks/after.js)[socket.io](http://socket.io/) walkthrough
+
+```
 TDD TEST DRIVEN DEVELOPMENT
 BDD BEHAVIOUR DRIVEN DEVELOPMENT
 JASMINE ***
@@ -3226,7 +3221,6 @@ encodeURIComponent(URI)
 decodeURIComponent(URI)
 route
 ? one
-
 - many
 - one or more
 EJS
@@ -3732,9 +3726,11 @@ PARAMETRISED STORED PROCEDURE ***
 PUSHSTATE : PERMIT BROWSER 'BACK'
 REPLACESTATE : SET APPLICATION STATE TO PERMIT USAGE OF HISTORY AND BACK BUTTON IN BROWSER
 AJAX REQUIRES UPDATEPANEL WHICH REQUIRES SCRIPTMANAGER ON MASTER PAGE WHICH GETS ACCESSED VIA SCRIPTMANAGERPROXY ON NON-MASTER
+```
 
 # Angular Terms
 
+```
 ng-app
 ng-controller
 ng-directive
@@ -3898,16 +3894,17 @@ CONTROLLER = INPUT
 MODEL : ng-model and $scope
 VIEW : ng-bind
 CONTROLLER ng-controller DOES NOT SEEM TO HAVE ANY FUNCTION HERE!
+```
 
-Glossary
+# Glossary
 
-Babel
-
-Babel
+## Babel
+	
 Just write Javascript
 
 Allows use of the latest standards without you worrying about compatibility
-BACKBONEJS
+
+## BACKBONEJS
 
 ```
 Model has Key-Value binding
@@ -3951,7 +3948,7 @@ PARSING JSON RESPONSE FOR THE DATA THAT YOU ACTUALLY WANT
 		});
 ```
 
-Browserify
+## Browserify
 
 BUNDLES UP YOUR DEPENDENCIES FOR YOUR BROWSER
 

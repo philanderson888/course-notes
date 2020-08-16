@@ -51,7 +51,6 @@
 		- [Debounce](#debounce)
 		- [pnpm](#pnpm)
 		- [Closures](#closures)
-		- [Closures - Second Writeup](#closures---second-writeup)
 - [Javascript - Decrement This Section Over Time](#javascript---decrement-this-section-over-time)
 - [JAVASCRIPT FLOW - 480 structured notes - Too long so decrement over time](#javascript-flow---480-structured-notes---too-long-so-decrement-over-time)
 
@@ -4045,7 +4044,7 @@ The function only runs once and returns a function. Calling add() does not run t
 
 See index.htm#javascript-closure Javascript Closures for a working example
 
-### Closures - Second Writeup
+
 
 Javascript closures are inner functions which have access to the
 
@@ -4057,17 +4056,7 @@ Outer function parameters
 
 ```
 
-	var add = (function (x) {
-		var counter = 0;
-		return function () {return counter += 1;}
-	})();
 	
-	add();
-	add();
-	add();
-	
-		// the counter is now 3	
-		
 		
 		
 Key features of closures

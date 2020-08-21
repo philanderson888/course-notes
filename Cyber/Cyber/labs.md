@@ -52,14 +52,11 @@ Create Windows Active Directory Domain and join client to domain
 
 
 
-
-
 # HyperV Labs
 
 ## Virtual Switching
 
 ### Create a virtual switch
-
 
 # Routing And Switching Labs
 

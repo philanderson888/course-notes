@@ -308,3 +308,15 @@ Invoke-WebRequest -Uri $url -OutFile $output
 # install docker
 choco install docker-desktop --pre /y
 ```
+
+At this point, docker as a command won't work.
+
+If you run the docker application from Windows 10 you have to sign out first then back in again.
+
+But first we have to enable Windows Subsystem For Linux which can be enabled using
+
+```powershell
+Enable-WindowsOptionalFeature -Online -FeatureName $("VirtualMachinePlatform", "Microsoft-Windows-Subsystem-Linux")
+```
+
+You then have to restart your computer to use Docker.

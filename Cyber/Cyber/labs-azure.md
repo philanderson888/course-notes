@@ -16,6 +16,7 @@
   - [Azure Ubuntu Install VirtualBox](#azure-ubuntu-install-virtualbox)
 - [Azure Ubuntu Install Minikube](#azure-ubuntu-install-minikube)
 - [Azure Install Win10](#azure-install-win10)
+  - [Script Install Of Any File](#script-install-of-any-file)
   - [Script Install Of Visual Studio 2019 Community Edition](#script-install-of-visual-studio-2019-community-edition)
 
 ## Who Is Logged In
@@ -245,6 +246,18 @@ Trying by experimentation these work
 # enable hypervisor
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 # plus also have to enable two other windows optional features (used the GUI here)
+```
+
+## Script Install Of Any File
+
+Run this script as administrator to install Notepad++ silently!
+
+```powershell
+$url = "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.9/npp.7.8.9.Installer.x64.exe"
+$output = "notepadplusplus.exe"
+$start_time = Get-Date
+Invoke-WebRequest -Uri $url -OutFile $output
+.\notepadplusplus.exe /S 
 ```
 
 ## Script Install Of Visual Studio 2019 Community Edition

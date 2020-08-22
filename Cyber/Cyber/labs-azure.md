@@ -298,6 +298,26 @@ Manually have to set this
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ```
 
+Also have to enable Windows Subsystem For Linux which can be enabled, after a reboot, using
+
+```powershell
+# run this before docker works!
+Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -NoRestart -WarningAction SilentlyContinue
+Restart-Computer -Force
+```
+
+or
+
+```powershell
+$url = "https://raw.githubusercontent.com/philanderson888/scripts/master/devops/install-windows-subsystem-for-linux.ps1"
+$output = "install-windows-subsystem-for-linux.ps1"
+$start_time = Get-Date
+Invoke-WebRequest -Uri $url -OutFile $output
+./install-windows-subsystem-for-linux.ps1
+```
+
+
+
 ```powershell
 # install chocolatey
 $url = "https://chocolatey.org/install.ps1"
@@ -313,10 +333,8 @@ At this point, docker as a command won't work.
 
 If you run the docker application from Windows 10 you have to sign out first then back in again.
 
-But first we have to enable Windows Subsystem For Linux which can be enabled using
 
-```powershell
-Enable-WindowsOptionalFeature -Online -FeatureName $("VirtualMachinePlatform", "Microsoft-Windows-Subsystem-Linux")
-```
+
+
 
 You then have to restart your computer to use Docker.

@@ -18,6 +18,8 @@
 - [Azure Install Win10](#azure-install-win10)
   - [Script Install Of Any File](#script-install-of-any-file)
   - [Script Install Of Visual Studio 2019 Community Edition](#script-install-of-visual-studio-2019-community-edition)
+  - [Silent Install Of Chocolatey](#silent-install-of-chocolatey)
+  - [Silent Install Of Docker](#silent-install-of-docker)
 
 ## Who Is Logged In
 
@@ -267,6 +269,17 @@ $url = "https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?
 $output = "vs_community.exe"
 $start_time = Get-Date
 Invoke-WebRequest -Uri $url -OutFile $output
-./vs_community.exe`
+./vs_community.exe
 ```
 
+## Silent Install Of Chocolatey
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+
+## Silent Install Of Docker
+
+```powershell
+choco install docker-desktop --pre /y
+```

@@ -1,10 +1,9 @@
 # Javascript
 
 - [Javascript](#javascript)
-		- [Resources](#resources)
-		- [Javascript History](#javascript-history)
+	- [Resources](#resources)
+	- [Javascript History](#javascript-history)
 		- [Good Coding Practices](#good-coding-practices)
-		- [Javascript Styles](#javascript-styles)
 		- [Declaring Variables](#declaring-variables)
 - [Usage](#usage)
 	- [Chrome Dev Tools](#chrome-dev-tools)
@@ -64,15 +63,15 @@
 
 
 
-### Resources
+## Resources
 
-All-in-one-super-brief-web-development guide
+Javascript documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript>
 
-[https://github.com/zero-to-mastery/complete-web-developer-manual](https://github.com/zero-to-mastery/complete-web-developer-manual) 
+All-in-one-super-brief-web-development guide https://github.com/zero-to-mastery/complete-web-developer-manual
 
-### Javascript History
 
-```
+## Javascript History
+
 ECMAScript6                : Computing standards body based in Geneva
 
 Mozilla
@@ -80,28 +79,21 @@ Mozilla
 1995 Netscape
 	
 	Mini-Browser-OS to compete with C++ as portable JAVA for Sun 
-	<https://en.wikipedia.org/wiki/JavaScript#History>
+	https://en.wikipedia.org/wiki/JavaScript#History
 
 JScript by Microsoft 
 
 	IE3 first to implement Javascript
 	
-
 ECMAScript formal standard for JavaScript
 
-	
-<http://www.asmarterwaytolearn.com/js/index-of-exercises.html>
-```
+http://www.asmarterwaytolearn.com/js/index-of-exercises.html
 
-Javascript documentation
+Typescript is an evolution of Javascript and attempts to eliminate some of the bugs and bad practices embedded into the core of the language.
 
-```
-<https://developer.mozilla.org/en-US/docs/Web/JavaScript>
-```
 
 ### Good Coding Practices
 
-```
 Always close constructs as soon as you form them
 
 Indent code properly always eg 4 spaces = 1 tab and stick to it

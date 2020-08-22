@@ -16,6 +16,7 @@
   - [Azure Ubuntu Install VirtualBox](#azure-ubuntu-install-virtualbox)
 - [Azure Ubuntu Install Minikube](#azure-ubuntu-install-minikube)
 - [Azure Install Win10](#azure-install-win10)
+  - [Script Install Of Visual Studio 2019 Community Edition](#script-install-of-visual-studio-2019-community-edition)
 
 ## Who Is Logged In
 
@@ -228,6 +229,14 @@ minikube ssh
 
 # Azure Install Win10
 
+If you need `nested virtualization` make sure to choose D(CPU_COUNT)_v3 or Ev3 or higher.  See this article [here](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/nested-virtualization#create-a-nesting-capable-azure-vm).
+
+The actual list of virtual machines which supports nested virtualization is listed [here](https://docs.microsoft.com/en-us/azure/virtual-machines/acu)
+
+Trying by experimentation these work
+
+- E4s_v3 but is perhaps too big
+- D8s_v3 which is £250 per month! 
 
 
 ```bash
@@ -238,4 +247,13 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 # plus also have to enable two other windows optional features (used the GUI here)
 ```
 
+## Script Install Of Visual Studio 2019 Community Edition
+
+```powershell
+$url = "https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019+rc"
+$output = "vs_community.exe"
+$start_time = Get-Date
+Invoke-WebRequest -Uri $url -OutFile $output
+./vs_community.exe`
+```
 

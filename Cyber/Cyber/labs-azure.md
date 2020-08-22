@@ -278,8 +278,33 @@ Invoke-WebRequest -Uri $url -OutFile $output
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
-## Silent Install Of Docker
+or
 
 ```powershell
+$url = "https://chocolatey.org/install.ps1"
+$output = "install-chocolatey.ps1"
+$start_time = Get-Date
+Invoke-WebRequest -Uri $url -OutFile $output
+./install-chocolatey.ps1
+```
+
+
+
+## Silent Install Of Docker
+
+Manually have to set this
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+```
+
+```powershell
+# install chocolatey
+$url = "https://chocolatey.org/install.ps1"
+$output = "install-chocolatey.ps1"
+$start_time = Get-Date
+Invoke-WebRequest -Uri $url -OutFile $output
+./install-chocolatey.ps1
+# install docker
 choco install docker-desktop --pre /y
 ```

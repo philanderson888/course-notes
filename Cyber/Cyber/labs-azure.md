@@ -228,6 +228,8 @@ minikube ssh
 
 # Azure Install Win10
 
+
+
 ```bash
 # new VM E4s_v3 (too big)  AzureUser
 # rdp to it

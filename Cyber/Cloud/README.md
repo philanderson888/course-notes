@@ -2927,13 +2927,13 @@ cd dotnetapp
 docker build --pull -t dotnetapp .
 docker run --rm dotnetapp
 az login
-
 ```
 
 ### Deploy Container Image In Azure From Docker Hub
 
 ```
 portal.azure.com
+
 New => Web app for container
 
 Add the docker hub name with tag

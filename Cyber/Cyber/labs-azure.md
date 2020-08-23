@@ -1,6 +1,9 @@
 # Azure Labs
 
 - [Azure Labs](#azure-labs)
+  - [Two Modes Of Operation](#two-modes-of-operation)
+  - [Installation Of ASM](#installation-of-asm)
+  - [Log In To ASM subscription](#log-in-to-asm-subscription)
   - [Who Is Logged In](#who-is-logged-in)
   - [List Resource Groups](#list-resource-groups)
   - [List All Resources!](#list-all-resources)
@@ -10,7 +13,16 @@
   - [List All Public IP Addresses](#list-all-public-ip-addresses)
   - [List All Virtual Machines](#list-all-virtual-machines)
   - [Create Resource Group](#create-resource-group)
+  - [Remove Resource Group](#remove-resource-group)
+  - [Azure Create VM in Azure Cloud CLI](#azure-create-vm-in-azure-cloud-cli)
+  - [Azure Create Windows 10 VM](#azure-create-windows-10-vm)
   - [Azure VM Install Windows Server](#azure-vm-install-windows-server)
+  - [Azure Create VM with Azure Powershell](#azure-create-vm-with-azure-powershell)
+  - [Archive - Installation Of ARM (older)](#archive---installation-of-arm-older)
+  - [Archive - Log in to ARM subscription](#archive---log-in-to-arm-subscription)
+  - [Azure Create Database](#azure-create-database)
+  - [Azure Remove Resource Group](#azure-remove-resource-group)
+  - [Azure See What Images Are Available](#azure-see-what-images-are-available)
   - [Azure VM Install Ubuntu Server](#azure-vm-install-ubuntu-server)
   - [Azure Nested Virtualization](#azure-nested-virtualization)
   - [Azure Ubuntu Install VirtualBox](#azure-ubuntu-install-virtualbox)
@@ -20,6 +32,36 @@
   - [Script Install Of Visual Studio 2019 Community Edition](#script-install-of-visual-studio-2019-community-edition)
   - [Silent Install Of Chocolatey](#silent-install-of-chocolatey)
   - [Silent Install Of Docker](#silent-install-of-docker)
+
+## Two Modes Of Operation
+
+- ARM Azure Resource Manager (older)
+- ASM Azure Service Management 
+  - replaces ARM since October 2018
+
+
+https://docs.microsoft.com/en-us/powershell/azure/?view=azps-4.4.0
+
+We can run commands from either
+
+- Azure Powershell
+- Azure Cloud Shell
+
+
+## Installation Of ASM
+
+```powershell
+install-module az
+install-module az -AllowClobber -Scope AllUsers
+# verify correct version installed ie 4.5.0 Name Az
+Get-InstalledModule -Name Az -AllVersions 
+```
+
+## Log In To ASM subscription
+
+```powershell
+Connect-AzAccount
+```
 
 ## Who Is Logged In
 
@@ -45,7 +87,7 @@ az resource list
 List Resources In Resource Group
 
 ```powershell
-az resource list --resource-group {group name}
+az resource list --resource-group {group name} -o table
 ```
 
 ## List All Virtual Networks
@@ -76,19 +118,51 @@ az vm list -g my-resource-group --output-table
 
 ## Create Resource Group
 
+*Also see below with New-AzResourceGroup*
+
 ```powershell
 az group create --name <<name>> --location uksouth
 ```
+
+## Remove Resource Group
+
+```powershell
+az group delete --name DeleteThisGroup -y
+```
+
+## Azure Create VM in Azure Cloud CLI
+
+```powershell
+az group create --name resourcegroup23aug2020 --location uksouth
+az vm create --resource-group resourcegroup23aug2020 --name vm23aug2020 --image Win2019Datacenter --admin-username serveradmin
+```
+
+## Azure Create Windows 10 VM
+
+```powershell
+az account set --subscription 39ff3502-0a96-4f31-9d65-093ab484da57
+select-azuresubscription -Default 39ff3502-0a96-4f31-9d65-093ab484da57
+New-AzureVMConfig -Name "VirtualMachine07" -InstanceSize ExtraSmall -ImageName (Get-AzureVMImage)[4].ImageName | Add-AzureProvisioningConfig -Windows -Password $adminPassword -AdminUsername PsTestAdmin | New-AzureVM -ServiceName "ContosoService" -AffinityGroup "Contoso" -WaitForBoot
+```
+
+
+
+*Note - the image options here are 'CentOS', 'CoreOS', 'Debian', 'openSUSE-Leap', 'RHEL', 'SLES', 'UbuntuLTS', 'Win2019Datacenter', 'Win2016Datacenter', 'Win2012R2Datacenter', 'Win2012Datacenter', 'Win2008R2SP1*
 
 ## Azure VM Install Windows Server
 
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-automate-vm-deployment
 
+https://docs.microsoft.com/en-us/powershell/module/servicemanagement/azure.service/new-azurevm?view=azuresmps-4.0.0
+
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell
+
 ```powershell
+az group create --name SpartaResourceGroup01 --location uksouth
 # get credentials
 $cred = Get-Credential
 # new vm
-New-AzVm `
+New-AzureVm `
     -ResourceGroupName "myResourceGroupAutomate" `
     -Name "myVM" `
     -Location "East US" `
@@ -114,6 +188,173 @@ Get-AzPublicIPAddress `
 ```
 
 Now view our website in any browser
+
+
+
+## Azure Create VM with Azure Powershell
+
+We can also run the commands directly in the Azure Cloud Shell
+
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell
+
+```powershell
+# Create Resource Group 
+New-AzResourceGroup -Name SpartaVirtualMachine-22-Aug-2020 -Location UKSouth
+New-AzVm `
+    -ResourceGroupName "SpartaVirtualMachine-22-Aug-2020" `
+    -Name "myVM" `
+    -Location "UKSouth" `
+    -VirtualNetworkName "myVnet" `
+    -SubnetName "mySubnet" `
+    -SecurityGroupName "myNetworkSecurityGroup" `
+    -PublicIpAddressName "myPublicIpAddress" `
+    -OpenPorts 80,3389
+    -Credential (Get-Credential)
+```
+
+
+
+
+
+## Archive - Installation Of ARM (older)
+
+*notes for reference only - not for use*
+
+```powershell
+# run from an elevated prompt
+az account set --subscription 39ff3502-0a96-4f31-9d65-093ab484da57
+install-module azure
+get-module azure* # should now show 3 azure modules installed - Azure, Storage and Profile
+```
+
+To remove this which must be done so no conflict exists with the newer `az` module, run this
+
+```powershell
+Uninstall-AzureRM
+```
+
+## Archive - Log in to ARM subscription
+
+*notes for reference only - not for use*
+
+Go to https://portal.azure.com > home > subscriptions and copy the Subscription ID into your clipboard and use it below
+
+```powershell
+Login-azureRMAccount
+Get-AzureRmSubscription -SubscriptionId 39ff3502-0a96-4f31-9d65-093ab484da57
+Select-AzureRmSubscription -SubscriptionId 39ff3502-0a96-4f31-9d65-093ab484da57
+```
+
+
+## Azure Create Database
+
+Here is a walkthrough manually or use the script below 
+
+https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?tabs=azure-portal
+
+https://docs.microsoft.com/en-us/azure/azure-sql/database/scripts/create-and-configure-database-powershell?toc=/powershell/module/toc.json
+
+
+```powershell
+# Connect-AzAccount
+# The SubscriptionId in which to create these objects
+$SubscriptionId = '39ff3502-0a96-4f31-9d65-093ab484da57'
+# Set the resource group name and location for your server
+# $resourceGroupName = "myResourceGroup-$(Get-Random)"
+$resourceGroupName = "SpartaTestDatabase-22-Aug-2020"
+$location = "uksouth"
+# Set an admin login and password for your server
+$adminSqlLogin = "SqlAdmin"
+$password = "ChangeYourAdminPassword1"
+# Set server name - the logical server name has to be unique in the system
+$serverName = "server-$(Get-Random)"
+# The sample database name
+$databaseName = "mySampleDatabase"
+$databaseName2 = "mySampleDatabase2"
+# The ip address range that you want to allow to access your server
+$startIp = "92.234.29.198"
+$endIp = "92.234.29.198"
+
+# Set subscription 
+Set-AzContext -SubscriptionId $subscriptionId 
+
+# Create a resource group
+$resourceGroup = New-AzResourceGroup -Name $resourceGroupName -Location $location
+
+# Create a server with a system wide unique server name
+$server = New-AzSqlServer -ResourceGroupName $resourceGroupName `
+    -ServerName $serverName `
+    -Location $location `
+    -SqlAdministratorCredentials $(New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $adminSqlLogin, $(ConvertTo-SecureString -String $password -AsPlainText -Force))
+
+# Create a server firewall rule that allows access from the specified IP range
+$serverFirewallRule = New-AzSqlServerFirewallRule -ResourceGroupName $resourceGroupName `
+    -ServerName $serverName `
+    -FirewallRuleName "AllowedIPs" -StartIpAddress $startIp -EndIpAddress $endIp
+
+# Create a blank database with an S0 performance level
+$database = New-AzSqlDatabase  -ResourceGroupName $resourceGroupName `
+    -ServerName $serverName `
+    -DatabaseName $databaseName `
+    -RequestedServiceObjectiveName "S0" `
+    -SampleName "AdventureWorksLT"
+```
+
+## Azure Remove Resource Group 
+
+```powershell
+$SubscriptionId = '39ff3502-0a96-4f31-9d65-093ab484da57'
+# Set the resource group name and location for your server
+$resourceGroupName = "SpartaTestDatabase-22-Aug-2020"
+Remove-AzResourceGroup -ResourceGroupName $resourceGroupName -Force
+```
+
+
+## Azure See What Images Are Available
+
+```powershell
+$location="eastus"
+$resourceGroupName = "resource-group-2-23-aug-2020"
+$resourceGroup = New-AzResourceGroup -Name $resourceGroupName -Location $location
+# or
+$location="eastus"
+$resourceGroup = "resource-group-2-23-aug-2020"
+$publisher="MicrosoftWindowsDesktop"
+$productName="Windows-10"
+# Get-AzVMImagePublisher -Location $location | Select PublisherName
+Get-AzVMImageOffer -Location $location -PublisherName $publisher | Select Offer
+Get-AzVMImageSku -Location $location -PublisherName $publisher -Offer $productName | Select Skus
+$skuName="rs5-pron"
+Get-AzVMImage -Location $location -PublisherName $publisher -Offer $productName -Sku $skuName | Select Version 
+# Version
+# -------
+# 17763.1339.2007101755
+# 17763.1397.2008070242
+
+# Now build the parameters above into this formula
+$vmConfig = New-AzVMConfig -VMName "myVM" -VMSize Standard_D1
+
+# Set the Marketplace plan information
+$planName = "19h1-ent"
+$vmConfig = Set-AzVMPlan -VM $vmConfig -Publisher $publisher -Product $productName -Name $planName
+# $cred=Get-Credential
+# $vmConfig = Set-AzVMOperatingSystem -Windows -VM $vmConfig -ComputerName "myVM" -Credential $cred
+$vmConfig = Set-AzVMOperatingSystem -Windows -VM $vmConfig -ComputerName "myVM" -Credential $cred
+# Set the Marketplace image
+
+$productName="Windows-10"
+$skuName="rs5-pron"
+$version = "17763.1339.2007101755"
+$vmConfig = Set-AzVMSourceImage -VM $vmConfig -PublisherName $publisher -Offer $productName -Skus $skuName -Version $version
+
+# https://docs.microsoft.com/en-us/azure/virtual-machines/marketplace-images
+New-AzVM `
+   -ResourceGroupName $resourceGroup `
+   -Location $location `
+   -VM $vmConfig
+```
+
+
 
 
 
@@ -265,11 +506,12 @@ Invoke-WebRequest -Uri $url -OutFile $output
 ## Script Install Of Visual Studio 2019 Community Edition
 
 ```powershell
-$url = "https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=link+cta&utm_content=download+commandline+parameters+vs2019+rc"
-$output = "vs_community.exe"
+# install from personal channel
+$url = "https://github.com/philanderson888/scripts/blob/master/devops/vs_community__1830954925.1587920606.exe?raw=true"
+$output = "vs_community__831057064.1598087060.exe"
 $start_time = Get-Date
 Invoke-WebRequest -Uri $url -OutFile $output
-./vs_community.exe
+./vs_community__831057064.1598087060.exe --quiet --passive --includeRecommended
 ```
 
 ## Silent Install Of Chocolatey
@@ -316,6 +558,23 @@ Invoke-WebRequest -Uri $url -OutFile $output
 ./install-windows-subsystem-for-linux.ps1
 ```
 
+Can look into this method of executing a powershell script remotely as well 
+
+```powershell
+powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/philanderson888/scripts/master/devops/install-windows-subsystem-for-linux.ps1')"
+```
+
+
+We also have to install the WSL2 Linux Kernel manually and then reboot
+
+```powershell
+$url = "https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi"
+$output = "install-windows-subsystem-for-linux-kernel.msi"
+$start_time = Get-Date
+Invoke-WebRequest -Uri $url -OutFile $output
+./install-windows-subsystem-for-linux-kernel.msi
+```
+
 
 
 ```powershell
@@ -329,12 +588,10 @@ Invoke-WebRequest -Uri $url -OutFile $output
 choco install docker-desktop --pre /y
 ```
 
-At this point, docker as a command won't work.
+We may also need to install git 
 
-If you run the docker application from Windows 10 you have to sign out first then back in again.
+This command does need human intervention - can upgrade this to silent command
 
-
-
-
-
-You then have to restart your computer to use Docker.
+```powershell
+choco install git.install --force
+```

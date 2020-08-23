@@ -1,6 +1,8 @@
 # Cyber Glossary
 
 - [Cyber Glossary](#cyber-glossary)
+  - [OWASP Cyber Glossary](#owasp-cyber-glossary)
+  - [CSYA CSO-002 Exam Prep Sheets](#csya-cso-002-exam-prep-sheets)
   - [802.1x](#8021x)
   - [Analysis Of network traffic](#analysis-of-network-traffic)
   - [Bastion Host](#bastion-host)
@@ -215,6 +217,15 @@
   - [Hashing](#hashing)
   - [Offensive Tools](#offensive-tools)
 
+## OWASP Cyber Glossary
+
+https://cheatsheetseries.owasp.org/Glossary.html
+
+## CSYA CSO-002 Exam Prep Sheets
+
+- https://drive.google.com/file/d/1tUtV3FbE9XOQUiFfFP5Su_M7k2lKCCW5/view
+- https://drive.google.com/file/d/10DDPN-AAHx7v5-qLRezHkwOOY9kmFPNE/view
+- 
 
 ## 802.1x
 

@@ -624,6 +624,10 @@ This command does need human intervention - can upgrade this to silent command
 ```powershell
 # install git
 choco install git.install --force
+
+choco install git -y --params="'/GitAndUnixToolsOnPath /NoAutoCrlf'"
+choco install git -y --params="'/GitAndUnixToolsOnPath /NoAutoCrlf'" --install-args="'/DIR=C:\git'"
+
 ```
 
 Other examples
@@ -631,5 +635,13 @@ Other examples
 choco install sysinternals
 choco install notepadplusplus googlechrome atom 7zip
 choco install notepadplusplus --force --force-dependencies
-choco install notepadplusplus googlechrome atom 7zip -dvfy
+choco install notepadplusplus googlechrome -dvfy
+choco install nodejs.install --version 0.10.35
+```
+
+```powershell
+#  in the package for the installer itself
+
+choco install git -s "'https://somewhere/out/there'"
+choco install git -s "'https://somewhere/protected'" -u user -p pass
 ```

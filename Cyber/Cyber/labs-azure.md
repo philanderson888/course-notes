@@ -522,6 +522,12 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 ## Script Install Of Any File
 
+Manually have to set this
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+```
+
 Run this script as administrator to install Notepad++ silently!
 
 ```powershell
@@ -563,13 +569,7 @@ Invoke-WebRequest -Uri $url -OutFile $output
 
 ## Silent Install Of Docker
 
-Manually have to set this
-
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted
-```
-
-Also have to enable Windows Subsystem For Linux which can be enabled, after a reboot, using
+Have to enable Windows Subsystem For Linux which can be enabled, after a reboot, using
 
 ```powershell
 # run this before docker works!

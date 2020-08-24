@@ -622,5 +622,14 @@ We may also need to install git
 This command does need human intervention - can upgrade this to silent command
 
 ```powershell
+# install git
 choco install git.install --force
+```
+
+Other examples
+```powershell
+choco install sysinternals
+choco install notepadplusplus googlechrome atom 7zip
+choco install notepadplusplus --force --force-dependencies
+choco install notepadplusplus googlechrome atom 7zip -dvfy
 ```

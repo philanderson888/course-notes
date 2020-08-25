@@ -402,6 +402,7 @@ az vm list-sizes --location uksouth
 az vm create --resource-group ubuntu01 --name ubuntu01 --image UbuntuLTS --admin-username ubuntu --generate-ssh-keys
 
 # create big vm which is big enough for nested virtualization eg Dv3 or Ev3. E4 is too big?
+# D4Sv3 works as well
 
 az vm create --resource-group NestedVirtualization --name ubuntu03 --image UbuntuLTS --admin-username ubuntu --generate-ssh-keys --size Standard_E4s_v3
 

@@ -27,8 +27,9 @@
   - [Azure See What Images Are Available](#azure-see-what-images-are-available)
   - [Azure VM Install Ubuntu Server](#azure-vm-install-ubuntu-server)
   - [Ubuntu Nested Virtualization](#ubuntu-nested-virtualization)
-  - [Azure Ubuntu Install VirtualBox](#azure-ubuntu-install-virtualbox)
-- [Azure Ubuntu Install Minikube](#azure-ubuntu-install-minikube)
+  - [Ubuntu Install VirtualBox](#ubuntu-install-virtualbox)
+- [Ubuntu Install Minikube](#ubuntu-install-minikube)
+  - [Ubuntu Install VSCode](#ubuntu-install-vscode)
 - [Azure Install Win10](#azure-install-win10)
   - [Script Install Of Any File](#script-install-of-any-file)
   - [Script Install Of Visual Studio 2019 Community Edition](#script-install-of-visual-studio-2019-community-edition)
@@ -44,6 +45,11 @@
 Measure of power of a machine.  100 SKU is the power of a Small (Standard_A1) virtual machine
 
 [Different Azure Machine Types](https://docs.microsoft.com/en-us/azure/virtual-machines/acu)
+
+```powershell
+# list machines available to build
+az vm list-sizes --location uksouth
+```
 
 ### SKU
 
@@ -354,50 +360,21 @@ New-AzVM `
 
 ```powershell
 # resource group
-az group list --output table
+az group list -o tableaz 
 az group create --name ubuntu01 --location uksouth
-
-# list sizes
-az vm list-sizes --location uksouth
-
 # create vm
-az vm create --resource-group ubuntu01 --name ubuntu01 --image UbuntuLTS --admin-username ubuntu --generate-ssh-keys
-
-# create big vm which is big enough for nested virtualization eg Dv3 or Ev3. E4 is too big?
-# D4Sv3 works as well
-
-az vm create --resource-group NestedVirtualization --name ubuntu03 --image UbuntuLTS --admin-username ubuntu --generate-ssh-keys --size Standard_E4s_v3
-
-# output
-#  "privateIpAddress": "10.0.0.5",
-#  "publicIpAddress": "51.132.26.53",
-
+ az vm create --name ubuntu --resource-group Ubuntu26Aug2020 --size Standard_D2_v3 --image UbuntuLTS --generate-ssh-keys --admin-username serveradmin
 # open for port 80
 az vm open-port --port 80 --resource-group ubuntu01 --name ubuntu01
-
-az vm open-port --port 80 --resource-group NestedVirtualization --name ubuntu03
-
 # get public ip  (using -g for group alias)
 az vm list -g ubuntu01 --show-details --output table
-
-# output
-Name      ResourceGroup    PowerState    PublicIps     Fqdns    Location    Zones
---------  ---------------  ------------  ------------  -------  ----------  -------
-ubuntu01  ubuntu01         VM running    51.140.51.98           uksouth
-
 # alter permissions by removing admin write access
-
 # connect
-ssh ubuntu@51.140.51.98 
-
-we are now in!
-
+sshssh ubuntu@51.140.51.98 
+# update
 sudo apt update -y
 sudo apt upgrade -y
-
 ```
-
-
 
 ## Ubuntu Nested Virtualization
 
@@ -407,7 +384,7 @@ grep -cw vmx /proc/cpuinfo
 grep -E --color 'vmx|svm' /proc/cpuinfo
 ```
 
-## Azure Ubuntu Install VirtualBox
+## Ubuntu Install VirtualBox
 ```bash
 sudo add-apt-repository universe
 sudo add-apt-repository multiverse
@@ -436,7 +413,7 @@ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.30.vbox-
 ```
 
 
-# Azure Ubuntu Install Minikube
+# Ubuntu Install Minikube
 
 Minikube is a mini virtual machine running ubuntu and it is used for running clusters ....
 
@@ -461,7 +438,13 @@ minikube status
 minikube ssh
 ```
 
+## Ubuntu Install VSCode
 
+```bash
+# already installed
+sudo apt install snapd  
+sudo snap install --classic code
+```
 
 
 

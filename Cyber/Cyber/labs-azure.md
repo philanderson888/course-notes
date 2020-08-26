@@ -30,6 +30,7 @@
   - [Ubuntu Install VirtualBox](#ubuntu-install-virtualbox)
 - [Ubuntu Install Minikube](#ubuntu-install-minikube)
   - [Ubuntu Install VSCode](#ubuntu-install-vscode)
+  - [Ubuntu Build C# Web App](#ubuntu-build-c-web-app)
 - [Azure Install Win10](#azure-install-win10)
   - [Script Install Of Any File](#script-install-of-any-file)
   - [Script Install Of Visual Studio 2019 Community Edition](#script-install-of-visual-studio-2019-community-edition)
@@ -366,6 +367,7 @@ az group create --name ubuntu01 --location uksouth
  az vm create --name ubuntu --resource-group Ubuntu26Aug2020 --size Standard_D2_v3 --image UbuntuLTS --generate-ssh-keys --admin-username serveradmin
 # open for port 80
 az vm open-port --port 80 --resource-group ubuntu01 --name ubuntu01
+az vm open-port --port 443 -g ubuntu01 -n ubuntu01
 # get public ip  (using -g for group alias)
 az vm list -g ubuntu01 --show-details --output table
 # alter permissions by removing admin write access
@@ -444,9 +446,24 @@ minikube ssh
 # already installed
 sudo apt install snapd  
 sudo snap install --classic code
+# install dotnet
+sudo snap install --classic dotnet-sdk
+sudo snap alias dotnet-sdk.dotnet dotnet
 ```
 
+## Ubuntu Build C# Web App
 
+```bash
+# open ports
+az vm open-port --port 5000 -g Ubuntu26Aug2020 -n ubuntu --priority 101
+az vm open-port --port 5001 -g Ubuntu26Aug2020 -n ubuntu --priority 102
+dotnet new webapp
+dotnet run
+# view on port 5000 from another machine
+# ports are blocked on Linux
+sudo ufw status
+
+```
 
 # Azure Install Win10
 

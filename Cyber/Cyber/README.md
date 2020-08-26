@@ -4665,6 +4665,13 @@ systemctl status nginx
 sudo systemctl stop apache2
 # run
 sudo systemctl start nginx
+# you should be able to see the nginx web page at <IP> on stanard port 80
+# stop
+sudo systemctl stop nginx
+# run at startup
+sudo systemctl enable nginx
+# do not run at startup
+sudo systemctl disable nginx
 ```
 
 ### Ubuntu Install python

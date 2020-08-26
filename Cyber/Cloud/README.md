@@ -2536,7 +2536,7 @@ docker run simple-app
 
 ### Docker with ports
 
-```
+```bash
 docker run -p 80:80 simple-app
 ```
 

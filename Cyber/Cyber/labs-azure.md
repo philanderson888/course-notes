@@ -98,6 +98,13 @@ Get-InstalledModule -Name Az -AllVersions
 Connect-AzAccount
 ```
 
+or
+
+```powershell
+az loginaz a
+```
+
+
 ## Who Is Logged In
 
 ```powershell

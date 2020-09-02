@@ -7,7 +7,7 @@
   - [Nested Virtualization](#nested-virtualization)
   - [Azure CLI Modes](#azure-cli-modes)
   - [Installation Of ASM](#installation-of-asm)
-  - [Log In To ASM subscription](#log-in-to-asm-subscription)
+  - [Log In](#log-in)
   - [Who Is Logged In](#who-is-logged-in)
   - [List Resource Groups](#list-resource-groups)
   - [List All Resources!](#list-all-resources)
@@ -97,18 +97,11 @@ install-module az -AllowClobber -Scope AllUsers
 Get-InstalledModule -Name Az -AllVersions 
 ```
 
-## Log In To ASM subscription
-
-```powershell
-Connect-AzAccount
-```
-
-or
+## Log In
 
 ```powershell
 az login
 ```
-
 
 ## Who Is Logged In
 
@@ -164,16 +157,14 @@ az vm list -g my-group -o table
 
 ## Create Resource Group
 
-*Also see below with New-AzResourceGroup*
-
 ```powershell
-az group create --name <<name>> --location uksouth
+az group create -n ResourceGroup01 -l uksouth
 ```
 
 ## Remove Resource Group
 
 ```powershell
-az group delete --name DeleteThisGroup -y
+az group delete -n DeleteThisGroup -y
 ```
 
 ## Azure Create VM 
@@ -181,6 +172,12 @@ az group delete --name DeleteThisGroup -y
 ```powershell
 az group create --name resourcegroup23aug2020 --location uksouth
 az vm create -g resourcegroup23aug2020 -n vm23aug2020 --image Win2019Datacenter --admin-username serveradmin
+```
+
+or
+
+```powershell
+new-azvm -image win10 -location uksouth -size standard_d2_v3 -n vmtest    // what about resource group!
 ```
 
 ## Azure Stop VM

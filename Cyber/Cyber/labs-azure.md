@@ -36,8 +36,10 @@
   - [Ubuntu Build C# Web App](#ubuntu-build-c-web-app)
 - [Azure Install Win10](#azure-install-win10)
   - [Script Install Of Any File](#script-install-of-any-file)
-  - [Script Install Of Visual Studio 2019 Community Edition](#script-install-of-visual-studio-2019-community-edition)
   - [Silent Install Of Chocolatey](#silent-install-of-chocolatey)
+  - [Choco Install Chrome](#choco-install-chrome)
+  - [Choco Install Visual Studio](#choco-install-visual-studio)
+  - [Script Install Of Visual Studio 2019 Community Edition](#script-install-of-visual-studio-2019-community-edition)
   - [Silent Install Of Docker](#silent-install-of-docker)
   - [Archive - Installation Of ARM (older)](#archive---installation-of-arm-older)
   - [Archive - Log in to ARM subscription](#archive---log-in-to-arm-subscription)
@@ -519,17 +521,6 @@ Invoke-WebRequest -Uri $url -OutFile $output
 .\notepadplusplus.exe /S 
 ```
 
-## Script Install Of Visual Studio 2019 Community Edition
-
-```powershell
-# install from personal channel
-$url = "https://github.com/philanderson888/scripts/blob/master/devops/vs_community__1830954925.1587920606.exe?raw=true"
-$output = "vs_community__831057064.1598087060.exe"
-$start_time = Get-Date
-Invoke-WebRequest -Uri $url -OutFile $output
-./vs_community__831057064.1598087060.exe --quiet --passive --includeRecommended
-```
-
 ## Silent Install Of Chocolatey
 
 ```powershell
@@ -545,6 +536,33 @@ $start_time = Get-Date
 Invoke-WebRequest -Uri $url -OutFile $output
 ./install-chocolatey.ps1
 ```
+
+
+
+## Choco Install Chrome
+
+```powershell
+choco install googlechrome
+```
+
+## Choco Install Visual Studio 
+
+```powershell
+choco install visualstudio2019community
+```
+
+## Script Install Of Visual Studio 2019 Community Edition
+
+```powershell
+# install from personal channel
+$url = "https://github.com/philanderson888/scripts/blob/master/devops/vs_community__1830954925.1587920606.exe?raw=true"
+$output = "vs_community__831057064.1598087060.exe"
+$start_time = Get-Date
+Invoke-WebRequest -Uri $url -OutFile $output
+./vs_community__831057064.1598087060.exe --quiet --passive --includeRecommended
+```
+
+
 
 
 

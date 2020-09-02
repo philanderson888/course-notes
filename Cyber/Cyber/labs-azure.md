@@ -18,7 +18,7 @@
   - [List All Virtual Machines](#list-all-virtual-machines)
   - [Create Resource Group](#create-resource-group)
   - [Remove Resource Group](#remove-resource-group)
-  - [Azure Create VM in Azure Cloud CLI](#azure-create-vm-in-azure-cloud-cli)
+  - [Azure Create VM](#azure-create-vm)
   - [Azure Create Windows 10 VM](#azure-create-windows-10-vm)
   - [Azure VM Install Windows Server](#azure-vm-install-windows-server)
   - [Azure Cloud Shell CLI Create VM](#azure-cloud-shell-cli-create-vm)
@@ -49,7 +49,7 @@ Measure of power of a machine.  100 SKU is the power of a Small (Standard_A1) vi
 
 ```powershell
 # list machines available to build
-az vm list-sizes --location uksouth
+az vm list-sizes -l uksouth -o table
 ```
 
 ### SKU
@@ -101,27 +101,26 @@ Connect-AzAccount
 or
 
 ```powershell
-az loginaz a
+az login
 ```
 
 
 ## Who Is Logged In
 
 ```powershell
-az account list
-az account list --output table
+az account list -o table
 ```
 
 ## List Resource Groups
 
 ```powershell
-az group list --output table
+az group list -o table
 ```
 
 ## List All Resources!
 
 ```powershell
-az resource list
+az resource list -o table
 ```
 
 ## List Resources In Group
@@ -129,20 +128,19 @@ az resource list
 List Resources In Resource Group
 
 ```powershell
-az resource list --resource-group {group name} -o table
+az resource list -g {group name} -o table
 ```
 
 ## List All Virtual Networks
 
 ```powershell
-az network vnet list
-az network vnet list --output-table
+az network vnet list -o table
 ```
 
 ## List All Network Cards
 
 ```powershell
-az network nic list --output table
+az network nic list -o table
 ```
 
 ## List All Public IP Addresses
@@ -155,7 +153,8 @@ az vm list -g virtual-machines-linux-kali-01 --show-details --output table
 ## List All Virtual Machines
 
 ```powershell
-az vm list -g my-resource-group --output-table
+az vm list -o table
+az vm list -g my-group -o table
 ```
 
 ## Create Resource Group
@@ -172,11 +171,17 @@ az group create --name <<name>> --location uksouth
 az group delete --name DeleteThisGroup -y
 ```
 
-## Azure Create VM in Azure Cloud CLI
+## Azure Create VM 
 
 ```powershell
 az group create --name resourcegroup23aug2020 --location uksouth
-az vm create --resource-group resourcegroup23aug2020 --name vm23aug2020 --image Win2019Datacenter --admin-username serveradmin
+az vm create -g resourcegroup23aug2020 -n vm23aug2020 --image Win2019Datacenter --admin-username serveradmin
+```
+
+```powershell
+# list machines available to build
+az vm list-sizes -l uksouth -o table
+az vm create -g ResourceGroup02092020 -n vm02092020 -image Win2019Datacenter --admin-username serveradmin
 ```
 
 ## Azure Create Windows 10 VM

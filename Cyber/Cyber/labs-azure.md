@@ -19,6 +19,9 @@
   - [Create Resource Group](#create-resource-group)
   - [Remove Resource Group](#remove-resource-group)
   - [Azure Create VM](#azure-create-vm)
+  - [Azure Stop VM](#azure-stop-vm)
+  - [Azure Delete VM](#azure-delete-vm)
+  - [Azure Create VM With Nested Virtualization](#azure-create-vm-with-nested-virtualization)
   - [Azure Create Windows 10 VM](#azure-create-windows-10-vm)
   - [Azure VM Install Windows Server](#azure-vm-install-windows-server)
   - [Azure Cloud Shell CLI Create VM](#azure-cloud-shell-cli-create-vm)
@@ -178,10 +181,24 @@ az group create --name resourcegroup23aug2020 --location uksouth
 az vm create -g resourcegroup23aug2020 -n vm23aug2020 --image Win2019Datacenter --admin-username serveradmin
 ```
 
+## Azure Stop VM
+
+```powershell
+az vm stop -n VMName -g MyResourceGroup
+```
+
+## Azure Delete VM
+
+```powershell
+az vm delete -g MyResourceGroup -n VMName --yes
+```
+
+## Azure Create VM With Nested Virtualization
+
 ```powershell
 # list machines available to build
 az vm list-sizes -l uksouth -o table
-az vm create -g ResourceGroup02092020 -n vm02092020 -image Win2019Datacenter --admin-username serveradmin
+ az vm create -g ResourceGroup02092020 -n vm02092020 --image Win2019Datacenter --admin-username serveradmin --size Standard_D2_v3
 ```
 
 ## Azure Create Windows 10 VM

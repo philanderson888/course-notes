@@ -10,31 +10,32 @@
   - [Log In](#log-in)
   - [Who Is Logged In](#who-is-logged-in)
   - [List Resource Groups](#list-resource-groups)
-  - [List Resources](#list-resources)
-  - [List All Virtual Networks](#list-all-virtual-networks)
-  - [List All Network Cards](#list-all-network-cards)
-  - [List All Public IP Addresses](#list-all-public-ip-addresses)
-  - [List All Virtual Machines](#list-all-virtual-machines)
   - [Create Resource Group](#create-resource-group)
   - [Remove Resource Group](#remove-resource-group)
-  - [Azure Create VM](#azure-create-vm)
+  - [List Resources](#list-resources)
+  - [List All Virtual Machines](#list-all-virtual-machines)
+  - [Azure Create Windows 10 VM](#azure-create-windows-10-vm)
+  - [Azure Create Windows Server VM](#azure-create-windows-server-vm)
   - [Azure Stop VM](#azure-stop-vm)
   - [Azure Delete VM](#azure-delete-vm)
   - [Azure Create VM With Nested Virtualization](#azure-create-vm-with-nested-virtualization)
-  - [Azure Create Windows 10 VM](#azure-create-windows-10-vm)
+  - [Azure Create Windows 10 VM](#azure-create-windows-10-vm-1)
   - [Azure VM Install Windows Server](#azure-vm-install-windows-server)
   - [Azure Cloud Shell CLI Create VM](#azure-cloud-shell-cli-create-vm)
   - [Azure Create Database](#azure-create-database)
-  - [Azure Remove Resource Group](#azure-remove-resource-group)
   - [Azure See What Images Are Available](#azure-see-what-images-are-available)
+  - [List All Virtual Networks](#list-all-virtual-networks)
+  - [List All Network Cards](#list-all-network-cards)
+  - [List All Public IP Addresses](#list-all-public-ip-addresses)
   - [Azure VM Install Ubuntu Server](#azure-vm-install-ubuntu-server)
   - [Ubuntu Nested Virtualization](#ubuntu-nested-virtualization)
   - [Ubuntu Install VirtualBox](#ubuntu-install-virtualbox)
 - [Ubuntu Install Minikube](#ubuntu-install-minikube)
   - [Ubuntu Install VSCode](#ubuntu-install-vscode)
   - [Ubuntu Build C# Web App](#ubuntu-build-c-web-app)
-- [Azure Install Win10](#azure-install-win10)
-  - [Script Install Of Any File](#script-install-of-any-file)
+  - [Enable HyperV](#enable-hyperv)
+  - [Enable Scripts](#enable-scripts)
+  - [Script Install Any Generic EXE (Notepad++ As Example)](#script-install-any-generic-exe-notepad-as-example)
   - [Silent Install Of Chocolatey](#silent-install-of-chocolatey)
   - [Choco Install Chrome](#choco-install-chrome)
   - [Choco Install Visual Studio](#choco-install-visual-studio)
@@ -114,39 +115,6 @@ az account list -o table
 az group list -o table
 ```
 
-## List Resources
-
-```powershell
-az resource list -o table
-az resource list -g {group name} -o table
-```
-
-## List All Virtual Networks
-
-```powershell
-az network vnet list -o table
-```
-
-## List All Network Cards
-
-```powershell
-az network nic list -o table
-```
-
-## List All Public IP Addresses
-
-```powershell
-az vm list -g virtual-machines-linux-kali-01 --output table
-az vm list -g virtual-machines-linux-kali-01 --show-details --output table
-```
-
-## List All Virtual Machines
-
-```powershell
-az vm list -o table
-az vm list -g my-group -o table
-```
-
 ## Create Resource Group
 
 ```powershell
@@ -157,20 +125,39 @@ az group create -n ResourceGroup01 -l uksouth
 
 ```powershell
 az group delete -n DeleteThisGroup -y
+#or 
+Remove-AzResourceGroup ResourceGroup01-Force
 ```
 
-## Azure Create VM 
+## List Resources
+
+```powershell
+az resource list -o table
+az resource list -g ResourceGroup01 -o table
+```
+
+## List All Virtual Machines
+
+```powershell
+az vm list -o table
+az vm list -g my-group -o table
+```
+
+
+
+## Azure Create Windows 10 VM
+
+```powershell
+new-azvm -ResourceGroupName ResourceGroup01 -image win10 -location uksouth -size standard_d2_v3 -n Win10   
+```
+
+## Azure Create Windows Server VM
 
 ```powershell
 az group create --name resourcegroup23aug2020 --location uksouth
 az vm create -g resourcegroup23aug2020 -n vm23aug2020 --image Win2019Datacenter --admin-username serveradmin
 ```
 
-or
-
-```powershell
-new-azvm -image win10 -location uksouth -size standard_d2_v3 -n vmtest    // what about resource group!
-```
 
 ## Azure Stop VM
 
@@ -319,14 +306,7 @@ $database = New-AzSqlDatabase  -ResourceGroupName $resourceGroupName `
     -SampleName "AdventureWorksLT"
 ```
 
-## Azure Remove Resource Group 
 
-```powershell
-$SubscriptionId = '39ff3502-0a96-4f31-9d65-093ab484da57'
-# Set the resource group name and location for your server
-$resourceGroupName = "SpartaTestDatabase-22-Aug-2020"
-Remove-AzResourceGroup -ResourceGroupName $resourceGroupName -Force
-```
 
 
 ## Azure See What Images Are Available
@@ -373,7 +353,24 @@ New-AzVM `
    -VM $vmConfig
 ```
 
+## List All Virtual Networks
 
+```powershell
+az network vnet list -o table
+```
+
+## List All Network Cards
+
+```powershell
+az network nic list -o table
+```
+
+## List All Public IP Addresses
+
+```powershell
+az vm list -g virtual-machines-linux-kali-01 --output table
+az vm list -g virtual-machines-linux-kali-01 --show-details --output table
+```
 
 
 ## Azure VM Install Ubuntu Server
@@ -485,20 +482,21 @@ sudo ufw status
 
 ```
 
-# Azure Install Win10
+## Enable HyperV
 
-```bash
-# enable hypervisor
+```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```
 
-## Script Install Of Any File
+## Enable Scripts
 
-Manually have to set this
+Run from Administrator prompt
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ```
+
+## Script Install Any Generic EXE (Notepad++ As Example)
 
 Run this script as administrator to install Notepad++ silently!
 

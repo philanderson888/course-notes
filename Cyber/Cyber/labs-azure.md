@@ -10,8 +10,7 @@
   - [Log In](#log-in)
   - [Who Is Logged In](#who-is-logged-in)
   - [List Resource Groups](#list-resource-groups)
-  - [List All Resources!](#list-all-resources)
-  - [List Resources In Group](#list-resources-in-group)
+  - [List Resources](#list-resources)
   - [List All Virtual Networks](#list-all-virtual-networks)
   - [List All Network Cards](#list-all-network-cards)
   - [List All Public IP Addresses](#list-all-public-ip-addresses)
@@ -115,17 +114,10 @@ az account list -o table
 az group list -o table
 ```
 
-## List All Resources!
+## List Resources
 
 ```powershell
 az resource list -o table
-```
-
-## List Resources In Group
-
-List Resources In Resource Group
-
-```powershell
 az resource list -g {group name} -o table
 ```
 

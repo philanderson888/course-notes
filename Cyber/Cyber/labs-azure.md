@@ -15,18 +15,17 @@
   - [List Resources](#list-resources)
   - [List All Virtual Machines](#list-all-virtual-machines)
   - [Azure Create Windows 10 VM](#azure-create-windows-10-vm)
-  - [Azure Create Windows Server VM](#azure-create-windows-server-vm)
   - [Azure Stop VM](#azure-stop-vm)
   - [Azure Delete VM](#azure-delete-vm)
+  - [List All Virtual Networks](#list-all-virtual-networks)
+  - [List All Network Cards](#list-all-network-cards)
+  - [Azure Create Windows Server VM](#azure-create-windows-server-vm)
   - [Azure Create VM With Nested Virtualization](#azure-create-vm-with-nested-virtualization)
   - [Azure Create Windows 10 VM](#azure-create-windows-10-vm-1)
   - [Azure VM Install Windows Server](#azure-vm-install-windows-server)
   - [Azure Cloud Shell CLI Create VM](#azure-cloud-shell-cli-create-vm)
   - [Azure Create Database](#azure-create-database)
   - [Azure See What Images Are Available](#azure-see-what-images-are-available)
-  - [List All Virtual Networks](#list-all-virtual-networks)
-  - [List All Network Cards](#list-all-network-cards)
-  - [List All Public IP Addresses](#list-all-public-ip-addresses)
   - [Azure VM Install Ubuntu Server](#azure-vm-install-ubuntu-server)
   - [Ubuntu Nested Virtualization](#ubuntu-nested-virtualization)
   - [Ubuntu Install VirtualBox](#ubuntu-install-virtualbox)
@@ -35,12 +34,11 @@
   - [Ubuntu Build C# Web App](#ubuntu-build-c-web-app)
   - [Enable HyperV](#enable-hyperv)
   - [Enable Scripts](#enable-scripts)
-  - [Script Install Any Generic EXE (Notepad++ As Example)](#script-install-any-generic-exe-notepad-as-example)
-  - [Silent Install Of Chocolatey](#silent-install-of-chocolatey)
-  - [Choco Install Chrome](#choco-install-chrome)
+  - [Manually install exe](#manually-install-exe)
+  - [Install Chocolatey](#install-chocolatey)
+  - [Choco Install](#choco-install)
   - [Choco Install Visual Studio](#choco-install-visual-studio)
-  - [Script Install Of Visual Studio 2019 Community Edition](#script-install-of-visual-studio-2019-community-edition)
-  - [Silent Install Of Docker](#silent-install-of-docker)
+  - [Install Docker](#install-docker)
   - [Archive - Installation Of ARM (older)](#archive---installation-of-arm-older)
   - [Archive - Log in to ARM subscription](#archive---log-in-to-arm-subscription)
 
@@ -141,23 +139,15 @@ az resource list -g ResourceGroup01 -o table
 ```powershell
 az vm list -o table
 az vm list -g my-group -o table
+az vm list -g my-group -o table
+az vm list -g my-group -o table --show-details
 ```
-
-
 
 ## Azure Create Windows 10 VM
 
 ```powershell
 new-azvm -ResourceGroupName ResourceGroup01 -image win10 -location uksouth -size standard_d2_v3 -n Win10   
 ```
-
-## Azure Create Windows Server VM
-
-```powershell
-az group create --name resourcegroup23aug2020 --location uksouth
-az vm create -g resourcegroup23aug2020 -n vm23aug2020 --image Win2019Datacenter --admin-username serveradmin
-```
-
 
 ## Azure Stop VM
 
@@ -170,6 +160,32 @@ az vm stop -n VMName -g MyResourceGroup
 ```powershell
 az vm delete -g MyResourceGroup -n VMName --yes
 ```
+
+## List All Virtual Networks
+
+```powershell
+az network vnet list -o table
+```
+
+## List All Network Cards
+
+```powershell
+az network nic list -o table
+```
+
+
+
+
+
+## Azure Create Windows Server VM
+
+```powershell
+az group create --name resourcegroup23aug2020 --location uksouth
+az vm create -g resourcegroup23aug2020 -n vm23aug2020 --image Win2019Datacenter --admin-username serveradmin
+```
+
+
+
 
 ## Azure Create VM With Nested Virtualization
 
@@ -353,25 +369,6 @@ New-AzVM `
    -VM $vmConfig
 ```
 
-## List All Virtual Networks
-
-```powershell
-az network vnet list -o table
-```
-
-## List All Network Cards
-
-```powershell
-az network nic list -o table
-```
-
-## List All Public IP Addresses
-
-```powershell
-az vm list -g virtual-machines-linux-kali-01 --output table
-az vm list -g virtual-machines-linux-kali-01 --show-details --output table
-```
-
 
 ## Azure VM Install Ubuntu Server
 
@@ -490,15 +487,15 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 ## Enable Scripts
 
-Run from Administrator prompt
-
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ```
 
-## Script Install Any Generic EXE (Notepad++ As Example)
+## Manually install exe
 
-Run this script as administrator to install Notepad++ silently!
+*Shows what can be done - but Chocolatey does it better!*
+
+Use Notepad++ as an example of how to install any exe file
 
 ```powershell
 $url = "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.9/npp.7.8.9.Installer.x64.exe"
@@ -508,10 +505,12 @@ Invoke-WebRequest -Uri $url -OutFile $output
 .\notepadplusplus.exe /S 
 ```
 
-## Silent Install Of Chocolatey
+## Install Chocolatey
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; 
+
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
 or
@@ -526,34 +525,24 @@ Invoke-WebRequest -Uri $url -OutFile $output
 
 
 
-## Choco Install Chrome
+## Choco Install
 
 ```powershell
+choco install notepadplusplus
+choco install sublimetext3
+choco install vscode
 choco install googlechrome
 ```
 
 ## Choco Install Visual Studio 
 
+*Note - takes a while as installs the full version.  May be quicker to install manually and just choose options desired*
+
 ```powershell
 choco install visualstudio2019community
 ```
 
-## Script Install Of Visual Studio 2019 Community Edition
-
-```powershell
-# install from personal channel
-$url = "https://github.com/philanderson888/scripts/blob/master/devops/vs_community__1830954925.1587920606.exe?raw=true"
-$output = "vs_community__831057064.1598087060.exe"
-$start_time = Get-Date
-Invoke-WebRequest -Uri $url -OutFile $output
-./vs_community__831057064.1598087060.exe --quiet --passive --includeRecommended
-```
-
-
-
-
-
-## Silent Install Of Docker
+## Install Docker
 
 Have to enable Windows Subsystem For Linux which can be enabled, after a reboot, using
 

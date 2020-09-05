@@ -4852,11 +4852,9 @@ src="abc.mp4"
 
 ## BDI Right To Left Text
 
-BiDirectional Isolation (eg Arabic right to left)
-
 BDI - Bi-Directional Indicator
 
-(left to right, or right to left)
+	(left to right, or right to left)
 
 
 ## Regex Pattern

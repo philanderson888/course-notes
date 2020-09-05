@@ -16,8 +16,6 @@ In this folder are courses related to web technologies
 
 - [react](react.md)
 
-- [mongo](mongo.md)
-
-- [mongoose](mongoose.md)
+- [typescript](typescript.md)
 
 

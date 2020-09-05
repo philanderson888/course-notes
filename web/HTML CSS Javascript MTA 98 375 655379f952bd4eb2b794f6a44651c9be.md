@@ -1,6 +1,10 @@
 # HTML CSS Javascript MTA 98-375
 
 - [HTML CSS Javascript MTA 98-375](#html-css-javascript-mta-98-375)
+- [HTML Forms](#html-forms)
+- [in here go files which are explicitly named and will go in the application](#in-here-go-files-which-are-explicitly-named-and-will-go-in-the-application)
+- [specifies files which must be accessed online if not in the cache](#specifies-files-which-must-be-accessed-online-if-not-in-the-cache)
+- [use this to tell the browser what file to use if a network resource is not available](#use-this-to-tell-the-browser-what-file-to-use-if-a-network-resource-is-not-available)
   
 
   
@@ -1390,89 +1394,32 @@ https://msdn.microsoft.com/en-us/library/gg589521?f=255&MSPPError=-2147217396
 Canvas VS SVG
 
 https://msdn.microsoft.com/en-us/library/gg193983%28v=VS.85%29.aspx?f=255&MSPPError=-2147217396#Using_Canvas_AndOr_SVG
+```
 
-Audio and Video
+    
 
-Codec
 
-Codec is short for ENCODE / DECODE and is used to mean the art of taking a video or audio file, saving it for use as a single file (ENCODING) and then playing it back again on demand (DECODING).  A CODEC is a means of doing this ie different CODECS are used on different platforms to produce the same result ie to play the file
-Compression
+        
+DATA-
 
-Is the art of making a file smaller
-Data compression uses various techniques to reduce the size of data blocks
-Video/audio/image compression may or may not reduce the image quality
-Lossy WILL LOSE DATA (FOREVER!) eg BMP => JPG, WMA => MP3, WMV => MP4
-Lossless means that ALL THE DATA IS SAVED even though the file takes up less space  EG WMA => M4A
-<audio>
+    CAN ADD CUSTOM DATA- ATTRIBUTES LIKE ID FIELDS
+    
+    DIV DATA-NAME="X"
+    
+        $('DIV[DATA-NAME="X"]')
 
-Now comes NATIVE IN HTML5!!!
-<audio>
-preload
-controls
-autoplay
-autoloop
-metadata
-canplaytype(type)
-currentTime
-duration
-play()
-pause()
-File types supported
-mp3
-m4a
-wav
-ogg
-aac
 
-function playAt(seconds){
-var audio = document.getElementsByTagName("audio")[0];
-audio.currentTime=seconds;
-audio.play();
-}
 
-function restart(){
-var audio = document.getElementsByTagName("audio")[0];
-audio.currentTime=0;
-audio.play();
-}
 
-<audio controls="controls">
-<source src="BuffaloChickenDip.mp3" />
-Your browser does not support the audio element.
-</audio>
-<button title="Play at 15 seconds" onclick="playAt(4.5);" >4.5
-Seconds</button>
-<button title="Restart Audio" onclick="restart();">Restart</button>
+# HTML Forms
 
-Video
-
-<video>
-
-Now comes NATIVE IN HTML5!!!
-src multiple src elements can be used to define the file to be used to play the video.  The browser will use the first valid source file that it can play.
-width,height of the video
-controls : if present then the play/pause/forward/rewind controls are visible on the screen for the user to use
-poster : image to display while the initial video is downloading so the user is not staring at a blank screen but has something to look at 
-autoplay : automatically begins playing once the video has buffered (annoying adverts on pages do this also!)
-play
-pause
-preload
-seeking
-volume
-fullscreentoggle
-captions/subtitles
-track
-
-<video width="320" height="240" controls="controls">
-<source src="travelVideo1.mp4" type="video/mp4" />
-<source src="travelVideo1.ogg" type="video/ogg" />
-Your browser does not support the video tag.
-</video>
-
-<video width="320" height="240" controls="controls" poster =
-“FrenchLesson1.png”>
-
-Chapter 3 - HTML Continued - Forms, Input Types, Input Attributes, Placeholder, Required, Pattern, Tables, Definition Lists
+- Input Types
+- Input Attributes
+- Placeholder
+- Required
+- Pattern
+- Tables
+- Definition Lists
 
 Forms
 Document Object Model
@@ -3119,8 +3066,7 @@ sectioning root tags
 @media
  - detect screen size
 
-BDI - Bi-Directional Indicator
- (left to right, or right to left)
+
 
 Escape Characters
 

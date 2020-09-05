@@ -636,7 +636,6 @@ OBJECT { ID:”1” }
 myObject.prototype.newfield=1 / newMethod=function(){}
 PRE INCLUDES SPACES
 CODE
-BDI BI-DIRECTIONAL ISOLATION
 HOISTING
 WBR TAG
 WORD-BREAK

@@ -42,6 +42,8 @@
 		- [Cookies](#cookies)
 - [70-480 Notes](#70-480-notes)
 	- [Forms](#forms)
+	- [Audio](#audio)
+	- [Video](#video)
 - [Javascript Dictionary](#javascript-dictionary)
 - [Javascript Glossary](#javascript-glossary)
 		- [ChartJS](#chartjs)
@@ -2938,7 +2940,101 @@ FILE TYPES
 	TEXT/HTML
 ```
 
-HTML VIDEO AND AUDIO (8-7)
+
+
+## Audio
+
+Codec
+
+Codec is short for ENCODE / DECODE and is used to mean the art of taking a video or audio file, saving it for use as a single file (ENCODING) and then playing it back again on demand (DECODING).  A CODEC is a means of doing this ie different CODECS are used on different platforms to produce the same result ie to play the file
+
+Compression
+
+Is the art of making a file smaller
+
+Data compression uses various techniques to reduce the size of data blocks
+
+Video/audio/image compression may or may not reduce the image quality
+
+Lossy WILL LOSE DATA (FOREVER!) eg BMP => JPG, WMA => MP3, WMV => MP4
+
+Lossless means that ALL THE DATA IS SAVED even though the file takes up less space  EG WMA => M4A
+
+        
+```html
+<audio preload="auto/none" controls autoplay autoloop metadata canplaytype(type) currentTime duration play() pause()></audio>
+```
+
+```js
+function playAt(seconds){
+var audio = document.getElementsByTagName("audio")[0];
+audio.currentTime=seconds;
+audio.play();
+}
+
+function restart(){
+var audio = document.getElementsByTagName("audio")[0];
+audio.currentTime=0;
+audio.play();
+}
+```
+
+```html
+<audio controls="controls">
+<source src="BuffaloChickenDip.mp3" />
+Your browser does not support the audio element.
+</audio>
+<button title="Play at 15 seconds" onclick="playAt(4.5);" >4.5
+Seconds</button>
+<button title="Restart Audio" onclick="restart();">Restart</button>
+```
+
+
+## Video
+
+- src multiple src elements can be used to define the file to be used to play the video.  The browser will use the first valid source file that it can play.
+- width,height of the video
+- controls : if present then the play/pause/forward/rewind controls are visible on the screen for the user to use
+- poster : image to display while the initial video is downloading so the user is not staring at a blank screen but has something to look at 
+- autoplay : automatically begins playing once the video has buffered (annoying adverts on pages do this also!)
+- muted
+- loop
+- play
+- pause
+- paused
+- preload = auto/none/metadata ie when the page loads, load either the full video, nothing or just the metadata
+- seeking
+- volume
+- fullscreentoggle
+- captions/subtitles
+- track
+- playbackrate()
+- volume()
+- paused()   boolean
+- duration()
+- currenttime()	
+ 
+ 
+ ```html
+<video width="320" height="240" controls="controls" poster="FrenchLesson1.png">
+<source src="travelVideo1.mp4" type="video/mp4" />
+<source src="travelVideo1.ogg" type="video/ogg" />
+Your browser does not support the video tag.
+</video>
+```
+
+Video events
+
+1) LOADEDMETADATA EG LENGTH OF VIDEO
+2) LOADEDDATA  FINISHED BUFFERING AND READY TO PLAY
+3) TIMEUPDATE  SENDS TIME
+
+
+            
+        
+
+
+
 
 ```
 VIDEO
@@ -4708,6 +4804,11 @@ required
 
 HTML ELEMENTS
 ABBR	SHOWS FULL TEXT ON HOVER
+
+
+
+
+
 VIDEO
 
 ```
@@ -4743,33 +4844,50 @@ src="abc.mp4"
 		onerror			function(event){//event.data}
 		event.data
 		event.type      mouseover, click, dblclick, keydown etc
+```	
 	
-	METHOD
-		JAVASCRIPT : CONTROL VIDEO
-		play()
-		pause()
-		playbackrate()
-		volume()
-		paused()   boolean
-		duration()
-		currenttime()		
 		
 	
-AUDIO
-BDI		BI-DIRECTIONAL (ARABIC TEXT TYPING RIGHT-TO-LEFT)
-PATTERN		INPUT TYPE="TEXT" PATTERN="<<<REGULAR EXPRESSION<<<"
-			[a-zA-Z]{6}   ALLOW UPPER, LOWER CASE
-			        {6,}	6 minimum
-				{3,6}	3 to 6
-			\\s		TEST FOR WHITESPACE
-			\\w		TEST FOR WORDS INCLUDING _
-			[0-9]{5}	number, 5 digits
+
+
+## BDI Right To Left Text
+
+BiDirectional Isolation (eg Arabic right to left)
+
+BDI - Bi-Directional Indicator
+
+(left to right, or right to left)
+
+
+## Regex Pattern
+
+INPUT TYPE="TEXT" PATTERN="<<<REGULAR EXPRESSION<<<"
+
+	[a-zA-Z]{6}   ALLOW UPPER, LOWER CASE
+			{6,}	6 minimum
+		{3,6}	3 to 6
+	\\s		TEST FOR WHITESPACE
+	\\w		TEST FOR WORDS INCLUDING _
+	[0-9]{5}	number, 5 digits
+
+"[a-zA-Z]{3}"   MUST BE THREE LETTERS
+"[0-9]{5}"      MUST BE FIVE NUMBERS
+
+
+
+
+
+
 DATA-
 	CUSTOM TAG FOR ANY DATA WE WANT
 	DIV DATA-NAME="X"
 		LOCATE
 			$('div[data-name="x"]');
-```
+
+
+
+
+
 
 JAVASCRIPT
 HISTORY

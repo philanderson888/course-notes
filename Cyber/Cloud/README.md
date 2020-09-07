@@ -1913,8 +1913,8 @@ vagrant up
 [https://github.com/spartaglobal/new-curriculum/tree/master/devops/mutable-pipelines/dev-environments](https://github.com/spartaglobal/new-curriculum/tree/master/devops/mutable-pipelines/dev-environments)
 
 ```
-Install Virtual Box
-Install Vagrant
+choco install virtualbox -y
+choco install vagrant -y
 
 Virtual box drivers are not installed !
 Manually install : right click on .inf and install
@@ -3356,6 +3356,8 @@ brew install ansible
 # or
 sudo apt install ansible -y
 ```
+
+
 
 
 ### Install Ansible On Windows

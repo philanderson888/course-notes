@@ -32,6 +32,7 @@
 - [Ubuntu Install Minikube](#ubuntu-install-minikube)
   - [Ubuntu Install VSCode](#ubuntu-install-vscode)
   - [Ubuntu Build C# Web App](#ubuntu-build-c-web-app)
+  - [Ubuntu Install Homebrew](#ubuntu-install-homebrew)
   - [Windows 10 Setup](#windows-10-setup)
   - [Manually install exe](#manually-install-exe)
   - [Install Chocolatey](#install-chocolatey)
@@ -385,8 +386,9 @@ az group create --name ubuntu01 --location uksouth
 # create vm
  az vm create --name ubuntu --resource-group Ubuntu26Aug2020 --size Standard_D2_v3 --image UbuntuLTS --generate-ssh-keys --admin-username serveradmin
 # open for port 80
-az vm open-port --port 80 --resource-group ubuntu01 --name ubuntu01
-az vm open-port --port 443 -g ubuntu01 -n ubuntu01
+az vm list -o table --show-details
+az vm open-port --port 80 -g ubuntu01 --name ubuntu01
+az vm open-port --port 443 -g ubuntu01 -n ubuntu01 --priority 101
 # get public ip  (using -g for group alias)
 az vm list -g ubuntu01 --show-details --output table
 # alter permissions by removing admin write access
@@ -483,6 +485,19 @@ dotnet run
 sudo ufw status
 ```
 
+## Ubuntu Install Homebrew
+
+Our life can be made a lot easier if homebrew is installed
+
+
+
+```bash
+test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
+test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
+echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
+```
+
 
 ## Windows 10 Setup
 
@@ -530,10 +545,7 @@ Invoke-WebRequest -Uri $url -OutFile $output
 ## Choco Install
 
 ```powershell
-choco install notepadplusplus
-choco install sublimetext3
-choco install vscode
-choco install googlechrome
+choco install notepadplusplus sublimetext3 vscode googlechrome -y
 ```
 
 ## Choco Install Visual Studio 

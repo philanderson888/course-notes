@@ -32,7 +32,6 @@
 - [Ubuntu Install Minikube](#ubuntu-install-minikube)
   - [Ubuntu Install VSCode](#ubuntu-install-vscode)
   - [Ubuntu Build C# Web App](#ubuntu-build-c-web-app)
-  - [Ubuntu Install Homebrew](#ubuntu-install-homebrew)
   - [Windows 10 Setup](#windows-10-setup)
   - [Manually install exe](#manually-install-exe)
   - [Install Chocolatey](#install-chocolatey)
@@ -408,6 +407,7 @@ grep -E --color 'vmx|svm' /proc/cpuinfo
 ```
 
 ## Ubuntu Install VirtualBox
+
 ```bash
 sudo add-apt-repository universe
 sudo add-apt-repository multiverse
@@ -416,6 +416,9 @@ sudo apt upgrade -y
 sudo apt dist-upgrade -y
 sudo apt install build-essential dkms unzip wget -y
 sudo reboot
+```
+
+```bash
 sudo chmod 777 sources.list
 sudo echo "deb http://download.virtualbox.org/virtualbox/debian bionic contrib" >> /etc/apt/sources.list
 # add key
@@ -485,18 +488,7 @@ dotnet run
 sudo ufw status
 ```
 
-## Ubuntu Install Homebrew
 
-Our life can be made a lot easier if homebrew is installed
-
-
-
-```bash
-test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
-test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
-echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
-```
 
 
 ## Windows 10 Setup

@@ -182,8 +182,10 @@
   - [Kubernetes Terminology](#kubernetes-terminology)
   - [Orchestration](#orchestration)
   - [Kubernetes Basic Online Tutorial](#kubernetes-basic-online-tutorial)
-    - [Install Kubernetes On Ubuntu](#install-kubernetes-on-ubuntu)
-    - [Install kubectl](#install-kubectl)
+    - [Windows Install kubectl](#windows-install-kubectl)
+    - [Ubuntu Install Kubernetes](#ubuntu-install-kubernetes)
+- [install on Linux 2](#install-on-linux-2)
+  - [Kubernetes Verify](#kubernetes-verify)
     - [MiniKube](#minikube)
     - [Kubernetes Commands](#kubernetes-commands)
     - [Kubernetes Deployments](#kubernetes-deployments)
@@ -2989,33 +2991,54 @@ Minikube - lightweight version of Kubernetes
 [https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/)
 
 
-### Install Kubernetes On Ubuntu
+### Windows Install kubectl
 
 ```bash
-
-```
-
-### Install kubectl
-
-```
 # install on Windows
 choco install kubernetes-cli
+```
 
-# install on Linux 1
-curl -LO <https://storage.googleapis.com/kubernetes-release/release/`curl> -s <https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl>
+### Ubuntu Install Kubernetes 
+
+```bash
+# install
+brew install kubectl
+# check
+kubectl version --client
+# minikube
+brew install minikube
+```
+
+or 
+
+```bash
+# download
+curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+# permissions
 chmod +x ./kubectl
+# path
 sudo mv ./kubectl /usr/local/bin/kubectl
+# test
+kubectl version --client
+```
+
+
+
 
 # install on Linux 2
+```bash
 sudo apt-get update && sudo apt-get install -y apt-transport-https
 curl -s <https://packages.cloud.google.com/apt/doc/apt-key.gpg> | sudo apt-key add -
 echo "deb <https://apt.kubernetes.io/> kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
 sudo apt-get update
 sudo apt-get install -y kubectl
+```
 
+## Kubernetes Verify
+
+```bash
 # verify both client and server versions
 kubectl version
-
 # verify client version
 kubectl version --client
 
@@ -3026,14 +3049,17 @@ cd .kube
 New-item config -type file
 ```
 
+
+
+
 ### MiniKube
 
-```
+```bash
 # install on Windows
 choco install minikube
-
-# install on MAC
+# install on MAC/Linux
 brew install minikube
+
 
 minikube start
 minikube status 
@@ -3078,7 +3104,7 @@ print "\\n\\npods\\n" && kubectl describe pods
 print "\\n\\nservices\\n" && kubectl describe services
 
 # show running pods in another namespace
-kubectl get pods -n <<namespace>>  (or is it get pod!)
+kubectl get pods -n < < namespace > >     (or is it get pod!)
 kubectl get pods -n default
 kubectl get pods -n kube-system
 
@@ -3101,7 +3127,7 @@ minikube ssh
 
 ### Kubernetes Commands
 
-```
+```bash
 # following the tutorial at 
 # <https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-interactive/>
 # get the number of deployments
@@ -3317,9 +3343,8 @@ Ansible is agentless software connecting via SSH
 
 ### Enable Linux Ubuntu On Windows
 
-```
+```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-
 Then install Ubuntu 18.04 LTS from the Windows Store
 ```
 
@@ -3327,6 +3352,8 @@ Then install Ubuntu 18.04 LTS from the Windows Store
 #### Install Ansible On Ubuntu
 
 ```bash
+brew install ansible
+# or
 sudo apt install ansible -y
 ```
 

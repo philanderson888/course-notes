@@ -26,14 +26,13 @@
   - [Azure Cloud Shell CLI Create VM](#azure-cloud-shell-cli-create-vm)
   - [Azure Create Database](#azure-create-database)
   - [Azure See What Images Are Available](#azure-see-what-images-are-available)
-  - [Azure VM Install Ubuntu Server](#azure-vm-install-ubuntu-server)
+  - [Azure Create Ubuntu Server VM](#azure-create-ubuntu-server-vm)
   - [Ubuntu Nested Virtualization](#ubuntu-nested-virtualization)
   - [Ubuntu Install VirtualBox](#ubuntu-install-virtualbox)
 - [Ubuntu Install Minikube](#ubuntu-install-minikube)
   - [Ubuntu Install VSCode](#ubuntu-install-vscode)
   - [Ubuntu Build C# Web App](#ubuntu-build-c-web-app)
-  - [Enable HyperV](#enable-hyperv)
-  - [Enable Scripts](#enable-scripts)
+  - [Windows 10 Setup](#windows-10-setup)
   - [Manually install exe](#manually-install-exe)
   - [Install Chocolatey](#install-chocolatey)
   - [Choco Install](#choco-install)
@@ -145,8 +144,16 @@ az vm list -g my-group -o table --show-details
 
 ## Azure Create Windows 10 VM
 
+*Takes 10-15 minutes*
+
 ```powershell
 new-azvm -ResourceGroupName ResourceGroup01 -image win10 -location uksouth -size standard_d2_v3 -n Win10   
+```
+
+Find out the IP and log in with RDP
+
+```powershell
+az vm list -o table --show-details
 ```
 
 ## Azure Stop VM
@@ -191,6 +198,8 @@ az vm create -g resourcegroup23aug2020 -n vm23aug2020 --image Win2019Datacenter 
 az vm list-sizes -l uksouth -o table
  az vm create -g ResourceGroup02092020 -n vm02092020 --image Win2019Datacenter --admin-username serveradmin --size Standard_D2_v3
 ```
+
+
 
 ## Azure Create Windows 10 VM
 
@@ -367,8 +376,7 @@ New-AzVM `
 ```
 
 
-## Azure VM Install Ubuntu Server
-
+## Azure Create Ubuntu Server VM
 
 ```powershell
 # resource group
@@ -383,7 +391,7 @@ az vm open-port --port 443 -g ubuntu01 -n ubuntu01
 az vm list -g ubuntu01 --show-details --output table
 # alter permissions by removing admin write access
 # connect
-sshssh ubuntu@51.140.51.98 
+sshssh serveradmin@51.140.51.98 
 # update
 sudo apt update -y
 sudo apt upgrade -y
@@ -473,18 +481,15 @@ dotnet run
 # view on port 5000 from another machine
 # ports are blocked on Linux
 sudo ufw status
-
 ```
 
-## Enable HyperV
+
+## Windows 10 Setup
 
 ```powershell
+# enable hyperv
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
-```
-
-## Enable Scripts
-
-```powershell
+# run scripts
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ```
 

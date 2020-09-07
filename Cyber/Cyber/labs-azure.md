@@ -184,9 +184,6 @@ az group create --name resourcegroup23aug2020 --location uksouth
 az vm create -g resourcegroup23aug2020 -n vm23aug2020 --image Win2019Datacenter --admin-username serveradmin
 ```
 
-
-
-
 ## Azure Create VM With Nested Virtualization
 
 ```powershell

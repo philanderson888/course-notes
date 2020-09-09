@@ -34,8 +34,6 @@
   - [Ubuntu Build C# Web App](#ubuntu-build-c-web-app)
   - [Windows 10 Setup](#windows-10-setup)
   - [Manually install exe](#manually-install-exe)
-  - [Install Chocolatey](#install-chocolatey)
-  - [Choco Install](#choco-install)
   - [Choco Install Visual Studio](#choco-install-visual-studio)
   - [Install Docker](#install-docker)
   - [Archive - Installation Of ARM (older)](#archive---installation-of-arm-older)
@@ -515,32 +513,13 @@ $output = "notepadplusplus.exe"
 $start_time = Get-Date
 Invoke-WebRequest -Uri $url -OutFile $output
 .\notepadplusplus.exe /S 
-```
-
 ## Install Chocolatey
-
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; 
-
+# Set-ExecutionPolicy Bypass -Scope Process -Force; 
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-```
-
-or
-
-```powershell
-$url = "https://chocolatey.org/install.ps1"
-$output = "install-chocolatey.ps1"
-$start_time = Get-Date
-Invoke-WebRequest -Uri $url -OutFile $output
-./install-chocolatey.ps1
-```
-
-
-
-## Choco Install
-
-```powershell
-choco install notepadplusplus sublimetext3 vscode googlechrome -y
+## Choco Install Apps
+choco install notepadplusplus sublimetext3 vscode googlechrome nodejs -y
+choco install git -params '"/GitAndUnixToolsOnPath"' -y
 ```
 
 ## Choco Install Visual Studio 
@@ -610,14 +589,7 @@ choco install git -params '"/GitAndUnixToolsOnPath"'
 
 ```
 
-Other examples
-```powershell
-choco install sysinternals
-choco install notepadplusplus googlechrome atom 7zip
-choco install notepadplusplus --force --force-dependencies
-choco install notepadplusplus googlechrome -dvfy
-choco install nodejs.install --version 0.10.35
-```
+
 
 ```powershell
 #  in the package for the installer itself

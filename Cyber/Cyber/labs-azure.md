@@ -28,6 +28,7 @@
   - [Azure See What Images Are Available](#azure-see-what-images-are-available)
   - [Azure Create Ubuntu Server VM](#azure-create-ubuntu-server-vm)
   - [Ubuntu Nested Virtualization](#ubuntu-nested-virtualization)
+  - [Ubuntu Install GUI](#ubuntu-install-gui)
   - [Ubuntu Install VirtualBox](#ubuntu-install-virtualbox)
     - [Ubuntu Install Docker](#ubuntu-install-docker)
 - [Ubuntu Install Minikube](#ubuntu-install-minikube)
@@ -408,6 +409,28 @@ sudo apt upgrade -y
 grep -cw vmx /proc/cpuinfo  
 grep -E --color 'vmx|svm' /proc/cpuinfo
 ```
+
+## Ubuntu Install GUI
+
+This works!
+
+https://blog.hildenco.com/2019/07/creating-ubuntu-desktop-instance-on.html
+
+```bash
+# connect to my remote server using ssh
+ssh bruno@<my-ip>
+# Updating the package Sources
+sudo apt-get update && sudo apt-get upgrade
+# install basic terminal tools
+sudo apt install tmux git ranger vim
+# Installing LXDE
+sudo apt-get install lubuntu-desktop -y
+# install xrdp
+sudo apt-get install xrdp -y
+# start the xrdp service
+sudo systemctl start xrdp
+```
+
 
 ## Ubuntu Install VirtualBox
 

@@ -521,7 +521,7 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 choco install notepadplusplus sublimetext3 vscode googlechrome nodejs -y
 choco install git -params '"/GitAndUnixToolsOnPath"' -y
 choco install virtualbox -y
-choco install intellijidea-community
+choco install intellijidea-community -y  # 500MB
 ```
 
 ## Choco Install Visual Studio 

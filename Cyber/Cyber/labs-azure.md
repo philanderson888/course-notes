@@ -537,7 +537,7 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 choco install notepadplusplus sublimetext3 vscode googlechrome nodejs -y
 choco install git -params '"/GitAndUnixToolsOnPath"' -y
 choco install virtualbox -y
-choco install vagrant
+choco install vagrant -y
 choco install intellijidea-community -y  # 500MB
 ```
 
@@ -556,18 +556,11 @@ Have to enable Windows Subsystem For Linux which can be enabled, after a reboot,
 ```powershell
 # run this before docker works!
 Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -NoRestart -WarningAction SilentlyContinue
+# check if this reboot is needed before install WSL2
 Restart-Computer -Force
 ```
 
-
-Can look into this method of executing a powershell script remotely as well 
-
-```powershell
-powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/philanderson888/scripts/master/devops/install-windows-subsystem-for-linux.ps1')"
-```
-
-
-We also have to install the WSL2 Linux Kernel manually and then reboot
+Install Windows Subsystem For Linux WSL2 
 
 ```powershell
 $url = "https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi"
@@ -581,8 +574,12 @@ restart-computer -force
 Now install docker
 
 ```powershell
-choco install docker-desktop --pre 
+# docker
+choco install docker-desktop --pre -y
+# MiniKube
+choco install minikube -y
 ```
+
 
 
 

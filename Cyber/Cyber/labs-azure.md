@@ -520,6 +520,8 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 ## Choco Install Apps
 choco install notepadplusplus sublimetext3 vscode googlechrome nodejs -y
 choco install git -params '"/GitAndUnixToolsOnPath"' -y
+choco install virtualbox -y
+choco install intellijidea-community
 ```
 
 ## Choco Install Visual Studio 
@@ -558,46 +560,6 @@ Invoke-WebRequest -Uri $url -OutFile $output
 ./install-windows-subsystem-for-linux-kernel.msi
 restart-computer -force
 ```
-
-
-
-```powershell
-# install chocolatey
-$url = "https://chocolatey.org/install.ps1"
-$output = "install-chocolatey.ps1"
-$start_time = Get-Date
-Invoke-WebRequest -Uri $url -OutFile $output
-./install-chocolatey.ps1
-# install docker
-choco install docker-desktop --pre /y
-# install git
-```
-
-We may also need to install git 
-
-This command does need human intervention - can upgrade this to silent command
-
-```powershell
-# install git
-choco install git.install --force
-choco install git -y --params="'/GitAndUnixToolsOnPath /NoAutoCrlf'"
-choco install git -y --params="'/GitAndUnixToolsOnPath /NoAutoCrlf'" --install-args="'/DIR=C:\git'"
-
-# or
-
-choco install git -params '"/GitAndUnixToolsOnPath"'
-
-```
-
-
-
-```powershell
-#  in the package for the installer itself
-
-choco install git -s "'https://somewhere/out/there'"
-choco install git -s "'https://somewhere/protected'" -u user -p pass
-```
-
 
 ## Archive - Installation Of ARM (older)
 

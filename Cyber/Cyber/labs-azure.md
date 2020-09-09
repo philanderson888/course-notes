@@ -197,6 +197,7 @@ az vm create -g resourcegroup23aug2020 -n vm23aug2020 --image Win2019Datacenter 
 ```powershell
 # list machines available to build
 az vm list-sizes -l uksouth -o table
+# Note : Standard_D2_v3 gives 128GB HDD and 8GB RAM - probably need 16GB RAM to be comfortable
  az vm create -g ResourceGroup02092020 -n vm02092020 --image Win2019Datacenter --admin-username serveradmin --size Standard_D2_v3
 ```
 

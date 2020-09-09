@@ -394,7 +394,7 @@ az vm open-port --port 443 -g ubuntu01 -n ubuntu01 --priority 101
 az vm list -g ubuntu01 --show-details --output table
 # alter permissions by removing admin write access
 # connect
-sshssh serveradmin@51.140.51.98 
+ssh serveradmin@51.140.51.98 
 # update
 sudo apt update -y
 sudo apt upgrade -y
@@ -522,6 +522,7 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 choco install notepadplusplus sublimetext3 vscode googlechrome nodejs -y
 choco install git -params '"/GitAndUnixToolsOnPath"' -y
 choco install virtualbox -y
+choco install vagrant
 choco install intellijidea-community -y  # 500MB
 ```
 
@@ -560,6 +561,12 @@ $start_time = Get-Date
 Invoke-WebRequest -Uri $url -OutFile $output
 ./install-windows-subsystem-for-linux-kernel.msi
 restart-computer -force
+```
+
+Now install docker
+
+```powershell
+choco install docker-desktop --pre 
 ```
 
 

@@ -97,6 +97,9 @@ Get-InstalledModule -Name Az -AllVersions
 ## Log In
 
 ```powershell
+# this is only from time to time; mostly can be ignored
+Connect-AzAccount
+# log in
 az login
 ```
 

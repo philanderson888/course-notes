@@ -29,6 +29,7 @@
   - [Azure Create Ubuntu Server VM](#azure-create-ubuntu-server-vm)
   - [Ubuntu Nested Virtualization](#ubuntu-nested-virtualization)
   - [Ubuntu Install VirtualBox](#ubuntu-install-virtualbox)
+    - [Ubuntu Install Docker](#ubuntu-install-docker)
 - [Ubuntu Install Minikube](#ubuntu-install-minikube)
   - [Ubuntu Install VSCode](#ubuntu-install-vscode)
   - [Ubuntu Build C# Web App](#ubuntu-build-c-web-app)
@@ -440,6 +441,17 @@ wget https://download.virtualbox.org/virtualbox/5.2.30/Oracle_VM_VirtualBox_Exte
 sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.30.vbox-extpack
 ```
 
+### Ubuntu Install Docker
+
+*1 minute install*
+
+```bash
+# install
+sudo apt install docker.io -y
+# run docker
+docker
+```
+
 
 # Ubuntu Install Minikube
 
@@ -465,6 +477,9 @@ minikube status
 # log in to minikube
 minikube ssh
 ```
+
+
+
 
 ## Ubuntu Install VSCode
 

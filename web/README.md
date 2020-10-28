@@ -14,7 +14,7 @@ In this folder are courses related to web technologies
 
 - [jQuery](jquery.md)
 
-- [react](react.md)
+- [react](https://github.com/philanderson888/react)
 
 - [typescript](typescript.md)
 

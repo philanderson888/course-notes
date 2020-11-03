@@ -5,6 +5,8 @@
 - [Brightscript](#brightscript)
   - [Contents](#contents)
   - [Intro](#intro)
+  - [Why Use Media Stick?](#why-use-media-stick)
+  - [Market](#market)
   - [Getting Started](#getting-started)
 
 ## Intro
@@ -27,7 +29,29 @@ Dynamic and Static types OK
 
 Written in C!!!
 
+## Why Use Media Stick?
+
+Additional channels not on regular TV
+
+Portable eg on hotel trips
+
+## Market
+
+Amazon Firestick with Amazon FireTV with Alexa
+
+Chromecast with Google TV - plays well with Android.  Can cast also from phone.  Also have Google assistant.
+
+Roku Ultra !!!  App on phone.  Remote with headphone jack.  Find my lost.  Ethernet jack.
+
+Android TV
+
+
+
 ## Getting Started
 
+Buy a ROKU device
 
+Put in developer mode with Home x3 Up x2 R L R L R
+
+Eclipse
 

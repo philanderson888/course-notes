@@ -34,6 +34,19 @@ Written in C!!!
 
 - OVP Online Video Player
 - Content Feed is RSS/XML/JSON with all metadata required to play content
+- RokuOS in sticks and TVs and sound bars!
+- Roku Developer program
+- Roku channel store
+- Voice search
+- banner ads
+- content engagement program
+- scenegraph - creates the display in XML 
+- brightscript
+- just specify resolution - don't worry about CSS etc
+- usually TV remote control
+- goal help user find content as quickly as possible
+- sideloading - manually upload content for development
+- publish - first sideload then create encrypted package for publishing
 
 ## Why Use Media Stick?
 

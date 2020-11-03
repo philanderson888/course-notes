@@ -37,15 +37,37 @@ Portable eg on hotel trips
 
 ## Market
 
-Amazon Firestick with Amazon FireTV with Alexa
+Amazon Firestick $50 
+- Amazon FireTV
+- Prime
+- Alexa
+Chromecast $50 WINNER
+- Google TV
+- Android TV
+- Cast from phone
+- Google assistant
+- Dolby vision
+Roku Ultra !!!
+- Phone app control
+- Remote with headphone jack
+- Ethernet
+- Find
+- Better remote than fire TV
 
-Chromecast with Google TV - plays well with Android.  Can cast also from phone.  Also have Google assistant.
 
-Roku Ultra !!!  App on phone.  Remote with headphone jack.  Find my lost.  Ethernet jack.
-
-Android TV
-
-
+- HDR High Dynamic Range 
+  - contrast marker
+  - Higher range is better.
+  - Higher means also brighter
+  - NITS measurement of brightness
+  - Versions
+    - HDR10 - this is standard
+    - HRD10+ 
+    - HLG used for proper TV broadcast
+    - Dolby Vision
+      - Adds metadata every frame so better quality of sound
+- 4K = UHD Ultra High Definition = pixel count
+  - A 4K UHD TV is normally HDR as well
 
 ## Getting Started
 

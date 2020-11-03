@@ -109,6 +109,7 @@ Can now sideload zip files to run
 
 Create `GridScreen` project with `components` `images` `source` and `manifest` file in the root
 
+```vb
 GridScreen
   components
     MainScene.xml
@@ -132,9 +133,9 @@ GridScreen
   Scene = container
     poster = image
     label = text
+```
 
-
-source  
+source\main.brs 
 
 ```vb
 sub Main()
@@ -161,6 +162,19 @@ sub ShowChannelRSGScreen()
       end if 
   end while
 end sub
-
-
 ```
+
+components\MainScene.brs
+
+```vb
+' initialize
+sub Init()
+  ' background '
+  m.top.backgroundColor = "0x..."
+  m.top.backgroundUri=""
+  m.loadingIndicator=m.top.FindNode("loadingIndicator") 
+  InitScreenStack()
+  ShowGridScreen()
+  ' get content
+  RunContentTask()
+end sub

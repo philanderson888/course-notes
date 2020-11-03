@@ -134,7 +134,7 @@ GridScreen
     label = text
 
 
-source
+source  
 
 ```vb
 sub Main()
@@ -149,5 +149,18 @@ sub ShowChannelRSGScreen()
   ' get XML '
   scene = scree.CreateScene("MainScene")
   screen.Show()
+
+  ' event loop
+  while(true)
+      ' wait 0 seconds
+      msg=wait(0,m.port)
+      ' type of object which generated the event
+      msgType=type(msg)
+      if(msgType="roSGScreenEvent)
+        if msg.IsScreenClosed() then return
+      end if 
+  end while
+end sub
+
 
 ```

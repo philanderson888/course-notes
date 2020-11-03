@@ -8,7 +8,8 @@
   - [Terms](#terms)
   - [Why Use Media Stick?](#why-use-media-stick)
   - [Market](#market)
-  - [Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Hello World](#hello-world)
 
 ## Intro
 
@@ -92,11 +93,61 @@ AppleTV
 - 4K = UHD Ultra High Definition = pixel count
   - A 4K UHD TV is normally HDR as well
 
-## Getting Started
+## Setup
 
 Buy a ROKU device
 
 Put in developer mode with Home x3 Up x2 R L R L R
 
-Eclipse
+Create Roku Acccount and enrol in developer program
 
+On TV enable developer mode and go to given URL and log in with RokuDev and password you created
+
+Can now sideload zip files to run
+
+## Hello World
+
+Create `GridScreen` project with `components` `images` `source` and `manifest` file in the root
+
+GridScreen
+  components
+    MainScene.xml
+      <script type="text/brightscript" uri="...brs" />
+      <children>
+        <Overhang id="overhand" showOptions="false" showClock="false" logoUrl="..." 
+          translation="[0,60]" />
+        <Label id=".." text="..loading" width.. height..  translation="[0,0]" 
+          horizAlign="center" vertAlign="center" visible="false" font="font:.." />
+  source
+  images
+  manifest
+    title
+    major_version
+    minor_version
+    build_version
+    mm_icon_focus_hd
+    splash_screen_hd
+    ui_resolutions=hd
+  
+  Scene = container
+    poster = image
+    label = text
+
+
+source
+
+```vb
+sub Main()
+  ShowChannelRSGScreen()
+end sub
+
+sub ShowChannelRSGScreen()
+  ' canvas '
+  screen=CreateObject("roSGScreen")
+  ' events sent to a port '
+  m.port = 
+  ' get XML '
+  scene = scree.CreateScene("MainScene")
+  screen.Show()
+
+```

@@ -5,6 +5,7 @@
 - [Brightscript](#brightscript)
   - [Contents](#contents)
   - [Intro](#intro)
+  - [Terms](#terms)
   - [Why Use Media Stick?](#why-use-media-stick)
   - [Market](#market)
   - [Getting Started](#getting-started)
@@ -29,6 +30,11 @@ Dynamic and Static types OK
 
 Written in C!!!
 
+## Terms
+
+- OVP Online Video Player
+- Content Feed is RSS/XML/JSON with all metadata required to play content
+
 ## Why Use Media Stick?
 
 Additional channels not on regular TV
@@ -47,12 +53,16 @@ Chromecast $50 WINNER
 - Cast from phone
 - Google assistant
 - Dolby vision
-Roku Ultra !!!
-- Phone app control
-- Remote with headphone jack
-- Ethernet
-- Find
-- Better remote than fire TV
+Roku
+- Roku Ultra !!!
+  - Phone app control
+  - Remote with headphone jack
+  - Ethernet
+  - Find
+  - Better remote than fire TV
+- Roku Streambar £128 excellent sound quality
+
+AppleTV
 
 
 - HDR High Dynamic Range 

@@ -58,6 +58,7 @@ Written in C!!!
 - goal help user find content as quickly as possible
 - sideloading - manually upload content for development
 - publish - first sideload then create encrypted package for publishing
+- set resoulution manually and the player does the rest
 
 ## Why Use Media Stick?
 
@@ -256,4 +257,3 @@ end for
 - website
 - CDN
 - OVP Online Video Platform
-- 

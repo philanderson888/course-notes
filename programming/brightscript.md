@@ -11,6 +11,7 @@
   - [Setup](#setup)
   - [Hello World](#hello-world)
   - [Hello World Sample](#hello-world-sample)
+  - [Content Nodes](#content-nodes)
 
 ## Intro
 
@@ -179,6 +180,7 @@ sub Init()
   ' get content
   RunContentTask()
 end sub
+```
 
 now creates components\UILogic folder and init
 
@@ -197,3 +199,7 @@ Makefile
 manifest
 
 
+## Content Nodes
+
+- Non renderable
+- 

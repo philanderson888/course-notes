@@ -60,6 +60,12 @@ Written in C!!!
 - sideloading - manually upload content for development
 - publish - first sideload then create encrypted package for publishing
 - set resoulution manually and the player does the rest
+- SVOD Subscription Video On Demand which is pay monthly
+- TVOD Transactional Video On Demand which is pay as you go
+- PVOD Premium Video On Demand 
+- AVOD Advertising Based Video On Demand - stream is free with adverts
+- OTT Over the top - via browser 
+- 
 
 ## Why Use Media Stick?
 

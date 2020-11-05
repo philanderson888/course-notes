@@ -9,6 +9,8 @@
   - [Why Use Media Stick?](#why-use-media-stick)
   - [Market](#market)
   - [Setup](#setup)
+  - [XML SceneGraph](#xml-scenegraph)
+  - [Brightscript commands](#brightscript-commands)
   - [Hello World](#hello-world)
   - [Hello World Sample](#hello-world-sample)
   - [Channel](#channel)
@@ -125,6 +127,31 @@ On TV enable developer mode and go to given URL and log in with RokuDev and pass
 
 Can now sideload zip files to run
 
+## XML SceneGraph
+
+Main scene
+  Grid Screen - select content
+    Row
+  Details Screen - details about the content with 'play' button
+    Layout Group
+    Group
+  Episodes Screen
+    Episodes Item Screen
+
+Components
+  Grid
+  Keyboard
+  Video content
+  Audio Content
+
+## Brightscript commands
+
+```vb
+Init()
+OnVisibleChanged()
+OnItemFocused()
+```
+
 ## Hello World
 
 Create `GridScreen` project with `components` `images` `source` and `manifest` file in the root
@@ -141,6 +168,7 @@ GridScreen
           horizAlign="center" vertAlign="center" visible="false" font="font:.." />
   source
   images
+  
   manifest
     title
     major_version

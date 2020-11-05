@@ -12,7 +12,14 @@
   - [Hello World](#hello-world)
   - [Hello World Sample](#hello-world-sample)
   - [Content Feed](#content-feed)
+    - [Description](#description)
+    - [Playback](#playback)
   - [Content Nodes](#content-nodes)
+    - [Descriptive nodes](#descriptive-nodes)
+    - [Playback nodes](#playback-nodes)
+    - [Child Content Node](#child-content-node)
+  - [Display videos](#display-videos)
+  - [Hosting Feed](#hosting-feed)
 
 ## Intro
 
@@ -201,14 +208,14 @@ manifest
 
 ## Content Feed
 
-Description
+### Description
 - category
 - title
 - description
 - thumbnail
 - releasedate
 
-Playback
+### Playback
 - url
 - videoType
 - duration
@@ -219,13 +226,34 @@ Playback
 - `data` node
 - Maps to feed metadata
 
-Descriptive nodes
+### Descriptive nodes
 - title
 - description
 - thumbnail
 - releaseDate 
 
-Playback nodes
+### Playback nodes
 - streamUrl
 - streamFormat
 - length
+
+### Child Content Node
+- has the actual videos
+
+## Display videos
+
+Root = screen
+Child = movie
+
+```vb
+for each movie in row
+  child = root...createChild
+end for
+```
+
+## Hosting Feed
+
+- website
+- CDN
+- OVP Online Video Platform
+- 

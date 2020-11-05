@@ -11,6 +11,7 @@
   - [Setup](#setup)
   - [Hello World](#hello-world)
   - [Hello World Sample](#hello-world-sample)
+  - [Content Feed](#content-feed)
   - [Content Nodes](#content-nodes)
 
 ## Intro
@@ -198,6 +199,19 @@ Makefile
 
 manifest
 
+## Content Feed
+
+Description
+- category
+- title
+- description
+- thumbnail
+- releasedate
+
+Playback
+- url
+- videoType
+- duration
 
 ## Content Nodes
 
@@ -205,4 +219,13 @@ manifest
 - `data` node
 - Maps to feed metadata
 
+Descriptive nodes
+- title
+- description
+- thumbnail
+- releaseDate 
 
+Playback nodes
+- streamUrl
+- streamFormat
+- length

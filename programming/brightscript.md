@@ -202,4 +202,7 @@ manifest
 ## Content Nodes
 
 - Non renderable
-- 
+- `data` node
+- Maps to feed metadata
+
+

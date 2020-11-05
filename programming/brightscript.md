@@ -11,6 +11,7 @@
   - [Setup](#setup)
   - [Hello World](#hello-world)
   - [Hello World Sample](#hello-world-sample)
+  - [Channel](#channel)
   - [Content Feed](#content-feed)
     - [Description](#description)
     - [Playback](#playback)
@@ -207,6 +208,17 @@ Makefile
 
 manifest
 
+## Channel
+
+A Channel contains
+
+- Grid screen which is your home screen
+- Details screen which provides details on the series 
+- Episode picker
+- Adverts
+- Subscriptions
+- Deep linking into content
+ 
 ## Content Feed
 
 ### Description

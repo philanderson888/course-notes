@@ -21,6 +21,7 @@
     - [Child Content Node](#child-content-node)
   - [Display videos](#display-videos)
   - [Hosting Feed](#hosting-feed)
+  - [Debug Console](#debug-console)
 
 ## Intro
 
@@ -65,6 +66,7 @@ Written in C!!!
 - PVOD Premium Video On Demand 
 - AVOD Advertising Based Video On Demand - stream is free with adverts
 - OTT Over the top - via browser 
+- MRSS Media RSS 
 - 
 
 ## Why Use Media Stick?
@@ -275,3 +277,9 @@ end for
 - website
 - CDN
 - OVP Online Video Platform
+
+## Debug Console
+
+```powershell
+telnet 1.2.3.4 8085
+```

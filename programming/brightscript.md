@@ -4,6 +4,7 @@
 
 - [Brightscript](#brightscript)
   - [Contents](#contents)
+  - [Intro](#intro)
   - [Setup](#setup)
   - [XML SceneGraph](#xml-scenegraph)
   - [Brightscript commands](#brightscript-commands)
@@ -21,26 +22,9 @@
   - [Hosting Feed](#hosting-feed)
   - [Debug Console](#debug-console)
 
+## Intro
 
-
-
-
-AppleTV
-
-
-- HDR High Dynamic Range 
-  - contrast marker
-  - Higher range is better.
-  - Higher means also brighter
-  - NITS measurement of brightness
-  - Versions
-    - HDR10 - this is standard
-    - HRD10+ 
-    - HLG used for proper TV broadcast
-    - Dolby Vision
-      - Adds metadata every frame so better quality of sound
-- 4K = UHD Ultra High Definition = pixel count
-  - A 4K UHD TV is normally HDR as well
+https://www.notion.so/philanderson888/Other-80999f5ff70b4e0d9f20144f8287441a#871257631d854d028faac611be2f5297
 
 ## Setup
 

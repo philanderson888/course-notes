@@ -6,6 +6,7 @@
   - [Contents](#contents)
   - [Intro](#intro)
   - [Setup](#setup)
+  - [Debug Console](#debug-console)
   - [XML SceneGraph](#xml-scenegraph)
   - [Brightscript commands](#brightscript-commands)
   - [Hello World](#hello-world)
@@ -20,7 +21,7 @@
     - [Child Content Node](#child-content-node)
   - [Display videos](#display-videos)
   - [Hosting Feed](#hosting-feed)
-  - [Debug Console](#debug-console)
+  - [Debug Console](#debug-console-1)
 
 ## Intro
 
@@ -37,6 +38,14 @@ Create Roku Acccount and enrol in developer program
 On TV enable developer mode and go to given URL and log in with RokuDev and password you created
 
 Can now sideload zip files to run
+
+## Debug Console
+
+Also when running an app we should always use the debug console
+
+```powershell
+telnet 1.2.3.4 8085
+```
 
 ## XML SceneGraph
 

@@ -8,10 +8,10 @@
             "type": "brightscript",
             "request": "launch",
             "name": "BrightScript Debug: Launch",
-            "stopOnEntry": false,
+            "stopOnEntry": true,
             "host": "192.168.87.249",
             "password": "${promptForPassword}",
-            "rootDir": "${workspaceFolder}\\",
+            "rootDir": "${workspaceFolder}\\programming\\brightscript\\hello-world\\",
             "enableDebuggerAutoRecovery": false,
             "stopDebuggerOnAppExit": false
         }

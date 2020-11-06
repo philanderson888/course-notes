@@ -6,12 +6,13 @@
 '*************************************************************
 
 sub Main()
+STOP
     print "in showChannelSGScreen"
     print "debugging by Phil Anderson"
     'Indicate this is a Roku SceneGraph application'
+STOP
     screen = CreateObject("roSGScreen")
     m.port = CreateObject("roMessagePort")
-    print (m.port)
     screen.setMessagePort(m.port)
 
     'Create a scene and load /components/helloworld.xml'

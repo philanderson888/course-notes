@@ -22,6 +22,7 @@
   - [Display videos](#display-videos)
   - [Hosting Feed](#hosting-feed)
   - [Debug Console](#debug-console-1)
+  - [Scope](#scope)
 
 ## Intro
 
@@ -252,4 +253,15 @@ end for
 
 ```powershell
 telnet 1.2.3.4 8085
+```
+
+## Scope
+
+x is local scope only
+m.x is component scope valid in the whole component
+
+```vb
+sub doThis()
+  x=1
+  m.x=100
 ```

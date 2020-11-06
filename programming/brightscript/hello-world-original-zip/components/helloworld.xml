@@ -2,7 +2,7 @@
 <component name="HelloWorld" extends="Scene"> 
 	<children>
       <Label id="myLabel" 
-      	text="Phil Loves Zoe"
+      	text="Hello World!"
       	width="1280" 
       	height="720" 
       	horizAlign="center"

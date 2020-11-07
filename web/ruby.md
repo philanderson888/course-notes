@@ -5,6 +5,8 @@
 - [Ruby](#ruby)
   - [Contents](#contents)
   - [Introduction](#introduction)
+  - [Hello World](#hello-world)
+  - [Publish](#publish)
 - [changes to the project folder](#changes-to-the-project-folder)
 - [installs the projects dependencies](#installs-the-projects-dependencies)
 - [sets up the database](#sets-up-the-database)
@@ -16,6 +18,7 @@ Ruby is a programming language developed by Yukihiro Matsumoto from Japan and re
 Ruby on Rails is a framework built out of Ruby 
  
 
+## Hello World
  
 ruby <filename> to run the file 
  
@@ -24,14 +27,6 @@ ruby <filename> to run the file
 puts   to screen 
  
 gets.chomp accepts input (string) 
- 
- 
- 
- 
- 
- 
- 
- 
  
 puts "hi" 
  
@@ -67,13 +62,8 @@ number3 = gets.chomp
  
  
  
- 
- 
- 
- 
-PUBLISH CODE TO OUTSIDE WORLD 
- 
- 
+## Publish
+
 << CREATE NEW PROJECT>>  rails new <<NAME>> 
  
 CD <<partname + tab will find folder>> 

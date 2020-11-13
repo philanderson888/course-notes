@@ -1,7 +1,5 @@
 # Web 
 
-In this folder are courses related to web technologies
-
 - [Random Web Terms And Glossary](random-web-terms-and-glossary.md)
 
 - [Random Programming Terms](random-programming-terms.md)
@@ -15,3 +13,10 @@ In this folder are courses related to web technologies
 - [react](https://github.com/philanderson888/react)
 
 - [typescript](typescript.md)
+  
+- [reason](reason.md)
+
+## Older Technologies
+
+- [AJAX](AJAX.md)
+- 

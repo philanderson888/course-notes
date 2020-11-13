@@ -18,5 +18,6 @@
 
 ## Older Technologies
 
-- [AJAX](AJAX.md)
-- 
+- [ajax](ajax.md)
+  
+- [Angular 1](angular-1.md)

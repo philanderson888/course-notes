@@ -1426,3 +1426,1867 @@ Instructs code to run when the user copies an element
 <input type="text" ng-copy="{{count=count+1}}" ng-init="count=0" value="copy me multiple times">
 see angular_29 also index.htm#ng-copy
 ```
+
+## Code Snippets
+
+Angular JS 
+
+```html
+<html>
+<script src="js\angular.min.js"></script> 
+<body> 
+<div ng-app=""> 
+<p>Input my id in the input box:</p> 
+<p><input type="text" ng-model="id" </p> 
+<br> 
+<h1>Welcome! {{id}}</h1> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJS for beginners</title> 
+	<script src="js\angular.min.js"></script> 
+</head> 
+<body> 
+	<div ng-app=" "> 
+    	The AngularJSapplication has been started. 
+	</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+Example 2.2 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+	<script src="js\angular.min.js"></script> 
+</head> 
+<body> 
+<div ng-app=""> 
+<p>User Name: <br> 
+<input type="text" ng-model = "Username"></p> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+Example 2.3 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+	<script src="js\angular.min.js"></script> 
+</head> 
+<body> 
+<div ng-app=""> 
+<p>User Name: <br> 
+<input type="text" ng-model = "Username"></p> 
+<p ng-bind="Username"></p>  
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+Example 2.4 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+	<script src="js\angular.min.js"></script> 
+</head> 
+<body> 
+<div ng-app=""   ng-init="Username= 'Andy Smith' "> 
+   <p>User Name: <input type="text" ng-model = "Username"></p> 
+   <p ng-bind="Username"></p>  
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+Example 2.5 
+ 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+<script src="js\angular.min.js"></script> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head> 
+<body> 
+<div ng-app=""  ng-init = "ColorName = ['Pink', 'Red', 'Green', 'Blue', 'Black', 'White', 'Yellow', 'Gray']"> 
+<p style="color:green; font-weight:bold">Colours Name:</p> 
+<ol> 
+ 	<li ng-repeat="x in ColorName"> 
+  <p ng-bind="x"></p>       
+ 	</li> 
+</ol>	 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Hour 3 
+ 
+ 
+ 
+ 
+ 
+Example 3.1 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+<script src="js\angular.min.js"></script> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head> 
+<body> 
+<h3>Using Upper Case Filter</h3> 
+<div ng-app=""  ng-init="Username= 'ray' "> 
+<p>User Name: <input type="text" ng-model = "Username"></p> 
+<p style="color:red" ng-bind="Username | uppercase"></p>  
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 3.2 
+ 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+	<script src="js\angular.min.js"></script> 
+</head> 
+<body> 
+<h3>Using Lower Case Filter</h3> 
+<div ng-app=""  ng-init="Username= 'Ray YAO' "> 
+<p>User Name: <input type="text" ng-model="Username"></p> 
+<p style="color:red" ng-bind="Username | lowercase"></p>  
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+Example 3.3 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+	<script src="js\angular.min.js"></script> 
+</head> 
+<body> 
+<h1>Using OrderBy filter</h1> 
+<div ng-app="" ng-init="StudentsResult=[{name: 'Tienq', marks:81},	{name: 'Svbrf', marks:70},	{name: 'Yaito', marks:90}, {name: 'Pewfn', marks:63}, {name: 'Riet', marks:98}]"> 
+<table border="1" > 
+<tr> 
+<th>Student Name</th> 
+<th>Mathematics Result</th> 
+</tr> 
+<tr ng-repeat="x in StudentsResult | orderBy:'-marks' "> 
+<td ng-bind="x.name "></td> 
+<td ng-bind="x.marks "></td> 
+</tr> 
+</table>	 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 3.4 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+	<script src="js\angular.min.js"></script> 
+</head> 
+<body> 
+<h1>Using OrderBy filter</h1> 
+<div ng-app="" ng-init="StudentsResult=[{name: 'Tienq', marks:81},	{name: 'Svbrf', marks:70},	  
+{name: 'Yaito', marks:90}, {name: 'Pewfn', marks:63}, {name: 'Riet', marks:98}]"> 
+<table border="1" > 
+<tr> 
+<th>Student Name</th> 
+<th>Mathematics Result</th> 
+</tr> 
+<tr ng-repeat="x in StudentsResult | orderBy:'marks' "> 
+<td ng-bind="x.name "></td> 
+<td ng-bind="x.marks "></td> 
+</tr> 
+</table>	 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 3.5 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+<script src="js\angular.min.js"></script> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head> 
+<body> 
+<h1>Using Currency filter</h1> 
+ <div ng-app="" ng-init = "Employees_Monthly_Salary=[{name: 'Jay', salary:8100}, {name: 'Sdwt', salary:7000}, {name: 'Hao', salary:9000}, {name: 'Luoe', salary:6300}, {name: 'Fin', salary:9800}]"> 
+<table border="1" > 
+<tr> 
+<th>Employee Name</th> 
+<th>Employee Salary</th> 
+</tr> 
+<tr ng-repeat="x in Employees_Monthly_Salary  "> 
+<td ng-bind="x.name "></td> 
+<td ng-bind="x.salary | currency "></td> 
+</tr> 
+</table>	 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+Hour 4 
+ 
+ 
+ 
+ 
+ 
+Example 4.1 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJS for beginners</title> 
+	<script src="js/angular.min.js"></script> 
+</head> 
+<body> 
+<h3>Using Show directive</h3> 
+<div ng-app="" > 
+<input type="checkbox" ng-model="showHideDiv">Show Div 
+<div ng-show="showHideDiv" style="background-color:yellow;height:50px;"> 
+<p>I am a div</p> 
+<p>I appear when the check box is checked.</p> 
+</div> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 4.2 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+<script src="js\angular.min.js"></script> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head> 
+<body> 
+<h3>Using Hide directive</h3> 
+<div ng-app="" > 
+<input type="checkbox" ng-model="HideShowDiv">Hide Div 
+<div ng-hide="HideShowDiv" style="background-color:pink;height:50px;"> 
+<p>I am a div</p> 
+<p>I will disappeared when the check box is checked.</p> 
+</div> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 4.3 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJS for beginners</title> 
+	<script src="js/angular.min.js"></script> 
+</head> 
+<body> 
+<h3>Using Disable directive</h3> 
+<div ng-app="" > 
+<input type="checkbox" ng-model="DisableEnable">Disable Button<br><br><br> 
+<input type="button" ng-disabled="DisableEnable" value="Submit"> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+Example 4.4 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJSfor beginners</title> 
+<script src="js\angular.min.js"></script> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head> 
+<body> 
+<h3>Using Click directive</h3> 
+<div ng-app=""  ng-init="increaseNumber=0"> 
+<button ng-click="increaseNumber = increaseNumber + 1">Click Me!</button> 
+<p ng-bind="increaseNumber" style="color:blue"></p> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Hour 5 
+ 
+ 
+ 
+ 
+ 
+Example 5.1 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+<title>AngularJSfor beginners</title> 
+	<script src="js\angular.min.js"></script> 
+</head> 
+<body> 
+<h3>Add Two Numbers Using Click Event</h3> 
+<div ng-app=""  ng-init="firstNumber=47; secondNumber=23"> 
+<p>First Number :  <input type="number" ng-model = "firstNumber"></p> 
+<p>Second Number: <input type="number" ng-model = "secondNumber"></p> 
+<button ng-click="Result=firstNumber + secondNumber"> Add Numbers </button> 
+ <p>Result:<p style="font-weight:bold; color:blue" ng-bind = "Result"> </p></p> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 5.2 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJS for beginners</title> 
+	<script src="js/angular.min.js"></script> 
+</head> 
+<body> 
+<h4>Add Two Numbers Using Double Click Event</h4> 
+<div ng-app=""  ng-init="firstNumber=26;SecondNumber=89"> 
+<p>First Number:  &nbsp;&nbsp;&nbsp; <input type="number" ng-model="firstNumber"></p> 
+<p>Second Number: <input type="number" ng-model="SecondNumber"></p> 
+<button ng-dblclick="Result=firstNumber + SecondNumber">Double Click</button> 
+ <p>Result:<p style="font-weight:bold;color:blue" ng-bind="Result"> </p> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 5.3 
+ 
+<!doctype html> 
+<html> 
+<head> 
+<script src="js\angular.min.js"> 
+</script> 
+</head> 
+<body ng-app=""> 
+<br><br> 
+<textarea ng-mousemove="count = count + 1"  
+ng-init="count=0"> 
+Here is a textarea 
+</textarea> 
+<br><br> 
+<h2>count: {{count}}</h2> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 5.4 
+ 
+<!doctype html> 
+<html> 
+<script src="js\angular.min.js"></script> 
+<body ng-app=""> 
+ <br><br> 
+<textarea ng-mouseover="count = count + 1"  
+ng-init="count=0"> 
+ Here is a textarea. 
+</textarea> 
+<br><br> 
+<h2>count: {{count}}</h2> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 5.5 
+ 
+<!doctype html> 
+<html> 
+<head> 
+<script src="js\angular.min.js"> 
+</script> 
+</head> 
+<body ng-app=""> 
+<br><br> 
+<textarea ng-mouseleave="count = count + 1"  
+ng-init="count=0"> 
+Here is a textarea 
+</textarea> 
+<br><br> 
+<h2>count: {{count}}</h2> 
+<body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 5.6 
+ 
+<!doctype html> 
+<html> 
+<head> 
+<script src="js\angular.min.js"> 
+</script> 
+</head> 
+<body ng-app=""> 
+<br><br> 
+<textarea ng-keyup="count = count + 1"  
+ng-init="count=0"> 
+Here is a textarea 
+</textarea> 
+<br><br> 
+<h2>count: {{count}}</h2> 
+<body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 5.7 
+ 
+<!doctype html> 
+<html> 
+<head> 
+<script src="js\angular.min.js"> 
+</script> 
+</head> 
+<body ng-app=""> 
+<br><br> 
+<textarea ng-keydown="count = count + 1"  
+ng-init="count=0"> 
+Here is a textarea 
+</textarea> 
+<br><br> 
+<h2>count: {{count}}</h2> 
+<body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Hour 6 
+  
+ 
+ 
+ 
+ 
+ 
+Example 6.1 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJS for beginners</title> 
+	<script src="js/angular.min.js"></script> 
+</head> 
+<body> 
+<h4>Combine Two String Using String Expression</h4> 
+<div ng-app="" > 
+First String &nbsp;&nbsp;&nbsp;: <input type="text" ng-model="firstString"/><br><br> 
+Second String: <input ng-model="secondString"/><br><br> 
+Resulting String:<p style="color:blue;font-weight:bold;">{{firstString +" "+secondString}}</p> 
+</div>  
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 6.2 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJS for beginners</title> 
+	<script src="js/angular.min.js"></script> 
+</head> 
+<body> 
+<h4>Multiply Two Number Using Number Expression</h4> 
+<div ng-app="" ng-init="firstNumber=9;secondNumber=6"> 
+First Number &nbsp;&nbsp;&nbsp;: <input type="number" ng-model="firstNumber"/><br><br> 
+Second Number: <input type="number" ng-model="secondNumber"/><br><br> 
+Result:<p style="color:blue;font-weight:bold;">{{firstNumber * secondNumber}}</p> 
+</div>  
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 6.3 
+ 
+<html > 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<h4>Object Expression</h4> 
+<div ng-app=""  ng-init="EmployeeObject = {Emp_name: 'Jay Smith', 	Emp_Month: 'June.15 2015',  Emp_salary: '$8000'}"> 
+<p>Employee Name :  {{EmployeeObject.Emp_name}}</p> 
+<p>Salary's Month:  {{EmployeeObject.Emp_Month}}</p> 
+<p>Employee Salary:  {{EmployeeObject.Emp_salary}}</p> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+Example 6.4 
+ 
+<!DOCTYPE html> 
+<html > 
+<head> 
+	<title>AngularJS for beginners</title> 
+	<script src="js/angular.min.js"></script> 
+</head> 
+<body> 
+<h4>My Math Result Using Array Expression</h4> 
+<div ng-app="" ng-init="MySSCmarks=[98,96,93,99,99]"> 
+<p>My score in mathematics is:  {{MySSCmarks[4]}}</p> 
+</div>  
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hour 7 
+ 
+ 
+ 
+ 
+Example 7.1 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<div ng-app="Calculation" ng-controller="myController"> 
+ 
+First Number: <input type="number" ng-model="firstNumber"><br> 
+Second Number: <input type="number" ng-model="secondNumber"><br> 
+<br> 
+Sum: {{firstNumber + secondNumber}} 
+</div> 
+<script> 
+var app = angular.module('Calculation', [ ]); 
+app.controller('myController', function($scope) { 
+	$scope.firstNumber = 4; 
+	$scope.secondNumber = 8; 
+}); 
+</script> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 7.2 
+ 
+<script> 
+function ($scope) { 
+	$scope.firstNumber = 23; 
+	$scope.secondNumber = 63; 
+} 
+</script> 
+ 
+ 
+ 
+ 
+ 
+Hour 8 
+ 
+ 
+ 
+ 
+ 
+Example 8.1 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<div ng-app="myApplication" ng-controller="myController"> 
+{{ firstNum + lastNum }} 
+</div> 
+<script> 
+var myModule = angular.module("myApplication", [ ]); 
+myModule.controller("myController", function($scope) { 
+	$scope.firstNum = 100; 
+	$scope.lastNum = 200; 
+}); 
+</script> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 8.2 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<div ng-app="myApplication" ng-controller="myController"> 
+<p>{{ text1 }}</p> 
+<p>{{ text2 }}</p> 
+</div> 
+<script> 
+var myModule = angular.module('myApplication', [ ]); 
+myModule.controller('myController', function($scope) { 
+$scope.text1 = "javascript"; 
+$scope.text2 = angular.uppercase($scope.text1); 
+}); 
+</script> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 8.3 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<div ng-app="myApplication" ng-controller="myController"> 
+<p>{{ text1 }}</p> 
+<p>{{ text2 }}</p> 
+</div> 
+<script> 
+var myModule = angular.module('myApplication', [ ]); 
+myModule.controller('myController', function($scope) { 
+$scope.text1 = "JAVASCRIPT"; 
+$scope.text2 = angular.lowercase($scope.text1); 
+}); 
+</script> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 8.4 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<div ng-app="myApplication" ng-controller="myController"> 
+<p>{{ text1 }}</p> 
+<p>{{ text2 }}</p> 
+</div> 
+<script> 
+var myModule = angular.module('myApplication', [ ]); 
+myModule.controller('myController', function($scope) { 
+$scope.text1 = "JAVASCRIPT"; 
+$scope.text2 = angular.isString($scope.text1); 
+}); 
+</script> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 8.5 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<div ng-app="myApplication" ng-controller="myController"> 
+<p>{{ text1 }}</p> 
+<p>{{ text2 }}</p> 
+</div> 
+<script> 
+var myModule = angular.module('myApplication', [ ]); 
+myModule.controller('myController', function($scope) { 
+$scope.text1 = "JAVASCRIPT"; 
+$scope.text2 = angular.isNumber($scope.text1); 
+}); 
+</script> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 8.6 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<script>     
+var myDate = "Aug/10/2015"; 
+var dateObject = new Date();    
+document.write(angular.isDate(myDate) + "  ");   
+document.write(angular.isDate(dateObject) + "  ");        
+</script>   
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 8.7 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<script>     
+var myString = "This is a string";     
+function myFunction()   
+{   
+	return "This is inside a function";   
+}   
+document.write(angular.isFunction(myString) + "  "); 
+document.write(angular.isFunction(myFunction) + " ");     
+</script>   
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 8.8 
+ 
+<!DOCTYPE html>   
+<html ng-app="">     
+<head>     
+ <title>Check Element</title>  
+<script src="js\angular.min.js"></script>   
+</script>     
+</head>     
+<body>   
+<script>  
+document.write("<br>");  
+document.write("Title is a Dom elememt?");   
+document.write("<br>");  
+document.write(angular.isElement('title'));   
+document.write("<br><br>");    
+document.write("Title is a HTML element?");  
+document.write("<br>");  
+var check=angular.isElement( 
+document.querySelector('title'));  
+document.write(check); 
+</script>   
+</body>     
+</html>   
+ 
+ 
+ 
+ 
+ 
+Example 8.9 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<script>     
+var myCar = "This is my car!";    
+var carObject = new Object( ) ;   
+document.write(angular.isObject(myCar) + " ");  
+document.write(angular.isObject(carObject) + " ");     
+</script>  
+ </body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 8.10 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<script>     
+var futureCar; 
+var existingCar = "Very Good!";    
+document.write(angular.isDefined(futureCar) + " ");     
+document.write(angular.isDefined(existingCar) + " ");        
+</script> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+Example 8.11 
+ 
+<html> 
+<script src= "js\angular.min.js"></script> 
+<body> 
+<script>     
+var futureCar; 
+var existingCar = "Very Good!";    
+document.write(angular.isUndefined(futureCar) + " ");     
+document.write(angular.isUndefined(existingCar) + " ");        
+</script> 
+</body> 
+</html>   
+ 
+ 
+ 
+ 
+ 
+Appendix 2  
+JavaScript Programs Review 
+ 
+ 
+ 
+ 
+ 
+1. Countdown to load webpage 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+<title>Countdown to load the page</title> 
+<meta http-equiv="Content-Type"  
+content="text/html; charset=UTF-8" /> 
+<META HTTP-EQUIV="REFRESH" CONTENT="10;  
+URL=http://www.amazon.com"> 
+<script language="JavaScript"> 
+ timeObject = new Date(); 
+ countStart = timeObject.getTime(); 
+ function initTimer()  
+ {  
+  var myTime = new Date();  
+     	var currentTime = myTime.getTime();   
+     	var diffTime = currentTime - countStart;  
+     	this.diffSeconds = diffTime/1000;        
+     	return(this.diffSeconds);               
+ }  
+  function getSeconds()  
+ {  
+     	var mySeconds0 = initTimer();  
+     	var mySeconds1 = ""+mySeconds0;  
+     	mySeconds1= 10 - eval( 
+mySeconds1.substring(0,mySeconds1.indexOf(".")))  
+ + " seconds";  
+ document.myForm.timeElapse.value = mySeconds1;  
+window.setTimeout('getSeconds()',1000);  
+ } 
+ </script> 
+</head> 
+<body  onLoad="window.setTimeout('getSeconds()',1)"> 
+  <center><br> 
+ Load web page after 10 seconds:<br><br> 
+ <form name=myForm> 
+<input size=9 name=timeElapse></form> 
+ </center> 
+</body> 
+</html>  
+ 
+ 
+ 
+ 
+ 
+ 
+2. Are you sure to delete? 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+	<title>Confirm Delete</title> 
+<meta http-equiv="Content-Type"  
+content="text/html; charset=UTF-8" /> 
+	<script language="javascript"> 
+ 	function delOperation() 
+	{ 
+   	if(confirm("Are you sure to delete?")) 
+      	alert("Already deleted!"); 
+   	else 
+      	alert("Cancel deleted!"); 
+	} 
+	</script> 
+</head> 
+<body> 
+<center> 
+<br>Are you sure to delete?<br><br> 
+<input id="deleteButton" type="button"  
+value="Delete" onClick="delOperation()" /> 
+</center> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+3. Marquee Text 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+<title>Marquee Text</title> 
+<meta http-equiv="Content-Type"  
+content="text/html; charset=UTF-8" /> 
+</head> 
+<body> 
+<div align="center"> 
+  <p>&nbsp;</p> 
+  <p><span>The Text Scrolls Up Slowly  
+	</span><br><br> 
+  </p> 
+</div> 
+<marquee direction=up scrollamount=1  
+scrolldelay=100 onmouseover='this.stop()'  
+onmouseout='this.start()' height=60> 
+<div align="center"> 
+  <table> 
+	<tr> 
+  	<td> 
+    	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</td> 
+	</tr> 
+	<tr> 
+  	<td> 
+    	BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB</td> 
+	</tr> 
+	<tr> 
+  	<td> 
+  	CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</td> 
+	</tr> 
+	<tr> 
+  	<td> 
+    	DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD</td> 
+	</tr> 
+	<tr> 
+  	<td> EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE</td> 
+	</tr> 
+	<tr> 
+  	<td> 
+ 	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</td> 
+	</tr> 
+    	<td>  	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG</td> 
+  	</tr> 
+	<tr> 
+  	<td> 
+    	HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</td> 
+	</tr> 
+	<tr> 
+  	<td> 
+  	KKKKKKKKKKKKKKKKKKKKKKKKKKKKK</td> 
+  </table> 
+</div> 
+</marquee> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+4. Count how many letters 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+</head> 
+<body> 
+<p align="center">&nbsp;</p> 
+<p align="center">Count how many leters<br> 
+</p> 
+<div align="center"> 
+  <script language="JavaScript">  
+function cal(str) 
+{  
+	re=/[a-z & A-Z]/g;   
+	if(re.test(str))        
+	return str.match(re).length  
+	else  
+	return 0  
+}  
+</script>  
+<input onBlur="alert(cal(this.value) )"> 
+<input type="button" value="Count Letters"> 
+</div> 
+</body>  
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+5. Search Engine 
+  
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+<title>Search Engine</title> 
+<meta http-equiv="Content-Type"  
+content="text/html; charset=UTF-8" /> 
+</head> 
+<body><br><br> 
+<form Name="myForm"> 
+<div align="center"><center><p> 
+<script language="JavaScript"> 
+var formVariable; 
+function makeSearch() 
+{ 
+ 
+document.forms[formVariable +  
+document.myForm.SearchSelect. 
+selectedIndex].elements[0].value= 
+document.myForm.SeachText.value; 
+document.forms[formVariable+ 
+document.myForm.SearchSelect.selectedIndex].submit(); 
+} 
+</script> 
+</p> 
+	<p><span style="font-size: 12pt">Keyword:</span> 
+    	<input name="SeachText" type="text" size="21"  
+style=" margin-left: 1px"> 
+	</p> 
+	<p><br> 
+    	<span style="font-size: 12pt">Select Enginee:</span> 
+    	<select Name="SearchSelect" size="1" > 
+      	<option selected>Yahoo</option> 
+      	<option value="Google">Google</option> 
+      	<option value="Bing">Bing</option> 
+    	</select> 
+  	</p> 
+	<p><br> 
+<input type="button" value=" SEARCH "  
+onClick="makeSearch()">  
+    	<script language="JavaScript"> 
+formVariable=document.forms.length 
+    	</script> 
+	</p> 
+</center></div> 
+</form> 
+<form action="http://search.yahoo.com/bin/search"  
+method="get"> 
+<input type="hidden" name="p" value> 
+</form> 
+<form action="http://www.google.com/search"> 
+<input type="hidden" name="q" value> 
+</form> 
+<form action="http://www.bing.com/search"> 
+<input type="hidden" name="q" value> 
+</form> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6. Select Tag 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+	<title>Select Tag</title> 
+<meta http-equiv="Content-Type"  
+content="text/html; charset=UTF-8" /> 
+<style> 
+.conts{visibility:hidden} 
+.tab{border-top:solid thin #E0E0E0; 
+border-right:solid thin gray; 
+border-left:solid thin #E0E0E0; 
+font-family:Verdana; 
+font-size:10pt; 
+text-align:center; 
+font-weight:normal} 
+.selTab{border-left:solid thin white; 
+border-top:solid thin white; 
+border-right:solid thin black; 
+font-weight:bold; 
+text-align:center} 
+</style> 
+<script language="JavaScript"> 
+function public_Labels(label1, label2,  
+label3, label4, label5) 
+{ 
+t1.innerText = label1; 
+t2.innerText = label2; 
+t3.innerText = label3; 
+t4.innerText = label4; 
+t5.innerText = label5; 
+} 
+function public_Texts(Texts1,  
+Texts2, Texts3, Texts4, Texts5){ 
+t1Texts.innerHTML = Texts1; 
+t2Texts.innerHTML = Texts2; 
+t3Texts.innerHTML = Texts3; 
+t4Texts.innerHTML = Texts4; 
+t5Texts.innerHTML = Texts5; 
+init(); 
+} 
+function init(){ 
+tabTexts.innerHTML = t1Texts.innerHTML; 
+} 
+var nowTab; 
+var myTab; 
+var mark = true; 
+function altertab(){ 
+if(mark == true){ 
+nowTab = t1; 
+myTab = t1base; 
+mark = false; 
+} 
+if(window.event.srcElement.className == "tab") 
+{ 
+nowTab.className = "tab"; 
+myTab.style.backgroundColor = "white"; 
+nowTab = window.event.srcElement; 
+myTabID = nowTab.id + "base"; 
+tabContentID = nowTab.id + "Texts"; 
+myTab = document.all(myTabID); 
+tabContent = document.all(tabContentID); 
+nowTab.className = "selTab"; 
+myTab.style.backgroundColor = ""; 
+tabTexts.innerHTML = tabContent.innerHTML; 
+}} 
+</script> 
+</head> 
+<body BGCOLOR="white" onclick="altertab()" onLoad="init()"> 
+<br><br> 
+<table align="center" CELLPADDING="0" CELLSPACING="0"  
+bgcolor="yellow" STYLE="width:400; height:300"> 
+<tr><td ID="t1" CLASS="selTab" HEIGHT="25">SELECT 1</td> 
+<td ID="t2" CLASS="tab">SELECT 2</td> 
+<td ID="t3" CLASS="tab">SELECT 3</td> 
+<td ID="t4" CLASS="tab">SELECT 4</td> 
+<td ID="t5" CLASS="tab">SELECT 5</td> 
+</tr><tr> 
+<td ID="t1base" STYLE="height:2; background-colro:white"> 
+</td> 
+<td ID="t2base" STYLE="height:2; background-color:white"> 
+</td> 
+<td ID="t3base" STYLE="height:2; background-color:white"> 
+</td> 
+<td ID="t4base" STYLE="height:2; background-color:white"> 
+</td> 
+<td ID="t5base" STYLE="height:2; background-color:white"> 
+</td> 
+</tr><tr><td HEIGHT="*" COLSPAN="5" ID="tabTexts" 
+STYLE="border-left:solid thin white;border-bottom:solid  
+thin white;border-right:solid thin white">&nbsp;</td> 
+</tr></table></div><div CLASS="conts" ID="t1Texts"> 
+<p align="center">1.AAAAAAAAAA</p> 
+</div><div CLASS="conts" ID="t2Texts"> 
+<p align="center">2.BBBBBBBBBB</p> 
+</div><div CLASS="conts" ID="t3Texts"> 
+<p align="center">3.CCCCCCCCCC </p> 
+</div><div CLASS="conts" ID="t4Texts"> 
+<p align="center">4.DDDDDDDDDD </p> 
+</div><div CLASS="conts" ID="t5Texts"> 
+<p align="center">5.EEEEEEEEEE</p> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+7. Time Format Conversion 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+<title>Time Format Conversion</title> 
+<meta http-equiv="Content-Type" content="text/html;  
+charset=UTF-8" /> 
+<SCRIPT LANGUAGE="JavaScript"> 
+function timeFormat() { 
+	if (document.myForm.showFormat[0].checked) {  
+	return true; 
+} 
+return false; 
+} 
+function showHours(nowHour) { 
+	if (timeFormat() || (nowHour > 0 && nowHour < 13)) { 
+	return (nowHour); 
+	} 
+	if (nowHour == 0) {                               
+    	return (12); 
+	} 
+	return (nowHour-12);                             
+} 
+function displayZero(timeVal) { 
+	if (timeVal > 9) {                            
+	return "" + timeVal; 
+	} 
+	return "0" + timeVal; 
+	} 
+	function AmPm() {                     
+	if (timeFormat()) { 
+	return (""); 
+	} 
+	if (now.getHours() < 12) {   
+	return (" AM"); 
+	} 
+	return (" PM"); 
+} 
+function displayTime() {     
+	now = new Date       
+	document.myForm.showTime.value =  
+showHours(now.getHours()) + ":" +  
+displayZero(now.getMinutes()) + ":" +  
+displayZero(now.getSeconds()) + AmPm() 
+	setTimeout("displayTime()",1000)   
+} 
+</script> 
+</head> 
+<BODY onLoad="displayTime()"> 
+<center><br><br> 
+<form name=myForm> 
+<input type=text name=showTime size=11><p> 
+<input type=radio name=showFormat>24 Hour Format<br> 
+<input type=radio name=showFormat>12 Hour Format<br> 
+</form> 
+</center> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8. Count you typed 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+<title>Show number of words</title> 
+<meta http-equiv="Content-Type" content="text/html;  
+charset=UTF-8" /> 
+<script LANGUAGE="JavaScript"> 
+function countWords(myContents) 
+{ 
+	wordsNum=myContents.value.length;   
+	displayNum.innerText=wordsNum; } 
+</script> 
+</head> 
+<body><br><br> 
+<center> 
+<textarea  id=myContents rows=10 colors=38  
+onKeyUp="countWords(this) " onKeyDown="countWords(this)"> 
+</textarea> 
+<br><h3>The number of words you have typed: </h3> 
+<h1><div id="displayNum"></div></h1> 
+</center> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+9. Forbid Copying Photo 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+	<title>Forbid copy photo</title> 
+<meta http-equiv="Content-Type" content="text/html;  
+charset=UTF-8" /> 
+	<script language="javascript"> 
+	function stopCopying(control) { 
+alert("Stop Copying! Allright Reserved!"); 
+window.close(); 
+	} 
+	function findPhoto() { 
+if(document.images)   
+ for(i=0;i<document.images.length;i++) 
+document.images[i].onmousedown = stopCopying; 
+	} 
+	</script>    
+</head> 
+<body oncontextmenu="return false" 
+onLoad="findPhoto()"> 
+<br><br> 
+<div align="center"><img src='' width=200 height=150  
+border=1 alt='My Photo'></div> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+10. Check Password Strength 
+ 
+<html>  
+<head>  
+<title>Password Strength</title>  
+<meta http-equiv="Content-Type"  
+content="text/html; charset=UTF-8"/> 
+</head>  
+<body> <br><center> 
+<form name="myForm">  
+<label for="pwd1">Password</label>  
+<input type="Password" name="pwd1"  
+onBlur="valuate(this)" />  
+<br><br> 
+<label for="pwd2">Retype Password </label> 
+<input type="password" name="pwd2" />  
+</form> </center> 
+<center><div id="showStrength"></div> </center> 
+<script type="text/javascript">  
+function valuate(pwd) {  
+var t=pwd.value;  
+var id=getStrength(t);  
+  
+var message=new Array(4);  
+message[0]="Password too short!";  
+message[1]="Password poor!";  
+message[2]="Password medium!";  
+message[3]="Password strong!";  
+ 
+var myColor=new Array(4);  
+myColor[0]="black";  
+myColor[1]="red";  
+myColor[2]="orange";  
+myColor[3]="green";  
+ 
+var setWidth=300;  
+var setHeight=15;  
+var myPWD=document.getElementById("showStrength");  
+myPWD.style.fontSize="15px";  
+myPWD.style.color=myColor[id];  
+myPWD.style.width=setWidth + "px";  
+myPWD.style.height=setHeight + "px";  
+myPWD.style.lineHeight=setHeight + "px";  
+myPWD.style.textIndent="20px";  
+myPWD.innerHTML="Strength:  " + message[id];  
+}  
+function getStrength(p){  
+if(p.length < 4){  
+return 0;  
+}  
+var level = 0;  
+if (p.match(/[a-z]/ig)){  
+level++;  
+}  
+if (p.match(/[0-9]/ig)){  
+level++;  
+}  
+if (p.match(/(.[^a-z0-9])/ig)){  
+level++;  
+}  
+if (p.length < 6 && level > 0){  
+level--;  
+}  
+return level  
+}  
+</script>  
+</body>  
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+11. Open Your Harddrive 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+<title>Open Your Harddrive</title> 
+<meta http-equiv="Content-Type"  
+content="text/html; charset=UTF-8" /> 
+</head> 
+<body> 
+<br><center><h3>Open Your Harddrive</h3><br> 
+<form action="file:///c|/"> 
+<input type="submit" value="Open C Disk"></form> 
+<form action="file:///d|/"> 
+<input type="submit" value="Open D Disk"></form> 
+<form action="file:///e|/"> 
+<input type="submit" value="Open E Disk"></form> 
+</center> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+12. Wave Text 
+ 
+<script language="JavaScript"> 
+function makeWave(n)  
+{    
+makeWaveText = "JavaScript"; 
+display = ""; 
+for (i = 0; i < makeWaveText.length; i++) 
+{ 
+size = 68*Math.abs(Math.sin( 
+(i+n)*3.14/makeWaveText.length)) 
+display +=  
+"<font style='font-size: "+ size + 
+"pt' color='green'>"  
++makeWaveText.substring(i,i+1)+ "</font>"; 
+} 
+textDiv.innerHTML = display; 
+if (n > makeWaveText.length) {n=0} 
+else {n++} 
+setTimeout("makeWave(" + n + ")", 300); 
+} 
+ 
+</script> 
+<body onload=makeWave(0);><br> 
+<div ID="textDiv" align="center"> 
+</div> 
+</body>  
+ 
+ 
+ 
+ 
+ 
+ 
+13. Text Advertisement 
+ 
+<meta http-equiv="Content-Type" content="text/html;  
+charset=UTF-8" /> 
+<body onLoad="textAd();"><br><br> 
+<div align="center">Text Advertisement<br><br> 
+<script language="JavaScript"> 
+var myText=" >>>Welcome to JavaScript world!>>>"; 
+myText+=" >>>JavaScript is very good language!>>>"; 
+ 
+var aLetter=50; 
+function textAd(){ 
+document.forms[0].panel.value= 
+myText.substring(myText.length-aLetter, myText.length); 
+myText=myText.substring(myText.length-1,myText.length) 
++myText; 
+myText=myText.substring(0,myText.length-1); 
+setTimeout("textAd()",200); 
+} 
+</script> 
+</div> 
+<form> 
+  <div align="center"> 
+	<input type="text" name="panel" value="" size="38"> 
+  </div> 
+</form> 
+</body> 
+ 
+ 
+ 
+ 
+ 
+ 
+14. Web Clock 
+ 
+<div align="center"><br> 
+  <br> 
+  <h2 >Web Clock</h2> 
+  <br> 
+</div> 
+<table bgcolor="green" align=center> 
+<tr><td><div id="showClock"></div></td></tr> 
+</table> 
+<script language="javascript"> 
+function webClock(){ 
+var dataobj=new Date() 
+var hours=dataobj.getHours() 
+var minutes=dataobj.getMinutes() 
+var seconds=dataobj.getSeconds() 
+if(minutes<=9) 
+minutes="0"+minutes 
+if(seconds<=9) 
+seconds="0"+seconds 
+Eclock="<font size='7' color='white' face='Arial black'>" 
++hours+":"+minutes+":"+seconds+"</font>" 
+showClock.innerHTML=Eclock; 
+setTimeout("webClock()",1000) 
+} 
+webClock(); 
+</script> 
+ 
+ 
+ 
+ 
+ 
+ 
+15. How much is the Price? 
+ 
+<html> 
+<body> 
+<meta http-equiv="Content-Type"  
+content="text/html; charset=UTF-8" /> 
+<SCRIPT LANGUAGE="JavaScript"> 
+var sum=0; 
+function checkPrice(chk){ 
+if (chk.checked == false){  
+sum -= eval(chk.value);  
+} 
+else {  
+sum += eval(chk.value);  
+} 
+document.priceForm.total.value = '$'+ eval(sum); 
+} 
+</script> 
+<br> 
+<form method="POST" name="priceForm"> 
+<table align=center width=300> 
+<tr> 
+<td height=50 colspan=2>The Price of Books : </td> 
+</tr> 
+<tr> 
+<td >JAVA in 8 Hours:&nbsp; $500</td> 
+<td width=30> 
+<input type="checkbox" name="b1" value=500  
+onclick="checkPrice(this);"> 
+</td> 
+</tr> 
+<tr> 
+<td>LMAP in 8 Hours: $400</td> 
+<td width=30> 
+<input type="checkbox" name="b2" value=400  
+onclick="checkPrice(this);"> 
+</td> 
+</tr> 
+<tr> 
+<td>HTML in 8 Hours: $450 </td> 
+<td width=30> 
+<input type="checkbox" name="b3" value=450  
+onclick="checkPrice(this);"> 
+</td> 
+</tr> 
+<tr> 
+<td colspan=2 align=right>Total:  
+<input type="text" name="total" size=8 value='$0'  
+onFocus="this.blur();"> 
+</td> 
+</tr>	 
+</table> 
+</form> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+16. Progress Bar 
+ 
+<html> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<body> 
+<br><br> 
+<form name=loading> 
+<p align=center> <font color="green" size="2" face="Arial Black">Please wait, Loading......</font> 
+<br><br> 
+<input type=text name=progress size=55 style="font-family:Arial Black; font-weight:bolder; color:green; background-color:#fef4d0; padding:0px; border-style:none;"> 
+<br><br> 
+<input type=text name=percent size=50 style="font-family:Arial Black; color:green; text-align:center; border-width:medium; border-style:none;"> 
+<script language="JavaScript"> 
+var loadingPercent=0 ;               
+var mark="||" ; 
+var sum="||" ; 
+count() ;                  
+function count(){  
+loadingPercent=loadingPercent+2;  
+sum =sum + mark;  
+document.loading.progress.value=sum ;         
+document.loading.percent.value=loadingPercent+"%";      
+if (loadingPercent<99)  { 
+setTimeout("count()",100); 
+}   
+else {                    
+window.location.href = "http://www.amazon.com"; 
+} } 
+</script> 
+</p> 
+</form> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+17. Filter Ungraceful Words 
+ 
+<html> 
+<head> 
+<title>Filter Ungraceful Words</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<script language="javascript"> 
+message=prompt("Filter “fool, idiot, imbecile and moron” words. Please enter your message: ",""); 
+subsitude = /fool|idiot|imbecile|moron/g; 
+if (message.match(subsitude)){ 
+message=message.replace(subsitude,"master"); 
+message=message.bold().fontcolor("#FF0000"); 
+myText="Your message has a ungraceful word, which has been replaced by: " + message; 
+} 
+else{ 
+message=message.bold().fontcolor("#0000FF"); 
+myText="Yor message has no ungraceful word, you said:  " + message; 
+} 
+</script> 
+</head> 
+<body> 
+<script language="javascript"> 
+document.write(myText) 
+</script> 
+<br> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+18. Forbid Copy Password 
+ 
+<html> 
+<head> 
+<title>Forbid Copy Password</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<script language="javascript"> 
+function noCopy(pwd){ 
+alert("Please don't copy password!") 
+with(document.myForm){ 
+if (pwd == "pwd1") { 
+pwd1.blur() 
+pwd2.focus() 
+} 
+else if(pwd == "pwd2"){ 
+pwd2.blur() 
+pwd1.focus() 
+}}} 
+</script> 
+</head> 
+<body> 
+<form name="myForm"> 
+<p><br> 
+Password: 
+<input type="password" name="pwd1" onSelect="noCopy(this.name)"> 
+</p> 
+<p>Retype Password: 
+<input type="password" name="pwd2" onSelect="noCopy(this.name)"> 
+</p> 
+<br> 
+</form> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+19.  World Clock 
+ 
+<html> 
+<head> 
+<title> 
+The Time of Cities in the World 
+</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<script language="javascript"> 
+var t 
+function wordTime(){ 
+ t=0 
+ nowDate= new Date() 
+ worldClock("New York",-5) 
+ worldClock("Los Angeles",-8) 
+ worldClock("London",0) 
+ worldClock("Paris",1) 
+ worldClock("Tokyo",9) 
+ worldClock("Beijing",8) 
+ setTimeout("wordTime()",1000) 
+} 
+function worldClock(city,diffTime){ 
+ UTCh= nowDate.getUTCHours() 
+ UTCm= nowDate.getUTCMinutes() 
+ UTCs= nowDate.getUTCSeconds() 
+ UTCms= nowDate.getUTCMilliseconds() 
+ with(document){ 
+ forms[0][t].value=city + "： " + (UTCh+diffTime) + ":" + (UTCm) + ":" + (UTCs) + "." + (UTCms) 
+ t++ 
+ } 
+} 
+</script> 
+</head> 
+<body onLoad="wordTime()"> 
+<center> 
+<br><br>World Clock<br><br> 
+<form name="myForm"> 
+<table align="center"> 
+<tr><td> 
+<input type="text"><br><input type="text"><br><input type="text"><br> 
+<input type="text"><br><input type="text"><br><input type="text"><br> 
+</tr> 
+</table> 
+</form> 
+</center> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+ 
+ 
+20. Encrypt Code to Number 
+ 
+<html> 
+<head> 
+<title>Encrypt Code to Number</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head> 
+<SCRIPT LANGUAGE="JavaScript"> 
+var strInput; 
+var strOutput = "";  
+var numInput; 
+var numOutput = ""; 
+var txt = "Please enter data!"; 
+function StrToNum(form) { 
+numOutput = ""; 
+if(form.input.value == "") alert(txt); 
+else { 
+strInput = escape(form.input.value); 
+for(i = 0; i < strInput.length; i++) { 
+numOutput += strInput.charCodeAt(i) - 23; 
+} 
+form.output.value = numOutput; 
+form.input.value = ""; 
+} 
+} 
+function NumToStr(form) { 
+strOutput = ""; 
+if(form.output.value == "") alert(e) 
+else { 
+numOutput = form.output.value;   
+for(i = 0; i < numOutput.length; i += 2) { 
+numInput = parseInt(numOutput.substr(i,[2])) + 23; 
+numInput = unescape('%' + numInput.toString(16)); 
+strOutput += numInput; 
+} 
+form.input.value = unescape(strOutput); 
+form.output.value = ""; 
+} 
+} 
+</script> 
+<body> 
+<br> 
+<div align="center">Encrypt Code to Number  
+</div> 
+<center> 
+<form> 
+<table> 
+<tr>  
+<td align=center>  
+<input name=input type=text size=20 value="JavaScript"> 
+</td> 
+<td align=center>  
+<br> 
+<input type=button value=" Encode --> " onClick="javascript:StrToNum(this.form)"> 
+<br> 
+<input type=button value=" <-- Decode " onClick="javascript:NumToStr(this.form)"> 
+<br> 
+</td> 
+<td align=center>  
+<input name=output type=text size=20 value="51749574607691828993"> 
+</td> 
+</tr> 
+</table> 
+</form> 
+</center> 
+</body> 
+</html> 
+```

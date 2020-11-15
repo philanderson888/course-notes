@@ -1,23 +1,26 @@
-# Git and GitHub
+# Git 
 
-## Introduction
+## Author
 
-These are rough notes used in teaching students how to use GitHub
+@philanderson888
+Philip Anderson
+
+
+## Last Updated
+
+November 2020
 
 ## Contents
 
-- [Git and GitHub](#git-and-github)
-  - [Introduction](#introduction)
+- [Git](#git)
+  - [Author](#author)
+  - [Last Updated](#last-updated)
   - [Contents](#contents)
-  - [Resources](#resources)
-  - [Installing Git](#installing-git)
-    - [Linux](#linux)
-    - [MAC and Windows](#mac-and-windows)
+  - [Introduction](#introduction)
+  - [Install](#install)
   - [Basic Commands](#basic-commands)
-    - [git --version](#git---version)
-    - [git init](#git-init)
-    - [git diff  (avoid posting sensitive info)](#git-diff-avoid-posting-sensitive-info)
-    - [gitk - viewing proposed changes](#gitk---viewing-proposed-changes)
+  - [git diff](#git-diff)
+    - [gitk](#gitk)
     - [GitHub Desktop](#github-desktop)
   - [Hiding Secrets](#hiding-secrets)
     - [git add](#git-add)
@@ -56,56 +59,45 @@ These are rough notes used in teaching students how to use GitHub
   - [Github With SSH](#github-with-ssh-1)
     - [Keygen - walkthrough from scratch](#keygen---walkthrough-from-scratch)
 
-## Resources
 
-[Intro to Git and GitHub : 31 minute video from Traversy Media](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+## Introduction
 
-[https://github.com/git-tips](https://github.com/git-tips)
+Notes on all things git!
 
-## Installing Git
+## Install
 
-### Linux
+Linux
 
 ```
 sudo apt-get install git 		Debian
 sudo yum install git 			Fedora
 ```
 
-### MAC and Windows
+MAC and Windows
 
-download from [git-scm.com/download](http://git-scm.com/download)
+download [git-scm.com/download](http://git-scm.com/download)
 
-also installs gitbash for Windows which works similar to Linux commands
+Windows
 
 ```
-# windows
 choco install git.install
 ```
 
 ## Basic Commands
 
-### git --version
-
-```
-## display version in use
+```powershell
+# version
 git --version
-```
-
-### git init
-
-```
-# create hidden .git folder
-# initialise git 
+# initialise a private git repo
 git init
 ```
 
-### git diff  (avoid posting sensitive info)
+## git diff
 
-```csharp
-# check differences before git add
+```powershell
+# view differences before git add
 git diff
-
-# for just one file
+# view differences for one file
 git diff HEAD file
 
 # once in the file, navigate with
@@ -119,11 +111,11 @@ git diff HEAD file
 git diff --cached
 ```
 
-### gitk - viewing proposed changes
+### gitk
 
-Use gitk [https://git-scm.com/docs/gitk](https://git-scm.com/docs/gitk) to see the proposed changes on the command line first
+gitk - viewing proposed changes
 
-```csharp
+```powershell
 # Run gitk and view proposed changes
 gitk
 ```

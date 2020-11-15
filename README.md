@@ -6,7 +6,7 @@ This is a repository of teaching notes and labs on a variety of topics
 
 - [personal-course-notes](#personal-course-notes)
   - [Contents](#contents)
-  - [Git And GitHub](#git-and-github)
+  - [Git](#git)
   - [Shells - Bash, Zsh, CMD and Powershell](#shells---bash-zsh-cmd-and-powershell)
   - [IDE](#ide)
   - [C](#c)
@@ -33,7 +33,9 @@ This is a repository of teaching notes and labs on a variety of topics
     - [General Programming](#general-programming)
   - [Personal Coding](#personal-coding)
 
-## [Git And GitHub](GitHub)
+## Git
+
+[Git](git/README.md)
 
 ## [Shells - Bash, Zsh, CMD and Powershell](Shells)
 

@@ -7,7 +7,7 @@ This is a repository of teaching notes and labs on a variety of topics
 - [personal-course-notes](#personal-course-notes)
   - [Contents](#contents)
   - [Git](#git)
-  - [Shells - Bash, Zsh, CMD and Powershell](#shells---bash-zsh-cmd-and-powershell)
+  - [Shells](#shells)
   - [IDE](#ide)
   - [C](#c)
   - [Web](#web)
@@ -31,13 +31,15 @@ This is a repository of teaching notes and labs on a variety of topics
     - [Server 2008/12/16/19](#server-2008121619)
   - [Mobile, Angular, Programming Languages](#mobile-angular-programming-languages)
     - [General Programming](#general-programming)
-  - [Personal Coding](#personal-coding)
+  - [Fun projects](#fun-projects)
 
 ## Git
 
 [Git](git/README.md)
 
-## [Shells - Bash, Zsh, CMD and Powershell](Shells)
+## Shells
+
+[Shells - Bash, Zsh, CMD and Powershell](Shells)
 
 ## IDE
 
@@ -63,41 +65,43 @@ This is a repository of teaching notes and labs on a variety of topics
 
 ### HTML
 
-[HTML](web\html.md)
+[HTML](https://github.com/philanderson888/html-css-javascript)
 
 ### CSS
 
-[CSS](web/CSS%20ca97d281b5ca4f9e9d940230c6261c22.md)
+[CSS](https://github.com/philanderson888/html-css-javascript)
 
 ### Bootstrap
 
+[Bootstrap](https://github.com/philanderson888/bootstrap)
+
 ### Javascript
 
-[Javascript](web/Javascript%209d0e9d2186b14d89902b61638db10240.md)
-
-[HTML CSS Javascript MTA 98-375](web/HTML%20CSS%20Javascript%20MTA%2098%20375%20655379f952bd4eb2b794f6a44651c9be.md)
-
-[Javascript Formal Course ](web/Javascript%20Formal%20Course%208a26124f8df54b48b4c6ed241c23eb0f.md)
+[Javascript](https://github.com/philanderson888/javascript)
 
 ### jQuery
 
-[jQuery](web/jQuery%205394599124d447e9875af1d695cccfc0.md)
+[jQuery](https://github.com/philanderson888/jquery)
 
 ### AJAX
 
 [AJAX Code Demos](https://github.com/philanderson888/ajax)
 
-[AJAX Notes](web/AJAX%20fc1de5023c514b708ce4553008d6ff91.md)
+[AJAX Notes](https://github.com/philanderson888/course-notes/blob/master/web/AJAX.md)
 
 ### Vue
 
-[VueJS](web/VueJS%203450bb3d940b46aea590a34194ef4522.md)
+[VueJS](https://github.com/philanderson888/vue)
+
+[Vue Demo Site](https://github.com/philanderson888/vue-live)
 
 [Vue With Paypal](https://github.com/philanderson888/vue-with-paypal-payment) with live demo at [https://friendly-leakey-f345f4.netlify.app](https://friendly-leakey-f345f4.netlify.app)
 
 ### React
 
-[React Starter Demo](https://github.com/philanderson888/gatsby-03) live at [https://www.philandersontraining.com](https://www.philandersontraining.com)
+[Code and notes](https://github.com/philanderson888/react)
+
+[Starter Demo](https://github.com/philanderson888/gatsby-03) live at [https://www.philandersontraining.com](https://www.philandersontraining.com)
 
 ### Python
 
@@ -147,8 +151,8 @@ This is a repository of teaching notes and labs on a variety of topics
 
 ### [General Programming](https://github.com/philanderson888/programming)
 
-## Personal Coding
+## Fun projects
 
-[ASP.NET Core MVC `Tasks App` To Show Daily ToDo Items With SQLite Database https://github.com/philanderson888/tasks](https://github.com/philanderson888/tasks)
+[ASP.NET Core app to show daily todo tasks with sqlite](https://github.com/philanderson888/tasks)
 
-[Kids Holiday Tasks](https://github.com/philanderson888/kids-holiday-tasks)
+[ASP.NET Core app to show kids holiday tasks](https://github.com/philanderson888/kids-holiday-tasks)

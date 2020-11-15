@@ -36,7 +36,7 @@ November 2020
     - [git branch](#git-branch)
       - [rename a branch](#rename-a-branch)
     - [git checkout](#git-checkout)
-    - [git pull origin dev and git merge dev](#git-pull-origin-dev-and-git-merge-dev)
+    - [git merge dev](#git-merge-dev)
   - [Viewing And Undoing Changes](#viewing-and-undoing-changes)
     - [git log](#git-log)
     - [git reflog](#git-reflog)
@@ -44,20 +44,18 @@ November 2020
     - [git reset —hard](#git-reset-hard)
     - [git clean](#git-clean)
     - [github tagging](#github-tagging)
-- [Other Git Topics And Commands](#other-git-topics-and-commands)
+- [Other Git Topipowershell And Commands](#other-git-topipowershell-and-commands)
     - [Fixing a merge conflict](#fixing-a-merge-conflict)
     - [Change Git User](#change-git-user)
     - [Protecting The Master Branch](#protecting-the-master-branch)
     - [Configuring a publishing source for GitHub Pages](#configuring-a-publishing-source-for-github-pages)
     - [Renaming A Branch](#renaming-a-branch)
   - [Changing Github User](#changing-github-user)
-    - [Tagging](#tagging)
-- [GitHub with SSH](#github-with-ssh)
-    - [git remote with SSH](#git-remote-with-ssh)
+    - [Tag](#tag)
+  - [SSH](#ssh)
     - [Locating your SSH keys](#locating-your-ssh-keys)
-    - [Adding SSH keys to github with SSH Keygen](#adding-ssh-keys-to-github-with-ssh-keygen)
-  - [Github With SSH](#github-with-ssh-1)
-    - [Keygen - walkthrough from scratch](#keygen---walkthrough-from-scratch)
+    - [Keygen walkthrough](#keygen-walkthrough)
+  - [Github With SSH](#github-with-ssh)
 
 
 ## Introduction
@@ -68,7 +66,7 @@ Notes on all things git!
 
 Linux
 
-```
+```powershell
 sudo apt-get install git 		Debian
 sudo yum install git 			Fedora
 ```
@@ -79,7 +77,7 @@ download [git-scm.com/download](http://git-scm.com/download)
 
 Windows
 
-```
+```powershell
 choco install git.install
 ```
 
@@ -130,7 +128,7 @@ Use this guide [https://gist.github.com/derzorngottes/3b57edc1f996dddcab25](http
 
 ### git add
 
-```
+```powershell
 # add file to staging area so that files are now tracked
 gid add <file>
 git add .
@@ -146,21 +144,21 @@ git diff --cached
 
 ### git reset
 
-```
+```powershell
 # before committing, git reset (no full stop) reverses the effect of git add
 git reset
 ```
 
 ### git status
 
-```
+```powershell
 # show differences between your folder and the staging area
 git status
 ```
 
 ### git commit
 
-```
+```powershell
 # commit our work as a point in time 'commit' to a local repository
 git commit -m "Sample commit"
 
@@ -172,14 +170,14 @@ git commit -m "Sample commit"
 
 git clone can be used to clone a repository
 
-```
+```powershell
 # copy a fresh copy of a remote repository down to the local machine, and initialise it ready for editing
 git clone
 ```
 
 ### git remote
 
-```
+```powershell
 # validate set up
 git remote
 # show url set up
@@ -197,7 +195,7 @@ git push -u origin master
 
 ### git push
 
-```bash
+```powershell
 # to see a list of changed files before run git push
 git diff --stat --cached origin/master
 
@@ -278,7 +276,7 @@ git push origin --delete remote-branch-name
 
 #### rename a branch
 
-```bash
+```powershell
 git checkout old_name
 git branch -m new_name
 git push origin -u new_name
@@ -289,44 +287,43 @@ git push origin --delete old_name
 
 ### git checkout
 
-```
+```powershell
 # move from one branch into another
 git checkout branch_name
 ```
 
 View the files in a particular commit
 
-```
+```powershell
 # obtain the ID of the intended commit
 git log
 # move to this commit and look at the files
 git checkout id
 ```
 
-```
+```powershell
 # view all branches including hidden ones
 git checkout -a
 ```
 
  
-
-### git pull origin dev and git merge dev
+### git merge dev
 
 If a dev branch has been updated in github then we need to bring our dev and feature branches into line with the dev branch online.
 
 These steps will pull down and merge all changes.
 
-```
-// Create branch dev if it does not exist
+```powershell
+# Create branch dev if it does not exist
 git branch dev
 
-// Move to dev branch
+# Move to dev branch
 git checkout dev
 
-// pull down changes from dev on github to dev on local
+# pull down changes from dev on github to dev on local
 git pull origin dev
 
-// check code has pulled down
+# check code has pulled down
 ls 
 
 // switch to feature branch
@@ -342,7 +339,7 @@ git merge dev
 
 git log can be used to view previous commits
 
-```
+```powershell
 # view snapshots (commits)
 git log
 
@@ -352,7 +349,7 @@ git log --graph
 
 ### git reflog
 
-```csharp
+```powershell
 ### git reflog
 
 git reflog # display a list of commits with indexes.
@@ -362,7 +359,7 @@ git reflog # display a list of commits with indexes.
 
 Undo changes and reset the state of the disk back to a given commit point
 
-```
+```powershell
 git reset --soft  305bf485c68361d3a0ec97192998ea81a6673fbc
 ```
 
@@ -370,7 +367,7 @@ git reset --soft  305bf485c68361d3a0ec97192998ea81a6673fbc
 
 Use this with extreme care as it wipes the files from your hard drive and they become irrecoverable
 
-```
+```powershell
 # reset files on your hard disk back to your last commit point
 git reset HEAD --hard 
 
@@ -382,7 +379,7 @@ git reset --hard  305bf485c68361d3a0ec97192998ea81a6673fbc
 
 Git clean can be used to remove untracked directories, which may still be hanging around and not been deleted properly when a checkout takes place and we no longer want those directories to be present
 
-```
+```powershell
 // force removal of untracked directories
 git clean -fd
 ```
@@ -393,7 +390,7 @@ GitHub tagging can allow you to commit a project at a certain state in time, and
 
 This also works with GitHub releases.
 
-```
+```powershell
 # show all tags
 git tag
 git show
@@ -406,18 +403,18 @@ git push origin --tags
 
 ```
 
-# Other Git Topics And Commands
+# Other Git Topipowershell And Commands
 
 ### Fixing a merge conflict
 
-```
+```powershell
 # show conflict
 git status
 ```
 
 edit .md file and find `<<<<< ==== and >>>>` markers, edit and remove them
 
-```
+```powershell
 # push changes
 git push
 ```
@@ -426,7 +423,7 @@ git push
 
 It may be that you are working on one git account and want to push under another account. You may be denied permissions to push and have to log out of the current user. Try this
 
-```
+```powershell
 git config --local credential.helper ""
 git push origin master
 ```
@@ -448,27 +445,14 @@ Once we have created both master and dev branches we should protect the master f
 
 ### Renaming A Branch
 
-If you are on your branch that you want to rename
-
-```
+```powershell
+# if you are on the branch you want to rename
 git branch -m new-name
-```
-
-If you are on another branch
-
-```
+# if you are on another branch
 git branch -m old-name new-name
-```
-
-Then delete the old local and push the new branch
-
-```
+# delete the old local and push the new branch
 git push origin :old-name new-name
-```
-
-Finally reset the upstream branch to point to the new branch
-
-```
+# point to new upstream branch
 git push origin -u new-name
 ```
 
@@ -476,174 +460,71 @@ git push origin -u new-name
 
 It may be that you are working on one git account and want to push under another account. Try this
 
-```
+```powershell
 git config --local credential.helper ""
 git push origin master
 ```
 
 It should prompt for fresh credentials and allow a fresh push.
 
-### Tagging
+### Tag
 
-```jsx
-# list tags
+```powershell
+# list
 git tag 
-# add tag
-git tag -a ... -m "message"
-# push tags to internet
+# add 
+git tag -a TagName -m "message"
+# push
 git push origin --tags
 ```
 
-# GitHub with SSH
-
-### git remote with SSH
+## SSH
 
 If you have set up SSH keys the commands with `https://` would be changed to
 
-```
-git remote set-url origin git@github.com:username/repo.git 
+```powershell
+git remote set-url origin git@github.com:philanderson888/repo.git 
 # or
-git remote add origin git@github.com:philandersonsparta/testproject
+git remote add origin git@github.com:philanderson888/testproject
 # then 
 git push -u origin master
 ```
 
 ### Locating your SSH keys
 
-SSH keys can be located at [https://github.com/settings/tokens](https://github.com/settings/tokens)
+SSH keys can be located at [https://github.com/settings/tokens](https://github.com/settings/tokens) or repo, settings, SSH keys 
 
-### Adding SSH keys to github with SSH Keygen
+### Keygen walkthrough
 
-```
-# check on keys already present
-# go to github.com, click on user icon, settings, 
-      SSH keys to see if any keys are present 
+## Github With SSH
 
-# generate a new key
+
+
+```powershell
+# open Git bash shell
+ls -al ~/.ssh
+# Generating public/private rsa key pair to file /Users/..../.ssh/id_rsa
 ssh-keygen -t rsa -b 4096 
 ssh-keygen -t rsa -b 4096 -C "philanderson888@hotmail.com"
-
 # MAC key is saved in 
 # /Users/apple/.ssh/id_rsa or change name of path and file
 # Windows key is saved in 
 # C:\Users\...\.ssh\ssh-key-01
-
-# start the ssh-agent service to run in the background 
-                (Windows needs GitBash)
+# start the ssh-agent service to run in the background (Windows needs GitBash)
 eval $(ssh-agent -s) 
-
-# add a key to my account
+# add key to ssh agent (use GitBash on Windows)
 ssh-add ~/.ssh/id_rsa
-
 # verify keys added
 ssh-add -l
-
-# Windows copy public key 
+# copy key to github (use GitBash on Windows)
 clip < ~/.ssh/id_rsa.pub
-# MAC copy public key
-#####     delete this line     #####    cat ~/.ssh/id_rsa.pub
-pbcopy < ~/.ssh/id_rsa.pub
-
-# or copy manually from ~/.ssh/ hidden folder 
-
-# Now login to github.com and paste public key into a new key
-
-# Finally to get this to work reset the origin to stop it 
-                pushing to an https but now to ssh
-git remote set-url origin git@github.com:username/repo.git 
-
-# now git push and it should work without asking for keys
-git push origin master
-
-# Notice that if we get a 
-   git push - permission denied notice when we know the keys are
-   already set up correctly then we can 
-   type in the eval and ssh-add commands again.
-```
-
-## Github With SSH
-
-Setting up github with SSH
-
-[https://help.github.com/articles/connecting-to-github-with-ssh/](https://help.github.com/articles/connecting-to-github-with-ssh/)
-
-Do we have existing keys?
-
-```
-open Git bash shell
-
-ls -al ~/.ssh
-```
-
-Generate new key
-
-```
-<https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/>
-
-***
-
-	ssh-keygen -t rsa -b 4096 -C "email..address..."
-		(github page : incorect - last item is not required)
-
-***
-
-	ssh-keygen -t rsa -b 4096 
-
-Run the ssh agent (use GitBash on Windows)
-```
-
-```
-eval $(ssh-agent -s)
-```
-
-This should return agent pid 1234 for example
-
-add key to ssh agent (use GitBash on Windows)
-
-```
-ssh-add ~/.ssh/id_rsa
-```
-
-add key to github account (use GitBash on Windows)
-
-```
-clip < ~/.ssh/id_rsa.pub
-```
-
-add key (MAC)
-
-```
+# add key (MAC)
 cat ~/.ssh/id_rsa.pub
 pbcopy < ~/.ssh/id_rsa.pub
-```
-
-(or just copy the public key in the gui)
-
-```
-Github -> Settings -> RSA Key -> New
-```
-
-### Keygen - walkthrough from scratch
-
-```
-ssh-keygen -t rsa -b 4096
-```
-
-```
-Generating public/private rsa key pair.
-
-Enter file in which to save the key (/Users/..../.ssh/id_rsa): 
-
-Enter passphrase (empty for no passphrase): 
-
-Enter same passphrase again: 
-
-Your identification has been saved in /Users/..../.ssh/id_rsa.
-
-Your public key has been saved in /Users/....../.ssh/id_rsa.pub.
-
-# evaluate key
-eval $(ssh-agent -s) 
-# add key to my account
-ssh-add ~/.ssh/id_rsa
+# or just copy then paste key into repo settings -> RSA Key -> New
+# Finally to get this to work reset the origin to ssh 
+git remote set-url origin git@github.com:username/repo.git 
+# git push 
+git push origin master
+# Notice that if we get a git push - permission denied notice when we know the keys are already set up correctly then we can type in the eval and ssh-add commands again.
 ```

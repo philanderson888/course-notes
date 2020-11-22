@@ -4,17 +4,11 @@
 
 - [Programming Languages](#programming-languages)
 	- [Contents](#contents)
-- [Go](#go)
-- [Python](#python)
-- [MySQL](#mysql)
-- [PHP](#php)
-- [Rust](#rust)
-- [Mobile App Development](#mobile-app-development)
-	- [Flutter by Google on Dart](#flutter-by-google-on-dart)
-	- [React Native](#react-native)
-	- [Ionic.io - build quick cross-platform app](#ionicio---build-quick-cross-platform-app)
-- [Designing An App](#designing-an-app)
-- [Imaging And Graphics](#imaging-and-graphics)
+	- [Go](#go)
+	- [Python](#python)
+	- [MySQL](#mysql)
+	- [PHP](#php)
+	- [Rust](#rust)
 
 
 ## Go

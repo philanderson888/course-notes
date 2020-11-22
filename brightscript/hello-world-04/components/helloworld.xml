@@ -15,13 +15,6 @@
       	horizAlign="right"
       	vertAlign="center"
      	/>
-      <Label id="myLabel3" 
-      	text="Mum And Christa"
-      	width="500" 
-      	height="200" 
-      	horizAlign="left"
-      	vertAlign="center"
-     	/>
     </children>
 <script type="text/brightscript" >
 <![CDATA[
@@ -33,9 +26,6 @@
     m.myLabel2 = m.top.findNode("myLabel2")
     m.myLabel2.font.size=50
     m.myLabel2.color="0xdddddd"
-    m.myLabel3 = m.top.findNode("myLabel3")
-    m.myLabel3.font.size=300
-    m.myLabel3.color="0xff0000ff"
   end function
 ]]>
 </script>

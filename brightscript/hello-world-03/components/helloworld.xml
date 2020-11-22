@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HelloWorld" extends="Scene"> 
+	<children>
+      <Label id="myLabel" 
+      	text="label 1"
+      	width="1280" 
+      	height="730" 
+      	horizAlign="center"
+      	vertAlign="center"
+     	/>
+    </children>
+<script type="text/brightscript" >
+  function init()
+    m.top.setFocus(true)
+    m.myLabel = m.top.findNode("myLabel")
+    m.myLabel.font.size=192
+    m.myLabel.color="0x72D7EE"
+  end function
+</script>
+</component>

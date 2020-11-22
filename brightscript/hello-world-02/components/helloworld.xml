@@ -2,7 +2,7 @@
 <component name="HelloWorld" extends="Scene"> 
 	<children>
       <Label id="myLabel" 
-      	text="Phil Loves Zoe small"
+      	text="label 1"
       	width="1280" 
       	height="720" 
       	horizAlign="center"
@@ -10,17 +10,13 @@
      	/>
 
       <Label id="myLabel2" 
-      	text="Phil Loves Zoe2"
+      	text="label 2"
       	width="1280" 
       	height="720" 
       	horizAlign="center"
       	vertAlign="center"
      	/>
-
-
     </children>
-
-
 
 <!-- BrightScript Portion -->
 <script type="text/brightscript" >

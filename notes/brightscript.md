@@ -27,7 +27,6 @@
 
 ## Intro
 
-https://www.notion.so/philanderson888/Other-80999f5ff70b4e0d9f20144f8287441a#871257631d854d028faac611be2f5297
 
 ## Reference
 

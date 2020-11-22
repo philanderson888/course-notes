@@ -2,17 +2,24 @@
 <component name="HelloWorld" extends="Scene"> 
 	<children>
       <Label id="myLabel" 
-      	text="label 1"
+      	text="Jesus TV"
       	width="1280" 
       	height="720" 
       	horizAlign="center"
       	vertAlign="center"
      	/>
       <Label id="myLabel2" 
-      	text="label 2"
+      	text="The Lord Reigns"
       	width="500" 
       	height="400" 
       	horizAlign="right"
+      	vertAlign="center"
+     	/>
+      <Label id="myLabel3" 
+      	text="Rock TV"
+      	width="500" 
+      	height="200" 
+      	horizAlign="left"
       	vertAlign="center"
      	/>
     </children>
@@ -26,6 +33,9 @@
     m.myLabel2 = m.top.findNode("myLabel2")
     m.myLabel2.font.size=50
     m.myLabel2.color="0xdddddd"
+    m.myLabel3 = m.top.findNode("myLabel3")
+    m.myLabel3.font.size=100
+    m.myLabel3.color="0xff0000ff"
   end function
 ]]>
 </script>

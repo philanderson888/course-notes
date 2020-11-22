@@ -5,6 +5,7 @@
 - [Brightscript](#brightscript)
   - [Contents](#contents)
   - [Intro](#intro)
+  - [Reference](#reference)
   - [Setup](#setup)
   - [Debug Console](#debug-console)
   - [XML SceneGraph](#xml-scenegraph)
@@ -27,6 +28,11 @@
 ## Intro
 
 https://www.notion.so/philanderson888/Other-80999f5ff70b4e0d9f20144f8287441a#871257631d854d028faac611be2f5297
+
+## Reference
+
+https://developer.roku.com/en-gb/videos/courses/rsg/overview.md
+
 
 ## Setup
 

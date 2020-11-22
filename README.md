@@ -29,7 +29,7 @@ This is a repository of teaching notes and labs on a variety of topics
     - [CompTIA Security+](#comptia-security)
     - [Windows 10](#windows-10)
     - [Server 2008/12/16/19](#server-2008121619)
-  - [Mobile, Angular, Programming Languages](#mobile-angular-programming-languages)
+  - [Programming In General](#programming-in-general)
     - [General Programming](#general-programming)
   - [Fun projects](#fun-projects)
 
@@ -143,11 +143,11 @@ This is a repository of teaching notes and labs on a variety of topics
 
 [MTA Server Notes Flow 1](infrastructure/MTA%20Server%20Notes%20Flow%201%2042efe00fed9f4ef1ad34f2ed82740903.md)
 
-## Mobile, Angular, Programming Languages
+## Programming In General
 
-[Programming Languages](programming-in-general/Programming%20Languages%20bfdbb9e67ca2496caf7c83e79cd859e3.md)
+[Programming Languages](programming/programming.md)
 
-[Angular ](web/Angular%20a18d3231825d4b2686118380f1056ea4.md)
+[Glossary]
 
 ### [General Programming](https://github.com/philanderson888/programming)
 

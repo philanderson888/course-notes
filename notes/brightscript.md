@@ -7,6 +7,7 @@
   - [Intro](#intro)
   - [Reference](#reference)
   - [Setup](#setup)
+  - [Compress](#compress)
   - [Debug Console](#debug-console)
   - [XML SceneGraph](#xml-scenegraph)
   - [Brightscript commands](#brightscript-commands)
@@ -44,6 +45,12 @@ Create Roku Acccount and enrol in developer program
 On TV enable developer mode and go to given URL and log in with RokuDev and password you created
 
 Can now sideload zip files to run
+
+## Compress
+
+```powershell
+Compress-Archive -Path F:\GDrive\github\course-notes\brightscript\hello-world-02\ -DestinationPath F:\GDrive\github\course-notes\brightscript\hello-world-02\hello-world-02.zip
+```
 
 ## Debug Console
 

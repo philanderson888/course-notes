@@ -2,6 +2,14 @@
 <component name="HelloWorld" extends="Scene"> 
 	<children>
       <Label id="myLabel" 
+      	text="Phil Loves Zoe small"
+      	width="1280" 
+      	height="720" 
+      	horizAlign="center"
+      	vertAlign="center"
+     	/>
+
+      <Label id="myLabel2" 
       	text="Phil Loves Zoe2"
       	width="1280" 
       	height="720" 
@@ -9,13 +17,7 @@
       	vertAlign="center"
      	/>
 
-      <Label id="myLabel" 
-      	text="Phil Loves Zoe small"
-      	width="1280" 
-      	height="720" 
-      	horizAlign="center"
-      	vertAlign="center"
-     	/>
+
     </children>
 
 

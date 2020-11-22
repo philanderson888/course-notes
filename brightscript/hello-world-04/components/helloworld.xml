@@ -9,20 +9,27 @@
       	vertAlign="center"
      	/>
       <Label id="myLabel2" 
-      	text="The Lord Reigns"
+      	text="John Watches TV"
       	width="500" 
       	height="400" 
       	horizAlign="right"
       	vertAlign="center"
      	/>
       <Label id="myLabel3" 
-      	text="Rock TV"
+      	text="......John Watches TV"
       	width="500" 
       	height="200" 
       	horizAlign="left"
       	vertAlign="center"
      	/>
-    </children>
+	    <Label id="myLabel4" 
+      	text=".....Rock TV 2"
+      	width="500" 
+      	height="200" 
+      	horizAlign="left"
+      	vertAlign="bottom"
+     	/>    
+	</children>
 <script type="text/brightscript" >
 <![CDATA[
   function init()
@@ -34,8 +41,11 @@
     m.myLabel2.font.size=50
     m.myLabel2.color="0xdddddd"
     m.myLabel3 = m.top.findNode("myLabel3")
-    m.myLabel3.font.size=100
+    m.myLabel3.font.size=50
     m.myLabel3.color="0xff0000ff"
+    m.myLabel3 = m.top.findNode("myLabel4")
+    m.myLabel3.font.size=80
+    m.myLabel3.color="0x00ff00"
   end function
 ]]>
 </script>

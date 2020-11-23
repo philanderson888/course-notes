@@ -9,7 +9,7 @@
       	vertAlign="center"
      	/>
       <Label id="myLabel2" 
-      	text="John Watches TV"
+      	text="John Watches TV lots"
       	width="500" 
       	height="400" 
       	horizAlign="right"

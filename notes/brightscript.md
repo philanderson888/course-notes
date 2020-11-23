@@ -72,7 +72,8 @@ telnet 1.2.3.4 8085
 
 Main scene
   Grid Screen - select content
-    Row
+    Row List
+    Label
   Details Screen - details about the content with 'play' button
     Layout Group
     Group

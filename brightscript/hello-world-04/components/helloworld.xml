@@ -2,7 +2,7 @@
 <component name="HelloWorld" extends="Scene"> 
 	<children>
       <Label id="myLabel" 
-      	text="Jesus TV"
+      	text="Jesus TV 23"
       	width="1280" 
       	height="720" 
       	horizAlign="center"

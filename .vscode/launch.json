@@ -10,8 +10,8 @@
             "name": "BrightScript Debug: Launch",
             "stopOnEntry": true,
             "host": "192.168.87.249",
-            "password": "${promptForPassword}",
-            "rootDir": "${workspaceFolder}\\programming\\brightscript\\hello-world\\",
+            "password": "rokudev",
+            "rootDir": "${workspaceFolder}/brightscript/hello-world-04",
             "enableDebuggerAutoRecovery": false,
             "stopDebuggerOnAppExit": false
         }

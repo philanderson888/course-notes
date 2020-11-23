@@ -26,7 +26,11 @@ Control-E and Control-Shift-E loop through files also bring up search box
     - Shift - Shift - P - wrap HTML
 </div>
 
-- 
+### VSCode Macros
+
+Install macro by jevakallio
+
+
 
 ## Typing
 

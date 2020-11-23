@@ -44,7 +44,7 @@ This is a repository of teaching notes and labs on a variety of topics
 
 ## IDE
 
-[ide](ide.md)
+[ide](notes/ide.md)
 
 ## C#
 

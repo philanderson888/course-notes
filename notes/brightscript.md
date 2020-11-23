@@ -7,7 +7,7 @@
   - [Intro](#intro)
   - [Reference](#reference)
   - [Setup](#setup)
-  - [Compress](#compress)
+  - [VSCode Extension](#vscode-extension)
   - [Debug Console](#debug-console)
   - [XML SceneGraph](#xml-scenegraph)
   - [Brightscript commands](#brightscript-commands)
@@ -46,11 +46,19 @@ On TV enable developer mode and go to given URL and log in with RokuDev and pass
 
 Can now sideload zip files to run
 
-## Compress
+## VSCode Extension
 
-```powershell
-Compress-Archive -Path F:\GDrive\github\course-notes\brightscript\hello-world-02\ -DestinationPath F:\GDrive\github\course-notes\brightscript\hello-world-02\hello-world-02.zip
-```
+Using `VSCode` we can run our app
+
+1. Control-Shift-F5 restarts any running app
+2. Control-F5 runs the app
+3. F5 continues past the first line and shows the app on the screen
+
+or
+
+1. Control-Shift-F5
+2. F5 
+3. F5
 
 ## Debug Console
 

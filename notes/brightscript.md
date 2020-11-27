@@ -35,12 +35,6 @@ https://developer.roku.com/en-gb/videos/courses/rsg/overview.md
 
 Developer mode Home 3 Up 2 RLRLR
 
-Create Roku Acccount and enrol in developer program
-
-On TV enable developer mode and go to given URL and log in with RokuDev and password you created
-
-Can now sideload zip files to run
-
 ## VSCode Extension
 
 Using `VSCode` we can run our app

@@ -36,13 +36,13 @@
 
 ## Reference
 
-- https://developer.roku.com/en-gb/videos/courses/rsg/overview.md
+- Course https://developer.roku.com/en-gb/videos/courses/rsg/overview.md
 
 - Demos https://go.roku.com/dev-site-demos
 
-* Roku Developers channel — https://go.roku.com/roku-dev-channel
+- Developers channel https://go.roku.com/roku-dev-channel
 
-* Roku Developers YouTube channel — https://go.roku.com/roku-dev-youtube
+- YouTube https://go.roku.com/roku-dev-youtube
 
 
 ## Setup

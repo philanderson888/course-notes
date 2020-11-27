@@ -25,6 +25,7 @@
   - [Debug Console](#debug-console-1)
   - [Scope](#scope)
   - [Syntax](#syntax)
+  - [Types](#types)
   - [Array](#array)
 
 
@@ -282,6 +283,43 @@ sub doThis()
 
 : can separate multiple commands on one line
 
+Optional Type Suffix
+
+```vb
+a_string$
+// int
+10%
+// float
+2.34!
+// double
+2.45678900#
+```
+
+
+## Types
+
+- Boolean
+- Int 32
+- LongInteger 64
+- Float 32
+- Double 64
+- String 
+- Object
+  - roArray
+  - roAssociativeArray
+  - roList
+  - roVideoPlayer
+- Function has return type
+- Sub has void return
+- Interface
+- Interface with 'dot operator' must be static
+- Invalid = 'invalid'
+- dynamically assigned
+  - 1 = integer
+  - 2.0 = float
+  - "hi"   = string
+  - if reallocated then type can change unless has type character suffix
+- 
 
 
 ## Array

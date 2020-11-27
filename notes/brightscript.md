@@ -26,7 +26,10 @@
   - [Scope](#scope)
   - [Syntax](#syntax)
   - [Types](#types)
+  - [Literals](#literals)
   - [Array](#array)
+  - [object](#object)
+  - [operators](#operators)
 
 
 ## Reference
@@ -321,8 +324,58 @@ a_string$
   - if reallocated then type can change unless has type character suffix
 - 
 
+## Literals
+
+```vb
+'  "" is an escaped quotation mark
+"" 
+```
+Hex
+
+```vb
+' is Hex for 255
+&HFF
+```
+
+Float
+```vb
+1.23E10
+```
+
+Double
+
+```vb
+1.23D-12
+```
+
+Long 64
+
+```vb
+123&
+```
+
+LINE_NUM  
+
+
+
+
 
 ## Array
+
+```vb
+myArray = []
+myArray = [1,2,3]
+myArray = [
+  1
+  2
+  3
+]
+myArray = [
+  1,
+  2,
+  3
+]
+```
 
 ```vb
 function Main() as Void 
@@ -336,3 +389,20 @@ function Main() as Void
     end for 
 end function
 ```
+
+## object
+
+```vb
+myObj = {}
+myObj = {
+  key:"value",
+  key2:"value2",
+  key3:function01
+}
+```
+
+## operators
+
+```vb
+' MOD
+MOD

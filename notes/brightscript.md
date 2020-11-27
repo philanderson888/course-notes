@@ -4,7 +4,6 @@
 
 - [Brightscript](#brightscript)
   - [Contents](#contents)
-  - [Intro](#intro)
   - [Reference](#reference)
   - [Setup](#setup)
   - [VSCode Extension](#vscode-extension)
@@ -26,8 +25,6 @@
   - [Debug Console](#debug-console-1)
   - [Scope](#scope)
 
-## Intro
-
 
 ## Reference
 
@@ -36,9 +33,7 @@ https://developer.roku.com/en-gb/videos/courses/rsg/overview.md
 
 ## Setup
 
-Buy a ROKU device
-
-Put in developer mode with Home x3 Up x2 R L R L R
+Developer mode Home 3 Up 2 RLRLR
 
 Create Roku Acccount and enrol in developer program
 

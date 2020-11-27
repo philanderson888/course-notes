@@ -7,7 +7,7 @@ sub Main()
     ?type(1.0) '     Float  
     ?type("hello")  '     String  
     ?type(CreateObject("roList"))  '     roList  
-    ?type(1%)    '  Integer  
+    ?type(3%)    '  Integer  
     b!=1  
     ?type(b!)   '    Float  
     c$="hello."  

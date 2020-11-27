@@ -30,6 +30,8 @@
   - [Array](#array)
   - [object](#object)
   - [operators](#operators)
+  - [function](#function)
+  - [components](#components)
 
 
 ## Reference
@@ -406,3 +408,24 @@ myObj = {
 ```vb
 ' MOD
 MOD
+```
+
+## function
+
+```vb
+function five() as Integer
+  return 5
+end function
+print five()
+```
+
+## components
+
+- list
+- vector array
+- associative array
+- object
+
+methods
+
+-foreach

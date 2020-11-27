@@ -10,8 +10,8 @@ sub Main()
     ?type(1%)    '  Integer  
     b!=1  
     ?type(b!)   '    Float  
-    BrightScript> c$="hello"  
-    BrightScript> ?type(c$)  '  String  
+    BrightScript> c$="hello."  
+    BrightScript> ?type(c$)  'String
     BrightScript> d="hello again"  
     BrightScript> ?type(d)  '    String  
     BrightScript> d=d+d  

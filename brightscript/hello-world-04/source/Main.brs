@@ -10,17 +10,17 @@ sub Main()
     ?type(1%)    '  Integer  
     b!=1  
     ?type(b!)   '    Float  
-    BrightScript> c$="hello."  
-    BrightScript> ?type(c$)  'String
-    BrightScript> d="hello again"  
-    BrightScript> ?type(d)  '    String  
-    BrightScript> d=d+d  
-    BrightScript> ?type(d)  '    String  
-    BrightScript> ?type(d, 3)  '    roString  
-    BrightScript> d=1  
-    BrightScript> ?type(d)  '    Integer  
-    BrightScript> d=1.0  
-    BrightScript> ?type(d)  '    Float
+    c$="hello."  
+    ?type(c$)  'String
+    d="hello again"  
+    ?type(d)  '    String  
+    d=d+d  
+    ?type(d)  '    String  
+    ?type(d, 3)  '    roString  
+    d=1  
+    ?type(d)  '    Integer  
+    d=1.0  
+    ?type(d)  '    Float
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("HelloWorld")
     screen.show()

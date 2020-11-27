@@ -24,6 +24,8 @@
   - [Hosting Feed](#hosting-feed)
   - [Debug Console](#debug-console-1)
   - [Scope](#scope)
+  - [Syntax](#syntax)
+  - [Array](#array)
 
 
 ## Reference
@@ -274,4 +276,25 @@ m.x is component scope valid in the whole component
 sub doThis()
   x=1
   m.x=100
+```
+
+## Syntax
+
+: can separate multiple commands on one line
+
+
+
+## Array
+
+```vb
+function Main() as Void 
+    dim cavemen[10] 
+    cavemen.push("fred")
+    cavemen.push("barney")
+    cavemen.push("wilma")
+    cavemen.push("betty") 
+    for each caveman in cavemen
+        print caveman
+    end for 
+end function
 ```

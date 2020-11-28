@@ -37,7 +37,7 @@
 ## Reference
 
 - Docs https://developer.roku.com/en-gb/overview
-
+- Brightscript https://developer.roku.com/en-gb/docs/references/brightscript/language/brightscript-language-reference.md
 
 - Course https://developer.roku.com/en-gb/videos/courses/rsg/overview.md
 

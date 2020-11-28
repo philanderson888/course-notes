@@ -44,6 +44,19 @@ sub Main()
     'If "01234567".instr("56")<>5 Then Stop
     'If "01234567".instr(6,"56")<>-1 Then Stop
     'If "01234567".instr(0,"0")<>0 Then Stop
+    Print "quotes are escaped using quotes ie " + """" + "some value" + """"
+    Print "exponent 2^3 is " + (2^3).tostr()
+    object01 = CreateObject("roAssociativeArray")
+    object01.field="some value"
+    Print "object declared with roAssociativeArray is """ + object01.field + """"
+    object02 = { field: "value" }
+    Print "object declared with {field:'value'} is also """ + object02.field + """"
+    object02["field"] = "new value"
+    Print "updated object field using [""field""]=""" + object02.field + """"
+    object01.AddReplace("field","still even newer value")
+    Print "also can use AddReplace(field,value) method so now field = """ + object02.field + """"
+    array01 = array[1,2,3]
+    
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("HelloWorld")
     screen.show()

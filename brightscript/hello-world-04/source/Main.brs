@@ -71,6 +71,12 @@ sub Main()
     ' read xml file
     rsp=CreateObject("roXMLElement")
     rsp.Parse(ReadAsciiFile("tmp:/example.xml"))
+    ' xml reference
+    ? "xml reference is " rsp.photos
+    ' print photos
+    ? "all photos " rsp.photos.photo
+    ' print first photo
+    ? "first photo" rsp.photos.photo[0] 'roXMLElement ref first photo (id="3131875696")
     ' display tv
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("HelloWorld")

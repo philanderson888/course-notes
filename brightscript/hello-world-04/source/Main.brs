@@ -55,8 +55,8 @@ sub Main()
     Print "updated object field using [""field""]=""" + object02.field + """"
     object01.AddReplace("field","still even newer value")
     Print "also can use AddReplace(field,value) method so now field = """ + object02.field + """"
-    array01 = array[1,2,3]
-    
+    dim array01[1,2,3]
+    Print format.JSON(array01)
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("HelloWorld")
     screen.show()

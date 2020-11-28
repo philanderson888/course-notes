@@ -52,6 +52,7 @@ sub Main()
     end for
     array01.push(4)
     for each item in array01
+        sleep(1000)
         Print item
     end for
     object01 = CreateObject("roAssociativeArray")
@@ -67,6 +68,10 @@ sub Main()
     for each key in object03 
         print " " key " = " object03[key]
     end for
+    ' read xml file
+    rsp=CreateObject("roXMLElement")
+    rsp.Parse(ReadAsciiFile("tmp:/example.xml"))
+    ' display tv
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("HelloWorld")
     screen.show()

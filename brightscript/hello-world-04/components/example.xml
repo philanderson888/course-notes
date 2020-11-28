@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+  <photos page="1" pages="5" perpage="100" total="500">
+    <photo id="3131875696" owner="21963906@N06" secret="f248c84625" server="3125" farm="4" title="VNY 16R" ispublic="1" isfriend="0" isfamily="0" />
+    <photo id="3131137552" owner="8979045@N07" secret="b22cfde7c4" server="3078" farm="4" title="hoot" ispublic="1" isfriend="0" isfamily="0" />
+    <photo id="3131040291" owner="27651538@N06" secret="ae25ff3942" server="3286" farm="4" title="172 • 365 :: Someone once told me..." ispublic="1" isfriend="0"
+  </photos>
+</rsp>

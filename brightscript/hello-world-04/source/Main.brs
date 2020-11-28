@@ -68,11 +68,14 @@ sub Main()
     for each key in object03 
         print " " key " = " object03[key]
     end for
-
-    ' read xml file
-    rsp=CreateObject("roXMLElement")
-    rsp.Parse(ReadAsciiFile("pkg:/example.xml"))
-    Print "rsp object created " rsp
+    ' objects
+    Print "Creating a custom object"
+    obj = ConstructMyObject()
+    obj.Set("hi!")
+    print obj.Get()
+    print "--------"
+    print obj
+    ' set tv
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("HelloWorld")
     screen.show()
@@ -84,3 +87,12 @@ sub Main()
         end if
     end while
 end sub
+
+function ConstructMyObject()
+    obj = {
+        Set       : function(x) : m.Value = x : end function
+        Get       : function() : return m.Value : end function
+        Value     : 0
+    }
+    return obj
+end function

@@ -75,6 +75,15 @@ sub Main()
     print obj.Get()
     print "--------"
     print obj
+    ' xml file
+    Print "reading xml file"
+    rsp=CreateObject("roXMLElement")
+    rsp.Parse(ReadAsciiFile("pkg:/example.xml"))
+    Print "photos root element" rsp.photos
+    Print "photo element " rsp.photos.photo
+    Print "one photo element" rsp.photos.photo[0]
+    Print "Printing an xml attribute value eg rsp.photos@perpage = " rsp.photos.@perpage '100
+    Print "photo 0 id is " rsp.photos.photo[0]@id
     ' set tv
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("HelloWorld")

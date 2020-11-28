@@ -4,7 +4,7 @@ sub Main()
     m.port = CreateObject("roMessagePort")
     print (m.port)
     ?type(2)  '   Integer  
-    ?type(1.0) '     Float  
+    ?type(2.0) '     Float  
     ?type("hello")  '     String  
     ?type(CreateObject("roList"))  '     roList  
     ?type(3%)    '  Integer  

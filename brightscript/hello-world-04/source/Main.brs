@@ -46,6 +46,14 @@ sub Main()
     'If "01234567".instr(0,"0")<>0 Then Stop
     Print "quotes are escaped using quotes ie " + """" + "some value" + """"
     Print "exponent 2^3 is " + (2^3).tostr()
+    array01 = [1,2,3]
+    for each item in array01
+        Print item
+    end for
+    array01.push(4)
+    for each item in array01
+        Print item
+    end for
     object01 = CreateObject("roAssociativeArray")
     object01.field="some value"
     Print "object declared with roAssociativeArray is """ + object01.field + """"
@@ -55,8 +63,10 @@ sub Main()
     Print "updated object field using [""field""]=""" + object02.field + """"
     object01.AddReplace("field","still even newer value")
     Print "also can use AddReplace(field,value) method so now field = """ + object02.field + """"
-    dim array01[1,2,3]
-    Print format.JSON(array01)
+    object03 = { field01:"value01",field02:"value02"}
+    for each key in object03 
+        print " " key " = " object03[key]
+    end for
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("HelloWorld")
     screen.show()

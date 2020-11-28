@@ -84,6 +84,11 @@ sub Main()
     Print "one photo element" rsp.photos.photo[0]
     Print "Printing an xml attribute value eg rsp.photos@perpage = " rsp.photos.@perpage '100
     Print "photo 0 id is " rsp.photos.photo[0]@id
+    rsp2=CreateObject("roXMLElement")
+    rsp2.Parse(ReadAsciiFile("pkg:/booklist.xml"))
+    Print "get xml booklist " rsp2.booklist
+    Print "get xml booklist book" rsp2.booklist.book
+    Print "get xml booklist book" rsp2.booklist.book.lang
     ' set tv
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("HelloWorld")

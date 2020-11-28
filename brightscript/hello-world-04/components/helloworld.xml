@@ -2,7 +2,7 @@
 <component name="HelloWorld" extends="Scene"> 
 	<children>
       <Label id="myLabel" 
-      	text="Big TV"
+      	text="Hello Alphonso"
       	width="1280" 
       	height="720" 
       	horizAlign="center"
@@ -16,14 +16,14 @@
       	vertAlign="center"
      	/>
       <Label id="myLabel3" 
-      	text="...James TV"
+      	text="...Jesus Loves You"
       	width="500" 
       	height="200" 
       	horizAlign="left"
       	vertAlign="center"
      	/>
 	    <Label id="myLabel4" 
-      	text="...Hannah TV"
+      	text="...Jesus Loves You !!!!"
       	width="500" 
       	height="200" 
       	horizAlign="left"

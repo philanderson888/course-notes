@@ -68,6 +68,11 @@ sub Main()
     for each key in object03 
         print " " key " = " object03[key]
     end for
+
+    ' read xml file
+    rsp=CreateObject("roXMLElement")
+    rsp.Parse(ReadAsciiFile("pkg:/example.xml"))
+    Print "rsp object created " rsp
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("HelloWorld")
     screen.show()

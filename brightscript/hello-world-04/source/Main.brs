@@ -70,7 +70,7 @@ sub Main()
     end for
     ' read xml file
     rsp=CreateObject("roXMLElement")
-    rsp.Parse(ReadAsciiFile("tmp:/example.xml"))
+    rsp.Parse(ReadAsciiFile("pkg:/example.xml"))
     ' xml reference
     ? "xml reference is " rsp.photos
     ' print photos

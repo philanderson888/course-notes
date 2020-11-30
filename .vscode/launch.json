@@ -6,12 +6,12 @@
             "type": "brightscript",
             "request": "launch",
             "name": "BrightScript Debug: Launch",
-            "stopOnEntry": true,
+            "stopOnEntry": false,
             "host": "192.168.87.249",
             "password": "rokudev",
-            "rootDir": "${workspaceFolder}/brightscript/hello-world-04",
+            "rootDir": "${workspaceFolder}/brightscript/hello-world-original",
             "enableDebuggerAutoRecovery": false,
-            "stopDebuggerOnAppExit": false
+            "stopDebuggerOnAppExit": false,
         }
     ]   
 }

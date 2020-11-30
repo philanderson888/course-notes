@@ -9,8 +9,6 @@
   - [VSCode](#vscode)
   - [Debug Console](#debug-console)
   - [Hello World](#hello-world)
-  - [Content Nodes](#content-nodes)
-    - [Descriptive nodes](#descriptive-nodes)
     - [Playback nodes](#playback-nodes)
     - [Child Content Node](#child-content-node)
   - [Display videos](#display-videos)
@@ -193,19 +191,6 @@ end sub
 
 now creates components\UILogic folder and init
 
-
-
-## Content Nodes
-
-- Non renderable
-- `data` node
-- Maps to feed metadata
-
-### Descriptive nodes
-- title
-- description
-- thumbnail
-- releaseDate 
 
 ### Playback nodes
 - streamUrl

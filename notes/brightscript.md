@@ -6,16 +6,9 @@
   - [Contents](#contents)
   - [Reference](#reference)
   - [Setup](#setup)
-  - [VSCode Extension](#vscode-extension)
+  - [VSCode](#vscode)
   - [Debug Console](#debug-console)
-  - [XML SceneGraph](#xml-scenegraph)
-  - [Brightscript commands](#brightscript-commands)
   - [Hello World](#hello-world)
-  - [Hello World Sample](#hello-world-sample)
-  - [Channel](#channel)
-  - [Content Feed](#content-feed)
-    - [Description](#description)
-    - [Playback](#playback)
   - [Content Nodes](#content-nodes)
     - [Descriptive nodes](#descriptive-nodes)
     - [Playback nodes](#playback-nodes)
@@ -48,12 +41,16 @@
 
 - YouTube https://go.roku.com/roku-dev-youtube
 
+- Developer Forums
+  
+- Knowledge Center
+
 
 ## Setup
 
 Developer mode Home 3 Up 2 RLRLR
 
-## VSCode Extension
+## VSCode
 
 Using `VSCode` we can run our app
 
@@ -67,39 +64,34 @@ or
 2. F5 
 3. F5
 
-## Debug Console
+launch.json
 
-Also when running an app we should always use the debug console
+```json
+{
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations":[ 
+        {
+            "type": "brightscript",
+            "request": "launch",
+            "name": "BrightScript Debug: Launch",
+            "stopOnEntry": true,
+            "host": "192.168.87.249",
+            "password": "rokudev",
+            "rootDir": "${workspaceFolder}/brightscript/hello-world-04",
+            "enableDebuggerAutoRecovery": false,
+            "stopDebuggerOnAppExit": false
+        }
+    ]   
+}
+```
+
+## Debug Console
 
 ```powershell
 telnet 1.2.3.4 8085
 ```
 
-## XML SceneGraph
-
-Main scene
-  Grid Screen - select content
-    Row List
-    Label
-  Details Screen - details about the content with 'play' button
-    Layout Group
-    Group
-  Episodes Screen
-    Episodes Item Screen
-
-Components
-  Grid
-  Keyboard
-  Video content
-  Audio Content
-
-## Brightscript commands
-
-```vb
-Init()
-OnVisibleChanged()
-OnItemFocused()
-```
 
 ## Hello World
 
@@ -201,44 +193,7 @@ end sub
 
 now creates components\UILogic folder and init
 
-## Hello World Sample
 
-Download the Hello World sample from github
-
-components
-
-images
-
-source
-
-Makefile
-
-manifest
-
-## Channel
-
-A Channel contains
-
-- Grid screen which is your home screen
-- Details screen which provides details on the series 
-- Episode picker
-- Adverts
-- Subscriptions
-- Deep linking into content
- 
-## Content Feed
-
-### Description
-- category
-- title
-- description
-- thumbnail
-- releasedate
-
-### Playback
-- url
-- videoType
-- duration
 
 ## Content Nodes
 

@@ -23,6 +23,10 @@
   - [operators](#operators)
   - [function](#function)
   - [components](#components)
+  - [display components](#display-components)
+  - [content feed](#content-feed)
+  - [channel](#channel)
+  - [content node](#content-node)
 
 
 ## Reference
@@ -379,3 +383,37 @@ print five()
 methods
 
 -foreach
+
+## display components
+
+- grid
+- list 
+- panel
+
+
+## content feed
+
+- typically contains hundreds or even thousands of content items
+- id
+- name
+- description
+- thumbnail
+- url
+- tags
+- genre
+
+## channel
+
+- home page
+- details page 
+
+## content node
+
+content node metadata  maps to content feed fields
+
+content node maps metadata in content feed to each of the SceneGraph components in your channel 
+
+- non-renderable
+- data node
+- maps to data in your content feed
+

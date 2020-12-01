@@ -4,11 +4,14 @@
 
 - [components](#components)
   - [Contents](#contents)
+  - [manifest](#manifest)
   - [components](#components-1)
   - [display components](#display-components)
+  - [interface](#interface)
   - [content feed](#content-feed)
   - [channel](#channel)
   - [content node](#content-node)
+  - [events](#events)
   - [OnKeyEvent()](#onkeyevent)
   - [m fields and methods](#m-fields-and-methods)
   - [fields](#fields)
@@ -22,16 +25,57 @@
   - [Scenegraph](#scenegraph)
   - [methods](#methods-1)
 
+
+## manifest
+
+Channel root always contains a manifest
+
+- name
+- version
+- channel icon
+- splash screen image
+
+```vb
+# Channel
+title=Title
+subtitle=SubTitle
+major_version=1
+minor_version=1
+build_version=1
+# Assets
+image1=pkg:/images/showthis.png
+# splash
+splash=pkg:/images/splash.png
+# resolution
+ui_resolutions=fhd
+# screensaver
+...
+# extra
+confirm_partner_button=1
+```
+
+
+https://developer.roku.com/en-gb/docs/developer-program/getting-started/architecture/channel-manifest.md
+
+
 ## components
+
+one <component> element per file
+
+inside this may have
+
+- interface
+- <script></script>
+- <children></children>
+
+eg
 
 - list
 - vector array
 - associative array
 - object
 
-methods
-
--foreach
+https://developer.roku.com/en-gb/docs/references/scenegraph/xml-elements/component.md
 
 ## display components
 
@@ -45,6 +89,16 @@ methods
         - description- list 
 - panel
 
+## interface
+
+- encapsulates internal fields
+- exposes public <field> elements
+- allows instances to be created
+- exposes functional fields <function> elements https://developer.roku.com/en-gb/docs/developer-program/core-concepts/handling-application-events.md#HandlingApplicationEvents-FunctionalFields
+
+  
+
+https://developer.roku.com/en-gb/docs/references/scenegraph/xml-elements/interface.md
 
 ## content feed
 
@@ -106,6 +160,24 @@ content node maps metadata in content feed to each of the SceneGraph components 
 - maps to data in your content feed
 
 
+## events
+
+https://developer.roku.com/en-gb/docs/developer-program/core-concepts/event-loops.md
+
+event = message
+
+when button is clicked an `event` or `message` is created
+
+event loop
+
+```vb
+while true
+    ' wait for an event
+    ' process the event
+end while
+```
+
+event message type is `roMessagePort`
 
 
 
@@ -125,6 +197,7 @@ function OnKeyEvent(key as String, press as Boolean) as Boolean
   return result
 ```
 
+https://developer.roku.com/en-gb/docs/references/scenegraph/component-functions/onkeyevent.md
 
 ## m fields and methods
 

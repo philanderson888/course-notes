@@ -10,7 +10,6 @@ This is a repository of teaching notes and labs on a variety of topics
   - [Shells](#shells)
   - [IDE](#ide)
   - [C](#c)
-  - [Brighscript](#brighscript)
   - [Web](#web)
     - [Random Web Terms](#random-web-terms)
     - [HTML CSS Javascript Bootstrap don't use](#html-css-javascript-bootstrap-dont-use)
@@ -53,10 +52,6 @@ This is a repository of teaching notes and labs on a variety of topics
 [C# Course Notes June 2019](c-sharp\c-sharp-course-notes-june-2019.md)
 
 
-
-## Brighscript
-
-[Brighscript](notes/brightscript.md)
 
 ## Web
 

@@ -1,16 +1,14 @@
-# Building A Channel
+# components
 
 ## Contents
 
-- [Building A Channel](#building-a-channel)
+- [components](#components)
   - [Contents](#contents)
-  - [components](#components)
+  - [components](#components-1)
   - [display components](#display-components)
   - [content feed](#content-feed)
   - [channel](#channel)
   - [content node](#content-node)
-  - [Hosting Feed](#hosting-feed)
-  - [video format](#video-format)
   - [OnKeyEvent()](#onkeyevent)
   - [m fields and methods](#m-fields-and-methods)
   - [fields](#fields)
@@ -20,7 +18,7 @@
   - [show video screen](#show-video-screen)
   - [Channel](#channel-1)
   - [Display videos](#display-videos)
-  - [Components](#components-1)
+  - [Components](#components-2)
   - [Scenegraph](#scenegraph)
   - [methods](#methods-1)
 
@@ -109,39 +107,7 @@ content node maps metadata in content feed to each of the SceneGraph components 
 
 
 
-## Hosting Feed
 
-- website
-- CDN
-- OVP Online Video Platform
-- 
-- ## video hosting
-
-- website
-- cdn
-- ovp online video platform
-
-## video format
-
-https://developer.roku.com/en-gb/docs/specs/specs-overview.md
-
-- dash (preferred)
-- hls (preferred)
-- smooth
-- m4v
-- mov
-- mp4
-
-provide multiple videos of varying quality 500 to 4000kbps and document them in the manifest
-
-video chunks 
-- dash 4-6 seconds
-- smooth 2 seconds
-
-captions
-- sideload from url
-- embed url in manifest
-- fragment as chunks with url in manifest
 
 ## OnKeyEvent() 
 

@@ -27,6 +27,10 @@
   - [content feed](#content-feed)
   - [channel](#channel)
   - [content node](#content-node)
+  - [video hosting](#video-hosting)
+  - [video format](#video-format)
+  - [OnKeyEvent()](#onkeyevent)
+  - [Global fields](#global-fields)
 
 
 ## Reference
@@ -455,4 +459,55 @@ content node maps metadata in content feed to each of the SceneGraph components 
 - non-renderable
 - data node
 - maps to data in your content feed
+
+## video hosting
+
+- website
+- cdn
+- ovp online video platform
+
+## video format
+
+https://developer.roku.com/en-gb/docs/specs/specs-overview.md
+
+- dash (preferred)
+- hls (preferred)
+- smooth
+- m4v
+- mov
+- mp4
+
+provide multiple videos of varying quality 500 to 4000kbps and document them in the manifest
+
+video chunks 
+- dash 4-6 seconds
+- smooth 2 seconds
+
+captions
+- sideload from url
+- embed url in manifest
+- fragment as chunks with url in manifest
+
+## OnKeyEvent() 
+
+Triggered when a key is pressed from the remote control
+
+```vb
+function OnKeyEvent(key as String, press as Boolean) as Boolean
+  if press
+    if key = "back"
+
+```
+
+
+## Global fields
+
+```vb
+
+```
+   
+
+
+
+
 

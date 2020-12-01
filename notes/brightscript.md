@@ -30,7 +30,12 @@
   - [video hosting](#video-hosting)
   - [video format](#video-format)
   - [OnKeyEvent()](#onkeyevent)
-  - [Global fields](#global-fields)
+  - [m fields and methods](#m-fields-and-methods)
+  - [fields](#fields)
+  - [methods](#methods)
+  - [iterate over videos](#iterate-over-videos)
+  - [closing a screen](#closing-a-screen)
+  - [show video screen](#show-video-screen)
 
 
 ## Reference
@@ -494,19 +499,64 @@ Triggered when a key is pressed from the remote control
 
 ```vb
 function OnKeyEvent(key as String, press as Boolean) as Boolean
+  result = false
   if press
     if key = "back"
-
+      CloseScreen()
+      result = true
+    end if
+  end if
+  return result
 ```
 
 
-## Global fields
+## m fields and methods
 
 ```vb
-
+m.top.backroundColor = "0xFFEEDD"
+m.top.backgroundUri = "pkg:/images/picture.png"
+m.loadingIndicator
+' number of screens open
+m.screenStack.Count()
 ```
-   
 
+## fields
+
+```vb
+' index of selected video in a row of videos
+itemIndex
+```
+
+## methods
+
+```vb
+' number of child nodes
+content.GetChildCount()
+' select multiple videos
+content.GetChildren(initialIndex,numberOfItems)
+```
+
+## iterate over videos
+
+```vb
+children=content.GetChildren(0,numberOfItems)
+childrenClone = []
+for each child in children
+  childrenClone.Push(child.Clone(false))
+```
+
+ ## closing a screen
+
+ ```vb
+CloseScreen() 
+ ```
+   
+## show video screen
+
+```vb
+sub ShowVideoScreen(content as Object, itemIndex as Integer)
+  m.videoPlayer = CreateObject("RoSGNode","Video")
+  
 
 
 

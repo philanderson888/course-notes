@@ -5,15 +5,16 @@
 - [Brightscript](#brightscript)
   - [Contents](#contents)
   - [Reference](#reference)
-  - [Setup](#setup)
-  - [VSCode](#vscode)
+  - [Overview](#overview)
+  - [Glossary](#glossary)
+  - [Video Glossary](#video-glossary)
+  - [Coding Guidelines](#coding-guidelines)
+  - [Developer Mode](#developer-mode)
+  - [Run With VSCode](#run-with-vscode)
   - [Debug Console](#debug-console)
   - [Hello World](#hello-world)
     - [Playback nodes](#playback-nodes)
     - [Child Content Node](#child-content-node)
-  - [Display videos](#display-videos)
-  - [Hosting Feed](#hosting-feed)
-  - [Debug Console](#debug-console-1)
   - [Scope](#scope)
   - [Syntax](#syntax)
   - [Types](#types)
@@ -27,7 +28,7 @@
   - [content feed](#content-feed)
   - [channel](#channel)
   - [content node](#content-node)
-  - [video hosting](#video-hosting)
+  - [Hosting Feed](#hosting-feed)
   - [video format](#video-format)
   - [OnKeyEvent()](#onkeyevent)
   - [m fields and methods](#m-fields-and-methods)
@@ -36,6 +37,7 @@
   - [iterate over videos](#iterate-over-videos)
   - [closing a screen](#closing-a-screen)
   - [show video screen](#show-video-screen)
+  - [Display videos](#display-videos)
 
 
 ## Reference
@@ -57,11 +59,138 @@
 - Knowledge Center
 
 
-## Setup
+
+
+## Overview
+
+- written in C
+- Interprets straight into bytecode at runtime
+- Objects are associative arrays which have key/value pairs
+- Interfaces
+- Integers are default number
+- dynamic types are OK
+- static types are also OK
+  
+## Glossary
+- XDK
+    - HTML/JS framework with MVC for UI
+- TAL
+    - Television Abstraction Layer by BBC
+- List Of Acronyms
+    - https://accedobroadband.jira.com/wiki/spaces/AP/pages/97190141/Terms+and+acronyms
+- POC proof of concept
+- RAF Roku Ad Framework
+    - Roku_Ads.brs
+- OVP Online Video Playser
+- roSGScreen   Roku SceneGraph Screen
+- - Channel
+    - Content Feed is ? all xml data to do with ? all videos in channel ?
+        - Parent Node
+            - Child Node has individual video details
+                - can create programatically from video files
+- OS
+    - 9.4
+        - AirPlay2 support : ios device to play on Roku device
+        - Homekit control via Home app and Siri
+        - Apple Homekit https://www.apple.com/uk/shop/accessories/all-accessories/homekit
+    - 9.1
+        - guest mode
+        - signal beacon is required to measure the time to fully render the home screen, from the moment the user requests it (20 seconds)
+        - instant signup
+            - mandatory for channels with > 10 million hours in 3 months.
+- Channel Store https://channelstore.roku.com/en-gb/browse
+- Search
+    - Voice search
+    - Instant Signup
+    - Featured Free
+    - Zone = row of related content
+    - My Feed
+- Content Engagement Program
+    - Search
+    - Instant signup
+    - Featured free
+    - Audience Development Program
+        - Self serve roku home screen display ads
+- Monetisation
+    - Ad-supported channels
+    - Subscription SVOD monthly
+    - Transactional channel
+        - Pay to install
+        - In-app purchases
+        - Roku gets 20%
+- Developer Dashboard
+- SceneGraph like the HTML
+- Analytics
+    - Metrics
+        - Sumo Metrics
+            - How long between button press and display item
+    - Trends
+    - Health
+- Security
+    - Apps are sandboxed
+    - SSL
+    - Each system is uniquely keyed at the factory
+- Bandwidth Throttling
+    - Charles
+- Bitrate reporting
+    - m.player.streamingSegment
+    - m.player.streamInfo
+- Publish - sideload then encrypt package
+- SVOD Subscription Video On Demand
+- TVOD Transactional Video On Demand pay per item
+- PVOD Premium Video On Demand
+- AVOD Advertising Video On Demand free with adverts
+- OTT via browser
+- MRSS Media RSS feed
+- trick play indexes scenes
+- BIF files
+- DASH
+- HLS
+
+## Video Glossary
+
+- HRD High dynamic range
+    - Higher is better and brighter
+    - HDR10
+    - HDR10+
+    - HLG for TV station
+    - Dolby Vision adds extra metadata on every frame so better sound quality
+- 4K = UHD Ultra High Definition = pixel count
+- 1 NIT = 1 Candela per square metre
+- Candela = light emitted in a particular direction BUT based on Human Perception!?!?
+- Lumens = total amount of light emitted in every direction
+
+## Coding Guidelines
+
+- 4 spaces = 1 tab
+- ' 
+- camelCase
+- CONSTANTS_LIKE_THIS
+- m.CONSTANTS
+- ClassLikeStructures
+- array = []
+- assocArray = {}
+- and, then, etc
+- Object, String etc
+- sub()  = void function
+- function DoThis as Object   has return type
+- do not abbreviate
+- use early return
+- log.brs
+    - m.logger = getLogging("fileName")
+    - m.logger.info("Log this","DEBUG")
+- comments
+    - fileName:function - extra info
+- onKeyEvent listener - keep all the logic for this in one place,rather than on grid components
+- message loops in preference to tasks !?!?!?!
+- ' # TODO
+
+
+## Developer Mode
 
 Developer mode Home 3 Up 2 RLRLR
 
-## VSCode
+## Run With VSCode
 
 Using `VSCode` we can run our app
 
@@ -213,28 +342,7 @@ now creates components\UILogic folder and init
 ### Child Content Node
 - has the actual videos
 
-## Display videos
 
-Root = screen
-Child = movie
-
-```vb
-for each movie in row
-  child = root...createChild
-end for
-```
-
-## Hosting Feed
-
-- website
-- CDN
-- OVP Online Video Platform
-
-## Debug Console
-
-```powershell
-telnet 1.2.3.4 8085
-```
 
 ## Scope
 
@@ -382,6 +490,8 @@ end function
 print five()
 ```
 
+
+
 ## components
 
 - list
@@ -465,7 +575,15 @@ content node maps metadata in content feed to each of the SceneGraph components 
 - data node
 - maps to data in your content feed
 
-## video hosting
+
+
+## Hosting Feed
+
+- website
+- CDN
+- OVP Online Video Platform
+- 
+- ## video hosting
 
 - website
 - cdn
@@ -545,6 +663,7 @@ for each child in children
   childrenClone.Push(child.Clone(false))
 ```
 
+
  ## closing a screen
 
  ```vb
@@ -556,7 +675,18 @@ CloseScreen()
 ```vb
 sub ShowVideoScreen(content as Object, itemIndex as Integer)
   m.videoPlayer = CreateObject("RoSGNode","Video")
-  
+```
+
+## Display videos
+
+Root = screen
+Child = movie
+
+```vb
+for each movie in row
+  child = root...createChild
+end for
+```
 
 
 

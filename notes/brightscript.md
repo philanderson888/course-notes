@@ -409,6 +409,39 @@ methods
 
 ## content node
 
+grid (xml)
+
+  root (xml created in brightscript)
+
+    child (xml created in brightscript)
+
+```vb
+' root
+root = createObject("RoSGNode","ContentNode")
+' child
+child = root.createChild("ContentNode")
+child.title
+child.description
+child.streamUrl
+child.streamFormat
+' add content to SceneGraph
+sgComponent.content = root
+```
+
+map each video in a series
+
+all metadata for each movie is stored in a child content node 
+
+```vb
+' channel
+row.title="My Channel"
+for each movie in row
+  child = root.createChild("ContentNode")
+  child.title=movie.title
+  ....
+end for
+```
+
 content node metadata  maps to content feed fields
 
 content node maps metadata in content feed to each of the SceneGraph components in your channel 

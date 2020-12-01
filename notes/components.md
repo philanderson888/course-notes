@@ -12,10 +12,16 @@
   - [channel](#channel)
   - [content node](#content-node)
   - [events](#events)
+    - [typical event loop](#typical-event-loop)
+    - [event types](#event-types)
   - [OnKeyEvent()](#onkeyevent)
   - [m fields and methods](#m-fields-and-methods)
   - [fields](#fields)
   - [methods](#methods)
+  - [layout](#layout)
+  - [flow](#flow)
+  - [xml to brightscript](#xml-to-brightscript)
+  - [samples](#samples)
   - [iterate over videos](#iterate-over-videos)
   - [closing a screen](#closing-a-screen)
   - [show video screen](#show-video-screen)
@@ -179,6 +185,56 @@ end while
 
 event message type is `roMessagePort`
 
+### typical event loop
+
+```vb
+port = CreateObject("roMessagePort")
+screen = CreateObject("roSpringboardScreen")
+screen.SetMessagePort(port) ' instruct screen to send events to port
+screen.Show()
+while true
+    msg = wait(0, port) ' wait for a message
+    if type(msg) = "roSpringboardScreenEvent" then
+        if msg.isScreenClosed() then
+            return -1
+        elseif msg.isButtonPressed()
+            print "button pressed: ";msg.GetIndex()
+        else
+            ' ignore other unknown or uninteresting roSpringBoardScreenEvents
+        endif
+    else
+        ' ignore other events, not type roSpringboardScreenEvent
+    endif
+end while
+```
+
+### event types
+
+```vb
+isListItemSelected() as Boolean
+isScreenClosed() as Boolean
+isListFocused() as Boolean
+isListSelected() as Boolean
+isListItemFocused() as Boolean
+isButtonPressed() as Boolean
+isPlaybackPosition() as Boolean
+isRemoteKeyPressed() as Boolean
+isRequestSucceeded() as Boolean
+isRequestFailed() as Boolean
+isRequestInterrupted() as Boolean
+isStatusMessage() as Boolean
+isPaused() as Boolean
+isResumed() as Boolean
+isCleared() as Boolean
+isPartialResult() as Boolean
+isFullResult() as Boolean
+isAdSelected() as Boolean
+isStorageDeviceAdded() as Boolean
+isStorageDeviceRemoved() as Boolean
+isStreamStarted() as Boolean
+isListItemInfo() as Boolean
+isButtonInfo() as Boolean
+```
 
 
 ## OnKeyEvent() 
@@ -224,6 +280,46 @@ content.GetChildCount()
 ' select multiple videos
 content.GetChildren(initialIndex,numberOfItems)
 ```
+
+## layout
+
+https://developer.roku.com/en-gb/docs/developer-program/core-concepts/controlling-screen-layout.md
+
+- translation = x,y
+- z-order 
+- parent-child to group elements with `Group` and `LayoutGroup`
+  
+
+## flow
+
+https://developer.roku.com/en-gb/docs/developer-program/core-concepts/controlling-screen-program-flow.md
+
+- key press
+- data arrival
+- z-order
+- parent-child
+- creating and deleting elements
+- hiding and showing elements
+- focus/blur elements
+
+## xml to brightscript
+
+xml `PosterGrid` matches `roPosterScreen`
+
+## samples
+
+grid
+
+https://github.com/rokudev/scenegraph-master-sample/tree/master/GridScreen
+
+simple grid
+
+https://github.com/rokudev/samples/blob/master/ux%20components/lists%20and%20grids/Simple_Grid_and_Video.zip 
+
+grid with details and video
+
+https://github.com/rokudev/samples/blob/master/ux%20components/lists%20and%20grids/Simple_Grid_with_Details_and_Video.zip
+
 
 ## iterate over videos
 

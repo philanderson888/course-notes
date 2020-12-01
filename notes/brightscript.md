@@ -12,9 +12,9 @@
   - [Developer Mode](#developer-mode)
   - [Run With VSCode](#run-with-vscode)
   - [Debug Console](#debug-console)
-  - [Hello World](#hello-world)
-    - [Playback nodes](#playback-nodes)
-    - [Child Content Node](#child-content-node)
+  - [HelloWorld](#helloworld)
+  - [Playback nodes](#playback-nodes)
+  - [Child Content Node](#child-content-node)
   - [Scope](#scope)
   - [Syntax](#syntax)
   - [Types](#types)
@@ -37,7 +37,11 @@
   - [iterate over videos](#iterate-over-videos)
   - [closing a screen](#closing-a-screen)
   - [show video screen](#show-video-screen)
+  - [Channel](#channel-1)
   - [Display videos](#display-videos)
+  - [Components](#components-1)
+  - [Scenegraph](#scenegraph)
+  - [methods](#methods-1)
 
 
 ## Reference
@@ -233,45 +237,48 @@ telnet 1.2.3.4 8085
 ```
 
 
-## Hello World
+## HelloWorld
 
-Create `GridScreen` project with `components` `images` `source` and `manifest` file in the root
+- \components
+- \images
+- \source
+- Makefile
+- manifest
 
-```vb
-GridScreen
-  
-    MainScene.xml
-      <script type="text/brightscript" uri="...brs" />
-      <children>
-        <Overhang id="overhand" showOptions="false" showClock="false" logoUrl="..." 
-          translation="[0,60]" />
-        <Label id=".." text="..loading" width.. height..  translation="[0,0]" 
-          horizAlign="center" vertAlign="center" visible="false" font="font:.." />
-  
-    MainScene.brs
+MainScene.xml
+
+```vb 
+<script type="text/brightscript" uri="...brs" />
+<children>
+  <Overhang id="overhand" showOptions="false" showClock="false" logoUrl="..." 
+    translation="[0,60]" />
+  <Label id=".." text="..loading" width.. height..  translation="[0,0]" 
+    horizAlign="center" vertAlign="center" visible="false" font="font:.." />
+```
+
+MainScene.brs
 
     GridScreen/
     DetailsScreen/
 
-  source
+source
 
-    main.brs
+  main.brs
 
-      holds main programming for the scene
-      main()
+    holds main programming for the scene
+    main()
 
+images
 
-  images
+manifest
 
-  manifest
-
-    title
-    major_version
-    minor_version
-    build_version
-    mm_icon_focus_hd
-    splash_screen_hd
-    ui_resolutions=hd
+  title
+  major_version
+  minor_version
+  build_version
+  mm_icon_focus_hd
+  splash_screen_hd
+  ui_resolutions=hd
   
   Scene = container
     poster = image
@@ -282,9 +289,6 @@ GridScreen
   Certificates/
 
   MakeFile
-
-
-```
 
 source\main.brs 
 
@@ -334,12 +338,12 @@ end sub
 now creates components\UILogic folder and init
 
 
-### Playback nodes
+## Playback nodes
 - streamUrl
 - streamFormat
 - length
 
-### Child Content Node
+## Child Content Node
 - has the actual videos
 
 
@@ -677,6 +681,36 @@ sub ShowVideoScreen(content as Object, itemIndex as Integer)
   m.videoPlayer = CreateObject("RoSGNode","Video")
 ```
 
+## Channel
+
+- Grid Screen = Home Screen
+- Details Screen = Series
+- Episode Picker
+- Adverts
+- Subscriptions
+- Deep link to content
+    - curl -d http://<your roku IP address>:8060/launch/dev?contentID=13234&MediaType=season
+- Content Feed
+    - Descriptive node
+        - Category
+        - Title
+        - Description
+        - Thumbnail
+        - ReleaseDate
+    - Playback
+        - url
+        - videoType
+        - duration
+    - Content Nodes
+        - Non renderable
+        - data node
+    - Playback node
+        - streamurl
+        - streamFormat
+        - length
+    - Child content node
+        - has the actual videos
+
 ## Display videos
 
 Root = screen
@@ -686,6 +720,55 @@ Child = movie
 for each movie in row
   child = root...createChild
 end for
+```
+
+## Components
+
+    - renderable
+        - containers
+            - grid
+                - row
+                    - label
+            - list
+            - panel
+        - rectangle
+        - label
+        - poster
+        - button
+        - dialog
+        - keyboard
+        - video content
+        - audio content
+    - non-renderable
+        - timer
+        - animation
+        - content
+
+## Scenegraph
+
+- Main scene
+    - Grid
+        - Row
+            - Label
+    - Details
+        - Layout group
+    - Episodes
+        - Episodes Item
+    - overhang
+    - showOptions
+    - showClock
+    - logoUrl
+    - translation
+- Manifest
+    - major, minor, build
+
+
+## methods
+
+```vb
+Init()
+OnVisibleChanged()
+OnItemFocused()
 ```
 
 

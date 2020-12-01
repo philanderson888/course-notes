@@ -387,7 +387,13 @@ methods
 ## display components
 
 - grid
-- list 
+  - row
+    - thumbnail = poster
+      - focus
+        - highlighted
+        - name
+        - duration
+        - description- list 
 - panel
 
 

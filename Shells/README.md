@@ -5,24 +5,25 @@
 - [shells : BASH, Zsh, CMD and Powershell](#shells--bash-zsh-cmd-and-powershell)
 - [Contents](#contents)
 - [BASH](#bash)
-		- [Navigation](#navigation)
-	- [BASH Commands ls, top](#bash-commands-ls-top)
+	- [common](#common)
+		- [ls](#ls)
+		- [top](#top)
 	- [Creating An Alias](#creating-an-alias)
 	- [`clear` command to clear the terminal](#clear-command-to-clear-the-terminal)
 	- [BASH Executable script](#bash-executable-script)
 	- [Functions And Aliases](#functions-and-aliases)
 	- [Hidden Files and Folders on MAC](#hidden-files-and-folders-on-mac)
 	- [GitHub Push/Pull](#github-pushpull)
-		- [`mkcd()`  to `mkdir` and `cd` in one operation](#mkcd-to-mkdir-and-cd-in-one-operation)
+		- [`mkcd()`  to `mkdir` and `cd` in one operation](#mkcd--to-mkdir-and-cd-in-one-operation)
 		- [Alias](#alias)
 	- [Functions](#functions)
 		- [Passing parameters to a function](#passing-parameters-to-a-function)
 		- [GitHub Function](#github-function)
 		- [GitHub tagging](#github-tagging)
 		- [man Manual](#man-manual)
-		- [ls](#ls)
+		- [ls](#ls-1)
 		- [find](#find)
-		- [Open Finder with `open .`](#open-finder-with-open)
+		- [Open Finder with `open .`](#open-finder-with-open-)
 	- [BASH commands](#bash-commands)
 		- [cat](#cat)
 		- [head](#head)
@@ -45,10 +46,10 @@
 		- [Using](#using)
 	- [Oh My Zsh](#oh-my-zsh)
 - [Powershell](#powershell)
-		- [Open Explorer At  Path](#open-explorer-at-path)
+		- [Open Explorer At  Path](#open-explorer-at--path)
 	- [PS Core](#ps-core)
 		- [Setting The Default Path In Powershell](#setting-the-default-path-in-powershell)
-		- [Invoke-webrequest  connects to a web socket](#invoke-webrequest-connects-to-a-web-socket)
+		- [Invoke-webrequest  connects to a web socket](#invoke-webrequest--connects-to-a-web-socket)
 		- [Port Scan](#port-scan)
 	- [Intro](#intro)
 	- [ISE](#ise)
@@ -79,24 +80,20 @@
 
 # BASH
 
-### Navigation
+## common
 
-```jsx
-# go to home directory
-cd ~
-# go to root directory
-cd /   
-```
-
-## BASH Commands ls, top
+### ls
 
 ```bash
-# list recursively all files and folders
+# recursive
 ls -R     
+# names
+ls -1
+```
 
-# list file names only
-ls -Name
+### top
 
+```
 # show top processes
 top
 ```

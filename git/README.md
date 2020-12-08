@@ -501,6 +501,8 @@ SSH keys can be located at [https://github.com/settings/tokens](https://github.c
 
 ```powershell
 # open Git bash shell
+cd ~/.ssh
+ls
 ls -al ~/.ssh
 # Generating public/private rsa key pair to file /Users/..../.ssh/id_rsa
 ssh-keygen -t rsa -b 4096 

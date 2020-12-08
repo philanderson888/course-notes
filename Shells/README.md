@@ -1,21 +1,21 @@
-# shells : BASH, Zsh, CMD and Powershell
+# shells
 
 # Contents
 
-- [shells : BASH, Zsh, CMD and Powershell](#shells--bash-zsh-cmd-and-powershell)
+- [shells](#shells)
 - [Contents](#contents)
 - [BASH](#bash)
 	- [common](#common)
 		- [ls](#ls)
 		- [top](#top)
-	- [Creating An Alias](#creating-an-alias)
-	- [`clear` command to clear the terminal](#clear-command-to-clear-the-terminal)
+	- [alias](#alias)
+	- [clear terminal](#clear-terminal)
 	- [BASH Executable script](#bash-executable-script)
 	- [Functions And Aliases](#functions-and-aliases)
 	- [Hidden Files and Folders on MAC](#hidden-files-and-folders-on-mac)
 	- [GitHub Push/Pull](#github-pushpull)
 		- [`mkcd()`  to `mkdir` and `cd` in one operation](#mkcd--to-mkdir-and-cd-in-one-operation)
-		- [Alias](#alias)
+		- [Alias](#alias-1)
 	- [Functions](#functions)
 		- [Passing parameters to a function](#passing-parameters-to-a-function)
 		- [GitHub Function](#github-function)
@@ -68,13 +68,11 @@
 		- [Function with no parameters](#function-with-no-parameters)
 		- [Function with parameters](#function-with-parameters)
 	- [Powershell Summary So Far](#powershell-summary-so-far)
-- [Powershell Advanced : Don't Use These Notes](#powershell-advanced--dont-use-these-notes)
-		- [Telnet](#telnet)
-		- [Wait](#wait)
+	- [functions](#functions-1)
 		- [Tail](#tail-1)
 		- [TCP](#tcp)
-		- [Telnet](#telnet-1)
-		- [Wait](#wait-1)
+		- [Telnet](#telnet)
+		- [Wait](#wait)
 	- [Remote Powershell (Module 6)](#remote-powershell-module-6)
 	- [Powershell with Active Directory](#powershell-with-active-directory)
 
@@ -85,10 +83,12 @@
 ### ls
 
 ```bash
+# names
+ls -1 
 # recursive
 ls -R     
-# names
-ls -1
+# permissions
+ls -l
 ```
 
 ### top
@@ -98,23 +98,20 @@ ls -1
 top
 ```
 
-## Creating An Alias
+## alias
 
-It's quite common to be re-typing commands laboriously so it's good to create shorthand equivalent of our commands.  This will save a lot of time.  We call these shorthand equivalents `alias` commands.
+add to `~/.bash_profile`
 
-```jsx
-# Creating an alias
-cd ~  # navigate to home directory
+```bash
 # open .bash_profile for editing
 nano .bash_profile
 # or
 vi .bash_profile
 # add the alias
 alias gohome=cd /Users/Shared/
-
 ```
 
-## `clear` command to clear the terminal
+## clear terminal
 
 ```bash
 clear && printf '\e[3J'
@@ -859,16 +856,12 @@ Powershell Version
 
 $PSVersionTable shows the version of Powershell that is currently running!
 
-# Powershell Advanced : Don't Use These Notes
 
-### [Telnet](notion://www.notion.so/philanderson888/shells-7f3c8dde619f4535a228e5dd791b3689#telnet)
+## functions
 
-### [Wait](notion://www.notion.so/philanderson888/shells-7f3c8dde619f4535a228e5dd791b3689#wait)
-
-[functions](notion://www.notion.so/philanderson888/shells-7f3c8dde619f4535a228e5dd791b3689#functions)
 Create a folder WindowsPowerShell and add it to your Path
 
-```
+```powershell
 Function global:mkcd {
   mkdir $args[0]
   cd $args[0]

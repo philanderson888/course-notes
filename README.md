@@ -1,10 +1,10 @@
-# personal-course-notes
+# tech notes
 
-This is a repository of teaching notes and labs on a variety of topics
+This is a repository of tech notes on a variety of topics
 
 ## Contents
 
-- [personal-course-notes](#personal-course-notes)
+- [tech notes](#tech-notes)
   - [Contents](#contents)
   - [Git](#git)
   - [Shells](#shells)
@@ -48,10 +48,6 @@ This is a repository of teaching notes and labs on a variety of topics
 ## C#
 
 [C#](c-sharp)
-
-[C# Course Notes June 2019](c-sharp\c-sharp-course-notes-june-2019.md)
-
-
 
 ## Web
 

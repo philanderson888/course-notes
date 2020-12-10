@@ -497,7 +497,21 @@ SSH keys can be located at [https://github.com/settings/tokens](https://github.c
 
 ## Github With SSH
 
+with GitBash
 
+```powershell
+ssh-keygen
+# copy the public key to git respository
+eval $(ssh-agent)
+# add key with response 'identity added'
+ssh-add my_private_key
+# list 
+ssh-add -l
+# log in (responds with 'logged in as ..')
+ssh -T git@..
+```
+
+powershell version
 
 ```powershell
 # open Git bash shell

@@ -11,8 +11,6 @@ This is a repository of tech notes on a variety of topics
   - [IDE](#ide)
   - [C](#c)
   - [Web](#web)
-    - [Random Web Terms](#random-web-terms)
-    - [HTML CSS Javascript Bootstrap don't use](#html-css-javascript-bootstrap-dont-use)
     - [HTML](#html)
     - [CSS](#css)
     - [Bootstrap](#bootstrap)
@@ -51,16 +49,6 @@ This is a repository of tech notes on a variety of topics
 
 ## Web
 
-### Random Web Terms
-
-[Random Web Terms And Glossary](web/Random%20Web%20Terms%20And%20Glossary%2046fe102dd2b64fefbb0572bdf5d05878.md)
-
-[Random Web, Programming And Productivity](web/Random%20Web%20Programming%20And%20Productivity%20702fbe38a4c5437d92e25a7339333955.md)
-
-### HTML CSS Javascript Bootstrap don't use
-
-[HTML CSS JS dont use](web/HTML%20CSS%20JS%20dont%20use%20d2c12576994747488311397f3ffaf42e.md)
-
 ### HTML
 
 [HTML](https://github.com/philanderson888/html-css-javascript)
@@ -85,7 +73,7 @@ This is a repository of tech notes on a variety of topics
 
 [AJAX Code Demos](https://github.com/philanderson888/ajax)
 
-[AJAX Notes](https://github.com/philanderson888/course-notes/blob/master/web/AJAX.md)
+[AJAX Notes](https://github.com/philanderson888/javascript/notes)
 
 ### Vue
 

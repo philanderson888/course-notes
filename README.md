@@ -15,8 +15,6 @@ This is a repository of tech notes on a variety of topics
     - [CSS](#css)
     - [Bootstrap](#bootstrap)
     - [Javascript](#javascript)
-    - [jQuery](#jquery)
-    - [AJAX](#ajax)
     - [Vue](#vue)
     - [React](#react)
     - [Python](#python)
@@ -64,16 +62,6 @@ This is a repository of tech notes on a variety of topics
 ### Javascript
 
 [Javascript](https://github.com/philanderson888/javascript)
-
-### jQuery
-
-[jQuery](https://github.com/philanderson888/jquery)
-
-### AJAX
-
-[AJAX Code Demos](https://github.com/philanderson888/ajax)
-
-[AJAX Notes](https://github.com/philanderson888/javascript/notes)
 
 ### Vue
 

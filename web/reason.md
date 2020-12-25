@@ -11,13 +11,13 @@
 
 ## Introduction
 
-ReasonML is a new object-functional programming language created at Facebook. 
+ReasonML is a object-functional programming language created at Facebook. 
 
-In essence, it is a new C-like syntax for the programming language OCaml. 
+It has C-like syntax for the programming language OCaml. 
 
 The new syntax is intended to make interoperation with JavaScript and adoption by JavaScript programmers easier. 
 
-Additionally, it removes idiosyncrasies of OCaml’s syntax. ReasonML also supports JSX. 
+It removes idiosyncrasies of OCaml’s syntax. ReasonML also supports JSX. 
 
 Reason is
 
@@ -28,11 +28,20 @@ Reason is
 - Uses OCaml 
 - Compiles To Javascript
 
+ReasonML is the upgrade to Javascript which Typescript provided, but omitting all of the flaws of Javascript
+
+`ReasonML = Javascript + Types - Bad + Good`
+
+
+
 ## References
 
-- https://reasonml.github.io/ 
-- http://2ality.com/2017/11/about-reasonml.html 
- 
+- docs
+  - https://reasonml.github.io/ 
+- about
+  - http://2ality.com/2017/11/about-reasonml.html 
+- examples 
+  - https://reasonml.github.io/reason-react/docs/en/simple
 
 ## Installing
 

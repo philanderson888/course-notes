@@ -43,7 +43,7 @@ November 2020
     - [git reset —hard](#git-reset-hard)
     - [git clean](#git-clean)
     - [github tagging](#github-tagging)
-- [Other Git Topipowershell And Commands](#other-git-topipowershell-and-commands)
+  - [Other Git Commands](#other-git-commands)
     - [Fixing a merge conflict](#fixing-a-merge-conflict)
     - [Change Git User](#change-git-user)
     - [Protecting The Master Branch](#protecting-the-master-branch)
@@ -402,7 +402,7 @@ git push origin --tags
 
 ```
 
-# Other Git Topipowershell And Commands
+## Other Git Commands
 
 ### Fixing a merge conflict
 

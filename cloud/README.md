@@ -1,14 +1,18 @@
-# cyber-cloud
+# cloud
 
 ## Contents
 
 - [cyber-cloud](#cyber-cloud)
   - [Contents](#contents)
+  - [Introduction](#introduction)
+  - [Cloud Overview](#cloud-overview)
+    - [AWS Certification](#aws-certification)
+    - [Random](#random)
 - [Cloud Objectives](#cloud-objectives)
   - [Cloud Random Terms](#cloud-random-terms)
   - [Office 365 Random Notes](#office-365-random-notes)
-- [Cloud Overview](#cloud-overview)
-  - [Introduction](#introduction)
+- [Cloud Overview](#cloud-overview-1)
+  - [Introduction](#introduction-1)
   - [History](#history)
     - [Virtualization](#virtualization)
     - [Limitations](#limitations)
@@ -265,6 +269,135 @@
     - [VPN Split Tunneling](#vpn-split-tunneling)
     - [PSC Password Settings Container](#psc-password-settings-container)
     - [Offline Files lab](#offline-files-lab)
+
+
+## Introduction
+
+## Cloud Overview
+
+SAAS
+
+PAAS
+
+IAAS
+
+Cloud discussion
+    High availability
+    Scale horizontally and verically
+    Self Healing
+
+Cloud types
+    on premesis
+    private
+    public
+    hybrid
+
+
+
+AWS
+
+EC2
+
+S3
+
+Identity IAM
+
+Groups
+
+Firewall Access
+
+Certificates
+    KMS 
+
+Logging Cloudwatch
+
+Alerts
+
+Billing
+
+Subnets
+
+Routing
+
+Load Balancing
+
+Database RDS
+
+Big Data / Unstructured Data
+
+Data Lake
+
+Azure
+
+Cloud Security - Inspector
+
+Devops
+
+Vagrant
+
+Packer
+
+Terraform
+
+Chef
+
+Ansible
+
+Containers
+
+Microservices
+
+
+
+Deployment
+    Vagrant
+    Docker
+        Create Image
+        Push Image
+            .NET
+            ASP
+            Node
+            Website
+            Java
+            Python
+    AWS
+        WebApp
+        NodeApp
+        RubyApp
+        C# App
+        JavaApp
+        Apache Web Server
+        NGINX Web Server
+
+Kubernetes
+    KubeCtl
+    MiniKube
+
+Puppet
+
+Jenkins
+
+Azure
+
+Blockchain
+
+
+### AWS Certification 
+
+### Random
+
+AWS Outposts
+Openstack
+IOT
+GreenGrass
+AzureHub
+IPSEC
+RBAC
+
+Federation
+ML
+Automation
+Elastic Beanstalk
 
 
 

@@ -77,11 +77,11 @@ Book : Mike Meyers : elaborates very fully
 6	Presentation	Encryption + Compression of data. (M4A iTunes  MP3 compressed)
 7	Application	eg Outlook, Skype etc : program asking to use network!!!
 
-```
+
 Please Do Not Throw Sausage Pizza Away
 
-```
 
+```
 Switch – local (LAN)
 Router – global (Internet, or WAN for large companies)
 
@@ -135,6 +135,8 @@ Layer 2 : Data Link
 Split into 2 layers	1) MAC
 2.)	LLC logical link control layer
 LAN local area network
+```
+
 
 ```
 PC-----------switch---------------------|---router====internet	
@@ -164,6 +166,9 @@ Continuing : Layer 2 : Data Link
 
 ```
 
+
+
+```
 1. VLAN	1-4000 VLANS
 2. QoS Quality Of Service : Priority 0-7 : 7 highest, 0=lowest
 (live phone : highest call priority)
@@ -179,6 +184,9 @@ Port	MAC
 3	AA-BB-CC..
 Inside the switch the computers are connected with a VIRTUAL CIRCUIT!
 Getting FULL SPEED eg 1GBPS
+```
+
+
 
     ```
     	Care!!!  Exam contrast Switches vs Hubs
@@ -227,6 +235,10 @@ Decimal		128	64	32	16	8	4	2	1
 
 ```
 
+
+
+
+```
 IP Addresses
 They are 32 binary 1/0 split into blocks of 4
 192	168	1	1
@@ -246,6 +258,9 @@ Multicast = sending data to a group of computers normally HUGE FILES LIKE PC IMA
 Note : numbers are BINARY!
 128	10000000
 192	11000000
+```
+
+
 
 ```
 	128	64	32	16	8	4	2	1
@@ -2552,11 +2567,11 @@ Extra WIFI terms
 		Directional
 				Yagi : TV 
 
-```
+
 
 NAT Network Address Translation
 
-```
+
 NAT swaps PRIVATE IP (of PC) for PUBLIC IP (of router) and adds in a PORT
 		NUMBER so we know which PC receives the data when the 
 		reply comes back
@@ -2566,27 +2581,27 @@ NAT swaps PRIVATE IP (of PC) for PUBLIC IP (of router) and adds in a PORT
 
 	PAT ==> 1000 computers on INSIDE for ONE PUBLIC IP
 
-```
+
 
 Port Forwarding
 
-```
+
 Incoming traffic from OUTSIDE gets directed to right machine on INSIDE 
 	by looking at the incoming PORT NUMBER
 
-```
+
 
 Port Triggering
 
-```
+
 XBOX games need special online port.   From INSIDE we can push data out
 	over special port, and keep that port OPEN FOR REPLIES
 
-```
+
 
 Proxy
 
-```
+
 All web traffic forwarded through one machine which allows
 
 	Monitoring
@@ -2597,11 +2612,11 @@ All web traffic forwarded through one machine which allows
 	Caching content : second visit to same page ==> faster
 		because content already stored
 
-```
+
 
 SNMP Simple Network Management Protocol
 
-```
+
 50 routers around the world - are they all OK?
 
 	1. Heartbeat : 30 seconds : I am alive 
@@ -2612,20 +2627,20 @@ Plain text
 
 	SNMPv3 is encrypted
 
-```
+
 
 Network mapping
 
-```
+
 ZENMAP (KALI linux)
 
-```
+
 
 IPAM IP Address Management
 
 Protocols
 
-```
+
 TCP	check all packets    SEQ, ACK
 UDP	fast as no checking!!!
 	
@@ -2655,11 +2670,11 @@ NETBIOS very old networking with HOST NAME ONLY
 
 PUTTY : Windows client for SSH to a LINUX server
 
-```
+
 
 DNS
 
-```
+
 Map NAME to IP
 
 Early internet NO DNS!!
@@ -2704,11 +2719,11 @@ FQDN fully qualified domain name
 
 	mymachine.mydomain.com
 
-```
+
 
 Encryption
 
-```
+
 Hashing
 
 	MD5
@@ -2768,11 +2783,11 @@ Certificate : digital holder for A PUBLIC KEY; can send to anyone
 
 PKI : public key infrastructure : COMANY THAT USES CERTIFICATES
 
-```
+
 
 Remote working
 
-```
+
 client-------dial in to VPN server-------RADIUS-----------------Active
 								Directory
 
@@ -2782,11 +2797,11 @@ client-------dial in to VPN server-------RADIUS-----------------Active
 
 				TACACS+  	best
 
-```
+
 
 Domain working (inside company)
 
-```
+
 On premises, you log in to your computer
 
 	computer------------------------------------Active Directory
@@ -2794,11 +2809,11 @@ On premises, you log in to your computer
 	      ((Kerberos protocol is security protocol))
 			for whole domain
 
-```
+
 
 Active Directory
 
-```
+
 Creates a DC Domain Controller
 
 	Users
@@ -2813,22 +2828,22 @@ Active Directory is built using a protocol called
 
 		COMMON NAME	    Folder		Domain
 
-```
+
 
 Secure Copy
 
-```
+
 SSH ==> provides a command line to log in to remote server (linux)
 
 Copy files????
 
 	over SSH  ==> Protocol called 'Secure Copy = SCP'
 
-```
+
 
 VLANS
 
-```
+
 VLAN is created on a SWITCH!!!
 
 	SWITCH : normally filters by MAC address at LAYER 2
@@ -2849,21 +2864,21 @@ Switch ==> NORMALLY JUST LAYER 2
 
 VLAN Switch ==> LAYERS 2 & 3       :    Managed (VLAN) Switch
 
-```
+
 
 Load balancing
 
-```
+
 client 			LOAD BALANCER		DNS SERVER1										DNS SERVER2
 						DNS SERVER3
 					
 	round robin = choose server 1,2,3,1,2,3, etc
 
-```
+
 
 QoS Quality Of Service
 
-```
+
 VOIP calls
 Conference calls
 
@@ -2872,23 +2887,23 @@ Conference calls
 Lowest
 				   0  (youtube)
 
-```
+
 
 DHCP
 IPV4	give IP
 
-```
+
 IPV6		PC give IP so don't need DHCP  (make IP from MAC!!!)
 
 	Still supply DNS, GATEWAY info via DHCP
 
 		STATELESS AUTOCONFIGURATION!!!!
 
-```
+
 
 Active Directory
 
-```
+
 Forest		Group of domain eg MSN.com, hotmail.com, outlook.com, 
 			Skype.com, LinkedIn.com
 Domain		One company managed by DOMAIN CONTROLLER machine which
@@ -2897,176 +2912,15 @@ OU		Folder in Active Directory : Container for objects
 Site		Location ie Physical place eg Birmingham
 NETBIOS		Old NAME of COMPUTER eg HOSTNAME
 
-```
+
 
 Command Line tools
 
-```
+
 PING
 PATHPING
 TRACERT
 
 NSLOOKUP	DNS information
 
-```
 
-Random
-WORKGROUP	default home network : all computers just share resources eg internet
-PEER TO PEER	Every 'client' machine is same on shared network : no one machine
-in charge
-DOMAIN	Central server in charge of network
-DC DOMAIN CONTROLLER
-ACTIVE DIRECTORY : create users/groups/permissions/printers/share
-[mycompany.com](http://mycompany.com/)
-CLIENT/SERVER NETWORK eg online banking : you are client; connect to banking server
-for a 'session'
-
-Thursday morning : technical wake-up term crash
-1	MITM Man In The Middle
-a.	Eavesdrop (listen)
-b.	Modify traffic
-2	Session hijack : take over session
-3	Replay attack : later on
-a.	Mitigate with time stamps
-4	Dictionary attack
-5	Brute force attack
-6	A authentication = log in eg biometric or password
-7	A authorisation = permissions
-8	A accounting = logging
-9	C	confidentiality = encryption
-10	I integrity
-11	A availability
-12	FAT no permission
-13	NTFS
-a.	FULL CONTROL
-b.	MODIFY
-c.	EXECUTE (RUN .EXE PROGRAM)
-d.	READ
-e.	WRITE
-14	WIFI TYPES
-15	A
-16	B	11
-17	G	54
-18	N	100+ WITH MIMO MULTIPLE AERIALS
-19	AC	300-1000
-20	WIFI COMPATIBLE : B, G, N ON 2.4
-21	2.4 GHZ OR 5 GHZ
-22	K 1000
-23	M 1 000 000
-24	G 1 000 000 000
-25	T TERA 10 ^ 12
-26	WIFI Encryption
-27	WEP old
-28	WPA encrypt with TKIP
-29	WPA2 AES (strong)
-30	WAP Wireless Access Point = WIFI router
-31	Distances
-32	WIFI 30M
-33	WIFI AC 100M
-34	Bluetooth 10m
-35	Infra Red 1m
-36	NFC Near Field Communication 5cm
-37	Wired distances
-38	THICKNET	500M 10base5 RG8
-39	THINNET 182 10base2 RG58
-40	FIBER MONOMODE 50km laser light
-41	FIBER MULTIMODE 2km regular light
-42	ETHERNET 100M
-43	Ethernet with repeater 100+100 = 200m
-44	Domain : central security
-45	Domain controller : master database for users/groups etc in our domain
-46	DC
-47	Active Directory
-48	Forest : group of domains [Skype.com](http://skype.com/) & [Messenger.com](http://messenger.com/)
-49	Tree : group of domains with same root name [east.msn.com](http://east.msn.com/) and [west.msn.com](http://west.msn.com/)
-50	Malware
-51	Worm
-52	Virus
-53	Trojan
-54	Macro Virus
-55	Zombie
-56	Logic bomb
-57	Zero day
-58	ARP Poison
-59	Flood
-60	PING flood
-61	TCP ‘SYN’ flood
-62	TCP checking packets arrive
-63	IP global address 1.2.3.4
-64	TCP/IP
-65	TCP : SYN = COUNT OUT
-66	TCP : ACK = PACKETS RECEIVED
-67	TCP : 3-way handshake : Are you ready to receive? Yes. Let’s begin
-68	PING
-69	NSLOOKUP : DNS INFO
-70	NETSTAT -a : connections
-71	445 SHARES
-72	49XXX web connection
-73	NBTSTAT older HOSTNAME connection
-74	PING
-75	PATHPING
-76	TRACERT
-77	Wireshark
-a.	Eavesdropping
-b.	Network Protocol Analyser
-78	ARP -a IP-to-MAC
-79	DMZ
-80	Perimeter network host website
-81	NAC : Network Access Control : check HEALTH OF COMPUTER
-a.	UPDATES : WINDOWS
-b.	ANTI VIRUS : ON, CONFIGURED AND UP TO DATE
-c.	FIREWALL
-82	Honeypot : fake website
-83	WIFI : MAC address filter : time consuming
-84
-
-Friday Quick Revision
-DNS name ? IP
-DHCP give IP
-SQL database
-IIS Microsoft Web Server
-Commands
-PING 8.8.8.8 GOOGLE
-PING -t for ever
-PATHPING
-TRACERT
-NSLOOKUP : dns info
-NBTSTAT : names of computers you talk to
-NETBIOS = HOSTNAME = PC NAME
-IPCONFIG
-/renew
-/release
-/all
-/displaydns
-/flushdns
-NETSTAT -a active
--n by numbered order
-NAT
-PAT
-FAT no security
-NTFS security
-Firewall
-Layer 3 STATELESS
-4 STATEFUL
-7 APPLICATION LAYER
-DEEP PACKET INSPECTION
-DIAL UP
-POTS PLAIN OLD TEL SVS
-PSTN public switched telephone network
-FIBER
-Mono Mode (Single mode) Laser Light 50km
-Multi Mode cheap regular light 2km
-Broadband
-ADSL Asymmetric 8x faster down than up
-SDSL Symmetric
-ISDN digital line
-BRI BASIC RATE 2 lines + 1
-PRI PRIMARY RATE 23 lines + 1
-T1 = PRI
-E1 = 31 lines + 1
-
-.
-.
-.
-.
-TWISTED PAIR : 8 WIRES (4 PAIRS)

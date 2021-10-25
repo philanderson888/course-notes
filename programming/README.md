@@ -4,10 +4,25 @@
 
 - [Programming](#programming)
   - [Contents](#contents)
+  - [IDE](#ide)
+  - [C](#c)
+  - [Web](#web)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Bootstrap](#bootstrap)
+    - [Javascript](#javascript)
+    - [Vue](#vue)
+    - [React](#react)
+    - [Python](#python)
+  - [Mobile](#mobile)
   - [Programming In General](#programming-in-general)
     - [General Programming](#general-programming)
   - [Fun projects](#fun-projects)
-
+  - [Go](#go)
+  - [Python](#python-1)
+  - [MySQL](#mysql)
+  - [PHP](#php)
+  - [Rust](#rust)
 
 ## IDE
 

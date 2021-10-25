@@ -122,4 +122,4 @@ $row = mysqli_fetch_array($result);
 
 ## Rust
 
-Rust is the most-loved programming language in the world according to 2019 Stack Overflow survey
+Rust is the most-loved programming language in the world according to 2019 Stack Overflow survey.

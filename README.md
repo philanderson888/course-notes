@@ -20,7 +20,8 @@ This is a repository of tech notes on a variety of topics
 
 [Shell Scripting - Bash, Zsh, CMD and Powershell shells](shells)
 
-- [bash and zsh](shells)
+- [bash](shells/bash.md)
+- [zsh](shells/zsh.md)
 - [cmd](shells)
 - [powershell](shells/powershell.md)
 

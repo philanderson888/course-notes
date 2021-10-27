@@ -18,7 +18,11 @@ This is a repository of tech notes on a variety of topics
 
 ## Shell Scripting
 
-[Shell Scripting - Bash, Zsh, CMD and Powershell shells)
+[Shell Scripting - Bash, Zsh, CMD and Powershell shells](shells)
+
+- [bash and zsh](shells)
+- [cmd](shells)
+- [powershell](shells/powershell.md)
 
 ## Programming
 

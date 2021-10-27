@@ -7,8 +7,16 @@
 
 ## introduction
 
+powershell is the default shell program installed with windows and should be used in preference to the older `cmd` command-line program which is still also available as `cmd.exe` although the command set is much more limited and cannot manipulate objects as powershell does, but only strings.
 
-# Powershell
+# installing
+
+to install powershell one can run `winget`
+
+```powershell
+winget search Microsoft.Powershell
+winget install --name "Powershell Preview" --source winget
+```
 
 ### Open Explorer At  Path
 

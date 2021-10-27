@@ -15,7 +15,8 @@ to install powershell one can run `winget`
 
 ```powershell
 winget search Microsoft.Powershell
-winget install --name "Powershell Preview" --source winget
+winget install --id Microsoft.Powershell --source winget
+winget install --id Microsoft.Powershell.Preview --source winget
 ```
 
 ### Open Explorer At  Path

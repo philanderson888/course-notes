@@ -12,7 +12,7 @@
 
 ## CompTIA A+
 
-[CompTIA A+](infrastructure/hardware.md)
+[CompTIA A+](hardware.md)
 
 ## CompTIA Network+
 

@@ -54,6 +54,16 @@ Measure of power of a machine.  100 SKU is the power of a Small (Standard_A1) vi
 az vm list-sizes -l uksouth -o table
 ```
 
+### VM Machine Sizes
+
+- D-Series (general purpose)
+  - DS2_v2   2 CPU  7 GB   
+  - DS3_v2   4 CPU  14 GB
+- E-Series (memory optimized)
+  - E2s_v3 : 2 CPU  16 GB
+  - E4s_v3 : 4 CPU  32 GB
+- F-series (compute optimized)
+
 ### SKU
 
 ## Nested Virtualization

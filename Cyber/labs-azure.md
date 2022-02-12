@@ -3,10 +3,12 @@
 - [Azure Labs](#azure-labs)
   - [Getting Started - Critical Terms](#getting-started---critical-terms)
     - [Azure Compute Unit](#azure-compute-unit)
+    - [VM Machine Sizes](#vm-machine-sizes)
     - [SKU](#sku)
   - [Nested Virtualization](#nested-virtualization)
   - [Azure CLI Modes](#azure-cli-modes)
   - [Installation Of ASM](#installation-of-asm)
+  - [install azure CLI Command line interface](#install-azure-cli-command-line-interface)
   - [Log In](#log-in)
   - [Who Is Logged In](#who-is-logged-in)
   - [List Resource Groups](#list-resource-groups)
@@ -74,7 +76,8 @@ Nested virtualization allows a hypervisor to be installed on a virtual machine!
 
 - Standard_D2_v3 with 2CPU and 8GB RAM
 - Standard_D2s_v3 
-- D4s_v3 
+- [Dsv4-series](https://docs.microsoft.com/en-us/azure/virtual-machines/dv4-dsv4-series)
+  - D4s_v4 
 - E4s_v3 but is perhaps too big
 
 See this article https://docs.microsoft.com/en-us/azure/virtual-machines/windows/nested-virtualization#create-a-nesting-capable-azure-vm
@@ -99,9 +102,17 @@ We can run commands from either
 
 ```powershell
 install-module az
-install-module az -AllowClobber -Scope AllUsers
+install-module az -AllowClobber -Scope AllUsers (-Force)
 # verify correct version installed ie 4.5.0 Name Az
-Get-InstalledModule -Name Az -AllVersions 
+Get-InstalledModule -Name Az 
+```
+
+## install azure CLI Command line interface
+
+please see the docs at https://docs.microsoft.com/en-us/cli/azure/ for up to date information
+
+```powershell
+Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; rm .\AzureCLI.msi
 ```
 
 ## Log In

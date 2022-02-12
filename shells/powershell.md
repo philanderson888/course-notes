@@ -46,6 +46,15 @@ Navigate to Documents\WindowsPowerShell\profile.ps1 and edit the path
 
 ### Invoke-webrequest  connects to a web socket
 
+this example installs azure client
+- download a file and save it as a `msi` file
+- run msiexec against that file with the /quiet parameter ie run the install
+- remove the installed file
+
+```powershell
+Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; rm .\AzureCLI.msi
+```
+
 ### Port Scan
 
 [Success Center](https://support.solarwinds.com/SuccessCenter/s/article/Use-PowerShell-to-test-that-a-port-is-open-on-a-server)

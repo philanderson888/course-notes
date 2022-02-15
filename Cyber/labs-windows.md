@@ -31,9 +31,13 @@
     - [RAID and Diskpart](#raid-and-diskpart)
   - [Recovery](#recovery)
     - [BitLocker](#bitlocker)
+  - [HyperV Labs](#hyperv-labs)
+    - [Virtual Switching](#virtual-switching)
+      - [Create a virtual switch](#create-a-virtual-switch)
+  - [Routing And Switching Labs](#routing-and-switching-labs)
+    - [Create Static Route](#create-static-route)
+    - [Create Dynamic Route](#create-dynamic-route)
   - [Windows Client - Server Labs](#windows-client---server-labs)
-    - [Build Domain](#build-domain)
-    - [RDP](#rdp)
     - [Share](#share)
     - [Print](#print)
     - [Group Policy](#group-policy)
@@ -258,43 +262,23 @@ TURN ON BITLOCKER FOR YOUR NEW DRIVE
 ```
 
 
+## HyperV Labs
+
+### Virtual Switching
+
+#### Create a virtual switch
+
+## Routing And Switching Labs
+
+### Create Static Route
+
+### Create Dynamic Route
 
 
 
 ## Windows Client - Server Labs
 
-### Build Domain
 
-```
-Create Server
-Create Win7
-Rename both
-Server : DCPROMO : Create 'domain'  (company!)  
-phil.local
-```
-
-
-
-Commands common to LINUX and WINDOWS
-
-Powershell-only commands
-
-File and folder management
-
-Managing processes
-
-Managing services
-
-
-
-
-### RDP
-
-```
-REMOTE DESKTOP FROM CLIENT TO SERVER	
-Create DNS records A, AAAA, MX, CNAME	
-
-```
 
 ### Share
 

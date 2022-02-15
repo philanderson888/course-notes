@@ -4,6 +4,38 @@
 - [powershell](#powershell)
   - [contents](#contents)
   - [introduction](#introduction)
+- [installing](#installing)
+    - [Open Explorer At  Path](#open-explorer-at--path)
+  - [PS Core](#ps-core)
+    - [Setting The Default Path In Powershell](#setting-the-default-path-in-powershell)
+    - [Invoke-webrequest  connects to a web socket](#invoke-webrequest--connects-to-a-web-socket)
+    - [Port Scan](#port-scan)
+  - [Intro](#intro)
+  - [ISE](#ise)
+  - [Simple commands](#simple-commands)
+    - [Selecting Columns](#selecting-columns)
+    - [SORT](#sort)
+    - [FORMAT OUTPUT AS A TABLE](#format-output-as-a-table)
+    - [Piping Output](#piping-output)
+    - [write-host to screen](#write-host-to-screen)
+    - [Variables - Naming Conventions](#variables---naming-conventions)
+    - [Variables - Naming Conventions](#variables---naming-conventions-1)
+    - [Conditional Operators if](#conditional-operators-if)
+  - [Environment Variables](#environment-variables)
+    - [Get Environment Variables](#get-environment-variables)
+  - [Powershell Functions](#powershell-functions)
+    - [Function with no parameters](#function-with-no-parameters)
+    - [Function with parameters](#function-with-parameters)
+  - [Powershell Summary So Far](#powershell-summary-so-far)
+  - [functions](#functions)
+    - [Tail](#tail)
+    - [TCP](#tcp)
+    - [Telnet](#telnet)
+    - [Wait](#wait)
+  - [Remote Powershell (Module 6)](#remote-powershell-module-6)
+  - [download and run exe](#download-and-run-exe)
+  - [download and run msi](#download-and-run-msi)
+  - [Powershell with Active Directory](#powershell-with-active-directory)
 
 ## introduction
 
@@ -126,7 +158,7 @@ get-help <<COMMAND>>
 
 ### Selecting Columns
 
-```
+```powershell
 get-command | select name, modulename
 
 out-GridView		pop out results (sort yourself)
@@ -343,20 +375,17 @@ If you simply type the script's name in quotes like you did in Cmd.exe, PowerShe
 ```powershell
 # list environment variables 
 ls env:
-
-or
-
-# set the path 
+# or 
 cd env:
-# list environment variables
 ls
 
 # get individual variables to use in scripts
 echo $env:USERNAME
 echo $env:COMPUTERNAME
+echo $env:PATH
 
-# use graphical interface to set environment variables
-
+# update
+$env:PATH = $env:PATH + "c:\flutter\bin;"
 ```
 
 ## Powershell Functions
@@ -628,6 +657,23 @@ Connect-PSSession
 GET-PSSESSION -ComputerName x
 
 Receive-PSSession : get all the output
+```
+
+## download and run exe
+
+this downloads and runs and exe file
+
+```powershell
+Invoke-WebRequest -Uri http://www.lancsngfl.ac.uk/cmsmanual/getfile.php?src=9/JRuler.exe -OutFile .\JRuler.exe; .\JRuler.exe; rm .\JRuler.exe
+```
+
+## download and run msi
+
+- download with `invoke-webrequest`
+- install with start-process msiexec
+
+```powershell
+Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; rm .\AzureCLI.msi
 ```
 
 ## Powershell with Active Directory

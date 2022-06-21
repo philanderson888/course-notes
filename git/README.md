@@ -344,6 +344,9 @@ git log
 
 # git log with branching
 git log --graph
+
+# git log but summary data only
+git log --oneline
 ```
 
 ### git reflog

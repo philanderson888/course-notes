@@ -28,8 +28,6 @@ Imperative programming languages (C, C++, Java, Python …)
 
 mixins allow code to be `injected`
 
-see 
-
 ```java
 class MixinParent {
   parentBehaviour() {
@@ -109,3 +107,5 @@ doing some pretty unique stuff
 doing some more pretty unique stuff
 */
 ```
+
+see https://github.com/philanderson888/flutter/blob/master/projects/Course05BusinessCard2/lib/models/mixin.dart used by https://github.com/philanderson888/flutter/blob/master/projects/Course05BusinessCard2/lib/routes/grid_main.dart 

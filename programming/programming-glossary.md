@@ -27,4 +27,7 @@ Imperative programming languages (C, C++, Java, Python …)
 ### Mixin
 
 a way of inheriting from multiple classes similar to interfaces (which are empty) 
+- Explanations
+  - https://medium.com/flutter-community/dart-what-are-mixins-3a72344011f3
+  - https://quickbirdstudios.com/blog/flutter-dart-mixins/
 

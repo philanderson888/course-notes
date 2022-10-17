@@ -392,6 +392,8 @@ GitHub tagging can allow you to commit a project at a certain state in time, and
 
 This also works with GitHub releases.
 
+Commits should be finished first, then tagging is done second.
+
 ```powershell
 # show all tags
 git tag

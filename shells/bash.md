@@ -90,7 +90,12 @@ clear && printf '\e[3J'
 2. Set the permissions to execute
 
 ```
+# change permissions for just me
 chmod u+x myScript.sh
+# change permissions to read write execute for me
+chmod +rwx myFolder
+# change permissions for everyone for all files (dangerous!)
+chmod a+rwx *
 ```
 
 1. Put in a folder in the PATH or add your folder to the path

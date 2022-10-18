@@ -13,7 +13,6 @@ humans.txt at root of website
 
 
 
-
 ## bookmarks
 
 User Generator  https://randomuser.me/ 
@@ -31,7 +30,7 @@ Streaming Media https://www.streamingmedia.com
 Streaming Media Global https://www.streamingmediaglobal.com/
 24i streaming https://www.24i.com/
 Broadcast Digital Awards https://www.broadcastdigitalawards.co.uk
-
-
-
-
+Cable And Satellite https://www.cabsat.com
+Streaming TV Show https://www.streamtvshow.com
+Rapid TV News https://www.rapidtvnews.com
+Advanced Television https://advanced-television.com

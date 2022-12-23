@@ -2033,7 +2033,22 @@ Access by
 
 ```
 
-Windows with RDP
+### Installing Linux with a GUI
+
+```
+# install basic terminal tools
+sudo apt install tmux git ranger vim
+# 2GB download takes a while
+sudo apt install lubuntu-desktop -y
+# List Block Storage Volumes ie Drives
+lsblk
+# create a filing system on volume /dev/xvdb
+sudo mke2fs /dev/xvdb
+# go to /mnt path to get on this volume
+sudo mount /dev/xvdb /mnt   
+```
+
+###Windows with RDP
 
 Lab : creating a VM in Azure
 

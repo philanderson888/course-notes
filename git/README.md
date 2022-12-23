@@ -392,6 +392,8 @@ GitHub tagging can allow you to commit a project at a certain state in time, and
 
 This also works with GitHub releases.
 
+Commits should be finished first, then tagging is done second.
+
 ```powershell
 # show all tags
 git tag
@@ -545,4 +547,29 @@ git remote set-url origin git@github.com:username/repo.git
 # git push 
 git push origin master
 # Notice that if we get a git push - permission denied notice when we know the keys are already set up correctly then we can type in the eval and ssh-add commands again.
+```
+
+## Extra
+
+### commits
+
+/commits on repository
+
+
+### branches
+
+/branches on repository
+
+
+### stashing
+
+- git stash
+       
+```powershell
+// list
+git stash list
+// details
+git stash show
+// apply
+git stash apply
 ```

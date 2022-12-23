@@ -1,6 +1,7 @@
 # Cloud Random Terms
 
 - [Cloud Random Terms](#cloud-random-terms)
+  - [Cloud Random Terms](#cloud-random-terms-1)
     - [Cloud Terms](#cloud-terms)
     - [AWS Random Terms](#aws-random-terms)
     - [Devops General Terms](#devops-general-terms)
@@ -17,9 +18,10 @@
     - [AZURE ADVISOR](#azure-advisor)
     - [Application Insights](#application-insights)
     - [PowerBI](#powerbi)
+  - [Cloud Random Terms December 2023](#cloud-random-terms-december-2023)
 
 
-
+## Cloud Random Terms
 
 Puppet : define, enforce, maintain and report on System Configuration. Use Version Control. Can even use for scripting etc. Policy enforcement. Agentless
 
@@ -536,4 +538,11 @@ Programmable infrastructure code can be under version control
 AWS CloudFormation [https://aws.amazon.com/cloudformation/](https://aws.amazon.com/cloudformation/)
 AWS CloudFormation is free on AWS
 AWS CloudFormation allows a text-based configuration of all your apps
+
+
+## Cloud Random Terms December 2023
+
+```
+aws certified cloud practitioner
+lms learning management system eg moodle is cms for learning 
 ```

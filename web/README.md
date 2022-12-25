@@ -11,6 +11,8 @@
     - [serverless websites up and running](#serverless-websites-up-and-running)
       - [serverless with Express on Netlify](#serverless-with-express-on-netlify)
   - [main websites - no longer working](#main-websites---no-longer-working)
+    - [vue](#vue)
+    - [node express](#node-express)
 
 
 ## main websites
@@ -45,4 +47,10 @@ very happy about this, and it's something upon which I can build for the future.
 
 ## main websites - no longer working
 
-- https://vue-js-demo.netlify.app/ - this is a teaching live app running on VueJS and hosted in Netlify. The source code is at https://github.com/philanderson888/vue-live but it's no longer working because ... the build image uses Ubuntu 16.04 which is no longer supported ...
+### vue
+
+- https://vue-js-demo.netlify.app deploys from https://github.com/philanderson888/vue-live - teaching app in Vue on Netlify ... suggest rebuild from scratch ... 
+
+### node express
+
+- https://github.com/philanderson888/nodejs/tree/master/projects/all-in-one-app not yet deploying

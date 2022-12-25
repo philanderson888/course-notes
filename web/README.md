@@ -5,6 +5,9 @@
 - [web](#web)
   - [contents](#contents)
   - [main websites](#main-websites)
+    - [static](#static)
+    - [other](#other)
+    - [demo gatsby ecommerce](#demo-gatsby-ecommerce)
     - [serverless websites up and running](#serverless-websites-up-and-running)
       - [serverless with Express on Netlify](#serverless-with-express-on-netlify)
   - [main websites - no longer working](#main-websites---no-longer-working)
@@ -14,10 +17,18 @@
 
 these are the main websites which i have in deployment and their relationship with deployment websites eg Netlify and AWS and Azure ...
 
+### static
+
+- https://github.com/philanderson888/course-notes this has text notes and instructions which cover all aspects of programming 
+
+### other
+
 - https://philanderson.uk deploys via Netlify which reads from 
 - https://philanderson.uk/contact - this has links to how to contact me on the web
-- https://github.com/philanderson888/course-notes this has text notes and instructions which cover all aspects of programming 
-- https://63a809de3be5490c959a80a1--fantastic-churros-414628.netlify.app - this is a demo Gasby starter app pulled from the web, not built by me.  It's very complex and might be too complex for me to build on, but it's very sophisticated and I could use it to build a starter shop to sell tshirts etc ... or I could build this from sratch ...
+
+### demo gatsby ecommerce
+
+- https://demo-gatsby-ecommerce-site.netlify.app - demo Gasby ecommerce site.  It's very complex and might be too complex for me to build on, but it's very sophisticated and I could use it to build a starter shop to sell tshirts etc ... or I could build this from sratch ...
 
 ### serverless websites up and running
 

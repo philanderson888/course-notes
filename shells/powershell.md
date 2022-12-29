@@ -2,40 +2,44 @@
 
 ## contents
 - [powershell](#powershell)
-  - [contents](#contents)
-  - [introduction](#introduction)
+	- [contents](#contents)
+	- [introduction](#introduction)
 - [installing](#installing)
-    - [Open Explorer At  Path](#open-explorer-at--path)
-  - [PS Core](#ps-core)
-    - [Setting The Default Path In Powershell](#setting-the-default-path-in-powershell)
-    - [Invoke-webrequest  connects to a web socket](#invoke-webrequest--connects-to-a-web-socket)
-    - [Port Scan](#port-scan)
-  - [Intro](#intro)
-  - [ISE](#ise)
-  - [Simple commands](#simple-commands)
-    - [Selecting Columns](#selecting-columns)
-    - [SORT](#sort)
-    - [FORMAT OUTPUT AS A TABLE](#format-output-as-a-table)
-    - [Piping Output](#piping-output)
-    - [write-host to screen](#write-host-to-screen)
-    - [Variables - Naming Conventions](#variables---naming-conventions)
-    - [Variables - Naming Conventions](#variables---naming-conventions-1)
-    - [Conditional Operators if](#conditional-operators-if)
-  - [Environment Variables](#environment-variables)
-    - [Get Environment Variables](#get-environment-variables)
-  - [Powershell Functions](#powershell-functions)
-    - [Function with no parameters](#function-with-no-parameters)
-    - [Function with parameters](#function-with-parameters)
-  - [Powershell Summary So Far](#powershell-summary-so-far)
-  - [functions](#functions)
-    - [Tail](#tail)
-    - [TCP](#tcp)
-    - [Telnet](#telnet)
-    - [Wait](#wait)
-  - [Remote Powershell (Module 6)](#remote-powershell-module-6)
-  - [download and run exe](#download-and-run-exe)
-  - [download and run msi](#download-and-run-msi)
-  - [Powershell with Active Directory](#powershell-with-active-directory)
+		- [Open Explorer At  Path](#open-explorer-at--path)
+	- [PS Core](#ps-core)
+		- [Setting The Default Path In Powershell](#setting-the-default-path-in-powershell)
+		- [Invoke-webrequest  connects to a web socket](#invoke-webrequest--connects-to-a-web-socket)
+		- [Port Scan](#port-scan)
+	- [Intro](#intro)
+	- [ISE](#ise)
+	- [Simple commands](#simple-commands)
+		- [Selecting Columns](#selecting-columns)
+		- [SORT](#sort)
+		- [FORMAT OUTPUT AS A TABLE](#format-output-as-a-table)
+		- [Piping Output](#piping-output)
+		- [write-host to screen](#write-host-to-screen)
+		- [Variables - Naming Conventions](#variables---naming-conventions)
+		- [Variables - Naming Conventions](#variables---naming-conventions-1)
+		- [Conditional Operators if](#conditional-operators-if)
+	- [list files](#list-files)
+	- [get file details](#get-file-details)
+	- [create files and edit files](#create-files-and-edit-files)
+	- [remove a folder](#remove-a-folder)
+	- [Environment Variables](#environment-variables)
+		- [Get Environment Variables](#get-environment-variables)
+	- [Powershell Functions](#powershell-functions)
+		- [Function with no parameters](#function-with-no-parameters)
+		- [Function with parameters](#function-with-parameters)
+	- [Powershell Summary So Far](#powershell-summary-so-far)
+	- [functions](#functions)
+		- [Tail](#tail)
+		- [TCP](#tcp)
+		- [Telnet](#telnet)
+		- [Wait](#wait)
+	- [Remote Powershell (Module 6)](#remote-powershell-module-6)
+	- [download and run exe](#download-and-run-exe)
+	- [download and run msi](#download-and-run-msi)
+	- [Powershell with Active Directory](#powershell-with-active-directory)
 
 ## introduction
 
@@ -262,7 +266,7 @@ if (A -eq B){}
 Get-process | where cpu -gt 10
 ```
 
-listing files
+## list files 
 
 ```
 DIR
@@ -274,7 +278,7 @@ get-childitem
 		-path xxx
 ```
 
-DEALING WITH FILES
+## get file details
 
 ```
 GET-ITEM		file PROPERTIES
@@ -292,7 +296,7 @@ OUT-FILE		SEND DATA TO A FILE
 	out-file abc.txt -append -inputobject 'addThisIn' -encoding utf8
 ```
 
-CREATING AND EDITING FILES
+## create files and edit files
 
 ```
 Copy-Item
@@ -302,6 +306,12 @@ Remove-Item
 Rename-Item
 	
 Clear/Copy/Get/Invoke/Move/New/Remove/Rename-Item
+```
+
+## remove a folder
+
+```ps
+rd -recurse my-folder-with-all-sub-folders
 ```
 
 Running Scripts

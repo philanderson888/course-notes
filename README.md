@@ -6,6 +6,7 @@ This is a repository of tech notes on a variety of topics
 
 - [tech notes](#tech-notes)
   - [Contents](#contents)
+  - [Web](#web)
   - [Git](#git)
   - [Shell Scripting](#shell-scripting)
   - [Programming](#programming)
@@ -15,6 +16,12 @@ This is a repository of tech notes on a variety of topics
   - [Non-Tech](#non-tech)
   - [Random Terms](#random-terms)
   - [glossaries](#glossaries)
+
+## Web
+
+websites deployed are all listed here
+
+[web](web)
 
 ## Git
 
@@ -67,6 +74,3 @@ This is a repository of tech notes on a variety of topics
 - [programming glossary 2](https://github.com/philanderson888/javascript/blob/main/notes/glossary-programming.md)
 - [traditional web glossary](https://github.com/philanderson888/javascript/blob/main/notes/glossary-web.md)
 - [modern web glossary](https://github.com/philanderson888/javascript/blob/main/notes/glossary-modern-web.md)
-
-
-

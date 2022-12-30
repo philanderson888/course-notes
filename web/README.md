@@ -11,6 +11,7 @@
     - [serverless Express on Netlify](#serverless-express-on-netlify)
     - [gatsby ecommerce](#gatsby-ecommerce)
     - [vite and svelte demo](#vite-and-svelte-demo)
+    - [other sites](#other-sites)
 
 ## domains
 
@@ -70,3 +71,7 @@ Bare bones demo at https://netlify-express-serverless.netlify.app deploys from h
 ### vite and svelte demo
 
 https://svelte-hello-world-01.netlify.app deploys from https://github.com/philanderson888/svelte
+
+### other sites
+
+go through and parse / clarify all sites at https://app.netlify.com/teams/philanderson888/sites 

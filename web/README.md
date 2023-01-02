@@ -25,6 +25,7 @@
   - problem is site has frozen out so no longer updates (issue with old contentful/gatsby site)
 
 - https://jesusislord.uk
+  - registered with names.co.uk
   - hosted on Netlify
   - code at https://github.com/philanderson888/jesusislord.uk
   - built and run by https://github.com/hannahjra

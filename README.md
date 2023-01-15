@@ -12,6 +12,8 @@ This is a repository of tech notes on a variety of topics
   - [Programming](#programming)
   - [Infrastructure](#infrastructure)
   - [Cyber](#cyber)
+  - [database](#database)
+    - [sqlite](#sqlite)
   - [Tech](#tech)
   - [Non-Tech](#non-tech)
   - [Random Terms](#random-terms)
@@ -48,7 +50,11 @@ websites deployed are all listed here
 
 [Cyber](cyber)
 
+## database
 
+### sqlite
+
+[sqlite](database/sqlite/README.md)
 
 ## Tech
 

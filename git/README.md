@@ -7,7 +7,7 @@ Philip Anderson
 
 ## Last Updated
 
-November 2020
+February 2023
 
 ## Contents
 
@@ -77,7 +77,7 @@ download [git-scm.com/download](http://git-scm.com/download)
 Windows
 
 ```powershell
-choco install git.install
+choco install git
 ```
 
 ## Basic Commands

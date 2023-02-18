@@ -6,10 +6,26 @@
   - [contents](#contents)
   - [windows](#windows)
     - [install developer machine from scratch](#install-developer-machine-from-scratch)
+      - [set powershell default folder](#set-powershell-default-folder)
 
 ## windows
 
 ### install developer machine from scratch
+
+#### set powershell default folder
+
+as administrator
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
+
+```
+cd ~/Documents
+cd WindowsPowerShell
+notepad profile.ps1
+Add-Content profile.ps1 "Set-Location C:\github"
+```
 
 1. chocolatey
 

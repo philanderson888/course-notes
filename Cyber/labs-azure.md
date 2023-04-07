@@ -174,6 +174,7 @@ az vm list -g my-group -o table --show-details
 new-azvm -ResourceGroupName ResourceGroup01 -image win10 -location uksouth -size standard_d2_v3 -n Win10   
 ```
 
+
 Find out the IP and log in with RDP
 
 ```powershell

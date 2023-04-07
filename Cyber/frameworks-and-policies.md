@@ -1,5 +1,7 @@
 # Frameworks and Policies 
 
+*merge differences with frameworks-1 and frameworks-and-policies*
+
 - [Frameworks and Policies](#frameworks-and-policies)
   - [Introduction](#introduction)
   - [ISO 27001](#iso-27001)

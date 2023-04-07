@@ -1,5 +1,7 @@
 # Cyber Glossary
 
+*merge differences with cyber-glossary-1*
+
 - [Cyber Glossary](#cyber-glossary)
   - [OWASP Cyber Glossary](#owasp-cyber-glossary)
   - [CSYA CSO-002 Exam Prep Sheets](#csya-cso-002-exam-prep-sheets)
@@ -1155,14 +1157,3 @@ responder - responds to DNS broadcasts and tricks computers into revealing NTLMv
 hashcat brute force hash cracker
 
 wordscrape the internet
-
-
-
-
-
-
-
-
-
-
-

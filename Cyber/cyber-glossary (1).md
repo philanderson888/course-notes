@@ -1,5 +1,7 @@
 # Cyber Glossary
 
+*merge differences with cyber-glossary-1*
+
 - [Cyber Glossary](#cyber-glossary)
   - [802.1x](#8021x)
   - [Analysis Of network traffic](#analysis-of-network-traffic)
@@ -1144,14 +1146,3 @@ responder - responds to DNS broadcasts and tricks computers into revealing NTLMv
 hashcat brute force hash cracker
 
 wordscrape the internet
-
-
-
-
-
-
-
-
-
-
-

@@ -7,6 +7,9 @@
   - [windows](#windows)
     - [install developer machine from scratch](#install-developer-machine-from-scratch)
       - [set powershell default folder](#set-powershell-default-folder)
+    - [chocolatey](#chocolatey)
+    - [git](#git)
+    - [node and npm](#node-and-npm)
 
 ## windows
 
@@ -27,7 +30,7 @@ notepad profile.ps1
 Add-Content profile.ps1 "Set-Location C:\github"
 ```
 
-1. chocolatey
+### chocolatey
 
 as administrator
 
@@ -35,8 +38,21 @@ as administrator
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-2. git
+### git
 
 ```
 choco install git -y
 ```
+
+### node and npm
+
+```powershell
+choco install nodejs.install
+# start new shell
+start powershell
+# verify install
+node -v
+npm -v
+```
+
+

@@ -208,8 +208,3 @@ if hash is obtained, submit it directly
                                           credentials can be used
                                           
 Note : live system : might be possible to obtain from memory (RAM)
-
-
-
-
-

@@ -131,6 +131,7 @@
 
 ## Cloud Critial Terms
 
+```
 SAAS
 
 PAAS
@@ -216,6 +217,7 @@ Devops runs infastructure against scripts
   Jenkins is a CI/CD server written in Java
 
 Microservices
+```
 
 
 

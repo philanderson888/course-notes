@@ -6,30 +6,167 @@
   - [Contents](#contents)
   - [Introduction](#introduction)
   - [Cloud Critial Terms](#cloud-critial-terms)
+    - [devops](#devops)
   - [Office 365 Random Notes](#office-365-random-notes)
-    - [Cloud](#cloud-1)
-    - [Ported from real machines](#ported-from-real-machines)
-    - [Software Load Balancer](#software-load-balancer)
-    - [Global Route Balancing With Route 53](#global-route-balancing-with-route-53)
-    - [Latency-based routing](#latency-based-routing)
-    - [restric access](#restric-access)
-- [install basic terminal tools](#install-basic-terminal-tools)
-- [2GB download takes a while](#2gb-download-takes-a-while)
-- [List Block Storage Volumes ie Drives](#list-block-storage-volumes-ie-drives)
-- [create a filing system on volume /dev/xvdb](#create-a-filing-system-on-volume-devxvdb)
-- [go to /mnt path to get on this volume](#go-to-mnt-path-to-get-on-this-volume)
-- [enable with](#enable-with)
-- [create and run first default vm  (this failed on Windows!)](#create-and-run-first-default-vm--this-failed-on-windows)
-- [show machines](#show-machines)
-    - [Vagrant Initial Steps](#vagrant-initial-steps)
-  - [Provisioning](#provisioning)
-    - [Provision A Folder](#provision-a-folder)
-    - [which](#which)
-    - [update and upgrade](#update-and-upgrade)
-    - [nginx](#nginx)
-    - [Provisioning an environment](#provisioning-an-environment)
-    - [Running your app](#running-your-app)
-    - [Ubuntu Install Node](#ubuntu-install-node)
+  - [supplies](#supplies)
+  - [Benefits Of Cloud Computing](#benefits-of-cloud-computing)
+    - [Capital Fixed expenses for hardware become variable expenses](#capital-fixed-expenses-for-hardware-become-variable-expenses)
+    - [speed of app development - quick spin up of environments](#speed-of-app-development---quick-spin-up-of-environments)
+    - [Reduce risk](#reduce-risk)
+    - [reduce security risk](#reduce-security-risk)
+    - [Also](#also)
+    - [Scalability](#scalability)
+    - [Agility](#agility)
+  - [cloud history](#cloud-history)
+    - [Cloud formation](#cloud-formation)
+    - [Elasticity](#elasticity)
+    - [Reliability](#reliability)
+    - [Security](#security)
+  - [Cloud Types 2020](#cloud-types-2020)
+    - [On-Premises (No cloud) (27%)](#on-premises-no-cloud-27)
+    - [Private (20%)](#private-20)
+    - [Public (41%)](#public-41)
+    - [Hybrid (22%)](#hybrid-22)
+  - [IaaS vs PaaS vs SaaS](#iaas-vs-paas-vs-saas)
+  - [PaaS](#paas)
+  - [IaaS](#iaas)
+  - [IaaS Resilience](#iaas-resilience)
+  - [PaaS](#paas-1)
+  - [SAAS Software As A Service](#saas-software-as-a-service)
+    - [Overview of different cloud platforms](#overview-of-different-cloud-platforms)
+    - [Vendor](#vendor)
+  - [Private Cloud](#private-cloud)
+    - [Deploying Cloud Technology Locally : Azure Stack and AWS Outposts](#deploying-cloud-technology-locally--azure-stack-and-aws-outposts)
+    - [OpenStack which builds a private cloud](#openstack-which-builds-a-private-cloud)
+    - [IoT : AWS, Greengrass, Azure Hub](#iot--aws-greengrass-azure-hub)
+  - [Public Cloud Storage](#public-cloud-storage)
+- [Cloud Identity](#cloud-identity)
+    - [Managing Identity](#managing-identity)
+    - [RBAC Role Based Access Control](#rbac-role-based-access-control)
+- [Cloud Security](#cloud-security)
+  - [Security Config and Compliance](#security-config-and-compliance)
+    - [Security Standards](#security-standards)
+    - [Physical Security](#physical-security)
+    - [Security Standards](#security-standards-1)
+    - [Compliance](#compliance)
+  - [Laws](#laws)
+  - [PKI](#pki)
+    - [Symmetric](#symmetric)
+    - [Asymmetric](#asymmetric)
+    - [SSL](#ssl)
+    - [Verifying validity of a site.](#verifying-validity-of-a-site)
+    - [Key Archival Server](#key-archival-server)
+    - [Signing can provide integrity](#signing-can-provide-integrity)
+    - [PKI as a service](#pki-as-a-service)
+  - [Encryption](#encryption)
+    - [IPSEC](#ipsec)
+    - [TLS and SSL](#tls-and-ssl)
+  - [Ciphers](#ciphers)
+    - [Asynchronous](#asynchronous)
+    - [Cipher Detail (with images)](#cipher-detail-with-images)
+    - [VPN Tunneling](#vpn-tunneling)
+  - [Access Control (already covered)](#access-control-already-covered)
+    - [Federation : pass the authentication back to original provider](#federation--pass-the-authentication-back-to-original-provider)
+    - [Types of access control](#types-of-access-control)
+  - [Object Authorisation (already covered)](#object-authorisation-already-covered)
+  - [Data Classification](#data-classification)
+  - [Segmentation and Microsegmentation](#segmentation-and-microsegmentation)
+- [Advanced Cloud](#advanced-cloud)
+  - [Serverless Compting : Functions](#serverless-compting--functions)
+  - [Machine Learning](#machine-learning)
+  - [Cognitive Services](#cognitive-services)
+    - [IoT](#iot)
+- [Security Automation](#security-automation)
+    - [Why Automate?](#why-automate)
+    - [Automation Scripting](#automation-scripting)
+    - [Security Services](#security-services)
+    - [Automation Tools](#automation-tools)
+- [Containers](#containers)
+    - [Container services - deploy and manage containers](#container-services---deploy-and-manage-containers)
+    - [Containers](#containers-1)
+- [Cloud And Container Services](#cloud-and-container-services)
+    - [Microservices](#microservices)
+- [DevSecOps](#devsecops)
+- [AWS](#aws)
+  - [AWS Introduction](#aws-introduction)
+  - [Course Structure](#course-structure)
+  - [Fundamentals](#fundamentals)
+    - [5 Pillars](#5-pillars)
+    - [Security](#security-1)
+      - [IAM Security](#iam-security)
+        - [IAM Policy](#iam-policy)
+      - [Network Security](#network-security)
+        - [VPC Virtual Private Cloud](#vpc-virtual-private-cloud)
+    - [AWS secure web app demo](#aws-secure-web-app-demo)
+  - [AWS Container Services](#aws-container-services)
+  - [AWS Abstracted Services](#aws-abstracted-services)
+  - [AWS Environment Security](#aws-environment-security)
+    - [IAM](#iam)
+    - [AWS Cloudwatch Application Logs](#aws-cloudwatch-application-logs)
+    - [Amazon Inspector : Vulnerability Scanning](#amazon-inspector--vulnerability-scanning)
+- [AWS Container Security](#aws-container-security)
+  - [AWS VPC Virtual Private Cloud](#aws-vpc-virtual-private-cloud)
+    - [AWS KMS key service](#aws-kms-key-service)
+    - [AWS Example : Bank](#aws-example--bank)
+    - [RDS relational database](#rds-relational-database)
+    - [EMR big data](#emr-big-data)
+    - [Elastic beanstalk - app deployment](#elastic-beanstalk---app-deployment)
+    - [AWS Environment Variables](#aws-environment-variables)
+  - [Serverless Computing](#serverless-computing)
+- [Load Balancing](#load-balancing)
+  - [Types Of Load Balancer](#types-of-load-balancer)
+  - [Considerations Of Load Balancing](#considerations-of-load-balancing)
+    - [Scaling Infrastructure](#scaling-infrastructure)
+    - [Scaling Load Balancers](#scaling-load-balancers)
+    - [NGINX Load Balancing](#nginx-load-balancing)
+- [Cloud Labs](#cloud-labs)
+    - [Install AWS Linux](#install-aws-linux)
+    - [AWS RDS database access](#aws-rds-database-access)
+    - [AWS Securing Access To S3](#aws-securing-access-to-s3)
+    - [Installing Linux with a GUI](#installing-linux-with-a-gui)
+- [DevOps Intro](#devops-intro)
+    - [CI-CD-CD](#ci-cd-cd)
+  - [Vagrant](#vagrant)
+    - [Vagrant : get started guide](#vagrant--get-started-guide)
+    - [Vagrant with Hyper-V](#vagrant-with-hyper-v)
+    - [Vagrant With Virtualbox](#vagrant-with-virtualbox)
+    - [CMD (not powershell) terminal as admin :](#cmd-not-powershell-terminal-as-admin-)
+- [Create Vagrantfile](#create-vagrantfile)
+- [Set a more specific version](#set-a-more-specific-version)
+    - [This is the copy of the Vagrant file which works now](#this-is-the-copy-of-the-vagrant-file-which-works-now)
+- [In windows, make sure HyperV is not conflicting with VirtualBox - turn it off and reboot](#in-windows-make-sure-hyperv-is-not-conflicting-with-virtualbox---turn-it-off-and-reboot)
+- [turn on (5-10 minutes)](#turn-on-5-10-minutes)
+- [log in](#log-in)
+- [update](#update)
+- [install nginx](#install-nginx)
+- [start nginx](#start-nginx)
+- [check if running](#check-if-running)
+- [start also with this command](#start-also-with-this-command)
+- [see which service is using port 80](#see-which-service-is-using-port-80)
+- [if it works you can now do, in a browser](#if-it-works-you-can-now-do-in-a-browser)
+- [and a web page will appear](#and-a-web-page-will-appear)
+- [reload machine with new configuration](#reload-machine-with-new-configuration)
+- [or](#or)
+- [take down vm then boot up again](#take-down-vm-then-boot-up-again)
+- [set dns](#set-dns)
+- [add to config fileconfig.hostsupdater.aliases = \["development.local"\]](#add-to-config-fileconfighostsupdateraliases--developmentlocal)
+- [this is the script which works](#this-is-the-script-which-works)
+- [Now access via](#now-access-via)
+- [maps /app to /app on VM](#maps-app-to-app-on-vm)
+- [Synced app folder](#synced-app-folder)
+- [find out the path to an executable](#find-out-the-path-to-an-executable)
+- [update metadata](#update-metadata)
+- [upgrade](#upgrade)
+- [add this to provision.sh](#add-this-to-provisionsh)
+- [Now add this provisioning to our Vagrant script](#now-add-this-provisioning-to-our-vagrant-script)
+- [Synced app folder](#synced-app-folder-1)
+- [Provisioning](#provisioning)
+- [Try running the app with (on Windows)](#try-running-the-app-with-on-windows)
+- [also play around with adding data to files remotely](#also-play-around-with-adding-data-to-files-remotely)
+- [add to new file](#add-to-new-file)
+- [also](#also-1)
+- [This is the sample](#this-is-the-sample)
+- [on local machine go to](#on-local-machine-go-to)
   - [Environment Variables](#environment-variables)
   - [Packer](#packer)
     - [Intro To Packer](#intro-to-packer)
@@ -47,7 +184,7 @@
     - [Building a docker file](#building-a-docker-file)
     - [Docker with ports](#docker-with-ports)
     - [Run docker in the background](#run-docker-in-the-background)
-    - [NginX](#nginx-1)
+    - [NginX](#nginx)
     - [Node Sample App](#node-sample-app)
     - [Pushing Docker Container to Docker Hub](#pushing-docker-container-to-docker-hub)
     - [Docker Node Example](#docker-node-example)
@@ -131,7 +268,6 @@
 
 ## Cloud Critial Terms
 
-```
 SAAS
 
 PAAS
@@ -186,38 +322,39 @@ Data Lake
 
 AWS Inspector does vulnerability management
 
+### devops
+
 Devops runs infastructure against scripts
 
-  Docker - provide running VM on demand with an app
-  Kubernetes orchestrates docker containers
-  KubeCtl is kubernetes command line tool
-  MiniKube is local version of kubernetes for learning kubernetes
+  - Docker - provide running VM on demand with an app
+  - Kubernetes orchestrates docker containers
+  - KubeCtl is kubernetes command line tool
+  - MiniKube is local version of kubernetes for learning kubernetes
 
-  Vagrant by HashiCorp - build testing/development environments
-  Packer by HashiCorp - build production environments : one script => multiple platforms
-  Terraform by HashiCorp - configuration management for infrastructure eg versioning, uses Go.  Best choice if you are using Docker and Packer
+  - Vagrant by HashiCorp - build testing/development environments
+  - Packer by HashiCorp - build production environments : one script => multiple platforms
+  - Terraform by HashiCorp - configuration management for infrastructure eg versioning, uses Go.  Best choice if you are using Docker and Packer
 
-  IAAS top tools are 
-    Puppet
-    Chef
-    Ansible
-    Saltstack (master/minion model)
+  - IAAS top tools are 
+    - Puppet
+    - Chef
+    - Ansible
+    - Saltstack (master/minion model)
 
-  Chef by Progress - configuration management for software using Ruby - best choice for changeable environments, has agent on nodes, $14k/year for 100 nodes
-  Immutable environment cannot be changed but has to be rebuilt again from scratch
-  Changeable environment can alter the configuration of your servers live
+  - Chef by Progress - configuration management for software using Ruby - best choice for changeable environments, has agent on nodes, $14k/year for 100 nodes
+  - Immutable environment cannot be changed but has to be rebuilt again from scratch
+  - Changeable environment can alter the configuration of your servers live
   
-  Ansible by Red Hat is a complex orchestration tool in Python and YAML to deploy software, configure systems and organises updates and continuous deployments.  Kubernetes can use custom Ansible builds.  Configuration is pushed to the nodes.  Simple to learn with python and YAML, is agentless unlike Chef and Puppet.  $10k/year for 100 nodes
-  Docker - deploys an app in a container
-  Ansible - configures and manages the docker app after deployment
-  Docker for deployment, ansible for configuration after deployment
+  - Ansible by Red Hat is a complex orchestration tool in Python and YAML to deploy software, configure systems and organises updates and continuous deployments.  Kubernetes can use custom Ansible builds.  Configuration is pushed to the nodes.  Simple to learn with python and YAML, is agentless unlike Chef and Puppet.  $10k/year for 100 nodes
+  - Docker - deploys an app in a container
+  - Ansible - configures and manages the docker app after deployment
+  - Docker for deployment, ansible for configuration after deployment
 
-  Puppet is configuration management tool in Ruby where you declare the desired server state not the way to reach it - configuration is pulled from the server, also has agent on the node, $12k-$20k/year for 100 nodes
+  - Puppet is configuration management tool in Ruby where you declare the desired server state not the way to reach it - configuration is pulled from the server, also has agent on the node, $12k-$20k/year for 100 nodes
 
-  Jenkins is a CI/CD server written in Java
+  - Jenkins is a CI/CD server written in Java
 
 Microservices
-```
 
 
 
@@ -301,7 +438,7 @@ Admin roles
 	Delegated to a 3rd party 
 	Full = Global admin 
 	Limited = same as password admin 
-```
+
 
 
 

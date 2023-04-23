@@ -7,31 +7,12 @@
   - [Introduction](#introduction)
   - [Cloud Critial Terms](#cloud-critial-terms)
     - [devops](#devops)
-  - [Office 365 Random Notes](#office-365-random-notes)
-  - [supplies](#supplies)
-  - [Benefits Of Cloud Computing](#benefits-of-cloud-computing)
-    - [Capital Fixed expenses for hardware become variable expenses](#capital-fixed-expenses-for-hardware-become-variable-expenses)
-    - [speed of app development - quick spin up of environments](#speed-of-app-development---quick-spin-up-of-environments)
-    - [Reduce risk](#reduce-risk)
-    - [reduce security risk](#reduce-security-risk)
-    - [Also](#also)
-    - [Scalability](#scalability)
-    - [Agility](#agility)
+    - [big data](#big-data)
+    - [azure](#azure)
+  - [benefits of cloud](#benefits-of-cloud)
+  - [saas / paas / iaas](#saas--paas--iaas)
   - [cloud history](#cloud-history)
-    - [Cloud formation](#cloud-formation)
-    - [Elasticity](#elasticity)
-    - [Reliability](#reliability)
-    - [Security](#security)
-  - [Cloud Types 2020](#cloud-types-2020)
-    - [On-Premises (No cloud) (27%)](#on-premises-no-cloud-27)
-    - [Private (20%)](#private-20)
-    - [Public (41%)](#public-41)
-    - [Hybrid (22%)](#hybrid-22)
-  - [IaaS vs PaaS vs SaaS](#iaas-vs-paas-vs-saas)
-  - [PaaS](#paas)
-  - [IaaS](#iaas)
-  - [IaaS Resilience](#iaas-resilience)
-  - [PaaS](#paas-1)
+  - [cloud random terms](#cloud-random-terms)
   - [SAAS Software As A Service](#saas-software-as-a-service)
     - [Overview of different cloud platforms](#overview-of-different-cloud-platforms)
     - [Vendor](#vendor)
@@ -50,17 +31,13 @@
     - [Security Standards](#security-standards-1)
     - [Compliance](#compliance)
   - [Laws](#laws)
-  - [PKI](#pki)
-    - [Symmetric](#symmetric)
-    - [Asymmetric](#asymmetric)
-    - [SSL](#ssl)
+    - [keys](#keys)
     - [Verifying validity of a site.](#verifying-validity-of-a-site)
     - [Key Archival Server](#key-archival-server)
     - [Signing can provide integrity](#signing-can-provide-integrity)
     - [PKI as a service](#pki-as-a-service)
   - [Encryption](#encryption)
     - [IPSEC](#ipsec)
-    - [TLS and SSL](#tls-and-ssl)
   - [Ciphers](#ciphers)
     - [Asynchronous](#asynchronous)
     - [Cipher Detail (with images)](#cipher-detail-with-images)
@@ -92,7 +69,7 @@
   - [Course Structure](#course-structure)
   - [Fundamentals](#fundamentals)
     - [5 Pillars](#5-pillars)
-    - [Security](#security-1)
+    - [Security](#security)
       - [IAM Security](#iam-security)
         - [IAM Policy](#iam-policy)
       - [Network Security](#network-security)
@@ -164,7 +141,7 @@
 - [Try running the app with (on Windows)](#try-running-the-app-with-on-windows)
 - [also play around with adding data to files remotely](#also-play-around-with-adding-data-to-files-remotely)
 - [add to new file](#add-to-new-file)
-- [also](#also-1)
+- [also](#also)
 - [This is the sample](#this-is-the-sample)
 - [on local machine go to](#on-local-machine-go-to)
   - [Environment Variables](#environment-variables)
@@ -231,7 +208,7 @@
     - [MAC Install Jenkins](#mac-install-jenkins)
     - [AWS Ubuntu Install Jenkins](#aws-ubuntu-install-jenkins)
     - [AWS Scripted Jenkins Install](#aws-scripted-jenkins-install)
-- [Azure](#azure)
+- [Azure](#azure-1)
   - [Azure Devops](#azure-devops)
     - [Blockchain](#blockchain)
 - [HyperV](#hyperv)
@@ -353,336 +330,239 @@ Devops runs infastructure against scripts
   - Puppet is configuration management tool in Ruby where you declare the desired server state not the way to reach it - configuration is pulled from the server, also has agent on the node, $12k-$20k/year for 100 nodes
 
   - Jenkins is a CI/CD server written in Java
+  - Spinnaker is app configuration management tool by oracle
 
 Microservices
 
+Redis is used as an in-memory database and cache
+- RDB Redis Database can persist storage as backups eg hourly, daily
 
 
 
 
-## Office 365 Random Notes
-
-SAAS 
-  Sharepoint
-  Exchange
 
 
+### big data
 
-Private Cloud 
-	SAAS : Sharepoint, Exchange 
-	PAAS : SQL, .NET 
-	IAAS : Server, SCCM 
- 
-Public Cloud 
-	SAAS : Office 365, Sharepoint Svc 
-	PAAS : Azure, SQL, AWS 
-	IAAS : Server, SCCM, EC2, Azure Rackspace, Google Compute 
- 
-Hybrid Cloud : On Premise + Cloud 
- 
-	Extra costs 
-		Management costs of two clouds 
-		Data transfer 
-		Integration 
-		Storage 
-		Platform 
-		Licence 
-		Personnel 
- 
-Azure Fabric 
- 
-Ports 
-  443 : ADFS 
-  587 : SMTP 
-  143/993 IMAP 
-  995 POP 
- 
- 
+- Apache Hadoop allows for distributed processing 
+- Apache Spark runs data engineering on clusters
+- Apache Hive stores big data to SQL
+- Apache Kafka is used for big data stream processing
 
-Domains 
-	Manage.microsoft.com 
-	Microsoftonline-p.com 
-	Spynet2.microsoft.com 
-	Blob.core.windows.net 
-	c.microsoft.com 
-	C1.microsoft.com 
-	Googleapis.com
-	Livemeeting.com 
-	Microsoftonline.com 
-	Social.technet.microsoft.com 
-	Blogs.technet.com 
-	Go.microsoft.com 
- 
- 
-Azure 
-	Application Insights : App Stats & Issues 
-	Automation eg of deployment 
-	Batch : parallel HPC High Performance Computing workloads 
-	DocumentDB NoSQL  
-	ExpressRoute : High Speed Azure to Datacenter 
-	HDInsight : Hadoop manage big data 
-	Operational Insights : Machine data 
-	Redis cache 
-	StorSimple : hybrid cloud storage 
-	Traffic Manager : load balancer 
+### azure
+
+- application insights - app stats and issues
+- DocumentDB is NoSQL
+- ExpressRoute
+- HDInsight is big data analytics
+- StorSimple - cloud NAS/SAN
+- Traffic Manager - DNS and load balancing
+- Fabric Controller manages VM clusters
+- identity
+  - can sync with local AD
+  - ADFS Federated Services can provide identity services eg 2FA across platforms
+
+ ## benefits of cloud
+
+ - monthly subscriptions rather than huge initial outlays
+ - speed of change 
+ - agile app development with very little costs to prototype
+ - fail fast
+ - patch quickly
+ - respond quickly
+ - update quickly
+ - agile customer service
+ - scale out
+ - scale up
+ - elasticity to scale out quickly
+ - innovate
+ - self healing if node goes offline then spin up new instance
+ - availability zones match geographical regions
+ - monitor compliance more easily
+
+
   
-FC Fabric Controller 
-	Monitors compute instances and if fails, will move VM to another location 
- 
-Identity 
-	Online only 
-	Sync with local AD 
-	ADFS Federated with other provider in charge 
- 
-Admin roles 
-	Delegated to a 3rd party 
-	Full = Global admin 
-	Limited = same as password admin 
 
 
 
+## saas / paas / iaas
 
+- iaas
+  - vm
+  - network
+  - storage
+  - clusters
+  - load balancing
+- paas
+  - apps
+  - db
+- saas - data
 
-
-
-
-## supplies
-
-Storage 
-
-  storage array
-
-Networking
-
-CPU
-
-Bus speeds
-
-
-
-## Benefits Of Cloud Computing
-
-### Capital Fixed expenses for hardware become variable expenses
-
-### speed of app development - quick spin up of environments
-
-### Reduce risk
-
-test quickly so lessen up front investment
-
-### reduce security risk
-
-test often
-
-patch quickly
-
-respond quickly
-
-
-
-### Also
-
-Scalability
-Agility
-Innovation
-
-### Scalability
-
-re-size as required
-
-### Agility
-
-Increase speed
-experiment more
-  with low cost
-  and low risk
-innovate more
+- SAAS 
+  - Sharepoint
+  - Exchange
+  - Office 365
+- PAAS
+  - SQL
+  - .NET
+  - AWS
+  - Azure
+- IAAS
+  - SCCM
+  - EC2
+  - Azure Rackspace
+  - Google Compute provides virtual machines
 
 
 
 ## cloud history
 
-Mainframes had a form of ‘thin client’ virtualization
+- mainframes had thin clients
+- hardware virtualisation in 2000s
+- docker containers 
 
-Software virtualization - very slow
 
-Hardware virtualization - 2000s
+## cloud random terms
 
-Containers - virtual OS kernel in standard package
+Puppet - manage system config with version control
 
+Conjur - manage secrets eg in puppet
 
+Ansible - manage sister config - simpler version of puppet
 
+cloud foundry deploy apps on docker containers
 
-### Cloud formation
+kubernetes - manage containers in groups
 
-Use for testing
+gke google kubernetes engine
 
-### Elasticity
+google stackdriver - manage alerts, monitoring and loggine
 
-scale up or down easily
+aws cloud formation - text based config of all apps
 
-### Reliability
+CAPEX - buy expenses in advance
 
-Ability to recover for failure
+OPEX - pay for current expenses real time
 
-- meet demand
-- recover from failures
-- auto healing
+orchestration - manage multiple containers
 
-AWS Regions contain multiple `availability zones`
+infrastructure as cloud - fully scripted infrastructure environment
 
-Each `availability zone` has one or more data centers with redundant power and networking in separate facilities
+risk register - list of things which can break
 
-### Security
+caas - communinication as a service
 
-Keys
-Compliance
-Continual monitoring of compliance
+maas - monitoring as a service
 
+naas - network as a service
 
+simple queue service - handle messages in order
 
+swagger provides library version control
 
+elk stack - elasticsearch + logstash + kibana
 
+grafana monitors
 
+prometheus monitors
 
+aws lambda - function as a service
 
+container needs 1) image 2) runtime 3) instruction set
 
+cloudfront makes files available via cdn
 
+multi-tenant has one app with multiple users
 
+self healing node can detect anomalies and take action eg redeploy container
 
+nginx - load balancer
 
+apache spark and hadooop processes big data
 
-## Cloud Types 2020
+azure insight processes big data
 
-### On-Premises (No cloud) (27%)
+arn amazon resource name
 
-### Private (20%)
+aks azure container service
 
-Company in control of full infrastructure
+container identity
 
-Companies might use this if they have heavy existing investment in existing hardware, also older legacy applications, also strict data management requirements. Compliance may be a factor.
+container isolation
 
-### Public (41%)
+code integrity
 
-Subscription
+code identification
 
-No upfront investment
+docker swarm - orchestration, easy to set up
 
-No capital expenditure
+dtr docker trusted registry - manage docker images
 
-Full solution provided
+2013 docker
 
-Lack of customisation
+2015 standardise containers
 
-Provides
+2017 docker made open source via cncf cloud native computing foundation
 
-- Automation
-- Sandboxes
-- Geographic diversity
-- Collaboration
-- Staged migration
 
-### Hybrid (22%)
+```shell
+# build an image
+docker build
+# pull from internet
+docker pull
+# run
+docker run
+# list
+docker ps -a
+```
 
-Existing hardware
+docker compose - yaml to manage docker
 
-Legacy apps
+k8s kubernetes
 
-Financial cost
+bml build measure learn 
 
-Regulation
+hcl hashicorp configuration language
 
-## IaaS vs PaaS vs SaaS
+orchestrator - runbook automation
 
-Private - you manage everything
+privilege identity management - user runas administrator
 
-IaaS - you manage VMs up
+dsc desired state configuration
 
-API with IAM and RBAC role based access control allow you to manage the systems
+expressRoute is like a dedicated leased line
 
-PaaS - you manage your apps and the data they contain
+application insights - local client
 
-SaaS - you manage just your data 
+privilege identity management - admin accounts
 
-Shared responsibility model - AWS and us both share various responsibilities for the security of our environment
+privilege session management
 
-## PaaS
+conjur - identity and secrets management
 
-Provider builds VM and OS and application eg SQL server - we take it from there
+idempotency - dont change what does not need to be changed
 
-Cheap!
+openshift - containers by red hat
 
-## IaaS
+cloudFormation - yaml configure app
 
-- VM size
-    - CPU very expensive
-    - RAM very expensive
-    - Workload : Basic, high cores, high GPU, high performance
-    - Elastic vertically : increase CPU and RAM!
-- VM type
-- VM performance
-- Storage
-    - SSD : Hot storage : High I/O eg Live data
-    - HDD : Cold storage : cheaper long term storage eg Archive, Logs, Container Images
-    - Traditional RAID 0 1 5
-- Networking
-    - IP
-    - Subnet
-    - No overlap of on-premises if there’s a chance the networks will connect
+multi-tenancy data stored in different containers
 
-## IaaS Resilience
+availability set - failover machine hosted on different physical server
 
-- Resilience
-    - IAAS we mange the OS and updates
-    - Disk can fail!
-    - Misconfigured VM!
-    - we also sort out the data
-    - we also sort out the apps
-- High Availability
-    - Clustering of machines : Primary to secondary
-    - Load balancer : aware of cluster and online/offline machines
-- Georedundancy across the world with regions and a load balancer directing traffic
-    - Problems with data sovereignty, replication sync and async
-- Elastic
-    - Vertical : increase CPU and RAM and Disk and Network
-    - Horizontal : increase numbers of machines
-        - Need to cater for spikes
-        - Cater for increase in demand
-        - Only pay for instances which are needed
-- Self Healing
-    - Build OS image with apps
-    - Scaling rule : at least 2 instances running
-    - Cloud provider implements rule. If one goes offline then cloud provider spin up new instance
+kubernetes swarm
 
-## PaaS
+AWS Outposts
 
-- Web services
-    - Cheap to host and run on PaaS
-- DB services
+Openstack
 
-Deploying PaaS is nearly always cheaper than deploying IaaS
+GreenGrass
 
-Programmatic automation
+AzureHub
 
-Code ⇒ Commit ⇒ Integration ⇒ Test ⇒ Build ⇒ Deploy
+Elastic Beanstalk
 
-All of our solution is now code.
 
-All manual deployment is eliminated
-
-Good change control processes can be implemented
-
-Increases visibility between teams = devops
-
-Automation
-
-Ansible
-
-Jenkins
-
-Terraform
-
-Spinnaker
 
 ## SAAS Software As A Service
 
@@ -1092,45 +972,11 @@ EU-US Privacy shield
 
 Cloud adds an extra layer of compliance to existing compliance records
 
-## PKI
+###  keys
 
-PKI provides CIA
-
-Confidentiality
-
-Integrity and non-repudiation
-
-Authentication
-
-### Symmetric
-
-Same key
-
-Fast
-
-AES
-
-Both must have same key - how do we exchange the keys?
-
-### Asymmetric
-
-2 keys
-
-See khan academy for symmetric and rsa asymmetric simple walkthrough
-
-Public encrypt : send info
-
-Private decrypt : receive info
-
-Very slow
-
-### SSL
-
-securely transfer key
-
-view public certificate on website
-
-use this certificate to create and encrypt a session key and send it to the server. Server decrypts with private key and session can begin.
+- symmetric fast
+- asymmetric secure but slow
+- ssl uses asymmetric certificate on server to create symmetric key securely and send to client which can decrypt and use
 
 ### Verifying validity of a site.
 
@@ -1139,10 +985,6 @@ Verification can be public globally or just within a company
 RA Registration Authority - verifies identity and tells CA to issue certificate
 
 CA Certificate Authority - corporate registry - issues certificate
-
-Revocation
-
-PKI can be for public or private enterprise
 
 ### Key Archival Server
 
@@ -1180,12 +1022,6 @@ Information is hashed and then this is encrypted with private key. Public key is
 Transport mode : computer to server
 
 Tunnel mode : VPN ie lan to lan
-
-### TLS and SSL
-
-HTTPS
-
-Tunneling
 
 ## Ciphers
 
@@ -1642,12 +1478,6 @@ It consists of
 - Subnet (ranges of IP)
 - Route tables to direct traffic
 - Gateway to communicate with outside world
-
-.... to be continued !!!
-
-
-
-
 
 
 

@@ -14,9 +14,7 @@ This is a repository of tech notes on a variety of topics
   - [Cyber](#cyber)
   - [database](#database)
     - [sqlite](#sqlite)
-  - [Tech](#tech)
-  - [Non-Tech](#non-tech)
-  - [Random Terms](#random-terms)
+  - [random](#random)
   - [glossaries](#glossaries)
 
 ## Web
@@ -56,23 +54,12 @@ websites deployed are all listed here
 
 [sqlite](database/sqlite/README.md)
 
-## Tech
-
-- [tech](tech)
-- [astronomers](tech//astronomers.md)
-- [space](tech/space.md)
-- [bookmarks](tech/bookmarks.md)
-## Non-Tech
-
-- [Non-Tech](non-tech/)
-- [History](non-tech/history.md)
-
-## Random Terms
+## random
 
 - [Web Random Terms](https://github.com/philanderson888/javascript/blob/main/notes/random-web-terms-and-glossary.md)
 - [Programming Random Terms](https://github.com/philanderson888/javascript/blob/main/notes/random-programming-terms.md)
 - [Cloud Random Terms](cloud/cloud-random-terms.md)
-
+- [Random terms and bookmarks](random/randomFactsAndTerms.md)
 
 ## glossaries
 

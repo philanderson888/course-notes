@@ -1,6 +1,7 @@
 # Incident Response
 
 - [Incident Response](#incident-response)
+  - [Incident Examples](#incident-examples)
   - [Incident Response Summary](#incident-response-summary)
   - [CSIRT](#csirt)
   - [IRP Incident Response Policy](#irp-incident-response-policy)
@@ -103,6 +104,11 @@
       - [Change control](#change-control)
 
 
+## Incident Examples
+
+- 2021
+  - GoDaddy
+    - https://www.wordfence.com/blog/2021/11/godaddy-breach-plaintext-passwords/
 
 
 ## Incident Response Summary

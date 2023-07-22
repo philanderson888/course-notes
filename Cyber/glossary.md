@@ -80,7 +80,7 @@
   - [Google Hacking](#google-hacking)
   - [Helix : Linux Live CD](#helix--linux-live-cd)
   - [Heuristic](#heuristic)
-  - [Imperva WAF](#imperva-waf)
+  - [Imperva SecureSphere WAF](#imperva-securesphere-waf)
   - [MITM Interception Proxy](#mitm-interception-proxy)
   - [Jump Box](#jump-box)
   - [escrow = 3rd party trust](#escrow--3rd-party-trust)
@@ -91,7 +91,7 @@
   - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures)
   - [MoA : Memorandum Of Agreement](#moa--memorandum-of-agreement)
   - [ModSecurity WAF](#modsecurity-waf)
-  - [MRTG Multi Router Traffic Grapher](#mrtg-multi-router-traffic-grapher)
+  - [MRTG Multi Router Traffic Grapher SNMP](#mrtg-multi-router-traffic-grapher-snmp)
   - [Nagios = open source stats on services](#nagios--open-source-stats-on-services)
   - [NAPT = NAT](#napt--nat)
   - [NAXSI = nginX Anti XSS and SQL Injection](#naxsi--nginx-anti-xss-and-sql-injection)
@@ -114,7 +114,7 @@
   - [PHI Personal Health Info](#phi-personal-health-info)
   - [PII](#pii)
   - [Privilege Escalation](#privilege-escalation)
-  - [QRadar = SIEM from IBM](#qradar--siem-from-ibm)
+  - [QRadar SIEM](#qradar-siem)
   - [Qualys cloud vulnerability](#qualys-cloud-vulnerability)
   - [RPO Recovery point objective](#rpo-recovery-point-objective)
   - [RTO Recovery time objective](#rto-recovery-time-objective)
@@ -199,6 +199,7 @@
   - [Password Crackers](#password-crackers)
   - [Hosting](#hosting)
   - [Hacker Tools](#hacker-tools)
+  - [Hacking Groups](#hacking-groups)
   - [Hashing](#hashing)
   - [Offensive Tools](#offensive-tools)
   - [Certs](#certs)
@@ -1013,6 +1014,9 @@ TCPDump.org
 - APT Advanced Persistent Threat
 - APT10 is Chinese cyber
 - Operation SoftCell : attacking phone records of people
+
+## Hacking Groups
+- Project Raven : UAE mercenary hackers https://www.reuters.com/investigates/special-report/usa-spying-raven/
 
 
 

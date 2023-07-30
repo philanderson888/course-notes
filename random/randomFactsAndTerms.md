@@ -56,6 +56,7 @@ Stock photos at [https://www.pexels.com/](https://www.pexels.com/)
 User Generator  https://randomuser.me/ 
 Postman https://www.postman.com/postman/workspace/postman-student-program/overview
 Good Error Messages https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f
+Cheat Sheets http://cht.sh/ls
 
 ### Commercial bookmarks
 

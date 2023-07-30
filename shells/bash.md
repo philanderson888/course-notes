@@ -33,6 +33,7 @@
     - [wc word count](#wc-word-count)
     - [sleep 5 (terminal sleeps for 5 secs)](#sleep-5-terminal-sleeps-for-5-secs)
     - [Output](#output)
+  - [Bash Open Browser](#bash-open-browser)
   - [Nano and VI](#nano-and-vi)
     - [VI](#vi)
     - [Nano](#nano)
@@ -289,6 +290,24 @@ stdout 1
 
 stderr 2
 ```
+
+## Bash Open Browser
+
+Bash Scripting To Open Google Chrome
+
+```
+open -a "Google Chrome" index.html
+```
+
+I found this way more beautiful:
+
+```
+Edit ~/.bash_profile file and add the following line alias chrome="open -a 'Google Chrome'"
+Save and close the file.
+Either run source ~/.bash_profile or open a new window in Terminal.
+You can now open the file, file.html, by running: chrome file.html on the command line.
+```
+
 
 ## Nano and VI
 

@@ -245,7 +245,7 @@
 
 ## Bastion Host
 
-Any device which is connected to the internet
+A jump box which gives access to secure computers via SSH or other mechanism
 
 ## Certifications In Cyber
 

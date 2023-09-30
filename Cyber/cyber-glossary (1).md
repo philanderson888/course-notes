@@ -3,19 +3,25 @@
 *merge differences with cyber-glossary-1*
 
 - [Cyber Glossary](#cyber-glossary)
+- [rewritten](#rewritten)
+  - [Bastion Host](#bastion-host)
+  - [Birthday attack](#birthday-attack)
+  - [dd](#dd)
+  - [dig = nslookup](#dig--nslookup)
+  - [MAC Overflow Attack](#mac-overflow-attack)
+  - [sheep dip](#sheep-dip)
+  - [tasting](#tasting)
+- [a-z](#a-z)
   - [802.1x](#8021x)
   - [Analysis Of network traffic](#analysis-of-network-traffic)
-  - [Bastion Host](#bastion-host)
   - [Certifications In Cyber](#certifications-in-cyber)
   - [CFAA Computer Fraud And Abuse Act](#cfaa-computer-fraud-and-abuse-act)
   - [Credential Stuffing](#credential-stuffing)
   - [Crimeware - General Tools](#crimeware---general-tools)
   - [Dark Web](#dark-web)
-  - [dd](#dd)
   - [degauss](#degauss)
   - [DTP Dynamic Trunking Protocol](#dtp-dynamic-trunking-protocol)
   - [EHR Electronic Health Record](#ehr-electronic-health-record)
-  - [MAC Overflow Attack](#mac-overflow-attack)
   - [Man In The Middle Attack](#man-in-the-middle-attack)
   - [multihomed firewall](#multihomed-firewall)
   - [Netflow](#netflow)
@@ -35,7 +41,6 @@
   - [service discovery](#service-discovery)
   - [shares](#shares)
   - [sharepoint](#sharepoint)
-  - [sheep dip](#sheep-dip)
   - [sinkhole](#sinkhole)
   - [smurf attack](#smurf-attack)
   - [social media profiling](#social-media-profiling)
@@ -56,7 +61,6 @@
   - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt)
   - [Autopsy](#autopsy)
   - [Beaconing](#beaconing)
-  - [Birthday Attack](#birthday-attack)
   - [Black hole](#black-hole)
   - [Blind FTP](#blind-ftp)
   - [Blue team](#blue-team)
@@ -78,8 +82,6 @@
   - [COBIT](#cobit)
   - [CSIRT](#csirt)
   - [CVE](#cve)
-  - [DIG = NSLOOKUP](#dig--nslookup)
-  - [Tasting](#tasting)
   - [Cybersquatting](#cybersquatting)
   - [Hijacking](#hijacking)
   - [EMET](#emet)
@@ -217,6 +219,38 @@
   - [Hashing](#hashing)
   - [Offensive Tools](#offensive-tools)
 
+# rewritten
+
+## Bastion Host
+
+A jump box which gives access to secure computers via SSH or other mechanism
+
+## Birthday attack
+
+2 files have same hash
+
+## dd
+
+Create image of hard drive as a single file
+
+## dig = nslookup
+
+## MAC Overflow Attack
+
+Flood switch buffer memory (CAM = Content Addressable Memory) so it's full and cannot resolve addresses which causes the switch to default to sending out traffic on all ports which is very dangerous and not secure
+
+## sheep dip
+
+isolated computer on which can install malware to investigate
+
+## tasting
+
+buy a domain in its trial period to validate its monetary worth - if not worth the money, then cancel it during the trial period
+
+
+
+
+# a-z
 
 ## 802.1x
 
@@ -242,10 +276,6 @@
 - behaviour - known patterns + TTP inferences about possible behaviour
 
 - heuristic - zero day 
-
-## Bastion Host
-
-A jump box which gives access to secure computers via SSH or other mechanism
 
 ## Certifications In Cyber
 
@@ -276,9 +306,7 @@ TOR + VPN
 
 Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
 
-## dd
 
-Linux command to image a drive
 
 ## degauss
 
@@ -296,13 +324,6 @@ Potential rogue switch can auto join legitimate switches
 
 Contains PHI Personal Health Information
 
-## MAC Overflow Attack
-
-Causes the CAM Content Addressable Memory of a switch to be full
-
-Address resolution is therefore not possible
-
-Traffic is then sent out broadcast to all ports
 
 ## Man In The Middle Attack
 
@@ -425,9 +446,7 @@ Shares - provide useful information
 
 Sharepoint - can be used to glean information about the network
 
-## sheep dip
 
-isolated computer for investigating malware
 
 ## sinkhole
 
@@ -520,9 +539,7 @@ Check for malicious IP
 
 Check for bad packet sizes
 
-## Birthday Attack
 
-2 files, same hash 
 
 ## Black hole
 
@@ -596,11 +613,6 @@ drop all traffic
  
  Common Vulnerabilities and Exposures 
  
- ## DIG = NSLOOKUP 
- 
- ## Tasting
- 
- try domain to see if it gets hits 
  
  ## Cybersquatting
  

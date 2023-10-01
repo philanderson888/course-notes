@@ -4290,7 +4290,8 @@ https://www.fireeye.com/cyber-map/threat-map.html
 ## Cyber Glossary
 
 [Cyber Glossary](cyber-glossary.md)
-[Cyber Glossary](cyber-glossary-2.md)
+
+[Cyber Glossary 2](cyber-glossary-2.md)
 
 
 

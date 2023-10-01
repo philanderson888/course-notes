@@ -172,7 +172,7 @@
   - [Regex labs](#regex-labs)
     - [TryHackMe](#tryhackme)
       - [Getting Started](#getting-started)
-      - [RDP  root Tryh4ckm3](#rdp-root-tryh4ckm3)
+      - [RDP  root Tryh4ckm3](#rdp--root-tryh4ckm3)
       - [Complete Beginner Path](#complete-beginner-path)
         - [Introductory Research](#introductory-research)
           - [Steganography](#steganography)
@@ -203,7 +203,7 @@
       - [start mongodb](#start-mongodb)
       - [run mongo client](#run-mongo-client)
     - [AWS Kali with VNC](#aws-kali-with-vnc)
-    - [Kali Install OpenVAS  (1 hour with attended input)](#kali-install-openvas-1-hour-with-attended-input)
+    - [Kali Install OpenVAS  (1 hour with attended input)](#kali-install-openvas--1-hour-with-attended-input)
     - [Ubuntu Install Docker](#ubuntu-install-docker-1)
     - [Docker Install Metasploitable](#docker-install-metasploitable-1)
       - [Run an exploit](#run-an-exploit)
@@ -355,7 +355,7 @@
     - [Metasploit](#metasploit-3)
       - [EXPLOIT MODULE = TRY AND EXPLOIT A VULNERABILITY](#exploit-module--try-and-exploit-a-vulnerability)
       - [PAYLOAD = WHAT YOU DOWNLOAD TO A MACHINE THAT YOU FIND A VULNERABILITY ON](#payload--what-you-download-to-a-machine-that-you-find-a-vulnerability-on)
-      - [CVE VULNERABILITY => EXPLOIT MODULE => PAYLOAD](#cve-vulnerability--exploit-module--payload)
+      - [CVE VULNERABILITY =\> EXPLOIT MODULE =\> PAYLOAD](#cve-vulnerability--exploit-module--payload)
     - [Armitage](#armitage-1)
       - [GUI for Metasploit](#gui-for-metasploit)
 - [Defending](#defending)
@@ -467,7 +467,7 @@
   - [SOP Standard Operating Procedure](#sop-standard-operating-procedure)
   - [Guidance](#guidance)
   - [Continuous security monitoring](#continuous-security-monitoring)
-  - [V&V Verification and Validation](#vv-verification-and-validation)
+  - [V\&V Verification and Validation](#vv-verification-and-validation)
     - [Verification = compliance](#verification--compliance)
     - [Validation = functionality](#validation--functionality)
   - [Control Testing](#control-testing)
@@ -4290,6 +4290,7 @@ https://www.fireeye.com/cyber-map/threat-map.html
 ## Cyber Glossary
 
 [Cyber Glossary](cyber-glossary.md)
+[Cyber Glossary](cyber-glossary-2.md)
 
 
 

@@ -46,7 +46,7 @@ websites deployed are all listed here
 
 ## Cyber
 
-[Cyber](cyber)
+[Cyber](notes/cyber)
 
 ## database
 

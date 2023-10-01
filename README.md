@@ -11,7 +11,7 @@ This is a repository of tech notes on a variety of topics
   - [Shell Scripting](#shell-scripting)
   - [Programming](#programming)
   - [Infrastructure](#infrastructure)
-  - [Cyber](#cyber)
+  - [cyber](#cyber)
   - [database](#database)
     - [sqlite](#sqlite)
   - [random](#random)
@@ -44,9 +44,9 @@ websites deployed are all listed here
 
 [Infrastructure](infrastructure)
 
-## Cyber
+## cyber
 
-[Cyber](notes/cyber/README.md)
+[cyber](cyber)
 
 ## database
 

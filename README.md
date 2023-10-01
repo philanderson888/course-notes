@@ -46,7 +46,7 @@ websites deployed are all listed here
 
 ## Cyber
 
-[Cyber](notes/cyber)
+[Cyber](notes/cyber/README.md)
 
 ## database
 

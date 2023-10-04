@@ -125,7 +125,6 @@
   - [SEH exception handler](#seh-exception-handler)
   - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt-1)
   - [SMTP Open Relay](#smtp-open-relay)
-  - [Snort IDS](#snort-ids)
   - [SourceFire IDS](#sourcefire-ids)
   - [Splunk SIEM](#splunk-siem)
   - [taskkill](#taskkill)
@@ -717,11 +716,7 @@ Web Application Firewall : for data center
  ## SMTP Open Relay
  
  can be used by spammers to send email 
- 
- ## Snort IDS
- 
- Open Source NIDS 
- 
+  
  ## SourceFire IDS 
  
  owned by Cisco 

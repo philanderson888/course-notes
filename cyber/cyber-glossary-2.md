@@ -133,7 +133,6 @@
   - [SEH exception handler](#seh-exception-handler)
   - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt-1)
   - [SMTP Open Relay](#smtp-open-relay)
-  - [Snort IDS](#snort-ids)
   - [SourceFire IDS](#sourcefire-ids)
   - [Splunk SIEM](#splunk-siem)
   - [SPML](#spml)
@@ -790,9 +789,7 @@ PVLAN promiscuous talks on all ports
  
  can be used by spammers to send email 
  
- ## Snort IDS
- 
- Open Source NIDS 
+
  
  ## SourceFire IDS 
  

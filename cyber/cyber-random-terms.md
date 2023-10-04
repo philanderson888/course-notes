@@ -731,7 +731,6 @@ Nagios = open source stats on services
 nagios snmp needs agent
 NAPT = NAT
 NAT mitigates firewalking
-NAXSI
 naxsi = nginx anti xss and injection
 NAXSI = nginX Anti XSS and SQL Injection
 NAXSI is Nginx Anti XSS and Injection
@@ -753,7 +752,6 @@ Network Analyzer App
 network fingerprint
 nexpose vulnerability scanner
 NGINX
-NIDS INSTALL
 NIDS operates INSIDE firewall
 NIDS: Snort Bro Sourcefire 
 Nikto = web server vulnerability scanner
@@ -762,9 +760,6 @@ NIST 800-82 protects scada
 nist 800-88 sanitise
 NIST core : identify (assets and risks) protect (acl, train, maintain) detect (event, anomalies, continuous) respond (IRP, comms,analyse, mitigate) recover
 NIST National Institute for Standards and Technology
-NIST National Institute Standards Technology
-NIST provides standards
-NIST standards
 NVD National Vulnerability Database
 NVT network vuln tests : scan for NVD and CVE known vulns
 NX No Execute - separates area of memory holding 1) CPU instructions 2) data. Main use is to ensure that data which EXECUTES is ONLY EXECUTING FROM THE RIGHT AREA OF MEMORY IE NOT THE 'DATA' PART. This helps to thwart BUFFER OVERFLOW ATTACK
@@ -948,9 +943,7 @@ SMTP Open Relay : can be used by spammers to send email
 smurf attack: icmp tcp ddos
 SMURF=PING
 Snarf : steal data
-Snort
-snort = windows ids / ips
-SNORT IDS part of OSSIM
+snort is IDS / IPS part of OSSIM
 social media profiles
 solarwinds netflow : tcp
 SOP standard operating procedures

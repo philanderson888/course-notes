@@ -234,9 +234,7 @@
     - [zenmap](#zenmap)
     - [nikto](#nikto)
     - [sploit.htm](#sploithtm)
-    - [getent](#getent)
     - [mbsa](#mbsa)
-    - [snort](#snort)
     - [securityonion](#securityonion)
     - [sguil](#sguil)
     - [hping3](#hping3)
@@ -3113,12 +3111,8 @@ MItB
 
 ARP Spoof
 
-
        Ettercap lab
        
-       detection : use Snort to identify suspicious traffic 
-               or manually inspect arp -a for fake mac addresses
-
        DAI Dynamic ARP Inspection : prevent ARP Spoof : drop Ethernet packets that do not have a known sender, recipient and a valid entry in VLAN table
 
 
@@ -5385,13 +5379,7 @@ nikto -o sploit.htm -host 1.2.3.4 saves output to web page
 firefox sploit.htm and look at vulnerabilities
 
 
-### getent
 
-getent passwd 0
-
-getent group root - look up root users
-
-getent passwd phil - look up user phil
 
 
 ### mbsa
@@ -5402,10 +5390,6 @@ mbsacli command line scan also
 
 Search for any problems identified in the scan. Try and match against any known vulnerabilities (CVE). If so, do you find any active exploits which could target this vulnerability?
 
-
-### snort
-
-Set 'SOURCE' and 'DESTINATION' mirror modes for source router and destination detector machines
 
 ### securityonion
 
@@ -5770,10 +5754,6 @@ red : nmap nmap - topology discovery scan - intense scan
 red : nikto vulnerability scan
 
 red : LOIC (Low Orbit Ion Cannon) DOS attack
-
-Instructions On Running a DOS attack using LOIC
-
-http://pages.mtu.edu/~xinlwang/itseed/labs/intrusion_detection_intro2Snort_LOIC.pdf
 
 red : hping3 : DOS attack
 
@@ -9287,7 +9267,7 @@ just on the INTERIOR side of the FIREWALL
        active : end TCP session
        active : shunning : add extra filter to firewall to block attacker IP
 
-Snort on Windows Server : IDS, IPS, logging, real-time analysis
+snort
 
 Sourcefire : Cisco IDS
 

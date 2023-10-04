@@ -6,6 +6,7 @@
   - [Linux Labs](#linux-labs)
   - [Azure Labs](#azure-labs)
   - [overview](#overview)
+- [random tools](#random-tools)
 
 ## Windows Labs
 
@@ -52,7 +53,6 @@ labs
     whois ip
     beef
     angry ip 
-    snort 
     alienvault siem
     scap validation 
 
@@ -217,15 +217,11 @@ incident response
 
 
 
-book 2 random
+# random tools
 
 windump
+
 sniffer ettercap
+
 snort
-
-
-defend
-kerberos
-registry
-
 

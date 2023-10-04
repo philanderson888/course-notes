@@ -32,7 +32,6 @@
       - [Packet logging](#packet-logging)
       - [pcap file format used](#pcap-file-format-used)
     - [Nmap logging](#nmap-logging)
-    - [IDS reporting eg SNORT](#ids-reporting-eg-snort)
     - [SIEM](#siem)
     - [Other issues to be aware of](#other-issues-to-be-aware-of)
       - [`Low and slow` or `sparse` attack](#low-and-slow-or-sparse-attack)
@@ -262,8 +261,11 @@ SPL splunk search processing language
 
 #### OSSIM Open Source Security Info Mgt
 
-   integrate SNORT and OpenVAS vulnerability scanner
-              
+snort
+
+openvas
+
+             
 #### KiwiSyslog.com
 
 store SNMP logs
@@ -309,10 +311,6 @@ generally correct format for output
 ### Nmap logging
 
 as XML, Grep (RegEx), view on screen
-
-### IDS reporting eg SNORT
-
-Binary output/CSV
 
 ### SIEM 
 

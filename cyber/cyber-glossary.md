@@ -12,9 +12,13 @@
   - [dig = nslookup](#dig--nslookup)
   - [dirbuster](#dirbuster)
   - [exploit framework](#exploit-framework)
+  - [getent](#getent)
   - [mac overflow attack](#mac-overflow-attack)
   - [metasploit](#metasploit)
+    - [ids tools](#ids-tools)
+  - [securityonion](#securityonion)
   - [sheep dip](#sheep-dip)
+  - [snort](#snort)
   - [tasting](#tasting)
   - [vulnerability scan](#vulnerability-scan)
 - [a-z original](#a-z-original)
@@ -156,7 +160,6 @@
   - [SEH exception handler](#seh-exception-handler)
   - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt-1)
   - [SMTP Open Relay](#smtp-open-relay)
-  - [Snort IDS](#snort-ids)
   - [SourceFire IDS](#sourcefire-ids)
   - [Splunk SIEM](#splunk-siem)
   - [SPML](#spml)
@@ -274,6 +277,17 @@ eg metasploit
 
 launches exploit against vulnerability
 
+## getent
+
+retrieves data from, for example, secure password files on an operating system
+
+```
+getent passwd 0
+
+getent group root - look up root users
+
+getent passwd phil - look up user phil
+```
 
 ## mac overflow attack
 
@@ -285,9 +299,23 @@ exploit framework
 
 launch exploit against vulnerability
 
+### ids tools
+
+securityonion enterprise network security
+
+snort packet/traffic monitoring
+
+## securityonion
+
+provides enterprise network security monitoring
+
 ## sheep dip
 
 isolated computer on which can install malware to investigate
+
+## snort
+
+ids / ips by cisco which provides real time network traffic analysis and packet monitoring
 
 ## tasting
 
@@ -911,9 +939,6 @@ PVLAN promiscuous talks on all ports
  
  can be used by spammers to send email 
  
- ## Snort IDS
- 
- Open Source NIDS 
  
  ## SourceFire IDS 
  

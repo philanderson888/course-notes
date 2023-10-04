@@ -885,7 +885,7 @@ RPO data which will be lost Recovery Point Objective
 RPO Recovery point objective : time to last backup (represents data you can lose if there is a disaster)
 RTO planned uptime Recovery Time Objective
 RTO Recovery time objective : planned uptime after disaster
-Rubber Ducky : USB command injection etc
+rubber ducky injects command to os via usb
 rules of engagement: timing, scope, authorisation, exploitation, comms, report
 RUM real time user monitoring
 RUM real user monitor - capture transactions

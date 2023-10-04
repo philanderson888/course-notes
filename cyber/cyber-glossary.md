@@ -7,6 +7,7 @@
   - [bastion host](#bastion-host)
   - [birthday attack](#birthday-attack)
   - [burpsuite](#burpsuite)
+  - [command injection](#command-injection)
   - [dd](#dd)
   - [dig = nslookup](#dig--nslookup)
   - [dirbuster](#dirbuster)
@@ -251,6 +252,9 @@ eg interception proxy
 
 can send repeated http and websockets requests over and over again
 
+## command injection
+
+send command to operating system or application
 
 ## dd
 

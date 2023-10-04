@@ -234,7 +234,6 @@
     - [zenmap](#zenmap)
     - [nikto](#nikto)
     - [sploit.htm](#sploithtm)
-    - [dirbuster](#dirbuster)
     - [getent](#getent)
     - [mbsa](#mbsa)
     - [snort](#snort)
@@ -5384,18 +5383,6 @@ nikto -o sploit.htm -host 1.2.3.4 saves output to web page
 ### sploit.htm
 
 firefox sploit.htm and look at vulnerabilities
-
-### dirbuster
-
-dirbuster to perform a dictionary/brute force attack against some web applications
-
-check out 'shellshock' vulnerability
-
-command injection : send commands to OS
-
-firefox : configure proxy 8080 with no exceptions
-
-
 
 
 ### getent

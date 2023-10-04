@@ -9,6 +9,7 @@
   - [burpsuite](#burpsuite)
   - [dd](#dd)
   - [dig = nslookup](#dig--nslookup)
+  - [dirbuster](#dirbuster)
   - [exploit framework](#exploit-framework)
   - [mac overflow attack](#mac-overflow-attack)
   - [metasploit](#metasploit)
@@ -256,6 +257,12 @@ can send repeated http and websockets requests over and over again
 Create image of hard drive as a single file
 
 ## dig = nslookup
+
+## dirbuster
+
+red team
+
+brute force dictionary attack directory and file names on web app server
 
 ## exploit framework
 

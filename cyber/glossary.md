@@ -87,7 +87,6 @@
   - [M of N](#m-of-n)
   - [Kill Chain](#kill-chain)
   - [Kiwi Syslog](#kiwi-syslog)
-  - [Metasploit](#metasploit)
   - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures)
   - [MoA : Memorandum Of Agreement](#moa--memorandum-of-agreement)
   - [ModSecurity WAF](#modsecurity-waf)
@@ -97,7 +96,6 @@
   - [NAXSI = nginX Anti XSS and SQL Injection](#naxsi--nginx-anti-xss-and-sql-injection)
   - [Nessus vulnerability scanner](#nessus-vulnerability-scanner)
   - [NetScout](#netscout)
-  - [Nexpose vulnerability scan](#nexpose-vulnerability-scan)
   - [Nikto - web server vulnerability](#nikto---web-server-vulnerability)
   - [NIST](#nist)
   - [Nmap network mapper](#nmap-network-mapper)
@@ -167,7 +165,6 @@
   - [PAYLOAD](#payload)
   - [Discovery scanner Nmap](#discovery-scanner-nmap)
   - [Vulnerability scanner](#vulnerability-scanner)
-  - [Exploit framework - launch attacks](#exploit-framework---launch-attacks)
   - [Banner Grabbing](#banner-grabbing)
   - [Lua scripting language](#lua-scripting-language)
   - [Footprint](#footprint)
@@ -592,12 +589,6 @@ Web Application Firewall : for data center
  
  central log management 
  
- ## Metasploit
- 
- exploit framework
- 
- launch modular attacks from this; each module attacks one particular CVE 
-
  ## CVE Common Vulnerabilities and Exposures 
  
  ## MoA : Memorandum Of Agreement
@@ -624,9 +615,6 @@ Web Application Firewall : for data center
  
  commercial enterprise-level network service assurance products 
  
- ## Nexpose vulnerability scan
- 
- vulnerability scanner (Metasploit) 
  
  ## Nikto - web server vulnerability
 
@@ -861,10 +849,6 @@ host/ip/port
 ## Vulnerability scanner 
 
 OpenVAS, Nessus, Nexpose
-
-## Exploit framework - launch attacks
-
-eg metasploit : launches specific attacks against specific known vulnerabilities
 
 ## Banner Grabbing
 

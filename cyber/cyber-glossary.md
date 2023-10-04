@@ -3,21 +3,33 @@
 *merge differences with cyber-glossary-1*
 
 - [Cyber Glossary](#cyber-glossary)
+- [a-z rewritten](#a-z-rewritten)
+  - [bastion host](#bastion-host)
+  - [birthday attack](#birthday-attack)
+  - [dd](#dd)
+  - [dig = nslookup](#dig--nslookup)
+  - [exploit framework](#exploit-framework)
+  - [mac overflow attack](#mac-overflow-attack)
+  - [metasploit](#metasploit)
+  - [sheep dip](#sheep-dip)
+  - [tasting](#tasting)
+  - [vulnerability scan](#vulnerability-scan)
+- [a-z original](#a-z-original)
   - [OWASP Cyber Glossary](#owasp-cyber-glossary)
   - [CSYA CSO-002 Exam Prep Sheets](#csya-cso-002-exam-prep-sheets)
   - [802.1x](#8021x)
   - [Analysis Of network traffic](#analysis-of-network-traffic)
-  - [Bastion Host](#bastion-host)
+  - [Bastion Host](#bastion-host-1)
   - [Certifications In Cyber](#certifications-in-cyber)
   - [CFAA Computer Fraud And Abuse Act](#cfaa-computer-fraud-and-abuse-act)
   - [Credential Stuffing](#credential-stuffing)
   - [Crimeware - General Tools](#crimeware---general-tools)
   - [Dark Web](#dark-web)
-  - [dd](#dd)
+  - [dd](#dd-1)
   - [degauss](#degauss)
   - [DTP Dynamic Trunking Protocol](#dtp-dynamic-trunking-protocol)
   - [EHR Electronic Health Record](#ehr-electronic-health-record)
-  - [MAC Overflow Attack](#mac-overflow-attack)
+  - [MAC Overflow Attack](#mac-overflow-attack-1)
   - [Man In The Middle Attack](#man-in-the-middle-attack)
   - [multihomed firewall](#multihomed-firewall)
   - [Netflow](#netflow)
@@ -37,7 +49,7 @@
   - [service discovery](#service-discovery)
   - [shares](#shares)
   - [sharepoint](#sharepoint)
-  - [sheep dip](#sheep-dip)
+  - [sheep dip](#sheep-dip-1)
   - [sinkhole](#sinkhole)
   - [smurf attack](#smurf-attack)
   - [social media profiling](#social-media-profiling)
@@ -58,7 +70,7 @@
   - [SIEM Security Info and Event Mgt](#siem-security-info-and-event-mgt)
   - [Autopsy](#autopsy)
   - [Beaconing](#beaconing)
-  - [Birthday Attack](#birthday-attack)
+  - [Birthday Attack](#birthday-attack-1)
   - [Black hole](#black-hole)
   - [Blind FTP](#blind-ftp)
   - [Blue team](#blue-team)
@@ -80,8 +92,8 @@
   - [COBIT](#cobit)
   - [CSIRT](#csirt)
   - [CVE](#cve)
-  - [DIG = NSLOOKUP](#dig--nslookup)
-  - [Tasting](#tasting)
+  - [DIG = NSLOOKUP](#dig--nslookup-1)
+  - [Tasting](#tasting-1)
   - [Cybersquatting](#cybersquatting)
   - [Hijacking](#hijacking)
   - [EMET](#emet)
@@ -101,7 +113,6 @@
   - [escrow = 3rd party trust](#escrow--3rd-party-trust)
   - [M of N](#m-of-n)
   - [Kill Chain](#kill-chain)
-  - [Metasploit](#metasploit)
   - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures)
   - [MoA : Memorandum Of Agreement](#moa--memorandum-of-agreement)
   - [ModSecurity WAF](#modsecurity-waf)
@@ -111,7 +122,6 @@
   - [NAXSI = nginX Anti XSS and SQL Injection](#naxsi--nginx-anti-xss-and-sql-injection)
   - [Nessus vulnerability scanner](#nessus-vulnerability-scanner)
   - [NetScout](#netscout)
-  - [Nexpose vulnerability scan](#nexpose-vulnerability-scan)
   - [Nikto - web server vulnerability](#nikto---web-server-vulnerability)
   - [NIST](#nist)
   - [Nmap network mapper](#nmap-network-mapper)
@@ -218,6 +228,56 @@
   - [Hacker Tools](#hacker-tools)
   - [Hashing](#hashing)
   - [Offensive Tools](#offensive-tools)
+
+# a-z rewritten
+
+## bastion host
+
+A jump box which gives access to secure computers via SSH or other mechanism
+
+## birthday attack
+
+2 files have same hash
+
+## dd
+
+Create image of hard drive as a single file
+
+## dig = nslookup
+
+## exploit framework
+
+eg metasploit
+
+launches exploit against vulnerability
+
+
+## mac overflow attack
+
+Flood switch buffer memory (CAM = Content Addressable Memory) so it's full and cannot resolve addresses which causes the switch to default to sending out traffic on all ports which is very dangerous and not secure
+
+## metasploit
+
+exploit framework
+
+launch exploit against vulnerability
+
+## sheep dip
+
+isolated computer on which can install malware to investigate
+
+## tasting
+
+buy a domain in its trial period to validate its monetary worth - if not worth the money, then cancel it during the trial period
+
+## vulnerability scan
+ 
+finds weaknesses to exploit
+ 
+eg nexpose
+ 
+
+# a-z original
 
 ## OWASP Cyber Glossary
 
@@ -681,12 +741,8 @@ Web Application Firewall : for data center
  
  stages of attack 
  
- ## Metasploit
  
- exploit framework
  
- launch modular attacks from this; each module attacks one particular CVE 
-
  ## CVE Common Vulnerabilities and Exposures 
  
  ## MoA : Memorandum Of Agreement
@@ -713,9 +769,7 @@ Web Application Firewall : for data center
  
  commercial enterprise-level network service assurance products 
  
- ## Nexpose vulnerability scan
  
- vulnerability scanner (Metasploit) 
  
  ## Nikto - web server vulnerability
 

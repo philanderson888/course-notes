@@ -412,8 +412,7 @@ APT Advanced Persistent Threat
 APT Advanced Persistent Threat : INSTALL ONGOING TOOLS WHICH REMAIN
 APT Advanced Persistent Threat : stronghold from which bad guys launch other software
 ArcSight by HP : security suite
-armitage = metasploit GUI
-armitage is java gui to metasploit
+armitage = Java GUI to metasploit which is red team exploit scanner
 armor has other tricks
 ARP quiet
 assessment scan of vulnerabilities
@@ -587,7 +586,7 @@ Exploit : tool to attack a weakness
 Exploit apps - gain access through apps
 Exploit browser - gain access through browser
 exploit browser/app/idendity
-Exploit framework eg metasploit : launches specific attacks against specific known vulnerabilities
+exploit framework eg metasploit - launches exploit against vulnerability
 Exploit identity - gain access through identity of another
 EXPLOIT MODULE = TRY AND EXPLOIT A VULNERABILITY
 external validation eg RBS
@@ -713,10 +712,7 @@ Memoryze provides RAM forensics
 Merterpreter
 metamorphic completely recompiles
 Metamorphic recompile
-metasploit
-Metasploit = exploit framework = launch modular attacks from this; each module attacks one particular CVE
-metasploit finds and exploits vulnerabilities
-metasploitable is a deliberately vulnerable machine
+metasploit launches exploit against vulnerability
 Mimikatz
 mitigate: deter, avoid, transfer, accept
 MITM
@@ -755,7 +751,6 @@ NetScout = commercial enterprise-level network service assurance products
 NETSPARKER SCAN
 Network Analyzer App  
 network fingerprint
-Nexpose = vulnerability scanner (Metasploit)
 nexpose vulnerability scanner
 NGINX
 NIDS INSTALL

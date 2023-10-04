@@ -217,7 +217,7 @@
   - [Metasploit](#metasploit)
     - [What is Metasploit?](#what-is-metasploit)
   - [Metasploitable](#metasploitable)
-    - [Intentionally vulnerable](#intentionally-vulnerable)
+  - [intro](#intro)
     - [Windows VMs we can attack](#windows-vms-we-can-attack)
     - [Metasploitable Setup](#metasploitable-setup)
       - [Data Path](#data-path)
@@ -356,8 +356,7 @@
       - [EXPLOIT MODULE = TRY AND EXPLOIT A VULNERABILITY](#exploit-module--try-and-exploit-a-vulnerability)
       - [PAYLOAD = WHAT YOU DOWNLOAD TO A MACHINE THAT YOU FIND A VULNERABILITY ON](#payload--what-you-download-to-a-machine-that-you-find-a-vulnerability-on)
       - [CVE VULNERABILITY =\> EXPLOIT MODULE =\> PAYLOAD](#cve-vulnerability--exploit-module--payload)
-    - [Armitage](#armitage-1)
-      - [GUI for Metasploit](#gui-for-metasploit)
+      - [Armitage = GUI for Metasploit](#armitage--gui-for-metasploit)
 - [Defending](#defending)
     - [Classes Of Controls](#classes-of-controls)
   - [Cyber Organisations](#cyber-organisations)
@@ -5082,13 +5081,9 @@ Golden Ticket Pen Test Lab [https://pentestlab.blog/2018/04/09/golden-ticket/](h
 
 ### What is Metasploit?
 
-It is a collection of exploits
+metasploit is a red team tool to launch exploit against vulnerability
 
-It is written in Ruby
-
-It is also customisable
-
-It is used as an auditing tool to verify the security of an environment with vulnerability testing
+written in ruby
 
 https://www.offensive-security.com/metasploit-unleashed/introduction/
 
@@ -5097,6 +5092,8 @@ https://metasploit.com/
 https://github.com/rapid7
 
 https://www.offensive-security.com/metasploit-unleashed/
+
+
 
 Running Metasploit with `MSFConsole`
 
@@ -5149,19 +5146,15 @@ color - the output
 
 ## Metasploitable
 
-### Intentionally vulnerable 
+## intro
+
+intentionally vulnerable machine
 
 https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
 
 https://metasploit.help.rapid7.com/docs/metasploitable-2-exploitability-guide
 
-
-Intentionally vulnerable machine
-
-Never expose - keep private
-
-
-Runs on VMWare Player or VirtualBox
+never expose - always keep private
 
 ### Windows VMs we can attack
 
@@ -5370,7 +5363,7 @@ search | vulns -R 1.2.3.4 search for exploits which target the vulnerabilities e
 
 ### armitage
 
-Armitage : run GUI application
+Armitage is Java GUI for MSF Metasploit
 
 ### metasploit
 
@@ -5715,33 +5708,20 @@ Blue team : Monitor Wireshark packets
 
 Red team : have LAPTOP ON INTERNAL NETWORK
 
-
        KaliVM
        service postgresql start
-       armitage
        msf ==> command line => run this scan
-              ==> db_nmap -T1 -A -D <<IP range>>
-
-
+              ==> db_nmap -T1 -A -D <<IP range>>         
 
 Blue team : can we spot that a scan is taking place???
 
-
        ((Possibly not if the scan is a 'slow' scan))
 
-
-
-Red team : now wants to run an INTENSE SCAN
-
-
-       Armitage GUI => Run an INTENSE SCAN
-
-
+Red : INTENSE SCAN using Armitage MSF GUI
 
 Blue team : can we spot an attack now?
 
 Blue team : incident response?
-
 
        Playbook would guide person what to do
 
@@ -8146,9 +8126,7 @@ combines with Nexpose vulnerability scanner
 
 #### CVE VULNERABILITY => EXPLOIT MODULE => PAYLOAD
 
-### Armitage
-
-#### GUI for Metasploit
+#### Armitage = GUI for Metasploit
 
 Scan hosts with NMap or Metasploit
 

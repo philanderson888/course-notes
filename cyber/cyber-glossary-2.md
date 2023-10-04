@@ -3,14 +3,6 @@
 *merge differences with cyber-glossary-1*
 
 - [Cyber Glossary](#cyber-glossary)
-- [rewritten](#rewritten)
-  - [Bastion Host](#bastion-host)
-  - [Birthday attack](#birthday-attack)
-  - [dd](#dd)
-  - [dig = nslookup](#dig--nslookup)
-  - [MAC Overflow Attack](#mac-overflow-attack)
-  - [sheep dip](#sheep-dip)
-  - [tasting](#tasting)
 - [a-z](#a-z)
   - [802.1x](#8021x)
   - [Analysis Of network traffic](#analysis-of-network-traffic)
@@ -101,7 +93,6 @@
   - [escrow = 3rd party trust](#escrow--3rd-party-trust)
   - [M of N](#m-of-n)
   - [Kill Chain](#kill-chain)
-  - [Metasploit](#metasploit)
   - [CVE Common Vulnerabilities and Exposures](#cve-common-vulnerabilities-and-exposures)
   - [MoA : Memorandum Of Agreement](#moa--memorandum-of-agreement)
   - [ModSecurity WAF](#modsecurity-waf)
@@ -111,7 +102,6 @@
   - [NAXSI = nginX Anti XSS and SQL Injection](#naxsi--nginx-anti-xss-and-sql-injection)
   - [Nessus vulnerability scanner](#nessus-vulnerability-scanner)
   - [NetScout](#netscout)
-  - [Nexpose vulnerability scan](#nexpose-vulnerability-scan)
   - [Nikto - web server vulnerability](#nikto---web-server-vulnerability)
   - [NIST](#nist)
   - [Nmap network mapper](#nmap-network-mapper)
@@ -185,7 +175,6 @@
   - [PAYLOAD](#payload)
   - [Discovery scanner Nmap](#discovery-scanner-nmap)
   - [Vulnerability scanner](#vulnerability-scanner)
-  - [Exploit framework - launch attacks](#exploit-framework---launch-attacks)
   - [Banner Grabbing](#banner-grabbing)
   - [Lua scripting language](#lua-scripting-language)
   - [Footprint](#footprint)
@@ -219,33 +208,7 @@
   - [Hashing](#hashing)
   - [Offensive Tools](#offensive-tools)
 
-# rewritten
 
-## Bastion Host
-
-A jump box which gives access to secure computers via SSH or other mechanism
-
-## Birthday attack
-
-2 files have same hash
-
-## dd
-
-Create image of hard drive as a single file
-
-## dig = nslookup
-
-## MAC Overflow Attack
-
-Flood switch buffer memory (CAM = Content Addressable Memory) so it's full and cannot resolve addresses which causes the switch to default to sending out traffic on all ports which is very dangerous and not secure
-
-## sheep dip
-
-isolated computer on which can install malware to investigate
-
-## tasting
-
-buy a domain in its trial period to validate its monetary worth - if not worth the money, then cancel it during the trial period
 
 
 
@@ -682,11 +645,7 @@ Web Application Firewall : for data center
  
  stages of attack 
  
- ## Metasploit
- 
- exploit framework
- 
- launch modular attacks from this; each module attacks one particular CVE 
+
 
  ## CVE Common Vulnerabilities and Exposures 
  
@@ -713,10 +672,6 @@ Web Application Firewall : for data center
  ## NetScout
  
  commercial enterprise-level network service assurance products 
- 
- ## Nexpose vulnerability scan
- 
- vulnerability scanner (Metasploit) 
  
  ## Nikto - web server vulnerability
 
@@ -976,10 +931,6 @@ host/ip/port
 ## Vulnerability scanner 
 
 OpenVAS, Nessus, Nexpose
-
-## Exploit framework - launch attacks
-
-eg metasploit : launches specific attacks against specific known vulnerabilities
 
 ## Banner Grabbing
 

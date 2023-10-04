@@ -54,7 +54,6 @@ labs
     angry ip 
     snort 
     alienvault siem
-    burpsuite
     scap validation 
 
 random

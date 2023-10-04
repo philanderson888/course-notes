@@ -6,6 +6,7 @@
 - [a-z rewritten](#a-z-rewritten)
   - [bastion host](#bastion-host)
   - [birthday attack](#birthday-attack)
+  - [burpsuite](#burpsuite)
   - [dd](#dd)
   - [dig = nslookup](#dig--nslookup)
   - [exploit framework](#exploit-framework)
@@ -238,6 +239,17 @@ A jump box which gives access to secure computers via SSH or other mechanism
 ## birthday attack
 
 2 files have same hash
+
+## burpsuite
+
+application security red team / blue team tool
+
+eg xss cross site scripting
+
+eg interception proxy
+
+can send repeated http and websockets requests over and over again
+
 
 ## dd
 

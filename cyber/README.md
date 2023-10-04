@@ -177,8 +177,6 @@
         - [Introductory Research](#introductory-research)
           - [Steganography](#steganography)
           - [Steghide](#steghide)
-      - [BurpSuite](#burpsuite)
-        - [Burp Repeater](#burp-repeater)
       - [Vulnversity](#vulnversity)
     - [Mimikatz](#mimikatz)
   - [Cyber Labs on AWS](#cyber-labs-on-aws)
@@ -237,7 +235,6 @@
     - [nikto](#nikto)
     - [sploit.htm](#sploithtm)
     - [dirbuster](#dirbuster)
-    - [burpsuite](#burpsuite-1)
     - [getent](#getent)
     - [mbsa](#mbsa)
     - [snort](#snort)
@@ -262,7 +259,6 @@
     - [Lab 12 : install backdoor malware](#lab-12--install-backdoor-malware)
     - [Lab 13 : Password sniffing](#lab-13--password-sniffing)
     - [Lab 14 : Using email to hack](#lab-14--using-email-to-hack)
-    - [Lab 14 : XSS Cross Site Scripting](#lab-14--xss-cross-site-scripting)
     - [Lab 14 : Exploiting XSS with MITM attack](#lab-14--exploiting-xss-with-mitm-attack)
 - [Cyber course](#cyber-course)
   - [History of cyber](#history-of-cyber)
@@ -4430,11 +4426,7 @@ steghide extract -sf file
 
 
 
-#### BurpSuite
 
-##### Burp Repeater
-
-Can be used to manually send HTTP and Websockets requests over and over again
 
 #### Vulnversity
 
@@ -5403,11 +5395,6 @@ command injection : send commands to OS
 
 firefox : configure proxy 8080 with no exceptions
 
-### burpsuite
-
-Burpsuite : run it then 'Intercept Is On'
-
-Burpsuite => SQL injection attack
 
 
 
@@ -5837,9 +5824,7 @@ red : set up email as a relay (open relay = do not do this in real life)
 
 red : configure email on Thunderbird
 
-### Lab 14 : XSS Cross Site Scripting
 
-red : set up Burpsuite as an INTERCEPTION PROXY
 
 ### Lab 14 : Exploiting XSS with MITM attack
 

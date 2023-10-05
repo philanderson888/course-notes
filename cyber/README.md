@@ -237,9 +237,7 @@
     - [mbsa](#mbsa)
     - [securityonion](#securityonion)
     - [sguil](#sguil)
-    - [hping3](#hping3)
     - [sgutil](#sgutil)
-    - [squert](#squert)
     - [sysinternals](#sysinternals)
     - [veil](#veil)
     - [evasion](#evasion)
@@ -5446,21 +5444,11 @@ sudo rule-update : updates rules in IDS so they no longer generate an alert
 
 zenmap and run scan on a host. This will be detected in the IDS as a threat. Check SecurityOnion for threat output
 
-### hping3
-
-hping3 to run a ddos attack on a machine
-
-Spamhouse Don't Route - lists packets not to be routed
-
-PEER Drop - lists packets to be dropped
 
 ### sgutil
 
 SGUIL : see if anything detected
 
-### squert
-
-Squert : get activity analysis picture
 
 ### sysinternals
 

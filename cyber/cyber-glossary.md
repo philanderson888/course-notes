@@ -13,12 +13,14 @@
   - [dirbuster](#dirbuster)
   - [exploit framework](#exploit-framework)
   - [getent](#getent)
+    - [hping3](#hping3)
   - [mac overflow attack](#mac-overflow-attack)
   - [metasploit](#metasploit)
     - [ids tools](#ids-tools)
   - [securityonion](#securityonion)
   - [sheep dip](#sheep-dip)
   - [snort](#snort)
+    - [squert and sguil](#squert-and-sguil)
   - [tasting](#tasting)
   - [vulnerability scan](#vulnerability-scan)
 - [a-z original](#a-z-original)
@@ -289,6 +291,13 @@ getent group root - look up root users
 getent passwd phil - look up user phil
 ```
 
+### hping3
+
+ddos attack
+
+(( spamhouse don't route - don't route these packets))
+(( peer drop - drop these packets))
+
 ## mac overflow attack
 
 Flood switch buffer memory (CAM = Content Addressable Memory) so it's full and cannot resolve addresses which causes the switch to default to sending out traffic on all ports which is very dangerous and not secure
@@ -316,6 +325,11 @@ isolated computer on which can install malware to investigate
 ## snort
 
 ids / ips by cisco which provides real time network traffic analysis and packet monitoring
+
+### squert and sguil
+
+ids activity alerts in security onion
+
 
 ## tasting
 

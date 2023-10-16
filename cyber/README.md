@@ -228,13 +228,15 @@
     - [netdiscover](#netdiscover)
     - [dig](#dig)
     - [traceroute](#traceroute)
+  - [red tools](#red-tools)
+  - [port and host scanning](#port-and-host-scanning)
+    - [vulnerability scanners](#vulnerability-scanners)
     - [openvas](#openvas)
-    - [armitage](#armitage)
+    - [armitage = gui for metasploit](#armitage--gui-for-metasploit)
     - [metasploit](#metasploit-1)
-    - [zenmap](#zenmap)
-    - [nikto](#nikto)
-    - [sploit.htm](#sploithtm)
-    - [mbsa](#mbsa)
+    - [zenmap - host and port scan](#zenmap---host-and-port-scan)
+    - [nikto - web server vulnerability scanner](#nikto---web-server-vulnerability-scanner)
+    - [mbsa - windows server scanner](#mbsa---windows-server-scanner)
     - [securityonion](#securityonion)
     - [sguil](#sguil)
     - [sgutil](#sgutil)
@@ -286,13 +288,9 @@
     - [Service discovery : OS and services](#service-discovery--os-and-services)
     - [Virtual Machine vulnerabilities](#virtual-machine-vulnerabilities)
   - [Fingerprinting = Uniquely Identify](#fingerprinting--uniquely-identify)
-- [Vulnerability Scanning](#vulnerability-scanning)
-  - [Vulnerability Scanners](#vulnerability-scanners)
     - [OpenVAS](#openvas-1)
     - [Nessus scanner : free for home use](#nessus-scanner--free-for-home-use)
     - [Qualys](#qualys)
-    - [Nexpose](#nexpose)
-    - [MBSA](#mbsa-1)
   - [Hardening](#hardening-1)
     - [Templates](#templates)
   - [Vulnerability Types](#vulnerability-types)
@@ -343,11 +341,11 @@
   - [Offensive Penetration Testing And Exploits](#offensive-penetration-testing-and-exploits)
   - [PCI *DSS*](#pci-dss)
     - [Exploit Frameworks](#exploit-frameworks)
+  - [Kill Chain](#kill-chain-1)
     - [Metasploit](#metasploit-3)
-      - [EXPLOIT MODULE = TRY AND EXPLOIT A VULNERABILITY](#exploit-module--try-and-exploit-a-vulnerability)
       - [PAYLOAD = WHAT YOU DOWNLOAD TO A MACHINE THAT YOU FIND A VULNERABILITY ON](#payload--what-you-download-to-a-machine-that-you-find-a-vulnerability-on)
       - [CVE VULNERABILITY =\> EXPLOIT MODULE =\> PAYLOAD](#cve-vulnerability--exploit-module--payload)
-      - [Armitage = GUI for Metasploit](#armitage--gui-for-metasploit)
+      - [Armitage = GUI for Metasploit](#armitage--gui-for-metasploit-1)
 - [Defending](#defending)
     - [Classes Of Controls](#classes-of-controls)
   - [Cyber Organisations](#cyber-organisations)
@@ -5311,7 +5309,18 @@ dig [domain.com](http://domain.com/) AXFR 1.2.3.4
 
 traceroute [google.com](http://google.com/)
 
+## red tools
 
+## port and host scanning
+
+- zenmap
+
+### vulnerability scanners
+
+- openvas 
+- metasploit and armitage
+- nikto web vulernability scanner
+- sploit 
 ### openvas
 
 openvas-start vulnerability scan
@@ -5344,7 +5353,7 @@ vulns -R 1.2.3.4 show vulnerabilities for a specific host
 
 search | vulns -R 1.2.3.4 search for exploits which target the vulnerabilities exposed on this host
 
-### armitage
+### armitage = gui for metasploit
 
 Armitage is Java GUI for MSF Metasploit
 
@@ -5362,25 +5371,17 @@ Check exploits
 
 
 
-### zenmap
+### zenmap - host and port scan
 
-Zenmap : host and port scan
-
-### nikto
+### nikto - web server vulnerability scanner
 
 nikto -host 1.2.3.4 to see what vulnerabilities exist
 
 nikto -o sploit.htm -host 1.2.3.4 saves output to web page
 
-### sploit.htm
-
-firefox sploit.htm and look at vulnerabilities
 
 
-
-
-
-### mbsa
+### mbsa - windows server scanner
 
 MBSA Baseline Security Analyser - run a scan on your server : updates and incorrect configuration
 
@@ -7028,15 +7029,7 @@ zenmap host/port scan
 
 
 
-# Vulnerability Scanning
 
-SecTools.org => different kinds of tools
-
-## Vulnerability Scanners
-
-Qualsys, Nessus, OpenVAS, Nexpose, Nikto, MBSA
-
-Web app scanner eg Nikto : check for SQL injection and XSS vulnerability
 
 ### OpenVAS 
 
@@ -7083,13 +7076,7 @@ Nessus can
 
 cloud-based vulnerability management (agents run on clients)
 
-### Nexpose
 
-vulnerability scanner
-
-### MBSA
-
-CAN ANALYSE THE RESULTANT SECURITY AND HIGHLIGHT ANY FLAWS OR WEAKNESSES eg patch not up to date
 
 ## Hardening
 
@@ -8021,6 +8008,19 @@ Once access is gained this then may be used to
 
 
 
+## Kill Chain
+
+1. Discovery scan
+   1. networks
+   2. hosts
+      1. operating systems
+      2. applications
+   3. nmap
+2. vulnerability scan
+3. exploit module to match cve found in scan
+4. release payload once exploit has gained you access
+
+
 
 
 
@@ -8028,29 +8028,25 @@ Once access is gained this then may be used to
 
 Metasploit is best known exploit framework = metasploit.com (open source) (uses Ruby)
 
-Tutorial : Metasploit Unleashed
-
-combines with Nexpose vulnerability scanner
-
 1. Discovery Scan : hosts and vulnerabilities
 
 ```
-     ((Metasploit can use Nmap or its own tools for this))
+((Metasploit can use Nmap or its own tools for this))
 ```
 
-2. connect to vulnerability scanner eg OpenVAS, Nessus, Nexpose
+2. connect to vulnerability scanner
 
  ```
-     openvas_target_list
-     openvas_task_list
-     openvas_report_import
+openvas_target_list
+openvas_task_list
+openvas_report_import
  ```
 
-#### EXPLOIT MODULE = TRY AND EXPLOIT A VULNERABILITY
+3. EXPLOIT MODULE = TRY AND EXPLOIT A VULNERABILITY
 
 ```
-       use ExploitModule
-       show options
+use ExploitModule
+show options
 ```
 
 #### PAYLOAD = WHAT YOU DOWNLOAD TO A MACHINE THAT YOU FIND A VULNERABILITY ON

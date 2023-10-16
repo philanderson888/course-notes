@@ -163,7 +163,6 @@
   - [EXPLOIT MODULE](#exploit-module)
   - [PAYLOAD](#payload)
   - [Discovery scanner Nmap](#discovery-scanner-nmap)
-  - [Vulnerability scanner](#vulnerability-scanner)
   - [Banner Grabbing](#banner-grabbing)
   - [Lua scripting language](#lua-scripting-language)
   - [Footprint](#footprint)
@@ -840,10 +839,6 @@ WHAT YOU DOWNLOAD TO A MACHINE THAT YOU FIND A VULNERABILITY ON
 ## Discovery scanner Nmap
 
 host/ip/port
-
-## Vulnerability scanner 
-
-OpenVAS, Nessus, Nexpose
 
 ## Banner Grabbing
 

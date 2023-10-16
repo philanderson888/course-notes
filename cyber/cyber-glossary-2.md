@@ -102,7 +102,7 @@
   - [NAXSI = nginX Anti XSS and SQL Injection](#naxsi--nginx-anti-xss-and-sql-injection)
   - [Nessus vulnerability scanner](#nessus-vulnerability-scanner)
   - [NetScout](#netscout)
-  - [Nikto - web server vulnerability](#nikto---web-server-vulnerability)
+  - [Nikto - web server vulnerability scanner](#nikto---web-server-vulnerability-scanner)
   - [NIST](#nist)
   - [Nmap network mapper](#nmap-network-mapper)
   - [OODA Observe, Orient, Decide, Act](#ooda-observe-orient-decide-act)
@@ -173,7 +173,6 @@
   - [EXPLOIT MODULE](#exploit-module)
   - [PAYLOAD](#payload)
   - [Discovery scanner Nmap](#discovery-scanner-nmap)
-  - [Vulnerability scanner](#vulnerability-scanner)
   - [Banner Grabbing](#banner-grabbing)
   - [Lua scripting language](#lua-scripting-language)
   - [Footprint](#footprint)
@@ -672,9 +671,7 @@ Web Application Firewall : for data center
  
  commercial enterprise-level network service assurance products 
  
- ## Nikto - web server vulnerability
-
- web server vulnerability scanner 
+ ## Nikto - web server vulnerability scanner
  
  ## NIST 
  
@@ -924,10 +921,6 @@ WHAT YOU DOWNLOAD TO A MACHINE THAT YOU FIND A VULNERABILITY ON
 ## Discovery scanner Nmap
 
 host/ip/port
-
-## Vulnerability scanner 
-
-OpenVAS, Nessus, Nexpose
 
 ## Banner Grabbing
 

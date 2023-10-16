@@ -16,13 +16,9 @@
     - [hping3](#hping3)
   - [mac overflow attack](#mac-overflow-attack)
   - [metasploit](#metasploit)
-    - [ids tools](#ids-tools)
-  - [securityonion](#securityonion)
+    - [ids](#ids)
   - [sheep dip](#sheep-dip)
-  - [snort](#snort)
-    - [squert and sguil](#squert-and-sguil)
   - [tasting](#tasting)
-  - [vulnerability scan](#vulnerability-scan)
 - [a-z original](#a-z-original)
   - [OWASP Cyber Glossary](#owasp-cyber-glossary)
   - [CSYA CSO-002 Exam Prep Sheets](#csya-cso-002-exam-prep-sheets)
@@ -199,11 +195,11 @@
     - [Zeroaccess rootkit](#zeroaccess-rootkit)
     - [Heartbleed vulnerability](#heartbleed-vulnerability)
   - [OpenSSL](#openssl)
-  - [EXPLOIT MODULE](#exploit-module)
-  - [PAYLOAD](#payload)
   - [Discovery scanner Nmap](#discovery-scanner-nmap)
   - [Vulnerability scanner](#vulnerability-scanner)
   - [Exploit framework - launch attacks](#exploit-framework---launch-attacks)
+  - [EXPLOIT MODULE](#exploit-module)
+  - [PAYLOAD](#payload)
   - [Banner Grabbing](#banner-grabbing)
   - [Lua scripting language](#lua-scripting-language)
   - [Footprint](#footprint)
@@ -249,13 +245,12 @@ A jump box which gives access to secure computers via SSH or other mechanism
 
 ## burpsuite
 
-application security red team / blue team tool
+red team
+  xss cross site scripting attack
+  repeated requests
 
-eg xss cross site scripting
-
-eg interception proxy
-
-can send repeated http and websockets requests over and over again
+blue team
+  interception proxy
 
 ## command injection
 
@@ -308,38 +303,26 @@ exploit framework
 
 launch exploit against vulnerability
 
-### ids tools
+### ids
 
-securityonion enterprise network security
+- #### securityonion enterprise network security monitoring
+- ##### squert and sguil
 
-snort packet/traffic monitoring
+ids activity alerts in security onion
 
-## securityonion
+- #### snort packet/traffic monitoring
 
-provides enterprise network security monitoring
+ids / ips by cisco which provides real time network traffic analysis and packet monitoring
+
 
 ## sheep dip
 
 isolated computer on which can install malware to investigate
 
-## snort
-
-ids / ips by cisco which provides real time network traffic analysis and packet monitoring
-
-### squert and sguil
-
-ids activity alerts in security onion
-
-
 ## tasting
 
 buy a domain in its trial period to validate its monetary worth - if not worth the money, then cancel it during the trial period
 
-## vulnerability scan
- 
-finds weaknesses to exploit
- 
-eg nexpose
  
 
 # a-z original
@@ -1072,6 +1055,28 @@ File Fork - split up files into multiple parts, but the OS treats them as one fi
 
 ## OpenSSL 
 
+
+
+## Discovery scanner Nmap
+
+host/ip/port
+
+## Vulnerability scanner 
+
+- OpenVAS
+- Nessus
+- Nexpose
+- Qualsys
+- ### Nikto
+  - Web app scanner eg Nikto : check for SQL injection and XSS vulnerability
+- ### MBSA Windows server scanner - identify weakness and lack of patching
+
+
+
+## Exploit framework - launch attacks
+
+eg metasploit : launches specific attacks against specific known vulnerabilities
+
 ## EXPLOIT MODULE
 
 EXPLOIT VULNERABILITY
@@ -1083,18 +1088,6 @@ DELIVERED BY EXPLOIT MODULE
 CODE DOWNLOADED BY EXPLOIT
 
 WHAT YOU DOWNLOAD TO A MACHINE THAT YOU FIND A VULNERABILITY ON
-
-## Discovery scanner Nmap
-
-host/ip/port
-
-## Vulnerability scanner 
-
-OpenVAS, Nessus, Nexpose
-
-## Exploit framework - launch attacks
-
-eg metasploit : launches specific attacks against specific known vulnerabilities
 
 ## Banner Grabbing
 

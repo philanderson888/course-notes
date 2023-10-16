@@ -755,7 +755,6 @@ NGINX
 NIDS operates INSIDE firewall
 NIDS: Snort Bro Sourcefire 
 Nikto = web server vulnerability scanner
-nikto web app
 NIST 800-82 protects scada
 nist 800-88 sanitise
 NIST core : identify (assets and risks) protect (acl, train, maintain) detect (event, anomalies, continuous) respond (IRP, comms,analyse, mitigate) recover
@@ -1014,14 +1013,7 @@ VLAN Pooling
 volatile places: Swap file, routing table, RAM
 volatile: swap file, router, RAM
 VTP Vlan Trunking Protocol across switches
-Vulnerability
-Vulnerability : weakness
-Vulnerability Scan
-Vulnerability Scan
-Vulnerability scan is automated
-vulnerability scan: nessus, nexpose, openVAS
 Vulnerability scanner eg OpenVAS, Nessus, Nexpose
-vulnerability: nexpose, nessus, openvas
 vulns -R show vulnerabilities
 Weaponisation
 Website Ripping = website copier

@@ -631,8 +631,6 @@ Beaconing = phoning home but both good and bad devices do this. check for malici
 
 Scan sweep of network
 
-Host-based detection Sysinternals (windows) 1 hour long video on sysinternals and malware https://technet.microsoft.com/en-us/sysinternals/gg618529
-
 Windows Forensic Toolchest      WFT (paid for software)
 
 Redline from FireEye (freeware) : analyse RAM and processes
@@ -665,7 +663,7 @@ Compressed (packed) processes highlighted in yellow in process explorer
 
 Delete process is it restored at system reboot? can it be deleted? if not, why?
 
-Autoruns from sysinternals - which startup locations a program is running from, and does it run automatically?
+
 
 Resource usage
 
@@ -678,7 +676,6 @@ RAM
        
 ```
 
-HDD du disk usage tool from sysinternals
 
 Bad USB devices which pretend to be another class of device eg a keyboard
 
@@ -686,7 +683,7 @@ Unauthorised changes
 
 Unauthorised privileges
 
-AccessChk AccessEnum both in SysInternals
+
 
 
 
@@ -779,7 +776,9 @@ Mitigate with INPUT VALIDATION (especially max length!)
 
 Man-in-the-browser attack : adding extra fields into an HTML form
 
-Sysinternals tools
+
+
+
 
 Process explorer
 
@@ -800,7 +799,7 @@ Netstat : check destination IP
 
 Autostart (Persistence)
 
-Sysinternals autoruns
+
 
 Containment Techniques
 

@@ -130,13 +130,13 @@
     - [NAC Policy](#nac-policy)
       - [Types of rules](#types-of-rules)
   - [Identity](#identity)
-    - [Identity management](#identity-management)
-      - [Digital identity](#digital-identity)
-        - [MAC can be spoofed](#mac-can-be-spoofed)
-        - [IP can be spoofed](#ip-can-be-spoofed)
-        - [Certificates](#certificates)
-        - [Rogue machine identity](#rogue-machine-identity)
-      - [Digital signing](#digital-signing)
+    - [identity by ...](#identity-by-)
+    - [nac](#nac-1)
+  - [certificates](#certificates)
+    - [sigcheck verify root certificate valid](#sigcheck-verify-root-certificate-valid)
+    - [openssl](#openssl)
+    - [certutil (windows)](#certutil-windows)
+  - [dial in](#dial-in)
     - [RADIUS](#radius-1)
     - [TACACS+](#tacacs-1)
     - [LDAP (Active Directory)](#ldap-active-directory)
@@ -222,7 +222,6 @@
       - [Documentation Path](#documentation-path)
       - [Exploit Modules Path](#exploit-modules-path)
       - [Scripts including Meterpreter Path](#scripts-including-meterpreter-path)
-  - [Ruby](#ruby)
   - [Other Cyber Labs](#other-cyber-labs)
     - [NMap](#nmap)
     - [netdiscover](#netdiscover)
@@ -237,10 +236,17 @@
     - [zenmap - host and port scan](#zenmap---host-and-port-scan)
     - [nikto - web server vulnerability scanner](#nikto---web-server-vulnerability-scanner)
     - [mbsa - windows server scanner](#mbsa---windows-server-scanner)
-    - [securityonion](#securityonion)
-    - [sguil](#sguil)
-    - [sgutil](#sgutil)
-    - [sysinternals](#sysinternals)
+  - [ids](#ids)
+    - [securityonion ids](#securityonion-ids)
+    - [sguil ids](#sguil-ids)
+    - [sgutil ids](#sgutil-ids)
+  - [sysinternals suite of tools from microsoft](#sysinternals-suite-of-tools-from-microsoft)
+    - [autoruns - what is set to auto start](#autoruns---what-is-set-to-auto-start)
+    - [accesschk - search for unauthorised privileges](#accesschk---search-for-unauthorised-privileges)
+    - [accessenum - enumerate access?](#accessenum---enumerate-access)
+    - [du disk usage](#du-disk-usage)
+    - [sigcheck - verify root certificate](#sigcheck---verify-root-certificate)
+  - [cyber tools](#cyber-tools)
     - [veil](#veil)
     - [evasion](#evasion)
     - [pcap](#pcap)
@@ -268,11 +274,19 @@
   - [Exploits](#exploits)
   - [Email harvesting](#email-harvesting)
   - [Social Media profiling](#social-media-profiling)
-  - [DNS harvesting](#dns-harvesting)
-  - [Getting location from IP](#getting-location-from-ip)
+  - [DNS](#dns)
+    - [centralops](#centralops)
+    - [whois domain info (from sysinternals)](#whois-domain-info-from-sysinternals)
+    - [nslookup list records](#nslookup-list-records)
+    - [dig](#dig-1)
+  - [geolocation](#geolocation)
+    - [geoip - get location from ip](#geoip---get-location-from-ip)
   - [Domain Analysis](#domain-analysis)
-  - [Website Ripping = website copier](#website-ripping--website-copier)
-- [Scanning](#scanning)
+    - [netcraft.com analyse domain stats](#netcraftcom-analyse-domain-stats)
+  - [website](#website)
+    - [httrack.com rip full site](#httrackcom-rip-full-site)
+    - [archive.org](#archiveorg)
+  - [scanning](#scanning)
   - [Social Engineering](#social-engineering)
   - [Conversion Tools](#conversion-tools)
   - [Scanning Labs](#scanning-labs)
@@ -285,9 +299,10 @@
   - [Footprinting = Topology Discover](#footprinting--topology-discover)
     - [Network Mapping Tools](#network-mapping-tools)
     - [Discovery tools](#discovery-tools)
-    - [Service discovery : OS and services](#service-discovery--os-and-services)
+  - [footprint](#footprint)
+  - [fingerprint](#fingerprint)
+    - [tcpview = netstat](#tcpview--netstat)
     - [Virtual Machine vulnerabilities](#virtual-machine-vulnerabilities)
-  - [Fingerprinting = Uniquely Identify](#fingerprinting--uniquely-identify)
     - [OpenVAS](#openvas-1)
     - [Nessus scanner : free for home use](#nessus-scanner--free-for-home-use)
     - [Qualys](#qualys)
@@ -431,7 +446,7 @@
     - [Firewall](#firewall-1)
     - [Web Proxy = web security gateway](#web-proxy--web-security-gateway)
     - [Reverse Proxy = Inbound Traffic](#reverse-proxy--inbound-traffic)
-    - [IDS](#ids)
+    - [IDS](#ids-1)
       - [NIDS](#nids)
     - [Detection](#detection)
   - [Malware](#malware)
@@ -2928,60 +2943,72 @@ Pre-admission Post-admission - is it still compliant?
 
 ## Identity
 
-Enrol = sign up
+enrol = sign up
 
-Provision = create new accounts for users / customers Online provisioning - should include CAPTCHA to prove not a robot Employee provisioning - should include identity proofing as you can properly verify who your employees are
+provision - create new account
 
-Identity proofing = proving the person is the person they say they are, at the time of signing up
+captcha - verify genuine user signing up
 
-Subject to approval so insiders cannot just create accounts
+identity proof for user at sign up
 
-Revoke
+privileged accounts
 
-SSO
+shared accounts - don't know who did what
 
-### Identity management
-
-Priviliged accounts - RESTRICTED USER
-
-Shared accounts - non repudiation is not possible
-
-Roles RBAC Role Based Access Control - access depending on your job role
-
-       Authorization Manager
-
-#### Digital identity
-
-##### MAC can be spoofed
-
-##### IP can be spoofed 
-
-##### Certificates
-
-far harder to be spoofed
-
-##### Rogue machine identity
-
-       Wired
-              Host
-              Switch
-       Wireless
-       Apps
-       VM
+rbac role based access control - by job role
 
 
-Detection Physical inspection Network scan : hosts WIFI scan : hosts Network scan : protocols and ports NAC compliance
+### identity by ...
 
-Execution control Managing apps (white/blacklist)
+IP address
+MAC address
+Host name
+Machine certificate
+App certificate
 
-#### Digital signing
 
-       sigcheck -tv can check (from Sysinternals) root certificates against
-              Microsoft
-              
-       OpenSSL 
-       
-       certutil (Windows)
+
+
+
+### nac 
+
+complicance
+
+- wifi
+- wired
+- protocol
+- host
+- ip
+- ports
+- apps
+
+
+
+
+
+
+
+
+## certificates
+
+### sigcheck verify root certificate valid
+
+tool from sysinternals
+
+```bash
+sigcheck -tv 
+```
+
+### openssl
+
+### certutil (windows)
+
+
+
+
+
+
+## dial in
 
 ### RADIUS
 
@@ -5179,70 +5206,6 @@ All modules are Ruby classes but payloads execute at runtime and can be of any l
 
 
 
-
-
-
-
-
-
-## Ruby 
-
-Every class has one parent only
-
-Every class may have several modules
-
-Modules can add new methods
-
-Modules can overload old methods
-
-Metasploit modules overload Msf::Module 
-
-Mixins include one class into another
-
-  Mixins can override a class methods
-
-    eg connect() TCP but connect() overloaded by SMB, FTP
-
-Example of Ruby mixin with overloading
-
-```ruby
-class MyParent
-     def woof
-          puts “woof!”
-     end
-end
-
-class MyClass > MyParent
-end
-
-object = MyClass.new
-object.woof() => “woof!”
-
-================================================================
-
-module MyMixin
-     def woof
-          puts “hijacked the woof method!”
-     end
-end
-
-class MyBetterClass > MyClass
-     include MyMixin
-end
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Other Cyber Labs
 
 
@@ -5390,70 +5353,40 @@ mbsacli command line scan also
 Search for any problems identified in the scan. Try and match against any known vulnerabilities (CVE). If so, do you find any active exploits which could target this vulnerability?
 
 
-### securityonion
-
-SecurityOnion linux machine IDS
-
-(( Validate a signature - can do this for the ISO!!!))
-
-[https://github.com/Security-Onion-Solutions/security-onion/blob/master/Verify_ISO.md](https://github.com/Security-Onion-Solutions/security-onion/blob/master/Verify_ISO.md)
-
-ISO image:
-[https://github.com/Security-Onion-Solutions/security-onion/releases/download/v14.04.5.2/securityonion-14.04.5.2.iso](https://github.com/Security-Onion-Solutions/security-onion/releases/download/v14.04.5.2/securityonion-14.04.5.2.iso)
-
-Signature for ISO image:
-[https://github.com/Security-Onion-Solutions/security-onion/raw/master/sigs/securityonion-14.04.5.2.iso.sig](https://github.com/Security-Onion-Solutions/security-onion/raw/master/sigs/securityonion-14.04.5.2.iso.sig)
-
-Signing key:
-[https://raw.githubusercontent.com/Security-Onion-Solutions/security-onion/master/KEYS](https://raw.githubusercontent.com/Security-Onion-Solutions/security-onion/master/KEYS)
-
-For example, here are the steps you can use on most Linux distributions to download and verify our Security Onion ISO image.
-
-Download the signing key:
-
-wget [https://raw.githubusercontent.com/Security-Onion-Solutions/security-onion/master/KEYS](https://raw.githubusercontent.com/Security-Onion-Solutions/security-onion/master/KEYS)
-
-Import the signing key:
-
-gpg --import KEYS
-Download the signature file for the ISO:
-
-wget [https://github.com/Security-Onion-Solutions/security-onion/raw/master/sigs/securityonion-14.04.5.2.iso.sig](https://github.com/Security-Onion-Solutions/security-onion/raw/master/sigs/securityonion-14.04.5.2.iso.sig)
-Download the ISO image:
-
-wget [https://github.com/Security-Onion-Solutions/security-onion/releases/download/v14.04.5.2/securityonion-14.04.5.2.iso](https://github.com/Security-Onion-Solutions/security-onion/releases/download/v14.04.5.2/securityonion-14.04.5.2.iso)
-Verify the downloaded ISO image using the signature file:
-
-gpg --verify securityonion-14.04.5.2.iso.sig securityonion-14.04.5.2.iso
-The output should show "Good signature" and the Primary key fingerprint should match what's shown below:
-
-gpg: Signature made Mon 30 Jan 2017 02:44:55 PM EST using RSA key ID ED6CF680
-gpg: Good signature from "Doug Burks [doug.burks@gmail.com](mailto:doug.burks@gmail.com)"
-gpg: WARNING: This key is not certified with a trusted signature!
-gpg: There is no indication that the signature belongs to the owner.
-Primary key fingerprint: BD56 2813 E345 A068 5FBB 91D3 788F 62F8 ED6C F680
-
-### sguil
-
-SGUIL monitors live events
-
-Configure rules on IDS
-
-sudo nano - run text editor
-
-sudo rule-update : updates rules in IDS so they no longer generate an alert
-
-zenmap and run scan on a host. This will be detected in the IDS as a threat. Check SecurityOnion for threat output
 
 
-### sgutil
+## ids
 
-SGUIL : see if anything detected
+[ids](ids.md)
+
+### securityonion ids
+
+### sguil ids
+
+### sgutil ids
 
 
-### sysinternals
+## sysinternals suite of tools from microsoft
 
-Use the SYSINTERNALS suite in this lab
+### autoruns - what is set to auto start
+
+### accesschk - search for unauthorised privileges
+
+### accessenum - enumerate access?
+
+### du disk usage
+
+### sigcheck - verify root certificate
+
+
+
+
+
+
+
+
+
+## cyber tools
 
 ### veil
 
@@ -6322,27 +6255,25 @@ https://www.exploit-db.com/
 ​       
 
 
-## DNS harvesting
+## DNS
 
-       Try and obtain the DNS records from a server
+### centralops
 
-        https://centralops.net/co/  can give very detailed information
-    
-       Sysinternals => whois -v abc.com
+https://centralops.net/co/  can give very detailed information
 
-​       Zone transfer
-​       
-​              NSLOOKUP SET TYPE=ANY ls-d abc.com      list all records
- 
-​       Zone transfer (Linux)
-​       
-​              dig axfr dns-server-1.domain.com thiscompany.com
-​              
-​                      AXFR = ALL TRANSFER = REQUEST FOR ALL THE DNS RECORDS
-​                      IXFR = INCREMENTAL TRANSFER
 
+### whois domain info (from sysinternals)
+
+```
+whois -v abc.com
+```
+
+### nslookup list records
 
 ```bash
+# list all records
+NSLOOKUP SET TYPE=ANY ls-d abc.com
+
 # interactive
 nslookup
 set type=any
@@ -6354,44 +6285,59 @@ set all
 # set domain
 set domain=google.com
 ```
-​              
-​              
-​              
-​              
+​       
+### dig
+
+axfr = all dns records
+
+ixfr = incremental transfer
+
+```bash
+​dig axfr dns-server-1.domain.com thiscompany.com
+```
+​       
+
+## geolocation
+
+### geoip - get location from ip
 
 
-## Getting location from IP
 
 
-       geoip
 
 
 
 ## Domain Analysis
 
-
-       netcraft.com provides statistical analysis of sites, uptime,
-              quality of service etc
+### netcraft.com analyse domain stats
 
 
 
-## Website Ripping = website copier
+## website
+
+rip = copy
+
+### httrack.com rip full site
+
+### archive.org
 
 
-       httrack.com - download full site to local; ensures all paths work locally
-
-        archive.org
-        httrack
-        spider netcraft.com
 
 
-# Scanning
 
-  attentionmeter.com
-  edgesecurity.com
-  lmgtfy.com
-  osrframework
-  web spider
+
+
+## scanning
+
+attentionmeter.com
+
+edgesecurity.com
+ 
+lmgtfy.com
+
+osrframework
+
+web spider
 
 
 
@@ -6824,19 +6770,45 @@ zenmap host/port scan
 
 
 
+## footprint 
+
+a footprint is a picture of a network and hosts
+
+- tcp by ip
+- arp by mac
+- dns by name
+- os by version
+- whois by domain name and servers running
+
+find out os and version
+
+- host
+- router
+- firewall
+- switch
 
 
-### Service discovery : OS and services
+service discovery - running services and the version
+
+find out which services are accessible on which ports
+
+
+## fingerprint
+
+a fingerprint uniquely identifies a system
+
+detailed packet analysis
+- passive monitors packets
+- active sends packets and monitors response
+
+
+### tcpview = netstat
+
+sysinternal tool
+
+
 
 ```
-       Tries to work out which services are running and if a firewall is protecting that service
-    
-       OS for : hosts, firewall, switch, router
-       
-       Network services running
-       
-       Fingerprint = work out which software is running, and which version
-                      is running, by using non-admin tools to query
                       
        netstat Windows
        
@@ -6853,7 +6825,7 @@ zenmap host/port scan
           SYN/ACK packet returned? Then port is open and service is available
           RST returned?  Device reachable but port closed and no service available
 
-       tcpview in SysInternals : GUI alternative to netstat
+
        
        nmap 
        
@@ -6967,12 +6939,6 @@ zenmap host/port scan
 
 
 
-
-
-
-
-
-## Fingerprinting = Uniquely Identify
 
 
 

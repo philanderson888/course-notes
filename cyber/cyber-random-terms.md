@@ -965,10 +965,6 @@ supplicant requests access
 SYN : first part only (can try if ICMP is blocked)
 SYN..ACK  FIN..ACK on both sides
 synthetic monitoring provides a path of inputs to simulate a user journey through a site
-sysinternals accesschk for unauthorised privileges
-sysinternals accessenum will enumerate access
-sysinternals autoruns: what is starting automatically and from where
-sysinternals du disk usage tool
 Syslog = logs only
 sysvol 
 TACACS+ 49

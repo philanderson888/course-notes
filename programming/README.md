@@ -5,7 +5,7 @@
 - [Programming](#programming)
   - [Contents](#contents)
   - [IDE](#ide)
-  - [C](#c)
+  - [C#](#c)
   - [Web](#web)
     - [HTML](#html)
     - [CSS](#css)
@@ -23,6 +23,7 @@
   - [MySQL](#mysql)
   - [PHP](#php)
   - [Rust](#rust)
+  - [Ruby](#ruby)
 
 ## IDE
 
@@ -109,17 +110,12 @@ ALTER TABLE tbl_personnel MODIFY COLUMN ID INT AUTO_INCREMENT PRIMARY KEY
 
 ## PHP
 
-```xml
-### query mysql
-require('C:\xampp\htdocs\log\assets\php\connect-db-mysqli.php'); 
-
-$q="UPDATE tasks SET redgreen='$color' WHERE taskid=$taskid"; 
-$q="SELECT date, redgreen FROM tasks WHERE taskid=$taskid";
-
-$result = mysqli_query($q) or die (mysql_error()); 
-$row = mysqli_fetch_array($result);
-```
+[php](php.md)
 
 ## Rust
 
-Rust is the most-loved programming language in the world according to 2019 Stack Overflow survey.
+[rust](rust.md)
+
+## Ruby
+
+[ruby](ruby.md)

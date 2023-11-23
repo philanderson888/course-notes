@@ -12,7 +12,6 @@
       - [Autopsy = GUI](#autopsy--gui)
     - [Helix Live CD](#helix-live-cd)
     - [Cellebrite](#cellebrite)
-    - [Sysinternals](#sysinternals)
   - [Forensics Workstation](#forensics-workstation)
   - [Getting Data](#getting-data)
     - [from RAM (Memory Acquisition)](#from-ram-memory-acquisition)
@@ -98,8 +97,6 @@ Mobile forensics
        
      UFED Universal Forensic Extraction Device 
      Forensically clean : does not affect data it is investigating
-                      
-###    Sysinternals
        
        
 

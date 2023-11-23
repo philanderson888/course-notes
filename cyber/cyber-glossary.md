@@ -16,7 +16,10 @@
     - [hping3](#hping3)
   - [mac overflow attack](#mac-overflow-attack)
   - [metasploit](#metasploit)
-    - [ids](#ids)
+  - [ids](#ids)
+    - [securityonion ids](#securityonion-ids)
+    - [squert and sguil](#squert-and-sguil)
+    - [snort ids traffic monitor](#snort-ids-traffic-monitor)
   - [sheep dip](#sheep-dip)
   - [tasting](#tasting)
 - [a-z original](#a-z-original)
@@ -303,14 +306,13 @@ exploit framework
 
 launch exploit against vulnerability
 
-### ids
+## ids
 
-- #### securityonion enterprise network security monitoring
-- ##### squert and sguil
+### securityonion ids
 
-ids activity alerts in security onion
+### squert and sguil
 
-- #### snort packet/traffic monitoring
+### snort ids traffic monitor
 
 ids / ips by cisco which provides real time network traffic analysis and packet monitoring
 

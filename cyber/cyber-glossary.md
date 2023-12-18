@@ -20,11 +20,6 @@
     - [securityonion ids](#securityonion-ids)
     - [squert and sguil](#squert-and-sguil)
     - [snort ids traffic monitor](#snort-ids-traffic-monitor)
-  - [sheep dip](#sheep-dip)
-  - [tasting](#tasting)
-- [a-z original](#a-z-original)
-  - [OWASP Cyber Glossary](#owasp-cyber-glossary)
-  - [CSYA CSO-002 Exam Prep Sheets](#csya-cso-002-exam-prep-sheets)
   - [802.1x](#8021x)
   - [Analysis Of network traffic](#analysis-of-network-traffic)
   - [Bastion Host](#bastion-host-1)
@@ -33,8 +28,6 @@
   - [Credential Stuffing](#credential-stuffing)
   - [Crimeware - General Tools](#crimeware---general-tools)
   - [Dark Web](#dark-web)
-  - [dd](#dd-1)
-  - [degauss](#degauss)
   - [DTP Dynamic Trunking Protocol](#dtp-dynamic-trunking-protocol)
   - [EHR Electronic Health Record](#ehr-electronic-health-record)
   - [MAC Overflow Attack](#mac-overflow-attack-1)
@@ -57,7 +50,7 @@
   - [service discovery](#service-discovery)
   - [shares](#shares)
   - [sharepoint](#sharepoint)
-  - [sheep dip](#sheep-dip-1)
+  - [sheep dip](#sheep-dip)
   - [sinkhole](#sinkhole)
   - [smurf attack](#smurf-attack)
   - [social media profiling](#social-media-profiling)
@@ -101,7 +94,7 @@
   - [CSIRT](#csirt)
   - [CVE](#cve)
   - [DIG = NSLOOKUP](#dig--nslookup-1)
-  - [Tasting](#tasting-1)
+  - [Tasting](#tasting)
   - [Cybersquatting](#cybersquatting)
   - [Hijacking](#hijacking)
   - [EMET](#emet)
@@ -317,27 +310,6 @@ launch exploit against vulnerability
 ids / ips by cisco which provides real time network traffic analysis and packet monitoring
 
 
-## sheep dip
-
-isolated computer on which can install malware to investigate
-
-## tasting
-
-buy a domain in its trial period to validate its monetary worth - if not worth the money, then cancel it during the trial period
-
- 
-
-# a-z original
-
-## OWASP Cyber Glossary
-
-https://cheatsheetseries.owasp.org/Glossary.html
-
-## CSYA CSO-002 Exam Prep Sheets
-
-- https://drive.google.com/file/d/1tUtV3FbE9XOQUiFfFP5Su_M7k2lKCCW5/view
-- https://drive.google.com/file/d/10DDPN-AAHx7v5-qLRezHkwOOY9kmFPNE/view
-- 
 
 ## 802.1x
 
@@ -397,15 +369,6 @@ TOR + VPN
 
 Pirate Bay gone offline and gone onto Dark Web at http://uj3wazyk5u4hnvtk.onion/
 
-## dd
-
-Linux command to image a drive
-
-## degauss
-
-Uses magnetism to wipe a drive
-
-Can wipe a hard drive or magnetic tape
 
 ## DTP Dynamic Trunking Protocol
 

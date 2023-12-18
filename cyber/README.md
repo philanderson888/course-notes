@@ -4,9 +4,7 @@
 
 - [cyber](#cyber)
   - [Contents](#contents)
-- [Labs](#labs)
-- [Network Security](#network-security)
-  - [Project And Risk Management](#project-and-risk-management)
+  - [Labs](#labs)
   - [Encryption - Data In Transit](#encryption---data-in-transit)
   - [Active Directory](#active-directory)
   - [Encryption](#encryption)
@@ -86,7 +84,7 @@
   - [Network Architecture](#network-architecture)
     - [Defense-in-depth](#defense-in-depth-1)
       - [Physical Security](#physical-security)
-      - [Network Security](#network-security-1)
+      - [Network Security](#network-security)
         - [Access Control](#access-control)
         - [Privileged Access Management](#privileged-access-management)
         - [Data Security](#data-security)
@@ -477,110 +475,31 @@
 
 
 
-# Labs
+## Labs
 
 [Labs](labs.md)
-
-# Network Security
-
-## Project And Risk Management
-
-Threats to a business
-
-Amazon success story
-
-Spectacular IT projects which failed miserably
-
-Risk
-
-Vulnerability
-
-Threat
-
-SLE Single Loss Expectancy
-
-ALE Annual Loss Expectancy
-
-RPO Recovery Point Objective
-
-RTO Recovery Time Objective
-
-
-
-
-
-
-
-
-
-FIREWALL/ROUTER : IP BLOCK LIST : BLOCK / ALLOW IP TRAFFIC
-ACL	ANY IP	10.11.12.13 53 PERMIT
-LAST	ANY	ANY ALL DENY
-
-QoS Quality Of Service ==> 802.1p ==> TAG EVERY PACKET WITH A PRIORITY
-
-SWITCHING LOOP ? STP SPANNING TREE PROTOCOL
-
-ROUTING LOOP ? POISON REVERSE : HIGH COST 16 BACKWARDS
-
-SPLIT HORIZON : DON’T SEND BACK TO ORIGINAL ROUTER
-
-
-
-SID Security ID
-
-		Windows track users with SID security ID
-
-
-GUID Global User ID (domain)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Encryption - Data In Transit
 
 ```
-SSH Secure Shell : Encrypted commands
-	Port 22
-
-SCP Secure COPY : Copy files to LINUX using SSH
-
-HTTPS uses SSL (old) and TLS (new) : Port 443
-
-IPSEC
-	Built into IP! (v4 and v6)
-	1) ENCRYPT VPNS EG L2TP AND IKEV2
-	2) LAN-TO-LAN : ON OUR INTERNAL NETWORK (NOT OVER VPN!)
-
-	ESP	Encryption
-	AH	Authentication
-
+SSH port 22
+SCP secure copy port 22
+HTTPS 443
+IPSEC l2tp
+IPSEC IKEV2
+IPSEC ESP ENCRYPTION
+IPSEC AH AUTHENTICATION 
 ```
-
-Keylogger - Record keystrokes and send data to storage or internet
 
 
 
 ## Active Directory
 
 ```
-LDAP Port 389
-Kerberos : domain security
-	Log in : user receives 'token' with permissions
-	Access folder : check token permissions ==> granted/blockecd access
+LDAP 389 
+Kerberos token
+
 ```
 
 

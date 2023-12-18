@@ -205,6 +205,21 @@
   - [Hacker Tools](#hacker-tools)
   - [Hashing](#hashing)
   - [Offensive Tools](#offensive-tools)
+- [red team tools](#red-team-tools)
+    - [dirbuster](#dirbuster)
+  - [burpsuite](#burpsuite)
+  - [getent](#getent)
+    - [hping3](#hping3)
+  - [mac overflow attack](#mac-overflow-attack)
+  - [tasting](#tasting)
+  - [defensive tools](#defensive-tools)
+    - [ids](#ids)
+      - [securityonion](#securityonion)
+      - [squert and sguil](#squert-and-sguil)
+      - [snort packet/traffic monitoring](#snort-packettraffic-monitoring)
+  - [sheep dip](#sheep-dip)
+  - [neither red nor blue team tools](#neither-red-nor-blue-team-tools)
+  - [degauss](#degauss-1)
 
 
 
@@ -1099,3 +1114,81 @@ responder - responds to DNS broadcasts and tricks computers into revealing NTLMv
 hashcat brute force hash cracker
 
 wordscrape the internet
+
+
+# red team tools
+
+### dirbuster
+
+brute force dictionary attack on files and folders on web server
+
+
+## burpsuite
+
+red team
+  xss cross site scripting attack
+  repeated requests
+
+blue team
+  interception proxy
+
+
+## getent
+
+retrieves data from, for example, secure password files on an operating system
+
+```
+getent passwd 0
+
+getent group root - look up root users
+
+getent passwd phil - look up user phil
+```
+
+### hping3
+
+ddos attack
+
+(( spamhouse don't route - don't route these packets))
+(( peer drop - drop these packets))
+
+## mac overflow attack
+
+Flood switch buffer memory (CAM = Content Addressable Memory) so it's full and cannot resolve addresses which causes the switch to default to sending out traffic on all ports which is very dangerous and not secure
+
+## tasting
+
+buy a domain in its trial period to validate its monetary worth - if not worth the money, then cancel it during the trial period
+
+
+
+## defensive tools
+
+### ids
+
+#### securityonion 
+
+enterprise network security monitoring
+
+#### squert and sguil
+
+ids activity alerts in security onion
+
+#### snort packet/traffic monitoring
+
+ids / ips by cisco which provides real time network traffic analysis and packet monitoring
+
+
+## sheep dip
+
+isolated computer on which can install malware to investigate
+
+
+
+## neither red nor blue team tools
+
+## degauss
+
+Uses magnetism to wipe a drive
+
+Can wipe a hard drive or magnetic tape

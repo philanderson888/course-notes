@@ -8,6 +8,10 @@
 ## network necurity 
 
 ```
+SLE Single Loss Expectancy
+ALE Annual Loss Expectancy
+RPO Recovery Point Objective
+RTO Recovery Time Objective
 802.11AC UP TO 1300MBPS IN 5GHZ BAND
 802.1X CAN AUTHENTICATE SWITCHES AND WIFI POINTS
 802.1X CAN FILTER BY AD/LDAP MEMBERSHIP EG ON A VLAN
@@ -348,6 +352,11 @@ XSS CROSS SITE SCRIPTING
 XSS CROSS SITE SCRIPTING : REDIRECTS EG TO ANOTHER SITE
 XSS REFLECTED TO ANOTHER MACHINE
 XSS STORED
+STP SPANNING TREE PROTOCOL PREVENTS SWITCHING LOOPS
+POISON REVERSE - ROUTERS DON'T SEND STUFF BACK TO ROUTES THEY CAME FROM
+SPLIT HORIZON - DON'T SEND BACK TO ORIGINAL ROUTER
+SID SECURITY ID ON WINDOWS
+GUID GLOBAL USER ID ON A DOMAIN
 ```
 
 
@@ -359,6 +368,12 @@ XSS STORED
 
 
 ```
+QOS tag packets with priority 802.1p
+dirbuster = brute force dictionary attack file and folder names on app or web server
+dig = nslookup
+dd image disk
+bastion host = jump box
+birthday attack - 2 files have same hash
 [BUILTWITH.COM](http://builtwith.com/)
 [CRT.SH](http://crt.sh/)
 [decode.fr](http://decode.fr/)

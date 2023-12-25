@@ -10,6 +10,7 @@
     - [Installing](#installing)
     - [Using](#using)
   - [Oh My Zsh](#oh-my-zsh)
+  - [.zshrc](#zshrc)
 
 ## intrduction
 
@@ -50,3 +51,10 @@ We can switch between `zsh` and `bash` just by typing `zsh` or `bash` in the ter
 sh -c "$(curl -fsSL 
    https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
+## .zshrc
+
+this is the default zsh profile which is loaded
+
+[.zshrc](.zshrc)
+

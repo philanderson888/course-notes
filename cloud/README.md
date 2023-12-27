@@ -230,12 +230,6 @@
   - [VMGroups](#vmgroups)
   - [VM Management Groups](#vm-management-groups)
   - [VM Migration](#vm-migration)
-- [Exam Questions](#exam-questions)
-- [Archive Labs](#archive-labs)
-    - [CERTMGR lab chapter 2 to export private key](#certmgr-lab-chapter-2-to-export-private-key)
-    - [Encrypted Data Recovery Agent](#encrypted-data-recovery-agent)
-    - [Bitlocker lab on Server](#bitlocker-lab-on-server)
-    - [Data Recovery Agent Lab](#data-recovery-agent-lab)
     - [VPN Split Tunneling](#vpn-split-tunneling)
     - [PSC Password Settings Container](#psc-password-settings-container)
     - [Offline Files lab](#offline-files-lab)
@@ -3602,42 +3596,6 @@ PS C:\\> Move-VM "New Test VM" Hyper-Server
 
 ---
 
-# Exam Questions
-
-[https://downloads.certiport.com/Marketing/MTA/docs/MTA-98-369_ENU_Study-Guide.pdf](https://downloads.certiport.com/Marketing/MTA/docs/MTA-98-369_ENU_Study-Guide.pdf)
-
-# Archive Labs
-
-### CERTMGR lab chapter 2 to export private key
-
-### Encrypted Data Recovery Agent
-
-These users can recover encrypted files
-
-Add in group policy
-
-Computer ConfigurationSettingsSettingsKey PoliciesData Recovery Agents.
-
-### Bitlocker lab on Server
-
-1. Add Role
-2. Control Panel now has Bitlocker option
-
-### Data Recovery Agent Lab
-
-Can be used to recover bitlocker
-
-Add user in Computer ConfigurationSettingsSettingsKey PoliciesDrive Encryption
-
-Add unique drive IDs to Computer ConfigurationTemplatesComponents BitLocker Drive Encryption
-
-Finally enable DRA recovery in these policies
-
-Choose How BitLocker-Protected Operating System Drives Can Be Recovered
-
-Choose How BitLocker-Protected Fixed Drives Can Be Recovered
-
-Choose How BitLocker-Protected Removable Drives Can Be Recovered
 
 ### VPN Split Tunneling
 

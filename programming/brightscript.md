@@ -6,6 +6,7 @@
   - [content](#content)
   - [introduction](#introduction)
   - [telnet](#telnet)
+  - [getting started](#getting-started)
 
 ## introduction
 
@@ -25,3 +26,24 @@ then get the ip of your roku device and connect to it
 ```bash
 telnet ip-of-roku-device 8085
 ```
+
+## getting started
+
+to get started with brightscript we can use vscode and launch our app using a `launch.json` file that would be great
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BrightScript Debug: Launch",
+            "type": "brightscript",
+            "request": "launch",
+            "host": "192.168.87.44",
+            "password": "rokudev",
+            "rootDir": "${workspaceFolder}"
+        }
+    ]
+}
+```
+

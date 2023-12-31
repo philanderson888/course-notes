@@ -105,3 +105,5 @@
         - Edge Zones = CDN = Cloud Front
     - VPC Virtual Private Cloud
         - PAYG on demand compute
+
+

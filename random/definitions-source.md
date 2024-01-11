@@ -1,18 +1,4 @@
-Contract
-
-One pen strike per minute not up
-
-One word 
-
-
-
-Reminders
-
-You won’t grow in faith until you put yourself in positions, where one is forced to grow, and One has no choice
-
-
-
-Charity
+## Charity School
 
 salaries
     30,000 teacher salaries
@@ -62,7 +48,7 @@ Total
 
 
 
-
+## feasts
 
 His death, burial and resurrection and His blood at  "Feast of Passover" ,
 

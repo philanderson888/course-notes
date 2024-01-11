@@ -27,10 +27,7 @@ you are a very beautiful person - i pray you live for jesus
 ## bible debates
 are you really going to read the bible in its original hebrew
 
-## reminders
 
-if someone swears .. are you a believer
-if someone swears .. holy spirit 
 
 ## evangelism
 
@@ -70,8 +67,6 @@ hello I pray on Clubhouse from 4am UK time many mornings a week - plese feel fre
 
 ## stranger who just says 'hi'
 
-
-## jokes
 
 ## quotes
 

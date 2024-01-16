@@ -26,6 +26,7 @@
   - [vi](#vi)
   - [bash](#bash-3)
   - [azure](#azure)
+  - [biblical feasts](#biblical-feasts)
 
 
 
@@ -515,5 +516,30 @@ move-vm myvm newvmhost
 lab add recovery agent - group policy - computer configuration - settings - key - policies - data recovery agents 
 lab recovery bitlocker drive - 1) add user in group policy, computer, settings, key, policies, drive, encryption 2) add drive id 2) group policy, computer, templates, components, bitlocker 3) enable dra recovery on the policies 4) recover i) os drives ii) data drives iii) removable drives
 
+## biblical feasts
 
+purim - march - deliverance of jews from haman by the hand of esther
 
+passover - april - god saved israel when angel of death slew first born of all egyptians
+
+passover - christ sacrificial lamb sacrificed for all mankind
+
+pentecost - outpouring of holy spirit 49 or 50 days after passover
+
+shauvot - june - when god gave the 10 commandments to moses and the torah to moses
+
+feast of trumpets  (yom teruah) = jewish feast of rosh hashanah ... september 18th sundown ... also called day of awakening blast ... blow the shofar rams horn to remind all to repent before a holy god .. call to repentance ...
+
+rosh hashanah - new year - god created adam and eve
+
+day of atonement (yom kippur) begins october 8th ... day of atonement ... sins are covered by the blood of the atonement
+
+feast of tabernacles (sukkot) ... october 13 at sundown ... till october 20 sundown ... remind of provision of yaweh in the wilderness when they lived in tents 
+
+after sukkot comes 7 days of feasting and rejoicing also ... 
+
+unleavened bread - 15th day of month, 7 days to celebrate the fact that the lord brought them out of bondage from the hand of the egyptians and also the lord slew the egyptian army
+
+chanukah - december - rededication of temple
+
+tevet - january - fasting for a day - when babylon beseiged jerusalem 

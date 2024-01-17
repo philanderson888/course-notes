@@ -27,6 +27,13 @@
   - [bash](#bash-3)
   - [azure](#azure)
   - [biblical feasts](#biblical-feasts)
+  - [chemistry elements](#chemistry-elements)
+  - [commercial avaition](#commercial-avaition)
+  - [space companies](#space-companies)
+  - [aws](#aws)
+  - [cyber](#cyber)
+  - [global organisations](#global-organisations)
+  - [cars](#cars)
 
 
 
@@ -543,3 +550,85 @@ unleavened bread - 15th day of month, 7 days to celebrate the fact that the lord
 chanukah - december - rededication of temple
 
 tevet - january - fasting for a day - when babylon beseiged jerusalem 
+
+
+## chemistry elements
+
+rubidium
+
+tungsten
+
+lead
+
+gold
+
+iron
+
+copper
+
+zinc
+
+oxygen
+
+neon
+
+freon
+
+lithium
+
+sodium
+
+xenon
+
+hydrogen
+
+helium
+
+potassium
+
+carbon
+
+silicon
+
+lead
+
+## commercial avaition
+
+delta airlines
+
+
+## space companies
+
+axiom space - houston - space station
+
+trans astra - mine water from asteriod
+
+astro forge - mine asteroid
+
+## aws
+
+aws inspector - does vulnerability management
+
+## cyber
+
+nikto - web server vulnerability scanner
+
+tryhackme
+
+kali
+
+## global organisations
+
+who world health organiation
+
+un united nations
+
+## cars
+
+ip ingress protection
+
+ip6 complete protection against dust over time
+
+ip7 water resistant for short periods
+
+ 

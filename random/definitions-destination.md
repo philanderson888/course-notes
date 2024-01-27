@@ -1,39 +1,40 @@
-# definitions destination
+de# definitions destination
 
 ## contents
 
-- [definitions destination](#definitions-destination)
-  - [contents](#contents)
-  - [contract reminders](#contract-reminders)
-  - [reminders weekly](#reminders-weekly)
-  - [reminders monthly](#reminders-monthly)
-  - [reminders quarterly](#reminders-quarterly)
-  - [reminders company quarterly](#reminders-company-quarterly)
-  - [jokes](#jokes)
-  - [jokes technical](#jokes-technical)
-  - [slogans](#slogans)
-  - [subscriptions review quarterly](#subscriptions-review-quarterly)
-  - [bash](#bash)
-  - [windows labs](#windows-labs)
-  - [html](#html)
-  - [kotlin](#kotlin)
-  - [kings of england](#kings-of-england)
-  - [bookmarks](#bookmarks)
-  - [macos](#macos)
-  - [bash](#bash-1)
-  - [zshrc](#zshrc)
-  - [bash](#bash-2)
-  - [vi](#vi)
-  - [bash](#bash-3)
-  - [azure](#azure)
-  - [biblical feasts](#biblical-feasts)
-  - [chemistry elements](#chemistry-elements)
-  - [commercial avaition](#commercial-avaition)
-  - [space companies](#space-companies)
-  - [aws](#aws)
-  - [cyber](#cyber)
-  - [global organisations](#global-organisations)
-  - [cars](#cars)
+- [contents](#contents)
+- [contract reminders](#contract-reminders)
+- [reminders weekly](#reminders-weekly)
+- [reminders monthly](#reminders-monthly)
+- [reminders quarterly](#reminders-quarterly)
+- [reminders company quarterly](#reminders-company-quarterly)
+- [jokes](#jokes)
+- [jokes technical](#jokes-technical)
+- [slogans](#slogans)
+- [subscriptions review quarterly](#subscriptions-review-quarterly)
+- [bash](#bash)
+- [windows labs](#windows-labs)
+- [html](#html)
+- [kotlin](#kotlin)
+- [kings of england](#kings-of-england)
+- [bookmarks](#bookmarks)
+- [macos](#macos)
+- [bash](#bash-1)
+- [zshrc](#zshrc)
+- [bash](#bash-2)
+- [vi](#vi)
+- [bash](#bash-3)
+- [azure](#azure)
+- [biblical feasts](#biblical-feasts)
+- [chemistry elements](#chemistry-elements)
+- [commercial avaition](#commercial-avaition)
+- [space companies](#space-companies)
+- [aws](#aws)
+- [cyber](#cyber)
+- [global organisations](#global-organisations)
+- [cars](#cars)
+- [chips](#chips)
+- [shortcuts mac](#shortcuts-mac)
 
 
 
@@ -631,4 +632,36 @@ ip6 complete protection against dust over time
 
 ip7 water resistant for short periods
 
- 
+ ## chips
+
+silicon
+
+tsmc taiwan semiconductor manufacturing company
+
+duv deep ultra violet gives precision down to the atom
+
+euv extreme ultra violet lithography down to the atom - has only one company - asml - has 180 million dollar machines to etch smallest chips
+
+300mm chip wafer has 10 billion chips
+
+7nm chip has 5 companies - micron, skymix, samsung, intel, tsmc
+
+lithography has 3 companies - asml, nikon, canon
+
+asml super small use of silicon in chips
+
+fabless companies design chips - qualcomm nvidia
+
+5nm chips has 2 companies - tsmc and samsung
+
+3nm chip race has 2 companies - tsmc and samsung
+
+silicon wafers in a grid in layers - each layer printed using lithography
+
+lithography - etching chips using ?light? - 50 billion transistors on one chip
+
+28nm chips in cars up to 40nm
+
+## shortcuts mac
+
+command-shift-minus shows hidden files

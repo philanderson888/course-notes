@@ -11,6 +11,14 @@ de# definitions destination
 - [jokes](#jokes)
 - [jokes technical](#jokes-technical)
 - [slogans](#slogans)
+- [relationships](#relationships)
+- [defence - aggressive women](#defence---aggressive-women)
+- [evangalism one-line quotes](#evangalism-one-line-quotes)
+- [evangelism invitation to pray](#evangelism-invitation-to-pray)
+- [evangelism long paragraphs](#evangelism-long-paragraphs)
+- [arguments](#arguments)
+- [ai images](#ai-images)
+- [ai prompts](#ai-prompts)
 - [subscriptions review quarterly](#subscriptions-review-quarterly)
 - [bash](#bash)
 - [windows labs](#windows-labs)
@@ -223,6 +231,89 @@ love your wife
 married for life
 
 blessed be the rock of my salvation
+
+
+## relationships
+
+```
+step out
+fear not
+try to fail
+failure is our teacher
+what do i need to say to communicate all i want to
+count blinks
+glue eyes
+epoxy eyes
+pretend best buddies
+match the mood
+pretend best buddies
+what is that object of attraction
+who is that ask for introduction
+eavesdrop on what people are saying
+bounce back words to keep the conversation flowing
+ask for favourite event / story 
+ask for testimony
+ask for story of life
+update with latest news
+dead pan answers to tough questions
+go to events in person
+```
+
+## defence - aggressive women
+
+```
+can we connect in a safe space like instagram philanderson888?
+```
+
+linktr.ee/philanderson888
+
+## evangalism one-line quotes
+
+```
+beautiful person ... i pray you live for jesus
+```
+
+## evangelism invitation to pray
+
+hello I pray on Clubhouse from 4am UK time many mornings a week - plese feel free to join me.  Link to my username philanderson888 and I can send you a link.  The room is called 'Morning Prayers In The Spirit' ... please join me there!
+
+## evangelism long paragraphs
+
+```
+Hello I am dropping off this leaflet as it is spare and surplus to my requirements and I thought you might enjoy a read and be challenged in your faith - I don't know if you have a faith or not, if you have a religion or not, whether you believe in God or not... Regardless I would like to encourage you to read through the material provided and pass it on when you are done or return it to me 3 Picardy House thanks 🙏 do you believe there is a heaven? Are you going there?
+Love in Christ Jesus and if I can be of any help let me know
+Phil
+07888849991
+IG/FB/Twitter/Clubhouse user philanderson888
+```
+
+## arguments
+
+bible is not one language
+- are you really going to read the bible in original hebrew and greek?
+
+## ai images
+
+```
+nighcafe very quick
+bing
+```
+
+## ai prompts
+
+```
+## ai image prompts
+
+gospel christians openly singing and worshipping the lord, playing the piano and lifting up hands
+
+people praying and worshipping the lord
+
+kingdom warrior - mist heavenly sunshine beams divine bright soft focus holy
+
+gym pastor
+
+you are a book illustrator. please generate 10 images to accompany my book 'Prayers for the elderly'. The images can be of anything thoughtful, scenic, including images of nature, forests, trees, mountains, glowing light.
+```
 
 
 ## subscriptions review quarterly

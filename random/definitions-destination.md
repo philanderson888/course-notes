@@ -35,6 +35,7 @@ de# definitions destination
 - [cars](#cars)
 - [chips](#chips)
 - [shortcuts mac](#shortcuts-mac)
+- [military uk](#military-uk)
 
 
 
@@ -665,3 +666,33 @@ lithography - etching chips using ?light? - 50 billion transistors on one chip
 ## shortcuts mac
 
 command-shift-minus shows hidden files
+
+## military uk
+
+team tempest = next generation fighter research
+
+cwas counter unmanned aerial systems
+
+gbad ground based air defence
+
+35mm gun
+
+9mm bullets
+
+c-ram counter rocket artillery mortar 20mm protection
+
+cwis close in weapons system 25-40mm defence systems
+
+mim patriot mobile interceptor missile 
+
+mim patriot - phased array tracking radar to intercept on target 
+
+hmad high to medium air defence
+
+amb anti ballistic missile
+
+sam surface to air missile
+
+ew electronic warfare
+
+

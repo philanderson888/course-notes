@@ -20,7 +20,6 @@
   - [Fun projects](#fun-projects)
   - [Go](#go)
   - [Python](#python-1)
-  - [MySQL](#mysql)
   - [PHP](#php)
   - [Rust](#rust)
   - [Ruby](#ruby)
@@ -101,12 +100,7 @@ Python is now above Java as world's second most-loved programming language
 
 Python for Everybody - Full Course with Dr. Chuck (Charles Severance)
 
-## MySQL
 
-```xml
-### Alter table
-ALTER TABLE tbl_personnel MODIFY COLUMN ID INT AUTO_INCREMENT PRIMARY KEY
-```
 
 ## PHP
 

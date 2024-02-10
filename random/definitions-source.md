@@ -1,355 +1,92 @@
-de# definitions destination
+# definitions
 
 ## contents
 
-- [contents](#contents)
-- [contract reminders](#contract-reminders)
-- [reminders weekly](#reminders-weekly)
-- [reminders monthly](#reminders-monthly)
-- [reminders quarterly](#reminders-quarterly)
-- [reminders company quarterly](#reminders-company-quarterly)
-- [jokes](#jokes)
-- [jokes technical](#jokes-technical)
-- [slogans](#slogans)
-- [relationships](#relationships)
-- [defence - aggressive women](#defence---aggressive-women)
-- [evangalism one-line quotes](#evangalism-one-line-quotes)
-- [evangelism invitation to pray](#evangelism-invitation-to-pray)
-- [evangelism long paragraphs](#evangelism-long-paragraphs)
-- [arguments](#arguments)
-- [ai images](#ai-images)
-- [ai prompts](#ai-prompts)
-- [subscriptions review quarterly](#subscriptions-review-quarterly)
-- [bash](#bash)
-- [windows labs](#windows-labs)
-- [html](#html)
-- [kotlin](#kotlin)
-- [kings of england](#kings-of-england)
-- [bookmarks](#bookmarks)
-- [macos](#macos)
-- [bash](#bash-1)
-- [zshrc](#zshrc)
-- [bash](#bash-2)
-- [vi](#vi)
-- [bash](#bash-3)
-- [azure](#azure)
-- [biblical feasts](#biblical-feasts)
-- [chemistry elements](#chemistry-elements)
-- [commercial avaition](#commercial-avaition)
-- [space companies](#space-companies)
-- [aws](#aws)
-- [cyber](#cyber)
-- [global organisations](#global-organisations)
-- [cars](#cars)
-- [chips](#chips)
-- [shortcuts mac](#shortcuts-mac)
-- [military uk](#military-uk)
+- [definitions](#definitions)
+  - [contents](#contents)
+  - [ai stages in development](#ai-stages-in-development)
+  - [ai images](#ai-images)
+  - [docker](#docker)
+  - [Wed 20 December 2023](#wed-20-december-2023)
+  - [bash](#bash)
+  - [windows labs](#windows-labs)
+  - [html](#html)
+  - [kotlin](#kotlin)
+  - [macos](#macos)
+  - [bash](#bash-1)
+  - [zshrc](#zshrc)
+  - [bash](#bash-2)
+  - [vi](#vi)
+  - [bash](#bash-3)
+  - [azure](#azure)
+  - [aws](#aws)
+  - [cyber](#cyber)
+  - [Mobile Development](#mobile-development)
+    - [React Native](#react-native)
+    - [Flutter](#flutter)
+  - [functional programming languages](#functional-programming-languages)
+  - [functional programming](#functional-programming)
+  - [homebrew](#homebrew)
+    - [install](#install)
+  - [ide - vscode](#ide---vscode)
+  - [Imperative Programming](#imperative-programming)
+  - [Mixin](#mixin)
+
+
+
+
+## ai stages in development
 
-
-
-## contract reminders 
-
-pay 1 pound to good account for every time I go back to bed
-
-pay 1 pound to bad account for every time I go back to bed in the morning
-
-pay 5 pounds to bad account for every time I go back to bed in the evening prematurely, or afternoon during work time ...
-
-one pen strike per minute not up
-
-one technical word per minute not up
-
-tally one pen strike per minutee not up - before gym
-
-tally one word per minute not up - before leave gym
-
-go to sleep standing up !!!
-
-opportunity to love god exists once per day when my feet first touch the floor daily
-
-buy one item of clothing for myself per charity donation
-
-match charity donation financially with spending on myself particularly clothing for now
-
-## reminders weekly
-
-count blinks of the other person!!!
-
-glue eyes
-
-epoxy eyes
-
-pretend best buddies
-
-match the mood
-
-get a whatzit object of attraction
-
-have a whoozat and ask for an introduction
-
-eavesdrop on communications to learn what people are saying and thinking and feeling
-
-bounce words back to keep the conversation flowing
-
-ask for favourite events in life
-
-ask to tell stories from their life
-
-tell stories from my life
-
-update latest news
-
-dead pan answers to probing questions
-
-get john to complete a helpful task daily and to write it down in the purple book
-
-what book is john reading
-
-kids pay 20 to finish a book and write a review
-
-kids write out in purple book daily
-
-kids complete notion regularly ... at least 2 items daily ... or transfer to hand written book ..
-
-kids manage with written word especially if zoe is around
-
-dad check state of kids email 
-
-dad check state of kids whatsapp
-
-go fully quiet at 7pm and don't tell kids off or organise them after that time
-
-trials push one higher
-
-persecution drives one to jesus
-
-look after jonathan
-
-give 2 days notice of any planned events or meetings 
-
-9pm latest limit of anything
-
-i can be at the highest level spiritually praying 3 hours per day
-
-winners fail till they win
-
-## reminders monthly
-
-you cannot trust the flesh in any way ... just get up when you wake up first, thats it
-
-dont be caught out by the voice of the flesh appearing as the voice of the lord
-
-3am to 7pm are my hours
-
-vision is to be up once per day 3am to 7pm - those are my operating hours
-
-let the past go
-
-we cannot change the past
-
-are you a believer ... if someone says 'jesus'
-
-what did you mean by that word ... 'f' word
-
-holy spirit ... if someone swears but not to me ... but I can hear them
-
-put yourself in positions where you are forced to grow in faith just like in workouts you put yourself in positions of having to push the weights, do the same with your faith.  Don't sit on it but use it!  Jesus blesses the doers of the word and not the hearers only ...
-
-work harder on your own skills than for your employer ... build and develop your own skill bank 
-
-upskill on medium and javascript weekly
-
-read bible out loud
-
-step out
-
-fear not
-
-dont be afraid to fail
-
-failure actually teaches us
-
-what do i need to say to communicate all that i would have in my heart to this person?
-
-its time to employ someone eg james or an agency worker
-
-the world is going to get my gift which is preaching to the lost
-
-no drinks in hand at work do
-
-saved by paper
-
-i was anointed a leader so i still am a leader
-
-my weakness is asking for help ... start with rc priest 
-
-
-## reminders quarterly
-
-you are either feeding your history or your destiny
-
-one empty shelf
-
-one empty tub
-
-relationships are blessed when I walk in humble obedience
-
-obedience brings blessing in relationship
-
-obedience brings dominion over satan
-
-early hour obedience is only manifest outside your immediate family members and is in relation to dominion when a) meeting strangers b) ministering in church
-
-instant obedience
-
-have fun and follow your heart - do not seek money - it will flow
-
-## reminders company quarterly
-
-i will employ others in a fruitful company
-
-i can thrive and make lots of money online through building software
-
-## jokes
-
-when I went to restaurant i ate snails because i dont like fast food
-
-something smells around here and it's between your left eye and your right eye
-
-mathematician will stop at nothing to avoid using negative numbers
-
-doctor doctor im addicted to twitter ... sorry i dont follow
-
-## jokes technical
-
-i love pressing the f5 key ... so refreshing
-
-## slogans
-
-love your wife
-
-married for life
-
-blessed be the rock of my salvation
-
-
-## relationships
 
 ```
-step out
-fear not
-try to fail
-failure is our teacher
-what do i need to say to communicate all i want to
-count blinks
-glue eyes
-epoxy eyes
-pretend best buddies
-match the mood
-pretend best buddies
-what is that object of attraction
-who is that ask for introduction
-eavesdrop on what people are saying
-bounce back words to keep the conversation flowing
-ask for favourite event / story 
-ask for testimony
-ask for story of life
-update with latest news
-dead pan answers to tough questions
-go to events in person
+gpt-3.5 - process text only
+chatgpt-4 - process images and text
+chatgpt-4 turbo - april 2023 - adds knowledge up to April 2023
 ```
 
-## defence - aggressive women
+
+add this to the api call
 
 ```
-can we connect in a safe space like instagram philanderson888?
+gpt-4–1106-preview
 ```
 
-linktr.ee/philanderson888
-
-## evangalism one-line quotes
-
 ```
-beautiful person ... i pray you live for jesus
+chatgpt-4 turbo with vision - can upload images for analysis
 ```
 
-## evangelism invitation to pray
 
-hello I pray on Clubhouse from 4am UK time many mornings a week - plese feel free to join me.  Link to my username philanderson888 and I can send you a link.  The room is called 'Morning Prayers In The Spirit' ... please join me there!
-
-## evangelism long paragraphs
+add this to api
 
 ```
-Hello I am dropping off this leaflet as it is spare and surplus to my requirements and I thought you might enjoy a read and be challenged in your faith - I don't know if you have a faith or not, if you have a religion or not, whether you believe in God or not... Regardless I would like to encourage you to read through the material provided and pass it on when you are done or return it to me 3 Picardy House thanks 🙏 do you believe there is a heaven? Are you going there?
-Love in Christ Jesus and if I can be of any help let me know
-Phil
-07888849991
-IG/FB/Twitter/Clubhouse user philanderson888
+gpt-4-vision-preview
 ```
 
-## arguments
-
-bible is not one language
-- are you really going to read the bible in original hebrew and greek?
 
 ## ai images
 
 ```
-nighcafe very quick
-bing
-```
-
-## ai prompts
-
-```
-## ai image prompts
-
-gospel christians openly singing and worshipping the lord, playing the piano and lifting up hands
-
-people praying and worshipping the lord
-
-kingdom warrior - mist heavenly sunshine beams divine bright soft focus holy
-
-gym pastor
-
-you are a book illustrator. please generate 10 images to accompany my book 'Prayers for the elderly'. The images can be of anything thoughtful, scenic, including images of nature, forests, trees, mountains, glowing light.
+dall-e
+midjourney
+stablediffusion
 ```
 
 
-## subscriptions review quarterly
 
-january caniwatchthis google domain 10
 
-philanderson.co.uk easily? 15 per year?
 
-philanderson.uk easily or names ... 10/15 per year?
+## docker
 
-jesusislord.uk  easily or names ... 10/15 per year?
-
-march amazon 95
-
-march duolingo 90 on apple
-
-april watch chat 3 on apple
-
-april nord every 2 years
-
-lumosity lifetime paid
-
-month unknown chatgpt on apple 40 per year
-
-month unknown zoe car insurance on black car 60 per month
-
-month unknown zoe car insurance on blue car ??? per month
-
-car breakdown zoe pays ??? on both cars ??? direct line ???
+[docker toolbox docs.docker.com/toolbox](https://docs.docker.com/toolbox/overview/#ready-to-get-started)
 
 
 
 
 
-Wed 20 December 2023
 
+## Wed 20 December 2023
+
+```
 vpn split tunneling
 password settings container
 img.src.value = "mypicture.jpg"
@@ -379,10 +116,11 @@ xor
 ||
 poser people modelling software
 randomuser.me random user generator
-
+```
 
 ## bash
 
+```
 cht.sh
 when-life-gives-you-lemons-write-better-error-messages
 alias myip=curl 1.2.3.4
@@ -434,23 +172,25 @@ ps aux lists all processes
 ps -A lists all processes
 top lists top processes
 exe does not exist in linux - any file can be executed if it has the 'execute' permission
-
+```
 
 
 ## windows labs
 
+```
 vpn split tunneling in vpn, properties, networking, ipv4, advanced, use default gateway on remote network
 
 psc password settings container in aduc, view, advanced, default domain policy, properties, attribute editor, password, make changes
 
 offline files enable at sync center, offline files, enable
-
+```
 
 
 
 
 ## html
 
+```
 img.src.value="myImage.jpg"
 w3.org
 ietf.org
@@ -466,7 +206,7 @@ functional programming
     uses immutable data
     pure functions
         deterministic gives same output for given input
-
+```
 
 
 
@@ -484,21 +224,6 @@ lambda { a: Int, b: Int => ab }
 
 
 
-## kings of england
-
-henry viii
-george v
-charles
-ann
-elizabeth i, ii
-
-
-## bookmarks
-
-carbon.now.sh displays your source code well
-pixlr image editing
-pexels stock photos
-randomuser.me generates random user
 
 
 
@@ -518,6 +243,8 @@ ls -R list files in subfolders
 top top processes  
 .bash_profile loads when terminal loads
 .zprofile and .zshrc load when zshell loads
+
+
 
 ## zshrc
 
@@ -616,87 +343,9 @@ move-vm myvm newvmhost
 lab add recovery agent - group policy - computer configuration - settings - key - policies - data recovery agents 
 lab recovery bitlocker drive - 1) add user in group policy, computer, settings, key, policies, drive, encryption 2) add drive id 2) group policy, computer, templates, components, bitlocker 3) enable dra recovery on the policies 4) recover i) os drives ii) data drives iii) removable drives
 
-## biblical feasts
-
-purim - march - deliverance of jews from haman by the hand of esther
-
-passover - april - god saved israel when angel of death slew first born of all egyptians
-
-passover - christ sacrificial lamb sacrificed for all mankind
-
-pentecost - outpouring of holy spirit 49 or 50 days after passover
-
-shauvot - june - when god gave the 10 commandments to moses and the torah to moses
-
-feast of trumpets  (yom teruah) = jewish feast of rosh hashanah ... september 18th sundown ... also called day of awakening blast ... blow the shofar rams horn to remind all to repent before a holy god .. call to repentance ...
-
-rosh hashanah - new year - god created adam and eve
-
-day of atonement (yom kippur) begins october 8th ... day of atonement ... sins are covered by the blood of the atonement
-
-feast of tabernacles (sukkot) ... october 13 at sundown ... till october 20 sundown ... remind of provision of yaweh in the wilderness when they lived in tents 
-
-after sukkot comes 7 days of feasting and rejoicing also ... 
-
-unleavened bread - 15th day of month, 7 days to celebrate the fact that the lord brought them out of bondage from the hand of the egyptians and also the lord slew the egyptian army
-
-chanukah - december - rededication of temple
-
-tevet - january - fasting for a day - when babylon beseiged jerusalem 
 
 
-## chemistry elements
 
-rubidium
-
-tungsten
-
-lead
-
-gold
-
-iron
-
-copper
-
-zinc
-
-oxygen
-
-neon
-
-freon
-
-lithium
-
-sodium
-
-xenon
-
-hydrogen
-
-helium
-
-potassium
-
-carbon
-
-silicon
-
-lead
-
-## commercial avaition
-
-delta airlines
-
-
-## space companies
-
-axiom space - houston - space station
-
-trans astra - mine water from asteriod
-
-astro forge - mine asteroid
 
 ## aws
 
@@ -710,80 +359,244 @@ tryhackme
 
 kali
 
-## global organisations
 
-who world health organiation
 
-un united nations
+## Mobile Development
 
-## cars
+Problem with native app development
 
-ip ingress protection
+- two codebases are needed (iOS and Android)
+- costly to hire platform-specific developers
+- costly to develop and maintain the codebase
 
-ip6 complete protection against dust over time
+### React Native
 
-ip7 water resistant for short periods
+- Introduced by Facebook in 2015
+- Open source
+- Used by Facebook, Instagram, Uber, Tesla, Discord
+- Dominant force in mobile development today
+- Backed by React and Javascript
 
- ## chips
+### Flutter
 
-silicon
+- Introduced by Google in May 2017
 
-tsmc taiwan semiconductor manufacturing company
 
-duv deep ultra violet gives precision down to the atom
 
-euv extreme ultra violet lithography down to the atom - has only one company - asml - has 180 million dollar machines to etch smallest chips
 
-300mm chip wafer has 10 billion chips
 
-7nm chip has 5 companies - micron, skymix, samsung, intel, tsmc
 
-lithography has 3 companies - asml, nikon, canon
 
-asml super small use of silicon in chips
+## functional programming languages
 
-fabless companies design chips - qualcomm nvidia
+```
+Haskell,  
+ML 
+OCaml
+Scala
+F#
+```
 
-5nm chips has 2 companies - tsmc and samsung
+## functional programming
 
-3nm chip race has 2 companies - tsmc and samsung
+```
+Allows you to write     
+    Compressed code 
+    Predictable code 
+    Easier to test 
+    
+It
+    Combines Pure Functions   
+    Uses a declarative approach rather than an imperative approach 
+    Declarative 
+    Imperative 
+    
+It Avoids 
+    Shared state 
+    Mutable (changeable) data 
+       
+Functional programming key terms 
+        
+    Pure functions
+    
+        are Deterministic (output is predictable given the same input) 
+    
+        Have no side effects 
+    
+    Function composition 
+    
+        combine two functions 
+    
+        Avoid shared state 
+    
+        shared state force knowing the full history of a variable 
+    
+    Immutability 
+    
+        Cannot change the object to which you are bound 
+    
+        But can still change the properties of the object 
+    
+        Side effects are interactions which affect other areas and do not just stay within the confines of the function 
+    
+    Imperative 
+    
+        Answers 'how to do' this problem with workflow control 
+    
+    Declarative 
+    
+        Looks at 'what to do' with data flow 
+    
+        Disadvantage of functional programming 
+    
+        No purely functional 'weak hash map'   
+     
+    
+   
+```
 
-silicon wafers in a grid in layers - each layer printed using lithography
 
-lithography - etching chips using ?light? - 50 billion transistors on one chip
 
-28nm chips in cars up to 40nm
 
-## shortcuts mac
 
-command-shift-minus shows hidden files
 
-## military uk
+## homebrew
 
-team tempest = next generation fighter research
+### install
 
-cwas counter unmanned aerial systems
+to install homebrew on mac we run
 
-gbad ground based air defence
+https://brew.sh
 
-35mm gun
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
-9mm bullets
 
-c-ram counter rocket artillery mortar 20mm protection
+## ide - vscode
 
-cwis close in weapons system 25-40mm defence systems
+Control-E and Control-Shift-E loop through files also bring up search box
 
-mim patriot mobile interceptor missile 
+- Control-Shift-P - find your installed extension
 
-mim patriot - phased array tracking radar to intercept on target 
+- Control-Shift-P - type 'keyboard' and select `Open Keyboard Shortcuts` and now we can enter a keyboard shortcut eg `emmet wrap with abbreviation` and assign a keystroke
 
-hmad high to medium air defence
+- Control-Shift-K - delete line
 
-amb anti ballistic missile
+- Alt and Up Arrow - move line
 
-sam surface to air missile
+- Shift-Alt-Arrow - copy line
 
-ew electronic warfare
+- Control - K - C and Control - K - U   comment and uncomment
+
+- Screencast Mode - shows all the clicks visibly when making a video!!!
+
+- Alt and click - multi-select
+
+- Control - Alt - L - select all instances of a word for renaming etc - take care with this one!
+
+<div class="hello">
+    - Shift - Shift - P - wrap HTML
+</div>
+
+
+
+
+
+## Imperative Programming
+
+Answers 'how to do' this problem with workflow control 
+
+Imperative programming languages (C, C++, Java, Python …)
+
+
+
+
+## Mixin
+
+mixins allow code to be `injected`
+
+```java
+class MixinParent {
+  parentBehaviour() {
+    print('parent is doing this');
+  }
+}
+
+class MixinChild01 extends MixinParent {
+  @override
+  parentBehaviour() {
+    print(' ');
+    super.parentBehaviour();
+    print('mixinChild01 also has some extra unique behaviour');
+  }
+}
+
+class MixinChild02 extends MixinParent {
+  @override
+  parentBehaviour() {
+    print(' ');
+    super.parentBehaviour();
+    print('mixinChild02 also has some extra unique behaviour');
+  }
+}
+
+class MixinChild03 extends MixinParent with InjectCode01, InjectCode02 {
+  @override
+  parentBehaviour() {
+    print(' ');
+    super.parentBehaviour();
+    print('mixinChild03 also has some extra unique behaviour');
+  }
+}
+
+mixin InjectCode01 {
+  uniqueBehaviour01() {
+    print('doing some pretty unique stuff');
+  }
+}
+
+mixin InjectCode02 {
+  uniqueBehaviour02() {
+    print('doing some more pretty unique stuff');
+  }
+}
+```
+
+used by 
+
+```java
+print('mixin demo');
+print(' ');
+var mixinParent = MixinParent();
+var mixinChild01 = MixinChild01();
+var mixinChild02 = MixinChild02();
+var mixinChild03 = MixinChild03();
+mixinParent.parentBehaviour();
+mixinChild01.parentBehaviour();
+mixinChild02.parentBehaviour();
+mixinChild03.parentBehaviour();
+mixinChild03.uniqueBehaviour01();
+mixinChild03.uniqueBehaviour02();
+/*
+mixin demo
+
+parent is doing this
+
+parent is doing this
+mixinChild01 also has some extra unique behaviour
+
+parent is doing this
+mixinChild02 also has some extra unique behaviour
+
+parent is doing this
+mixinChild03 also has some extra unique behaviour
+doing some pretty unique stuff
+doing some more pretty unique stuff
+*/
+```
+
+see https://github.com/philanderson888/flutter/blob/master/projects/Course05BusinessCard2/lib/models/mixin.dart used by https://github.com/philanderson888/flutter/blob/master/projects/Course05BusinessCard2/lib/routes/grid_main.dart 
+
 
 

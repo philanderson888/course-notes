@@ -172,6 +172,176 @@ i will employ others in a fruitful company
 
 i can thrive and make lots of money online through building software
 
+
+
+
+
+## tasks
+
+```
+kids pay 10 a week until all paid off 
+```
+
+## review
+
+### november review
+
+
+frogs
+
+    week 5: abdul, hannah eye, rename app, ios app
+
+
+
+getting up
+
+    week 4 getting up 7/7
+    week 5 3/7 not good 
+
+stay up
+
+    week 4 staying up 7/7
+    week 5 staying up 6/7 
+
+pray
+
+    week 4 praying 7/7
+    week 5 pray 50k wow 
+
+fitness 
+    week 5 run 16000 walk 54000 chest back legs shoulders 
+
+highlights
+    week 5 marrakech, praying
+
+social media
+
+    week 4 youtube and tiktok
+    week 5 tiktok 500 views, youbube 400 views
+    november 2 hours watched wow 
+
+ministry 
+
+    3 weeks on ministry
+    1 week on holiday 
+
+
+
+
+### december review
+
+frogs
+    week 1 : company accounts, hannah eye, renanme app, ios app 
+    week 2 : as week 1
+
+up 
+    week 1 up 3/7 
+    week 2 up 3/7
+
+stayed up 
+    week 1 stayed up 1/7
+    week 2 stayed up 3/7
+
+prayer 
+    week 1 prayer 35k
+    week 2 prayer 42k wow 
+
+gym 
+    week 1 run 25k walk 35k chest back legs 
+    week 2 run 20k walk 42k chest back legs shoulders 
+
+learn
+    week 1 400 terms 
+    week 2 700 definitions
+
+social 
+
+    week 1
+    week 2 posted 3/7 days
+
+### january review
+
+
+
+
+
+
+
+
+
+## reminders quarterly
+
+you are either feeding your history or your destiny
+
+one empty shelf
+
+one empty tub
+
+relationships are blessed when I walk in humble obedience
+
+obedience brings blessing in relationship
+
+obedience brings dominion over satan
+
+early hour obedience is only manifest outside your immediate family members and is in relation to dominion when a) meeting strangers b) ministering in church
+
+instant obedience
+
+have fun and follow your heart - do not seek money - it will flow
+
+i will employ others in a fruitful company
+
+i can thrive and make lots of money online through building software
+
+
+
+
+
+
+## ai prompts
+
+gospel christians openly singing and worshipping the lord, playing the piano and lifting up hands
+
+people praying and worshipping the lord
+
+kingdom warrior - mist heavenly sunshine beams divine bright soft focus holy
+
+gym pastor
+
+you are a book illustrator. please generate 10 images to accompany my book 'Prayers for the elderly'. The images can be of anything thoughtful, scenic, including images of nature, forests, trees, mountains, glowing light.
+```
+
+
+
+
+
+jesusislord.uk  easily or names ... 10/15 per year?
+
+march amazon 95
+
+march duolingo 90 on apple
+
+april watch chat 3 on apple
+
+april nord every 2 years
+
+lumosity lifetime paid
+
+month unknown chatgpt on apple 40 per year
+
+month unknown zoe car insurance on black car 60 per month
+
+month unknown zoe car insurance on blue car ??? per month
+
+car breakdown zoe pays ??? on both cars ??? direct line ???
+```
+
+
+
+
+
+
+
 ## jokes
 
 when I went to restaurant i ate snails because i dont like fast food

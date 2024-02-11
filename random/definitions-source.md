@@ -10,8 +10,6 @@
   - [Wed 20 December 2023](#wed-20-december-2023)
   - [bash](#bash)
   - [windows labs](#windows-labs)
-  - [html](#html)
-  - [kotlin](#kotlin)
   - [macos](#macos)
   - [bash](#bash-1)
   - [zshrc](#zshrc)
@@ -32,9 +30,6 @@
   - [Imperative Programming](#imperative-programming)
   - [Mixin](#mixin)
   - [learning](#learning)
-  - [domains](#domains)
-  - [reminders - getting up](#reminders---getting-up)
-  - [housing](#housing)
 
 
 
@@ -180,43 +175,6 @@ psc password settings container in aduc, view, advanced, default domain policy, 
 
 offline files enable at sync center, offline files, enable
 ```
-
-
-
-
-## html
-
-```
-img.src.value="myImage.jpg"
-w3.org
-ietf.org
-utf-8
-utf-16
-pixlr.com image editing
-pexels.com stock photos
-functional programming 
-    uses declarative rather than imperative
-        imperative - how to do this, step by step
-        declarative - just give the end goal
-    avoids sharing state
-    uses immutable data
-    pure functions
-        deterministic gives same output for given input
-```
-
-
-
-
-
-## kotlin
-
-flux is a stream
-flow is like a stream with a callback on events onNext, onCompleted, onError
-val is immutable
-var is mutable
-function fun(a: Int, b: Int): Int { return ab } same as {}
-lambda { a: Int, b: Int => ab }
-
 
 
 
@@ -600,36 +558,3 @@ see https://github.com/philanderson888/flutter/blob/master/projects/Course05Busi
 
 originality.ai … 
 
-## domains
-
-http://effectivemethodsofevangelism.com
-
-http://caniplaythisgame.org
-
-
-## reminders - getting up
-
-```
-miss one day … no problem 
-miss 2 days .. park up for the day …
-start one day … 1/3 speed 
-start 2 days … 2/3 speed 
-start 3 days … full speed 
-start 7 days … join motorway …
-if I am up but go back to bed … affects not speed but ability to hear from the lord for that day
-```
-
-## housing
-
-```
-£1,000,000,000 invested
-3500 new council homes over 10 years
-10,000 new homes at meridian water
-Projected growth 50,000 by 2039 
-Draft plan : 18500 in browfield sites and 6500 in rural sites eg Crews Hill
-No skyscrapers..
-Currently 122,000 homes average price £318,000 and average house price in London is £450,000
-https://letstalk.enfield.gov.uk/localplan 
-https://new.enfield.gov.uk/services/planning/draft-new-local-plan/ 
-https://new.enfield.gov.uk/services/planning/elp-2039-reg-18-for-consultation-planning.pdf
-```

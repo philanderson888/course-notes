@@ -7,6 +7,144 @@
 
 
 
+## contract reminders
+
+```
+sleep standing up
+love god once daily when first get up
+buy ome item of clothing per charity donation
+obey god once daily after work - stay upright
+match charity spending with spending on me eg clothes
+```
+
+## reminders weekly
+
+```
+kids book review pay 20
+kids purple book dailiy
+kids notion 2 items daily
+kids manage with written word if zoe is around
+kids email for dad to check 
+kids whatsapp for dad to check
+go fully quiet at 7pm
+look after jonathan
+2 days notice of all gatherings 
+9pm limit of anything
+3 hours a day praying wow wow wow yes yes yes
+```
+
+## reminder monthly
+
+```
+put yourself in position where forced to grow in faith
+work harder on your own skills than those for your employment
+upskill 1) medium 2) js weekly 3) udemy 
+read bible out loud
+failure is my teacher
+if i was able to say exactly what is in my heart towards this person what would i say
+it's time to rise up and be an employer
+the world will get my gift which is preaching to the lost
+no drinks in hand at work social events
+saved by paper
+anointed a leader so still a leader
+
+```
+
+
+
+## reminders - getting up
+
+```
+miss one day … no problem 
+miss 2 days .. park up for the day …
+start one day … 1/3 speed 
+start 2 days … 2/3 speed 
+start 3 days … full speed 
+start 7 days … join motorway …
+if I am up but go back to bed … affects not speed but ability to hear from the lord for that day
+```
+
+
+## encouraging reminders
+
+```
+trials push one higher
+persecution drives one to jesus
+winners fail till they win
+```
+
+## words on getting up
+
+```
+yuou cannot trust the flesh in any way - just get up when you first get up, that's it
+voice of flesh appears as voice of lord 
+hours 3am to 7pm
+vision is to be up once 3am to 7pm
+```
+
+## words
+
+```
+word of god to zoe - sure i am willing to do whatever you want ... can we agree in writing just so its clera what you want please!
+```
+
+## spiritual words - god speaking to myself
+
+```
+let the past go
+we cannot change the past
+are you a believer - if someone curses
+what did you mean by that word ... if someone says it ...
+holy spirit ... if someone swears but not to me
+
+```
+
+## relationships
+
+```
+count blinks of other person
+stare into pupils of other person
+glue eyes
+epoxy eyes
+treat as best friend
+match the mood
+what is that - object of attraction
+who is that - ask for introduction
+listen in on conversations
+bounce conversation back to sender
+ask for testimonies and favourite events
+track latest news
+dead pan answers to tricky questions
+```
+
+## kids
+
+```
+john helpful task daily
+hannah helpful task daily
+kids notion pick it up again
+kids what are they reading ...
+kids write helpful task in purpule book
+```
+
+## jokes
+
+```
+eat snails because i dont like fast food
+something smells and i think it is between your left eye and your right eye
+mathematician stop at nothing to avoid using negative numbers
+doctor i am addicted to twitter ... i don't follow
+it's so refreshing to keep pressing the f5 key all day
+```
+
+## evangelism
+
+```
+can we connect in safe space like philanderson888
+beautiful person ... i pray you live for jesus
+join me on clubhouse from 4am with pastor praise ... my handle is philanderson888 and the room is 'Morning prayers in the spirit'∑∑
+```
+
 
 
 ## contract reminders 
@@ -181,85 +319,6 @@ i can thrive and make lots of money online through building software
 ```
 kids pay 10 a week until all paid off 
 ```
-
-## review
-
-### november review
-
-
-frogs
-
-    week 5: abdul, hannah eye, rename app, ios app
-
-
-
-getting up
-
-    week 4 getting up 7/7
-    week 5 3/7 not good 
-
-stay up
-
-    week 4 staying up 7/7
-    week 5 staying up 6/7 
-
-pray
-
-    week 4 praying 7/7
-    week 5 pray 50k wow 
-
-fitness 
-    week 5 run 16000 walk 54000 chest back legs shoulders 
-
-highlights
-    week 5 marrakech, praying
-
-social media
-
-    week 4 youtube and tiktok
-    week 5 tiktok 500 views, youbube 400 views
-    november 2 hours watched wow 
-
-ministry 
-
-    3 weeks on ministry
-    1 week on holiday 
-
-
-
-
-### december review
-
-frogs
-    week 1 : company accounts, hannah eye, renanme app, ios app 
-    week 2 : as week 1
-
-up 
-    week 1 up 3/7 
-    week 2 up 3/7
-
-stayed up 
-    week 1 stayed up 1/7
-    week 2 stayed up 3/7
-
-prayer 
-    week 1 prayer 35k
-    week 2 prayer 42k wow 
-
-gym 
-    week 1 run 25k walk 35k chest back legs 
-    week 2 run 20k walk 42k chest back legs shoulders 
-
-learn
-    week 1 400 terms 
-    week 2 700 definitions
-
-social 
-
-    week 1
-    week 2 posted 3/7 days
-
-### january review
 
 
 
@@ -507,6 +566,15 @@ car breakdown zoe pays ??? on both cars ??? direct line ???
   - code at https://github.com/philanderson888/effectivemethodsofevangelism.com
   - idea is to generate interest and a community and research effective methods of evangelism and testimonies of successful evangelism and what actuallly brought people to christ - what were the main influencing factors ??? add google stats to this site ... 
   - super basic plain text site - needs development
+
+
+http://effectivemethodsofevangelism.com
+
+http://caniplaythisgame.org
+
+
+
+
 
 ## websites
 

@@ -15,6 +15,7 @@
   - [chips](#chips)
   - [shortcuts mac](#shortcuts-mac)
   - [military uk](#military-uk)
+  - [housing](#housing)
 
 
 
@@ -189,3 +190,20 @@ amb anti ballistic missile
 sam surface to air missile
 
 ew electronic warfare
+
+
+
+## housing
+
+```
+£1,000,000,000 invested
+3500 new council homes over 10 years
+10,000 new homes at meridian water
+Projected growth 50,000 by 2039 
+Draft plan : 18500 in browfield sites and 6500 in rural sites eg Crews Hill
+No skyscrapers..
+Currently 122,000 homes average price £318,000 and average house price in London is £450,000
+https://letstalk.enfield.gov.uk/localplan 
+https://new.enfield.gov.uk/services/planning/draft-new-local-plan/ 
+https://new.enfield.gov.uk/services/planning/elp-2039-reg-18-for-consultation-planning.pdf
+```

@@ -6,8 +6,11 @@
   - [contents](#contents)
   - [history - rome](#history---rome)
   - [usa money](#usa-money)
-  - [uk money](#uk-money)
   - [uk government](#uk-government)
+  - [taxation](#taxation)
+  - [charity](#charity)
+  - [nasa](#nasa)
+  - [companies](#companies)
   - [astronomers](#astronomers)
   - [scientists](#scientists)
   - [manned spaceflight](#manned-spaceflight)
@@ -15,6 +18,9 @@
   - [stars](#stars)
   - [spacex](#spacex)
   - [satellites](#satellites)
+  - [sport - football](#sport---football)
+  - [hospitals](#hospitals)
+  - [middle east](#middle-east)
 
 
 ## history - rome
@@ -23,24 +29,57 @@ diocletian - roman emperor
 
 ## usa money
 
-20 trillion debt
+32 trillion debt
 
 4 trillion income
 
 100 trillion social security debt
 
-## uk money
-
-1 trillion debt
-
-500 billion in per year
-
-5 trillion social security debt
-
 ## uk government
 
 ```
+3 trillion debt
+1 trillion in per year
+5 trillion social security debt
+128 billion uk government borrowing in 2022
+11 billion uk government borrowing in august 2023
 asylum seeker hotels
+2.6 trillion = gdp = gross domestic product = value of goods produced 
+18% gdp for nhs
+100 billion education budget
+1.5 billion extra for education wages
+5.25% is rate in september 2023
+6.7% is inflation rate august 2023
+```
+
+## taxation
+
+```
+33% of total economy received as income tax into government coffers
+28% of total economy received as income tax in usa
+40% of total economy received as income tax in france/italy/germany
+```
+
+## charity
+
+```
+142000 children helped by gfa
+```
+
+## nasa 
+
+```
+24 billion nasa budget
+2 billion spacex budget
+```
+
+## companies
+
+```
+273 billion apple
+511 billion amazon
+56 billion samsung
+73 billion tesla
 ```
 
 ## astronomers
@@ -105,4 +144,25 @@ dragon manned
 
 ```
 echo star satellite
+```
+
+## sport - football
+
+```
+gvehi - arsenal
+zinchenko - arsenal
+```
+
+## hospitals
+
+```
+royal marsden london
+```
+
+## middle east
+
+```
+2007 hamas rules gaza
+2 million people in gaza
+40x10km size of gaza
 ```

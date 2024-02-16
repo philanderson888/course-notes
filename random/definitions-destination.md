@@ -4,18 +4,28 @@
 
 - [definitions destination](#definitions-destination)
   - [contents](#contents)
+  - [ai](#ai)
   - [random](#random)
   - [app ideas](#app-ideas)
     - [regular route joe](#regular-route-joe)
   - [streaming](#streaming)
 
 
+## ai
+
+```
+gpt-3.5 process text only
+gpt-4 images and text
+4-turbo add knowledge up to april 2023
+
+```
 
 ## random
 
 ```
 vpn split tunnel
 psc password settings container
+img.src.value
 ```
 
 

@@ -4,8 +4,6 @@
 
 - [definitions](#definitions)
   - [contents](#contents)
-  - [ai stages in development](#ai-stages-in-development)
-  - [ai images](#ai-images)
   - [docker](#docker)
   - [Wed 20 December 2023](#wed-20-december-2023)
   - [bash](#bash)
@@ -33,53 +31,18 @@
 
 
 
-
-## ai stages in development
-
-
-```
-gpt-3.5 - process text only
-chatgpt-4 - process images and text
-chatgpt-4 turbo - april 2023 - adds knowledge up to April 2023
-```
-
-
-add this to the api call
-
-```
-gpt-4–1106-preview
-```
-
-```
-chatgpt-4 turbo with vision - can upload images for analysis
-```
-
-
-
-
-
-## ai images
-
-```
-dall-e
-midjourney
-stablediffusion
-```
-
-
-
-
 ## docker
 
 [docker toolbox docs.docker.com/toolbox](https://docs.docker.com/toolbox/overview/#ready-to-get-started)
 
 
 
+
+
 ## Wed 20 December 2023
 
 ```
-vpn split tunneling
-password settings container
+
 img.src.value = "mypicture.jpg"
 img.src = "mypicture.jpg"
 w3.org

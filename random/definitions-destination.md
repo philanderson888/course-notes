@@ -6,8 +6,6 @@
   - [contents](#contents)
   - [ai](#ai)
   - [random](#random)
-  - [app ideas](#app-ideas)
-    - [regular route joe](#regular-route-joe)
   - [streaming](#streaming)
 
 
@@ -28,13 +26,6 @@ psc password settings container
 img.src.value
 ```
 
-
-
-## app ideas
-
-### regular route joe
-
-Use AI to alert a user when their regular route is down - is this possible? Would have to tap into the regular google maps or apple maps route of the user ... then calculate the regular trip time ... then calculate today the trip time ... then see if there is a faster route ... then let user know 
 
 
 

@@ -4,7 +4,12 @@
 
 - [definitions](#definitions)
   - [contents](#contents)
+  - [ai website generation](#ai-website-generation)
   - [docker](#docker)
+  - [ideas - youtube tutorials](#ideas---youtube-tutorials)
+  - [app ideas](#app-ideas)
+    - [regular route joe](#regular-route-joe)
+  - [learning - ideas for generating wealth](#learning---ideas-for-generating-wealth)
   - [Wed 20 December 2023](#wed-20-december-2023)
   - [bash](#bash)
   - [windows labs](#windows-labs)
@@ -31,12 +36,43 @@
 
 
 
+## ai website generation
+
+need to look into this as I think it could be an amazing tool to learn in order to build amazing websites really quickly and also to build that connetion with back end data super quickly, saving me much time and energy and also to be able to offer this service to customers quickly and cheaply ... so will be well worth an investigation and proper research ...
+
+```
+10web
+```
+
+
 ## docker
 
 [docker toolbox docs.docker.com/toolbox](https://docs.docker.com/toolbox/overview/#ready-to-get-started)
 
 
+## ideas - youtube tutorials
 
+```
+philTech youtube channel!!!
+learnTechFast youtube channel !!!
+learnBrightscript youtube channel !!!
+learnLinuxScripting youtube channel !!!
+... idea is just to make some tutorials ... and look at the numbers ...
+```
+
+## app ideas
+
+### regular route joe
+
+Use AI to alert a user when their regular route is down - is this possible? Would have to tap into the regular google maps or apple maps route of the user ... then calculate the regular trip time ... then calculate today the trip time ... then see if there is a faster route ... then let user know 
+
+
+
+## learning - ideas for generating wealth
+
+```
+tutorials on youtube for roku
+```
 
 
 ## Wed 20 December 2023

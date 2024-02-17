@@ -5,7 +5,28 @@
 - [personal](#personal)
   - [contents](#contents)
 
+## goals 2024
 
+```
+1 visualise goals monthly
+2 2024 5 Dogs in a house x
+3 monthly what am I not
+```
+
+## monthly reminders
+
+```
+speak to my younger version of Philip! 
+```
+
+## monthly what is wealth?
+
+```
+Having an empty todo list 
+Empty tub 
+Standing up till ready to sleep 
+Forget eyes !
+```
 
 ## contract reminders
 
@@ -115,6 +136,12 @@ bounce conversation back to sender
 ask for testimonies and favourite events
 track latest news
 dead pan answers to tricky questions
+```
+
+## holy spirit responding to foul language
+
+```
+utter holy is the lord - sorry cannot control tongue
 ```
 
 ## kids
@@ -322,7 +349,13 @@ kids pay 10 a week until all paid off
 
 
 
+## daily log
 
+```
+hhmm pm day bed 1 exact
+hhmm am day up 1 exact
+hhmm am day learning notes x typed
+```
 
 
 

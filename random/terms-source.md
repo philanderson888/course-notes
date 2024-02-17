@@ -1740,43 +1740,32 @@ We have limited time on this planet before we’re gone. The faster and better y
 
 If I thrived in 2018, it’s not because of luck. It’s not because I did the one thing. It’s because I will have deliberately learned 36 new skills. That made me more motivated, adaptable, relatable, versatile, interesting, etc.
 
-Interested in knowing what some of these skills were to get inspired? Here’s my answer to Anastasia Shch:
 
-Absolutely! Thanks for asking Anastasia Shch.
-
-Here are a few of them:
-I ranked this the top skill to learn because the more you learn, the more important qualities and habits you develop, and the better your qualities and habits, the more you thrive.
-How do I learn this skill?
-I could write a full-length book on the subject. In fact, I am, though it won’t be out this year. In the meantime, I hope these ideas will help you.
 
 First things first, I’d strongly recommend following the Learning to Learn course on Coursera, by Barbara Oakley. It’s free and takes about a month to complete if you practice for 30 minutes a day. I did it in less than three weeks using this approach:
 
 How I Instantly Doubled my Learning Speed Using this Most Simple Trick
 
-And in case you’re wondering if I know what I’m talking about on the subject, here’s a tiny bit of a proof:
-
 If you’ve followed the course, you’ll understand why deliberately learning 36 new skills in a year is important. When you learn new concepts, your brain creates mental chunks. Skills are an assemblage of chunks if you will. When you develop skills, you are in fact creating many different chunks in your brain. And what’s important to note here is that these chunks, even though developed by practicing a specific skill, are actually valuable to learning other skills. Even seemingly unrelated skills.
 
-Knowing the scientific truth above, you can understand that there’s no hacking the process — you have to deliberately work to get your brain to create chunks. The course explains the concepts more in details, but here’s the not-so-surprising key:
+you have to deliberately work to get your brain to create chunks. 
 
 You need focused periods of time where you deliberately practice a skill and repeat the process over a number of days, weeks or months.
-How focused? How many days? What do I practice? When do I practice?
 
-My approach is to learn 3 new skills every month. I practice 30 minutes each every morning for 30 days. I usually choose skills that work completely different areas of my brain. If we agree with Robert Greene’s quote from above, then we agree that becoming a polymath is a surefire way to thrive. Working skills across different areas of your brain will do just that.
+My approach is to learn 3 new skills every month. 
 
-I explain my full process here:
+I practice 30 minutes each every morning for 30 days. 
 
-I learn 3 new skills a month, and so can you!
+I usually choose skills that work completely different areas of my brain. 
 
-For the sake of this article, we'll define the word "Skill" as such: "the ability to do something well". "Well"…
 [www.dannyforest.com](http://www.dannyforest.com/)
-*If you sign up for the newsletter, you’ll get the exact same worksheet I’m using. So check it out!
 
-What you’ll notice along your journey of learning to learn is that the more you learn, the faster and easier it becomes to learn other skills, again, thanks to the chunks you previously formed.
+the more you learn, the faster and easier it becomes to learn other skills, again, thanks to the chunks you previously formed.
 
 There are two other very important aspects of learning: Resting and Smart Repetition.
 
 Resting
+
 By resting, I don’t necessarily mean sleeping. I mean calming your mind to let your subconscious do its work. It has been proven that chunks are indeed getting formed while you rest your mind.
 
 Without going into details, here are some ways to rest your mind:

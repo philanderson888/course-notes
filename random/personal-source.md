@@ -5,38 +5,6 @@
 - [personal](#personal)
   - [contents](#contents)
 
-## goals 2024
-
-```
-1 visualise goals monthly
-2 2024 5 Dogs in a house x
-3 monthly what am I not
-```
-
-## monthly reminders
-
-```
-speak to my younger version of Philip! 
-```
-
-## monthly what is wealth?
-
-```
-Having an empty todo list 
-Empty tub 
-Standing up till ready to sleep 
-Forget eyes !
-```
-
-## contract reminders
-
-```
-sleep standing up
-love god once daily when first get up
-buy ome item of clothing per charity donation
-obey god once daily after work - stay upright
-match charity spending with spending on me eg clothes
-```
 
 ## reminders weekly
 
@@ -68,23 +36,7 @@ the world will get my gift which is preaching to the lost
 no drinks in hand at work social events
 saved by paper
 anointed a leader so still a leader
-
 ```
-
-
-
-## reminders - getting up
-
-```
-miss one day … no problem 
-miss 2 days .. park up for the day …
-start one day … 1/3 speed 
-start 2 days … 2/3 speed 
-start 3 days … full speed 
-start 7 days … join motorway …
-if I am up but go back to bed … affects not speed but ability to hear from the lord for that day
-```
-
 
 ## encouraging reminders
 

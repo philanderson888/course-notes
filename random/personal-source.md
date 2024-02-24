@@ -468,11 +468,26 @@ IG/FB/Twitter/Clubhouse user philanderson888
 bible is not one language
 - are you really going to read the bible in original hebrew and greek?
 
+## ai
+
+```
+LPU Language Processing Unit
+LLM Large Language Model
+Inference Engine
+```
+
 ## ai images
 
 ```
 nighcafe very quick
 bing
+```
+
+## ai text to speech
+
+```
+https://dashboard.vapi.ai/
+
 ```
 
 ## ai prompts

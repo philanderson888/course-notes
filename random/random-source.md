@@ -4,8 +4,8 @@
 
 - [random](#random)
   - [contents](#contents)
-  - [history](#history)
-    - [kings](#kings)
+  - [history - uk monarchy](#history---uk-monarchy)
+  - [history - uk](#history---uk)
   - [biblical feasts](#biblical-feasts)
   - [chemistry elements](#chemistry-elements)
   - [commercial avaition](#commercial-avaition)
@@ -21,9 +21,7 @@
 
 
 
-## history
-
-### kings
+## history - uk monarchy
 
 george v
 henry viii
@@ -32,7 +30,13 @@ ann
 elizabeth i
 elizabeth ii
 
+## history - uk
 
+```
+1588 130 armada ships from spain philip attack england with 18000 spanish
+beacon relayed signals by line of sight
+culverin new uk galleon cannon
+```
 
 ## biblical feasts
 

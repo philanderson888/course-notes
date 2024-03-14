@@ -4,200 +4,15 @@
 
 - [italian](#italian)
 - [contents](#contents)
-  - [verb ... present tense](#verb--present-tense)
-  - [verb past tense](#verb-past-tense)
-  - [verb future tense](#verb-future-tense)
-  - [simple vocabulary](#simple-vocabulary)
-  - [short phrases](#short-phrases)
   - [nouns](#nouns)
-  - [adjectives](#adjectives)
   - [numbers](#numbers)
   - [months](#months)
   - [phrases](#phrases)
   - [nouns](#nouns-1)
-
-## verb ... present tense
-
-```
-
-to like
-mi piace                  i like
-mi piace guardare         i like to watch
-ti piace                  you like / do you like
-ti piace andare           do you like to go
-ti piace andare al cinema do you like to go to the cinema
-ci piace                  we like
-che ci piace              that we like
-un lavoro che ci piaci    a job that we like
-mi piace tutto            i like everything
-che tipo musica ti piace  what type of music do you like
-mi piace tutto            i like everything
-non mi piace              i dont like
-
-andare to go
-io vado
-tu vai
-lui lei va 
-andiamo
-voi vanno
-loro vanno 
-andare al cinema          to go to the cinema
-
-vorrei andare             i would like to go
-mi piace andare           i like to go
-adoro andare              i love to go
-
-
-to have to 
-devi essere               you must be
-
-to like
-vorrei                    i would like
-
-
-to want
-voglio                    i want
-voglio andare             i want to go
-vuoi andare               you want to go
-
-
-
-to make
-fa                      it makes
-mi fa                   it makes me
-mi fa ballare           it makes me dance
-
-
-to play
-gioco                     i play
-gioco a tennis            i play tennis
-
-
-io so = i know
-io non so = i dont know
-
-tu vivi             you live
-tu vivi con         you live with
-
-
-lavoro              i work
-lavoro part time    i work part time
-tu lavori           you work
-ci lavori           you work there
-lavori full time    you work full time
-suonare             to play music
-io suono            i play
-tu suoni            you play
-
-
-vaggiare            to travel
-ballare             to dance
-correre             to run
-guardare            to watch
-guardare il calcio  to watch football
-guardare alla tv    to watch on tv
-guardare film       to watch a film
-ascoltare           to listen to
-ascoltare la musica to listen to music
-suonare             to play
-suonare la musica   to play music
-suono               i play
-suono la chitarra   i play guitar
-suono il piano      i play piano
-suoni               you play
-condividiamo        we share
-```
-
-## verb past tense
-
-```
-io ero        i was
-tu eri        you were
-e stato       he was
-lei era       she was
-era           it was
-noi erevamo   we were
-lo erevate    you were
-li avevamo    they were
-loro stavano  they were
-loro stavano parlando they were talking
-loso stavano correndo they were running
-stavamo camminando we were walking
-
-lo sono stato/a  i have been
-tue sei stato/a
-lui / lei e stato
-noi siamo stati/e
-voi siete stati/e
-loro sono stati/e
-
-hai fatto               have you done
-che cosa hai fatto      what have you done
-
-hai fatto               you did
-che cosa hai fatto      what did you do
-
-andare to go
-sono andato i went
-sei andato you went
-e andato he went
-e andata she went
-andammo we went
-sono andati they went
-
-
-```
-
-## verb future tense
-
-```
-lo saro       i will be
-tu sarai      you will be
-lue/lei sara 
-noi saremo
-voi sarete
-loro saranno
-
-ci saro           i will be there
-ti mandero        i will send you
-ce vediamo dopo   i will see you later
-
-andare to go
-andro i will go
-andrai you will go
-lui andra he will go
-andremo we will go
-loro andranno they will go
-
-
-
-to give
-lo daro           i will give
-ti daro           i will give to you
-ti daro il mio numero di telefono       to you ... i will give ... my number ...
-
-
-iniziare                to start
-iniziato                i start
-ho appena iniziato      i have just started
-```
-
-## simple vocabulary
-
-```
-oggi              today
-cherto            of course
-prego             you are welcome
-bene              good
-per esempio       for example
-
-```
-
-## short phrases
-
-```
-e a parte questo        apart from that
-```
+  - [are verbs](#are-verbs)
+    - [ere verbs](#ere-verbs)
+  - [ire verbs](#ire-verbs)
+  - [ire verbs with isc](#ire-verbs-with-isc)
 
 ## nouns
 
@@ -205,12 +20,6 @@ e a parte questo        apart from that
 cappello          hat
 un hobby          hobby
 impresa           business
-```
-
-## adjectives
-
-```
-sportiva                sporty
 ```
 
 ## numbers
@@ -277,3 +86,215 @@ ho una piccola impresa i have a small business
 numero di telefono 
 ```
 
+## are verbs
+
+```
+abitare	 	to live, inhabit
+aiutare	 	to help
+amare	 	to love
+arrivare	 	to arrive
+ascoltare	 	to listen to
+aspettare	 	to wait for
+baciare*	 	to kiss
+bastare	 	to suffice, be enough
+camminare	 	to walk
+cantare	 	to sing
+causare	 	to cause
+cenare	 	to have dinner
+chiamare	 	to call
+cominciare*	 	to begin, start
+comprare	 	to buy
+conservare	 	to conserve, keep
+considerare	 	to consider
+consigliare*	 	to advise
+costare	 	to cost
+cucinare	 	to cook
+curare	 	to take care of, treat
+disegnare	 	to draw
+diventare	 	to become
+dubitare	 	to doubt
+entrare	 	to enter
+evitare	 	to avoid
+fumare	 	to smoke
+guardare	 	to watch, look
+guidare	 	to drive
+imparare	 	to learn
+incontrare	 	to meet, encounter
+indossare	 	to wear, put on
+insegnare	 	to teach
+lamentare	 	to complain
+lasciare*	 	to leave
+lavare	 	to wash
+lavorare	 	to work
+mangiare*	 	to eat
+nuotare	 	to swim
+ordinare	 	to organize, sort, put in order
+parlare	 	to speak
+passare	 	to pass, go by; to drop in; to spend time
+pensare	 	to think
+portare	 	to take, bring
+pranzare	 	to have lunch
+prenotare	 	to book, reserve
+provare	 	to try
+restare	 	to stay, remain
+ricordare	 	to remember
+salutare	 	to greet, say hello
+salvare	 	to save
+sbagliare*	 	to make a mistake, be wrong
+sperare	 	to hope
+studiare*	 	to study
+tagliare*	 	to cut
+tornare	 	to return, go back
+trovare	 	to find
+viaggiare*	 	to travel
+visitare	 	to visit
+```
+
+
+### ere verbs
+
+```
+accedere	 	to access
+accendere	 	to turn on
+apprendere	 	to learn
+assumere	 	to assume; to hire, employ
+attendere	 	to wait for
+battere	 	to beat
+chiedere	 	to ask
+chiudere	 	to close
+comprendere	 	to understand, to include
+correre	 	to run, hurry
+credere	 	to believe
+decedere	 	to die
+decidere	 	to decide
+descrivere	 	to describe
+dibattere	 	to debate
+discutere	 	to discuss
+mettere	 	to put
+perdere	 	to lose
+precedere	 	to precede
+premere	 	to press
+prendere	 	to take
+pretendere	 	to claim
+promettere	 	to promise
+rendere	 	to give back, return
+ricevere	 	to receive
+ridere	 	to laugh
+ripetere	 	to repeat
+rispondere	 	to answer
+rompere	 	to break
+scendere	 	to descend, go down
+scrivere	 	to write
+sorridere	 	to smile
+spendere	 	to spend
+temere	 	to fear
+tessere	 	to weave
+vedere	 	to see
+vendere	 	to sell
+vivere	 	to live
+```
+
+
+## ire verbs
+
+```
+aborrire**	 	to abhor
+acconsentire	 	to agree, consent
+applaudire**	 	to applaud, clap
+aprire	 	to open
+assentire	 	to assent
+assorbire**	 	to absorb
+avvertire	 	to warn
+bollire	 	to boil
+compartire**	 	to share, to divide
+convertire	 	to convert
+coprire	 	to cover
+cucire***	 	to sew
+divertire	 	to enjoy, amuse
+dormire	 	to sleep
+fuggire	 	to escape, flee
+inghiottire**	 	to swallow
+mentire**	 	to lie
+nutrire**	 	to feed
+offrire	 	to offer
+partire	 	to leave, to start
+riaprire	 	to reopen
+riempire	 	to fill
+scoprire	 	to discover, to uncover
+seguire	 	to follow
+sentire	 	to feel, hear, smell, taste, sense
+servire	 	to serve
+soffrire	 	to suffer
+tossire**	 	to cough
+vestire	 	to dress, to wear
+```
+
+## ire verbs with isc
+
+```
+fini sco
+fini sci
+fini sce
+fini amo
+fini te
+fini scono
+
+
+
+aborrire*	 	to abhor
+agire	 	to act
+apparire**	 	to seem
+applaudire*	 	to applaud, clap
+approfondire	 	to deepen, elaborate on
+arrossire	 	to blush
+assorbire*	 	to absorb
+capire	 	to understand
+colpire	 	to hit; to affect
+comparire**	 	to appear
+compartire*	 	to share, to divide
+condire	 	to season
+contribuire	 	to contribute
+costruire	 	to build
+definire	 	to define
+differire	 	to differ, be different
+dimagrire	 	to lose weight
+distribuire	 	to distribute
+fallire	 	to fail
+favorire	 	to favor; to promote
+ferire	 	to hurt, wound
+finire	 	to finish, end
+fornire	 	to provide, furnish
+garantire	 	to guarantee
+gestire	 	to manage, handle
+gradire	 	to like, to accept
+guarire	 	to heal, cure, recover
+impartire	 	to give, impart
+impedire	 	to prevent, obstruct, impede
+inghiottire*	 	to swallow
+ingrandire	 	to enlarge
+inserire	 	to insert
+interferire	 	to interfere
+istruire	 	to instruct
+mentire*	 	to lie
+nutrire*	 	to feed
+obbedire	 	to obey
+preferire	 	to prefer
+proibire	 	to prohibit
+pulire	 	to clean
+punire	 	to punish
+reagire	 	to react
+restituire	 	to return, give back
+riferire	 	to relate, to refer
+scomparire**	 	to disappear
+seppellire	 	to bury
+sostituire	 	to substitute, replace
+spedire	 	to send, ship
+stabilire	 	to establish, set up
+subire	 	to suffer, to endure, go through
+suggerire	 	to suggest
+tossire*	 	to cough
+tradire	 	to betray
+trasferire	 	to transfer, to move, reolocate
+ubbidire	 	to obey
+unire	 	to unite, join, merge
+```

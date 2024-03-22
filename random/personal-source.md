@@ -400,14 +400,17 @@ doctor doctor im addicted to twitter ... sorry i dont follow
 
 i love pressing the f5 key ... so refreshing
 
+
 ## slogans
 
+```
 love your wife
-
 married for life
-
 blessed be the rock of my salvation
-
+#WorshipTheKing
+#WorshipJesus
+#WorshipTheLord
+```
 
 ## relationships
 

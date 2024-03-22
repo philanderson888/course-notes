@@ -4,102 +4,57 @@
 
 - [italian](#italian)
 - [contents](#contents)
-  - [adjectives](#adjectives)
+  - [tourist phrases](#tourist-phrases)
   - [verbs](#verbs)
-  - [regular verb endings](#regular-verb-endings)
-  - [verbs](#verbs-1)
   - [verbs past tense](#verbs-past-tense)
   - [verb future](#verb-future)
   - [nouns](#nouns)
-  - [numbers](#numbers)
-  - [months](#months)
-  - [phrases](#phrases)
+  - [phrases to learn before I go on holiday](#phrases-to-learn-before-i-go-on-holiday)
   - [nouns](#nouns-1)
+  - [nouns - weather](#nouns---weather)
+  - [nouns - food](#nouns---food)
   - [are verbs](#are-verbs)
     - [ere verbs](#ere-verbs)
   - [ire verbs](#ire-verbs)
   - [ire verbs with isc](#ire-verbs-with-isc)
 
-## adjectives
+
+
+
+## tourist phrases
 
 ```
-piccolo/a  
-sportiva
+veniamo dall'Inghilterra    we come from england
+siamo di londra             we are from london
+siamo inglesi               we are english/british
+siamo in vacanza            we are on holiday
+stiamo visitando roma       we are visiting rome
+visitiamo roma              we visit rome
+quale via                   which way
+dov'e                       where is
+il bagno                    the bathroom
+l'albergo                   the hotel
+la stazione                 the station
+la stazione ferroviaria     the train station
+ferro                       road
+viaria                      railway
+bellisima                   beautiful
+meravigliosa                wonderful
+mera                        mere
+vigliosa                    eager
+vacanza                     holiday
+mangiare                    to eat
+Vaticano                    vatican
+Colosseo                    colloseum
+prenotare                   to book
+migliore app                best app
 ```
+
+
 
 ## verbs
 
 ```
-avere   to have
-essere        to be
-andare        to go
-uscire        to leave
-venire        to come
-fare          to do
-dare          to give
-dire          to say
-scegliere     to choose
-rimanere      to remain
-volere        want
-potere        to be able to 
-dovere        need
-
-essere sono sei e  siamo siete sono
-avere    ho  hai  ha  abbiamo    avete   hanno
-fare      facco/io    fai    fa    facciamo    fanno    fanno
-andare        vado     vai     va      andiamo     andate    vanno
-
-```
-
-## regular verb endings
-
-```
-are    
-parl o
-parl i
-parl a
-parl iamo
-parl ata
-parl ano
-
-ere
-cred o
-cred i
-cred e
-cred iano
-cred ete
-cred ono
-
-ire
-sent o
-sent i
-sent e
-sent iamo
-sent ite
-sent omo
-
-fini sco
-fini sci
-fini sce
-fini amo
-fini te
-fini scono
-```
-
-## verbs
-
-```
-essere to be  
-piacere to like  mi piache  ti piache  ci piace (we like) che pi piace (that we like)  non mi piace (don't like)
-che tipo musica ti piace 
-andare to go
-mi piace andare i like to go 
-adoro andare i love to go
-vorrei andare i would like to go
-uscire to leave  io esco, tu esci, lui esce, noi usciamo, voi uscite, loro escono
-venire to come   io vengo, tu vieni, lui viene, noi veniamo voi venite loro vengono
-dare to give  io do , to dai, lui da, noi diamo, voi date, loro danno
-dire to say, io dico, tu dici, lui dice, noi diciamo, voi dite , loro dicono
 segliere to choose   io scelgo, tu scelgi, lui scelgie , noi scelgiamo, voi scelgiete, loro scelgono
 rimanere to remain  
 volere to want io voglio, tu vuoi, lui vuole, noi vogliamo, voi volete, loro vogliono
@@ -161,11 +116,6 @@ ti daro il numero di telefono   i will give to you my telephone number
 iniziare to start    iniziato   i 
 ```
 
-
-
-
-
-
 ## nouns
 
 ```
@@ -174,49 +124,39 @@ un hobby          hobby
 impresa           business
 ```
 
-## numbers
+
+## phrases to learn before I go on holiday
 
 ```
-zero ((zerro))
-uno duo tre quattro cinque sei sette otto nove diece
-un dici   do dici  tre dici  quattor dici  quin dici se dici 
-dici assette dici otto dici annove
-venti trenta quaranta cinquanta sessanta settanta ottanta novanta cento
-21 venti uno
-22 venti duo
-33 trenta tre
-44 quaranta quattro
-55 cinquanta cinque
-66 sessanta sei
-77 settanta sette
-88 ottanta otto
-99 novanta nove
-costa it costs
-sono it will be
-fanna that makes
+hello
+how are you 
+we are well
+this is my wife
+these are my sons
+they are twins
+we are from london
+from england
+we stay in hotel near the sea 
+near the airport
+we have a car
+we hired a car
+thanks
+thank you very much
+appreciate that
+wonderful
+lovely
+brilliant 
+cheers
+great
+what time is 
+where is 
+how much is 
+is this good
+by train
+by bus
+by car
+
 ```
-
-## months
-
-```
-gennaio febbraio marzo aprile maggio guigno
-luglio agosto settembre ottobre novembre dicembre
-```
-
-## phrases
-
-```
-e a parte             apart from 
-e a parte questo      apart from that
-quali                 which
-quali sono            which are
-quali sono i tuio     which are your
-quali sono i tuio hobby  what are your hobbies
-in realta                 in fact
-```
-
-
-
 
 
 ## nouns
@@ -236,6 +176,20 @@ i miei colleghi my colleagues
 impresa business
 ho una piccola impresa i have a small business
 numero di telefono 
+```
+
+## nouns - weather
+
+```
+sole          sun
+```
+
+## nouns - food
+
+```
+mela apple
+mele apples
+
 ```
 
 ## are verbs

@@ -66,7 +66,6 @@
 - [DevSecOps](#devsecops)
 - [AWS](#aws)
   - [AWS Introduction](#aws-introduction)
-  - [Course Structure](#course-structure)
   - [Fundamentals](#fundamentals)
     - [5 Pillars](#5-pillars)
     - [Security](#security)
@@ -101,6 +100,7 @@
     - [AWS RDS database access](#aws-rds-database-access)
     - [AWS Securing Access To S3](#aws-securing-access-to-s3)
     - [Installing Linux with a GUI](#installing-linux-with-a-gui)
+    - [Windows with RDP](#windows-with-rdp)
 - [DevOps Intro](#devops-intro)
     - [CI-CD-CD](#ci-cd-cd)
   - [Vagrant](#vagrant)
@@ -239,14 +239,6 @@
 
 ## Cloud Critial Terms
 
-SAAS
-
-PAAS
-
-IAAS
-
-High Availability
-
 Scale horizontally (more nodes)
 
 Scale vertically (CPU RAM and Disk)
@@ -259,23 +251,9 @@ Private cloud
 
 Hybrid cloud
 
-EC2 instances
-
-S3 storage
-
-Identity IAM
-
-Groups
-
-Firewall
-
 Key Management Service (KMS) storage of encryption keys
 
 Cloudwatch logging
-
-Alerts
-
-Billing
 
 Subnets
 
@@ -286,8 +264,6 @@ Load Balancing
 Relational Database Service RDS 
 
 Big Data
-
-Unstructured Data
 
 Data Lake
 
@@ -492,13 +468,6 @@ docker swarm - orchestration, easy to set up
 
 dtr docker trusted registry - manage docker images
 
-2013 docker
-
-2015 standardise containers
-
-2017 docker made open source via cncf cloud native computing foundation
-
-
 ```shell
 # build an image
 docker build
@@ -674,7 +643,7 @@ NoSQL document oriented JSON storage
 ### Vendor
 
 - AWS
-    - largest
+    - largest ... by a) number of servers b) number of datacenters c) revenue d) percentage of data center market
     - Services split up into 3 types
         - Infrastructure = Compute services
             - EC2 Elastic Compute Cloud
@@ -1026,16 +995,6 @@ RSA is used and is used to create and exchange the session key
 AES Advanced Encryption Standard (used to be 3DES or RC4)
 
 ### Cipher Detail (with images)
-
-Analyse detail of cipher encryption
-
-HTTP
-
-HTTPS
-
-Telnet
-
-SSH
 
 Diffie-Hellman (see Khan Acadedy videos on DH and RSA)
 
@@ -1392,8 +1351,7 @@ Easy to
 
 - Develop
 - Update
-
-- Robus
+- Robust
 - Scalable
 ```
 
@@ -1415,14 +1373,6 @@ Nagios monitoring
 ## AWS Introduction
 
 AWS has a free online guide to its services and we will be starting here for our AWS studies https://aws.amazon.com/getting-started/fundamentals-core-concepts/?e=gs2020&p=gsrc
-
-## Course Structure
-
-- Intro
-- Mental Model
-- Concepts
-- Conclusion
-- Further Reading
 
 ## Fundamentals
 
@@ -1472,25 +1422,6 @@ It consists of
 - Subnet (ranges of IP)
 - Route tables to direct traffic
 - Gateway to communicate with outside world
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### AWS secure web app demo 
@@ -1640,8 +1571,6 @@ Access via API which calls database. Data is encrypted on database but decrypted
 
 ### Elastic beanstalk - app deployment
 
-Pluralsight Intro to AWS cloud security : walkthrough
-
 ### AWS Environment Variables
 
 ```
@@ -1782,7 +1711,7 @@ sudo mke2fs /dev/xvdb
 sudo mount /dev/xvdb /mnt   
 ```
 
-###Windows with RDP
+### Windows with RDP
 
 Lab : creating a VM in Azure
 

@@ -3,162 +3,163 @@
 ## contents
 
 - [infrastructure](#infrastructure)
-  - [contents](#contents)
-  - [Encryption - Data In Transit](#encryption---data-in-transit)
-  - [Active Directory](#active-directory)
-  - [Encryption](#encryption)
-  - [WAYS TO ENCRYPT DATA](#ways-to-encrypt-data)
-  - [SNMP](#snmp)
-  - [IPSEC](#ipsec)
-  - [SCSI](#scsi)
-  - [SAN STORAGE AREA NETWORK](#san-storage-area-network)
-  - [SITE SURVEY](#site-survey)
-  - [ACTIVE DIRECTORY](#active-directory-1)
-    - [LDAP](#ldap)
-    - [LDAPS = SECURE VERSION](#ldaps--secure-version)
-    - [KERBEROS](#kerberos)
-  - [INSECURE AUTHENTICATION](#insecure-authentication)
-    - [PAP](#pap)
-    - [CHAP](#chap)
-  - [SECURE AUTHENTICATION](#secure-authentication)
-    - [MS-CHAP2](#ms-chap2)
-    - [EAP-TLS](#eap-tls)
-    - [PEAP](#peap)
-    - [LEAP](#leap)
-  - [ONE-TIME PASSWORDS](#one-time-passwords)
-    - [OTP](#otp)
-    - [TOTP](#totp)
-  - [EMAIL ENCYRYPT/AUTHENTICATE](#email-encyryptauthenticate)
-    - [PGP](#pgp)
-  - [DIAL-IN AUTHENTICATION](#dial-in-authentication)
-    - [RADIUS](#radius)
-    - [DIAMETER](#diameter)
-    - [TACACS+](#tacacs)
-  - [SSO](#sso)
-      - [FEDERATION](#federation)
-      - [BACKUPS](#backups)
-      - [Risk Analysis Process](#risk-analysis-process)
-    - [Network Security Lab](#network-security-lab)
-      - [Gaining Access To A Network](#gaining-access-to-a-network)
-        - [Class Lab](#class-lab)
-      - [NTFS And Share Permissions](#ntfs-and-share-permissions)
-        - [Lab : NTFS and Share Permissions](#lab--ntfs-and-share-permissions)
-      - [Virtual Online Router](#virtual-online-router)
-      - [Group Policy Management](#group-policy-management)
-        - [Lab - Password And Lockout Policy](#lab---password-and-lockout-policy)
-        - [Lab - Publish A Printer](#lab---publish-a-printer)
-        - [Lab - Publish Software](#lab---publish-software)
-      - [DNS Labs](#dns-labs)
-    - [Wireshark](#wireshark)
-        - [Install Wireshark](#install-wireshark)
-    - [Cookies](#cookies)
-    - [WIFI labs](#wifi-labs)
-        - [Hacking Into Symmetric Encryption - Part 1](#hacking-into-symmetric-encryption---part-1)
-        - [Hacking Into Symmetric Encryption - Part II](#hacking-into-symmetric-encryption---part-ii)
-        - [Hacking Into Symmetric Encryption - Part III](#hacking-into-symmetric-encryption---part-iii)
-    - [WIFI lab](#wifi-lab)
-    - [DEFENSE IN DEPTH](#defense-in-depth)
-      - [STORAGE TYPES](#storage-types)
-    - [MOBILE SECURITY](#mobile-security)
-    - [VIRTUALIZATION](#virtualization)
-    - [Site Survey](#site-survey-1)
-    - [Encryption Methods](#encryption-methods)
-    - [Mobile Encryption](#mobile-encryption)
-    - [WIFI](#wifi)
-      - [Secure WIFI](#secure-wifi)
-    - [WIFI CHANNELS](#wifi-channels)
-      - [War driving / war chalking](#war-driving--war-chalking)
-      - [WPS WIFI Protected Setup](#wps-wifi-protected-setup)
-      - [Rogue Access Point](#rogue-access-point)
-      - [Evil Twin](#evil-twin)
-      - [Jamming](#jamming)
-      - [Blue Jack](#blue-jack)
-      - [Snarf](#snarf)
-      - [Blue Snarf](#blue-snarf)
-      - [Distances](#distances)
-    - [Broadband Methods](#broadband-methods)
-    - [Dial up](#dial-up)
-    - [VPN](#vpn)
-    - [IPSEC](#ipsec-1)
-  - [Network Architecture](#network-architecture)
-    - [Defense-in-depth](#defense-in-depth-1)
-      - [Physical Security](#physical-security)
-      - [Network Security](#network-security)
-        - [Access Control](#access-control)
-        - [Privileged Access Management](#privileged-access-management)
-        - [Data Security](#data-security)
-    - [Virtualization](#virtualization-1)
-    - [AV SCANNING](#av-scanning)
-    - [NETWORK ATTACKS](#network-attacks)
-    - [WIRELESS](#wireless)
-    - [ENCRYPTION](#encryption-1)
-      - [S/MIME](#smime)
-      - [PGP PRETTY GOOD PRIVACY](#pgp-pretty-good-privacy)
-      - [HARDWARE ENCYPTION](#hardware-encyption)
-      - [NTFS ENCRYPTION](#ntfs-encryption)
-      - [BITLOCKER](#bitlocker)
-      - [SQL DATA](#sql-data)
-      - [BIG DATA / NO-SQL](#big-data--no-sql)
-      - [DATA DISPOSAL](#data-disposal)
-      - [HARDENING YOUR SERVER](#hardening-your-server)
-      - [INPUT VALIDATION](#input-validation)
-    - [Types of testing](#types-of-testing)
-      - [PROXY SERVER](#proxy-server)
-      - [TCP TRUSTED COMPUTING BASE](#tcp-trusted-computing-base)
-      - [UTM UNIFIED THREAT MANAGEMENT](#utm-unified-threat-management)
-    - [NETWORKS](#networks)
-    - [ANTI VIRUS SCANNING](#anti-virus-scanning)
-      - [SIGNATURE BASED SCANNING](#signature-based-scanning)
-      - [ANOMALY BASED SCANNING](#anomaly-based-scanning)
-      - [BEHAVIOUR BASED SCANNING](#behaviour-based-scanning)
-      - [HEURISTIC SCANNING = REAL-TIME SCANNING](#heuristic-scanning--real-time-scanning)
-    - [VPN : VIRTUAL PRIVATE NETWORK](#vpn--virtual-private-network)
+	- [contents](#contents)
+	- [Encryption - Data In Transit](#encryption---data-in-transit)
+	- [Active Directory](#active-directory)
+	- [Encryption](#encryption)
+	- [SNMP](#snmp)
+	- [SCSI](#scsi)
+	- [SAN STORAGE AREA NETWORK](#san-storage-area-network)
+	- [SITE SURVEY](#site-survey)
+	- [ACTIVE DIRECTORY](#active-directory-1)
+		- [LDAP](#ldap)
+		- [LDAPS = SECURE VERSION](#ldaps--secure-version)
+		- [KERBEROS](#kerberos)
+	- [INSECURE AUTHENTICATION](#insecure-authentication)
+		- [PAP](#pap)
+		- [CHAP](#chap)
+	- [SECURE AUTHENTICATION](#secure-authentication)
+		- [MS-CHAP2](#ms-chap2)
+		- [EAP-TLS](#eap-tls)
+		- [PEAP](#peap)
+		- [LEAP](#leap)
+	- [ONE-TIME PASSWORDS](#one-time-passwords)
+		- [OTP](#otp)
+		- [TOTP](#totp)
+	- [EMAIL ENCYRYPT/AUTHENTICATE](#email-encyryptauthenticate)
+		- [PGP](#pgp)
+	- [DIAL-IN AUTHENTICATION](#dial-in-authentication)
+		- [RADIUS](#radius)
+		- [DIAMETER](#diameter)
+		- [TACACS+](#tacacs)
+	- [SSO](#sso)
+			- [FEDERATION](#federation)
+			- [BACKUPS](#backups)
+			- [Risk Analysis Process](#risk-analysis-process)
+		- [Network Security Lab](#network-security-lab)
+			- [Gaining Access To A Network](#gaining-access-to-a-network)
+				- [Class Lab](#class-lab)
+			- [NTFS And Share Permissions](#ntfs-and-share-permissions)
+				- [Lab : NTFS and Share Permissions](#lab--ntfs-and-share-permissions)
+			- [Virtual Online Router](#virtual-online-router)
+			- [Group Policy Management](#group-policy-management)
+				- [Lab - Password And Lockout Policy](#lab---password-and-lockout-policy)
+				- [Lab - Publish A Printer](#lab---publish-a-printer)
+				- [Lab - Publish Software](#lab---publish-software)
+			- [DNS Labs](#dns-labs)
+		- [Wireshark](#wireshark)
+				- [Install Wireshark](#install-wireshark)
+		- [Cookies](#cookies)
+		- [WIFI labs](#wifi-labs)
+				- [Hacking Into Symmetric Encryption - Part 1](#hacking-into-symmetric-encryption---part-1)
+				- [Hacking Into Symmetric Encryption - Part II](#hacking-into-symmetric-encryption---part-ii)
+				- [Hacking Into Symmetric Encryption - Part III](#hacking-into-symmetric-encryption---part-iii)
+		- [WIFI lab](#wifi-lab)
+		- [DEFENSE IN DEPTH](#defense-in-depth)
+			- [STORAGE TYPES](#storage-types)
+		- [MOBILE SECURITY](#mobile-security)
+		- [VIRTUALIZATION](#virtualization)
+		- [Site Survey](#site-survey-1)
+		- [Encryption Methods](#encryption-methods)
+		- [Mobile Encryption](#mobile-encryption)
+		- [WIFI](#wifi)
+			- [Secure WIFI](#secure-wifi)
+		- [WIFI CHANNELS](#wifi-channels)
+			- [War driving / war chalking](#war-driving--war-chalking)
+			- [WPS WIFI Protected Setup](#wps-wifi-protected-setup)
+			- [Rogue Access Point](#rogue-access-point)
+			- [Evil Twin](#evil-twin)
+			- [Jamming](#jamming)
+			- [Blue Jack](#blue-jack)
+			- [Snarf](#snarf)
+			- [Blue Snarf](#blue-snarf)
+			- [Distances](#distances)
+		- [Broadband Methods](#broadband-methods)
+		- [Dial up](#dial-up)
+		- [VPN](#vpn)
+		- [IPSEC](#ipsec)
+	- [Network Architecture](#network-architecture)
+		- [Defense-in-depth](#defense-in-depth-1)
+			- [Physical Security](#physical-security)
+			- [Network Security](#network-security)
+				- [Access Control](#access-control)
+				- [Privileged Access Management](#privileged-access-management)
+				- [Data Security](#data-security)
+		- [Virtualization](#virtualization-1)
+		- [AV SCANNING](#av-scanning)
+		- [NETWORK ATTACKS](#network-attacks)
+		- [WIRELESS](#wireless)
+		- [ENCRYPTION](#encryption-1)
+			- [S/MIME](#smime)
+			- [PGP PRETTY GOOD PRIVACY](#pgp-pretty-good-privacy)
+			- [HARDWARE ENCYPTION](#hardware-encyption)
+			- [NTFS ENCRYPTION](#ntfs-encryption)
+			- [BITLOCKER](#bitlocker)
+			- [SQL DATA](#sql-data)
+			- [BIG DATA / NO-SQL](#big-data--no-sql)
+			- [DATA DISPOSAL](#data-disposal)
+			- [HARDENING YOUR SERVER](#hardening-your-server)
+			- [INPUT VALIDATION](#input-validation)
+		- [Types of testing](#types-of-testing)
+			- [PROXY SERVER](#proxy-server)
+			- [TCP TRUSTED COMPUTING BASE](#tcp-trusted-computing-base)
+			- [UTM UNIFIED THREAT MANAGEMENT](#utm-unified-threat-management)
+		- [NETWORKS](#networks)
+		- [ANTI VIRUS SCANNING](#anti-virus-scanning)
+			- [SIGNATURE BASED SCANNING](#signature-based-scanning)
+			- [ANOMALY BASED SCANNING](#anomaly-based-scanning)
+			- [BEHAVIOUR BASED SCANNING](#behaviour-based-scanning)
+			- [HEURISTIC SCANNING = REAL-TIME SCANNING](#heuristic-scanning--real-time-scanning)
+		- [VPN : VIRTUAL PRIVATE NETWORK](#vpn--virtual-private-network)
 - [Security Architecture](#security-architecture)
-  - [Zones](#zones)
-  - [Bastion Host = DMZ](#bastion-host--dmz)
-    - [Jump Box](#jump-box)
-  - [Hardening](#hardening)
-    - [Baselining](#baselining)
-      - [Group Policies](#group-policies)
-  - [Endpoint security](#endpoint-security)
-    - [Port security : restrict access](#port-security--restrict-access)
+	- [Zones](#zones)
+	- [Bastion Host = DMZ](#bastion-host--dmz)
+		- [Jump Box](#jump-box)
+	- [Hardening](#hardening)
+		- [Baselining](#baselining)
+			- [Group Policies](#group-policies)
+	- [Endpoint security](#endpoint-security)
+		- [Port security : restrict access](#port-security--restrict-access)
 - [Identities](#identities)
-  - [NAC](#nac)
-    - [NAC Policy](#nac-policy)
-      - [Types of rules](#types-of-rules)
-  - [Identity](#identity)
-    - [identity by ...](#identity-by-)
-    - [nac](#nac-1)
-  - [certificates](#certificates)
-    - [sigcheck verify root certificate valid](#sigcheck-verify-root-certificate-valid)
-    - [openssl](#openssl)
-    - [certutil (windows)](#certutil-windows)
-  - [dial in](#dial-in)
-    - [RADIUS](#radius-1)
-    - [TACACS+](#tacacs-1)
-    - [LDAP (Active Directory)](#ldap-active-directory)
-    - [SSO](#sso-1)
-      - [SAML : token-based SSO (security assertion markup language)](#saml--token-based-sso-security-assertion-markup-language)
-      - [OpenID](#openid)
-      - [OpenAuth (Open Authorization)](#openauth-open-authorization)
-  - [Hacking attempts](#hacking-attempts)
-  - [Threat Detection](#threat-detection)
-    - [Network Attacks And Security](#network-attacks-and-security)
-    - [Code Injection Vulnerabilities](#code-injection-vulnerabilities)
-    - [Forensics](#forensics)
-  - [Network Scanning](#network-scanning)
-    - [Scanning for vulnerabilities](#scanning-for-vulnerabilities)
-    - [DLP](#dlp)
-    - [Advanced Malware Attacks](#advanced-malware-attacks)
-      - [CODE INJECTION ATTACK = APPLICATION ATTACK](#code-injection-attack--application-attack)
-    - [XSS CROSS SITE SCRIPTING](#xss-cross-site-scripting)
-      - [XSRF CROSS-SITE REQUEST FORGERY](#xsrf-cross-site-request-forgery)
-      - [BUFFER OVERFLOW ATTACK](#buffer-overflow-attack)
-      - [INJECTION TYPES](#injection-types)
-      - [EAVESDROPPING](#eavesdropping)
-      - [MAN-IN-MIDDLE ATTACK](#man-in-middle-attack)
-      - [SESSION HIJACKING](#session-hijacking)
-      - [SESSION REPLAY](#session-replay)
+	- [NAC](#nac)
+		- [NAC Policy](#nac-policy)
+			- [Types of rules](#types-of-rules)
+	- [Identity](#identity)
+		- [identity by ...](#identity-by-)
+		- [nac](#nac-1)
+	- [certificates](#certificates)
+		- [sigcheck verify root certificate valid](#sigcheck-verify-root-certificate-valid)
+		- [openssl](#openssl)
+		- [certutil (windows)](#certutil-windows)
+	- [dial in](#dial-in)
+		- [RADIUS](#radius-1)
+		- [TACACS+](#tacacs-1)
+		- [LDAP (Active Directory)](#ldap-active-directory)
+		- [SSO](#sso-1)
+			- [SAML : token-based SSO (security assertion markup language)](#saml--token-based-sso-security-assertion-markup-language)
+			- [OpenID](#openid)
+			- [OpenAuth (Open Authorization)](#openauth-open-authorization)
+	- [Hacking attempts](#hacking-attempts)
+	- [Threat Detection](#threat-detection)
+		- [Network Attacks And Security](#network-attacks-and-security)
+		- [Code Injection Vulnerabilities](#code-injection-vulnerabilities)
+		- [Forensics](#forensics)
+	- [Network Scanning](#network-scanning)
+		- [Scanning for vulnerabilities](#scanning-for-vulnerabilities)
+		- [DLP](#dlp)
+		- [Advanced Malware Attacks](#advanced-malware-attacks)
+			- [CODE INJECTION ATTACK = APPLICATION ATTACK](#code-injection-attack--application-attack)
+		- [XSS CROSS SITE SCRIPTING](#xss-cross-site-scripting)
+			- [XSRF CROSS-SITE REQUEST FORGERY](#xsrf-cross-site-request-forgery)
+			- [BUFFER OVERFLOW ATTACK](#buffer-overflow-attack)
+			- [INJECTION TYPES](#injection-types)
+			- [EAVESDROPPING](#eavesdropping)
+			- [MAN-IN-MIDDLE ATTACK](#man-in-middle-attack)
+			- [SESSION HIJACKING](#session-hijacking)
+			- [SESSION REPLAY](#session-replay)
+	- [infrastructure random terms](#infrastructure-random-terms)
+	- [wifi](#wifi-1)
+	- [network necurity](#network-necurity)
 
 
 
@@ -189,40 +190,11 @@ Kerberos token
 
 ## Encryption
 
-Stream vs Block Cipher
 Stream cipher = 1 bit at a time , fast
 Block cipher = much stronger (in blocks) but slower
 Email Encryption : 
        PGP	Pretty Good Privacy
        S/MIME
-
-## WAYS TO ENCRYPT DATA
-
-	STREAM CIPHER
-	
-		FAST BUT LESS SECURE!
-	
-		ONE CHARACTER ONLY GETS ENCRYPTED AT A TIME
-	
-			A  	=> 	Y
-			B	=>	I
-			C	=>	8
-	
-	BLOCK CIPHER		
-	
-		TAKES GROUP OF CHARACTERS EG 100 AT A TIME
-		ENCRYPT THEM AS A BLOCK
-	
-		MUCH MORE SECURE, MUCH HARDER TO CRACK
-	
-		SLOWER!!!
-
-
-
-
-
-
-
 
 
 ## SNMP 
@@ -240,14 +212,6 @@ PORT 161/2
 
 ```
 
-## IPSEC
-
-```
-IP SECURITY
-
-BUILT-IN ENCRYPTION FOR ALL IP TRAFFIC
-
-```
 
 ## SCSI 
 
@@ -282,11 +246,6 @@ FCOE  FIBER CHANNEL OVER ETHERNET : UTILISING CHEAP CAT6
 ## SITE SURVEY
 
 MARKING COVERAGE OF WIFI POINTS
-
-```
-EXAM : ENSURE WIFI NOT GOING TOO FAR OUTSIDE BUILDING
-
-```
 
 ## ACTIVE DIRECTORY
 
@@ -3754,119 +3713,433 @@ LISTENING IN TO TRAFFIC OR SIGNALS
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## infrastructure random terms
+
+```
+FIREWALL/ROUTER : IP BLOCK LIST : BLOCK / ALLOW IP TRAFFIC
+ACL	ANY IP	10.11.12.13 53 PERMIT
+LAST	ANY	ANY ALL DENY
+QoS Quality Of Service ==> 802.1p ==> TAG EVERY PACKET WITH A PRIORITY
+SWITCHING LOOP ? STP SPANNING TREE PROTOCOL
+ROUTING LOOP ? POISON REVERSE : HIGH COST 16 BACKWARDS
+SPLIT HORIZON : DON’T SEND BACK TO ORIGINAL ROUTER
+SQL
+LDAP
+SMB
+IPV6
+LLMNR for local name resolution
+LOAD BALANCER
+ICMP : Error message protocol for internet eg 404 unreachable
+PING : (echo request) member of ICMP family
+TRACERT
+PATHPING
+NETSTAT
+NSLOOKUP
+CentralOps.Net/Co => NSLOOKUP with details
+WIRESHARK
+SNMP : Simple Network Management Protocol
+       Manage network of many devices : routers, switches, printers,servers.
+	1) Heartbeat message 30/60secs : Know machine is reachable
+	2) States eg Throughput MB per hour
+NETBIOS
+	Port 137
+	Used HOSTNAME to do NETWORKING (before DNS)
+TFP : Trivial FTP : Across LAN to copy eg new OS to CISCO SWITCH 
+       Port 69
+PPP : Create the dial up session (not encrypted)
+	Point-to-point protocol : simply dials up and creates the connection	
+Accessing a file share SMB
+Creating and using an RDP session
+Enabling and using the firewall - blocking PING
+Group Policy Management in a domain
+SYSVOL
+DMZ = Screened Subnet
+       Jump box
+BLOCK / ALLOW A PING INTO A WINDOWS 7 CLIENT	
+Proxy - CREATE A (FAKE) PROXY USING INTERNET EXPLORER :  CONNECTIONS TAB TO 1.2.3.4:8080 FOR ALL PROTOCOLS
+Port Forwarding - ui.linksys.com view options and discuss theory
+Port Triggering - ui.linksys.com view options and teach theory
+ngrok - Mention ngrok as a way to direct traffic from internet to local IP
+```
+
+
+## wifi
+
+```
+CONNECT TO http://ui.linksys.com E1200 ROUTER 
+LOOK AT ALL THE SETTINGS	
+SSID	
+CHANNEL	
+WIFI PASSWORD	
+ENCRYPTION WPA OR WEP	
+DHCP ADDRESSES GIVEN OUT	
+GATEWAY	
+FIREWALL ON/OFF	
+GAMING : PORT SETTINGS	
+```
+
+
+
+
+
+
+
+
+
+
+## network necurity 
+
+```
+SLE Single Loss Expectancy
+ALE Annual Loss Expectancy
+RPO Recovery Point Objective
+RTO Recovery Time Objective
+802.11AC UP TO 1300MBPS IN 5GHZ BAND
+802.1X CAN AUTHENTICATE SWITCHES AND WIFI POINTS
+802.1X CAN FILTER BY AD/LDAP MEMBERSHIP EG ON A VLAN
+802.1X MACHINE-TO-MACHINE AUTHENTICATION, PLUS AD/LDAP MEMBERSHIP
+802.1X TALKS TO AD/LDAP
+AH AUTHENTICATE
+ALE ANNUAL LOSS EXPECTANCY
+Anomaly based : deviations can block
+Anomaly Based = Heuristic = Behaviour based - all can generate a large number of false positives when network traffic deviates from the norm.
+Anomaly Based compares with known baseline
+ANOMALY COMPARES TO A BASELINE
+APPLICATION AWARE : OF STATE OF OTHER DEVICES
+Application Firewall filters by detailed content
+APPLICATION WHITELIST DETERMINES IF MOBILE DEVICE IS FIT TO ACCESS THE NETWORK
+APT ADVANCED PERSISTENT THREAT
+ARO ANNUAL RATE OF OCCURRENCE
+ASSET TRACKING USING GPS TO LOCATE A DEVICE
+Asymmetric : DH RSA ECC
+ATTACK VECTOR FROM ATTACKER
+AUP ACCEPTABLE USE POLICY : WHAT A USER CAN AND CAN'T DO ON THE NETWORK
+BASELINE : COMPARING AGAINST KNOWN
+BCP business continuity plan : what to do if business fails
+BCRYPT ADD SALT
+BEHAVIOUR BASED SCANS COMPARE TO RULES
+BIA BUSINESS IMPACT ANALYSIS : ANALYSE THREATS AND VULNERABILITIES
+BIA BUSINESS IMPACT ANALYSIS = IMPACT TO BUSINESS
+BITLOCKER USES TPM WITH AES
+BLOCK CIPHER : SLOWER THAN STREAM CIPHER
+BLUE HAT : NOT PAID
+Bluejack adverts
+Bluesnarf control
+BPA BLANKET PURCHASE AGREEMENT
+BPA BUSINESS PARTNER AGREEMENT
+BPDU BRIDGE PROTOCOL DATA UNIT - DETECTS LOOPS - CONTAINS INFO TO CONFIGURE STP SPANNING TREE PROTOCOL.  PREVENTS SPOOFING WHICH OCCURS WHEN UNAUTHORISED USER CONNECTS TO A PORT.  BPDU ARE SHARED BETWEEN SWITCHES AS UNITS OF INFORMATION.
+BPDU BRIDGE PROTOCOL DATA UNIT : SPOOF WHEN UNAUTHORISED USER CONNECTS TO PORT
+CAAS  	
+CAC Common Access Card
+CAM TABLE
+CAPTIVE PORTAL : HAVE TO LOG IN TO WIFI
+CCMP USES AES
+CDP CLEAN DESK POLICY
+CIA CONFIDENTIALITY INTEGRITY AVAILABILITY
+Cipher Suite uses both Asymmetric and Symmetric tools
+CLICKJACK ON EG 'NEXT' BUTTON DOES UNINTENDED CONSEQUENCE EG POST FACEBOOK MESSAGE
+CLOUD : GREATEST RISK IS ACCESS TO FILES FROM HOST
+Community cloud shared by several organisations
+COMMUNITY CLOUD SHARES PRIVATE CLOUD
+COMMUNITY CLOUD WHEN PRIVATE CLOUD IS SHARED
+CONTAINMENT : SHORT-TERM + FORENSIC IMAGE + LONG-TERM
+Content Inspection : detects malicious content and filter email attachments
+CONTINUITY OF OPERATIONS PLAN
+COOKIE POISON : PREVENT BY ENCRYPTION
+CREDENTIALED SCAN CAN IDENTIFY EG UNINSTALLED PATCH, USB ATTACHED
+CRL CERTIFICATE REVOCATION LIST - list of revoked certifs
+CSR CERTIFICATE SIGNING REQUEST : FOR SSL CERTIFICATE
+CSRF CROSS SITE REQUEST FORGERY : USES AUTHENTICATION TO GAIN ACCESS
+CTI COMPUTER TELEPHONY INTEGRATION
+CTL CERTIFICATE TRUST LIST : MANUALLY ALLOCATE WHICH CAs ARE TRUSTED BY A USER
+CUTOVER TEST
+CUTOVER TO ALTERNATIVE SITE
+DaaS	
+DAC DISCRETIONARY ACCESS : SET BY USER
+DIAMETER = 2XRADIUS
+DISASTER RECOVERY : STAKEHOLDER NOTIFY + ASSESS DAMAGE + RECOVER DATA
+DLP DATA LOSS PREVENTION MONITORS FILES LEAVING THE NETWORK
+DLP DATA LOSS/LEAK PREVENTION
+DNS INJECTION
+DPI DEEP PACKET INSPECTION
+DRIVE-BY-DOWNLOAD : JUST FROM BROWSING A SITE
+DRP DISASTER RECOVERY PLAN = INDIVIDUALS + INVENTORY + MANUALS + LOCATIONS
+DRP FULL SCALE
+DRP FUNCTIONAL EXERCISES
+DRP NOTIFY STAKEHOLDERS, ASSESS, RECOVER
+DRP TABLETOP DISCUSSIONS
+DRP WALKTHROUGH
+EAP-MD5 : AUTHENTICATE CLIENT ONLY (NOT SERVER)
+EAP-MD5 ONLY CLIENT AUTHENTICATES TO SERVER (WITH HASH)
+EAP-TLS USES MUTUAL CERTIFICATES ON BOTH CLIENT AND SERVER
+EAVESDROPPING OVER NFC PLAIN TEXT
+ENROL = GET CERTIFICATE
+ENROL POLICY = WHO CAN APPLY
+ENUMERATING = GET EG USERNAMES, GET DOWN TO DETAIL
+ESCROW = KEY TRUSTED 3RD PARTY
+ESP ENCRYPT
+FAILOPEN
+FAILSAFE
+FAILSECURE
+FARADAY CAGE
+FC00 SITE TO SITE
+FCoE CAN ONLY RUN ON 10GBPS CHANNEL
+FCoE ONLY 10GBPS
+FE80 SITE LOCAL
+FF00 MULTIAST
+FF00 MULTICAST
+FIBER CHANNEL OVER ETHERNET : USES FIBER CHANNEL PROTOCOLS OVER ETHERNET NETWORK
+FIELD LEVEL ENCRYPTION FOR CERTAIN DATABASE FIELDS
+FLOOD GUARD AGAINST DDOS
+FLOOD GUARD AGAINST DOS EG AAA LOGIN ATTACK
+FLOOD GUARD PROTECTS AGAINS DOS EG LOGIN (AAA) ATTACKS
+FOOTPRINT = GATHER CRITICAL DATA OFTEN FROM PUBLIC SOURCES. SLOWLY ANALYSE NETWORK.
+FORENSIC : IMAGE + LOGS + VIDEO + TIME ZONE + HASH FOR KNOWN + FLAG FOR UNKNOWN
+Forest : Group of domains eg [MSN.com](<http://msn.com/>), [LIVE.com](<http://live.com/>), [MICROSOFT.com](<http://microsoft.com/>), [SKYPE.com](<http://skype.com/>)
+FQDN : full name eg [myserver.mydomain.com](<http://myserver.mydomain.com/>) FULLY QUALIFIED DOMAIN NAME
+FTP 20 TCP UDP   21 TCP
+FTP USES 20 (DATA) TCP,UDP AND 21 (ADMIN) TCP
+FTPS USES FTP OVER SSL USING 989 (DATA) TCP,UDP AND 990(ADMIN) OVER TCP
+FUNCTIONAL EXERCISE
+FUZZING SENDS RANDOM DATA TO TEST AN APP
+GRAYWARE = NON-MALICIOUS (UNWANTED) CODE
+GREY HAT : HACKS IN THEN INFORMS
+HIERARCHICAL TRUST FROM TOP DOWN
+HMAC : LIKE SHA1 : PROVIDES DUAL INTEGRITY AND AUTHENTICITY
+HMAC Hash Based MAC Message Authentication Code : Integrity + Authenticate
+HMAC HASH BASED MESSAGE AUTHENTICATION
+HOTP HOST-BASED ONE TIME PASSWORD
+HSM HARDWARE SECURITY MODULE
+HSM HARDWARE SECURITY MODULE : GENERATE CRYPTOGRAPHIC KEYS
+HTOP HASH-BASED ONE TIME PASSWORD
+IAAS DELIVERS VIRTUAL SERVERS
+IMAP 993
+IMAP 994 TCP
+INCIDENT : EXAMINE VOLATILE AREAS FIRST
+INCIDENT IDENTIFICATION : WHICH SERVERS, WHAT IMPACT TO BUSINESS?
+INCIDENT IDENTIFY WHICH SERVERS WHAT IMPACT
+INTERNAL PENETRATION TEST: SEE WHAT EFFECT A MALICIOUS INSIDER COULD HAVE
+IPSEC 500 4500  BOTH UDP
+IPSEC PORTS 500 UDP AND 4500 UDP
+IPSEC USES AH FOR INTEGRITY 
+IPSEC USES ESP FOR ENCRYPTION
+IRP INCIDENT RESPONSE POLICY
+ISA INTERCONNECTION SECURITY AGREEMENT
+ISA INTERCONNECTION SECURITY AGREEMENT BETWEEN TWO COMPANIES TO SPECIFY TECHNICAL RELATIONSHIPS
+ISA Interconnection Security Agreement in technical detail between two parties
+ISA INTERCONNECTIVITY SECURITY AGREEMENT : TECHNICAL
+ISAKMP DETERMINE WHEN TO MAKE NEW KEYS
+ISCSI = SAN OVER ETHERNET
+ISCSI CAN IMPLEMENT SAN OVER ETHERNET
+IV ATTACK : PREDICT SALT
+KEY ESCROW : KEYS ARE HELD IN A CENTRAL LOCATION TO BE USED IF NEEDED
+KEY STRETCH
+KEYSTROKE AUTHENTICATION : LOOKS AT TIMING AND PATTERN OF KEYSTROKES
+LDAP (SECURE) : SSO
+LEAK = COPY
+LEAP : BECAUSE HASH-BASED IS INSECURE IF POOR PASSWORDS ARE USED AS HASHES CAN BE CRACKED EASILY FOR POOR PASSWORDS.
+LEAP : USER/PASS HASH
+LEAP MUTUALLY AUTHENTICATES WITH USERNAME AND PASSWORD HASH.  
+LOOP PROTECTION ON ALL PORTS
+LOSS = MOVE
+LSO LOCALLY SHARED OBJECT = FLASH COOKIE
+LSO LOCALLY SHARED OBJECTS LIKE FLASH COOKIE
+M REQUIRED OF N PEOPLE TO USE KEY
+MaaS
+MAC FLOOD : MITIGATED BY MAC LIMITING
+MAC LIMITING : LIMITS NUMBER OF MAC ADDRESSES THAT CAN BE LEARNED ABOUT
+MAC MANDATORY ACCESS CONTROL : ASSIGNED BY ADMIN : TOP SECRET
+MAC MANDATORY FIXED ACCESS CONTROL : HIGHLY SECURE SET BY ADMIN
+MAC MOVE LIMITING : LIMITS NUMBER OF MOVES OF ITEMS ON A SWITCH PER SECOND
+MAM	Mobile App Management
+MAN IN THE MIDDLE : VIEW INFORMATION
+MDM	Mobile Device Management
+MDM MOBILE DEVICE MANAGEMENT
+MDT Max Tolerable Downtime
+Metric : stats, measurements
+MONITOR BY BEHAVIOUR/SIGNATURE/ANOMALY/HEURISTIC
+MOU MEMORANDUM OF UNDERSTANDING : INFORMAL
+MOU MEMORANDUM OF UNDERSTANDING : INFORMAL AGREEMENT
+MTD MAX TOLERABLE DOWNTIME
+MTR Mean Time To Recover
+MTR MEAN TIME TO REPAIR
+MTR MEAN TIME TO RESTORE THE SYSTEM TO WORKING ORDER (DIFFERENT TO MTTR)
+MTR RESTORE TO WORKING ORDER
+MULTIPARTITE = BOOT + OTHER TYPES COMBINED
+NAC = NAP
+NAC like NAP
+NAC NETWORK ACCESS CONTROL = NAP
+NAC NETWORK ACCESS CONTROL LIKE NAP
+NETBIOS 137
+NETWORK TRUST HAS TRANSITIVE TRUSTS
+OFFBOARDING : REMOVING MOBILE APP (BYOD) FROM COMPANY USE - REMOVE DATA AND LOGINS
+PAAS DELIVERS VIRTUALISED USER ENVIRONMENTS
+PARALLEL ON ANOTHER SITE
+PARALLEL TEST
+PBKDF2 ADD SALT
+PDS Protected Distribution System = Protected cabling
+PDS PROTECTED DISTRIBUTION SYSTEM CABLING
+PEAP : SERVER CERTIFICATE
+PEAP REQUIRES CERTIFICATE ON SERVER
+PENETRATION TEST SIMULATES ATTACK
+PERFECT FORWARD : KEYS CANNOT BE REUSED
+PERFECT FORWARD SECRECY : SESSION KEYS ARE ONE TIME ONLY USE
+PGP ENCRYPT EMAIL SERVER TO CLIENT
+PHARM DNS ALTER
+PHARMING : ALTER DNS OR HOSTS FILE
+PHARMING : ALTER DNS RECORDS
+PII PERSONALLY IDENTIFIABLE INFO
+PING OF DEATH : MALFORMED PING PACKETS
+PING OF DEATH = MALFORMED PING
+PKCS TO CREATE CERTIFICATES
+PMI PRIVILEGE MANAGEMENT INFRASTRUCTURE
+PMI Privilege Management Infrastructure
+PMI PRIVILEGE MANAGEMENT INFRASTRUCTURE : USE PKI CERTIFS TO MANAGE PERMISSIONS
+PMI USES PKI CERTIFICATES TO MANAGE
+POP 995
+POP 995 TCP
+PORT FORWARD SO INTERNET CAN SEND TRAFFIC IN TO LAN FOR THIS PORT ==> THIS PC
+PORT FORWARDING CAN ENABLE A COMPUTER TO BE OPEN TO RECEIVING CONNECTIONS FROM THE INTERNET
+PRIVILEGE MANAGEMENT
+PROMISCUOUS MODE : TURN ON IN NIC AND USE FOR PROTOCOL ANALYSER OR VULNERABILITY SCAN
+PROXIMITY READER = WAVE YOUR CARD TO GAIN ENTRY
+QUALITATIVE RISK ASSESS : HIGH/MED/LOW
+QUID PRO QUO ATTACK : OFFERED GIFT
+RA REGISTRATION AUTHORITY : VALIDATES A CERTIFICATE
+RA REGISTRATION AUTHORITY : VERIFIES IDENTITY OF PRESENTED CERTIFICATES
+RADIUS
+RADIUS : PORT 1812
+RADIUS DOES AAA
+RADIUS PERFORMS AAA
+RAINBOW TABLE OF KNOWN HASHES
+RAT REMOTE ACCESS TROJAN TO GAIN ACCESS REMOTELY
+RECOVERY = ASSESS + RECOVER + REPORT
+REPLAY ATTACK CAN BE DOS ATTACK ON WIFI
+RFC Request For Comments : Suggestions to improve the INTERNET!!!
+RIPEMD CAN VERIFY PLAIN TEXT BY HASH
+RISK = CHANCE
+RISK MITIGATION = REDUCTION OF LOSS
+RISK TRANSFERENCE = INSURANCE POLICY
+ROOTKIT HAVE TO SCAN WHEN WINDOWS NOT RUNNING
+RPO Back to backup point
+RPO RECOVERY POINT = POINT BACK TO WHICH DATA WILL BE LOST WHEN GET CLOSEST BACKUP
+RPO RECOVERY POINT OBJECTIVE IS MAX ACCEPTABLE DATA LOSS GOING BACK TO A POINT IN TIME
+RPO RECOVERY POINT OBJECTIVE IS TIME HAVE TO GO BACK UNTIL LAST BACKUP WAS TAKEN (DATA SINCE THEN IS LOST)
+RTO Max Recovery time
+RTO RECOVER TIME OBJECTIVE = MAX ACCEPTABLE RECOVERY TIME
+RTO RECOVERY TIME OBJECTIVE IS MAX ACCEPTABLE RECOVERY TIME
+RTO REDOVERY TIME OBJECTE IS PLANNED TIME TO RECOVER SYSTEM
+S/MIME ENCRYPT EMAIL SERVER TO CLIENT
+SAML BROWSER SSO
+SAML SECURITY ASSERTION MARKUP LANGUAGE : USED FOR SSO
+SCADA = Engineering Subnet
+SCADA DOES HVAC MONITORING
+SCADA INDUSTRIAL PROCESSES : HIDE IN DMZ
+SCAREWARE IS MALWARE THAT 'SCARES' USER INTO INSTALLING THE SOFTWARE
+SCAREWARE SO INSTALL BOGUS STUFF
+SCP 22 SSH FILE TRANSFER
+SCP SECURE COPY IS OVER PORT 22 SSH
+SCP SECURE COPY USES PORT 22 TO TRANSFER FILES SECURELY USING SSH
+SFTP IS FTP OVER SSH
+SFTP over SSH
+Signature based : Fixed
+SINKHOLE FOR ALL NETWORK TRAFFIC LIKE GATEWAY
+SITE SURVEY OF WIFI BOUNDARY
+SLE SINGLE LOSS EXPECTANCY
+SMART CARD = TOKEN BASED
+SMURF : PING DOS ATTACK
+SMURF = PING DDOS
+SMURF ATTACK : DDOS PING ATTACK
+SNMP 161 162
+SNMP CAN BE SECURED BY IPSEC
+SNMP SECURED BY IPSEC
+SPEAR PHISH FROM KNOWN CONTACT
+SPEAR PHISHING - APPARENTLY FROM SOMEONE YOU KNOW
+SSL : CLIENT BROWSER REQUESTS, SERVER SENDS TO CLIENT, CLIENT GENERATES SESSION KEY, ENCRYPTS, SENDS TO SERVER, BEGIN SESSION
+SSL AND TLS NEGOTIATE WHICH ENCRYPTION ALGORITHM TO USE
+STEGANOGRAPHY : PROVIDES PRIVACY AS WELL AS ENCRYPTION
+STEGANOGRAPHY HIDE EVEN FACT DATA EXISTS
+STEGANOGRAPHY IN IMAGE
+STREAM CIPHER DOES ENCRYPTION OF DATA
+STREAM CIPHER ONE CHARACTER AT TIME
+SWITCH CAM TABLE CONTENT ADDRESSABLE MEMORY : CONTAINS SWITCHING TABLE
+SYMMETRIC : AES => BLOW => TWO => RC6
+Symmetric : AES DES 3DES Blow TwoFish RC6
+SYMMETRIC : DES, 3DES, AES, BLOWFISH, TWOFISH, RC6
+SYN ATTACK IS DDOS ATTACK TO SET UP TCP CONNECTION
+TABLETOP DISCUSSION
+TACACS ENCRYPTS ALL AUTHENTICATION TRAFFIC
+TACACS LAYER 2 AUTHENTICATION
+TACACS USED FOR CENTRAL DEVICE AUTHENTICATION
+TACACS+ : PORT 49
+TCP/IP HIJACKING : HIJACK SESSION
+TEMPEST : EMI
+TEMPEST IS EMI
+TFTP 69
+TFTP 69 UDP TCP
+TFTP PORT 69 TCP AND UDP
+THREAT
+THREAT VECTOR = METHOD OF ATTACK
+THREAT VECTOR FROM THREAT
+TLS AFTER SSL
+TLS CAN ENCRYPT SMTP TRAFFIC (CAN BE ON REQUEST ONLY)
+TOTP TIME BASED ONE TIME PASSWORD
+TPM TRUSTED PLATFORM MODULE
+TRANSFER RISK = INSURANCE
+TRUSTED : HARDWARE + OS + FIRMWARE
+TRUSTED : ISOLATE FROM APPS
+TTOP : TIME BASED HTOP EG 60 SECONDS TO USE IT!
+URL HIJACK = TYPO SQUAT = GOOOGLE.COM
+URL SHORTEN CAN HIDE TRUE BOGUS SOURCE
+UTM : CARE AS CAN HAVE BOTTLENECK AND SPOF EFFECTS SO CAN BECOME A TARGET
+UTM APPLICATION CONTROL CAN EG PREVENT USERS CLICKING THROUGH ON FACEBOOK LINKS
+UTM BANDWIDTH THROTTLE PER APP
+UTM CAN DO TRAFFIC SHAPING TO THROTTLE BANDWIDTH FOR CERTAIN APPS
+UTM CAN PREVENT LINK CLICKING
+UTM CAN RESTRICT DAY/TIME ACCESS
+UTM DAY/TIME RESTRICTION
+UTM UNIFIED THREAT MANAGEMENT
+UTM Unified Threat Management
+VISH OVER VOIP
+VLAN HOPPING : SNOOP ON OTHER VLAN DATA
+VOLATILITY IN INCIDENT : RAM/CACHE, PAGE FILE, HDD, USB
+VULNERABILITY
+WAF Web Application Firewall : Deep packet inspection + Prevents SQL Injection 
+WAF Web Application Firewall : Deep packet inspection + SQL Injection + XSS prevention
+WAF Web Application Firewall : SQL injection and XSS attacks
+WAF WEB APPLICATION FIREWALL : SQL INJECTION AND XSS ATTACKS
+WAF WEB APPLICATION FIREWALL = LAYER 7 (DEEP PACKET INSPECTION)
+WAF web application firewall monitors for SQL injection and XSS attacks
+WAF Web Application Firewall uses deep packet inspection to examine each request and response and prevents attack based on user input like SQL injection.  Signature based uses preset signatures.  Anomaly based uses deviations to block.
+Web Security Gateway - filters for malware, can have URL filtering, 
+Web security gateway : does URL filtering, content and malware inspection
+WEB SECURITY GATEWAY : FOREFRONT : URL FILTER + MALWARE + APP CONTROLS EG SKYPE + DLP DATA LEAK PREVENTION
+WEB SECURITY GATEWAY : URL FILTER, CONTENT/MALWARE INSPECTION
+Web Security Gateway : URL Filter, malware
+WHALE HIGH WEALTH
+WINS 137
+WPA USES TKIP
+WPA USES TKIP FOR ENCRYPTION
+WPA2 ENTERPRISE IS BASED ON 802.X
+WPA2 USES AES
+WPA2 USES AES FOR ENCRYPTION
+XMAS SCANS OPEN PORTS : ALL FLAGS OPEN
+XSRF : Mitigate with token
+XSRF Attack : enforce Session Timeout + Hidden field
+XSRF CROSS SITE REQUEST FORGERY : AUTHENTICATES TO GAIN ACCESS
+XSRF CROSS SITE REQUEST FORGERY : SUBMIT FORMS PRETENDING TO BE USER
+XSRF CROSS SITE REQUEST FORGERY USING TRUST ON ONE SITE TO REACH ANOTHER
+XSS CROSS SITE SCRIPT REDIRECT TO NEW SITE
+XSS CROSS SITE SCRIPTING
+XSS CROSS SITE SCRIPTING : REDIRECTS EG TO ANOTHER SITE
+XSS REFLECTED TO ANOTHER MACHINE
+XSS STORED
+STP SPANNING TREE PROTOCOL PREVENTS SWITCHING LOOPS
+POISON REVERSE - ROUTERS DON'T SEND STUFF BACK TO ROUTES THEY CAME FROM
+SPLIT HORIZON - DON'T SEND BACK TO ORIGINAL ROUTER
+SID SECURITY ID ON WINDOWS
+GUID GLOBAL USER ID ON A DOMAIN
+```
 
 
 

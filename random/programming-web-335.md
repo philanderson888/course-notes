@@ -1,17 +1,8 @@
-
-## web
-
-```
-google keyword planner
-```
-
-## modern javasript
-
-# modern web glossary
+# programming web
 
 ## contents
 
-- [modern web glossary](#modern-web-glossary)
+- [programming web](#programming-web)
   - [contents](#contents)
   - [random](#random)
   - [Contentful](#contentful)
@@ -51,6 +42,7 @@ google keyword planner
 ## random
 
 ```
+google keyword planner
 graphql
 gatsby
 apollo

@@ -11,18 +11,9 @@
 
 ## random
 
-tacacs
-bpdu
-radius
-nc
-vlan pool
-siem logging
-air gap
-owasp
-dd
-mitre red team
 exfiltrate
 kill chain
+insecam
 netflow
 os fingerprint
 footprint
@@ -67,7 +58,6 @@ c2 command and conquer
 cacti logging
 celebrite mobile hack
 htttrack copy site
-insecam
 siem security info event management
 sop standard operating proceures
 burp suite
@@ -575,22 +565,14 @@ Mlab hosts MongoDB
 Async... await replaces regular promises . Use them !!!!!
 Await yields result
 Object : create and use square bracket on same line to create a property
-Method in object :
-Jira impressa coffee machine e80
 Defer loading of a script eg google analytics
-Var
-Let
-Const
-Callback
 Recursion
-For each just loops over array
 Map creates new array while looping
 Big O notation is measure of complexity or speed of operation
 0.1 + 0.2 === 0.3 returns false
 Css Bem block element modifier-
 [https://www.apollographql.com/](https://www.apollographql.com/)[https://jamstack.org/](https://jamstack.org/)[https://advancedreact.com/](https://advancedreact.com/)[https://modernizr.com/](https://modernizr.com/)[https://autoprefixer.github.io/](https://autoprefixer.github.io/)[https://www.meteor.com](https://www.meteor.com/)
 Template literals with e.g. backticks style.div with `function`
-
 Object destructuring - can all rename at same time . Can have a default fall back value
 Object computed property name by using square bracketsvto create a new object property
 React suspense
@@ -644,11 +626,8 @@ Azure application insights
 github algorithms
 snap Linux
 Linux flatpack
-server 2019
 Windows lts or semi annual support
-cicd pipeline
 docker volumes
-Windows 10 1809 update
 Windows 10 uses hyperv hostile mode but new will run fast process isolation
 nanosrver was bare metal server
 nanosrver used for containers
@@ -4044,14 +4023,9 @@ Debug : Break on HTML change
 Monitor('function1');
 Debug('functionname');
 Toggle device mode chrome
-const
-
-const variables are
-UPPERCASE
-block scope and even if global, not assigned to the Window object
+const ... block scope and even if global, not assigned to the Window object
 const references to primitive values are always immutable
-const bindings are immutable but the contents of objects and arrays are not immutable so the contents can change - it is just the binding to the object or array object which does not change
-Const Var Let
+const bindings are immutable but the contents of objects and arrays are not immutable so the contents can change - it is just the binding to the object or array object which 
 
 use const by default
 use let if rebinding is needed

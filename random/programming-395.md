@@ -7,7 +7,6 @@
   - [html](#html)
   - [kotlin](#kotlin)
 - [Programming Glossary](#programming-glossary)
-  - [contents](#contents-1)
   - [Android Studio](#android-studio)
   - [BATCH FILES .BAT](#batch-files-bat)
     - [Buffer.bytelength](#bufferbytelength)
@@ -65,32 +64,17 @@ lambda { a: Int, b: Int => ab }
 
 
 
+
+
+
+
+
+
+
+
+
+
 # Programming Glossary
-
-## contents
-
-- [programming](#programming)
-  - [contents](#contents)
-  - [html](#html)
-  - [kotlin](#kotlin)
-- [Programming Glossary](#programming-glossary)
-  - [contents](#contents-1)
-  - [Android Studio](#android-studio)
-  - [BATCH FILES .BAT](#batch-files-bat)
-    - [Buffer.bytelength](#bufferbytelength)
-  - [Docker For Windows !!!](#docker-for-windows-)
-  - [GIT](#git)
-  - [Google Lens](#google-lens)
-  - [Keyboard Shortcuts](#keyboard-shortcuts)
-  - [zsh - Z Shell : Custom Shell for MAC](#zsh---z-shell--custom-shell-for-mac)
-  - [Kotlin](#kotlin-1)
-  - [MegaCompanies](#megacompanies)
-  - [nchar and nvarchar SQL Data Types](#nchar-and-nvarchar-sql-data-types)
-    - [npm owner](#npm-owner)
-  - [PostgreSQL](#postgresql)
-  - [SEO Search Engine Optimisation](#seo-search-engine-optimisation)
-  - [SEO Search Engine Optimisation](#seo-search-engine-optimisation-1)
-  - [Wireframes](#wireframes)
 
 
 ## Android Studio

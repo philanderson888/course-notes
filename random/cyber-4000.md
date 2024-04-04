@@ -3856,6 +3856,10 @@ Google Hacking : detailed google search to discover otherwise hidden data about 
 Google Hacking Master List  [https://it.toolbox.com/blogs/rmorril/google-hacking-master-list-111408](https://it.toolbox.com/blogs/rmorril/google-hacking-master-list-111408)
 Graeme Batsman [Datasecurityexpert.co.uk](http://datasecurityexpert.co.uk/)
 Hacker Groups Thallium North Korea
+hacker groups shadow crew 2002 
+hacker groups counterfeitlibrary.com
+hackers albert gonzales shadow crew
+hackers brett johnson shadow crew
 Hacker News [news.ycombinator.com](http://news.ycombinator.com/)
 Hacker typer net
 HackTheBox : Pen Testing Lab Games [https://www.hackthebox.eu/](https://www.hackthebox.eu/)

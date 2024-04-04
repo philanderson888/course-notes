@@ -669,3 +669,7 @@ https://svelte-hello-world-01.netlify.app deploys from https://github.com/philan
 ### other sites
 
 go through and parse / clarify all sites at https://app.netlify.com/teams/philanderson888/sites 
+
+## charity
+
+would it be possible to employ any of these ...

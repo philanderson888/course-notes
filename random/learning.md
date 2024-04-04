@@ -4,6 +4,8 @@
 
 - [learning](#learning)
   - [contents](#contents)
+  - [places to check learning](#places-to-check-learning)
+  - [places to grow learning](#places-to-grow-learning)
     - [Spirit Mars Opportunity is solar-powered and is still working!](#spirit-mars-opportunity-is-solar-powered-and-is-still-working)
 
 
@@ -72,7 +74,7 @@ Money on social media send them a form and block them . Do not entertain them .
 
 
 
-
+## places to check learning
 
 Evangelism https://docs.google.com/document/d/1l_Hh81_yfsgw27UYBKAHq2pe8bj-FcGfUw4fdWxPoP0
 Scripture https://docs.google.com/document/d/1vL4WYy4k_0H_rwzGMMFVaX_NVDHlzFXDujnFz7wX84U
@@ -92,6 +94,9 @@ Scriptures https://github.com/philanderson888/personal/blob/master/christian/scr
 Programming
 https://github.com/philanderson888/course-notes/blob/master/programming/README.md
 
+github node repository
+github javascript repository
+
 
 
 Notion
@@ -101,10 +106,27 @@ Websites
 Home https://philanderson.uk
 
 
+exciting goal 
+... aws to build servers ... free!
+... azure to build servers ...
+... build servers with no gui
+... build servers with gui using the hyperv feature ie virtual machines with hyperv which can build another virtual machine on top
+... build stuff fully scripted
+... can I build some gui web apps 
+... can i test out a gui web app ... how would i do that ? 
+... are there command line tools which i can use to test a web app
+... or can i build a robot to click on a web site for me? ... a specific tool ... or general ai?
+... it would be nice if I could just have a button to click and watch a robot go through and launch and click through all of my work , for sure! ... so I can just kick back and make a video of all of my work , for sure ...
 
 
+## places to grow learning
 
-
+```
+medium.com
+javascript weekly
+building nocode websites
+building nocode databases
+```
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

@@ -7,7 +7,7 @@
   - [pronouns](#pronouns)
   - [prepositions](#prepositions)
   - [adjectives](#adjectives)
-  - [common words](#common-words)
+  - [phrases](#phrases)
   - [numbers](#numbers)
   - [verbs](#verbs)
   - [tourist phrases](#tourist-phrases)
@@ -23,6 +23,14 @@
     - [ere verbs](#ere-verbs)
   - [ire verbs](#ire-verbs)
   - [ire verbs with isc](#ire-verbs-with-isc)
+  - [trip](#trip)
+  - [adjectives](#adjectives-1)
+  - [people and relationships](#people-and-relationships)
+  - [weather, months, seasons](#weather-months-seasons)
+  - [clothing](#clothing)
+  - [colors](#colors)
+  - [food, shopping](#food-shopping)
+  - [verbs](#verbs-2)
 
 
 
@@ -39,56 +47,90 @@ i  miei        nostri     loro
 il     tuoi suoi
 ```
 
+
+
 ## prepositions
 
 ```
-ma            but
+ma              but
 non
-perche        because
-anche         also
-forse         maybe
-con           with
-per           for
-poi           then
-allora        so
-su            on
-sotto         under
-piu           more
+perche          because
+anche           also
+forse           maybe
+con             with
+per             for
+poi             then
+allora          so
+su              on
+sotto           under
+piu             more
 ```
 
 ## adjectives
 
 ```
 migliore        best
-migliore mode   best way
+mode            way
 peggio          worst
-modo peggiore   worst way
 luminosa        bright
 piccolo         small
 alto            high
 sportivo        sporty
-solegiatta      sunny (day)
-biggest         piu grande
-smallest        piu piccolo
-highest         piu alto
+solegiatta      sunny
+piu             most
+piu grande      biggest
+piu piccolo     smallest
+piu alto        highest
+piu grande      greatest
+puzzolente      smelly
+noiosa          boring
+emozionante     exciting
+divertemento    fun
+benedetta       blessed
+contenta        happy
+grassa          fat
+magra           thin
+povera          poor
+ricca           rich
 ```
 
-## common words
+## phrases
 
 ```
-buoni           good (adjective)  buona segretaria  a good secretary
-bene            good (adverb)     lavorate bene  i work well
+tempo           time
+a lungo         long time
+lunga vacanza   long time
+cinque giorno   5 days
+migliore        best
+peggio          worst
+siamo           we are
+qui             here
+siamo qui       we are here
+siamo qui in vacanza  we are here on holiday
+stiamo visitando roma we are visiting rome
+abbiamo una macchine we have a car
+mia moglie      my wife
+i miei figli    my sons
+mio figlio      my son
+ho sei figli    i have six children
+sono stato sposato i have been married
+buoni           good 
+bene            good    
 cherto          of course
 prego           you are welcome
 che             what
 cosa            thing
 chi             who
-dove            where
+dove siamo      where are we
+dove stiamo andando where are we going
+dove siamo andati   where did we go
+stiamo andando  we are going
+visiteremo      we are going to visit
 quale           which
 quali           which
 quali sono      which are
-quali sono i tuoi  which are your
-quali sono i tuio hobby what are your hobbies
+quali sono i tuoi which are your
+quali sono i tuoi hobby which are your hobbies
 che cosa        what
 la              there
 ci              there
@@ -122,6 +164,7 @@ a parte questa  apart from
 forse           maybe
 a parte         apart from
 in realta       in reality / in fact
+sperare         to hope   sper   o    i   a   iamo    ate    iano  
 ```
 
 ## numbers
@@ -139,7 +182,6 @@ se dici         16
 dici assette     17
 dici ottoe
 dici annove       19
-venti trenta quaranta cinqante sessanta settanta ottanta novanta 
 
 venti
 tre   nta
@@ -157,6 +199,7 @@ quaranta quattro
 cinquanta cinque
 sessanta sei
 settanta sei
+settanta sette
 ottanta otto
 novanta nove
 costa         it costs
@@ -179,7 +222,7 @@ parlare       to speak   parl +   o      i     a    iamo      ata      ano
 credere       to believe cred +   o      i     e    iano      ete      ono
 sentire       to feel    sent +   o      i     e    iamo      ite      omo
 finire        to finish  fini +   sco    sci   sce  amo       te       scono
-piacere       to like    mi piache  ti piache    ci piace (we like)   che pi piace  (that we like)  non mi piace (dont like)
+piacere       to like    mi piache  ti piache    ci piace (we like)   che ci piace  (that we like)  non mi piace (dont like)
 che tipo musica ti piace what type of music do you like
 mi piace andare   i like to go
 adoro andare   i love to do
@@ -191,11 +234,11 @@ rimanere      to remain
 potere        to be able to
 dovere        to need
 
-dire          to say      dico      dici    dice  diciamo     dite      dicono
-venire        to come      vengo    vieni  viene   veniamo    venite    vengono
-uscire        to leave     esco     esci   esce   usciamo  uscite    escono
-
-dare          to give      do       dai    da       diamo     date      danno
+dire          to say      dic       o       i       e     iamo      dite      dicono
+venire        to come     ven      go   vieni   viene     iamo       ite        gono
+uscire        to leave    esc       o       i       e                            ono
+                          usc                             iamo       ite       
+dare          to give              do     dai      da     diamo     date       danno
 adorare       to adore/love
 ```
 
@@ -227,7 +270,7 @@ mangiare                    to eat
 Vaticano                    vatican
 Colosseo                    colloseum
 prenotare                   to book
-migliore app                best app
+migliore                    best
 ```
 
 
@@ -235,17 +278,21 @@ migliore app                best app
 ## verbs
 
 ```
-segliere to choose   io scelgo, tu scelgi, lui scelgie , noi scelgiamo, voi scelgiete, loro scelgono
-rimanere to remain  
-volere to want io voglio, tu vuoi, lui vuole, noi vogliamo, voi volete, loro vogliono
-potere to be able to , io posso, tu puoi, lui puo, noi possiamo, voi potete, loro possono
-dovere to need   io devo    tu devi, lui deve, noi dobbiamo, voi dovete, loro devono
+volere        to want              voglio     vuoi   vuole    vogliamo     volete     vogliono
+potere        to be able to  poss         o   puoi     puo    possiamo     potete      possono
+
+segliere to choose           scelg       o       i      ie        iamo       iete         ono
+dovere        to need        dev          o      i       e                                 ono
+                                                              dobbiamo     dovete 
 devi essere to have to be / you must be
 vorrei i would like
 vorrei andare i would like to go 
 voglio i want
 voglio andare   i want to go  , vuoi andare you want to go
 fare to do .... mi fa, mi fa ballare  it makes me dance,   
+
+
+rimanere to remain  
 conoscere to know someone
 sapere to know something   io so  i know,   io non so (i dont know)
 giocare to play      io gioco    gioco a tennis 
@@ -583,3 +630,119 @@ trasferire	 	to transfer, to move, reolocate
 ubbidire	 	to obey
 unire	 	to unite, join, merge
 ```
+
+## trip
+
+```
+we are looking forward to travelling to Rome ... and we are looking forward to staying at your property on Saturday night for 5 nights ... can you confirm all is good for the trip please , thank you :)    we will have a car 
+
+non vediamo l'ora di partire per Roma... e non vediamo l'ora di soggiornare presso la vostra struttura sabato sera per 5 notti... potete confermare che tutto va bene per il viaggio, per favore, grazie :) avremo una macchina
+
+
+```
+
+## adjectives
+
+```
+sposato       married
+single        single
+alto          tall
+basso         short
+disponibile   available
+```
+
+## people and relationships
+
+```
+mamma         mum
+fratello      brother
+figlio        son
+padre         father
+sorella       sister
+figlia        daughter
+moglie        wife
+marito        husband
+nonno/a       grandad/ma
+```
+
+## weather, months, seasons
+
+```
+inverno       winter
+primavera     spring
+estate        summer
+autunno       autumn
+freddo        cold
+caldo         hot
+neve          snow
+vento         wind
+fresco        cool
+cielo         sky
+sole          sun
+nuvole        clouds
+pioggia       rain
+poivere       to rain
+```
+
+## clothing
+
+```
+camicia       shirt
+maglia        jumper
+stivalli      boots
+gonna         skirt
+giacca        jacket
+```
+
+## colors
+
+```
+rossa
+blu
+giallo
+marrone
+bianco
+nero
+viola
+verde
+```
+
+## food, shopping
+
+```
+mercato
+pagare        to pay
+contanti      cash
+cena          dinner
+bere          drink
+mangiare      to eat
+andare        to go
+```
+
+## verbs
+
+```
+io            ... o
+tu            ... i
+lui / lei     ... a   /  a   /  e
+noi           ... iamo
+voi           ... ate / ete / ite
+loro          ... ano / ere / ono
+essere
+andare
+avere
+fare
+potere
+dire
+dovere        to have to
+mettere       to put
+parlare
+credere
+leggere       to read
+dormire       to sleep
+vedere        to see
+dare          to give
+mangiare      to eat
+
+```
+

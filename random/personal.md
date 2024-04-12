@@ -394,15 +394,7 @@ i can thrive and make lots of money online through building software
 
 ## ai prompts
 
-gospel christians openly singing and worshipping the lord, playing the piano and lifting up hands
 
-people praying and worshipping the lord
-
-kingdom warrior - mist heavenly sunshine beams divine bright soft focus holy
-
-gym pastor
-
-you are a book illustrator. please generate 10 images to accompany my book 'Prayers for the elderly'. The images can be of anything thoughtful, scenic, including images of nature, forests, trees, mountains, glowing light.
 ```
 
 
@@ -533,27 +525,45 @@ bible is not one language
 LPU Language Processing Unit
 LLM Large Language Model
 Inference Engine
+gpt-3.5 process text only
+gpt-4 images and text
+4-turbo add knowledge up to april 2023
 ```
 
 ## ai images
 
 ```
-nighcafe very quick
+nighcafe
 bing
+gencraft
 ```
+
+## ai video
+
+```
+lensa
+```
+
+
 
 ## ai text to speech
 
-```
 https://dashboard.vapi.ai/
 
+
+
+## ai website generation
+
+need to look into this as I think it could be an amazing tool to learn in order to build amazing websites really quickly and also to build that connetion with back end data super quickly, saving me much time and energy and also to be able to offer this service to customers quickly and cheaply ... so will be well worth an investigation and proper research ...
+
+```
+10web
 ```
 
-## ai prompts
 
-```
 ## ai image prompts
 
+```
 gospel christians openly singing and worshipping the lord, playing the piano and lifting up hands
 
 people praying and worshipping the lord
@@ -563,6 +573,8 @@ kingdom warrior - mist heavenly sunshine beams divine bright soft focus holy
 gym pastor
 
 you are a book illustrator. please generate 10 images to accompany my book 'Prayers for the elderly'. The images can be of anything thoughtful, scenic, including images of nature, forests, trees, mountains, glowing light.
+
+a group of people worshipping jesus, their eyes closed and their hands raised in worship and adoration, with smiles on their faces, with an angelic halo surrounding the room and the atmosphere, with a glowing warmth from heaven above filling the room with heavenly perfume, musicians softly playing instruments such as a piano and guitars 
 ```
 
 

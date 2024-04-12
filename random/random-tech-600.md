@@ -4,10 +4,8 @@
 
 - [definitions](#definitions)
   - [contents](#contents)
-  - [ai](#ai)
   - [random](#random)
   - [streaming](#streaming)
-  - [ai website generation](#ai-website-generation)
   - [docker](#docker)
   - [ideas - youtube tutorials](#ideas---youtube-tutorials)
   - [app ideas](#app-ideas)
@@ -38,14 +36,6 @@
   - [learning](#learning)
 
 
-## ai
-
-```
-gpt-3.5 process text only
-gpt-4 images and text
-4-turbo add knowledge up to april 2023
-
-```
 
 ## random
 
@@ -82,14 +72,6 @@ l2vod live-to-vod is extended restart after finish
 
 
 
-
-## ai website generation
-
-need to look into this as I think it could be an amazing tool to learn in order to build amazing websites really quickly and also to build that connetion with back end data super quickly, saving me much time and energy and also to be able to offer this service to customers quickly and cheaply ... so will be well worth an investigation and proper research ...
-
-```
-10web
-```
 
 
 ## docker

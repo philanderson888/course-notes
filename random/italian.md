@@ -38,16 +38,14 @@
 
 ```
 il la l' lo    i le gli
-un uno una
 io tu lui lei noi voi loro
-il mio tuo suo nostro
-la mia tua sua nostra
-le     tue sue nostre     loro
-i  miei        nostri     loro
-il     tuoi suoi
+
+il mio   tuo  suo nostro
+la mia   tua  sua nostra
+le       tue  sue nostre    loro
+i  miei           nostri    loro
+il       tuoi suoi
 ```
-
-
 
 ## prepositions
 

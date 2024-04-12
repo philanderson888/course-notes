@@ -5,106 +5,42 @@
 - [learning](#learning)
   - [contents](#contents)
   - [places to check learning](#places-to-check-learning)
-  - [places to grow learning](#places-to-grow-learning)
+  - [learning goals and ideas](#learning-goals-and-ideas)
+  - [grow learning](#grow-learning)
+  - [learning](#learning-1)
+  - [tech](#tech)
+  - [Random Terms To Investigate](#random-terms-to-investigate)
+  - [bookmarks](#bookmarks)
+  - [Jewish Christians](#jewish-christians)
+  - [rules](#rules)
+    - [charity](#charity)
+  - [websites](#websites)
     - [Spirit Mars Opportunity is solar-powered and is still working!](#spirit-mars-opportunity-is-solar-powered-and-is-still-working)
-
-
-
-Table Of Contents
-
-Extract all from here ...
-Table Of Contents
-Links
-Topics
-Technical Upskilling Ideas
-Tech
-3rd Party Software
-Documentation
-NoCode
-LoCode
-Programming
-IDE Online
-CSS
-JS
-TS
-Bundling
-Apple
-Performance
-Cloud
-Cyber
-Random Terms
-Hosting
-Website Building
-AWS
-Cloud   
-
-
-
-conventionalcommits.org
-
-
-Just build one massive text file with all learning in it … everything in one big huge long file !!!!!
-
-Recycle it and don’t be afraid to delete and
-To recycle the
-Contents 
-
-
-For example we celebrate:
-🍷His death, burial and resurrection and His blood at  "Feast of Passover" ,
-🍷He paid for our sin "Feast of Unleavened bread"
-🍷He gave us His Spirit at "Feast of Pentacost."
-🍷We shout , blow trumpets and warn  people He is returning soon at "Feast of Trumpets"
-🍷We spend a day solely praying to realign our hearts to God/Yahweh ready for our personal judgement at "Feast of Atonement"
-🍷We spend 8 days  feasting, partying, dancing, and having joy celebrating Gods 7 day creation , the coming marriage of Christ and the Bride (us the church) and the coming 1000yr reign and new heaven and earth. 
-
-
-Rules 
-
-
-﻿ If anyone is asking for
-Money on social media send them a form and block them . Do not entertain them . 
-
-
-
-
-
-
-
-
-
 
 ## places to check learning
 
+```
 Evangelism https://docs.google.com/document/d/1l_Hh81_yfsgw27UYBKAHq2pe8bj-FcGfUw4fdWxPoP0
 Scripture https://docs.google.com/document/d/1vL4WYy4k_0H_rwzGMMFVaX_NVDHlzFXDujnFz7wX84U
 Ancestry https://docs.google.com/document/d/11DuuW2Pma8KJU_RNxmyFnlCGFj1dLpFxQX3_pqxwrm8
 2023 Productivity, Goals Dreams And Visions - Looking Forward - Google Docs
 2023 Life Plan And Review, Goals - Google Docs
 2023 Finances - Google Docs
-
-GitHub
-cyber - https://github.com/philanderson888/course-notes/tree/master/cyber
-random https://github.com/philanderson888/course-notes/blob/master/cyber/cyber-random-terms.md
-cloud https://github.com/philanderson888/course-notes/blob/master/cloud
-science https://github.com/philanderson888/personal/issues/27
-Github Personal Issues https://github.com/philanderson888/personal/issues
-Github Personal https://github.com/philanderson888/personal
-Scriptures https://github.com/philanderson888/personal/blob/master/christian/scriptures.md
-Programming
-https://github.com/philanderson888/course-notes/blob/master/programming/README.md
-
-github node repository
-github javascript repository
+github cyber - https://github.com/philanderson888/course-notes/tree/master/cyber
+github random https://github.com/philanderson888/course-notes/blob/master/cyber/cyber-random-terms.md
+github cloud https://github.com/philanderson888/course-notes/blob/master/cloud
+github science https://github.com/philanderson888/personal/issues/27
+github personal Issues https://github.com/philanderson888/personal/issues
+github personal https://github.com/philanderson888/personal
+github scriptures https://github.com/philanderson888/personal/blob/master/christian/scriptures.md
+github course notes
+github node
+github javascript
+notion
+```
 
 
-
-Notion
-Notion Knowledge Snippets 180 items of knowledge 
-
-Websites
-Home https://philanderson.uk
-
+## learning goals and ideas
 
 exciting goal 
 ... aws to build servers ... free!
@@ -118,8 +54,8 @@ exciting goal
 ... or can i build a robot to click on a web site for me? ... a specific tool ... or general ai?
 ... it would be nice if I could just have a button to click and watch a robot go through and launch and click through all of my work , for sure! ... so I can just kick back and make a video of all of my work , for sure ...
 
-
-## places to grow learning
+                                                                                                                                                                                                 
+## grow learning
 
 ```
 medium.com
@@ -128,46 +64,9 @@ building nocode websites
 building nocode databases
 ```
 
+## learning
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-Programming Terms
-Web Terms
-Astronomy
-Search For Life
-Venus
-Venus may have life!
-Planetary Exploration - Mars
-Mars Exploration Spirit and Opportunity in 2004
-Planetary Exploration - Venus
-Space Missions By Date
-Space Tools
-Politics
-Political Conflict
-Judea and Samaria
-Aircraft
-War
-Wars By Date
-War Events
-Military Equipment
-Tanks
-Ships
-Mars Rovers
-Chemistry
-Animals Which Have Survived A Long Time
-Bible
-Bible People
-Random
-Learning
-WWE
-Video
-History
-Wars By Date
-Animals
-Fish
-Classifications
-
-
-Links
+```
 Learning path roadmap.sh
 Resolver identifies IP of user on XBOX xResolver • Xbox Gamertag Resolver
 Fathom alternative to Google Analytics Fathom Analytics (usefathom.com)
@@ -273,22 +172,22 @@ For each folder over that given size list any files over a given size eg 2MB
 Have the ability to exclude certain file types from the search 
 Also have the ability to exclude carts in folders by name from the search over a given size
 
+```
 
 
+## tech
 
-
-Tech
+```
 3rd Party Software
 Scoop installs programs to local user path without raising admin credentials
 Neo4J is GraphQL upgrade to SQL query language
 AppRite 
 Runway ML fast video editing
+```
 
+## Random Terms To Investigate
 
-Random Terms To Investigate
-
-
-New Term List
+```
 Partykit hosting like Netlify
 Mojo is upgrade to python
 Javascript padstart 
@@ -320,6 +219,13 @@ Sveltekit builds full stack svelte apps
 Svelte by example https://sveltebyexample.com/hello-world/
 NPM publish 
 Http fake backend
+```
+
+
+
+
+
+
 
 
 
@@ -688,6 +594,58 @@ Business - Unicorn is private company worth more than $1Bn
 Graphics - Balsamic tool to create designs
 Graphics - PixlrExpress is a web-based image editor
 Markdown - FrontMatter is metadata about the Markdown file eg Name, link to MP3, timestamp
+
+
+
+
+
+
+
+
+
+
+## bookmarks
+
+https://www.conventionalcommits.org/en/v1.0.0/#summary
+
+## Jewish Christians
+
+For example we celebrate:
+
+His death, burial and resurrection and His blood at  "Feast of Passover" ,
+
+He paid for our sin "Feast of Unleavened bread"
+
+He gave us His Spirit at "Feast of Pentacost."
+
+We shout , blow trumpets and warn  people He is returning soon at "Feast of Trumpets"
+
+We spend a day solely praying to realign our hearts to God/Yahweh ready for our personal judgement at "Feast of Atonement"
+
+We spend 8 days  feasting, partying, dancing, and having joy celebrating Gods 7 day creation , the coming marriage of Christ and the Bride (us the church) and the coming 1000yr reign and new heaven and earth. 
+
+
+## rules 
+
+### charity 
+
+If anyone is asking for money on social media send them a form and block them . Do not entertain them . 
+
+
+## websites
+
+Home https://philanderson.uk
+
+
+
+
+
+
+
+
+
+
+
 
 
 

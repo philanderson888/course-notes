@@ -6,7 +6,6 @@
   - [contents](#contents)
   - [random](#random)
   - [artwork](#artwork)
-  - [AI artwork](#ai-artwork)
   - [design](#design)
   - [documentation](#documentation)
   - [image](#image)
@@ -29,9 +28,6 @@ randomuser.me generates random user
 
 Poser - people modelling software - https://www.posersoftware.com/
 
-## AI artwork
-
-Lensa App https://apps.apple.com/us/app/lensa-ai-photo-video-editor/id1436732536
 
 
 

@@ -1536,9 +1536,6 @@ Local vs Cloud storage of data
 
 Data Exfiltration
 
-Steganography hiding data in innocent packages
-
-
 
 
 

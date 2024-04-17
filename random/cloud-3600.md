@@ -334,17 +334,17 @@ Redis is used as an in-memory database and cache
 
  ## benefits of cloud
 
- - monthly subscriptions rather than huge initial outlays
- - speed of change 
- - agile app development with very little costs to prototype
- - fail fast
- - patch quickly
- - respond quickly
- - update quickly
+ - subscription
+ - agile app development
+   - innovate
+   - speed of change
+   - fail fast
+   - patch quickly
+   - respond quickly
+   - update quickly
  - agile customer service
- - scale out
+ - elasticity - scale out
  - scale up
- - elasticity to scale out quickly
  - innovate
  - self healing if node goes offline then spin up new instance
  - availability zones match geographical regions
@@ -554,7 +554,7 @@ SAAS Advantages For Users
 - Less need for on-premises servers and equipment etc
 - Easy to upgrade the application : user does nothing!
 - No local install
-- No large fees up front : pay monthly
+- Subscription
 - Risks of maintenance with vendor
 - Risks of security with vendor
 - Risks of patching with vendor

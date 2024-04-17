@@ -59,7 +59,7 @@ websites deployed are all listed here
 - [Web Random Terms](https://github.com/philanderson888/javascript/blob/main/notes/random-web-terms-and-glossary.md)
 - [Programming Random Terms](https://github.com/philanderson888/javascript/blob/main/notes/random-programming-terms.md)
 - [Cloud Random Terms](cloud/cloud-random-terms.md)
-- [Random terms and bookmarks](random/randomFactsAndTerms.md)
+- [Random facts](random/randomFactsAndTerms.md)
 
 ## glossaries
 

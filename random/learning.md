@@ -10,7 +10,6 @@
   - [learning](#learning-1)
   - [tech](#tech)
   - [Random Terms To Investigate](#random-terms-to-investigate)
-  - [bookmarks](#bookmarks)
   - [Jewish Christians](#jewish-christians)
   - [rules](#rules)
     - [charity](#charity)
@@ -23,7 +22,6 @@
 Evangelism https://docs.google.com/document/d/1l_Hh81_yfsgw27UYBKAHq2pe8bj-FcGfUw4fdWxPoP0
 Scripture https://docs.google.com/document/d/1vL4WYy4k_0H_rwzGMMFVaX_NVDHlzFXDujnFz7wX84U
 Ancestry https://docs.google.com/document/d/11DuuW2Pma8KJU_RNxmyFnlCGFj1dLpFxQX3_pqxwrm8
-2023 Productivity, Goals Dreams And Visions - Looking Forward - Google Docs
 2023 Life Plan And Review, Goals - Google Docs
 2023 Finances - Google Docs
 github cyber - https://github.com/philanderson888/course-notes/tree/master/cyber
@@ -601,12 +599,6 @@ Markdown - FrontMatter is metadata about the Markdown file eg Name, link to MP3,
 
 
 
-
-
-
-## bookmarks
-
-https://www.conventionalcommits.org/en/v1.0.0/#summary
 
 ## Jewish Christians
 

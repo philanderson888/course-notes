@@ -1211,7 +1211,6 @@ canvas globalcompositeoperation layers images on top of each other
 Canvas moveTo() Moves the path to the specified point in the canvas, without creating a line
 iframe is alternative to CSS regions
 ismap image is part of a server side image map
-table caption <table><caption>Monthly savings</caption></table>
 http.sys kernel driver for HTTP
 HttpApplicationState store key-value pairs
 HttpApplicationState stores key-value pairs
@@ -1629,12 +1628,6 @@ When you can refer back to a thought you had, you’re statistically more likely
 
 Take notes in class, while watching videos, while listening to podcasts, while talking to people, etc.
 
-Do daily planning
-
-Do weekly planning
-
-Do monthly planning
-
 Every Friday or Saturday, I plan my activities for the next week.
 
 Every evening, after work, I review my priorities for the next day and move things around as needed.
@@ -1656,8 +1649,6 @@ Journal your heart out.
 Sometimes there are too many decisions to take and that clouds our judgment on what we should act on, leaning us to more often than not work on urgent but not important tasks.
 
 Journaling is a great way to free your mind and be aware of all the decisions that are “required” from you.
-
-It also helps for your daily, weekly, and monthly planning.
 
 Do things for others.
 

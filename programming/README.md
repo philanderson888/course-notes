@@ -100,8 +100,6 @@ Python is now above Java as world's second most-loved programming language
 
 Python for Everybody - Full Course with Dr. Chuck (Charles Severance)
 
-
-
 ## PHP
 
 [php](php.md)

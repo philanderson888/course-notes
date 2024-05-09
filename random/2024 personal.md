@@ -48,8 +48,10 @@
 ## relationships
 
 ```
-count blinks of other person
-stare into pupils of other person
+count blinks
+count items of interest on the other person
+what colour are pupils
+are there any unusual features on the other person
 glue eyes
 epoxy eyes
 treat as best friend
@@ -89,9 +91,6 @@ Don't be scared to fail
 Step out in faith and ... in a sense ... try to fail!
 You only learn through trial and error, success and failure
 What do I need to say in order to be happy that I have said everything I need to, and can end this conversation peacefully
-Count blinks !
-Glue your eyes to the person you are talking to 
-Epoxy eyes on the listener
 Epoxy bounce to listener after every point
 Hello old friend … pretend once best buddies
 Horse sense pick up on signals while talking

@@ -32,6 +32,14 @@
   - [chips](#chips)
   - [shortcuts mac](#shortcuts-mac)
   - [military uk](#military-uk)
+  - [military](#military)
+    - [missiles](#missiles)
+    - [rocket launchers](#rocket-launchers)
+    - [types of warfare](#types-of-warfare)
+    - [tanks](#tanks)
+    - [aircraft](#aircraft)
+    - [ships](#ships)
+    - [battles wwii](#battles-wwii)
   - [housing](#housing)
   - [animals And Biology](#animals-and-biology)
   - [physics](#physics)
@@ -362,6 +370,66 @@ amb anti ballistic missile
 sam surface to air missile
 
 ew electronic warfare
+
+```
+
+## military
+
+### missiles
+
+```
+atacms 610mm solid fuel missile which travels 300km at mach 3, guided by intertial guidance and gps
+intertial guidance calculates internally how far and in which direction it has gone
+```
+
+### rocket launchers
+
+```
+mlrs multiple launch rocket system can fire atacms
+m270 mlrs can fire atacms 
+himars high mobility artillery rocket system can fire atacms missile
+```
+
+### types of warfare
+
+```
+war of attrition - wear down enemy
+blitzkreig 
+guerilla warfare
+peoples war - stretch enemy by drawing them into the countryside where natural population can attack them
+scorched earth burn or destroy anything useful
+
+```
+
+### tanks
+
+```
+tiger tank germans wwii much longer range than t34 russian tank
+panther tank germans wwii
+t34 soviet tank
+```
+
+### aircraft
+
+```
+stuuker german 
+```
+
+### ships
+
+```
+
+```
+
+
+
+### battles wwii
+
+```
+stalingrad germans push russia back
+kursk 2500 german tanks 900,000 german
+kursk 1,300,000 russians with 3000 tanks
+kursk is end of german offensive on the eastern front ... once exhausted, germans become vulnerable to soviet counter attack
 ```
 
 

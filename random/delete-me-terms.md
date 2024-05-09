@@ -7,6 +7,7 @@
   - [contents](#contents)
   - [December Week 2 Definitions - 700](#december-week-2-definitions---700)
   - [20 december 2023](#20-december-2023)
+  - [cyber random](#cyber-random)
 
 
 ## December Week 2 Definitions - 700
@@ -697,3 +698,512 @@ nl gives number of lines in a file
 wc gives number of words in a file
 sleep 5 causes bash script to pause for 5 seconds
 ```
+
+
+
+
+## cyber random 
+
+```
+Vhdx 
+vhfx 
+Vmescape 
+Vmsprrawl 
+Injection 
+IDs 
+Ips 
+NAC 
+sigcheck 
+Dial in 
+Sso 
+Saml
+MITM 
+TPM BITLOCKER CHIP 
+Enumerate detailed analyse of enemy 
+Metasploit 
+Open vas 
+Exploit module 
+SANS
+GIAC
+
+NSO ISRAEL 
+
+FIPS 
+
+FISMA 
+
+hosts vulns 
+
+Set burp as proxy 
+
+Physical Control 
+Logical control 
+
+Cobit 
+
+Scirt
+
+NX memory 
+
+DEP prevent exe running in data part 
+
+SIEM
+
+SCEP CERIFICATE ENROL 
+
+SEH structured event handler 
+
+ADS embed data in data 
+
+Echo -n | shasum 
+
+Jrat 
+
+Hashcat 
+
+
+
+1 Anomaly
+2 hash based messsage authentication
+3 hsm hardware security module
+4 MTD MAX TOLERABLE DOWNTIME
+5 PDS PROTECTED DISTRIBUTION SYSTEM = CABLING
+6 PHARMING DNS
+7 PII
+8 ADS ALTERNATE DATA STREAM = DATA WITHIN DATA
+9
+AIRCRACK WIFI HACK
+ALIENVALUT SIEM
+10
+BRO LINUX IDS
+11
+CELLEBRITE HACK MOBILE PHONE
+12
+DTP DYNAMIC TRUNKING PROTOCOL
+13
+EMET ENHANCED MITIGATION EXPERIENCE TOOLKIT
+14
+ENCASE FORENSIC ON HARD DRIVE
+15
+IOC INDICATOR OF COMPROMISE
+16
+NESSUS VULNERABILITY SCAN
+17
+NET GROUPS 
+18
+OSSIM OPEN SOURCE SECURITY INFO MGT
+19
+OWASP WEB APPLICATIONS
+20
+PROXY AUTO CONFIG
+21
+Process EXPLORER
+22
+SANS SYSADMIN AUDIT NETWORKING SECURITY
+23
+SCADA
+24
+OODA OBSERVE ORIENT DECIDE ACT
+25
+BASTION HOST
+26
+CFAA COMPUTER FRAUD AND ABUSE ACT
+27
+ALPHA BAY
+28
+PIRATE BAY
+29
+NETFLOW FROM CISCO - IDS
+30
+BEACONING = PHONE HOME
+31
+NIKTO WEB SERVER VULNERABILITY
+32
+NIST 
+33
+BANNER GRABBING FROM HEADERS
+34
+LUA
+35
+FOOTPRINT
+36
+FINGERPRINT - UNIQUELY IDENTIFY SYSTEM
+37
+PIVOT POINT OF ENTRY
+38
+HTTRACK DOWNLOAD SITE
+39
+DROPLET MINI VM
+40
+BULLETPROOF ISP NO QUESTIONS ASKED
+41
+WIFI PINEAPPLE - ATTACK WIFI
+42
+BASH BUNNY 
+43
+LAN TURTLE
+44
+SECURITYONION IDS
+45
+GPG
+46
+WGET
+47
+SGUIL 
+
+
+110
+SUDO
+111
+SUDO APT
+112
+SUDO APT AUTOREMOVE
+113
+IFCONFIG
+114
+SUDO APT INSTALL NET-TOOLS
+115
+SUDO YUM INSTALL MONGODB-ORG
+116
+PS —NO-HEADERS
+117
+SYSTEMCTL START MONGOD
+118
+SYSTEMCTL STATUS MONGOD
+119
+SYSTEMCTL ENABLE MONGOD
+120
+SUDO PASSWD …..
+121
+CAT /ETC/OS-RELEASE
+122
+MTR MY TRACEROUTE
+123
+SS = NETSTAT
+124
+QTERMINAL STARTS NEW SHELL
+125
+/SBIN/REBOOT
+126
+SYSTEMCTL POWEROFF
+127
+SYSTEMCTL REBOOT
+128
+CD /VOLUMES
+129
+CD VOLUMES
+130
+LSOF LIST OPEN FILES
+131
+TOUCH
+132
+NANO
+133
+FILE SHOWS ASCII TEXT
+134
+MV
+135
+. HIDES FILE
+136
+MAN MANUAL
+137
+TAR ARCHIVE
+138
+R W X
+
+
+
+
+
+139
+LS V* LISTS ALL FILES STARTING WITH V
+140
+LS V? LISTS ALL TWO LETTER PHRASES STARTING WITH V
+141
+PERMISSIONS OWNER GROUP OTHERS
+142
+CHMOD
+143
+GROUPS UBUNTU
+144
+SUDO CHOWN -R
+145
+ADDUSER
+146
+HEAD
+147
+TAIL
+148
+CAT
+149
+NL
+150
+WC WORD COUNT
+151
+CUT
+152
+SED
+153 
+UNIQ
+154
+TAC
+155
+STDIN
+156
+STDOUT
+157
+STDERR
+158
+APPEND
+159
+TOP
+160
+PS
+
+
+
+161
+
+
+Ps aux
+
+162
+Kill
+163
+Shasum
+164
+DISKUTIL
+165
+DISKUTIL ERASEDISK
+166
+LSPCI
+167
+SCP
+168
+FDISK
+169
+UFW
+170
+SOCKET
+171
+SOCKET -SL 12345 LISTENS
+172
+SOCKET -V 1.2.3.4 12345 CONNECTS
+173
+PPA PERSONAL PACKAGE ARCHIVE = APP STORE
+174
+
+
+AZ VM LIST
+175
+SKU
+176
+NESTED VIRTUALIZATION
+177
+AZURE CLI
+178
+AZURE POWERSHELL
+179
+AZURE CLOUD SHELL
+180
+INSTALL-MODULE
+
+thub
+Notion
+Nocode
+Locode
+Php
+.net
+Js
+Css
+Resolver
+Analytics
+Mux
+Kotlin
+Flutter
+Cloudflare
+Fastify
+Jwt
+Temporal dates
+Graphql
+Edgedb
+Netlify
+Tailwind
+Zod
+Wasm
+Copilot
+Ai
+Play.ht
+Scoop
+Neo4j
+Appropriate
+Runway ml
+Partykit
+Mojo
+Padstart
+Signals
+Http3
+Quic
+Y-websocket
+Yjs 
+Asciidoc
+Photopea
+Verto.sh
+P5.js
+Billboard.js
+Bun
+Svelte
+Npm
+Lightningjs
+Slickjs carousel
+Alpine js
+Nuxt js
+Tensor flow
+Prismic
+Console.time
+Ngrok
+Pnpm sim links
+Bun
+Nodemon
+Dotenv
+Bundling
+Esbuild
+Webpack
+Parcel
+Jest
+Cdn
+Caniuse
+Cronjob.io
+Tinypng
+Photopea
+Ionic.io
+Remove.bg
+Pagespeed.web.dev
+Gtmetrix.com
+Creately.com
+Make.com
+Bubble.io
+Jetboost,io
+Aatt.io
+Airtree
+Relume
+Strapi
+Zapier
+Wix
+Snipcart
+Stripe
+Firestore
+Mongo
+Baserow.io
+Speechify.com
+Elastic beanstalk
+Code pipeline
+Code deploy
+Serverless
+Lambda
+Kubernetes
+Terraform
+Chef
+Puppet
+Ansible
+Packer
+Vagrant
+Pipeline
+Immutable
+Digital ocean
+Smart os
+Net bsd
+Hls streaming by apple
+Koajs
+Babel
+Bom
+Bms
+Code splitting
+Code sandbox
+Codinggame.com
+Devhints.io
+Gatsby
+Gulp
+Zombie
+Jamstack
+Meteor
+Parcel2
+Scrimba
+Spa
+Trello
+Stackbliz
+Static site generator
+Gulp
+Karma
+Mocha
+Chai
+Serverless
+Nextjs
+Osirix-rex
+Asteroid bennu
+Sulphur produced by volcanoes or life
+Hydrogen sulphide and sulphur dioxide naturally combine so must be being generated now
+Curiosity mars
+Spirit mars
+Opportunity mars
+Venera venus
+Pioneer to venus
+Gargarin 57
+Shepherd 61
+65 gemini ed white space walk
+69 apollo 12 to moon
+Apollo 13 to moon
+Skylab station
+Soyuz 
+Salyut space station
+Challenger 84
+Iss 98
+Sputnik 57
+Lunik 5 moon far side
+Voyager deep space probe 70s
+Voyager II
+Voyager to mars
+Viking to mars
+Viking II mars
+DART to asteroid crash
+Rover mars
+Opportunity mars still going
+Curiosity mars
+Surveyor to moon
+Surveyor to moon with sample back to earth
+Dawn probe to outer solar system
+Ceres asteroid
+772 billion uk budget
+20 billion nhs budget in 1956
+150 billion nhs budget now
+Palestine in israel
+Airbus
+Spall
+Hesh bomb
+Crimea 1890
+American independence 
+Crusades
+Manilla massacre
+Mq9 reaper drone
+Hellfire laser
+Centurion tank 1945
+T62 soviet tank
+Shot israel tank
+Ronald reagan aircraft carrier
+Hms ocean UK 1000 men
+Copper cu
+Tin sn
+Bronze mainly copper
+Mark
+Paul
+Google ar
+Higgs boson god particle
+Quantum
+War israel syria 73
+Esp
+Vhd
+Vm escape
+Vm sprawl
+Ids
+Ips
+

@@ -5,6 +5,7 @@
 - [german](#german)
   - [contents](#contents)
   - [categories](#categories)
+  - [simple](#simple)
   - [Straightforward and common cognates](#straightforward-and-common-cognates)
 
 ## categories
@@ -22,15 +23,22 @@ conjunctions, prepositions, both simple and compound, reflexives, common adverbs
 adverbial phrases, etc.) 
 ```
 
+## simple
+
+```
+ab          from
+ab und zu   now and again
+Abend       evening
+als         when
+wenn        when
+bald        soon
+bis bald    see you soon
+```
+
 ## Straightforward and common cognates 
 
 
 ```
-ab from (e.g. time) 
-ab und zu now and again 
-Abend (abends) (in the) evening 
-als/ wenn when (conj) 
-bald (bis bald) soon (see you…soon!) 
 bevor before 
 damals then (= at that time) 
 dann then (= at that time) 

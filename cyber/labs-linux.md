@@ -3,6 +3,8 @@
 - [Linux Labs](#linux-labs)
   - [Who Am I](#who-am-i)
   - [What groups am I a member of?](#what-groups-am-i-a-member-of)
+  - [Install](#install)
+    - [install apps](#install-apps)
     - [install ifconfig](#install-ifconfig)
     - [install a service like MongoDB on AWS Linux](#install-a-service-like-mongodb-on-aws-linux)
   - [Labs](#labs)
@@ -477,4 +479,4 @@ Ubuntu has `PPA`
 
 Debian does not have `PPA`
 
-`PPA` IS `personal package archives` which easily make software available for Ubuntu useres
+`PPA` IS `personal package archives` which easily make software available for Ubuntu users

@@ -26,6 +26,7 @@ February 2023
     - [git reset](#git-reset)
     - [git status](#git-status)
     - [git commit](#git-commit)
+    - [.gitignore](#gitignore)
   - [Working With GitHub Online](#working-with-github-online)
     - [git clone](#git-clone)
     - [git remote](#git-remote)
@@ -55,6 +56,10 @@ February 2023
     - [Locating your SSH keys](#locating-your-ssh-keys)
     - [Keygen walkthrough](#keygen-walkthrough)
   - [Github With SSH](#github-with-ssh)
+  - [Extra](#extra)
+    - [commits](#commits)
+    - [branches](#branches)
+    - [stashing](#stashing)
 
 
 ## Introduction
@@ -166,6 +171,16 @@ git status
 git commit -m "Sample commit"
 
 ```
+
+### .gitignore
+
+to add a file to .gitignore which somehow is already being tracked, do the following
+
+```bash
+git update-index --skip-worktree file
+```
+
+
 
 ## Working With GitHub Online
 

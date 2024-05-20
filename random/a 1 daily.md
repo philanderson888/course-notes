@@ -1,5 +1,11 @@
 # daily
 
+## most recent
+
+hannah to work on this spreadsheet first
+
+https://docs.google.com/spreadsheets/d/1JBQkV95ga83ccbg5ZHRKOooNYNietvdTCIpEzBKZIXw/edit#gid=2118095231
+
 ## up
 
 ### contract
@@ -9,6 +15,10 @@ up
 up once
 
 up first alarm
+
+10 to zoe if not only in seat from 400 exactly to 700 exactly ... if i am in any other seat pay zoe ... slept in 1 10 2 20 3 30 in 14 days!!!!
+
+bowl of fruit or veg on desk in morning ... raw
 
 0.20 streak 1 2 3 .... 5.00 streak freeze 1 2 3 to mum james john ... can do it for free if i write 'i am going back to bed because ...'
 

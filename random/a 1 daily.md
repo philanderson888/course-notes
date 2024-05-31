@@ -1,10 +1,203 @@
 # daily
 
+- [daily](#daily)
+  - [most recent](#most-recent)
+  - [delayed messages](#delayed-messages)
+  - [up](#up)
+    - [contract](#contract)
+  - [daily morning routine](#daily-morning-routine)
+  - [daily work routine](#daily-work-routine)
+  - [contract reminders](#contract-reminders)
+  - [can read](#can-read)
+  - [daily review](#daily-review)
+  - [frogs done](#frogs-done)
+  - [frogs](#frogs)
+    - [5 minutes](#5-minutes)
+    - [10 minutes](#10-minutes)
+    - [15 minutes](#15-minutes)
+    - [20 minutes](#20-minutes)
+    - [30 minutes](#30-minutes)
+    - [1 hour](#1-hour)
+    - [3 hours](#3-hours)
+    - [5 hours](#5-hours)
+  - [tasks](#tasks)
+  - [5 minutes](#5-minutes-1)
+  - [30 minutes](#30-minutes-1)
+  - [projects](#projects)
+  - [charity](#charity)
+  - [lms](#lms)
+  - [charity links](#charity-links)
+  - [kids](#kids)
+  - [rubbish](#rubbish)
+  - [weekly](#weekly)
+  - [freshest learning](#freshest-learning)
+  - [monthly](#monthly)
+  - [monthly reflection](#monthly-reflection)
+    - [monthly up](#monthly-up)
+    - [monthly dreams](#monthly-dreams)
+  - [reminders monthly](#reminders-monthly)
+  - [reminders monthly - current skills summary and learning path](#reminders-monthly---current-skills-summary-and-learning-path)
+  - [reminders quarterly](#reminders-quarterly)
+  - [reminders quarterly - relationships](#reminders-quarterly---relationships)
+  - [reminders company quarterly](#reminders-company-quarterly)
+  - [goals 2024](#goals-2024)
+  - [property](#property)
+  - [things to think and pray about - ideas to consider](#things-to-think-and-pray-about---ideas-to-consider)
+  - [dreams and visualisations](#dreams-and-visualisations)
+  - [things to think about and pray about](#things-to-think-about-and-pray-about)
+  - [encouragement](#encouragement)
+  - [up](#up-1)
+  - [excellence](#excellence)
+  - [excllent people](#excllent-people)
+  - [Life Options Goals Dreams And Visions List](#life-options-goals-dreams-and-visions-list)
+  - [Success](#success)
+  - [List successes](#list-successes)
+  - [encouragement](#encouragement-1)
+  - [Dreams](#dreams)
+  - [Visions](#visions)
+- [2024 reviews](#2024-reviews)
+  - [202406 6 monthly review](#202406-6-monthly-review)
+  - [202401 quarterly review](#202401-quarterly-review)
+  - [202404 quarterly review](#202404-quarterly-review)
+  - [202407 quarterly review](#202407-quarterly-review)
+  - [202410 quarterly review](#202410-quarterly-review)
+  - [202404 monthly review](#202404-monthly-review)
+  - [202405 monthly review](#202405-monthly-review)
+  - [202406 monthly review](#202406-monthly-review)
+  - [202407 monthly review](#202407-monthly-review)
+  - [202408 monthly review](#202408-monthly-review)
+  - [202409 monthly review](#202409-monthly-review)
+  - [202410 monthly review](#202410-monthly-review)
+  - [202411 monthly review](#202411-monthly-review)
+  - [202412 monthly review](#202412-monthly-review)
+  - [quotes](#quotes)
+  - [holy spirit responding to foul language](#holy-spirit-responding-to-foul-language)
+  - [kids](#kids-1)
+  - [evangelism](#evangelism)
+  - [subscriptions](#subscriptions)
+  - [subscriptions review quarterly](#subscriptions-review-quarterly)
+  - [domains](#domains)
+  - [websites](#websites)
+  - [demo sites](#demo-sites)
+    - [node demo](#node-demo)
+    - [serverless Express on Netlify](#serverless-express-on-netlify)
+    - [gatsby ecommerce](#gatsby-ecommerce)
+    - [vite and svelte demo](#vite-and-svelte-demo)
+    - [other sites](#other-sites)
+  - [productivity](#productivity)
+    - [productivity in learning](#productivity-in-learning)
+  - [mentorship](#mentorship)
+- [jokes](#jokes)
+  - [general](#general)
+  - [jokes technical](#jokes-technical)
+  - [Latest](#latest)
+  - [programmer](#programmer)
+  - [Kids](#kids-2)
+  - [Latest](#latest-1)
+  - [tech](#tech)
+  - [programmer](#programmer-1)
+  - [database](#database)
+  - [networking](#networking)
+  - [maths](#maths)
+  - [kids](#kids-3)
+  - [General](#general-1)
+  - [Space](#space)
+  - [tshirts](#tshirts)
+  - [ideas](#ideas)
+  - [ideas to generate money](#ideas-to-generate-money)
+  - [app ideas](#app-ideas)
+  - [slogans](#slogans)
+  - [motivation](#motivation)
+  - [defence - aggressive women](#defence---aggressive-women)
+  - [evangalism one-line quotes](#evangalism-one-line-quotes)
+  - [evangelism invitation to pray](#evangelism-invitation-to-pray)
+  - [evangelism long paragraphs](#evangelism-long-paragraphs)
+  - [debates](#debates)
+  - [blasphemy](#blasphemy)
+  - [social media channels](#social-media-channels)
+  - [ai image prompts](#ai-image-prompts)
+  - [arguments](#arguments)
+- [story of my life](#story-of-my-life)
+  - [childhood](#childhood)
+  - [teenage](#teenage)
+  - [christianity](#christianity)
+  - [london](#london)
+- [Witnessing](#witnessing)
+- [Prayer](#prayer)
+- [Life In Numbers](#life-in-numbers)
+- [Older](#older)
+- [Shopping](#shopping)
+  - [Evangelism](#evangelism-1)
+- [german](#german)
+  - [contents](#contents)
+  - [categories](#categories)
+  - [simple](#simple)
+  - [Straightforward and common cognates](#straightforward-and-common-cognates)
+
+
+
+
 ## most recent
 
-hannah to work on this spreadsheet first
 
-https://docs.google.com/spreadsheets/d/1JBQkV95ga83ccbg5ZHRKOooNYNietvdTCIpEzBKZIXw/edit#gid=2118095231
+
+
+## delayed messages
+
+
+
+hello chat gpt are you able to summarise the payments from these credit card statements in a nice neat table with 3 columns - date entered (second date on the transactions), amount and description
+
+date.   amount.     description
+
+ignore any other data on the PDFs - only extract the payment data.  There are 6 pages with 6 small sets of payment data, one on each page.
+
+you don't have to worry about sorting the columns in any order; i will handle that.
+
+thanks
+
+
+
+
+
+
+<<shakaib>>
+
+hello brother shakaib how are you?  how is your wife and baby?  i wanted to catch up some time ... maybe with a video call to talk about you and your ministry ... thanks
+
+
+
+
+<<arooj>>
+
+hello precious sister i was telling you that you are the road block and preventing the work from moving forwards because computer work is not your passion - evangelism, love and souls are your passion, not computers!  so i was telling you that i was ready to start about 2 weeks ago!  
+
+
+
+can you ask hacker girl to have a look at these courses - what does she think?  https://coderkids.teachable.com/  there are 4 of them
+
+
+
+
+
+<< arooj >>
+
+also precious sister I have this holy spirit challenge for you ... when we began running the school part of the thinking was that in time we were going to try and have other people contribute to the running and the welfare of the school.  I think I have certainly done my part in helping truly to make sure all funds flow into the school with salaries for 3 teachers and all water electricity and rent has been paid up to date.  As you can see from the group chat the requests for money and help are overwhelming and I have been praying about growing the group.  So ... I would like to have your energy, thinking and prayers involved in this ... as the recipients of my goodness ... and i want to put you to work ... in prayer and practical help ... towards me ... for once ...
+
+i am going to give you 2 months to find one donor who will give funds towards the school on this link ...
+
+if you do not then i will pause on the donations until you do indeed find at least one genuine donor ie not from someone you are just paying to give to the link, and not from just someone local in the church etc ... but a genuine donor of funds ... someone not connected with you or your church in any way.
+
+my goal is prayerfully to engage wealthy people to give to this very needy cause ... but i am not really a fund raiser ... and i don't really have the skill set or the time or the energy to think about these things ... so i am going to engage your services in such a matter.
+
+blessings
+
+
+
+
+
+
+
 
 ## up
 
@@ -16,117 +209,77 @@ up once
 
 up first alarm
 
-10 to zoe if not only in seat from 400 exactly to 700 exactly ... if i am in any other seat pay zoe ... slept in 1 10 2 20 3 30 in 14 days!!!!
+getting up .. 020 up 4 streak 1 2 3 ... fibonnacci up 4 fail cumulative over last 14 days
 
-bowl of fruit or veg on desk in morning ... raw
+hard seat ... 020 hard seat 1 2 3 ... fibonacci hard seat fail from 4am to 7pm or gym time ... cumulative over last 14 days ... 4am to 7pm pay 10 if not stand up or on high chair that’s it
 
-0.20 streak 1 2 3 .... 5.00 streak freeze 1 2 3 to mum james john ... can do it for free if i write 'i am going back to bed because ...'
+?? getting up / hard seat - can avoid fine if I write in my sheet ... i am going back to bed because / i am sitting on soft seat because ...
 
-stay up ... 5 bed to zoe ... or can do it for free if i write 'i am going back to bed because ...'
+no legs up ... up till gym time
+
+stand up if super tired ... up till gym time
+
+i am going back to bed because ... or 5 up twins or 5 snooze touch bed before time ... zoe ... or 1 sofa zoe
+
+bowl of fruit or veg on desk in morning
 
 towels
 
-0.20 - goal streak 1 2 3 - 2 hour goal 345 to 545 morning - set goal, do goal
-
-2.00 goal fail streak 1 2 3 - if fail to create or do goal
+goal streak 0.20 if set/review/pass the 2 hour goal 345 to 545 ... goal fail streak 2.00 
 
 
-1 chair ... only approved chair is the standalone one ... no other !!
+## daily morning routine
+
+log in to computer ... work one during week, personal at weekend
+
+club 4 pray
+
+bible
+
+repentance
+
+scribble on sheets straight to bin
+
+twins up and pray 545
+
+gym 4000
+
+20 sec piano
+
+pray eyes closed 2 mins
+
+45 mins pray in tongues
+
+post to social
+
+2 minutes on each frog
 
 
-first opportunity of the day to love god is when i get up first
+## daily work routine
 
-second opportunity to love god is when i am tired and just stay up
+progress
 
-speed 1 ... 2 ... 3/3 this is max speed i can reach
+global
 
-if fail once then temporarily go to speed 0 just for that day
+timesheet
 
-if fail more than once then totally reset to speed 0
+youtube on
 
-go back to bed later - as if satnav not working 
+pray all day using youtube praying in tongues video in the background
 
-stay up 7 days - join motorway rather than 30mph roads
+1200 go offline properly for 2 hours and get admin done
 
-## daily
+rewrite all goals
 
-    log in to computer ... work one during week, personal at weekend
-
-    club 4 pray
-
-    bible
-
-    repentance
-
-    scribble on sheets straight to bin
-
-    i am going back to bed because ... or 5 up twins or 5 snooze touch bed before time ... zoe ... or 1 sofa zoe
-
-    sleep on hard chair ... up till gym time
-
-    no legs up ... up till gym time
-
-    stand up if super tired ... up till gym time
-
-    tv in hard chair ... up till gym time
-
-    twins up and pray 545
-
-    gym 4000
-
-    20 sec piano
-
-    pray eyes closed 2 mins
-
-    club 4-5
-
-        45 mins pray in tongues
-
-    post to social
-
-    fuzzy hours
-
-    1 language word
-
-    1 computing word
-
-    2 minutes on each frog
-
-
-
-
-work
-
-    progress
-    global
-    timesheet
-
-
-during day
-
-    youtube on - languages, science, watch later, prayer
-
-    pray all day
-
-    1200 go offline properly for 2 hours and get admin done
-
-    rewrite all goals
-
-    rewrite all frogs
+rewrite all frogs
 
 20 second tasks
 
-    play the praying in tongues video once i finish my 4 to 5 prayer time
+piano 20 seconds
 
-    piano 20 seconds
+open my accounts spreadsheet
 
-    one language word
-
-    one computing word
-
-    open my accounts spreadsheet
-
-    delete one sms text message
+delete one sms text message
 
     delete one whatsapp message
 
@@ -235,87 +388,75 @@ accounts
   https://docs.google.com/spreadsheets/d/1JBQkV95ga83ccbg5ZHRKOooNYNietvdTCIpEzBKZIXw/edit#gid=300905192
 
 
-## frogs
+## daily review
+
+what did I do that brought me closer to my goals 
+
+## frogs done
 
 done
 
-280 - arooj - pay charity school salaries and utilities 280
 
-nathan - create tshirt designs - ... sell tshirt
-
-300 - ask abdul to do my accounts this year also 5 minutes will cost £300
-
-
-
+## frogs
 
 
 list the biggest baddest frogs first ... then by time 
 
-5 minutes
+### 5 minutes
 
 100 james ncs
 
-ciculation - call doctor about circulation
+call doctor about cirulation
 
-lump - call doctor about fatty lump
+call doctor about fatty lump
 
-jab - call doctor and get advice about hannah immunisation 5 minutes
+call doctor about hannah immunisation
 
-
-
-email davids tent about me serving and mum / kids with us ...
-
-10 minutes
-
-200 - john - new day 200 john 
-
-200 - hannah - new day 200 hannah
-
-15 minutes    
-
-90 team builder ticket for davids tent 
-
-  https://davidstent.regfox.com/ukdt24-team-builder-application
-
-£400 
-
-  davids tent - park and pitch 8m x 8m
-
-280 - arooj - pay charity printer - carpet money
-
-30 tub philippa
-
-20 minutes
-
-100 john ncs
+300 send accounts spreadsheet to abdul and get quote for the accounts
 
 abdul - send him the accounts statements for the year and get him to give me a price
 
-20 minutes
+### 10 minutes
+
+
+### 15 minutes    
+
+apply for davids tent to serve and sign family up - do it!  or places for helping will go ... team builder ... 90 ... 400 ... park and pitch 8m x 8m for family ... or do they come in the bit for leaders?
+
+  https://davidstent.regfox.com/ukdt24-team-builder-application
+
+280 - arooj - pay charity printer
+
+30 tub philippa
+
+### 20 minutes
+
+100 john ncs
+
+call hmrc inland revenue and try to work out why the software has rejected the submissions
 
 200 sailing weekend in september 5 places left https://www.mst.org.uk/chase-family-church
 
-30 minutes
+
+### 30 minutes
 
 serve - 400 davids tent - camping ... offer to help ... 30 minutes plus money ... have to pay for zoe and all the kids? a lot of money ... 
 
-3 - call 3 and get zoe account working ... re-register her ... 30 minutes (weekend) ... repeat for john ...
+call three and get multiple accounts working ... zoe and twins ... have to be with phones to get text messages or get them online with me ...
 
 director - make philip a director of my company
 
 mortgage - borrow funds against my company - create a plan for a mortgage and put philip as director of my company ... borrow funds ... on existing company ... buy property ... speak to abdul ... get a plan in prayer about it ...
 
-1 hour
+### 1 hour
 
 pitch for contracts for work building apps !!!
 
-3 hours
+### 3 hours
 
 send renamed app to google play ... street patrol ...
 
-
-
-5 hours
+### 5 hours
 
 hire - employ someone from reed at 25 per hour so 75 for 3 hours work 
 
@@ -371,11 +512,224 @@ fix scuff in car ... possibly youtube chemical guys ...
 
 ## charity
 
+ideas on improving the charity
+
+1) work out the number of children under the age of 14 who are served by the ministry
+2) every fortnight give a certain amount of money per child ... can use £40 a month as a guide which is £10 a week or £20 a fortnight ... but can also work out how much per child and stick with that eg
+   1) shaloom 10 children ... 
+3) should I give the money for free ...
+4) or should I get them to work for it ...
+5) or a mix ie basic salarly plus performance bonue ... 
+6) also how often should I give ...
+   1) weekly is a lot of stress for everyone
+   2) fortnightly would be better i think ... money lasts 14 days 
+7) work they have to do for me is ... every 14 days ... post a fresh public link from their social media with request for funds and linking to my social media go fund me page
+8) also they have to do basic computing course ... learn how to do basic computing ... javascript ... every child over the age of 8 has to do this ... 
+9) i need a person to help me manage
+   1)  requests for money
+   2)  approvals for money
+   3)  how much money to give
+   4)  how often to give
+10) i also need a computer teacher to help me manage
+    1)  how many children of the age of 8 or over ie school year 3? do they have this ?
+    2)  for each child they must have a learning path in javascript
+    3)  each child must submit some work to prove they are coding in javascript that week ... on a phone ... and get it working ...
+    4)  ideally the learning path would be verifiable eg the one to pass the tests ... that is ideal ... but does that demand a computer and an ide ?  would be better initially just a phone ... to get them started?
+    5)  the learning path should have a verifiable memory and login which shows the path done and the work done so a screen shot can show the person and their progress ... 
+    6)  so ... for every person over the age of 8 ... they will have to earn their money ... by doing the computing work ... 
+11) so ... under 8 ie 7 and under ... money is for free
+12) and ... 8 and over ... they have to earn the money by doing the computing exercises ... 
+13) we will need a learning path ... and an application which is preferably free and which has a memory of what modules have been completed by what date and in what order ...
+14) also reading ... we will need some sort of subscription based learning to reading books ... which can be done on a mobile phone ... 
+15) i think i will need some sort of a moodle based education system to track the learning of each pupil and to verify the learning has taken place ... and to award payment based on progress ... can pay a certain amount of money per lesson completed ...
+16) ok so a progress based reward system where they get paid per lesson done ... 
+17) i will need a child to manage this ... 
+18) i will need some sort of a database system to manage this as well ... will google spreadsheet do for now ... yes ... perhaps ... or i can build my own app for this? not sure ... maybe not a good idea ...
+
+
+so ... lets take this to another level
+
+i need
+
+1. to pay someone to come into my house and do my accounts regularly so i have vision on what is happening 
+2. to hire a young person who is experienced in google classroom to help set up and manage the whole process
+3. to create a google classroom account
+4. to create a learning plan
+5. to hire a 12 year old to administer the system - this is their job
+6. to work with Pastor Victor and Zeeshan to get their buy-in on the program
+7. to create a go fund me to attract sponsorship for the 'Learning For Life' education program
+8. to create a website to display the vision for education
+9. to attract sponsors who can help pay for a child to be on this program
+10. to enrol children on to the program
+11. every child should have a laptop - a chrome book for example or a windows computer ... perhaps chrome book is better as we dont want children just to be playing games, we really want them learning ...
+12. on JesusIsLord.uk website we can create a section called 'Learning For Life' to outline this program and this vision ... how to market it ... and how to sell it ... how to attract sponsors ... 
+
+possibly stop giving money and check - are there any children over the age of 7 ... they can earn money by doing the learning ... or i guess an adult can do this as well ... it need not be a child ... we can feel as we go ... 
+
+we can give payment for 4 weeks ... in that time the 2 children must begin the program and do 8 modules of their choice ... english maths computing and science ... exciting !!! 
+
+program should be run by church ... pastors ... maybe ... payment to the church pastor who will distribute the funds to the child, not sure ??? to the carer of the child ... not sure ... could be an administrative nightmare for the church ... church to spend the money on food, water and other provisions ... with proper receipt ... and funds accounted for ... proper documented accounts ??? payment of equivalent of 1 pound per module completed ... paid fortnightly ... sounds good ... 
+
+pay someone to engage with the children and to create a learning path and to set goals for the next month at a time ... freelancer ... 
+
+pay them on a module completed basis ... they get paid not per month but per module ... -
+
+
+
+
+
+
 buy one item of clothing per charity donation
 
 match charity donation financially with spending on myself particularly clothing for now
 
+If anyone is asking for money on social media send them a form and block them . Do not entertain them . 
+
+would it be possible to employ any of these ...
+
+talk to these people and get advice https://actionplanning.co.uk/about-us
+
 take a cold line - no public url - no donation
+
+to manage charity people have this in mind 1) they are not your friends once they transition to asking for help - they are no longer friends but beneficiaries ... so should not be allowed any contact to your social media at all, just purely blocked on both messages and on the platform ... 2) they can have my whatsapp number and will be blocked by default ... 3) they can request funds via the google link ... but there is no guarantee of success and there is no guarantee of amount or timescale ... 
+
+## lms
+
+proprofs training maker https://www.proprofstraining.com/pricing/
+
+
+
+## charity links
+
+scratch coding - for free https://www.create-learn.us/blog/best-computer-science-classes-for-kids/
+
+free classes eg python, web, scratch - book online, mobile apps ... https://www.create-learn.us/blog/best-computer-science-classes-for-kids/ and https://www.create-learn.us/blog/learning-programs-for-kids/
+
+
+
+coder kids   https://www.coderkids.com/blog/top-10-free-coding-programs-for-kids
+
+coder kids coding journey https://www.coderkids.com/yourcodingjourney 
+
+coder kids free courses https://coderkids.teachable.com/
+
+
+
+might be best to just stop here for now
+
+
+this one I can give to hacker girl ... or any young person and they just click through https://coderkids.teachable.com/
+
+perfect 
+
+
+this is third tier
+
+hacker girl can watch this video 
+
+https://www.youtube.com/watch?v=lsCObbRG370&t=93s
+
+
+
+best free coding programs for kids  
+
+https://www.coderkids.com/blog/top-10-free-coding-programs-for-kids
+
+maybe ask hacker girl to try all of these and see which ones she likes the most ? or give her 2 at a time? not sure ... maybe try myself ...
+
+
+
+
+
+not sure about this one 
+
+codakid.com  https://codakid.com/11-best-online-education-programs-for-kids/
+
+
+
+
+
+online computer science - bright champs - https://brightchamps.com/blog/online-computer-science-courses-with-certification/
+
+free code camp
+
+codemika
+
+code ninja
+
+school of programmers
+
+tynker
+
+udemy
+
+geek express
+
+easy pro programming and robotics
+
+code wizards hq  free coding for kids  https://www.codewizardshq.com/coding-for-kids-free/
+
+46 free resources https://www.codewizardshq.com/coding-for-kids-free/
+
+CodeKarts
+CodeSpark Academy
+Hopscotch
+Scratch Jr.
+Move the Turtle
+Swift Playgrounds
+Mimo
+Codea
+Coding Safari
+Algorithm City
+LEGO Boost
+Daisy the Dinosaur
+Cargo Bot
+Box Island
+Run Marco
+SoloLearn
+Grasshopper
+DCoder
+RoboCode
+Codemoji
+Code for Life
+Stencyl
+Gamestar Mechanic
+Create & Learn
+Roblox Studio
+CodeWizardsHQ Activities
+CodeMonster
+StackOverflow
+Code Maven
+BitDegree
+Game Maven
+CodinGame
+Coursera
+Free Code Camp
+EdX
+Udemy
+AGupieWare
+Github
+MIT Open Courseware
+Hack.pledge()
+CS Unplugged
+Goalkicker
+IDE
+CoderDojo
+University Summer Camps
+Hackathons
+
+
+science - fun brain https://www.funbrain.com/ 
+
+
+maths
+
+ixl ?
+
+not sure if this is helpful - needs a teacher to guide?  mathplanet https://www.mathplanet.com/
+
+
+
 
 ## kids
 
@@ -410,30 +764,7 @@ Bluetooth … 3 works fine …
 
 Jut loves Jesus 
 
-Monthly review 
 
-Dreams 
-
-My life will …
-
-Charity 
-
-- Not a charity
-- Don’t feel particularly called to this ministry
-- Just seeing that there is an incredible need caused by suffering from persecution
-- Just really wanting to help as a Christian my brothers and sisters in Christ
-- Feel that there is lot of wealth in the western world and I am sure there are lots of well meaning Christians who would be willing and able to help
-- Just want to provide a platform for helping multiple people in distress and also to enable visitors to perhaps volunteer to help financially
-- Parable Jesus … even though evil is profiting don’t rip up the evil plants because you will rip up the good plants also
-- Jesus knew Judas was a thief … yet did not call him out … wow !!!
-- All things work together for those who live the Lord and are called according to His purpose …
-- Give and it shall be given unto you
-- The poor you shall always have with you
-- Man gave alms and prayed … that was all noted about him
-
-dirty logger [denkimono.com](http://denkimono.com) 
-
-Gym don’t mention wife kids initially .. too soon 
 
 22 Feb 1000 walk 1000 run 
 
@@ -473,11 +804,9 @@ Contract
 - 1 german word
 - 1 tech word
 
-Monthly Reflection
 
-- future you
-- encouragers
-- detractors
+
+
 
 Frogs
 
@@ -547,6 +876,92 @@ chat gpt 4o has up to date information
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## monthly
+
+
+
+## monthly reflection
+
+- future you
+- encouragers
+- detractors
+
+
+
+
+
+
+### monthly up
+
+first opportunity of the day to love god is when i get up first
+
+second opportunity to love god is when i am tired and just stay up
+
+speed 1 ... 2 ... 3/3 this is max speed i can reach
+
+if fail once then temporarily go to speed 0 just for that day
+
+if fail more than once then totally reset to speed 0
+
+go back to bed later - as if satnav not working 
+
+stay up 7 days - join motorway rather than 30mph roads
+
+
+
+### monthly dreams
+
+My life will …
+
+Charity 
+
+- Not a charity
+- Don’t feel particularly called to this ministry
+- Just seeing that there is an incredible need caused by suffering from persecution
+- Just really wanting to help as a Christian my brothers and sisters in Christ
+- Feel that there is lot of wealth in the western world and I am sure there are lots of well meaning Christians who would be willing and able to help
+- Just want to provide a platform for helping multiple people in distress and also to enable visitors to perhaps volunteer to help financially
+- Parable Jesus … even though evil is profiting don’t rip up the evil plants because you will rip up the good plants also
+- Jesus knew Judas was a thief … yet did not call him out … wow !!!
+- All things work together for those who live the Lord and are called according to His purpose …
+- Give and it shall be given unto you
+- The poor you shall always have with you
+- Man gave alms and prayed … that was all noted about him
+
+dirty logger [denkimono.com](http://denkimono.com) 
+
+Gym don’t mention wife kids initially .. too soon 
+
+
+
+
+
 ## reminders monthly
 
 ```
@@ -589,6 +1004,150 @@ my weakness is asking for help ... start with rc priest
 
 have a flow of all items ... current ... move into archive ...
 ```
+
+
+## reminders monthly - current skills summary and learning path
+
+
+I would like to put myself on a learning path to becomes the most employable and wealthy version of myself possible.
+
+I am already 55 years old and super experienced in a number of great technologies.
+
+To summarise I have
+
+- been a lead engineer at Channel 4 TV for 18 months, leading a skilled team of 3 developers and 4 QA engineers to build an amazing Roku app for Channel 4 TV.
+- this involves experience with Roku Brightscript which is a derivative of Microsoft Visual Basic and is also similar to a tidier version of Javascript.
+- spent 15 years being a technical trainer where I trained
+  - CompTIA A+ PC and Server Hardware
+  - CompTIA Network+ 
+  - CompTIA Security+
+  - CompTIA CyberSecurity+
+  - Windows XP
+  - Windows 7
+  - Windows 10
+  - C# .NET, .NET Core, ASP.NET and ASP.NET Core. 
+  - Javascript
+  - NodeJS 
+  - Web Frameworks eg Bootstrap, Vue, some React etc
+  - Basic knowledge of Python, Go
+  - Java and Kotlin
+  - Bash Scripting
+  - Devops including basic Docker
+
+I have taught myself Flutter and think that I want to build Flutter apps in the future.  I have already released my first Android Flutter App.
+
+So ... Chat GPT .. Here is my question ...
+
+I would like you to analyse the accompanying 2 files which contain a history jumble of my present thoughts and also past and present learning, in a non-structured manner.  
+
+I would like you to reflect on my above points on my learning to date
+
+I would like you to give me some suggested learning path ideas in order to upskill and become the most employable version of myself, over time.
+
+Thank you.
+
+Phil
+
+
+
+
+ChatGPT
+
+Based on the detailed review of your past and present learning, as well as your career aspirations, I've structured a personalized learning path to help you become the most employable and wealthy version of yourself.
+
+Summary of Current Skills and Experience
+
+Current Role: Senior Engineer at Channel 4 TV, specializing in Roku Brightscript, leading a team.
+Technologies:
+Video technologies and streaming
+Roku Brightscript
+CompTIA certifications (A+, Network+, Security+, CyberSecurity+)
+Windows OS (XP, 7, 10)
+C#, .NET, .NET Core, ASP.NET, ASP.NET Core
+JavaScript, NodeJS, and various web frameworks (Bootstrap, Vue, React)
+Basic knowledge of Python, Go
+Java, Kotlin
+Bash scripting, basic Docker, and DevOps
+Recently learned Flutter and released an Android app
+
+Goals
+
+Future-proofing your career: Ensure your skills remain relevant and in-demand.
+
+Creating your own apps: Leverage your experience and new skills to build successful apps.
+
+Becoming highly employable and wealthy: Focus on high-value skills and opportunities.
+
+Learning Path Recommendations
+
+1. Advanced Mobile Development
+Flutter & Dart:
+
+Continue deepening your Flutter skills, focusing on advanced topics like state management (Provider, Riverpod, Bloc), performance optimization, and platform-specific integrations.
+Resources: Flutter documentation, advanced courses on Udemy/Coursera, and Flutter community forums.
+React Native:
+
+Learn React Native to broaden your mobile development skills, allowing you to build apps for both iOS and Android using JavaScript and React.
+Resources: React Native documentation, courses on platforms like Pluralsight or Udemy.
+
+2. Cloud and DevOps
+Cloud Platforms:
+
+Gain expertise in AWS, Azure, or Google Cloud. Focus on services relevant to app development and deployment, such as AWS Amplify, Google Firebase, and Azure App Services.
+Resources: AWS Certified Developer – Associate, Google Associate Cloud Engineer, Microsoft Azure Fundamentals.
+DevOps Tools:
+
+Enhance your skills with Docker and Kubernetes for containerization and orchestration.
+Learn CI/CD pipelines using tools like Jenkins, GitHub Actions, or GitLab CI/CD.
+Resources: Courses on Docker and Kubernetes, CI/CD on Pluralsight or Coursera.
+
+3. Full-Stack Development
+Modern Frontend Frameworks:
+
+Deepen your knowledge of React and Vue.js. Explore Next.js for server-side rendering and static site generation.
+Resources: Official documentation, advanced tutorials, and courses on platforms like Frontend Masters.
+Backend Technologies:
+
+Strengthen your skills in Node.js, Express.js, and databases (MongoDB, PostgreSQL).
+Learn about GraphQL for API development.
+Resources: Full-Stack Open course, advanced Node.js courses.
+
+4. Data Science and Machine Learning
+Python for Data Science:
+
+Build on your basic Python knowledge to learn data analysis (Pandas, NumPy), visualization (Matplotlib, Seaborn), and machine learning (scikit-learn).
+Resources: Data Science with Python courses on Coursera, DataCamp.
+AI and Machine Learning:
+
+Explore machine learning frameworks like TensorFlow or PyTorch.
+Consider learning about AI-driven app development (e.g., integrating machine learning models into mobile or web apps).
+Resources: Machine Learning specialization on Coursera, TensorFlow documentation.
+
+5. Personal Projects and Entrepreneurship
+ 
+App Development:
+
+Continue building and releasing your own apps. Focus on solving real-world problems and creating unique value propositions.
+Resources: Startup incubator programs, entrepreneurship courses on Coursera.
+
+Monetization Strategies:
+
+Learn about different app monetization strategies, including in-app purchases, subscriptions, and ads.
+
+Resources: Books and articles on app monetization, online courses.
+
+Action Plan
+
+Set Specific Goals: Define clear, achievable goals for each quarter. For example, complete a Flutter advanced course, build a specific app feature, or earn a certification.
+
+Allocate Time for Learning: Dedicate regular time slots each week for learning and development.
+
+Build a Portfolio: Continuously update your portfolio with new projects and technologies you learn.
+
+Network and Collaborate: Engage with tech communities, attend meetups, and collaborate with other developers on projects.
+
+By following this learning path, you will enhance your technical skills, broaden your expertise, and position yourself for greater opportunities in the future. Good luck on your journey! ​
+
 
 
 
@@ -765,6 +1324,14 @@ visit it
 
 land 5000m2?
 
+roscoff - like this 
+
+analyse properties and go through each one and make a check list of all the pros and cons ... can do this on notion then archive later
+
+https://www.notion.so/philanderson888/French-Property-Search-5b5f8003ed4742e2a1fe8e78106fa646
+
+
+
 ## things to think and pray about - ideas to consider
 
 i am a global evangelist
@@ -940,37 +1507,11 @@ find someone to help me create and publish an ebook and a real book ‘Prayers F
 
 # 2024 reviews
 
-## contents
 
-- [2024 reviews](#2024-reviews)
-  - [contents](#contents)
-  - [202401 six monthly review](#202401-six-monthly-review)
-  - [202401 quarterly review](#202401-quarterly-review)
-  - [202403 weekly stats](#202403-weekly-stats)
-  - [202404 monthly review](#202404-monthly-review)
-  - [202405 monthly stats](#202405-monthly-stats)
-  - [202405 monthly review](#202405-monthly-review)
 
-## 202401 6 monthly review
 
-```
-words
-
-    let the past go
-
-    we cannot change the past
-
-    are you a believer - if someone curses
-
-    what did you mean by that word - if someone says it
-
-    holy spirit - if someone swears but not to me
-
-```
 
 ## 202406 6 monthly review
-
-
 
 ## 202401 quarterly review
 
@@ -1079,13 +1620,38 @@ detractors
 
 
 
+
+
+
+
+
+
+
 ## quotes
 
 goals should be out of reach but not out of sight
 
 when the vision is clear the results will appear
 
+you have to push yourself to your limits ... thats when you grow
 
+the price of regret is much greater than the price of discipline 
+
+what of my life will live on after my death?
+
+dream big ... start small ... act now 
+
+your methods may be messy but your mess will become your message
+
+there are no roses without rain ... adversity is advantage ... obstacle is opportunity
+
+average people focus on money ... excellent people focus on time
+
+you need to let go of yesterday in order to embrace today
+
+you need to be lighter if you want to rise higher …. eg ... unplug all contacts no longer connected with ….
+
+dream big … start small … act now …
 
 ## holy spirit responding to foul language
 
@@ -1251,13 +1817,6 @@ https://svelte-hello-world-01.netlify.app deploys from https://github.com/philan
 
 go through and parse / clarify all sites at https://app.netlify.com/teams/philanderson888/sites 
 
-## charity
-
-would it be possible to employ any of these ...
-
-talk to these people and get advice https://actionplanning.co.uk/about-us
-
-
 
 
 
@@ -1281,8 +1840,17 @@ Journal your heart out.
 Do things for others..
 ```
 
+### productivity in learning
+
+do duolingo 2 lessons daily and 10 at the weekends ... up my game!
+
+read 5 pages of a productive book per day
 
 
+
+## mentorship
+
+grab a 'purpose partner' 
 
 
 
@@ -1758,7 +2326,7 @@ payment stripe / snipcart / shopify 30 per month / paypal
 Hasura cloud auto generates queries
 
 Stuff To Sell
-Prayer sheet even if it’s only for 1p
+Prayer sheet free download or contribute sum of any amount
 
 ## app ideas
 
@@ -2270,28 +2838,14 @@ struggled and gained a ministry in the elderly peoples - created a ministry from
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Dad
-Dad
 Up at 4am 7 days a week
+
 If I get up before 400 for the loo, drink tons of liquid
+
 Get up without putting my head back on the pillow
+
 If really tired eat a big meal early
+
 Communion
 Nothing in the morning before 7
 Teeth

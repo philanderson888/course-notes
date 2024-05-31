@@ -1,72 +1,182 @@
-# learning
+# learning 7000 lines
 
 ## contents
 
-- [learning](#learning)
-  - [contents](#contents)
-  - [places to check learning](#places-to-check-learning)
-  - [websites](#websites)
-  - [reviewing payment methods and options for online shops](#reviewing-payment-methods-and-options-for-online-shops)
-  - [ideas - youtube tutorials](#ideas---youtube-tutorials)
-  - [apps](#apps)
-    - [regular route joe](#regular-route-joe)
-  - [learning goals and ideas](#learning-goals-and-ideas)
-  - [grow learning](#grow-learning)
-  - [learning](#learning-1)
-  - [scripting](#scripting)
-  - [apps](#apps-1)
-  - [database](#database)
-  - [video](#video)
-  - [random](#random)
-  - [ide](#ide)
-  - [CSS](#css)
-  - [JS](#js)
-  - [design](#design)
-  - [docs](#docs)
-  - [no code](#no-code)
-  - [random](#random-1)
-  - [cloud](#cloud)
-  - [apple](#apple)
-  - [Terms](#terms)
-  - [Web Terms](#web-terms)
-  - [Jewish Christians](#jewish-christians)
-  - [charity](#charity)
-  - [ai](#ai)
-  - [ai images](#ai-images)
-  - [ai video](#ai-video)
-  - [ai text to speech](#ai-text-to-speech)
-  - [ai website generation](#ai-website-generation)
+- [learning 7000 lines](#learning-7000-lines)
+	- [contents](#contents)
+	- [overwhelming amounnts of data](#overwhelming-amounnts-of-data)
+	- [where is all my learning - parse it down smaller and smaller](#where-is-all-my-learning---parse-it-down-smaller-and-smaller)
+	- [websites](#websites)
+	- [ideas - youtube](#ideas---youtube)
+	- [apps](#apps)
+		- [regular route joe](#regular-route-joe)
+	- [improve existing skills](#improve-existing-skills)
+	- [learn new skills](#learn-new-skills)
+	- [thinbgs for the future](#thinbgs-for-the-future)
+	- [reading](#reading)
+	- [random learning notes](#random-learning-notes)
+	- [scripting](#scripting)
+	- [apps](#apps-1)
+	- [database](#database)
+	- [video](#video)
+	- [random](#random)
+	- [ide](#ide)
+	- [CSS](#css)
+	- [JS](#js)
+	- [design](#design)
+	- [docs](#docs)
+	- [ai](#ai)
+	- [ai images](#ai-images)
+	- [ai video](#ai-video)
+	- [ai text to speech](#ai-text-to-speech)
+	- [zshrc](#zshrc)
+	- [bash](#bash)
+	- [aws](#aws)
+	- [cyber](#cyber)
+	- [Mobile Development](#mobile-development)
+		- [React Native](#react-native)
+		- [Flutter](#flutter)
+	- [functional programming](#functional-programming)
+	- [homebrew](#homebrew)
+		- [install](#install)
+	- [ide - vscode](#ide---vscode)
+	- [Imperative Programming](#imperative-programming)
+	- [Mixin](#mixin)
+	- [learning](#learning)
+- [Glossary](#glossary)
+	- [Babel](#babel)
+	- [BACKBONEJS](#backbonejs)
+	- [Browserify](#browserify)
+	- [File Structure](#file-structure)
+	- [Gatsby GraphQL / GraphiQL](#gatsby-graphql--graphiql)
+	- [Apollo GraphQL](#apollo-graphql)
+		- [TIOBE Index](#tiobe-index)
+	- [Source Maps eg bootstrap.css.map - Debugging Feature](#source-maps-eg-bootstrapcssmap---debugging-feature)
+	- [Using Google - Is There A Demand For Your App?](#using-google---is-there-a-demand-for-your-app)
+	- [Mobile Apps](#mobile-apps)
+	- [Testing](#testing)
+	- [NPM](#npm)
+	- [Bug Tracking](#bug-tracking)
+- [Random Links](#random-links)
+		- [.NET Enumeration](#net-enumeration)
+		- [Android](#android)
+		- [Nativescript](#nativescript)
+		- [Productivity](#productivity)
+		- [Java](#java)
+		- [Java Testing](#java-testing)
+		- [Sentry.io Logging](#sentryio-logging)
+		- [CSS variables](#css-variables)
+		- [ML Machine Learning](#ml-machine-learning)
+		- [UI/UX](#uiux)
+		- [Reading Lists](#reading-lists)
+		- [Kotlin](#kotlin)
+		- [Video](#video-1)
+		- [VideoCasting](#videocasting)
+		- [IE](#ie)
+		- [Getting Help On The Internet](#getting-help-on-the-internet)
+		- [Podcasts](#podcasts)
+		- [getBoundingClientRect()](#getboundingclientrect)
+		- [ECommerce WebSites](#ecommerce-websites)
+		- [Notion Keyboard Shortcuts](#notion-keyboard-shortcuts)
+	- [NUXT over vue](#nuxt-over-vue)
+	- [Gatsby](#gatsby)
+- [Articles On Productivity](#articles-on-productivity)
+		- [The 3 Most Important Skills to Learn Now to Thrive in 2019](#the-3-most-important-skills-to-learn-now-to-thrive-in-2019)
+		- [Skill #2: Learn to Adapt to Change](#skill-2-learn-to-adapt-to-change)
+		- [Google Play Store App Signing](#google-play-store-app-signing)
+		- [Shopify](#shopify)
+		- [Sinatra](#sinatra)
+		- [Cloud Storage](#cloud-storage)
+		- [Summarise HTML document](#summarise-html-document)
+		- [Data Visualization](#data-visualization)
+		- [Surveys](#surveys)
+	- [no code](#no-code)
+	- [random](#random-1)
+	- [cloud](#cloud)
+	- [apple](#apple)
+	- [Terms](#terms)
+	- [Web Terms](#web-terms)
+	- [random](#random-2)
+	- [streaming](#streaming)
+	- [functional programming languages](#functional-programming-languages)
+	- [Wed 20 December 2023](#wed-20-december-2023)
+	- [bash](#bash-1)
+	- [windows labs](#windows-labs)
+	- [macos](#macos)
+	- [bash](#bash-2)
+	- [vi](#vi)
+	- [bash](#bash-3)
+	- [azure](#azure)
+	- [random](#random-3)
+- [Random Web, Programming And Productivity](#random-web-programming-and-productivity)
+		- [Graphics](#graphics)
+		- [stats](#stats)
+		- [testing](#testing-1)
+	- [war](#war)
+	- [networking](#networking)
+- [Random List 1 - mostly web](#random-list-1---mostly-web)
+	- [bundling](#bundling)
+	- [code splitting](#code-splitting)
+	- [Random](#random-4)
+	- [CSS](#css-1)
+	- [Testing](#testing-2)
+	- [Git](#git)
+- [Random List - Programming](#random-list---programming)
+- [Random List 2 - Hardcore!](#random-list-2---hardcore)
+- [General Glossary](#general-glossary)
+- [Random Web](#random-web)
+	- [Node Term List](#node-term-list)
+- [Angular Terms](#angular-terms)
+	- [Random Rubbish December 2022](#random-rubbish-december-2022)
+	- [minimist](#minimist)
+	- [Random Programming Terms December 2022](#random-programming-terms-december-2022)
+		- [android](#android-1)
+	- [random](#random-5)
+	- [traditional node and mongo random terms](#traditional-node-and-mongo-random-terms)
+	- [random web terms 2022](#random-web-terms-2022)
+	- [random web terms 2023](#random-web-terms-2023)
 
-## places to check learning
+## overwhelming amounnts of data
 
-```
+if you know it then delete it
+
+create space
+
+## where is all my learning - parse it down smaller and smaller
+
 Evangelism https://docs.google.com/document/d/1l_Hh81_yfsgw27UYBKAHq2pe8bj-FcGfUw4fdWxPoP0
+
 Scripture https://docs.google.com/document/d/1vL4WYy4k_0H_rwzGMMFVaX_NVDHlzFXDujnFz7wX84U
+
 Ancestry https://docs.google.com/document/d/11DuuW2Pma8KJU_RNxmyFnlCGFj1dLpFxQX3_pqxwrm8
+
 2023 Life Plan And Review, Goals - Google Docs
+
 2023 Finances - Google Docs
+
 github cyber - https://github.com/philanderson888/course-notes/tree/master/cyber
+
 github random https://github.com/philanderson888/course-notes/blob/master/cyber/cyber-random-terms.md
+
 github cloud https://github.com/philanderson888/course-notes/blob/master/cloud
+
 github science https://github.com/philanderson888/personal/issues/27
+
 github personal Issues https://github.com/philanderson888/personal/issues
+
 github personal https://github.com/philanderson888/personal
+
 github scriptures https://github.com/philanderson888/personal/blob/master/christian/scriptures.md
+
 github course notes
+
 github node
+
 github javascript
-notion
-```
-
-
-
-
 
 ## websites
 
-Home https://philanderson.uk
-
-have one master site ... to link to all other sites ... with archive links etc
+https://philanderson.uk 
 
 https://philanderson881.wixsite.com/philanderson-uk another beautiful ready-made site, love this one!
 
@@ -86,32 +196,19 @@ https://philanderson881.wixsite.com/consulting this was an interesting one for p
 
 https://philanderson881.wixsite.com/philipandersoncv2 here is one I could turn into an online CV!!!
 
+## ideas - youtube
 
+philTech channel
 
+learnTechFast channel
 
-## reviewing payment methods and options for online shops
+learnLinuxScripting channel
 
-- Stripe YES
-- Shoppy Possibly
-- Shopify seems expensive at 5pm for basic and 19pm for normal plan
-- Wix plans from 4 per month but sites with payment options start from 15/m which seems expensive
-  - £22 plan to accept payments, seems a bit costly at present
+learnBrightscript channel
 
+tutorials on youtube for Roku
 
-
-## ideas - youtube tutorials
-
-philTech youtube channel!!!
-
-learnTechFast youtube channel !!!
-
-learnBrightscript youtube channel !!!
-
-learnLinuxScripting youtube channel !!!
-
-tutorials on youtube for roku
-
-motivation to get up in the mornings
+motivation videos with my words, my sound and my video
 
 Get yourself going in the morning
 
@@ -123,134 +220,100 @@ Get yourself going in the morning
   6. - worship - this is my playlist https://www.youtube.com/playlist?list=PL269DF39348E75E0D
   7. - prayer - pray with this guy https://www.youtube.com/playlist?list=PLcb1JL22b_y8wtb0wykPQr-sEA6vRBa4X
 
-
-
 ## apps
 
 ### regular route joe
 
 Use AI to alert a user when their regular route is down - is this possible? Would have to tap into the regular google maps or apple maps route of the user ... then calculate the regular trip time ... then calculate today the trip time ... then see if there is a faster route ... then let user know 
 
+## improve existing skills
+
+build a website then bin it - get fast
+
+build an app then bin it - get fast
+
+## learn new skills
+
+write a test for a vue web app eg check the title is as expected on a page
+
+learn to use ui path to do hundrum tasks for me ... like log in to sites for me?
+
+create web automation framework to click through all my sites and record a video of them ... or ui path to do the same?  
+
+build a nocode database
+
+
+## thinbgs for the future 
+
+machine learning from aws https://aws.amazon.com/training/learn-about/machine-learning/?trk=6d3756a9-ee34-407c-86cb-259b290c2238
 
 
 
+## reading
 
+medium
 
+javascript weekly
 
-
-
-
-
-## learning goals and ideas
-
-... can I build some gui web apps 
-
-... can i test out a gui web app ... how would i do that ? 
-
-... are there command line tools which i can use to test a web app
-
-... or can i build a robot to click on a web site for me? ... a specific tool ... or general ai?
-
-... it would be nice if I could just have a button to click and watch a robot go through and launch and click through all of my work , for sure! ... so I can just kick back and make a video of all of my work , for sure ...
-
-                                                                                                                                                                                                 
-## grow learning
-
-medium.com
-
-javascriptweekly.com
-
-nocode websites
-
-nocode databases
-
-
-
-
-
-## learning
-
-```
+## random learning notes
 
 aws run serverless code https://aws.amazon.com/tutorials/run-serverless-code/
 
 Cloudflare durable objects by session id 
+
 Cloudflare workers = serverless
+
 Cloudflare D1 = SQL database
+
 Cloudflare R2 = NoSQL database
+
 Netlify functions with mongo ... use Realm to create an endpoint which runs code to read db when you hit the end point
-bun
-deno
-yarn
+
 UserFront JWT
+
 Fastify JWT
-Databases
+
 Learning path roadmap.sh
-Resolver identifies IP of user on XBOX xResolver • Xbox Gamertag Resolver
-Fathom alternative to Google Analytics Fathom Analytics (usefathom.com)
-Mux video and data Mux
-Internet Live Stats
-Team Games
-https://skribbl.io
-Quizzes
-https://www.randomtriviagenerator.com/
-Cloudflare workers https://workers.cloudflare.com/.  … run sample code DO IT !!!!  
+
+Resolver identi
+
+Cloudflare workers https://workers.cloudflare.com/.  … run sample code
+
 Full Stack Login
+
 https://userfront.com/examples/vue
-https://thatarif.in/posts/token-based-authentication-with-fastify-jwt
-Dates- use Temporal native date handling
-https://taro.codes/posts/2023-08-23-temporal-api/
-GraphQL
-EdgeDB
-https://www.edgedb.com/launch?lang=ts
-Realm expose MongoDb 
-Tailwind CSS
+
+temporal native date handling
+
+graph ql
+
+edge db
+
 Web Containers run node in a browser
-Login with vue and firebase
-Script install a Windows machine with VSCode and Android Studio!
-Build optimized websites quickly, focus on your content | Docusaurus
-Run a project in turbopack at Turbopack Quickstart – Turbopack with npx create-next-app --example with-turbopack then npm run dev / yarn dev / pnpm dev
-Get PNPM up and running and use it instead of NPM and YARN
-Read the typescript book on github for free https://github.com/gibbok/typescript-book
-Get into BUN which is faster than Node, Yarn and even Deno https://bun.sh/blog/bun-v0.7.0
-Build an API https://www.codeproject.com/Articles/5322557/CodeProject-AI-Server-AI-the-easy-way
-ZOD is typescript with mongoose zod.dev
-WASM
-Github copilot $10 a month
-Website building from scratch
-Docusaurus.io
-Astro - try it!  https://astro.build/blog/astro-3/
-https://bun.sh/
-https://deno.com/blog/npm-on-deno-deploy
-https://svelte.dev/blog/whats-new-in-svelte-september-2023
+
+docusaurus
+
+turbopack
+
+npx create-next-app --example with-turbopack then npm run dev / yarn dev / pnpm dev
+
+pnpm instead of npm and yarn - uses symlinks?
+
+typescript book
+
+bun is faster than deno
+
+zod uses typescript with mongoose
+
+svelte
+
 Demo of all demos https://codebase.show/projects/realworld
-AI investigation and learning
-AI voice 
-descript sounds good with voices out of the box - Train it for 30 minutes … let’s see what it sounds like!   descript.com  888@hot   UUr…!!
-Coda
-https://coda.io/@overdub/overdub-scripts/main-script-61    
-Play.ht
-play.ht UUUr…!!!
-AI apis
-Chat GPT4 Turbo 
-Up to date April 2023
-https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/gpt-4-turbo-with-vision-is-now-available-on-azure-openai-service/ba-p/4008456#:~:text=We%20are%20excited%20to%20announce,process%20and%20analyze%20image%20inputs.
-Fun
-Looks like ubuntu https://github.com/manhhungpc/ubuntu2204-svelte
-StoryBlocks.com get unlimited media from which to make videos ... looks good ... 15pm billed annually
-AI music generation
-The Open Graph protocol (ogp.me) 
-Analytics Academy (google.com)
-AlpineJS a new minimalistic javascript framework https://alpinejs.dev
-WASM by example https://wasmbyexample.dev/examples/hello-world/hello-world.rust.en-us.html 
-Deploy a docker container on AWS using ECS elastic container service
-Deploy alpine ubuntu using docker only 5MB https://hub.docker.com/_/alpine
-Create sample of alpine js https://alpinejs.dev/start-here 
-Steve.ai create animated videos from text .. wow 
-Typescript https://github.com/gibbok/typescript-book
-Git bash course https://github.com/bobbyiliev/introduction-to-bash-scripting 
-Scoop installs programs to local user path without raising admin credentials
-```
+
+story blocks has stock video from which to make your own videos
+
+steve.ai creates animated videos
+
+scoop installs without requiring sudo
 
 ## scripting
 
@@ -264,6 +327,12 @@ Have the ability to exclude certain file types from the search
 Also have the ability to exclude carts in folders by name from the search over a given size
 ```
 
+
+
+
+
+
+
 ## apps
 
 AppRite
@@ -275,6 +344,20 @@ Neo4J is GraphQL upgrade to SQL query language
 ## video
 
 Runway ML fast video editing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## random
 
@@ -319,6 +402,16 @@ SVG filters https://blog.logrocket.com/complete-guide-using-css-filters-svgs
 Tailwind
 
 Responsive https://tailwindcss.com/docs/responsive-design
+
+
+
+
+
+
+
+
+
+
 
 
 ## JS
@@ -417,261 +510,20 @@ https://unsplash.com
 Image Compression - Tiny PNG
 https://tinypng.com
 
-
-
 Image Editing Online
 https://www.photopea.com
-
-
-
 
 Images - Icons
 https://ionic.io
 
-
-
 Image - Remove Background
 https://www.remove.bg
-
 
 Performance
 Web page speed    https://pagespeed.web.dev
 
-
-
-
 Performance - loading times
 https://gtmetrix.com
-
-
-
-## no code
-
-```
-NoCode Design
-creately.com
-
-NoCode
-Webflow.com start here
-Codemeetsnocode.com
-Make.com
-Bubble.io
-Jetboost.io
-Aatt.io
-Airtree.vc
-relume.io/projects/airtree
-Library.relume.io
-Strapi.io
-Zapier.com
-wix.com/velo
-Nocode.tech
-Payments
-Memberstack.com
-Snipcart
-Stripe
-Database
-Airtable
-Flowbase
-Bit.io
-Firestore
-Mongodb
-Nocodb
-baserow.io
-```
-
-## random
-
-```
-Deno
-ZIG
-Pug
-ASCIIdoce
-OpenWeatherMap.org API
-Dribble.com designs
-Lodash out … just in …
-CDK cloud development kit
-LogRocket session replay
-
-Text-to-Speech
-Speechify.com
-
-
-TS
-Effective laying out of typescript files https://effectivetypescript.com/2022/07/30/treemap-for-source-files
-
-
-
-Hosting
-Cloudflare tunnels allow private hosting .. better than NGrok .... same as localTunnel
-Mux can host videos
-
-Website Building
-Nocode websites ... wix ... web flow 
-AWS
-Elastic Beanstalk is a container to hold VPC - Platform as a service - Just put code in there - and run! - Allows quick deployment of code - Don't have to worry about managing the environment
-AWS Code Pipeline
-AWS Code Deploy
-Lambda Serverless - https://serverlesshandbook.dev/ - Auto scaling - Only pay for compute you use - Event-driven computing - http → API gateway - AWS Code Pipeline and AWS Code Deploy can deploy your app - Cloudwatch Events can also trigger code - Good for backups, processing, IOT, serverless websites, ETL
-```
-
-## cloud
-
-```
-Microservice
-Orchestrator
-Kubernetes
-Terraform
-Provision : Chef Puppet Ansible
-Packer replaces Vagrant
-Pipeline
-Mutable pipeline
-Immutable - can build from scratch and should be the same
-Snowflake server demands extra special configuration once the base build has been completed
-Identity with containers
-Isolation of containers
-
-AWS has MOST web-facing servers in world
-Digital Ocean has about HALF the number of Amazon, and is the second biggest hosting site of web-facing servers in the world
-Mesosphere uses DigitalOcean to create a self-healing environment with fault tolerance and scalability. Use API to manage thousands of 'droplets'
-SmartOS - hypervisor - virtual OS in a container - runs in RAM only
-NetBSD - open source UNIX-like
-HLS HTTP Live Streaming by apple, most popular
-```
-
-## apple
-
-https://developer.apple.com/videos/wwdc2023/
-
-
-## Terms
-
-```
-Functional programming uses pure functions and immutability
-Pure function always returns the same result given a fixed input. It has no side effects.
-Function side effect modifies the environment outside of itself
-GRPC is new way to send dataGDI
-Animations
-Resource Dictionary
-INotify Property Changed
-MVVM
-x:Class
-XMLNS is the same as a using; statement <x:myelement>
-Canvas : absolute position, no resizing, zindex="1", rectangle, ellipse, path
-```
-
-## Web Terms
-
-```
-https://koajs.com/ is an upgrade to Express and used to create a server
-Babel -
-blog.stevensanderson.com/2018/02/06/blazor-intro
-BOM
-CMS
-Code Splitting is automatic based on your route
-codeSandbox
-Codingame.com For kids
-Create-React-App
-CSS in JS
-devhints.io
-Front End Masters
-Gatsby - uses Webpack
-github.com/netlify-templates/victor-hugo
-GraphQL replace REST API
-Grunt - Task Runner, very old now. Replaced by Gulp?
-Gulp - replaced by Webpack.
-Headless browser for automation - Chromium, Zombie, SlimerJS
-https://stateofjs.com - The State Of Javascript Survey
-jamstack.org
-Javascript Array Explorer
-Javascript Generators
-Javascript Object Explorer
-Javascript Symbol
-JS Templates
-Meteor - easy to add packages
-MPA Multi Page App
-MVC is on the way out
-Native environments : Flutter, ReactNative
-NextJS -
-NextJS - consumes Markdown and creates HTML/CSS/JS
-Open Web Platform
-Open Web Platform
-Page Load Speed - 200ms is an acceptable limit
-Parcel2 - write parcelindex.html and needs Babel
-React - uses Parcel
-SASS -
-Scrimba screencast
-SEO
-SPA Single Page App only update the data between refreshes, not the page. Examples are Facebook and Trello.
-StackBliz
-Static Site Generator
-Typescript compiles to javascript with tsc myfile.ts and is installed with npm install -g typescript. Syntax is very similar to Javascript
-Webpack - replaced Gulp.
-Webview retrieves HTML for an IOS or Android app eg Cordova mobile, NW.js or Electron
-zeit.co/docs
-IndexedDb - a local database in the browser, similar to localStorage but more complex
-Cordova - build multi-platform mobile and web apps
-Fastlane tools used to deploy and build eg Cordova apps
-Headless browser is used for UI browser testing ie it's faster as it performs the tests but doesn't actually load up the browser and show the clicks
-Webpack is a bundler to bundle all the files together into one 'dist' bundle for ease of distribution and ease of running together as one unit
-Babel is a Javascript 6 to 5 compiler which ensures the latest Javascript 6 will also work on all Javascript 5 devices.
-ECMAScript is the official name for Javascript
-Karma runs tests by running your application inside a web server, and then running tests on the live application
-Mocha tests Javascript
-Chai is used with Mocha for assertion true/false
-
-Serveless Function - run on AWS, Netlify
-ServerlessJS provides serverless functions
-NextJS9 provides serverless functions
-AWS Lambda Functions enables you to create a mini server and just put the code in the cloud
-Azure - Managed Service Identities can remove credentials from code
-Business - Unicorn is private company worth more than $1Bn
-Graphics - Balsamic tool to create designs
-Graphics - PixlrExpress is a web-based image editor
-Markdown - FrontMatter is metadata about the Markdown file eg Name, link to MP3, timestamp
-```
-
-
-
-
-
-
-
-
-
-
-
-## Jewish Christians
-
-```
-
-For example we celebrate:
-
-His death, burial and resurrection and His blood at  "Feast of Passover" ,
-
-He paid for our sin "Feast of Unleavened bread"
-
-He gave us His Spirit at "Feast of Pentacost."
-
-We shout , blow trumpets and warn  people He is returning soon at "Feast of Trumpets"
-
-We spend a day solely praying to realign our hearts to God/Yahweh ready for our personal judgement at "Feast of Atonement"
-
-We spend 8 days  feasting, partying, dancing, and having joy celebrating Gods 7 day creation , the coming marriage of Christ and the Bride (us the church) and the coming 1000yr reign and new heaven and earth. 
-```
-
-
-
-
-
-
-## charity 
-
-If anyone is asking for money on social media send them a form and block them . Do not entertain them . 
-
-
-
-
-
 
 ## ai
 
@@ -703,326 +555,6 @@ lensa
 ## ai text to speech
 
 https://dashboard.vapi.ai/
-
-
-
-## ai website generation
-
-need to look into this as I think it could be an amazing tool to learn in order to build amazing websites really quickly and also to build that connetion with back end data super quickly, saving me much time and energy and also to be able to offer this service to customers quickly and cheaply ... so will be well worth an investigation and proper research ...
-
-```
-10web
-```
-
-
-
-
-
-# definitions
-
-## contents
-
-- [learning](#learning)
-	- [contents](#contents)
-	- [places to check learning](#places-to-check-learning)
-	- [websites](#websites)
-	- [reviewing payment methods and options for online shops](#reviewing-payment-methods-and-options-for-online-shops)
-	- [ideas - youtube tutorials](#ideas---youtube-tutorials)
-	- [apps](#apps)
-		- [regular route joe](#regular-route-joe)
-	- [learning goals and ideas](#learning-goals-and-ideas)
-	- [grow learning](#grow-learning)
-	- [learning](#learning-1)
-	- [scripting](#scripting)
-	- [apps](#apps-1)
-	- [database](#database)
-	- [video](#video)
-	- [random](#random)
-	- [ide](#ide)
-	- [CSS](#css)
-	- [JS](#js)
-	- [design](#design)
-	- [docs](#docs)
-	- [no code](#no-code)
-	- [random](#random-1)
-	- [cloud](#cloud)
-	- [apple](#apple)
-	- [Terms](#terms)
-	- [Web Terms](#web-terms)
-	- [Jewish Christians](#jewish-christians)
-	- [charity](#charity)
-	- [ai](#ai)
-	- [ai images](#ai-images)
-	- [ai video](#ai-video)
-	- [ai text to speech](#ai-text-to-speech)
-	- [ai website generation](#ai-website-generation)
-- [definitions](#definitions)
-	- [contents](#contents-1)
-	- [random](#random-2)
-	- [streaming](#streaming)
-	- [Wed 20 December 2023](#wed-20-december-2023)
-	- [bash](#bash)
-	- [windows labs](#windows-labs)
-	- [macos](#macos)
-	- [bash](#bash-1)
-	- [zshrc](#zshrc)
-	- [bash](#bash-2)
-	- [vi](#vi)
-	- [bash](#bash-3)
-	- [azure](#azure)
-	- [aws](#aws)
-	- [cyber](#cyber)
-	- [Mobile Development](#mobile-development)
-		- [React Native](#react-native)
-		- [Flutter](#flutter)
-	- [functional programming languages](#functional-programming-languages)
-	- [functional programming](#functional-programming)
-	- [homebrew](#homebrew)
-		- [install](#install)
-	- [ide - vscode](#ide---vscode)
-	- [Imperative Programming](#imperative-programming)
-	- [Mixin](#mixin)
-	- [learning](#learning-2)
-- [terms](#terms-1)
-	- [contents](#contents-2)
-	- [random](#random-3)
-	- [war](#war)
-	- [networking](#networking)
-- [Random Web, Programming And Productivity](#random-web-programming-and-productivity)
-		- [Graphics](#graphics)
-		- [stats](#stats)
-		- [testing](#testing)
-	- [File Structure](#file-structure)
-	- [Gatsby GraphQL / GraphiQL](#gatsby-graphql--graphiql)
-	- [Apollo GraphQL](#apollo-graphql)
-		- [TIOBE Index](#tiobe-index)
-	- [Source Maps eg bootstrap.css.map - Debugging Feature](#source-maps-eg-bootstrapcssmap---debugging-feature)
-	- [Using Google - Is There A Demand For Your App?](#using-google---is-there-a-demand-for-your-app)
-	- [Mobile Apps](#mobile-apps)
-	- [Testing](#testing-1)
-	- [NPM](#npm)
-	- [Bug Tracking](#bug-tracking)
-- [Random Links](#random-links)
-		- [.NET Enumeration](#net-enumeration)
-		- [Android](#android)
-		- [Nativescript](#nativescript)
-		- [Productivity](#productivity)
-		- [Java](#java)
-		- [Java Testing](#java-testing)
-		- [Sentry.io Logging](#sentryio-logging)
-		- [CSS variables](#css-variables)
-		- [ML Machine Learning](#ml-machine-learning)
-		- [UI/UX](#uiux)
-		- [Reading Lists](#reading-lists)
-		- [Kotlin](#kotlin)
-		- [Video](#video-1)
-		- [VideoCasting](#videocasting)
-		- [IE](#ie)
-		- [Getting Help On The Internet](#getting-help-on-the-internet)
-		- [Podcasts](#podcasts)
-		- [getBoundingClientRect()](#getboundingclientrect)
-- [Random List 1 - mostly web](#random-list-1---mostly-web)
-	- [bundling](#bundling)
-	- [code splitting](#code-splitting)
-	- [Random](#random-4)
-	- [CSS](#css-1)
-	- [Testing](#testing-2)
-	- [Git](#git)
-- [Random List - Programming](#random-list---programming)
-- [Random List 2 - Hardcore!](#random-list-2---hardcore)
-		- [ECommerce WebSites](#ecommerce-websites)
-		- [Notion Keyboard Shortcuts](#notion-keyboard-shortcuts)
-	- [NUXT over vue](#nuxt-over-vue)
-	- [Gatsby](#gatsby)
-- [Articles On Productivity](#articles-on-productivity)
-		- [The 3 Most Important Skills to Learn Now to Thrive in 2019](#the-3-most-important-skills-to-learn-now-to-thrive-in-2019)
-		- [Skill #2: Learn to Adapt to Change](#skill-2-learn-to-adapt-to-change)
-		- [Google Play Store App Signing](#google-play-store-app-signing)
-		- [Shopify](#shopify)
-		- [Sinatra](#sinatra)
-		- [Cloud Storage](#cloud-storage)
-		- [Summarise HTML document](#summarise-html-document)
-		- [Data Visualization](#data-visualization)
-		- [Surveys](#surveys)
-	- [React terms](#react-terms)
-- [General Glossary](#general-glossary)
-- [Random Web](#random-web)
-	- [Node Term List](#node-term-list)
-- [Angular Terms](#angular-terms)
-- [Glossary](#glossary)
-	- [Babel](#babel)
-	- [BACKBONEJS](#backbonejs)
-	- [Browserify](#browserify)
-	- [Random Rubbish December 2022](#random-rubbish-december-2022)
-	- [minimist](#minimist)
-	- [Random Programming Terms December 2022](#random-programming-terms-december-2022)
-		- [android](#android-1)
-	- [random](#random-5)
-	- [traditional node and mongo random terms](#traditional-node-and-mongo-random-terms)
-	- [random web terms 2022](#random-web-terms-2022)
-	- [random web terms 2023](#random-web-terms-2023)
-
-
-
-## random
-
-```
-vpn split tunnel
-psc password settings container
-img.src.value
-```
-
-
-
-
-## streaming
-
-```
-dash dynamic active streaming over http - shaka, vlc, videojs, libdash, best quality and best on-demand
-hls http live streaming, best for live and best for apple smooth streaming
-scte-35 marker - can insert advert of x seconds
-ala watermark
-ala breakpoint
-mpd manifest of fragments
-ms playready encryption
-google widevine encryption
-cpm cost per minute
-dai dynamic advert insertion
-csai client side advert insertion
-ssai server side advert insertion
-ala addressable linear adverts
-dai swaps whole advert break or nothing; ala swaps individual adverts
-hylda hybrid linear digital adverts ensures breakdown of each adpod is suitable
-l2vod live-to-vod is extended restart after finish
-
-```
-
-
-
-
-
-## Wed 20 December 2023
-
-```
-
-img.src.value = "mypicture.jpg"
-img.src = "mypicture.jpg"
-w3.org
-ietf.org
-rfc
-utf8
-utf16 any language
-pixlr image editing
-pexels stock photos
-functional programming
-pure functions
-deterministic pure functions have same output given same input
-deterministic pure functions have no side effects
-functional programming imperative = workflow
-functional programming declarative = what to do with data?
-kotlin prevents npe null pointer exceptions errors
-flux emits stream of items
-flux<string>
-kotlin rx reactive extensions have callback onNext onCompleted and onError
-kotlin val immutable
-kotlin var mutable
-kotlin input data val scanner = Scanner(system.in)
-&&
-xor
-||
-poser people modelling software
-randomuser.me random user generator
-```
-
-## bash
-
-```
-cht.sh
-when-life-gives-you-lemons-write-better-error-messages
-alias myip=curl 1.2.3.4
-function mkcd() { mkdir -p "$@" && cd "&@" }
-function gitpush() { git add . && git commit -m "$@" && git push }
-Next edit the file ~ /.bash_profile
-alias chrome="open -a 'Google Chrome'"
-export PATH="/Applications/Google Chrome.app/Contents/MacOS:$PATH"
-source "/Users/tech-a21/.aliases.sh"  # General aliases and functions defined by me
-Now opening a new terminal should contain these new scripts
-
-show hidden files and folder ... defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
-function gitTag(){ git tag -a "$1" && -m "$2" && git push -origin tags } 
-sudo find / -name \\*bashrc\\*
-open .    opens window in finder
-stdin 0
-stdout 1
-stderr 2
-open -a "Google Chrome" mysite.html
-Edit ~/.bash_profile file and add the following line alias chrome="open -a 'Google Chrome'"
-
-stdin 0
-stdin 1  set the output channel
-stderr 
-open -a "Google Chrome" index.html
-.bash_profile is where we set the terminal profile launch settings
-alias chrome=open -a "Google Chrome"
-alias edge=open -a "Microsoft Edge"
-vi myFile.txt
-vi i opens file in insert mode 
-vi escape :wq save and quit
-vi escape :q quit without saving
-vi :return next line
-vi :space next page
-vi :q quit
-vi :w previous page
-vi :h help
-sudo crontab -e schedules a cron job
-sudo crontab -e // i . (insert mode) // minutes hours days month dayoftheweek path-to-script.sh eg 00 08 * * * // :wq to save and exit
-printenv
-env  
-printenv PATH
-echo $PATH
-.bash_profile / .zsh_profile etc
-export name=envaironmentvariable
-launchctl setenv name environmentvariable
-ps process status
-ps aux lists all processes
-ps -A lists all processes
-top lists top processes
-exe does not exist in linux - any file can be executed if it has the 'execute' permission
-```
-
-
-## windows labs
-
-```
-vpn split tunneling in vpn, properties, networking, ipv4, advanced, use default gateway on remote network
-
-psc password settings container in aduc, view, advanced, default domain policy, properties, attribute editor, password, make changes
-
-offline files enable at sync center, offline files, enable
-```
-
-
-
-
-
-
-
-## macos
-
-show hidden files - defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
-
-
-## bash
-
-cht.sh cheat sheet for linux commands
-bash is bourne again shell
-ps process status
-ls -1 list just names one by one
-ls -R list files in subfolders
-top top processes  
-.bash_profile loads when terminal loads
-.zprofile and .zshrc load when zshell loads
-
 
 
 ## zshrc
@@ -1072,55 +604,10 @@ stdout 1
 stderr 2
 ```
 
-## vi
-
-vi myfile
-i insert mode
-escape :wq save and quit
-escape :q quit
-
-## bash
-
-sudo crontab -e then add this line minutes hours dayofmonth monthofyear dayofweek file
-printenv will show environment variables
-env will show environment variables 
-printenv PATH show just PATH
-echo $PATH show just PATH
-export field=value add to environment values so now printenv field returns value
-launchctl setenv field value permanently adds to environment variables
-ps process status
-ps aux all processes
-ps -A all processes
-top most important processes
 
 
 
 
-## azure 
-
-resize-vhd -path ... -sizebytes 1234
-vm node fairness load balances
-vm start order
-storage spaces
-storage qos minimum iops in out per second
-storage replica
-srg synchronous replication group
-storage deduplication
-vrss virtual receive site scaling
-.vmcx virtual  machine configuration
-.vmrs vm runtime state
-get-vm -name myVM | format-list *
-vmgroups
-$vm1 = get-vm -name myvm1
-new-vmgroup -name mygroup -grouptype vmcollectiontype
-$mygroup = get-vmgroup -name mygroup
-add-vmgroupmember -vmgroup $mygroup -vm $vm1
-get-vm | format name, state, groups - autosize
-vm management group can contain a) vmgroup b) vm
-new-vmgroup -name mymanagementgroup -grouptype managementcollectiontype
-move-vm myvm newvmhost
-lab add recovery agent - group policy - computer configuration - settings - key - policies - data recovery agents 
-lab recovery bitlocker drive - 1) add user in group policy, computer, settings, key, policies, drive, encryption 2) add drive id 2) group policy, computer, templates, components, bitlocker 3) enable dra recovery on the policies 4) recover i) os drives ii) data drives iii) removable drives
 
 
 
@@ -1164,17 +651,6 @@ Problem with native app development
 
 
 
-
-
-## functional programming languages
-
-```
-Haskell,  
-ML 
-OCaml
-Scala
-F#
-```
 
 ## functional programming
 
@@ -1387,132 +863,238 @@ originality.ai
 
 
 
-# terms
 
-## contents
+# Glossary
 
-- [terms](#terms)
-  - [contents](#contents)
-  - [random](#random)
-  - [war](#war)
-  - [networking](#networking)
+## Babel
+	
+Just write Javascript
+
+Allows use of the latest standards without you worrying about compatibility
+
+## BACKBONEJS
+
+```
+Model has Key-Value binding
+Collections of functions
+View has 'declarative' event handling (events declared in UI code)
+Connects over RESTful JSON interface
+Data represented as Model
+	Create
+	Validate
+	Destroy
+	Save to server
+	Model changes ==> change 'trigger' event updates all views automatically
+	
+	Models sync with a 'persistence' layer usually REST API + DATABASE
+Collection is GROUP OF MODELS
+	var myCollection =  Backbone.collection.extend({url: '/folder'});
+	This allows use of the following 
+		GET  /books/ .... collection.fetch();
+		POST /books/ .... collection.create();
+		GET  /books/1 ... model.fetch();
+		PUT  /books/1 ... model.save();
+		DEL  /books/1 ... model.destroy();
+	COLLECTION DATA IS AS AN ARRAY [ {“item1”:”data1”}]
+	MODEL DATA IS AS A JSON OBJECT {“FIELD”:”VALUE”}
+PARSING JSON RESPONSE FOR THE DATA THAT YOU ACTUALLY WANT
+	IF COLLECTION COMES BACK WITH EXTRA DATA THEN YOU HAVE TO PARSE FOR THE
+	NAMED DATA YOU ACTUALLY WANT 
+	{
+		“dontwant1”:”dontwantthis”,
+		“books”:[
+		{ “book1”:”data1” , “title”:”x”} ,
+		{ “book2”:”data2” , “title”:”y”}
+		]
+	}
+		SO TO EXTRACT THE DATA YOU WANT (BOOKS ARRAY) USE PARSE
+		var Books = Backbone.Collection.extend({
+		  url: '/books',
+		 parse : function(data){
+				return data.books;
+			}
+		});
+```
+
+## Browserify
+
+BUNDLES UP YOUR DEPENDENCIES FOR YOUR BROWSER
+
+[http://browserify.org/](http://browserify.org/)
+
+```
+Here is a tutorial on how to use Browserify on the command line to bundle up a simple file called main.js along with all of its dependencies:
+		main.js
+				var unique = require('uniq');
+				var data = [1, 2, 2, 3, 4, 5, 5, 5, 6];
+				console.log(unique(data));
+						
+		Install the uniq module with npm:
+		
+				npm install uniq
+		
+	Now recursively bundle up all the required modules starting at main.js into a single file called bundle.js with the browserify command:
+	browserify main.js -o bundle.js
+	Browserify parses the AST for require() calls to traverse the entire dependency graph of your project.
+	Drop a single <script> tag into your html and you're done!
+	<script src="bundle.js"></script>
+```
+
+COFFEESCRIPT
+
+```
+coffeescript.org
+
+###
+function output
+###
+function output(){
+}
+root = -> 'Hello World'
+root()
+class myFunction
+  constructor: ->
+	console.log('hi');
+output = () ->
+  myArray=[1,2,3]
+  for item in myArray
+	$('display').append(item)
+```
+
+Databases Online
+
+```
+Why use application data solutions?
+	SPECIALISED ONLINE SOLUTIONS 
+
+MongoLAB
+	ONLINE MONGO 
+Firebase
+	<https://www.firebase.com/>
+	
+	ONLINE DATABASE WITH STORING OF DATA WITH ONLY A FEW LINES OF CODE 
+	
+	<https://www.firebase.com/tutorial/#gettingstarted>
+	
+		RUN CODE 
+		
+		<https://www.firebase.com/tutorial/#session/cpjmggjhta5>
+		
+		DATABASE 
+		
+		<https://cpjmggjhta5.firebaseio-demo.com/>
+		
+	
+DerbyJS
+
+	<http://derbyjs.com/>
+	
+	
+Meteor
+	DEVELOP FULL APPS 
+	
+		<https://www.meteor.com/>
+		
+		
+		
+	
+FeatherJS
+
+	BUILD APPS ON TOP OF NODE 
+	
+	<http://feathersjs.com/>
+	
+	ALL WORKS OUT OF THE BOX; FULL APPLICATION 
+	
+	DATABASE EG CAN USE VARIOUS EG MONGO 
+	
+		<https://github.com/feathersjs/feathers-mongodb>
+```
+
+Diff (Linux)
+
+COMPARES DIFFERENCE BETWEEN TWO FILES, LINE BY LINE
+Diff file1 file2
+
+FC File Compare (Windows Tool)
+
+```
+FC FILE1 FILE2
+	
+FC /B FILE1 FILE2   BINARY FILES
+```
+
+FC FOLDER1\* FC FOLDER2\* TO COMPARE MULTIPLE FILES IN TWO FOLDERS
+
+Isomorphic is same code (Javascript) running on both the client and the server
+
+Knockout JS is Microsoft technology used to link View fields to Model fields but code to update model must be written by developer - see Backbone also
+
+One reason to use Lambda functions is that it does not alter the value of 'this' whereas when we use a function, the value of 'this' can change inside the function
+
+LESS
+
+```
+ADD VARIABLES BEFORE CSS IS COMPILED
+EASIEST WAY TO RUN IT IS WITHIN NODE
+
+lesscss.org
+
+	lesscss.org/less-preview
+	
+INSTALL WITH 		NPM INSTALL -G LESS
+
+USE WITH			LESSC STYLES.LESS OUTPUT.CSS
+
+For learning and development use, can also use LESS in the browser
+
+	<link rel="stylesheet/less" type="text/css" href="styles.less" />
+		
+	<script src="less.js" type="text/javascript"></script>
+
+mixin
+
+function
+
+variables
+```
+
+Lint
+
+LINT
+
+ESLINT
+
+```
+CODE QUALITY !!!
+```
+
+CSSLINT
+
+```
+PREVENTS CSS NESTING
+```
+
+POWERSHELL : GET SIZE OF FOLDER
+ls -r | measure -s length
+
+RawGit
+
+RawGit can be used to view individual files eg
+HTML
+[https://rawgit.com/philanderson888/showcase/master/index.htm](https://rawgit.com/philanderson888/showcase/master/index.htm)
+Bootstrap
+[https://rawgit.com/philanderson888/showcase/master/bootstrap_01.htm](https://rawgit.com/philanderson888/showcase/master/bootstrap_01.htm)
+
+STDOUT
+
+process.stdout.write(text);
+
+Testing
+
+Please see [https://plnkr.co/edit/?p=preview](https://plnkr.co/edit/?p=preview) for an example of Javascript testing.
 
 
-## random
-
-exfiltrate
-kill chain
-insecam
-netflow
-os fingerprint
-footprint
-mx memory data
-dep data execution prevention
-cve common vulnerabilities and exposing
-tryhackme
-mimikatz
-netdiscover
-openvas
-armitage red team
-exploit scanner
-msf
-burpsuite
-dirbuster
-getent
-snort
-nazsi
-f18
-f35
-mk49
-mk29
-scsi
-squert
-hping
-ddos
-evasion
-crawl
-angry ip
-qualsys
-nexpose
-credential scan
-energy
-power
-conduction
-openvas
-armitage exploit scan
-nikto
-ads alternate data stream
-bro linux ids
-c2 command and conquer
-cacti logging
-celebrite mobile hack
-htttrack copy site
-siem security info event management
-sop standard operating proceures
-burp suite
-party kit hosting
-
-## war
-
-nimitz aircraft carrier
-aircraft carrier gerald ford latest
-
-## networking
-
-ngp next generation ,..?
-snmp
-ldap
-kerberos
-eap
-tls
-peap protected
-radius dial in
-tacacs full encryption
-ipsec
-nac network access control
-saml token sso
-dlp data loss prevention
-cyber chef
-angry ip
-open vas
-nessus vulnerability scan
-scap security content auto protocol
-cvss common vulnerabilities scoring system
-ocsp online certificate status protocol
-wireshark
-passwords.com
-sigcheck checks root certificates
-openssl
-certutil
-sslstrip - fake ssl
-htst only allows https
-openvas
-armitage
-securityonion ids
-evasion generates payloads
-meterpreter payloads for exploit
-networkminer scans local pc
-sysmon logging
-siem logs
-alienvalut = siem
-autopsy forensic analysis of drive
-encase forensic
-ftk forensic toolkit
-cellebrite
-veil create payload
-ettercap hack dns
-ettercap hack arp cache
-loic low earth orbit cannon
-beef browser exploitation framework
-cyberstalk
-osint
-google dorking
-exploit-db.com
-truthfinder.com
-the harvester
-pipl social media
-peekyou
-echosec.net
 
 
 
@@ -1520,36 +1102,6 @@ echosec.net
 
 
 
-# Random Web, Programming And Productivity
-
-### Graphics
-
-moqup
-illustrator
-sketchpad
-demoqa HTML moqups
-flinto
-[uxdesign.cc](http://uxdesign.cc/)
-d3.js
-
-### stats
-
-[statcounter.com](http://statcounter.com/)
-
-### testing
-
-selenium
-gherkin
-cucumber
-specflow
-appium is mobile extension for selenium
-gherkin syntax: feature, rule, example,
-gherkin: given.when.then.and.but
-gherkin background
-gherkin scenario template
-gherkin """ (document strings). |(Data Tables). @Tags. #Comments
-selenium page object model - pages written as classes, elements within that class
-selenium page factory initialises page items
 
 
 
@@ -1822,6 +1374,1086 @@ function isCollide(a, b) {
 }
 ```
 
+
+
+
+
+
+
+
+
+
+### ECommerce WebSites
+
+Shopify Ecommerce Website Builder   [https://www.shopify.co.uk/](https://www.shopify.co.uk/) 
+
+### Notion Keyboard Shortcuts
+
+- [ ]  [Keyboard shortcuts](https://www.notion.so/notion/Keyboard-Shortcuts-66e28cec810548c3a4061513126766b0)
+
+## NUXT over vue
+
+Mobix 
+
+## Gatsby
+
+Precompile to static onto Cdn 
+
+Data pulled into graphql 
+
+# Articles On Productivity
+
+### The 3 Most Important Skills to Learn Now to Thrive in 2019
+
+Back in September of last year, I went to live in Cambodia to work remotely on my own startup.
+
+I grew the company from 4 people to 8.
+
+In the course of the next 12 months,
+
+I also lived in Spain, India, Canada, and now I’m in Colombia.
+
+I started 3 businesses,
+
+wrote 2 books (with two bigger ones in process),
+
+wrote 300+ articles on
+
+```
+productivity, 
+
+learning, 
+
+life lessons,
+```
+
+became a top writer in 16 categories on [Medium.com](http://medium.com/) (including top 1 in Travel and top 5 in Inspiration),
+
+became healthier,
+
+opened my own light coaching program,
+
+learned 36 new skills, etc.
+
+Reading that, you may not guess that I’m actually a software engineer by trade, building video games for a living.
+
+2018 is the year I will fail the most
+
+…and so should you!
+
+Truth is, to become who you really want to become, you’re going to need to change, and change doesn’t happen overnight.
+
+But trust me, it’s not easy.
+
+Of all the skills that contributed to me thriving in 2018, I narrowed it down to the three most important in my opinion.
+
+This also comes from compiling and testing theories in some of the best self-help books in the world.
+
+I ordered them from least to most important in my mind:
+
+Skill #3: Learn to Get to Action
+
+If there’s one thing I can say without any doubt it’s that I’m a pro at getting to action.
+
+I often surprise people with having done something less than 24 hours after we talked about it.
+
+But this is also one of my big weakness.
+
+I tend to charge ahead, sometimes not thinking enough about if I even have the time to commit.
+
+This often led me to do too many things at once, not having the time to deliver quality results.
+
+But I stand by this skill.
+
+In this world, there are underthinkers and there are overthinkers, with hardly anyone in between.
+
+Underthinkers don’t think things through, and hardly follow through.
+
+Overthinkers spend so much time planning that they forget to act. You don’t want to be like that.
+
+Getting to action is also not about not planning.
+
+It’s about planning just enough and carrying through within less than a week of planning.
+
+If you don’t act, you don’t get.
+
+It’s that simple.
+
+Nothing meaningful comes to you for free.
+
+How do I learn this skill?
+
+Get into the habit of putting actions in your calendar.
+
+That’s the first step towards knowing where your time is spent and where you have actual free time.
+
+In your daily planning, always leave room for important but not urgent tasks.
+
+From 5am to 9:30am, I exclusively do things that are not considered my main job. I write, go to the gym and practice 3 skills.
+
+Take notes.
+
+Your memory is not good enough to recall things you’ve heard or seen.
+
+When you can refer back to a thought you had, you’re statistically more likely to act on it.
+
+Take notes in class, while watching videos, while listening to podcasts, while talking to people, etc.
+
+Every Friday or Saturday, I plan my activities for the next week.
+
+Every evening, after work, I review my priorities for the next day and move things around as needed.
+
+And every end of the month, I write down my goals, both professionally and personally, for the next month.
+
+I try to be as specific as possible.
+
+How much mass do I want to put on?
+
+How much money do I want to make?
+
+How many new followers do I want to have?
+
+When you have goals you firmly believe in and you review them at least once every week, you align your plans with your actions.
+
+Journal your heart out.
+
+Sometimes there are too many decisions to take and that clouds our judgment on what we should act on, leaning us to more often than not work on urgent but not important tasks.
+
+Journaling is a great way to free your mind and be aware of all the decisions that are “required” from you.
+
+Do things for others.
+
+That’s an easy but greatly overlooked trick.
+
+I learned to rock climb to help fight my fear of heights.
+
+remember the number one rule to action:
+
+The main thing is to keep the main thing the main thing.
+
+### Skill #2: Learn to Adapt to Change
+
+“It is not the strongest of species that survive; nor the most intelligent that survives. It is the most adaptable to change.” — Charles Darwin
+
+I like to think that I’m a highly adaptable person. I traveled around the world — experiencing over 50 countries, I learn 36 new skills every year (more on that below), surround myself with people of different ethnicities and religions, etc. I’m a software engineer who writes fiction and non-fiction and takes photos semi-professionally. I have adapted to every environment the world has thrown at me, and that allowed me to thrive in the past few years, and especially this year.
+
+Surely you’ve seen the need to adapt yourself. You lost your job, your partner, moved to a new city, etc. You had to adapt if only to not be miserable.
+
+I recently wrote about the fact that it’s okay to not do what you went to school for:
+
+It’s Okay if You Don’t Do What You Went to School For
+
+This morning I attended an event called Happy on Mondays, organized by Mimi Boyer. The guest speakers were inspiring…
+People who realize what they studied isn’t for them and adapt to their new environment tend to thrive more than people who settle for their subpar lives.
+
+Simply said: Comfort is opposite of thrive.
+How do I learn this skill?
+Be positive. Drop negativity. Try to drop negative words from your vocabulary: no, not, bad, etc. Here’s a full list: [https://www.enchantedlearning.com/wordlist/negativewords.shtml](https://www.enchantedlearning.com/wordlist/negativewords.shtml). When you think and talk positively, you act positively. When you are in a positive mindset, you are more open to other perspectives. When you are more open to other perspectives, you are more receptive to change. It’s fundamental and not too hard if you practice this on a daily basis. If you catch yourself thinking or saying something negative, simply stop yourself and re-phrase.
+
+Be genuinely curious. Ask questions. Curiosity is a skill a lot of high performers have. When you ask more questions than you give answers, that’s when you know you’re on your way to adaptability. In day to day conversations, how often do you inquire about other people? Do you listen to their answer? A practical thing you can do is, at the end of the day, try to recall your conversations and write down the questions you remember the answers to. When you’re in the curiosity mindset, you start to question things you’ve always taken for granted. And when that happens, you start to be more open to change.
+
+Set time aside for important but not urgent tasks. Much like above, it’s important to set blocks of time daily (or close to that) where you can focus on yourself. A time where you focus on things you’ve always wanted to do but never do because “urgent” stuff takes all your time. Take that time to learn languages, other skills, read, journal, work out, explore your city, etc.
+
+Travel. And I’m not talking about a place that looks like home to you. You are from America or Australia? Go to any parts of Africa, the Middle East, India, Mongolia, China, Japan. You’re from India? Come to Canada, especially in Winter. You’re from Europe? Go to Central and South America, East and West Africa, India, China, Japan. You’re from Asia? Go to Europe, Africa or America. You’re from Africa? Again, come to Canada (I’m so biased haha)! Travelling opens your mind to so many different experiences and makes you realize that what you know, well, it isn’t really a universal truth. Things are done differently abroad. Your method is no better than that of others. YOU are no better than others. This will kick your senses in the butt (senses have a butt, right?) and force you to adapt at speeds you never thought you ever could!
+
+Spend time in multicultural cities. Co-living in the same city with people from all around the world is one of the best experiences of my life. When I moved to Toronto, I became way more open-minded, simply by being there and making friends of different ethnicities, backgrounds, religions, etc. If you have the chance, live, if only for a little while, in a city like that. Here’s a list: [https://theculturetrip.com/north-america/usa/california/articles/the-10-most-multicultural-cities-in-the-world/](https://theculturetrip.com/north-america/usa/california/articles/the-10-most-multicultural-cities-in-the-world/)
+
+Host people from different countries. Failing to be able to travel to a different country or city, you can always host people from abroad. I’ve done it through Couchsurfing a few times. It’s safe, and frankly a lot of fun. Otherwise, you can host exchange students, expats, immigrants, etc. Having genuine exchanges with people will different perspectives broadens your opinion on things.
+
+Do things out of your comfort zone at least once a week. A while back, I read an article, which I think was from Tim Denning, where he listed a number of things to do that are out of your comfort zone, like having lunch with a homeless person, jumping in the water fully clothed, laying down on the ground in a public place only to stand back up a minute after, pretending nothing happened (I think that was popularized by Tim Ferriss), and more. I tried a few things from his list and it was eye-opening. Try it out!
+
+“I have no special talents. I am only passionately curious.” — Albert Einstein
+Skill #1: Learn to Learn
+Back in October of last year, I was doing research on how to learn faster. I was at a point in my life where I thought I wasn’t learning fast enough. That’s when I stumbled upon this video, by Josh Kaufman:
+
+That video changed my life forever. The mental block I had that it took 10,000 hours to learn a skill was completely removed. It does take 10,000 hours to master a skill, but simply learning it? It can take less than 20 hours of “smart” practice. The idea is that you learn the 20% of the material that will yield 80% of the result.
+
+But there’s more to it than that. Cram 20 hours of practice in 3 days and I guarantee you have haven’t learned anything. To learn anything in life, you have to work with your brain. You have to make your brain work for you. More on that below.
+
+Common wisdom says that you need to focus on one thing to be successful. I challenge that thought. One of my favourite quotes is this one:
+
+“The future belongs to those who learn more skills and combine them in creative ways.” — Robert Greene.
+I’m not against focus. I’m also not necessarily against “the one thing”. But how do you know what that “one thing” is until you’ve even tried other things?
+
+And that’s where learning to learn comes in.
+
+We have limited time on this planet before we’re gone. The faster and better you learn, the more you’ll thrive. The problem is, we’re never really taught how to learn which, sadly, should have been our school’s job to do that.
+
+If I thrived in 2018, it’s not because of luck. It’s not because I did the one thing. It’s because I will have deliberately learned 36 new skills. That made me more motivated, adaptable, relatable, versatile, interesting, etc.
+
+
+
+First things first, I’d strongly recommend following the Learning to Learn course on Coursera, by Barbara Oakley. It’s free and takes about a month to complete if you practice for 30 minutes a day. I did it in less than three weeks using this approach:
+
+How I Instantly Doubled my Learning Speed Using this Most Simple Trick
+
+If you’ve followed the course, you’ll understand why deliberately learning 36 new skills in a year is important. When you learn new concepts, your brain creates mental chunks. Skills are an assemblage of chunks if you will. When you develop skills, you are in fact creating many different chunks in your brain. And what’s important to note here is that these chunks, even though developed by practicing a specific skill, are actually valuable to learning other skills. Even seemingly unrelated skills.
+
+you have to deliberately work to get your brain to create chunks. 
+
+You need focused periods of time where you deliberately practice a skill and repeat the process over a number of days, weeks or months.
+
+My approach is to learn 3 new skills every month. 
+
+I practice 30 minutes each every morning for 30 days. 
+
+I usually choose skills that work completely different areas of my brain. 
+
+[www.dannyforest.com](http://www.dannyforest.com/)
+
+the more you learn, the faster and easier it becomes to learn other skills, again, thanks to the chunks you previously formed.
+
+There are two other very important aspects of learning: Resting and Smart Repetition.
+
+Resting
+
+By resting, I don’t necessarily mean sleeping. I mean calming your mind to let your subconscious do its work. It has been proven that chunks are indeed getting formed while you rest your mind.
+
+Without going into details, here are some ways to rest your mind:
+
+Cardiovascular activities (walking, jogging, biking, hiking, etc);
+Meditation;
+Journaling;
+Enjoying nature;
+Taking a shower or bath; and
+Quality sleep.
+Smart Repetition
+A great book recommendation I have is: How We Learn: The Surprising Truth About When, Where, and Why It Happens
+
+Is practicing the same thing over and over a smart way to learn things?
+
+Well, no. It turns out there’s science showing that there is an optimal time to revisit something you’re trying to learn. This seems to be especially true for non-motor skills.
+
+Basically, you try to space out the repetitions. What you learn today, recall it tomorrow, then after 2 days, then after a week, then after a month, then after a year. Chances are that by then, the knowledge will stick to your brain.
+
+The book goes into more details as to why that is.
+
+Here’s a one-sentence “formula” to summarize how to best learn new skills:
+
+Consistently do focused practice, rest your mind, and repeat in smart ways.
+
+Runner-ups
+Choosing 3 skills was insanely difficult. There are so many important factors to thriving that 3 just can’t cover everything. As such, and briefly, here are two I strongly considered putting on the list:
+
+Become Truly Self-Aware
+Check out Ryan Holiday’s book: Ego Is The Enemy
+
+Develop Influence
+Check out Brendon Burchard’s book: High Performance Habits
+
+Conclusion
+Ready to start your journey to make 2019 your best year yet?
+
+I hope you learned something important here and that it’s going to push you to action. Too many people read articles and books, never acting on them. Don’t let this article just be another one of those. If you learn to get to action, adapt to change, and learn to learn, you’re equipped to thrive not only for 2019 but for the rest of your life. So start now before it’s too late.
+
+“It can take less than 20 hours of “smart” practice. The idea is that you learn 20% of the material that will yield 80% of the result.”
+
+### Google Play Store App Signing
+
+Homepage
+Google Developers Experts
+HOMEANDROIDCLOUDMACHINE LEARNINGFIREBASEWEB TECHNOLOGIESASSISTANTEXPERTS
+Go to the profile of Joe Birch
+Joe Birch
+Android Engineering Lead at Buffer, Google Developer Expert for Android & Flutter - Passionate about mobile development and learning. [www.joebirch.co](http://www.joebirch.co/)
+Oct 19
+Exploring Google Play App Signing
+
+When distributing our Android Applications we’ve always been required to sign our APK using a keystore for our application — this has allowed us to ensure that only the developer(s) of our app are able to upload updated APKs to the play console. However, because this keystore acts as a fingerprint to the lifecycle of our application — if anything was to happen to this then we hit a bit of a tricky situation. Because of the disadvantages that the current signing process brings, Google Play App Signing is here to help make things smoother. In this article I want to dive into this App Signing method so that we can get it integrated into our applications.
+
+App Signing is a new process available for developers that allows us to offload the signing of our release APKs onto Google. Once we have provided the Play Console with our app signing key, we can upload our APK and Google will sign them for us prior to delivering it to our users.
+
+Whilst the current way of signing APKs works, there are some flaws which can often bring a little bit of fear to the minds of developers:
+
+If you lose your key then this prevents you from updating your application. Maybe your computer fails, your backup is lost or it is just misplaced in some way — any situation where your key is lost means you will not be able to update your application.
+Your key could become compromised by someone with malicious intent — in this case the person with the key can update your application and because there is no way of revoking this access, there’s not too much you can do to regain access to your key.
+When using Google App Signing, the huge advantage is that Google manages the signing key for our application — meaning that we can relieve the pressure of being completely responsible for our keystore. When it comes to App Signing there are two different keys that are used for the signing process:
+
+App Signing Key — The key used by Google to sign the APK prior to release
+Upload Key — A key used by the developer to upload the APK to the Play Console
+As you can see, developers will still be required to keep their own copy of the Upload Key for use when uploading APKs — the difference now is that this Upload Key is not responsible for the signing of a release build, it is simply used to identify the developer who is making the upload. Because this is not a unique key used for signing the release APK of an application, it means that it can be replaced by Google at any time. So if an Upload Key is lost, compromised or should no longer have upload rights for whatever reason then Google can revoke this key and generate a new one for use.
+
+So to sum this up, you can view the Upload Key as an authoritative key, but not a master key — it gives permission for the Developer to upload APKs to the Play Console but not distribute them, that role comes under the permissions of the App Signing Key.
+
+If you’re uploading APKs for your application then this process is completely optional, you are welcome to continue managing your own keys — bearing in mind that you will not be able to make use of any advantages that App Signing brings. For example, if your signing key is lost or compromised then you will not longer be able to upload updated APKs for your application.
+
+When it comes to the Android App Bundle format, App Signing is a compulsory process. This is because when it comes to App Bundles, Google Play needs to be able to sign the APKs for you before distribution — so there is no way to be able to carry out this flow when keys are managed by the developer.
+
+Regardless of whether you’re using APKs or the App Bundle format, let’s take a look at how we can setup App Signing in our own applications.
+
+Porting an existing app
+For this example we’re going to take a look at enabled App Signing for an existing application in the Play Console. Before we get started though it is important to note that once you opt-in for App Signing you cannot switch back to manual key management — so be sure that you definitely want to make the switch before you enable it. And if you’re unsure, maybe try it out on a sample app just to be sure (that’s exactly what I did!).
+
+To begin with, we need to navigate to the App Signing section in the console. This can be found in the Navigation Drawer under Release Management > App Signing. When you reach this page, you will be presented with the Terms of Service for App Signing that you will need to accept before you can continue.
+
+On this screen you’ll then notice that you have three options to setup App Signing, we’ll be using the second, You haven’t exported your app signing key, option to export and upload our signing key.
+
+Configure an app signing key
+
+You’ll need to begin by downloading the Play Encrypt Private Key tool (in the form of a jar file) that will be used to encrypt your key before uploading. Once downloaded, you’ll see the command within the setup process that you need to run, this will look a little something like this:
+
+java -jar pepk.jar — keystore=your.keystore — alias=your_alias— output=some_file_name —- encryptionkey=your_encryption_key
+Here you’ll execute the pepk.jar file that we previously downloaded and pass some information along as arguments.
+
+To begin with we must provide the path to the keystore which we wish to encrypt.
+Next, we provide the alias which is used to access the keystore that we are encrypting.
+We then provide a desired file name for the output argument, this will be the name of the file that is generated for us
+Finally, the encryption key value which is provided in the code displayed by the Play Console during this process.
+When you run this command you will be asked for your keystore password. Upon entering it, the app signing key will be generated and placed in the given output path. At this point you can then upload the key using the given button in the setup process.
+
+Configure an upload key
+Just before you hit the enrol button, you may notice an optional section which offers enhanced security for your application signing key — this is referring to the upload key that we previously brushed over and the keystore used to generate this. Whilst this may feel like no change from previously managing a key — the whole point of this is to allow a different key to be used for the upload process than the signing process. The upload key is not a part of the Android security model, so it cannot be used to sign APKs, only upload them.
+
+Generating an upload key is a single step process. We can create a new keystore for our upload process, and then use the following command to generate the required pem file for upload.
+
+keytool -export -rfc -keystore upload-keystore.jks -alias upload -file upload_certificate.pem
+Once generated, you will be able to upload this file to the console where requested.
+
+Once you’ve hit enrol, the App Signing screen will be reloaded and you will be shown the success notice for App Signing setup:
+
+You’ll also notice here that there are a collection of fingerprints available for both the Signing and Upload certificates, available for download should they be required.
+
+Now at any point if your upload key is lost of compromised, you can create a new Upload Key using the same steps that we carried above and contact Google through this form to provide a new upload key to be used. Note, only the account owner will be able to make this request.
+
+Signing for new Applications
+If you’re creating a new application then this whole process doesn’t apply to you, as App Signing is enabled by default for you! When visiting the App Releases section of the play console for a new application (once you’ve uploaded an APK), you’ll see the following message:
+
+Whilst most of the work here is done for us, there’s a couple of options that we can use to configure our keys here. To begin with, if you choose not to dismiss the message using Continue, you can Opt Out of App Signing by hitting the button shown on the left hand side.
+
+However, you also have the choice to reuse a signing key — this means that the Signing Key used by Google Play for another project of yours can also be used for this new project that you’re creating. This can however pose a security risk as if for whatever reason your account become compromised, then all of your applications that depend on the compromised key could be at risk.
+
+In this article we’ve learnt about what App Signing is and how we can integrate it into our upload / release process. Putting this in place allows you to remove the responsibility of security from your team and let Google take care of that side of things — protecting you from losing or having your key become compromised. If you have any questions about App Signing, or experiences to share of your own then please get in touch!
+
+Joe Birch (@hitherejoe) | Twitter
+
+### Shopify
+
+### Sinatra
+
+State of Javascript Survey  [https://stateofjs.com/](https://stateofjs.com/) 
+
+### Cloud Storage
+
+[https://www.backblaze.com/](https://www.backblaze.com/) 
+
+[https://cloudinary.com/](https://cloudinary.com/) 
+
+### Summarise HTML document
+
+[https://pypi.org/project/sumy/](https://pypi.org/project/sumy/) 
+
+### Data Visualization
+
+[https://nivo.rocks/](https://nivo.rocks/) 
+
+DOMPURIFY
+
+DON'T PUT A NAME FOR SENSITIVE FIELDS
+ACTION=POST BY DEFAULT
+
+
+
+
+
+
+### Surveys
+
+[https://www.typeform.com/](https://www.typeform.com/) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## no code
+
+```
+NoCode Design
+creately.com
+
+NoCode
+Webflow.com start here
+Codemeetsnocode.com
+Make.com
+Bubble.io
+Jetboost.io
+Aatt.io
+Airtree.vc
+relume.io/projects/airtree
+Library.relume.io
+Strapi.io
+Zapier.com
+wix.com/velo
+Nocode.tech
+Payments
+Memberstack.com
+Snipcart
+Stripe
+Database
+Airtable
+Flowbase
+Bit.io
+Firestore
+Mongodb
+Nocodb
+baserow.io
+```
+
+
+
+
+
+
+
+## random
+
+```
+Deno
+ZIG
+Pug
+ASCIIdoce
+OpenWeatherMap.org API
+Dribble.com designs
+Lodash out … just in …
+CDK cloud development kit
+LogRocket session replay
+
+Text-to-Speech
+Speechify.com
+
+
+TS
+Effective laying out of typescript files https://effectivetypescript.com/2022/07/30/treemap-for-source-files
+
+
+
+Hosting
+Cloudflare tunnels allow private hosting .. better than NGrok .... same as localTunnel
+Mux can host videos
+
+Website Building
+Nocode websites ... wix ... web flow 
+AWS
+Elastic Beanstalk is a container to hold VPC - Platform as a service - Just put code in there - and run! - Allows quick deployment of code - Don't have to worry about managing the environment
+AWS Code Pipeline
+AWS Code Deploy
+Lambda Serverless - https://serverlesshandbook.dev/ - Auto scaling - Only pay for compute you use - Event-driven computing - http → API gateway - AWS Code Pipeline and AWS Code Deploy can deploy your app - Cloudwatch Events can also trigger code - Good for backups, processing, IOT, serverless websites, ETL
+```
+
+## cloud
+
+```
+Microservice
+Orchestrator
+Kubernetes
+Terraform
+Provision : Chef Puppet Ansible
+Packer replaces Vagrant
+Pipeline
+Mutable pipeline
+Immutable - can build from scratch and should be the same
+Snowflake server demands extra special configuration once the base build has been completed
+Identity with containers
+Isolation of containers
+
+AWS has MOST web-facing servers in world
+Digital Ocean has about HALF the number of Amazon, and is the second biggest hosting site of web-facing servers in the world
+Mesosphere uses DigitalOcean to create a self-healing environment with fault tolerance and scalability. Use API to manage thousands of 'droplets'
+SmartOS - hypervisor - virtual OS in a container - runs in RAM only
+NetBSD - open source UNIX-like
+HLS HTTP Live Streaming by apple, most popular
+```
+
+## apple
+
+https://developer.apple.com/videos/wwdc2023/
+
+
+## Terms
+
+```
+Functional programming uses pure functions and immutability
+Pure function always returns the same result given a fixed input. It has no side effects.
+Function side effect modifies the environment outside of itself
+GRPC is new way to send dataGDI
+Animations
+Resource Dictionary
+INotify Property Changed
+MVVM
+x:Class
+XMLNS is the same as a using; statement <x:myelement>
+Canvas : absolute position, no resizing, zindex="1", rectangle, ellipse, path
+```
+
+## Web Terms
+
+```
+https://koajs.com/ is an upgrade to Express and used to create a server
+Babel -
+blog.stevensanderson.com/2018/02/06/blazor-intro
+BOM
+CMS
+Code Splitting is automatic based on your route
+codeSandbox
+Codingame.com For kids
+Create-React-App
+CSS in JS
+devhints.io
+Front End Masters
+Gatsby - uses Webpack
+github.com/netlify-templates/victor-hugo
+GraphQL replace REST API
+Grunt - Task Runner, very old now. Replaced by Gulp?
+Gulp - replaced by Webpack.
+Headless browser for automation - Chromium, Zombie, SlimerJS
+https://stateofjs.com - The State Of Javascript Survey
+jamstack.org
+Javascript Array Explorer
+Javascript Generators
+Javascript Object Explorer
+Javascript Symbol
+JS Templates
+Meteor - easy to add packages
+MPA Multi Page App
+MVC is on the way out
+Native environments : Flutter, ReactNative
+NextJS -
+NextJS - consumes Markdown and creates HTML/CSS/JS
+Open Web Platform
+Open Web Platform
+Page Load Speed - 200ms is an acceptable limit
+Parcel2 - write parcelindex.html and needs Babel
+React - uses Parcel
+SASS -
+Scrimba screencast
+SEO
+SPA Single Page App only update the data between refreshes, not the page. Examples are Facebook and Trello.
+StackBliz
+Static Site Generator
+Typescript compiles to javascript with tsc myfile.ts and is installed with npm install -g typescript. Syntax is very similar to Javascript
+Webpack - replaced Gulp.
+Webview retrieves HTML for an IOS or Android app eg Cordova mobile, NW.js or Electron
+zeit.co/docs
+IndexedDb - a local database in the browser, similar to localStorage but more complex
+Cordova - build multi-platform mobile and web apps
+Fastlane tools used to deploy and build eg Cordova apps
+Headless browser is used for UI browser testing ie it's faster as it performs the tests but doesn't actually load up the browser and show the clicks
+Webpack is a bundler to bundle all the files together into one 'dist' bundle for ease of distribution and ease of running together as one unit
+Babel is a Javascript 6 to 5 compiler which ensures the latest Javascript 6 will also work on all Javascript 5 devices.
+ECMAScript is the official name for Javascript
+Karma runs tests by running your application inside a web server, and then running tests on the live application
+Mocha tests Javascript
+Chai is used with Mocha for assertion true/false
+
+Serveless Function - run on AWS, Netlify
+ServerlessJS provides serverless functions
+NextJS9 provides serverless functions
+AWS Lambda Functions enables you to create a mini server and just put the code in the cloud
+Azure - Managed Service Identities can remove credentials from code
+Business - Unicorn is private company worth more than $1Bn
+Graphics - Balsamic tool to create designs
+Graphics - PixlrExpress is a web-based image editor
+Markdown - FrontMatter is metadata about the Markdown file eg Name, link to MP3, timestamp
+```
+
+
+
+
+
+
+
+
+
+
+
+## random
+
+```
+vpn split tunnel
+psc password settings container
+img.src.value
+```
+
+
+
+
+## streaming
+
+```
+dash dynamic active streaming over http - shaka, vlc, videojs, libdash, best quality and best on-demand
+hls http live streaming, best for live and best for apple smooth streaming
+scte-35 marker - can insert advert of x seconds
+ala watermark
+ala breakpoint
+mpd manifest of fragments
+ms playready encryption
+google widevine encryption
+cpm cost per minute
+dai dynamic advert insertion
+csai client side advert insertion
+ssai server side advert insertion
+ala addressable linear adverts
+dai swaps whole advert break or nothing; ala swaps individual adverts
+hylda hybrid linear digital adverts ensures breakdown of each adpod is suitable
+l2vod live-to-vod is extended restart after finish
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## functional programming languages
+
+```
+Haskell,  
+ML 
+OCaml
+Scala
+F#
+```
+
+
+
+
+
+## Wed 20 December 2023
+
+```
+
+img.src.value = "mypicture.jpg"
+img.src = "mypicture.jpg"
+w3.org
+ietf.org
+rfc
+utf8
+utf16 any language
+pixlr image editing
+pexels stock photos
+functional programming
+pure functions
+deterministic pure functions have same output given same input
+deterministic pure functions have no side effects
+functional programming imperative = workflow
+functional programming declarative = what to do with data?
+kotlin prevents npe null pointer exceptions errors
+flux emits stream of items
+flux<string>
+kotlin rx reactive extensions have callback onNext onCompleted and onError
+kotlin val immutable
+kotlin var mutable
+kotlin input data val scanner = Scanner(system.in)
+&&
+xor
+||
+poser people modelling software
+randomuser.me random user generator
+```
+
+## bash
+
+```
+cht.sh
+when-life-gives-you-lemons-write-better-error-messages
+alias myip=curl 1.2.3.4
+function mkcd() { mkdir -p "$@" && cd "&@" }
+function gitpush() { git add . && git commit -m "$@" && git push }
+Next edit the file ~ /.bash_profile
+alias chrome="open -a 'Google Chrome'"
+export PATH="/Applications/Google Chrome.app/Contents/MacOS:$PATH"
+source "/Users/tech-a21/.aliases.sh"  # General aliases and functions defined by me
+Now opening a new terminal should contain these new scripts
+
+show hidden files and folder ... defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
+function gitTag(){ git tag -a "$1" && -m "$2" && git push -origin tags } 
+sudo find / -name \\*bashrc\\*
+open .    opens window in finder
+stdin 0
+stdout 1
+stderr 2
+open -a "Google Chrome" mysite.html
+Edit ~/.bash_profile file and add the following line alias chrome="open -a 'Google Chrome'"
+
+stdin 0
+stdin 1  set the output channel
+stderr 
+open -a "Google Chrome" index.html
+.bash_profile is where we set the terminal profile launch settings
+alias chrome=open -a "Google Chrome"
+alias edge=open -a "Microsoft Edge"
+vi myFile.txt
+vi i opens file in insert mode 
+vi escape :wq save and quit
+vi escape :q quit without saving
+vi :return next line
+vi :space next page
+vi :q quit
+vi :w previous page
+vi :h help
+sudo crontab -e schedules a cron job
+sudo crontab -e // i . (insert mode) // minutes hours days month dayoftheweek path-to-script.sh eg 00 08 * * * // :wq to save and exit
+printenv
+env  
+printenv PATH
+echo $PATH
+.bash_profile / .zsh_profile etc
+export name=envaironmentvariable
+launchctl setenv name environmentvariable
+ps process status
+ps aux lists all processes
+ps -A lists all processes
+top lists top processes
+exe does not exist in linux - any file can be executed if it has the 'execute' permission
+```
+
+
+## windows labs
+
+```
+vpn split tunneling in vpn, properties, networking, ipv4, advanced, use default gateway on remote network
+
+psc password settings container in aduc, view, advanced, default domain policy, properties, attribute editor, password, make changes
+
+offline files enable at sync center, offline files, enable
+```
+
+
+
+
+
+
+
+## macos
+
+show hidden files - defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
+
+
+## bash
+
+cht.sh cheat sheet for linux commands
+bash is bourne again shell
+ps process status
+ls -1 list just names one by one
+ls -R list files in subfolders
+top top processes  
+.bash_profile loads when terminal loads
+.zprofile and .zshrc load when zshell loads
+
+
+
+
+
+
+
+
+## vi
+
+vi myfile
+i insert mode
+escape :wq save and quit
+escape :q quit
+
+## bash
+
+sudo crontab -e then add this line minutes hours dayofmonth monthofyear dayofweek file
+printenv will show environment variables
+env will show environment variables 
+printenv PATH show just PATH
+echo $PATH show just PATH
+export field=value add to environment values so now printenv field returns value
+launchctl setenv field value permanently adds to environment variables
+ps process status
+ps aux all processes
+ps -A all processes
+top most important processes
+
+
+
+
+## azure 
+
+resize-vhd -path ... -sizebytes 1234
+vm node fairness load balances
+vm start order
+storage spaces
+storage qos minimum iops in out per second
+storage replica
+srg synchronous replication group
+storage deduplication
+vrss virtual receive site scaling
+.vmcx virtual  machine configuration
+.vmrs vm runtime state
+get-vm -name myVM | format-list *
+vmgroups
+$vm1 = get-vm -name myvm1
+new-vmgroup -name mygroup -grouptype vmcollectiontype
+$mygroup = get-vmgroup -name mygroup
+add-vmgroupmember -vmgroup $mygroup -vm $vm1
+get-vm | format name, state, groups - autosize
+vm management group can contain a) vmgroup b) vm
+new-vmgroup -name mymanagementgroup -grouptype managementcollectiontype
+move-vm myvm newvmhost
+lab add recovery agent - group policy - computer configuration - settings - key - policies - data recovery agents 
+lab recovery bitlocker drive - 1) add user in group policy, computer, settings, key, policies, drive, encryption 2) add drive id 2) group policy, computer, templates, components, bitlocker 3) enable dra recovery on the policies 4) recover i) os drives ii) data drives iii) removable drives
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## random
+
+exfiltrate
+kill chain
+insecam
+netflow
+os fingerprint
+footprint
+mx memory data
+dep data execution prevention
+cve common vulnerabilities and exposing
+tryhackme
+mimikatz
+netdiscover
+openvas
+armitage red team
+exploit scanner
+msf
+burpsuite
+dirbuster
+getent
+snort
+nazsi
+f18
+f35
+mk49
+mk29
+scsi
+squert
+hping
+ddos
+evasion
+crawl
+angry ip
+qualsys
+nexpose
+credential scan
+energy
+power
+conduction
+openvas
+armitage exploit scan
+nikto
+ads alternate data stream
+bro linux ids
+c2 command and conquer
+cacti logging
+celebrite mobile hack
+htttrack copy site
+siem security info event management
+sop standard operating proceures
+burp suite
+party kit hosting
+
+
+
+
+
+# Random Web, Programming And Productivity
+
+### Graphics
+
+moqup
+illustrator
+sketchpad
+demoqa HTML moqups
+flinto
+[uxdesign.cc](http://uxdesign.cc/)
+d3.js
+
+### stats
+
+[statcounter.com](http://statcounter.com/)
+
+### testing
+
+selenium
+gherkin
+cucumber
+specflow
+appium is mobile extension for selenium
+gherkin syntax: feature, rule, example,
+gherkin: given.when.then.and.but
+gherkin background
+gherkin scenario template
+gherkin """ (document strings). |(Data Tables). @Tags. #Comments
+selenium page object model - pages written as classes, elements within that class
+selenium page factory initialises page items
+
+
+
+
+
+
+## war
+
+nimitz aircraft carrier
+aircraft carrier gerald ford latest
+
+## networking
+
+ngp next generation ,..?
+snmp
+ldap
+kerberos
+eap
+tls
+peap protected
+radius dial in
+tacacs full encryption
+ipsec
+nac network access control
+saml token sso
+dlp data loss prevention
+cyber chef
+angry ip
+open vas
+nessus vulnerability scan
+scap security content auto protocol
+cvss common vulnerabilities scoring system
+ocsp online certificate status protocol
+wireshark
+passwords.com
+sigcheck checks root certificates
+openssl
+certutil
+sslstrip - fake ssl
+htst only allows https
+openvas
+armitage
+securityonion ids
+evasion generates payloads
+meterpreter payloads for exploit
+networkminer scans local pc
+sysmon logging
+siem logs
+alienvalut = siem
+autopsy forensic analysis of drive
+encase forensic
+ftk forensic toolkit
+cellebrite
+veil create payload
+ettercap hack dns
+ettercap hack arp cache
+loic low earth orbit cannon
+beef browser exploitation framework
+cyberstalk
+osint
+google dorking
+exploit-db.com
+truthfinder.com
+the harvester
+pipl social media
+peekyou
+echosec.net
+
+
+
+
+
+
+
+
+
+
+
+
 # Random List 1 - mostly web
 
 ## bundling
@@ -1860,6 +2492,49 @@ webpack and Babel [https://medium.com/oredi/webpack-with-babel-7-b61f…](https:
 Promises and Async [https://strongloop.com/strongblog/node-js-callback…](https://strongloop.com/strongblog/node-js-callback%E2%80%A6)
 
 reduce()
+
+
+
+
+
+
+
+
+
+
+
+
+## React terms
+
+Immutability
+
+Declarative
+
+Efficient
+
+Build User Interfaces
+
+React.Component subclasses
+
+XML-like tags
+
+Props
+
+React COMPONENT CLASS
+
+React COMPONENT TYPE
+
+Component takes in parameters which are called PROPS
+
+
+
+
+
+
+
+## web terms
+
+
 
 Webpack
 Code split webpack bundles so get loaded in parallel
@@ -1905,6 +2580,8 @@ jsx
 ```
 
 
+
+
 ## Random
 
 [https://nest.com/uk/](https://nest.com/uk/) Google IO
@@ -1921,6 +2598,12 @@ IOT for all website
 [https://stripe.com/docs](https://stripe.com/docs)
 NEXTJS examples [https://github.com/zeit/next.js/tree/master/examples](https://github.com/zeit/next.js/tree/master/examples)[https://www.meteor.com/](https://www.meteor.com/)[https://medium.com/@olotintemitope/how-to-generate-your-api-documentation-in-20-minutes-4e0072f08b94](https://medium.com/@olotintemitope/how-to-generate-your-api-documentation-in-20-minutes-4e0072f08b94)[https://graphql.org/learn/](https://graphql.org/learn/)[http://usejsdoc.org/](http://usejsdoc.org/) creates documentation
 Microsoft Artificial Intelligence Developers Guide EBook [https://info.microsoft.com/rs/157-GQE-382/images/EN-US-CNTNT-eBook-AI-A-Developer's-Guide-to-Building-AI-Applications.pdf?LCID=en-us&mkt_tok=eyJpIjoiTW1FNVlUUTROREUwTlRkaCIsInQiOiIzb25wUUhPQmdYSVVxaWZOVExweGhTXC9haHRaejVjczgwSVY5XC9kYXdQaXJMb1RoSGdvaDFhMlRjSkk3SG9LcjZGTFU4WWpJOVhUQTNwM3NFQnBDbU91Q3MzVEhlV1lmNWc1S2xyZjNBd1lhYTAxbDFITWI1eEpoeW9UZzdrU0RuZjg1VUZqN1FyaklCTVEwNjA4dGNOZz09In0%3D](https://info.microsoft.com/rs/157-GQE-382/images/EN-US-CNTNT-eBook-AI-A-Developer%27s-Guide-to-Building-AI-Applications.pdf?LCID=en-us&mkt_tok=eyJpIjoiTW1FNVlUUTROREUwTlRkaCIsInQiOiIzb25wUUhPQmdYSVVxaWZOVExweGhTXC9haHRaejVjczgwSVY5XC9kYXdQaXJMb1RoSGdvaDFhMlRjSkk3SG9LcjZGTFU4WWpJOVhUQTNwM3NFQnBDbU91Q3MzVEhlV1lmNWc1S2xyZjNBd1lhYTAxbDFITWI1eEpoeW9UZzdrU0RuZjg1VUZqN1FyaklCTVEwNjA4dGNOZz09In0%3D)
+```
+
+
+
+
+
 
 ```
 Love something tutorials . Com / store
@@ -1934,12 +2617,8 @@ A11y
 Android auto app
 iOS auto app
 iOS car play
-```
 
-[https://css-tricks.com/why-using-reduce-to-sequentially-resolve-promises-works/](https://css-tricks.com/why-using-reduce-to-sequentially-resolve-promises-works/)[https://github.com/leonardomso/33-js-concepts#readme](https://github.com/leonardomso/33-js-concepts#readme)[https://wallabyjs.com/docs/intro/advanced-logging.html](https://wallabyjs.com/docs/intro/advanced-logging.html)[https://scotch.io/bar-talk/5-tips-to-write-better-conditionals-in-javascript](https://scotch.io/bar-talk/5-tips-to-write-better-conditionals-in-javascript)[https://dev.to/denisinvader/creating-an-interactive-map-with-d3-and-vue-4158](https://dev.to/denisinvader/creating-an-interactive-map-with-d3-and-vue-4158)
-Free copy file with verification : TeraCopy : [https://www.codesector.com/downloads](https://www.codesector.com/downloads)[https://www.styled-components.com/](https://www.styled-components.com/)
 
-```
 Templating
 Promise.all
 Object.entries
@@ -2076,7 +2755,11 @@ Threading [https://jj09.net/multithreading-csharp-vs-java/](https://jj09.net/mul
 Structs : Developers at Microsoft recommend using a struct in place of a class only for types which are smaller than 16 bytes, are immutable, are short-lived and are not frequently boxed.
 Bob Tabor teaches C# for beginners
 Visual Studio App Center
-```
+
+
+
+
+
 
 ## CSS
 CSS Grid with Traversy
@@ -2901,399 +3584,12 @@ AppContainer permits a clean uninstall
 Application LifeCycle events are on the server : Global.asax
 ```
 
-### ECommerce WebSites
 
-Shopify Ecommerce Website Builder   [https://www.shopify.co.uk/](https://www.shopify.co.uk/) 
 
-### Notion Keyboard Shortcuts
 
-- [ ]  [Keyboard shortcuts](https://www.notion.so/notion/Keyboard-Shortcuts-66e28cec810548c3a4061513126766b0)
 
-## NUXT over vue
 
-Mobix 
 
-## Gatsby
-
-Precompile to static onto Cdn 
-
-Data pulled into graphql 
-
-# Articles On Productivity
-
-### The 3 Most Important Skills to Learn Now to Thrive in 2019
-
-Back in September of last year, I went to live in Cambodia to work remotely on my own startup.
-
-I grew the company from 4 people to 8.
-
-In the course of the next 12 months,
-
-I also lived in Spain, India, Canada, and now I’m in Colombia.
-
-I started 3 businesses,
-
-wrote 2 books (with two bigger ones in process),
-
-wrote 300+ articles on
-
-```
-productivity, 
-
-learning, 
-
-life lessons,
-```
-
-became a top writer in 16 categories on [Medium.com](http://medium.com/) (including top 1 in Travel and top 5 in Inspiration),
-
-became healthier,
-
-opened my own light coaching program,
-
-learned 36 new skills, etc.
-
-Reading that, you may not guess that I’m actually a software engineer by trade, building video games for a living.
-
-2018 is the year I will fail the most
-
-…and so should you!
-
-Truth is, to become who you really want to become, you’re going to need to change, and change doesn’t happen overnight.
-
-But trust me, it’s not easy.
-
-Of all the skills that contributed to me thriving in 2018, I narrowed it down to the three most important in my opinion.
-
-This also comes from compiling and testing theories in some of the best self-help books in the world.
-
-I ordered them from least to most important in my mind:
-
-Skill #3: Learn to Get to Action
-
-If there’s one thing I can say without any doubt it’s that I’m a pro at getting to action.
-
-I often surprise people with having done something less than 24 hours after we talked about it.
-
-But this is also one of my big weakness.
-
-I tend to charge ahead, sometimes not thinking enough about if I even have the time to commit.
-
-This often led me to do too many things at once, not having the time to deliver quality results.
-
-But I stand by this skill.
-
-In this world, there are underthinkers and there are overthinkers, with hardly anyone in between.
-
-Underthinkers don’t think things through, and hardly follow through.
-
-Overthinkers spend so much time planning that they forget to act. You don’t want to be like that.
-
-Getting to action is also not about not planning.
-
-It’s about planning just enough and carrying through within less than a week of planning.
-
-If you don’t act, you don’t get.
-
-It’s that simple.
-
-Nothing meaningful comes to you for free.
-
-How do I learn this skill?
-
-Get into the habit of putting actions in your calendar.
-
-That’s the first step towards knowing where your time is spent and where you have actual free time.
-
-In your daily planning, always leave room for important but not urgent tasks.
-
-From 5am to 9:30am, I exclusively do things that are not considered my main job. I write, go to the gym and practice 3 skills.
-
-Take notes.
-
-Your memory is not good enough to recall things you’ve heard or seen.
-
-When you can refer back to a thought you had, you’re statistically more likely to act on it.
-
-Take notes in class, while watching videos, while listening to podcasts, while talking to people, etc.
-
-Every Friday or Saturday, I plan my activities for the next week.
-
-Every evening, after work, I review my priorities for the next day and move things around as needed.
-
-And every end of the month, I write down my goals, both professionally and personally, for the next month.
-
-I try to be as specific as possible.
-
-How much mass do I want to put on?
-
-How much money do I want to make?
-
-How many new followers do I want to have?
-
-When you have goals you firmly believe in and you review them at least once every week, you align your plans with your actions.
-
-Journal your heart out.
-
-Sometimes there are too many decisions to take and that clouds our judgment on what we should act on, leaning us to more often than not work on urgent but not important tasks.
-
-Journaling is a great way to free your mind and be aware of all the decisions that are “required” from you.
-
-Do things for others.
-
-That’s an easy but greatly overlooked trick.
-
-I learned to rock climb to help fight my fear of heights.
-
-remember the number one rule to action:
-
-The main thing is to keep the main thing the main thing.
-
-### Skill #2: Learn to Adapt to Change
-
-“It is not the strongest of species that survive; nor the most intelligent that survives. It is the most adaptable to change.” — Charles Darwin
-
-I like to think that I’m a highly adaptable person. I traveled around the world — experiencing over 50 countries, I learn 36 new skills every year (more on that below), surround myself with people of different ethnicities and religions, etc. I’m a software engineer who writes fiction and non-fiction and takes photos semi-professionally. I have adapted to every environment the world has thrown at me, and that allowed me to thrive in the past few years, and especially this year.
-
-Surely you’ve seen the need to adapt yourself. You lost your job, your partner, moved to a new city, etc. You had to adapt if only to not be miserable.
-
-I recently wrote about the fact that it’s okay to not do what you went to school for:
-
-It’s Okay if You Don’t Do What You Went to School For
-
-This morning I attended an event called Happy on Mondays, organized by Mimi Boyer. The guest speakers were inspiring…
-People who realize what they studied isn’t for them and adapt to their new environment tend to thrive more than people who settle for their subpar lives.
-
-Simply said: Comfort is opposite of thrive.
-How do I learn this skill?
-Be positive. Drop negativity. Try to drop negative words from your vocabulary: no, not, bad, etc. Here’s a full list: [https://www.enchantedlearning.com/wordlist/negativewords.shtml](https://www.enchantedlearning.com/wordlist/negativewords.shtml). When you think and talk positively, you act positively. When you are in a positive mindset, you are more open to other perspectives. When you are more open to other perspectives, you are more receptive to change. It’s fundamental and not too hard if you practice this on a daily basis. If you catch yourself thinking or saying something negative, simply stop yourself and re-phrase.
-
-Be genuinely curious. Ask questions. Curiosity is a skill a lot of high performers have. When you ask more questions than you give answers, that’s when you know you’re on your way to adaptability. In day to day conversations, how often do you inquire about other people? Do you listen to their answer? A practical thing you can do is, at the end of the day, try to recall your conversations and write down the questions you remember the answers to. When you’re in the curiosity mindset, you start to question things you’ve always taken for granted. And when that happens, you start to be more open to change.
-
-Set time aside for important but not urgent tasks. Much like above, it’s important to set blocks of time daily (or close to that) where you can focus on yourself. A time where you focus on things you’ve always wanted to do but never do because “urgent” stuff takes all your time. Take that time to learn languages, other skills, read, journal, work out, explore your city, etc.
-
-Travel. And I’m not talking about a place that looks like home to you. You are from America or Australia? Go to any parts of Africa, the Middle East, India, Mongolia, China, Japan. You’re from India? Come to Canada, especially in Winter. You’re from Europe? Go to Central and South America, East and West Africa, India, China, Japan. You’re from Asia? Go to Europe, Africa or America. You’re from Africa? Again, come to Canada (I’m so biased haha)! Travelling opens your mind to so many different experiences and makes you realize that what you know, well, it isn’t really a universal truth. Things are done differently abroad. Your method is no better than that of others. YOU are no better than others. This will kick your senses in the butt (senses have a butt, right?) and force you to adapt at speeds you never thought you ever could!
-
-Spend time in multicultural cities. Co-living in the same city with people from all around the world is one of the best experiences of my life. When I moved to Toronto, I became way more open-minded, simply by being there and making friends of different ethnicities, backgrounds, religions, etc. If you have the chance, live, if only for a little while, in a city like that. Here’s a list: [https://theculturetrip.com/north-america/usa/california/articles/the-10-most-multicultural-cities-in-the-world/](https://theculturetrip.com/north-america/usa/california/articles/the-10-most-multicultural-cities-in-the-world/)
-
-Host people from different countries. Failing to be able to travel to a different country or city, you can always host people from abroad. I’ve done it through Couchsurfing a few times. It’s safe, and frankly a lot of fun. Otherwise, you can host exchange students, expats, immigrants, etc. Having genuine exchanges with people will different perspectives broadens your opinion on things.
-
-Do things out of your comfort zone at least once a week. A while back, I read an article, which I think was from Tim Denning, where he listed a number of things to do that are out of your comfort zone, like having lunch with a homeless person, jumping in the water fully clothed, laying down on the ground in a public place only to stand back up a minute after, pretending nothing happened (I think that was popularized by Tim Ferriss), and more. I tried a few things from his list and it was eye-opening. Try it out!
-
-“I have no special talents. I am only passionately curious.” — Albert Einstein
-Skill #1: Learn to Learn
-Back in October of last year, I was doing research on how to learn faster. I was at a point in my life where I thought I wasn’t learning fast enough. That’s when I stumbled upon this video, by Josh Kaufman:
-
-That video changed my life forever. The mental block I had that it took 10,000 hours to learn a skill was completely removed. It does take 10,000 hours to master a skill, but simply learning it? It can take less than 20 hours of “smart” practice. The idea is that you learn the 20% of the material that will yield 80% of the result.
-
-But there’s more to it than that. Cram 20 hours of practice in 3 days and I guarantee you have haven’t learned anything. To learn anything in life, you have to work with your brain. You have to make your brain work for you. More on that below.
-
-Common wisdom says that you need to focus on one thing to be successful. I challenge that thought. One of my favourite quotes is this one:
-
-“The future belongs to those who learn more skills and combine them in creative ways.” — Robert Greene.
-I’m not against focus. I’m also not necessarily against “the one thing”. But how do you know what that “one thing” is until you’ve even tried other things?
-
-And that’s where learning to learn comes in.
-
-We have limited time on this planet before we’re gone. The faster and better you learn, the more you’ll thrive. The problem is, we’re never really taught how to learn which, sadly, should have been our school’s job to do that.
-
-If I thrived in 2018, it’s not because of luck. It’s not because I did the one thing. It’s because I will have deliberately learned 36 new skills. That made me more motivated, adaptable, relatable, versatile, interesting, etc.
-
-
-
-First things first, I’d strongly recommend following the Learning to Learn course on Coursera, by Barbara Oakley. It’s free and takes about a month to complete if you practice for 30 minutes a day. I did it in less than three weeks using this approach:
-
-How I Instantly Doubled my Learning Speed Using this Most Simple Trick
-
-If you’ve followed the course, you’ll understand why deliberately learning 36 new skills in a year is important. When you learn new concepts, your brain creates mental chunks. Skills are an assemblage of chunks if you will. When you develop skills, you are in fact creating many different chunks in your brain. And what’s important to note here is that these chunks, even though developed by practicing a specific skill, are actually valuable to learning other skills. Even seemingly unrelated skills.
-
-you have to deliberately work to get your brain to create chunks. 
-
-You need focused periods of time where you deliberately practice a skill and repeat the process over a number of days, weeks or months.
-
-My approach is to learn 3 new skills every month. 
-
-I practice 30 minutes each every morning for 30 days. 
-
-I usually choose skills that work completely different areas of my brain. 
-
-[www.dannyforest.com](http://www.dannyforest.com/)
-
-the more you learn, the faster and easier it becomes to learn other skills, again, thanks to the chunks you previously formed.
-
-There are two other very important aspects of learning: Resting and Smart Repetition.
-
-Resting
-
-By resting, I don’t necessarily mean sleeping. I mean calming your mind to let your subconscious do its work. It has been proven that chunks are indeed getting formed while you rest your mind.
-
-Without going into details, here are some ways to rest your mind:
-
-Cardiovascular activities (walking, jogging, biking, hiking, etc);
-Meditation;
-Journaling;
-Enjoying nature;
-Taking a shower or bath; and
-Quality sleep.
-Smart Repetition
-A great book recommendation I have is: How We Learn: The Surprising Truth About When, Where, and Why It Happens
-
-Is practicing the same thing over and over a smart way to learn things?
-
-Well, no. It turns out there’s science showing that there is an optimal time to revisit something you’re trying to learn. This seems to be especially true for non-motor skills.
-
-Basically, you try to space out the repetitions. What you learn today, recall it tomorrow, then after 2 days, then after a week, then after a month, then after a year. Chances are that by then, the knowledge will stick to your brain.
-
-The book goes into more details as to why that is.
-
-Here’s a one-sentence “formula” to summarize how to best learn new skills:
-
-Consistently do focused practice, rest your mind, and repeat in smart ways.
-
-Runner-ups
-Choosing 3 skills was insanely difficult. There are so many important factors to thriving that 3 just can’t cover everything. As such, and briefly, here are two I strongly considered putting on the list:
-
-Become Truly Self-Aware
-Check out Ryan Holiday’s book: Ego Is The Enemy
-
-Develop Influence
-Check out Brendon Burchard’s book: High Performance Habits
-
-Conclusion
-Ready to start your journey to make 2019 your best year yet?
-
-I hope you learned something important here and that it’s going to push you to action. Too many people read articles and books, never acting on them. Don’t let this article just be another one of those. If you learn to get to action, adapt to change, and learn to learn, you’re equipped to thrive not only for 2019 but for the rest of your life. So start now before it’s too late.
-
-“It can take less than 20 hours of “smart” practice. The idea is that you learn 20% of the material that will yield 80% of the result.”
-
-### Google Play Store App Signing
-
-Homepage
-Google Developers Experts
-HOMEANDROIDCLOUDMACHINE LEARNINGFIREBASEWEB TECHNOLOGIESASSISTANTEXPERTS
-Go to the profile of Joe Birch
-Joe Birch
-Android Engineering Lead at Buffer, Google Developer Expert for Android & Flutter - Passionate about mobile development and learning. [www.joebirch.co](http://www.joebirch.co/)
-Oct 19
-Exploring Google Play App Signing
-
-When distributing our Android Applications we’ve always been required to sign our APK using a keystore for our application — this has allowed us to ensure that only the developer(s) of our app are able to upload updated APKs to the play console. However, because this keystore acts as a fingerprint to the lifecycle of our application — if anything was to happen to this then we hit a bit of a tricky situation. Because of the disadvantages that the current signing process brings, Google Play App Signing is here to help make things smoother. In this article I want to dive into this App Signing method so that we can get it integrated into our applications.
-
-App Signing is a new process available for developers that allows us to offload the signing of our release APKs onto Google. Once we have provided the Play Console with our app signing key, we can upload our APK and Google will sign them for us prior to delivering it to our users.
-
-Whilst the current way of signing APKs works, there are some flaws which can often bring a little bit of fear to the minds of developers:
-
-If you lose your key then this prevents you from updating your application. Maybe your computer fails, your backup is lost or it is just misplaced in some way — any situation where your key is lost means you will not be able to update your application.
-Your key could become compromised by someone with malicious intent — in this case the person with the key can update your application and because there is no way of revoking this access, there’s not too much you can do to regain access to your key.
-When using Google App Signing, the huge advantage is that Google manages the signing key for our application — meaning that we can relieve the pressure of being completely responsible for our keystore. When it comes to App Signing there are two different keys that are used for the signing process:
-
-App Signing Key — The key used by Google to sign the APK prior to release
-Upload Key — A key used by the developer to upload the APK to the Play Console
-As you can see, developers will still be required to keep their own copy of the Upload Key for use when uploading APKs — the difference now is that this Upload Key is not responsible for the signing of a release build, it is simply used to identify the developer who is making the upload. Because this is not a unique key used for signing the release APK of an application, it means that it can be replaced by Google at any time. So if an Upload Key is lost, compromised or should no longer have upload rights for whatever reason then Google can revoke this key and generate a new one for use.
-
-So to sum this up, you can view the Upload Key as an authoritative key, but not a master key — it gives permission for the Developer to upload APKs to the Play Console but not distribute them, that role comes under the permissions of the App Signing Key.
-
-If you’re uploading APKs for your application then this process is completely optional, you are welcome to continue managing your own keys — bearing in mind that you will not be able to make use of any advantages that App Signing brings. For example, if your signing key is lost or compromised then you will not longer be able to upload updated APKs for your application.
-
-When it comes to the Android App Bundle format, App Signing is a compulsory process. This is because when it comes to App Bundles, Google Play needs to be able to sign the APKs for you before distribution — so there is no way to be able to carry out this flow when keys are managed by the developer.
-
-Regardless of whether you’re using APKs or the App Bundle format, let’s take a look at how we can setup App Signing in our own applications.
-
-Porting an existing app
-For this example we’re going to take a look at enabled App Signing for an existing application in the Play Console. Before we get started though it is important to note that once you opt-in for App Signing you cannot switch back to manual key management — so be sure that you definitely want to make the switch before you enable it. And if you’re unsure, maybe try it out on a sample app just to be sure (that’s exactly what I did!).
-
-To begin with, we need to navigate to the App Signing section in the console. This can be found in the Navigation Drawer under Release Management > App Signing. When you reach this page, you will be presented with the Terms of Service for App Signing that you will need to accept before you can continue.
-
-On this screen you’ll then notice that you have three options to setup App Signing, we’ll be using the second, You haven’t exported your app signing key, option to export and upload our signing key.
-
-Configure an app signing key
-
-You’ll need to begin by downloading the Play Encrypt Private Key tool (in the form of a jar file) that will be used to encrypt your key before uploading. Once downloaded, you’ll see the command within the setup process that you need to run, this will look a little something like this:
-
-java -jar pepk.jar — keystore=your.keystore — alias=your_alias— output=some_file_name —- encryptionkey=your_encryption_key
-Here you’ll execute the pepk.jar file that we previously downloaded and pass some information along as arguments.
-
-To begin with we must provide the path to the keystore which we wish to encrypt.
-Next, we provide the alias which is used to access the keystore that we are encrypting.
-We then provide a desired file name for the output argument, this will be the name of the file that is generated for us
-Finally, the encryption key value which is provided in the code displayed by the Play Console during this process.
-When you run this command you will be asked for your keystore password. Upon entering it, the app signing key will be generated and placed in the given output path. At this point you can then upload the key using the given button in the setup process.
-
-Configure an upload key
-Just before you hit the enrol button, you may notice an optional section which offers enhanced security for your application signing key — this is referring to the upload key that we previously brushed over and the keystore used to generate this. Whilst this may feel like no change from previously managing a key — the whole point of this is to allow a different key to be used for the upload process than the signing process. The upload key is not a part of the Android security model, so it cannot be used to sign APKs, only upload them.
-
-Generating an upload key is a single step process. We can create a new keystore for our upload process, and then use the following command to generate the required pem file for upload.
-
-keytool -export -rfc -keystore upload-keystore.jks -alias upload -file upload_certificate.pem
-Once generated, you will be able to upload this file to the console where requested.
-
-Once you’ve hit enrol, the App Signing screen will be reloaded and you will be shown the success notice for App Signing setup:
-
-You’ll also notice here that there are a collection of fingerprints available for both the Signing and Upload certificates, available for download should they be required.
-
-Now at any point if your upload key is lost of compromised, you can create a new Upload Key using the same steps that we carried above and contact Google through this form to provide a new upload key to be used. Note, only the account owner will be able to make this request.
-
-Signing for new Applications
-If you’re creating a new application then this whole process doesn’t apply to you, as App Signing is enabled by default for you! When visiting the App Releases section of the play console for a new application (once you’ve uploaded an APK), you’ll see the following message:
-
-Whilst most of the work here is done for us, there’s a couple of options that we can use to configure our keys here. To begin with, if you choose not to dismiss the message using Continue, you can Opt Out of App Signing by hitting the button shown on the left hand side.
-
-However, you also have the choice to reuse a signing key — this means that the Signing Key used by Google Play for another project of yours can also be used for this new project that you’re creating. This can however pose a security risk as if for whatever reason your account become compromised, then all of your applications that depend on the compromised key could be at risk.
-
-In this article we’ve learnt about what App Signing is and how we can integrate it into our upload / release process. Putting this in place allows you to remove the responsibility of security from your team and let Google take care of that side of things — protecting you from losing or having your key become compromised. If you have any questions about App Signing, or experiences to share of your own then please get in touch!
-
-Joe Birch (@hitherejoe) | Twitter
-
-### Shopify
-
-### Sinatra
-
-State of Javascript Survey  [https://stateofjs.com/](https://stateofjs.com/) 
-
-### Cloud Storage
-
-[https://www.backblaze.com/](https://www.backblaze.com/) 
-
-[https://cloudinary.com/](https://cloudinary.com/) 
-
-### Summarise HTML document
-
-[https://pypi.org/project/sumy/](https://pypi.org/project/sumy/) 
-
-### Data Visualization
-
-[https://nivo.rocks/](https://nivo.rocks/) 
-
-DOMPURIFY
-
-DON'T PUT A NAME FOR SENSITIVE FIELDS
-ACTION=POST BY DEFAULT
-
-### Surveys
-
-[https://www.typeform.com/](https://www.typeform.com/) 
-
-## React terms
-
-Immutability
-
-Declarative
-
-Efficient
-
-Build User Interfaces
-
-React.Component subclasses
-
-XML-like tags
-
-Props
-
-React COMPONENT CLASS
-
-React COMPONENT TYPE
-
-Component takes in parameters which are called PROPS
 
 # General Glossary
 
@@ -3693,28 +3989,8 @@ replace(<removethis>,<insertthis>) var newstring=oldstring.replace(<findthis>,<i
 search(regex)
 this	INSIDE OBJECT WHICH HAS FOCUS
 self	inside WORKER
-scope
-CODE SCOPE
-Let x=7	useful inside CODE BLOCK ONLY
-FUNCTION SCOPE
-GLOBAL SCOPE
-!important
-Css ordering !important first (top priority), then ID, then CLASS, then ELEMENT
-Css : INLINE ALWAYS TOP PRIORITY compared with	INTERNAL AND EXTERNAL CSS
-CHILDNODES[] ARRAY
-CHILDNODES[0]
-NEXTSIBLING
-PREVIOUSSIBLING
 SERIALIZE	FORM TO URL QUERY STRING ID=1&NAME=PHIL&...
 SERIALIZEARRAY	FORM TO JSON ARRAY [ { JSON }, {JSON} ]
-FORM NAME=MYFORM
-DOCUMENT.MYFORM
-DOCUMENT.FORMS[0]
-DOCUMENT.FORMS['MYFORM']
-DOCUMENT.FORMS.MYFORM
-STROKEWIDTH
-BEGINPATH
-ANCHOR TAG HREF
 EVENT.TARGET RECEIVES ACTUAL EVENT
 ADDEVENTLISTENER('CLICK',FUNCTION,FALSE) ? BUBBLE UP
 TRIGGER('EVENT',FUNCTION)	SIMULATE EG A CLICK INSIDE CODE
@@ -3789,11 +4065,6 @@ web app - general app for all OS
 mongo
 mongodb
 async
-```
-
-[https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make](https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make)[https://github.com/alessioalex/airpair-nodejs-mistakes/blob/master/4-nested-callbacks/after.js](https://github.com/alessioalex/airpair-nodejs-mistakes/blob/master/4-nested-callbacks/after.js)[socket.io](http://socket.io/) walkthrough
-
-```
 TDD TEST DRIVEN DEVELOPMENT
 BDD BEHAVIOUR DRIVEN DEVELOPMENT
 JASMINE ***
@@ -3920,11 +4191,6 @@ mode=war write append read
 fd file descriptor
 fs.write BUFFER OR DATA
 fs.createWriteStream UNLIMITED SIZE
-GRUNT
-CAKE
-GULP
-BROCCOLI
-JSLINT
 domain.on('error')
 domain.run
 EncodeURIComponent
@@ -4001,11 +4267,6 @@ mode=read/write/append war
 fd file descriptor
 fs.write
 fs.createWriteStream
-grunt
-gulp
-cake
-broccoli
-JSLint
 domain.on('error')
 domain.run()
 EncodeURIComponent
@@ -4112,10 +4373,6 @@ ps-node
 child_process.exec
 exec('node abc.js') CREATE CHILD PROCESS
 child.stdout.on('data')
-grunt
-gulp
-cake
-broccoli
 JSLint GOOD CODE
 DOMAIN
 d.on('error',fn)
@@ -4272,30 +4529,7 @@ XSD
 WS-
 RELAX-NG
 NOSQL
-MONGO
-COUCH
-APACHE
-TOMCAT
-JSP
-JAVA SERVER PAGES
-RUBY
-FOREVER
-FOREVER-MONITOR
-PM2
-[NODEJS.ORG](http://nodejs.org/)
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
-sudo apt-get install apache2
-sudo apt-get install curl
-sudo apt-get install nodejs -g
-sudo apt-get install npm
-sudo apt-get install http
-/usr/lib
-/usr/local
-node -v
 REPL READ EVAL PRINT LOOP
-READ EVAL PRINT LOOP
-READ EVAL PRINT LOOP
 process.exit();
 shared module
 npm init
@@ -4386,10 +4620,6 @@ child_process.exec
 exec=require('child-process').exec
 child=exec('node ./file.js')
 child.stdout.on('data',callback)
-grunt
-cake
-broccoli
-gulp
 task runner
 minify
 JSHint
@@ -4772,37 +5002,7 @@ NODE-MYSQL
 MOCHA TEST
 SUPERTEST
 NODE WRITTEN IN C
-JSON_ENCODE
-JSON EVAL
-JSON_PARSE
-APACHE THREAD POOL
-NODE EVENT LOOP MODEL
-NOSQL
-MONGO
-COUCH
-MIT LICENCE
-MODULE
-EXPORTS
-REQUIRE
-TOMCAT
-JSP
-RUBY
-RAILS
-ECLIPSE
-MAC
-UBUNTU
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
-sudo apt-get install apache2
-sudo apt-get install curl
-sudo apt-get install nodejs
-sudo apt-get install npm
-npm install http
-CURL WHAT IS IT AND HOW TO USE IT
-node
-node -v
-process
+
 console.table
 console.warn
 console.time
@@ -5140,235 +5340,17 @@ VIEW : ng-bind
 CONTROLLER ng-controller DOES NOT SEEM TO HAVE ANY FUNCTION HERE!
 ```
 
-# Glossary
 
-## Babel
-	
-Just write Javascript
 
-Allows use of the latest standards without you worrying about compatibility
 
-## BACKBONEJS
 
-```
-Model has Key-Value binding
-Collections of functions
-View has 'declarative' event handling (events declared in UI code)
-Connects over RESTful JSON interface
-Data represented as Model
-	Create
-	Validate
-	Destroy
-	Save to server
-	Model changes ==> change 'trigger' event updates all views automatically
-	
-	Models sync with a 'persistence' layer usually REST API + DATABASE
-Collection is GROUP OF MODELS
-	var myCollection =  Backbone.collection.extend({url: '/folder'});
-	This allows use of the following 
-		GET  /books/ .... collection.fetch();
-		POST /books/ .... collection.create();
-		GET  /books/1 ... model.fetch();
-		PUT  /books/1 ... model.save();
-		DEL  /books/1 ... model.destroy();
-	COLLECTION DATA IS AS AN ARRAY [ {“item1”:”data1”}]
-	MODEL DATA IS AS A JSON OBJECT {“FIELD”:”VALUE”}
-PARSING JSON RESPONSE FOR THE DATA THAT YOU ACTUALLY WANT
-	IF COLLECTION COMES BACK WITH EXTRA DATA THEN YOU HAVE TO PARSE FOR THE
-	NAMED DATA YOU ACTUALLY WANT 
-	{
-		“dontwant1”:”dontwantthis”,
-		“books”:[
-		{ “book1”:”data1” , “title”:”x”} ,
-		{ “book2”:”data2” , “title”:”y”}
-		]
-	}
-		SO TO EXTRACT THE DATA YOU WANT (BOOKS ARRAY) USE PARSE
-		var Books = Backbone.Collection.extend({
-		  url: '/books',
-		 parse : function(data){
-				return data.books;
-			}
-		});
-```
 
-## Browserify
 
-BUNDLES UP YOUR DEPENDENCIES FOR YOUR BROWSER
 
-[http://browserify.org/](http://browserify.org/)
 
-```
-Here is a tutorial on how to use Browserify on the command line to bundle up a simple file called main.js along with all of its dependencies:
-		main.js
-				var unique = require('uniq');
-				var data = [1, 2, 2, 3, 4, 5, 5, 5, 6];
-				console.log(unique(data));
-						
-		Install the uniq module with npm:
-		
-				npm install uniq
-		
-	Now recursively bundle up all the required modules starting at main.js into a single file called bundle.js with the browserify command:
-	browserify main.js -o bundle.js
-	Browserify parses the AST for require() calls to traverse the entire dependency graph of your project.
-	Drop a single <script> tag into your html and you're done!
-	<script src="bundle.js"></script>
-```
 
-COFFEESCRIPT
 
-```
-coffeescript.org
 
-###
-function output
-###
-function output(){
-}
-root = -> 'Hello World'
-root()
-class myFunction
-  constructor: ->
-	console.log('hi');
-output = () ->
-  myArray=[1,2,3]
-  for item in myArray
-	$('display').append(item)
-```
-
-Databases Online
-
-```
-Why use application data solutions?
-	SPECIALISED ONLINE SOLUTIONS 
-
-MongoLAB
-	ONLINE MONGO 
-Firebase
-	<https://www.firebase.com/>
-	
-	ONLINE DATABASE WITH STORING OF DATA WITH ONLY A FEW LINES OF CODE 
-	
-	<https://www.firebase.com/tutorial/#gettingstarted>
-	
-		RUN CODE 
-		
-		<https://www.firebase.com/tutorial/#session/cpjmggjhta5>
-		
-		DATABASE 
-		
-		<https://cpjmggjhta5.firebaseio-demo.com/>
-		
-	
-DerbyJS
-
-	<http://derbyjs.com/>
-	
-	
-Meteor
-	DEVELOP FULL APPS 
-	
-		<https://www.meteor.com/>
-		
-		
-		
-	
-FeatherJS
-
-	BUILD APPS ON TOP OF NODE 
-	
-	<http://feathersjs.com/>
-	
-	ALL WORKS OUT OF THE BOX; FULL APPLICATION 
-	
-	DATABASE EG CAN USE VARIOUS EG MONGO 
-	
-		<https://github.com/feathersjs/feathers-mongodb>
-```
-
-Diff (Linux)
-
-COMPARES DIFFERENCE BETWEEN TWO FILES, LINE BY LINE
-Diff file1 file2
-
-FC File Compare (Windows Tool)
-
-```
-FC FILE1 FILE2
-	
-FC /B FILE1 FILE2   BINARY FILES
-```
-
-FC FOLDER1\* FC FOLDER2\* TO COMPARE MULTIPLE FILES IN TWO FOLDERS
-
-Isomorphic is same code (Javascript) running on both the client and the server
-
-Knockout JS is Microsoft technology used to link View fields to Model fields but code to update model must be written by developer - see Backbone also
-
-One reason to use Lambda functions is that it does not alter the value of 'this' whereas when we use a function, the value of 'this' can change inside the function
-
-LESS
-
-```
-ADD VARIABLES BEFORE CSS IS COMPILED
-EASIEST WAY TO RUN IT IS WITHIN NODE
-
-lesscss.org
-
-	lesscss.org/less-preview
-	
-INSTALL WITH 		NPM INSTALL -G LESS
-
-USE WITH			LESSC STYLES.LESS OUTPUT.CSS
-
-For learning and development use, can also use LESS in the browser
-
-	<link rel="stylesheet/less" type="text/css" href="styles.less" />
-		
-	<script src="less.js" type="text/javascript"></script>
-
-mixin
-
-function
-
-variables
-```
-
-Lint
-
-LINT
-
-ESLINT
-
-```
-CODE QUALITY !!!
-```
-
-CSSLINT
-
-```
-PREVENTS CSS NESTING
-```
-
-POWERSHELL : GET SIZE OF FOLDER
-ls -r | measure -s length
-
-RawGit
-
-RawGit can be used to view individual files eg
-HTML
-[https://rawgit.com/philanderson888/showcase/master/index.htm](https://rawgit.com/philanderson888/showcase/master/index.htm)
-Bootstrap
-[https://rawgit.com/philanderson888/showcase/master/bootstrap_01.htm](https://rawgit.com/philanderson888/showcase/master/bootstrap_01.htm)
-
-STDOUT
-
-process.stdout.write(text);
-
-Testing
-
-Please see [https://plnkr.co/edit/?p=preview](https://plnkr.co/edit/?p=preview) for an example of Javascript testing.
 
 Web Glossary
 
@@ -5874,6 +5856,21 @@ APP.LOCALS  FOR LOCAL DATA
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
@@ -6282,11 +6279,6 @@ mode=war write append read
 fd file descriptor
 fs.write   BUFFER OR DATA
 fs.createWriteStream  UNLIMITED SIZE
-GRUNT
-CAKE 
-GULP
-BROCCOLI
-JSLINT
 domain.on('error')
 domain.run
 EncodeURIComponent
@@ -6363,10 +6355,6 @@ mode=read/write/append war
 fd file descriptor
 fs.write
 fs.createWriteStream
-grunt
-gulp
-cake
-broccoli
 JSLint
 domain.on('error')
 domain.run()
@@ -6474,10 +6462,6 @@ ps-node
 child_process.exec
 exec('node abc.js')  CREATE CHILD PROCESS
 child.stdout.on('data')
-grunt
-gulp
-cake 
-broccoli
 JSLint GOOD CODE
 DOMAIN
 d.on('error',fn)
@@ -6610,16 +6594,7 @@ JSON.stringify==> OUTPUT
 JSON.parse==>INPUT
 ISOMORPHIC
 THREAD POOL
-EVENT LOOP MODEL
 RELAX-NG
-NODEJS.ORG
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
-sudo apt-get install apache2
-sudo apt-get install curl
-sudo apt-get install nodejs -g
-sudo apt-get install npm
-sudo apt-get install http
 /usr/lib
 /usr/local
 node -v
@@ -6716,10 +6691,6 @@ child_process.exec
 exec=require('child-process').exec
 child=exec('node ./file.js')
 child.stdout.on('data',callback)
-grunt
-cake
-broccoli
-gulp
 task runner
 minify
 JSHint
@@ -6884,27 +6855,9 @@ clearInterval clears clock
 setInterval 
 socket.emit : emit a message across the single socket (one client to server or server to one client)
 client.emit : emit a message to all clients
-cwd
-pwd
-grunt build 
 meteorjs
 meanjs
 cm connect middleware 
-curl 
-typeof
-setInterval
-setTimeout 
-socket.emit  1-1 
-client.emit  ALL CLIENTS 
-MONGOD 
-MONGODUMP
-MONGORESTORE 
-MONGO AUTHENTICATE 
-MONGO BACKUP 
-CHILD PROCESS 
-db.table.insert 
-find() 
-pretty() 
 $gte 
 log4js 
 fs 
@@ -6951,70 +6904,6 @@ JSON_ENCODE
 JSON EVAL
 JSON_PARSE
 APACHE THREAD POOL
-NODE EVENT LOOP MODEL
-MAC
-UBUNTU
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
-sudo apt-get install apache2
-sudo apt-get install curl
-sudo apt-get install nodejs 
-sudo apt-get install npm
-npm install http
-CURL WHAT IS IT AND HOW TO USE IT
-node
-node -v
-process
-console.table
-console.warn
-console.time
-console.timeEnd
-console.assert IF FALSE
-console.count
-console.group
-console.groupEnd
-forever
-Optimist
-Minimist
-Yargs
-STDIN
-STDOUT
-process.stdin.resume()
-process.stdin.pause()
-process.stdin.on('data',function(text){});
-readline
-prompt
-process.argv[NODE,JS,PARAMETERS]
-short args    node abc.js -x 10 -y 11
-args  node abc.js  --x=10 --y=11
-class
-method
-constructor
-shared modules
-module caching
-GET CONFIG
-SET CONFIG
-require('fs')
-fs.writeFileSync("file.txt","text which goes in file")
-fs.readFileSync("file.txt").toString()
-fs.exists(path,fn(){})
-fs.open(path,"w+",function(error,descriptor){})
-fs.open then fs.readFile
-fs.writeFile
-fs.appendFile
-fs.close()
-fs.stat(path,fn(){})
-stats,isFile
-statis.isDirectory
-path module
-path.sep  separator character
-path.normalise Windows or Linux
-path.dirname
-path.basename
-path.extname
-__dirname
-__filename
 ./file  THIS FOLDER
 ../file  ONE LEVEL UP
 CWD CURRENT WORKING DIRECTORY

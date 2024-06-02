@@ -24,6 +24,11 @@
   - [5 minutes](#5-minutes-1)
   - [30 minutes](#30-minutes-1)
   - [projects](#projects)
+    - [projects - remove scratch from car - 10 hours](#projects---remove-scratch-from-car---10-hours)
+    - [remove scratch bumper](#remove-scratch-bumper)
+    - [polish car](#polish-car)
+    - [4 ways to polish cars](#4-ways-to-polish-cars)
+  - [car summary 2](#car-summary-2)
   - [charity](#charity)
   - [lms](#lms)
   - [charity links](#charity-links)
@@ -139,7 +144,7 @@
 
 ## most recent
 
-
+greenfield engineering projects choose which language
 
 
 ## delayed messages
@@ -507,6 +512,174 @@ get list of local churches and their contact details ... how to contact them ...
 10 hours 
 
 fix scuff in car ... possibly youtube chemical guys ...
+
+
+
+
+
+
+
+
+
+
+
+### projects - remove scratch from car - 10 hours
+
+- https://www.youtube.com/watch?v=Zl_iSYYGBiY
+- paint layers 60-180 microns .. primer .. base ... clear
+- buy
+- isopropyl alcohol ... clean with water, dry, then apply this ... removes grease
+- microfiber towels
+    - kitchen sponge
+    - sandpaper 2000
+    - sandpaper 3000
+    - sandpaper 5000
+  - 1. clean with soap and water
+  - 2. sandpaper
+      - remove rust - use pen
+      - sofften any hard edges - use pen
+      - smooth out onto the base coat surrounding - use 800 or 1000 grit paper - use sandpaper rounded edge
+  - 3. clean / dry with isopropyl alcohol
+  - 4. tape 1mm-2mm from edge of scratch all along
+  - 3. paint - as thin as possible ... in very thin layers ... every 5 minutes ... do not back track ... final and 4th coat is much higher ... 
+  - remove tape slowly ... away from line ... use razor to lift any paper you cant remove 
+  - 4. sandpaper - after 1 hour - 800 grit - small square - use domino and wrap paper around it - on edge - can add soap and spray water to this process to keep sanding wet ... 
+  - 5. clean ... with isopropyl alcohol to remove any dust fron sanding
+  - 6. paint ... clear coat from pen ... 2 coats ... 
+  - 7. sandpaper ... after 1 hour ... soapy spray ... 800 ... water ... 1500 ... 2000 
+  - 8. sandpaper entire panel ... wrap around sponge ... wet ... 3000 ... 5000 .... 
+  - 9. buff polish entire panel ... this is a light abrasive ... use circular motion
+  - 10. 
+
+
+
+
+
+
+
+
+
+
+
+### remove scratch bumper
+- https://www.youtube.com/watch?v=L8hoOQD6lvg 
+- 180 grit sand area with sanding block
+- body filler - mix 2 chemicals
+- sand filler with 80 grit paper
+- soften with 180 grit paper so its super smooth
+- roughen area
+- tape area
+- primer spray 3 coats
+- sand with 800 grit paper and water
+- spray with approved paint colour several coats
+- clear coat - spray can 
+
+
+
+
+
+
+
+### polish car
+
+- https://www.youtube.com/watch?v=Pmc_fO1WhbE
+- 
+- clay bar removes contaminants before the prep stage, with soap and water
+- 
+- orbital polisher
+- polishing pads - softer core micro pad
+- polishing pads -  harder pads for deeper scratches
+- black softest white mid orange stiffest
+- pad brush to clean pads in between uses
+- 
+- first - deeper cuts - meguiars ultra-cut compound
+- second - megulars ultra finishing polish - light scratches
+
+- 3d wipe alcohol ... after polish .. remove oils and residues
+- 
+- light to examinie
+- 
+- ultra premium ceramic coat  ((seracoate?)) - on a square - apply in a grid line by line fashion ... 
+- buff off with clean microfibre towel 
+
+
+
+
+
+
+
+
+
+
+
+### 4 ways to polish cars
+
+1. wax ... carnuba plant based ... last 1 to 3 months
+   1. paste ... showroom shine
+   2. liquid 
+   3. spray ... turtle wax ice spray
+2. sealant .. upgrade to car wax ... 6 to 8 months ... 
+   1. paste 
+   2. liquid .. jescar powerlock plus / menzurna power lock 
+   3. spray ... 
+3. ceramic coating in glass bottle ... cures ... silicon dioxide ... creates semi permanent form of protection ... 2 to 3 times harder than clear coat ... gives gloss and protection ... 1 tp 5 years ... can only put on if there are no wax / sealant on top ...
+   1. liquid
+   2. spray ... 5 to 6 months ... spray on ... wipe off 
+   3. spray on ... after a wash ... while still wet ... then rinse off ... 3 to 4 months of protection ... 
+4. graphene
+   1. add graphene oxide to ceramic
+      1. spray version 
+
+
+
+
+
+
+
+
+## car summary 2
+1. 3 layers .. primer ... base ... clear 
+2. deep scratch
+   1. sand 800
+   2. paint layers
+   3. sand 800 with domino
+   4. paint clear x 2
+   5. sand by hand 800 1500 2000
+   6. sand panel 3000 5000 with sponge
+   7. buff panel to put polish back
+3. polish car ... light scratches
+   1. clay bar remove impurities
+   2. orbital polish - megulars ultra cut
+   3. polisher - ultra finish
+   4. ceramic coat line by line .. silicon dioxide / graphene 
+   5. buff
+4. wax .. carnuba ... 1 to 3 months
+5. selant ... 6 to 8 months menzurna power lock
+6. plastic bumper
+   1.  180 
+   2.  body filler
+   3.  80
+   4.  180
+   5.  scotch pad whole area
+   6.  tape whole area
+   7.  primer
+   8.  800 grit
+   9.  paint 
+   10. clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

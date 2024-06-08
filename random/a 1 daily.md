@@ -22,6 +22,9 @@
     - [5 hours](#5-hours)
   - [tasks](#tasks)
   - [5 minutes](#5-minutes-1)
+    - [learn english](#learn-english)
+    - [free online maths courses](#free-online-maths-courses)
+    - [just learning about computing in general](#just-learning-about-computing-in-general)
   - [30 minutes](#30-minutes-1)
   - [projects](#projects)
     - [projects - remove scratch from car - 10 hours](#projects---remove-scratch-from-car---10-hours)
@@ -107,10 +110,10 @@
   - [kids](#kids-3)
   - [General](#general-1)
   - [Space](#space)
-  - [tshirts](#tshirts)
   - [ideas](#ideas)
   - [ideas to generate money](#ideas-to-generate-money)
   - [app ideas](#app-ideas)
+  - [ideas - far out !!!](#ideas---far-out-)
   - [slogans](#slogans)
   - [motivation](#motivation)
   - [defence - aggressive women](#defence---aggressive-women)
@@ -138,17 +141,39 @@
   - [categories](#categories)
   - [simple](#simple)
   - [Straightforward and common cognates](#straightforward-and-common-cognates)
+  - [Topic Area 3: Leisure and entertainment](#topic-area-3-leisure-and-entertainment)
 
 
 
 
 ## most recent
 
-greenfield engineering projects choose which language
+
 
 
 ## delayed messages
 
+
+hello neha
+
+thanks for this ... yes .. willing to chat ...
+
+i have a couple of questions for you ...
+
+imagine we asked a child to do a course in python or javascript or rust ... and there were 20 lessons in the course 
+
+say in the first month they did 8 lessons, in the second month they did 8 lessons and in the third month they did the final 4 lessons so they completed all the 20 lessons ... would it be possible to track each month their progress ie
+
+1/3/2024 python lessons 1-8
+1/4/2024 python lessons 9-15
+1/5/2024 python lessons 16-20
+1/5/2024 python course completed
+
+would it be possible to have some sort of tracking for children, what courses and progress they have done by a given date ...
+
+also some courses have an online exam or test ... would it be possible to record the test name, date and score?
+
+thanks in advance
 
 
 hello chat gpt are you able to summarise the payments from these credit card statements in a nice neat table with 3 columns - date entered (second date on the transactions), amount and description
@@ -214,6 +239,8 @@ up once
 
 up first alarm
 
+any failure - 5 to mum james and john ... that should fix it !!! 15 pounds per infringement !!!
+
 getting up .. 020 up 4 streak 1 2 3 ... fibonnacci up 4 fail cumulative over last 14 days
 
 hard seat ... 020 hard seat 1 2 3 ... fibonacci hard seat fail from 4am to 7pm or gym time ... cumulative over last 14 days ... 4am to 7pm pay 10 if not stand up or on high chair that’s it
@@ -255,7 +282,7 @@ pray eyes closed 2 mins
 
 45 mins pray in tongues
 
-post to social
+post to  ... use ipad for large view on images ... much better ... 
 
 2 minutes on each frog
 
@@ -481,6 +508,37 @@ activate god tv
 
 arooj next computer lesson
 
+Find Out
+
+... age of person ... gender ... learning aptitude (bright, average, slow, handicapped)
+
+... is the person working ? if so how many hours a week is the person working?
+
+... if they are a child ... do they go to school ... if so how many hours a week are they in education or school learning?
+
+... are they a christian ?  do they go to church on Sunday ?   will it be possible to talk to the pastor of the persons church?   (name/phone number)
+
+... what devices are available to the person ... phone ... tablet ... computer 
+
+
+
+codecademy does free online course https://www.codecademy.com/
+- learn html https://www.codecademy.com/enrolled/courses/learn-html
+- learn css https://www.codecademy.com/enrolled/courses/learn-css
+- all free html css https://www.codecademy.com/catalog/language/html-css
+- introduction to javascript https://www.codecademy.com/enrolled/courses/introduction-to-javascript
+- all free javascript https://www.codecademy.com/catalog/language/javascript
+- 
+
+
+get them to run this course ... free online ... javascript https://www.freecodecamp.org/news/learn-javascript-with-clear-explanations/
+
+Khan Academy Kids For Everything https://learn.khanacademy.org/khan-academy-kids/
+- Khan Academy Kids Profile With Lessons In Everything https://www.khanacademy.org/profile/me/courses
+
+
+
+
 - code.org
   - turtle 
   - html and css https://me.codejika.org/rocket/C1/P2/T1
@@ -489,13 +547,73 @@ arooj next computer lesson
   - code emoji https://codemoji.com/lessons/js/beginner/1.php 
   - hour of code?  https://hourofcode.com/uk/learn
 
+check this course out
+- https://www.busuu.com/en/register?learning=en
+
+
 var x = 1;
 
 // show this number on a web page 
 
 pray about hymb.com
-
 ```
+
+### learn english
+
+- https://www.britishcouncil.es/en/english/learn-online/apps
+  - ... download app and watch videos etc
+
+British Council Learn English For Kids course https://learnenglishkids.britishcouncil.org/listen-watch
+
+Learn English For Urdu Speaker https://www.youtube.com/watch?v=JXuiWx3NXrI
+- https://www.youtube.com/watch?v=jSRa6gsohuM
+
+app android to learn english for urdu speakers https://play.google.com/store/apps/details?id=com.orangeannoe.www.LearnEnglish&hl=en_GB
+
+apple app to learn english for urdu speakers https://apps.apple.com/us/app/learn-english-from-urdu/id1491897314
+
+youtube course to learn english for urdu speakers https://www.youtube.com/channel/UCJsIddDICc4ScGMiHOqFS3Q
+
+youtube video to learn english for urdu speakers https://www.youtube.com/watch?v=5fY5BKpVj0M
+
+app to speak english for urdu speaker https://www.urdupure.com/blog/best-speak-english-learning-app
+
+learn english as a second language - course online https://www.esolcourses.com/uk-english/beginners-course/free-english-lessons.html ... this one is good as it has little quizzes as well ...
+
+open university - learn anything https://www.open.edu/openlearn/free-courses/full-catalogue
+
+MIT - learn anything https://www.open.edu/openlearn/free-courses/full-catalogue
+
+
+
+paid TWINKL
+
+**** get them to do this course **** learn rust !!! free online !!! https://doc.rust-lang.org/rust-by-example/
+
+code cademy free RUST course *** get them to do this *** https://www.codecademy.com/learn/rust-for-programmers
+
+free code camp is dedicated to free learning https://www.freecodecamp.org/news/
+
+
+
+
+### free online maths courses
+
+
+- Open University Maths Course https://www.open.edu/openlearn/mod/oucontent/view.php?id=81952
+
+### just learning about computing in general
+
+alison free online courses ... with certificate https://alison.com/courses/it
+alison free online course in html css javascript with certificate https://alison.com/courses?query=html%20css%20javascript
+
+code finity free course in PYTHON ... course https://codefinity.com/get-started/v16/quiz/question/2faedae1-bbf9-4b68-87f2-c733c2794654?utm_source=google&utm_medium=cpc&utm_campaign=20545279124&utm_content=150700128942&utm_term=basic+computer+course+for+beginners&gad_source=1&gclid=Cj0KCQjw9vqyBhCKARIsAIIcLMEOhEewWjfA2uLx9QAqepf9_e7IluWFDoxSIOMdYha6_OPnPYlOQ8YaAs8mEALw_wcB&python=true
+
+udacity free online introduction to python course https://www.udacity.com/course/introduction-to-python--ud1110
+
+udacity free course in kotlin https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012
+
+
 
 ## 30 minutes
 
@@ -686,6 +804,35 @@ fix scuff in car ... possibly youtube chemical guys ...
 ## charity
 
 ideas on improving the charity
+
+probably only do a review every 2 months but do it in far more detail from now on to truly analyse the group, why they are in hardship and to ask some hard questions
+
+- how many in group
+- children under 7 : names and ages
+- children 8 to 13 : names and ages
+- people 14 and over : names and ages : also how much do they earn
+- are there any people outside your group who support your group and if so 
+  - how many people
+  - how much are they contributing to your group per week/month/year
+  - eg person name ... amount they contribute ...
+
+charity only operates on friday or saturday ... no other days
+
+need to work out exactly which people i am feeding and how much does it cost to feed one person per day ... so we are working with exact amounts ... and we make 4 payments for 2 months ie 2 weeks, 2 weeks, 2 weeks, 2 weeks ...  that is 8 week cycle nearly 2 months ... all is good ... 
+
+explain and communicate 
+
+... i am just one person
+
+... trying to help 
+
+... a lot of stress with very immediate requests ... ie ... hello brother philip we are starving today can you help us now we are waiting for your love 
+
+... trying to think of a better way where we reduce the stress levels for eeryone and achieve a good and wholesome and godly outcome
+
+... i am thining of a 2 month review process where every 2 months we do a detailed review of you and your finances, what situation are you in and why ... and what are you doing about it? what is the long term outcome? are you growing a dependency on me or are we growing a dependency on the lord and what he can do in his miracle power and majesty to help ... the lord is the blesser and rewarder of those who diligently seek him
+
+... also thinking ... the lord has made us to work ... how can we implement this principle ... one way is through education ... instead of givingb money the children on the program have tgo earn tgheir money by submitting school work ... to this purpose i am creating an virual online classroom for freeuse where a kids does free work online  ... and gets paid accordingly ...  not sure on this ... have to do this carefully ...
 
 1) work out the number of children under the age of 14 who are served by the ministry
 2) every fortnight give a certain amount of money per child ... can use £40 a month as a guide which is £10 a week or £20 a fortnight ... but can also work out how much per child and stick with that eg
@@ -1528,6 +1675,14 @@ learn the key programming languages
 
 ## dreams and visualisations
 
+I am an evangelist seeing massive impact in the world 
+
+I am a family man 
+
+I am a builder of the kingdom literally and metaphorically 
+
+I am a tech guru 
+
 express dreams as pictures
 
 this has been / is / will be the most amazing day week month year of my life
@@ -2263,12 +2418,18 @@ Preach
 Watch back my own worship sessions and give myself feedback
 There are 8 billion people in the world - can I see even one saved through my influence ? Jesus Christ for all nations 
 
+
+
+
 Brand
+
+
 #OneJesus
 Divinely Inspired Clothing
 PhilAnderson designs t/a PhilAnderson Consulting
 Phil Anderson Software Solutions
 PhilAnderson evangelism 
+
 TheJesusMan ... brave ... strong ... preacher
 Save Pakistan 
 Code Across The Globe
@@ -2290,20 +2451,21 @@ Create all artwork and videos myself from scratch
 for all artwork, do it myself completely !!! digital art !!!
 
 
-Posts
-Images
 Unsplash.com
-AI
 Blog my artwork on Instagram
 https://nervous-pare-b73c83.netlify.app/blog
 
 
 
-Videos
-videos of still images ... !
+videos of still images ... ! 
+
 a good video has one photo per second
 
+
+
+
 Sermons
+
 Motivational speeches
 Time management
 Victory in christ
@@ -2314,52 +2476,24 @@ Create a written article then translate it to Arabic then speak it in Arabic Sup
 
 
 
-## tshirts
 
-tshirt tips https://help.spreadshirt.com/hc/en-gb/articles/360011212033
 
-spreadshirt 
 
-toptie opentip regular tshirt https://www.opentip.com/TOPTIE-Custom-T-Shirt-Men-s-Personalize-T-Shirt-Printing-Design-Your-Own-Shirt-Add-Your-Logo-p-13113716.html
 
-https://www.bonfire.com/start/
 
-Theoreticalm
 
-Risen
 
-Poiema
-
-Elevated Faith
-I Believe Pre-Printed
-https://www.wish.com/fr/product/new-mens-believe-christian-tee-shirt-summer-fashion-short-sleeve-o-neck-gym-shrit-casual-plus-size-fitness-t-shirt-male-workout-clothes-5-color-5ee06a0488da9a2c48a0666e?share=web
-Custom compression tops 
-https://www.amazon.co.uk/gp/product/B099WJRZ5K?th=1&psc=1 
-https://www.alibaba.com/product-detail/Custom-Short-Sleeve-Sports-Tops-Seamless_62063393547.html?spm=a2700.7724857.normal_offer.d_image.401553d82eRMhi
-
-https://www.amazon.co.uk/TopTie-Compression-Personalized-Sublimation-Clothing/dp/B099WJRZ5K
-https://pitpullswear.com/product/custom-black-mens-compression-top-full-sleeves
-https://summosports.co.uk/products/exclusive-custom-black-rashguard
-custom grey mens hoodie looks good ! good in winter
-
-https://www.alibaba.com/product-detail/Custom-Sport-Wear-Men-Gym-Hoodies_60863864045.html?spm=a2700.7724857.normal_offer.d_image.401553d82eRMhi
-https://www.ebay.co.uk/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313&_nkw=custom+gym+vest&_sacat=0
-https://www.ebay.co.uk/itm/114439652815?var=414693886173&hash=item1aa52285cf:g:htIAAOSwX1xfzCsH
-https://www.spreadshirt.co.uk/create-your-own?productType=1043&appearance=1
-PrePrinted
-DoITAllForTheGlory Of God https://www.redbubble.com/i/t-shirt/Gift-For-Christian-Workout-Gym-Bodybuilder-by-ethandirks/31201166.FB110
-I Believe
-https://www.wish.com/fr/product/new-mens-believe-christian-tee-shirt-summer-fashion-short-sleeve-o-neck-gym-shrit-casual-plus-size-fitness-t-shirt-male-workout-clothes-5-color-5ee06a0488da9a2c48a0666e?share=web
-Theoreticalm Faith Clothing
-https://www.theoreticalm.com/collections/faith-slogan
-Just like the design
 Superman compression top https://www.amazon.co.uk/GYM-GALA-Superman-Classic-Compression/dp/B07V865MJ6
 
-Cashmere Tribe Has A Range Of Really Beautiful Christian Clothing although the site does not appear to be Christian
+Way Truth Life 
 
-CashmereTribe.com
-Jesus Designs . the sanctified range . allthingschristian.com
-Gift for Christa Jesus Way Truth Life https://www.etsy.com/uk/listing/1330745096/jesus-sweatshirt-jesus-the-way-the-truth?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_uk_en_gb_d-clothing-other&utm_custom1=_k_Cj0KCQjwt_qgBhDFARIsABcDjOddZ--R08rdQdqr6FcSjMCU8MADh_BDsp3yEfScnCQlZ434UjombQkaArvMEALw_wcB_k_&utm_content=go_12603393815_128415464348_508814232215_pla-297616371983_c__1330745096engb_570098417&utm_custom2=12603393815&gclid=Cj0KCQjwt_qgBhDFARIsABcDjOddZ--R08rdQdqr6FcSjMCU8MADh_BDsp3yEfScnCQlZ434UjombQkaArvMEALw_wcB
+
+
+
+
+
+
+
 
 Cards
 Boomf Exploding Cards
@@ -2602,6 +2736,11 @@ Shops
 
 
 
+## ideas - far out !!!
+
+website as an experiment with church data and stats - largest churches in each country by size ... and finances ... 
+
+
 
 ## slogans
 
@@ -2827,10 +2966,12 @@ linktr.ee/philanderson888
 
 ## evangalism one-line quotes
 
-```
+who is jesus
+
 You are a very beautiful person
+
 I pray you live for Jesus
-```
+
 
 ## evangelism invitation to pray
 
@@ -4758,16 +4899,11 @@ Spargel asparagus
 Vegetarier(in) vegetarian 
 Verpackung packaging 
 Weinprobe (Weinlese) wine-tasting (grape harvest) 
-Page 35 of 52 GCSE German General Vocabulary List 
-© OCR 2009 
- Topic Area 3: Leisure and entertainment 
- (includes online) 
-Socialising, special occasions and festivals 
- TV, films and music
-Topic Area 3 Leisure and entertainment 
-Topic Area 3 Leisure and entertainment (includes online) 
-Socialising, special occasions and festivals 
-Foundation 
+```
+
+## Topic Area 3: Leisure and entertainment 
+
+```
 amüsieren (sich) to enjoy oneself 
 Ansichtskarte postcard (picture) 
 ausgeben to spend (money) 
@@ -5117,7 +5253,9 @@ Tropfen drop (e.g. water)
 veränderlich changeable 
 verändern (sich) to change 
 wechselhaft changeable 
-Environmental, cultural and social issues 
+
+
+
 Foundation 
 Abfall(eimer) rubbish (bin/dustbin) 
 Ampel traffic lights 

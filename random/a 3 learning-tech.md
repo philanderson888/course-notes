@@ -15,6 +15,7 @@
 	- [thinbgs for the future](#thinbgs-for-the-future)
 	- [reading](#reading)
 	- [random learning notes](#random-learning-notes)
+		- [202407 random](#202407-random)
 	- [scripting](#scripting)
 	- [apps](#apps-1)
 	- [database](#database)
@@ -29,6 +30,7 @@
 	- [ai images](#ai-images)
 	- [ai video](#ai-video)
 	- [ai text to speech](#ai-text-to-speech)
+	- [ai drdiving](#ai-drdiving)
 	- [zshrc](#zshrc)
 	- [bash](#bash)
 	- [aws](#aws)
@@ -135,6 +137,7 @@
 	- [traditional node and mongo random terms](#traditional-node-and-mongo-random-terms)
 	- [random web terms 2022](#random-web-terms-2022)
 	- [random web terms 2023](#random-web-terms-2023)
+	- [history tech](#history-tech)
 
 ## overwhelming amounnts of data
 
@@ -256,6 +259,10 @@ medium
 javascript weekly
 
 ## random learning notes
+
+### 202407 random
+
+zod validates javascript data types https://zod.dev/ 
 
 aws run serverless code https://aws.amazon.com/tutorials/run-serverless-code/
 
@@ -555,6 +562,32 @@ lensa
 ## ai text to speech
 
 https://dashboard.vapi.ai/
+
+
+## ai drdiving
+
+wayve gets 1 billion investment for ai driving
+
+tesla 3 is best self driving car
+
+waymo is driverless uber
+
+| Car and ranking        | Ease of use | S-bend test | Pothole test | 30mph stop | 42mph stop | Hands-off | Total |
+|------------------------|-------------|-------------|--------------|------------|------------|-----------|-------|
+| 1. Tesla Model Y       | 5           | 5           | 3            | Yes        | Yes        | 5         | 20    |
+| 2. Audi RS Q8          | 5           | 4           | 5            | Yes        | No         | 5         | 20    |
+| 3. BMW iX3             | 5           | 3           | 5            | Yes        | No         | 5         | 19    |
+| 4. Nissan Qashqai      | 4           | 4           | 4            | Yes        | No         | 5         | 18    |
+| 5. Kia EV6             | 5           | 5           | 5            | Yes        | No         | 1         | 17    |
+| 6. Ford Kuga           | 3           | 3           | 4            | Yes        | No         | 5         | 16    |
+| 7. Volkswagen ID 5     | 2           | 3           | 5            | No         | No         | 5         | 15    |
+| 8. Range Rover Sport   | 3           | 2           | 5            | Yes        | No         | 3         | 14    |
+| 9. Volvo XC60          | 3           | 3           | 5            | Yes        | No         | 2         | 14    |
+| 10. Toyota Yaris       | 3           | 1           | 5            | Yes        | No         | 1         | 11    |
+
+hire on turo.com to get a gauge of prices 100 per day for a tesla model y
+
+tesla modell y is about 30000 and costs 480 per month ... could i offset this by car hire private rental??? not sure !!! worth a try!!!
 
 
 ## zshrc
@@ -7006,3 +7039,8 @@ cloudinary - image hosting
 rome is a code linter and formatter
 
 
+
+
+## history tech
+
+2022 chat gpt

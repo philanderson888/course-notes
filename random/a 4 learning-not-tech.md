@@ -24,6 +24,7 @@
     - [Russia](#russia)
     - [Military Equipment](#military-equipment)
     - [Ships](#ships)
+    - [army](#army)
   - [Chemistry](#chemistry)
   - [Animals](#animals)
   - [Bible](#bible)
@@ -291,6 +292,14 @@ Sho’t Kal Israeli Tank 1970
 USS Ronald Reagan Aircraft Carrier
 HMS Ocean - UK biggest warship, 1000 men
 
+### army
+
+troop has 3 tanks
+
+squad has 14 tanks
+
+regiment has less than 50 tanks
+
 
 
 
@@ -427,6 +436,12 @@ diocletian - roman emperor
 
 100 trillion social security debt
 
+10 million illegal immigrants make up around 3% of population
+
+250,000 illegal immigrants per month
+
+10,000 illegal immigrants per day
+
 ## uk government
 
 ```
@@ -442,6 +457,7 @@ asylum seeker hotels
 1.5 billion extra for education wages
 5.25% is rate in september 2023
 6.7% is inflation rate august 2023
+LTN Low Traffic Neighbourhood
 ```
 
 ## taxation

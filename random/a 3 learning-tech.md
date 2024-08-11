@@ -4,7 +4,6 @@
 
 - [learning 7000 lines](#learning-7000-lines)
 	- [contents](#contents)
-	- [overwhelming amounnts of data](#overwhelming-amounnts-of-data)
 	- [where is all my learning - parse it down smaller and smaller](#where-is-all-my-learning---parse-it-down-smaller-and-smaller)
 	- [websites](#websites)
 	- [ideas - youtube](#ideas---youtube)
@@ -12,14 +11,11 @@
 		- [regular route joe](#regular-route-joe)
 	- [improve existing skills](#improve-existing-skills)
 	- [learn new skills](#learn-new-skills)
-	- [thinbgs for the future](#thinbgs-for-the-future)
+	- [things for the future](#things-for-the-future)
 	- [reading](#reading)
 	- [random learning notes](#random-learning-notes)
-		- [202407 random](#202407-random)
+		- [202408 random](#202408-random)
 	- [scripting](#scripting)
-	- [apps](#apps-1)
-	- [database](#database)
-	- [video](#video)
 	- [random](#random)
 	- [ide](#ide)
 	- [CSS](#css)
@@ -72,7 +68,7 @@
 		- [UI/UX](#uiux)
 		- [Reading Lists](#reading-lists)
 		- [Kotlin](#kotlin)
-		- [Video](#video-1)
+		- [Video](#video)
 		- [VideoCasting](#videocasting)
 		- [IE](#ie)
 		- [Getting Help On The Internet](#getting-help-on-the-internet)
@@ -139,11 +135,8 @@
 	- [random web terms 2023](#random-web-terms-2023)
 	- [history tech](#history-tech)
 
-## overwhelming amounnts of data
 
-if you know it then delete it
 
-create space
 
 ## where is all my learning - parse it down smaller and smaller
 
@@ -246,7 +239,7 @@ create web automation framework to click through all my sites and record a video
 build a nocode database
 
 
-## thinbgs for the future 
+## things for the future 
 
 machine learning from aws https://aws.amazon.com/training/learn-about/machine-learning/?trk=6d3756a9-ee34-407c-86cb-259b290c2238
 
@@ -260,67 +253,59 @@ javascript weekly
 
 ## random learning notes
 
-### 202407 random
+### 202408 random
 
-zod validates javascript data types https://zod.dev/ 
+zod validates javascript types zod.dev
 
-aws run serverless code https://aws.amazon.com/tutorials/run-serverless-code/
+cloudflare durable objects have session id
 
-Cloudflare durable objects by session id 
+cloudflare workers are serverless
 
-Cloudflare workers = serverless
+cloudflare d1 is sql
 
-Cloudflare D1 = SQL database
+cloudflare r2 is nosql
 
-Cloudflare R2 = NoSQL database
+realm endpoints created with netlify + mongodb
 
-Netlify functions with mongo ... use Realm to create an endpoint which runs code to read db when you hit the end point
+userfront jwt
 
-UserFront JWT
+fastify jwt
 
-Fastify JWT
+roadmap.sh gives learning path
 
-Learning path roadmap.sh
+userfront full stack samples
 
-Resolver identi
+temporal has native date handling
 
-Cloudflare workers https://workers.cloudflare.com/.  … run sample code
-
-Full Stack Login
-
-https://userfront.com/examples/vue
-
-temporal native date handling
-
-graph ql
+graphql data
 
 edge db
 
-Web Containers run node in a browser
+web containers run node in browser
 
 docusaurus
 
-turbopack
+npx create-next-app --example-with-turbopack
 
-npx create-next-app --example with-turbopack then npm run dev / yarn dev / pnpm dev
+pnpm symlinks
 
-pnpm instead of npm and yarn - uses symlinks?
+codebase.show/projects/realworld
 
-typescript book
+storyblocks has stock video 
 
-bun is faster than deno
+steve.ai create videos
 
-zod uses typescript with mongoose
+scoop install without sudo
 
-svelte
+apprite apps
 
-Demo of all demos https://codebase.show/projects/realworld
+neo4j is graphql over sql
 
-story blocks has stock video from which to make your own videos
+runway ml fast video editing
 
-steve.ai creates animated videos
+partykit hosting like netlify and vercel
 
-scoop installs without requiring sudo
+mojo is python upgrade
 
 ## scripting
 
@@ -335,44 +320,10 @@ Also have the ability to exclude carts in folders by name from the search over a
 ```
 
 
-
-
-
-
-
-## apps
-
-AppRite
-
-## database
-
-Neo4J is GraphQL upgrade to SQL query language
-
-## video
-
-Runway ML fast video editing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## random
 
 ```
-Partykit hosting like Netlify
-Mojo is upgrade to python
 Javascript padstart 
-Javascript temporal date library
 Javascript signals build custom loops and listeners
 Web transport replaces web sockets  ... UDP datagram API, TCP streams API
 HTTP3 bidirectional
@@ -533,6 +484,14 @@ Performance - loading times
 https://gtmetrix.com
 
 ## ai
+
+nvidia
+
+blackwell
+
+hopper
+
+
 
 ```
 LPU Language Processing Unit

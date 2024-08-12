@@ -307,6 +307,48 @@ partykit hosting like netlify and vercel
 
 mojo is python upgrade
 
+padstart pads a string with another string
+
+a signal is a listener over a primitive
+
+```js
+// npm install signals
+const {signal } = require('signals');
+let count = signal(0);
+count.observe(value => console.log(value));
+count(10); 
+```
+
+web transport replaces web sockets and enables secure connections.   it works with http2, http3 and quic
+
+```js
+// package.json
+// "@fails-components/webtransport": "^1.0.4",
+// "@fails-components/webtransport-transport-http3-quiche": "^1.0.4",
+async function sendData(url, data) {
+    const wt = new WebTransport(url);
+    const writable = await wt.createUnidirectionalStream();
+    const writer = writable.getWriter();
+    await writer.write(data);
+    await writer.close();
+}
+```
+
+quic by google in 2012 has multiple streams of data over the one connection
+
+solidjs examples
+
+y-websocket allows for scaling of websockets over multiple servers
+
+webflow build nocode websites like wix, including databases ... can start for free ...
+
+airtable has free starter tier ... its used by netflix, tesla, wework ... try at airscript.dev tutorial using jsonplaceholder api ... perfect ... 
+
+sendgrid is used to send emails 
+
+
+
+
 ## scripting
 
 ```
@@ -323,16 +365,6 @@ Also have the ability to exclude carts in folders by name from the search over a
 ## random
 
 ```
-Javascript padstart 
-Javascript signals build custom loops and listeners
-Web transport replaces web sockets  ... UDP datagram API, TCP streams API
-HTTP3 bidirectional
-QUIC real time socket protocol
-Y-websocket
-YJS collaboration tool over Y-websockets
-Asciidoc alternative to markdown
-Nocode webflow
-Nocode airtable
 Locode
 Transformers is a text to speech api 
 Vanilla js web components …

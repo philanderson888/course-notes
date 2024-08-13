@@ -16,7 +16,6 @@
 	- [random learning notes](#random-learning-notes)
 		- [202408 random](#202408-random)
 	- [scripting](#scripting)
-	- [random](#random)
 	- [ide](#ide)
 	- [CSS](#css)
 	- [JS](#js)
@@ -89,12 +88,12 @@
 		- [Data Visualization](#data-visualization)
 		- [Surveys](#surveys)
 	- [no code](#no-code)
-	- [random](#random-1)
+	- [random](#random)
 	- [cloud](#cloud)
 	- [apple](#apple)
 	- [Terms](#terms)
 	- [Web Terms](#web-terms)
-	- [random](#random-2)
+	- [random](#random-1)
 	- [streaming](#streaming)
 	- [functional programming languages](#functional-programming-languages)
 	- [Wed 20 December 2023](#wed-20-december-2023)
@@ -105,7 +104,7 @@
 	- [vi](#vi)
 	- [bash](#bash-3)
 	- [azure](#azure)
-	- [random](#random-3)
+	- [random](#random-2)
 - [Random Web, Programming And Productivity](#random-web-programming-and-productivity)
 		- [Graphics](#graphics)
 		- [stats](#stats)
@@ -115,7 +114,7 @@
 - [Random List 1 - mostly web](#random-list-1---mostly-web)
 	- [bundling](#bundling)
 	- [code splitting](#code-splitting)
-	- [Random](#random-4)
+	- [Random](#random-3)
 	- [CSS](#css-1)
 	- [Testing](#testing-2)
 	- [Git](#git)
@@ -129,7 +128,7 @@
 	- [minimist](#minimist)
 	- [Random Programming Terms December 2022](#random-programming-terms-december-2022)
 		- [android](#android-1)
-	- [random](#random-5)
+	- [random](#random-4)
 	- [traditional node and mongo random terms](#traditional-node-and-mongo-random-terms)
 	- [random web terms 2022](#random-web-terms-2022)
 	- [random web terms 2023](#random-web-terms-2023)
@@ -346,6 +345,41 @@ airtable has free starter tier ... its used by netflix, tesla, wework ... try at
 
 sendgrid is used to send emails 
 
+npx create-roku-app
+
+github rokucommunity brighterscript-template
+
+github jellyfin jellyfin-roku
+
+roku test urls ottoverse.com free-hls-m3u8-test-urls
+
+arturocuya.com roku-101 get started
+
+gtag google tag  developers.google.com gtagjs
+
+hugging face ai models
+
+transformers text to speech ai model
+
+vanilla js
+
+photopea online image editor like figma
+
+vectorpea vector image editor
+
+verto.sh open source projects
+
+p5.js learn to code
+
+billboard js charts
+
+svelte front end
+
+phoenix framework with database ... try it
+
+sveltekit full stack
+
+mock service worker fake api
 
 
 
@@ -362,22 +396,6 @@ Also have the ability to exclude carts in folders by name from the search over a
 ```
 
 
-## random
-
-```
-Locode
-Transformers is a text to speech api 
-Vanilla js web components …
-Photopea image editor 
-Vectorpea vector image editor 
-Verto.sh easy open source projects 
-P5.js learn to code 
-Billboard.js make charts 
-svelte ... front end
-sveltekit ... full stack 
-Mock Service Worker fake internal API
-LightningJS
-```
 
 ## ide
 

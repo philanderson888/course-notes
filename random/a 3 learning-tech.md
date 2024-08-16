@@ -15,17 +15,14 @@
 	- [reading](#reading)
 	- [random learning notes](#random-learning-notes)
 		- [202408 random](#202408-random)
+	- [ai](#ai)
+	- [ai text to speech](#ai-text-to-speech)
+	- [add to learning javascript](#add-to-learning-javascript)
+	- [10 minute projects - use these technologies !!!](#10-minute-projects---use-these-technologies-)
 	- [scripting](#scripting)
-	- [ide](#ide)
-	- [CSS](#css)
-	- [JS](#js)
 	- [design](#design)
 	- [docs](#docs)
-	- [ai](#ai)
-	- [ai images](#ai-images)
-	- [ai video](#ai-video)
-	- [ai text to speech](#ai-text-to-speech)
-	- [ai drdiving](#ai-drdiving)
+	- [ai driving](#ai-driving)
 	- [zshrc](#zshrc)
 	- [bash](#bash)
 	- [aws](#aws)
@@ -115,7 +112,7 @@
 	- [bundling](#bundling)
 	- [code splitting](#code-splitting)
 	- [Random](#random-3)
-	- [CSS](#css-1)
+	- [CSS](#css)
 	- [Testing](#testing-2)
 	- [Git](#git)
 - [Random List - Programming](#random-list---programming)
@@ -381,7 +378,114 @@ sveltekit full stack
 
 mock service worker fake api
 
+image playground from ios 18
 
+apple vision framework in ios 18 ... text extraction ... face detection ... body pose recognition ... 
+
+apple swift 6
+
+apple translation ui in ios 18
+
+apple create machine learning app in ios 18
+
+ai whisper
+
+ai stable diffusion
+
+ai mistral
+
+pytorch ai machine learning model
+
+tensor flow ai machine learning model
+
+jax ai machine learning model
+
+mlx ai machine learning model
+
+apple ai machine learning on 'metal' ie local hardware
+
+apple genmoji make custom emojis
+
+apple stickers are enhanced emojis
+
+apple memoji are ???
+
+emoji are traditionally plain text and rendered uniquely by the machine 
+
+apple adaptive image glyph = genmoji - custom emojis
+
+learning.deeplearning.ai
+
+build better design systems https://www.designsystemchecklist.com 
+
+perplexity pro - tap into ai api perplexity pro api - get some data back on my linux scripts
+
+defensivecss.dev
+
+html form value ... string
+html valueAsDate
+html valueAsNumber
+
+javascript date.valueOf() converts to unix time
+
+alpine linux
+
+nextjs
+
+nuxtjs
+
+tensor flow
+
+prismic.io
+
+ngrok tunnel
+
+css margin collapse - use margin bottom and not margin top
+
+nvm node version manager
+
+pnpm use it instead of npm or yarn
+
+turbopack bundles js and ts using rust
+
+cdn js find any library
+
+caniuse.com
+
+cronhub.io cron jobs
+
+## ai
+
+nvidia
+
+blackwell
+
+hopper
+
+lpu language processing unit
+
+llm large language model
+
+inference engine
+
+## ai text to speech
+
+vapi.ai
+
+
+
+
+## add to learning javascript
+
+console.time - add a stopwatch to project
+
+## 10 minute projects - use these technologies !!!
+
+svg css filter eg blog.logrocket.com complete guide
+
+tailwind css
+
+slick carousel slider
 
 ## scripting
 
@@ -397,84 +501,6 @@ Also have the ability to exclude carts in folders by name from the search over a
 
 
 
-## ide
-
-https://www.jsplayground.dev/
-
-## CSS
-
-https://defensivecss.dev
-
-SVG filters https://blog.logrocket.com/complete-guide-using-css-filters-svgs
-
-Tailwind
-
-Responsive https://tailwindcss.com/docs/responsive-design
-
-
-
-
-
-
-
-
-
-
-
-
-## JS
-
-```
-valueAsDate
-
-valueAsNumber
-
-Million.js upgrade to react
-
-SlickJS Carousel https://kenwheeler.github.io/slick
-
-AlpineJS manipulate data in the DOM  https://alpinejs.dev
-
-NextJS
-
-NuxtJS is vue next is 
-
-Tensor flow 
-
-Prismic . Io 
-
-Console. Time 
-
-Ngrok 
-
-CSS margin collapse 
-
-NVM replace with m 
-
-PNPM has sim links
-
-Use margin bottom not margin top … margin collapse
- 
-Bundling
-Turbopack bundles JS and TS, written in Rust by creators of Webpack and NextJS
-
-Cloud
-
-Portainer Container Management  https://github.com/portainer/portainer
-
-CDN-JS
-Help find any library hosted on a CDN site
-
-cdnjs.com
-
-caniuse.com
-
-https://cronhub.io CronHub - Schedule cron jobs
-
-
-https://www.zerodayinitiative.com/about
-```
-
 ## design 
 
 https://colorhunt.co/palettes/pastel
@@ -484,36 +510,24 @@ https://www.manypixels.co/gallery
 https://excalidraw.com/
 
 
+
+
 ## docs
-
-devdocs.io - docs on many languages
-
 
 Documentation - beautify your source code
 https://carbon.now.sh/
 
-
 Documentation - embed code with CodePen
 https://codepen.io
-
 
 Documentation - create ReadMe
 https://readme.so/editor
 
-
-
-ExplainShell
 Explains shell commands
 https://explainshell.com
 
-
 Images - free - unsplash
 https://unsplash.com
-
-
-
-
-
 
 Image Compression - Tiny PNG
 https://tinypng.com
@@ -533,47 +547,13 @@ Web page speed    https://pagespeed.web.dev
 Performance - loading times
 https://gtmetrix.com
 
-## ai
-
-nvidia
-
-blackwell
-
-hopper
 
 
+## ai driving
 
-```
-LPU Language Processing Unit
-LLM Large Language Model
-Inference Engine
-gpt-3.5 process text only
-gpt-4 images and text
-4-turbo add knowledge up to april 2023
-```
+Hyundai own Boston dynamics 
 
-## ai images
-
-```
-nighcafe
-bing
-gencraft
-```
-
-## ai video
-
-```
-lensa
-```
-
-
-
-## ai text to speech
-
-https://dashboard.vapi.ai/
-
-
-## ai drdiving
+Agile robotics
 
 wayve gets 1 billion investment for ai driving
 

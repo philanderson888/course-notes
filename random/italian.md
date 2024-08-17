@@ -4,6 +4,7 @@
 
 - [italian](#italian)
 - [contents](#contents)
+  - [revision](#revision)
   - [pronouns](#pronouns)
   - [prepositions](#prepositions)
   - [adjectives](#adjectives)
@@ -32,7 +33,12 @@
   - [food, shopping](#food-shopping)
   - [verbs](#verbs-2)
 
+## revision
 
+```
+e stato   he has been
+ero       i was
+```
 
 ## pronouns
 

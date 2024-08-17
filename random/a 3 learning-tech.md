@@ -16,6 +16,7 @@
 	- [random learning notes](#random-learning-notes)
 		- [202408 random](#202408-random)
 	- [ai](#ai)
+	- [cloud](#cloud)
 	- [ai text to speech](#ai-text-to-speech)
 	- [add to learning javascript](#add-to-learning-javascript)
 	- [10 minute projects - use these technologies !!!](#10-minute-projects---use-these-technologies-)
@@ -86,7 +87,7 @@
 		- [Surveys](#surveys)
 	- [no code](#no-code)
 	- [random](#random)
-	- [cloud](#cloud)
+	- [cloud](#cloud-1)
 	- [apple](#apple)
 	- [Terms](#terms)
 	- [Web Terms](#web-terms)
@@ -107,7 +108,8 @@
 		- [stats](#stats)
 		- [testing](#testing-1)
 	- [war](#war)
-	- [networking](#networking)
+	- [cyber](#cyber-1)
+	- [cloud](#cloud-2)
 - [Random List 1 - mostly web](#random-list-1---mostly-web)
 	- [bundling](#bundling)
 	- [code splitting](#code-splitting)
@@ -121,6 +123,8 @@
 - [Random Web](#random-web)
 	- [Node Term List](#node-term-list)
 - [Angular Terms](#angular-terms)
+	- [javascript](#javascript)
+	- [Immutable](#immutable)
 	- [Random Rubbish December 2022](#random-rubbish-december-2022)
 	- [minimist](#minimist)
 	- [Random Programming Terms December 2022](#random-programming-terms-december-2022)
@@ -454,6 +458,10 @@ caniuse.com
 
 cronhub.io cron jobs
 
+remotejs can debug remote app
+
+trackjs can debug client side js errors
+
 ## ai
 
 nvidia
@@ -467,6 +475,34 @@ lpu language processing unit
 llm large language model
 
 inference engine
+
+llm large language model
+
+tesla giga factory in texas
+
+tesla gifafactory in mexico
+
+tesla factory in berlin
+
+tesla factory in shanghai
+
+tesla redwood model 2
+
+tesla starbase rocket factory texas
+
+optimist 22 degrees of freedom
+
+## cloud
+
+prometheus monitor
+
+nagios monitor
+
+terraform provision
+
+chef / ansible / puppet configuration management
+
+qodana code check
 
 ## ai text to speech
 
@@ -2086,6 +2122,10 @@ ala addressable linear adverts
 dai swaps whole advert break or nothing; ala swaps individual adverts
 hylda hybrid linear digital adverts ensures breakdown of each adpod is suitable
 l2vod live-to-vod is extended restart after finish
+psb public service broadcaster (regular tv)
+ebvs exit before video start
+vsf video start failure
+spi stream performance index
 
 ```
 
@@ -2408,8 +2448,9 @@ selenium page factory initialises page items
 nimitz aircraft carrier
 aircraft carrier gerald ford latest
 
-## networking
+## cyber
 
+```
 ngp next generation ,..?
 snmp
 ldap
@@ -2464,13 +2505,62 @@ the harvester
 pipl social media
 peekyou
 echosec.net
+centralops.net dns harvesting
+whois lookup
+geoip lookup
+netcraft online security company
+htttrack website copier
+nmap network mapper
+zenmap ui form of nmap
+openvas vulnerability scanner
+nessus vulnerability scanner
+qualys cloud vulernability scanner
+scap is xml framework to categorise vulnerabilities
+bugtraq disclose vulnerabilities (not used any more)
+nvd national vulnerability database 
+cvss common vulnerability scoring system
+oval open vulnerability and assessment language uses xml to report vulernabilities and system state
+xccdf is xml security checklists and benchmarks
+credentialed scan after log in 
+agent scan after client install
+discovery scan of network
+assessment scan of vulnerabilities
+sensor scan from external node
+scope of scan is ip and ports
+pci payment card industry
+pci dss data security standards - compliance
+wifi pineapple vulnerability assessment 
+zap zed attack proxy scans websites
+webgoat is vulnerable java app
+cis center internet security
+nist national institute science and technology
+rum real user monitoring monitors how users see your app
+burp suite vulnerability scan web apps and apis
+port swigger research 
+waf web app firewall is layer 7 defence
+reverse proxy sits in front of servers to protect them
+dropper onto machine
+c2c command and conquer persistent threat
+polymorphic evades detection by altering signature
+```
 
+## cloud
 
-
-
-
-
-
+```
+iam identity and access management
+elastic beanstalk deploy web apps
+rds relational database
+vagrant
+docker
+nginx
+kubernetes
+kubectl
+puppet
+jenkins
+vm start order
+storage qos
+kms key management service
+```
 
 
 
@@ -5385,6 +5475,11 @@ Can hold arbitrarily large integer numbers
 [https://developers.google.com/web/updates/2018/05/bigint](https://developers.google.com/web/updates/2018/05/bigint)
 Console Output
 
+
+## javascript
+
+```
+
 javascript:console.log('hi'); // FROM THE BROWSER WINDOW!!! OR URL LINK!!!
 console.log() produces black text
 [console.info](http://console.info/)() blue text with icon
@@ -5436,7 +5531,7 @@ going to Chrome Developer Tools, Network tab, clicking
 on the loaded file and then choosing 'Headers'
 History.length/back/forward/go
 
-```
+
 Accessing Browser History
 History object is an ARRAY OF URLS LAST VISITED
 
@@ -5457,7 +5552,7 @@ Most recent page document.referrer
 History  has length (back button), back(), forward(), go(x)
 ```
 
-Immutable
+## Immutable
 
 Immutable objects cannot change
 const references to primitive objects are immutable

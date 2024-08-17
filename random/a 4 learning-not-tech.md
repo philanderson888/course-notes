@@ -11,21 +11,33 @@
     - [Planetary Exploration - Venus](#planetary-exploration---venus)
     - [Spaceflight - Manned By Date](#spaceflight---manned-by-date)
     - [Spaceflight - Unmanned By Date](#spaceflight---unmanned-by-date)
+  - [chemistry](#chemistry)
+  - [biology](#biology)
     - [Space Researchers](#space-researchers)
     - [Space Tools](#space-tools)
   - [Sport](#sport)
     - [Football](#football)
     - [Politics](#politics)
-    - [Political Conflict](#political-conflict)
+  - [israel conflict](#israel-conflict)
     - [Aircraft](#aircraft)
     - [War](#war)
     - [Wars By Date](#wars-by-date)
+  - [war artillery](#war-artillery)
+    - [pre wwi](#pre-wwi)
+    - [wwi](#wwi)
+    - [wwii](#wwii)
+    - [post wwii artillery](#post-wwii-artillery)
+  - [history wwi](#history-wwi)
+  - [history wwii](#history-wwii)
     - [War Events](#war-events)
-    - [Russia](#russia)
+    - [russian army](#russian-army)
+    - [planes](#planes)
+    - [us army](#us-army)
     - [Military Equipment](#military-equipment)
     - [Ships](#ships)
     - [army](#army)
-  - [Chemistry](#chemistry)
+  - [china](#china)
+  - [Chemistry](#chemistry-1)
   - [Animals](#animals)
   - [Bible](#bible)
   - [Bible People](#bible-people)
@@ -40,6 +52,7 @@
   - [usa money](#usa-money)
   - [uk government](#uk-government)
   - [taxation](#taxation)
+  - [other countries](#other-countries)
   - [charity](#charity)
   - [nasa](#nasa)
   - [companies](#companies)
@@ -58,6 +71,7 @@
   - [history - israel](#history---israel)
   - [biblical feasts](#biblical-feasts)
   - [Jewish Christians](#jewish-christians)
+  - [modern day israel](#modern-day-israel)
   - [chemistry elements](#chemistry-elements)
   - [commercial avaition](#commercial-avaition)
   - [space companies](#space-companies)
@@ -77,6 +91,7 @@
   - [housing](#housing)
   - [animals And Biology](#animals-and-biology)
   - [physics](#physics)
+  - [actors](#actors)
 
 
 
@@ -156,7 +171,6 @@ Late 1970s Voyager II deep space probe
 
 DART crash into asteroid to divert it (Double Asteroid Redirection Test)
 
-
 ? Mars Rover got stuck
 
 
@@ -175,7 +189,147 @@ Surveyor III took a soil sampling probe to the moon and was later brought back t
 2015 Dawn flies past Ceres in the Asteroid belt  ....   Shiny white areas are observed. ... Is it ice? The whole planet is ice so what are the patches?   ...  Or are they salts? This would indicate liquid created the conditions to lay down the salt crystals!
 ```
 
+## space
 
+```
+2003 nasa spirit rover had a bounce landing
+
+nasa opportunity rover had a bounce landing
+
+phoenix lander observed snow and cirrus clouds and dug samples
+
+2011 curiosity nuclear - rocket landing - curiosity dropped on cable
+
+1996 mars global surveyor orbited the planet for over a decade
+
+1997 mars pathfinder landed - bounced on surface
+
+2001 orbiter odyssey takes photos with 100,000 orbits - record longest 
+
+esa mars express agency
+
+2003 beagle 2 lander by uk
+
+2003 methane and ammonia discovered on mars
+
+2017 cassini deliberately crashed into saturn
+
+1921 planned 
+
+1964 the grand tour - voyager and mariner probes
+
+1972 pioneer 10 jupiter
+
+1973 pioneer 11
+
+1977 voyager
+
+1979 pioneer 11
+
+1959 nasa
+
+2024 boeing starliner rocket
+
+mercury 7 test flights
+
+freedom 7 alan shepherd 1st us person in space 180km 16 minutes
+
+1962 first earth orbit .. mercury ... 3 orbits .. john glenn friendship 7
+
+mercury 6 missions 54 hours
+
+gemini 3 us first pair
+
+1967 apollo 1 fire killed 3
+
+1969 july 20 on moon neil armstrong buzz aldrin
+
+1973 skylab first us space station on saturn 5 rocket for 1 year with 3 teams
+
+1967 outer space treaty
+
+1975 apollo-soyuz joint rendezvous
+
+1981 shuttle - 5 shuttles over 30 years and 135 missions ... made from aluminium
+
+1984 challenger first untethered space walk
+
+1986 challenger disaster
+
+2003 colombia foam shield re-entry fail
+
+2011 atlantis final flight
+
+1966 surveyor touch down to moon
+
+surveyor 6 probes
+
+lunar orbiter 5 probes ... orbiting sun
+
+1962 gemini 
+
+mercury 7 astronauts
+
+apollo ... 24 astronauts ... ed white ... space walk no tether
+
+1967 apollo 1 - gus, ed, roger died in test environment
+
+1968 apollo 7 first crewed mission
+
+apollo 8 circle moon and return - first humans to circle moon
+
+apollo 10 dry run - close to moon and return
+
+apollo 11 buzz aldrin and neil armstrong in eagle ... michael ... orbit
+
+apollo 12 spacecraft down, men down 
+
+apollo 13 failed mission
+
+apollo 14 third lunar mission
+
+apollo 15 fourth lunar mission with lunar rover 12km journey
+
+apollo 16 fifth lunar mission
+
+apollo 17 last lunar mission - 3 days on surface
+
+2003 esa smart 1 moon mission
+
+artemis return to moon first unmanned then manned then lunar space station
+
+2014 orion has crew of 4 lasting 21 days for the artemis missions
+
+1972 mariner 2 to venus - first to orbit another planet
+
+venera - first controlled landing on another planet
+
+venera 7 - first transmission from venus
+
+venera 13 - longest lasting mission on venus surface - 120 minutes
+
+2006 esa venus express 
+
+
+
+
+```
+
+## chemistry
+
+```
+methane ch4
+
+ammonia
+```
+
+## biology
+
+```
+prokaryotes single cell
+
+eukaryotes multiple cell
+```
 
 
 ### Space Researchers
@@ -191,6 +345,11 @@ James Oberg, Space Historian
 RTG Radioisotope Thermal Generator - converts nuclear to 
 ```
 
+### rockets
+
+```
+h71m rocket by nasa
+```
 
 ## Sport
 
@@ -224,11 +383,15 @@ NHS
 Created 1948 after second world war
 1956 budget 20BN
 2020 budget 150BN which is 39% of GDP ...40 percent of spending on health ? No way !!!! Lord save us !!! from demonic powers of sickness .... in Jesus name
+suella braverman home secretary
+kier starmer
+rishi sunak
+michael gove
 ```
 
 
 
-### Political Conflict
+## israel conflict
 
 ```
 Judea and Samaria
@@ -244,6 +407,7 @@ Ethnic cleansing of Palestinians
 83 Palestinian children killed by apartheid Israelthis year
 #boycottIsrael
 Ben & Jerry end serving in occupied territories of Judea and Samaria. Palestine as a country never even existed. This is actually biblical Judea and Samaria which is bible territory and is part of Israel all along. Jordan captured in 1948 then Israel captured it back from Jordan in 1967. Ben & Jerry ordered Zinger to stop serving the Israeli settlements. He refused so they won't renew their licence to him in 2023. McDonalds does not operate in Judea and Samaria. Padan operates 180 McDonalds in Israel and some are kosher. Padan supports 'peace now' which opposes Jewish settlements in Judea and Samaria, east Jerusalem and Golan Heights. Human Rights Watch recycles claims of Israel flouting 'laws of war' and 'war crimes by Israel' focusing on 3 incidents where Palestinians were killed. Also accusing IDF of failing to investigate war violations committed in Gaza. 62 Palestinians were killed. Reports claim no military targets were present. First was caused by failed Palestinian rocket hitting 4 houses. Second Al-Shati refugee camp killing 10 civilians including children, a tragedy but IDF claims was also used as a 'terror infrastructure' claiming Hamas deliberately embeds military assets in densely populated civilian areas. Third was Gaza city and targeted underground terror tunnels and a terror command center. Military buildings collapsed but also unintended civilian buildings collapsed nearby. HRW also noted Palestinians launched more than 4360 unguided rockets and mortars towards Israeli population centers which violate by being indiscriminate because they are not targeted therefore are launched against random civilian targets. Palestinian are war crimes, Israeli response is not. Palestinian target civilian, Israel target military.
+2007 
 ```
 
 
@@ -257,26 +421,240 @@ Airbus
 
 ### War
 
+```
 War Spall Explosion is lots of little explosions
 HESH bomb sticks to surface then explodes (High Explosive Squash Head)
+houthis pirates
+```
 
 ### Wars By Date
 
+```
+josephus war historian
+
+crusades
+
 American War Of Independence
+
+1862 anteitam creek 12000 injured/died
+
 Crimean War 1890?
-1914 WWI
-1939 WWII
-Crusades
+
+1920 mitsubishi japanese war factories - military takes over
+
+1950s north korea invade south
+
+1950s and 1960s mitsubishi production takes off ... bullet train
+
+
+```
+
+## war artillery
+
+### pre wwi
+
+```
+tortion artillery with rope used ancient greece 4000BC
+
+trebuchet catapult used in middle ages
+
+gunpowder in 1300s invented by china
+
+1851 colt revolver 6 bullets ... factory produces 150 guns per day
+
+1861 us civil war ... first great industrial war
+
+colt 45 = cowboy
+
+projectile spins to keep trajectory
+
+steel = nickel manganese alloy
+
+1897 french cannon 75 can fire 20 rounds a minute
+
+```
+
+### wwi
+
+```
+m777 howitzer used by uk 155mm
+
+paris gun by germans shelled paris from 120 miles away
+```
+
+### wwii
+
+```
+v2 rocket by germans
+```
+
+
+### post wwii artillery
+
+```
+nlaw tank killer
+```
+
+
+## history wwi
+
+```
+guns of august - book about start of wwi
+
+women on assembly line
+
+lloyd george drove war effort
+
+170 factories eg in leeds
+
+1916 battle of somme - opening day uk had 57000 casualties  
+
+battle of jutland - british beat germans, last major war fought primarily by battleships 
+```
+
+## history wwii
+
+```
+browning automatic rifle - 20 shots - light machine gun
+
+ak47 = kalashnikov automatic rifle ... 30 rounds ... loose tolerance so always works
+
+m16 = us answer to ak47
+
+lee enfield = british rifle
+
+japenese zero planes by mitsubishi better than us planes
+
+pearl harbour 352 us items destroyed
+
+wwii usa 300,000 planes
+
+spitfire 
+
+hurricane
+
+manchester bomber
+
+lancaster bomber
+
+avro made manchester lancaster lincoln bombers ... 40000 employees ... 7 planes per day 
+
+wwii japan 50,000 planes
+
+battle of medway - us tricked and beat japanese
+
+philippine sea battle - 424 japanese planes lost
+
+1942 uk bombing raid on cologne with 1000 bombers
+
+uk bombs 2 of 3 german dams
+
+uk war - woolwich, arsenal, enfield, waltham abbey
+
+1944 leyte gulf war involved 200,000 people and japanese used kamakaze
+
+
+
+```
 
 ### War Events
 
 Manilla Massacre - 100,000 civilians killed in crossfire between USA and Japan
 
-### Russia
+### russian army
 
+```
 3000 tanks
 2000 planes
 1400 helicopters
+
+t54 tank
+t55 tank
+t62 tank 
+t72 tank
+t80 tank
+t90 tank 2017 120mm
+
+s-300 surface to air missile
+```
+
+### planes
+
+```
+mustang usa
+
+1903 first flight - inline engine
+
+wwi rotary engine
+
+wwi inline engine
+
+radial engine js whirlwind
+
+1927 first crossing atlantic using radial engine
+
+1930 inline engines 350mph
+
+spitfire
+
+hurricane
+
+messerschmitt bf109 german
+
+fokker german plane firing bullets through propeller
+
+lockheed p38 lightning
+
+lockheed p39 lightning
+
+lockheed p40 warhawk
+
+daimler benz german engines
+
+bmw german engines
+
+bmw spartanburg usa
+
+1950 vickers viscount rolls royce engines
+
+
+su57 russia
+
+f22 usa
+
+f35 usa
+
+rafale france
+
+j20 china
+
+drone fpv first person view
+
+ew electronic warfare
+
+airbus a830 ended 2021
+
+airbus a350 
+
+boeing 747 was last 747 twin aisle aircraft
+
+boeing 777 twin engine 30% less fuel than 747
+
+boeing 787 dream liner
+
+737 max 8 crash
+
+
+
+```
+
+### us army
+
+```
+m1 abrams tank
+challenger 2 uk tank
+leopard 2 german tank
+```
 
 ### Military Equipment
 
@@ -303,7 +681,17 @@ regiment has less than 50 tanks
 
 
 
+## china
 
+```
+rail 120,000 km
+rail 60% of all world
+20,000 tunnels
+1,000,000 bridges
+has 7 of 10 words top ports
+230 airports
+3.5 million flights annually
+```
 
 
 ## Chemistry
@@ -426,27 +814,35 @@ Cephalopod - octopus family
 
 ## history - rome
 
+753 romulus founded rome
+
 diocletian - roman emperor
+
+
 
 ## usa money
 
+```
 32 trillion debt
-
 4 trillion income
-
 100 trillion social security debt
-
 10 million illegal immigrants make up around 3% of population
-
 250,000 illegal immigrants per month
-
 10,000 illegal immigrants per day
+nasa budget 24 billion
+space x budget 2 billion with 7000 people
+amazon 500 billion
+apple 270 billion
+samsung 56 billion
+```
+
 
 ## uk government
 
 ```
 3 trillion debt
 1 trillion in per year
+1 trillion budget per year
 5 trillion social security debt
 128 billion uk government borrowing in 2022
 11 billion uk government borrowing in august 2023
@@ -458,6 +854,10 @@ asylum seeker hotels
 5.25% is rate in september 2023
 6.7% is inflation rate august 2023
 LTN Low Traffic Neighbourhood
+
+7 million a day hotel costs for asylum seekers
+
+
 ```
 
 ## taxation
@@ -467,6 +867,21 @@ LTN Low Traffic Neighbourhood
 28% of total economy received as income tax in usa
 40% of total economy received as income tax in france/italy/germany
 ```
+
+## other countries
+
+```
+australia 346 billion budget
+china debt 23 trillion
+russia debt 400 billion
+```
+
+## london
+
+```
+silvertown tunnel 2021-2025
+```
+
 
 ## charity
 
@@ -539,13 +954,14 @@ keplerb has orbit of 8 hours
 ## spacex
 
 ```
-raptor2 engine
+raptor2 engine is an upgrade to merlin engine
 merlin engine burns kerosene
-starship booster
+starship super heavy booster
 falcon9
 falcon heavy
 methane burns to pure h2o
-dragon manned
+dragon manned crew
+echo star satellite
 ```
 
 ## satellites
@@ -712,6 +1128,8 @@ We spend 8 days  feasting, partying, dancing, and having joy celebrating Gods 7 
 ```
 
 
+
+## modern day israel
 
 
 
@@ -1293,4 +1711,32 @@ Photon is exchange boson spin one
 Parton sub nuclear particles
 Quarks
 Gluons
+
+pauli exclusion principle 
+- fermion has 1/2 spin or 3/2 spin
+- electron has 1/2 spin up or down
+- boson
+- superposition
+- lepton single particle
+   - electron
+   - muon
+   - tau
+- hadron
+  - proton 2 up one down quark
+  - neutron 1 up 2 down quark
+
+
+quark up / down / top / bottom / strange / charm
+
+quark up , top, charm all have 2/3
+quark down , bottom, strange all have 1/3
+
+boson has integer spin
+- strong nuclear force
+- weak nuclear force
+- gravitational force
 ```
+
+## actors
+
+rachel zegler hunger games

@@ -17,29 +17,29 @@
 		- [202408 random](#202408-random)
 	- [ai](#ai)
 	- [cloud](#cloud)
+		- [view model](#view-model)
+		- [databases](#databases)
+		- [cloud](#cloud-1)
+		- [react native](#react-native)
+		- [flutter](#flutter)
+		- [linux](#linux)
 	- [ai text to speech](#ai-text-to-speech)
+	- [ai](#ai-1)
+		- [ai robots](#ai-robots)
 	- [add to learning javascript](#add-to-learning-javascript)
 	- [10 minute projects - use these technologies !!!](#10-minute-projects---use-these-technologies-)
 	- [scripting](#scripting)
 	- [design](#design)
 	- [docs](#docs)
-	- [ai driving](#ai-driving)
-	- [zshrc](#zshrc)
+	- [move this to scripting file ... have it live or nothing !!!](#move-this-to-scripting-file--have-it-live-or-nothing-)
 	- [bash](#bash)
-	- [aws](#aws)
-	- [cyber](#cyber)
-	- [Mobile Development](#mobile-development)
-		- [React Native](#react-native)
-		- [Flutter](#flutter)
 	- [functional programming](#functional-programming)
 	- [homebrew](#homebrew)
 		- [install](#install)
 	- [ide - vscode](#ide---vscode)
 	- [Imperative Programming](#imperative-programming)
 	- [Mixin](#mixin)
-	- [learning](#learning)
 - [Glossary](#glossary)
-	- [Babel](#babel)
 	- [BACKBONEJS](#backbonejs)
 	- [Browserify](#browserify)
 	- [File Structure](#file-structure)
@@ -87,7 +87,7 @@
 		- [Surveys](#surveys)
 	- [no code](#no-code)
 	- [random](#random)
-	- [cloud](#cloud-1)
+	- [cloud](#cloud-2)
 	- [apple](#apple)
 	- [Terms](#terms)
 	- [Web Terms](#web-terms)
@@ -108,8 +108,8 @@
 		- [stats](#stats)
 		- [testing](#testing-1)
 	- [war](#war)
-	- [cyber](#cyber-1)
-	- [cloud](#cloud-2)
+	- [cyber](#cyber)
+	- [cloud](#cloud-3)
 - [Random List 1 - mostly web](#random-list-1---mostly-web)
 	- [bundling](#bundling)
 	- [code splitting](#code-splitting)
@@ -492,6 +492,8 @@ tesla starbase rocket factory texas
 
 optimist 22 degrees of freedom
 
+
+
 ## cloud
 
 prometheus monitor
@@ -504,9 +506,80 @@ chef / ansible / puppet configuration management
 
 qodana code check
 
+babel converts modern javascript to legacy javascript
+
+browserify allows you to use node modules in standard html scripts
+
+isomorphic same code on client and server
+
+lambda
+
+less css allows variables in css; it's a minor addition to css; installed via npm ... can also use in raw html ... 
+
+### view model
+
+knockout js link view to data 
+
+backbone js link view to data
+
+### databases
+
+mongodb
+
+firebase
+
+feathersjs build database app out of the box
+
+
+
+### cloud
+
+aws inspector does vulnerability management
+
+### cyber
+
+nikto web server vulnerability scanner
+
+try hack me
+
+kali linux
+
+### react native
+
+build for android and ios
+
+### flutter 
+
+history 2017
+
+### linux
+
+```bash
+echo diff compares two text files
+diff file1 file2 # linux
+fc file1 file2 # windows file compare
+fc folder1 folder2
+```
+
 ## ai text to speech
 
 vapi.ai
+
+## ai
+
+originality.ai
+
+### ai robots
+
+hyundai own boston dynamics
+
+agile robotics
+
+wayve ai driving
+
+tesla is best self driving car, then audi rs, then bmw ix3, then nissan qashqau, then kia ev6
+
+waymo driverless
 
 
 
@@ -585,37 +658,7 @@ https://gtmetrix.com
 
 
 
-## ai driving
-
-Hyundai own Boston dynamics 
-
-Agile robotics
-
-wayve gets 1 billion investment for ai driving
-
-tesla 3 is best self driving car
-
-waymo is driverless uber
-
-| Car and ranking        | Ease of use | S-bend test | Pothole test | 30mph stop | 42mph stop | Hands-off | Total |
-|------------------------|-------------|-------------|--------------|------------|------------|-----------|-------|
-| 1. Tesla Model Y       | 5           | 5           | 3            | Yes        | Yes        | 5         | 20    |
-| 2. Audi RS Q8          | 5           | 4           | 5            | Yes        | No         | 5         | 20    |
-| 3. BMW iX3             | 5           | 3           | 5            | Yes        | No         | 5         | 19    |
-| 4. Nissan Qashqai      | 4           | 4           | 4            | Yes        | No         | 5         | 18    |
-| 5. Kia EV6             | 5           | 5           | 5            | Yes        | No         | 1         | 17    |
-| 6. Ford Kuga           | 3           | 3           | 4            | Yes        | No         | 5         | 16    |
-| 7. Volkswagen ID 5     | 2           | 3           | 5            | No         | No         | 5         | 15    |
-| 8. Range Rover Sport   | 3           | 2           | 5            | Yes        | No         | 3         | 14    |
-| 9. Volvo XC60          | 3           | 3           | 5            | Yes        | No         | 2         | 14    |
-| 10. Toyota Yaris       | 3           | 1           | 5            | Yes        | No         | 1         | 11    |
-
-hire on turo.com to get a gauge of prices 100 per day for a tesla model y
-
-tesla modell y is about 30000 and costs 480 per month ... could i offset this by car hire private rental??? not sure !!! worth a try!!!
-
-
-## zshrc
+## move this to scripting file ... have it live or nothing !!!
 
 ```bash
 export PATH=$PATH:/Users/Shared/android
@@ -661,49 +704,6 @@ stdin 0
 stdout 1
 stderr 2
 ```
-
-
-
-
-
-
-
-
-
-
-## aws
-
-aws inspector - does vulnerability management
-
-## cyber
-
-nikto - web server vulnerability scanner
-
-tryhackme
-
-kali
-
-
-
-## Mobile Development
-
-Problem with native app development
-
-- two codebases are needed (iOS and Android)
-- costly to hire platform-specific developers
-- costly to develop and maintain the codebase
-
-### React Native
-
-- Introduced by Facebook in 2015
-- Open source
-- Used by Facebook, Instagram, Uber, Tesla, Discord
-- Dominant force in mobile development today
-- Backed by React and Javascript
-
-### Flutter
-
-- Introduced by Google in May 2017
 
 
 
@@ -790,15 +790,13 @@ https://brew.sh
 
 Control-E and Control-Shift-E loop through files also bring up search box
 
-- Control-Shift-P - find your installed extension
-
 - Control-Shift-P - type 'keyboard' and select `Open Keyboard Shortcuts` and now we can enter a keyboard shortcut eg `emmet wrap with abbreviation` and assign a keystroke
 
-- Control-Shift-K - delete line
+- Control-K - delete line
 
 - Alt and Up Arrow - move line
 
-- Shift-Alt-Arrow - copy line
+- Shift-Alt-Arrow - duplicate line
 
 - Control - K - C and Control - K - U   comment and uncomment
 
@@ -913,22 +911,11 @@ see https://github.com/philanderson888/flutter/blob/master/projects/Course05Busi
 
 
 
-## learning
-
-originality.ai
-
-
 
 
 
 
 # Glossary
-
-## Babel
-	
-Just write Javascript
-
-Allows use of the latest standards without you worrying about compatibility
 
 ## BACKBONEJS
 
@@ -1019,76 +1006,7 @@ output = () ->
 	$('display').append(item)
 ```
 
-Databases Online
 
-```
-Why use application data solutions?
-	SPECIALISED ONLINE SOLUTIONS 
-
-MongoLAB
-	ONLINE MONGO 
-Firebase
-	<https://www.firebase.com/>
-	
-	ONLINE DATABASE WITH STORING OF DATA WITH ONLY A FEW LINES OF CODE 
-	
-	<https://www.firebase.com/tutorial/#gettingstarted>
-	
-		RUN CODE 
-		
-		<https://www.firebase.com/tutorial/#session/cpjmggjhta5>
-		
-		DATABASE 
-		
-		<https://cpjmggjhta5.firebaseio-demo.com/>
-		
-	
-DerbyJS
-
-	<http://derbyjs.com/>
-	
-	
-Meteor
-	DEVELOP FULL APPS 
-	
-		<https://www.meteor.com/>
-		
-		
-		
-	
-FeatherJS
-
-	BUILD APPS ON TOP OF NODE 
-	
-	<http://feathersjs.com/>
-	
-	ALL WORKS OUT OF THE BOX; FULL APPLICATION 
-	
-	DATABASE EG CAN USE VARIOUS EG MONGO 
-	
-		<https://github.com/feathersjs/feathers-mongodb>
-```
-
-Diff (Linux)
-
-COMPARES DIFFERENCE BETWEEN TWO FILES, LINE BY LINE
-Diff file1 file2
-
-FC File Compare (Windows Tool)
-
-```
-FC FILE1 FILE2
-	
-FC /B FILE1 FILE2   BINARY FILES
-```
-
-FC FOLDER1\* FC FOLDER2\* TO COMPARE MULTIPLE FILES IN TWO FOLDERS
-
-Isomorphic is same code (Javascript) running on both the client and the server
-
-Knockout JS is Microsoft technology used to link View fields to Model fields but code to update model must be written by developer - see Backbone also
-
-One reason to use Lambda functions is that it does not alter the value of 'this' whereas when we use a function, the value of 'this' can change inside the function
 
 LESS
 
@@ -1096,25 +1014,11 @@ LESS
 ADD VARIABLES BEFORE CSS IS COMPILED
 EASIEST WAY TO RUN IT IS WITHIN NODE
 
-lesscss.org
 
-	lesscss.org/less-preview
-	
-INSTALL WITH 		NPM INSTALL -G LESS
-
-USE WITH			LESSC STYLES.LESS OUTPUT.CSS
-
-For learning and development use, can also use LESS in the browser
-
-	<link rel="stylesheet/less" type="text/css" href="styles.less" />
-		
-	<script src="less.js" type="text/javascript"></script>
 
 mixin
 
-function
 
-variables
 ```
 
 Lint

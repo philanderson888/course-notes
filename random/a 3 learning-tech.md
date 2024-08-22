@@ -5,6 +5,7 @@
 - [learning 7000 lines](#learning-7000-lines)
 	- [contents](#contents)
 	- [where is all my learning - parse it down smaller and smaller](#where-is-all-my-learning---parse-it-down-smaller-and-smaller)
+	- [domains](#domains)
 	- [websites](#websites)
 	- [ideas - youtube](#ideas---youtube)
 	- [apps](#apps)
@@ -169,6 +170,18 @@ github course notes
 github node
 
 github javascript
+
+## domains
+
+caniplaythisgame.org Forwards to philanderson.uk Squarespace
+
+christiansinpakistan.org https://www.jesusislord.uk/orphan-school
+
+effectivemethodsofevangelism.com  Forwards to philanderson.uk
+
+philanderson.co.uk
+
+philanderson.uk easily
 
 ## websites
 

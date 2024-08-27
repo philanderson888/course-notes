@@ -35,23 +35,7 @@
 	- [move this to scripting file ... have it live or nothing !!!](#move-this-to-scripting-file--have-it-live-or-nothing-)
 	- [bash](#bash)
 	- [functional programming](#functional-programming)
-	- [homebrew](#homebrew)
-		- [install](#install)
-	- [ide - vscode](#ide---vscode)
-	- [Imperative Programming](#imperative-programming)
-	- [Mixin](#mixin)
 - [Glossary](#glossary)
-	- [BACKBONEJS](#backbonejs)
-	- [Browserify](#browserify)
-	- [File Structure](#file-structure)
-	- [Gatsby GraphQL / GraphiQL](#gatsby-graphql--graphiql)
-	- [Apollo GraphQL](#apollo-graphql)
-		- [TIOBE Index](#tiobe-index)
-	- [Source Maps eg bootstrap.css.map - Debugging Feature](#source-maps-eg-bootstrapcssmap---debugging-feature)
-	- [Using Google - Is There A Demand For Your App?](#using-google---is-there-a-demand-for-your-app)
-	- [Mobile Apps](#mobile-apps)
-	- [Testing](#testing)
-	- [NPM](#npm)
 	- [Bug Tracking](#bug-tracking)
 - [Random Links](#random-links)
 		- [.NET Enumeration](#net-enumeration)
@@ -107,7 +91,7 @@
 - [Random Web, Programming And Productivity](#random-web-programming-and-productivity)
 		- [Graphics](#graphics)
 		- [stats](#stats)
-		- [testing](#testing-1)
+		- [testing](#testing)
 	- [war](#war)
 	- [cyber](#cyber)
 	- [cloud](#cloud-3)
@@ -116,7 +100,7 @@
 	- [code splitting](#code-splitting)
 	- [Random](#random-3)
 	- [CSS](#css)
-	- [Testing](#testing-2)
+	- [Testing](#testing-1)
 	- [Git](#git)
 - [Random List - Programming](#random-list---programming)
 - [Random List 2 - Hardcore!](#random-list-2---hardcore)
@@ -475,6 +459,36 @@ remotejs can debug remote app
 
 trackjs can debug client side js errors
 
+imperative programming ... how to ... ??? java, c, c++, python ???
+
+browserify - allows use of npm require in standard html file
+
+less adds variables to your css
+
+csslint 
+
+gatsby
+
+graphql
+
+sanity.io headless cms opens socket so changes available immediately
+
+tiobe index of most popular programming 
+
+source maps get minified code back to normal code
+
+jmeter can do performance and load testing on web apps, written in java
+
+soak test over time
+
+stress test limits eg hits
+
+spike test over short period of time
+
+load test eg number of users
+
+npm-check-updates can upgrade package.json dependencies
+
 ## ai
 
 nvidia
@@ -786,407 +800,9 @@ Functional programming key terms
 
 
 
-## homebrew
-
-### install
-
-to install homebrew on mac we run
-
-https://brew.sh
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-
-## ide - vscode
-
-Control-E and Control-Shift-E loop through files also bring up search box
-
-- Control-Shift-P - type 'keyboard' and select `Open Keyboard Shortcuts` and now we can enter a keyboard shortcut eg `emmet wrap with abbreviation` and assign a keystroke
-
-- Control-K - delete line
-
-- Alt and Up Arrow - move line
-
-- Shift-Alt-Arrow - duplicate line
-
-- Control - K - C and Control - K - U   comment and uncomment
-
-- Screencast Mode - shows all the clicks visibly when making a video!!!
-
-- Alt and click - multi-select
-
-- Control - Alt - L - select all instances of a word for renaming etc - take care with this one!
-
-<div class="hello">
-    - Shift - Shift - P - wrap HTML
-</div>
-
-
-
-
-
-## Imperative Programming
-
-Answers 'how to do' this problem with workflow control 
-
-Imperative programming languages (C, C++, Java, Python …)
-
-
-
-
-## Mixin
-
-mixins allow code to be `injected`
-
-```java
-class MixinParent {
-  parentBehaviour() {
-    print('parent is doing this');
-  }
-}
-
-class MixinChild01 extends MixinParent {
-  @override
-  parentBehaviour() {
-    print(' ');
-    super.parentBehaviour();
-    print('mixinChild01 also has some extra unique behaviour');
-  }
-}
-
-class MixinChild02 extends MixinParent {
-  @override
-  parentBehaviour() {
-    print(' ');
-    super.parentBehaviour();
-    print('mixinChild02 also has some extra unique behaviour');
-  }
-}
-
-class MixinChild03 extends MixinParent with InjectCode01, InjectCode02 {
-  @override
-  parentBehaviour() {
-    print(' ');
-    super.parentBehaviour();
-    print('mixinChild03 also has some extra unique behaviour');
-  }
-}
-
-mixin InjectCode01 {
-  uniqueBehaviour01() {
-    print('doing some pretty unique stuff');
-  }
-}
-
-mixin InjectCode02 {
-  uniqueBehaviour02() {
-    print('doing some more pretty unique stuff');
-  }
-}
-```
-
-used by 
-
-```java
-print('mixin demo');
-print(' ');
-var mixinParent = MixinParent();
-var mixinChild01 = MixinChild01();
-var mixinChild02 = MixinChild02();
-var mixinChild03 = MixinChild03();
-mixinParent.parentBehaviour();
-mixinChild01.parentBehaviour();
-mixinChild02.parentBehaviour();
-mixinChild03.parentBehaviour();
-mixinChild03.uniqueBehaviour01();
-mixinChild03.uniqueBehaviour02();
-/*
-mixin demo
-
-parent is doing this
-
-parent is doing this
-mixinChild01 also has some extra unique behaviour
-
-parent is doing this
-mixinChild02 also has some extra unique behaviour
-
-parent is doing this
-mixinChild03 also has some extra unique behaviour
-doing some pretty unique stuff
-doing some more pretty unique stuff
-*/
-```
-
-see https://github.com/philanderson888/flutter/blob/master/projects/Course05BusinessCard2/lib/models/mixin.dart used by https://github.com/philanderson888/flutter/blob/master/projects/Course05BusinessCard2/lib/routes/grid_main.dart 
-
-
-
-
-
-
 
 # Glossary
 
-## BACKBONEJS
-
-```
-Model has Key-Value binding
-Collections of functions
-View has 'declarative' event handling (events declared in UI code)
-Connects over RESTful JSON interface
-Data represented as Model
-	Create
-	Validate
-	Destroy
-	Save to server
-	Model changes ==> change 'trigger' event updates all views automatically
-	
-	Models sync with a 'persistence' layer usually REST API + DATABASE
-Collection is GROUP OF MODELS
-	var myCollection =  Backbone.collection.extend({url: '/folder'});
-	This allows use of the following 
-		GET  /books/ .... collection.fetch();
-		POST /books/ .... collection.create();
-		GET  /books/1 ... model.fetch();
-		PUT  /books/1 ... model.save();
-		DEL  /books/1 ... model.destroy();
-	COLLECTION DATA IS AS AN ARRAY [ {“item1”:”data1”}]
-	MODEL DATA IS AS A JSON OBJECT {“FIELD”:”VALUE”}
-PARSING JSON RESPONSE FOR THE DATA THAT YOU ACTUALLY WANT
-	IF COLLECTION COMES BACK WITH EXTRA DATA THEN YOU HAVE TO PARSE FOR THE
-	NAMED DATA YOU ACTUALLY WANT 
-	{
-		“dontwant1”:”dontwantthis”,
-		“books”:[
-		{ “book1”:”data1” , “title”:”x”} ,
-		{ “book2”:”data2” , “title”:”y”}
-		]
-	}
-		SO TO EXTRACT THE DATA YOU WANT (BOOKS ARRAY) USE PARSE
-		var Books = Backbone.Collection.extend({
-		  url: '/books',
-		 parse : function(data){
-				return data.books;
-			}
-		});
-```
-
-## Browserify
-
-BUNDLES UP YOUR DEPENDENCIES FOR YOUR BROWSER
-
-[http://browserify.org/](http://browserify.org/)
-
-```
-Here is a tutorial on how to use Browserify on the command line to bundle up a simple file called main.js along with all of its dependencies:
-		main.js
-				var unique = require('uniq');
-				var data = [1, 2, 2, 3, 4, 5, 5, 5, 6];
-				console.log(unique(data));
-						
-		Install the uniq module with npm:
-		
-				npm install uniq
-		
-	Now recursively bundle up all the required modules starting at main.js into a single file called bundle.js with the browserify command:
-	browserify main.js -o bundle.js
-	Browserify parses the AST for require() calls to traverse the entire dependency graph of your project.
-	Drop a single <script> tag into your html and you're done!
-	<script src="bundle.js"></script>
-```
-
-COFFEESCRIPT
-
-```
-coffeescript.org
-
-###
-function output
-###
-function output(){
-}
-root = -> 'Hello World'
-root()
-class myFunction
-  constructor: ->
-	console.log('hi');
-output = () ->
-  myArray=[1,2,3]
-  for item in myArray
-	$('display').append(item)
-```
-
-
-
-LESS
-
-```
-ADD VARIABLES BEFORE CSS IS COMPILED
-EASIEST WAY TO RUN IT IS WITHIN NODE
-
-
-
-mixin
-
-
-```
-
-Lint
-
-LINT
-
-ESLINT
-
-```
-CODE QUALITY !!!
-```
-
-CSSLINT
-
-```
-PREVENTS CSS NESTING
-```
-
-POWERSHELL : GET SIZE OF FOLDER
-ls -r | measure -s length
-
-RawGit
-
-RawGit can be used to view individual files eg
-HTML
-[https://rawgit.com/philanderson888/showcase/master/index.htm](https://rawgit.com/philanderson888/showcase/master/index.htm)
-Bootstrap
-[https://rawgit.com/philanderson888/showcase/master/bootstrap_01.htm](https://rawgit.com/philanderson888/showcase/master/bootstrap_01.htm)
-
-STDOUT
-
-process.stdout.write(text);
-
-Testing
-
-Please see [https://plnkr.co/edit/?p=preview](https://plnkr.co/edit/?p=preview) for an example of Javascript testing.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## File Structure
-
-A quick look at the top-level files and directories you'll see in a Gatsby project.
-
-```
-.
-├── node_modules
-├── src                   source code
-├── .gitignore
-├── .prettierrc          config prettier.io
-├── gatsby-browser.js     using browser API    https://www.gatsbyjs.org/docs/browser-apis
-├── gatsby-config.js     configure site
-├── gatsby-node.js
-├── gatsby-ssr.js
-├── LICENSE
-├── package-lock.json        auto-generated : relationships between dependencies
-├── package.json            packages to install
-└── README.md
-```
-
-## Gatsby GraphQL / GraphiQL
-
-Gatsby tutorial  
-
-[https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)
-
-```csharp
-http://localhost:8000/___graphql
-```
-
-## Apollo GraphQL
-
-[https://www.apollographql.com/docs/tutorial/introduction/](https://www.apollographql.com/docs/tutorial/introduction/)  
-
-[https://www.graphqlbin.com/v2/6RQ6TM](https://www.graphqlbin.com/v2/6RQ6TM)   
-
-[Learngraphql.com](http://learngraphql.com) 
-
-Wpgraphical 
-
-[sanity.io](http://sanity.io/) headless cms opens socket so changes to site are replicated instantly
-
-Use [hooks.com](http://hooks.com) 
-
-Usekeypress react hook 
-
-Intersection observer 
-
-### TIOBE Index
-
-TIOBE is a measure of the popularity of different programming languages around the world.
-
-We can see the index at [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index) and how it is built at [https://www.tiobe.com/tiobe-index/programming-languages-definition](https://www.tiobe.com/tiobe-index/programming-languages-definition) which has a list of all programming languages in use and how it is decided which ones are most popular.
-
-## Source Maps eg bootstrap.css.map - Debugging Feature
-
-These can be used to map a minified file back to its original source to enable debugging of the run time code.
-
-[https://www.html5rocks.com/en/tutorials/developertools/sourcemaps](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps)
-
-## Using Google - Is There A Demand For Your App?
-
-Prove that DEMAND EXISTS FOR YOUR APP
-
-Google Keyword Planner tool can look for the number of searches on this keyword
-
-Build a landing page to garner interest and ask people to sign up for email notifications
-
-## Mobile Apps
-
-Lay out the flow and features. Validation of your app idea means that you’ve got something that people want to use. Now is the time to detail your product onto a document, or if you want to go the extra mile, use a wireframing tool.
-
-When putting your idea down on paper, remember to be as detailed as possible. Include the flow of how the user will navigate the app as well as all the features envisioned. This will help your developer to clearly understand your expectations.
-
-Remove non-core features. From the flow and features document you prepared, start looking closely at features that you can remove. Offer only the core value of your app idea. Do not build features in the first version that are "nice to have" and can always be added later as an update. This will help keep the initial costs of development down and also help you get to market quicker.
-
-Put design first.
-
-Hire a designer/developer. Seek a development company that has great design talent and a solid development team. While hiring a developer, go online to check on their credibility and the apps that they have created. If you really liked an app they created from their portfolio, chances are, they could be the right one for your product.
-
-Create developer accounts. You must register for a developer account with the respective app stores to be able to sell your app through their platform. Google’s Android charges $25 a year and Apple charges $99 annually. You have the option of registering as an individual or as a company, if you already have one formed.
-
-Integrate analytics. Analytics help you track downloads, user engagement and retention for your mobile app. Make sure you use tools such as Flurry, which is available for free, and Localytics, that has a free and paid version.
-
-Get feedback quickly and improvise. Once your app goes live on the app store, the first set of customers' usage and behavior will give you insight into how to improve and enhance your app. Enhancements and changes are constant, so keep an eye on user feedback and keep building.
-
-Introduce features. You built version one with limited features and only the core offering. Now is the time to evaluate and introduce the remaining features that were left out in the initial version. You will know through analytics and feedback whether the features are relevant anymore.
-
-## Testing
-
-JMeter tests performance
-
-Soak test over a period of time
-
-Stress test before crash
-
-Spike test over short period of time
-
-Load test copes with how many users
-
-## NPM
-
-npm-check-updates        NCU   followed by npm update
-
-npm update
 
 ## Bug Tracking
 

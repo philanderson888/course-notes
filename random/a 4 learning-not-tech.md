@@ -43,6 +43,11 @@
   - [Bible](#bible)
   - [Bible People](#bible-people)
   - [Bible Topics](#bible-topics)
+  - [Bible By Book](#bible-by-book)
+    - [1 Samuel 1](#1-samuel-1)
+    - [1 Samuel 2](#1-samuel-2)
+    - [1 Samuel 3](#1-samuel-3)
+    - [1 Samuel 4](#1-samuel-4)
   - [Random](#random-1)
   - [Animals](#animals-1)
     - [Fish](#fish)
@@ -764,6 +769,46 @@ Judaism
     - Orthodox
         - Halakha - observe strict law
 
+
+## Bible By Book
+
+### 1 Samuel 1
+
+Hannah prays to God for a child
+
+Hannah brings Samuel to the temple
+
+### 1 Samuel 2
+
+Hannah writes a beautiful song of worship to the Lord
+
+Samuel ministers to the Lord
+
+Hannah is blessed with more children
+
+The Lord rebukes Eli because he did not restrain the wickedness of his sons in defiling the temple and other evil works
+
+The Lord prophesies against Hophni and Phineas the two sons of Eli
+
+### 1 Samuel 3
+
+The Lord calls Samuel 
+
+Samuel answers 'Speak Lord for your servant is listening'
+
+Israel knows the Lord has prepared Samuel a prophet to the Lord
+
+### 1 Samuel 4
+
+Israel defeated by Philistines
+
+Philistines kill 4000 Israelites
+
+Israel calls for the tabernacle and gives a great shout; the Philistines hear it and attack again and defeat Israel again.  The ark of God is taken.  Hophni and Phineas the two sons of Eli are killed.
+
+Eli is told of the defeat and the capture of the ark and the death of his sons; he keels over and dies as a result.
+
+Phineas wife also delivers Ichabod 'The Glory Has Departed' and dies giving birth
 
 
 

@@ -15,12 +15,6 @@
 	- [things for the future](#things-for-the-future)
 	- [reading](#reading)
 - [Glossary](#glossary)
-		- [Sinatra](#sinatra)
-		- [Cloud Storage](#cloud-storage)
-		- [Summarise HTML document](#summarise-html-document)
-		- [Data Visualization](#data-visualization)
-		- [Surveys](#surveys)
-	- [no code](#no-code)
 	- [random](#random)
 	- [cloud](#cloud)
 	- [apple](#apple)
@@ -202,79 +196,6 @@ javascript weekly
 
 # Glossary
 
-### Sinatra
-
-State of Javascript Survey  [https://stateofjs.com/](https://stateofjs.com/) 
-
-### Cloud Storage
-
-[https://www.backblaze.com/](https://www.backblaze.com/) 
-
-[https://cloudinary.com/](https://cloudinary.com/) 
-
-### Summarise HTML document
-
-[https://pypi.org/project/sumy/](https://pypi.org/project/sumy/) 
-
-### Data Visualization
-
-[https://nivo.rocks/](https://nivo.rocks/) 
-
-DOMPURIFY
-
-DON'T PUT A NAME FOR SENSITIVE FIELDS
-ACTION=POST BY DEFAULT
-
-
-
-
-
-
-### Surveys
-
-[https://www.typeform.com/](https://www.typeform.com/) 
-
-
-
-
-
-
-
-## no code
-
-```
-Webflow.com start here
-Codemeetsnocode.com
-Make.com
-Bubble.io
-Jetboost.io
-Aatt.io
-Airtree.vc
-relume.io/projects/airtree
-Library.relume.io
-Strapi.io
-Zapier.com
-wix.com/velo
-Nocode.tech
-Payments
-Memberstack.com
-Snipcart
-Stripe
-Database
-Airtable
-Flowbase
-Bit.io
-Firestore
-Mongodb
-Nocodb
-baserow.io
-```
-
-
-
-
-
-
 
 ## random
 
@@ -292,6 +213,7 @@ LogRocket session replay
 Text-to-Speech
 Speechify.com
 
+gemini.google.com
 
 TS
 Effective laying out of typescript files https://effectivetypescript.com/2022/07/30/treemap-for-source-files

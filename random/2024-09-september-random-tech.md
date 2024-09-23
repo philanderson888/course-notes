@@ -28,6 +28,8 @@ compare c c++ zig and rust https://medium.com/@shyamsundarb/memory-safety-in-c-v
 
 ## 202409 technical notes - random topics
 
+https://javascript.plainenglish.io/say-goodbye-to-try-catch-with-this-new-ecmascript-operator-e2b798c7b7a8
+
 [sentry.io](http://sentry.io/) bug tracking
 
 jamstack works with static site generators - it pulls data from the apis to create a fixed site which is easily deployed

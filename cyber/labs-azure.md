@@ -59,7 +59,7 @@ az vm list-sizes -l uksouth -o table
 ### VM Machine Sizes
 
 - D-Series (general purpose)
-  - DS2_v2   2 CPU  7 GB   
+  - DS2_v2   2 CPU  7 GB
   - DS3_v2   4 CPU  14 GB
 - E-Series (memory optimized)
   - E2s_v3 : 2 CPU  16 GB
@@ -75,9 +75,9 @@ Nested virtualization allows a hypervisor to be installed on a virtual machine!
 [Machines which support nested virtualization here](https://docs.microsoft.com/en-us/azure/virtual-machines/acu)
 
 - Standard_D2_v3 with 2CPU and 8GB RAM
-- Standard_D2s_v3 
+- Standard_D2s_v3
 - [Dsv4-series](https://docs.microsoft.com/en-us/azure/virtual-machines/dv4-dsv4-series)
-  - D4s_v4 
+  - D4s_v4
 - E4s_v3 but is perhaps too big
 
 See this article https://docs.microsoft.com/en-us/azure/virtual-machines/windows/nested-virtualization#create-a-nesting-capable-azure-vm
@@ -86,7 +86,7 @@ See this article https://docs.microsoft.com/en-us/azure/virtual-machines/windows
 ## Azure CLI Modes
 
 - ARM Azure Resource Manager (older)
-- ASM Azure Service Management 
+- ASM Azure Service Management
   - replaces ARM since October 2018
 
 
@@ -104,7 +104,7 @@ We can run commands from either
 install-module az
 install-module az -AllowClobber -Scope AllUsers (-Force)
 # verify correct version installed ie 4.5.0 Name Az
-Get-InstalledModule -Name Az 
+Get-InstalledModule -Name Az
 ```
 
 ## install azure CLI Command line interface
@@ -146,7 +146,7 @@ az group create -n ResourceGroup01 -l uksouth
 
 ```powershell
 az group delete -n DeleteThisGroup -y
-#or 
+#or
 Remove-AzResourceGroup ResourceGroup01-Force
 ```
 
@@ -171,7 +171,7 @@ az vm list -g my-group -o table --show-details
 *Takes 10-15 minutes*
 
 ```powershell
-new-azvm -ResourceGroupName ResourceGroup01 -image win10 -location uksouth -size standard_d2_v3 -n Win10   
+new-azvm -ResourceGroupName ResourceGroup01 -image win10 -location uksouth -size standard_d2_v3 -n Win10
 ```
 
 
@@ -284,7 +284,7 @@ Now view our website in any browser
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell
 
 ```powershell
-# Create Resource Group 
+# Create Resource Group
 New-AzResourceGroup -Name SpartaVirtualMachine-22-Aug-2020 -Location UKSouth
 New-AzVm `
     -ResourceGroupName "SpartaVirtualMachine-22-Aug-2020" `
@@ -302,7 +302,7 @@ New-AzVm `
 
 ## Azure Create Database
 
-Here is a walkthrough manually or use the script below 
+Here is a walkthrough manually or use the script below
 
 https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?tabs=azure-portal
 
@@ -329,8 +329,8 @@ $databaseName2 = "mySampleDatabase2"
 $startIp = "92.234.29.198"
 $endIp = "92.234.29.198"
 
-# Set subscription 
-Set-AzContext -SubscriptionId $subscriptionId 
+# Set subscription
+Set-AzContext -SubscriptionId $subscriptionId
 
 # Create a resource group
 $resourceGroup = New-AzResourceGroup -Name $resourceGroupName -Location $location
@@ -372,7 +372,7 @@ $productName="Windows-10"
 Get-AzVMImageOffer -Location $location -PublisherName $publisher | Select Offer
 Get-AzVMImageSku -Location $location -PublisherName $publisher -Offer $productName | Select Skus
 $skuName="rs5-pron"
-Get-AzVMImage -Location $location -PublisherName $publisher -Offer $productName -Sku $skuName | Select Version 
+Get-AzVMImage -Location $location -PublisherName $publisher -Offer $productName -Sku $skuName | Select Version
 # Version
 # -------
 # 17763.1339.2007101755
@@ -406,7 +406,7 @@ New-AzVM `
 
 ```powershell
 # resource group
-az group list -o tableaz 
+az group list -o tableaz
 az group create --name ubuntu01 --location uksouth
 # create vm
  az vm create --name ubuntu --resource-group Ubuntu26Aug2020 --size Standard_D2_v3 --image UbuntuLTS --generate-ssh-keys --admin-username serveradmin
@@ -418,7 +418,7 @@ az vm open-port --port 443 -g ubuntu01 -n ubuntu01 --priority 101
 az vm list -g ubuntu01 --show-details --output table
 # alter permissions by removing admin write access
 # connect
-ssh serveradmin@51.140.51.98 
+ssh serveradmin@51.140.51.98
 # update
 sudo apt update -y
 sudo apt upgrade -y
@@ -427,8 +427,8 @@ sudo apt upgrade -y
 ## Ubuntu Nested Virtualization
 
 ```bash
-# does the machine support virtualization?  
-grep -cw vmx /proc/cpuinfo  
+# does the machine support virtualization?
+grep -cw vmx /proc/cpuinfo
 grep -E --color 'vmx|svm' /proc/cpuinfo
 ```
 
@@ -482,7 +482,7 @@ sudo usermod -aG vboxusers ubuntu
 sudo systemctl status vboxdrv
 # get extension pack
 wget https://download.virtualbox.org/virtualbox/5.2.30/Oracle_VM_VirtualBox_Extension_Pack-5.2.30.vbox-extpack
-# install 
+# install
 sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.30.vbox-extpack
 ```
 
@@ -503,8 +503,8 @@ docker
 Minikube is a mini virtual machine running ubuntu and it is used for running clusters ....
 
 ```bash
-# does the machine support virtualization?  
-grep -cw vmx /proc/cpuinfo  
+# does the machine support virtualization?
+grep -cw vmx /proc/cpuinfo
 grep -E --color 'vmx|svm' /proc/cpuinfo
 # install virtualbox (above)
 # install Kubernetes
@@ -530,7 +530,7 @@ minikube ssh
 
 ```bash
 # already installed
-sudo apt install snapd  
+sudo apt install snapd
 sudo snap install --classic code
 # install dotnet
 sudo snap install --classic dotnet-sdk
@@ -573,9 +573,9 @@ $url = "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download
 $output = "notepadplusplus.exe"
 $start_time = Get-Date
 Invoke-WebRequest -Uri $url -OutFile $output
-.\notepadplusplus.exe /S 
+.\notepadplusplus.exe /S
 ## Install Chocolatey
-# Set-ExecutionPolicy Bypass -Scope Process -Force; 
+# Set-ExecutionPolicy Bypass -Scope Process -Force;
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ## Choco Install Apps
@@ -586,7 +586,7 @@ choco install vagrant -y
 choco install intellijidea-community -y  # 500MB
 ```
 
-## Choco Install Visual Studio 
+## Choco Install Visual Studio
 
 *Note - takes a while as installs the full version.  May be quicker to install manually and just choose options desired*
 
@@ -605,7 +605,7 @@ Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -On
 Restart-Computer -Force
 ```
 
-Install Windows Subsystem For Linux WSL2 
+Install Windows Subsystem For Linux WSL2
 
 ```powershell
 $url = "https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi"

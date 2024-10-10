@@ -108,9 +108,6 @@
     - VPC Virtual Private Cloud
         - PAYG on demand compute
 
-
-
-
 ## building a aws amazon linux default machine
 
 create a default aws amazon linux machine and allow access from both ssh and https

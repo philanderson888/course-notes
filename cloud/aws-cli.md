@@ -4,8 +4,7 @@
 
 - [aws cli](#aws-cli)
   - [contents](#contents)
-  - [introduction](#introduction)
-  - [places and ways to sign in](#places-and-ways-to-sign-in)
+  - [sign in](#sign-in)
     - [1. root user sign in](#1-root-user-sign-in)
     - [2. aws access portal](#2-aws-access-portal)
     - [3. iam user sign in url](#3-iam-user-sign-in-url)
@@ -26,16 +25,8 @@
   - [terminate ec2 instance](#terminate-ec2-instance)
   - [connect to your ec2 instance](#connect-to-your-ec2-instance)
 
-## introduction
 
-obviously it's great to be able to create aws ec machines in the cloud but i want also to create and manage them from the console to enable a much higher degree of scripting
-
-## places and ways to sign in
-
-using this guide 
-
-https://docs.aws.amazon.com/signin/latest/userguide/sign-in-urls-defined.html#access-portal-url
-
+## sign in
 
 ### 1. root user sign in 
 

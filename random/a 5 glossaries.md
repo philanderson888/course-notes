@@ -5,7 +5,6 @@
 - [glossary - javascript](#glossary---javascript)
   - [contents](#contents)
   - [ASCII](#ascii)
-  - [best practice](#best-practice)
   - [BigInt](#bigint)
   - [Console Output](#console-output)
   - [const](#const)
@@ -93,11 +92,6 @@
 
 Represent ASCII literal as "\u0041"
 
-## best practice
-
-```
-see airbnb style guide on github https://github.com/airbnb/javascript 
-```
 
 ## BigInt
 

@@ -1,6 +1,78 @@
+### 202410 links
+
+Evangelism https://docs.google.com/document/d/1l_Hh81_yfsgw27UYBKAHq2pe8bj-FcGfUw4fdWxPoP0
+
+Scripture https://docs.google.com/document/d/1vL4WYy4k_0H_rwzGMMFVaX_NVDHlzFXDujnFz7wX84U
+
+Ancestry https://docs.google.com/document/d/11DuuW2Pma8KJU_RNxmyFnlCGFj1dLpFxQX3_pqxwrm8
+
+2023 Life Plan And Review, Goals - Google Docs
+
+2023 Finances - Google Docs
+
+github cyber - https://github.com/philanderson888/course-notes/tree/master/cyber
+
+github random https://github.com/philanderson888/course-notes/blob/master/cyber/cyber-random-terms.md
+
+github cloud https://github.com/philanderson888/course-notes/blob/master/cloud
+
+github science https://github.com/philanderson888/personal/issues/27
+
+github personal Issues https://github.com/philanderson888/personal/issues
+
+github personal https://github.com/philanderson888/personal
+
+github scriptures https://github.com/philanderson888/personal/blob/master/christian/scriptures.md
+
+github course notes
+
+github node
+
+github javascript
+
+### 202410 domains
+
+caniplaythisgame.org Forwards to philanderson.uk Squarespace
+
+christiansinpakistan.org https://www.jesusislord.uk/orphan-school
+
+effectivemethodsofevangelism.com  Forwards to philanderson.uk
+
+philanderson.co.uk
+
+philanderson.uk easily
+
+### 202410 live websites
+
+## websites
+
+https://philanderson.uk 
+
+https://philanderson881.wixsite.com/philanderson-uk another beautiful ready-made site, love this one!
+
+https://philanderson881.wixsite.com/mysite video editor website with good blog as well, like the fonts etc and simplity of this site - yes I like it!
+
+https://philanderson881.wixsite.com/mysite/blog  video editor website with good blog as well, like the fonts etc and simplity of this site - yes I like it!
+
+https://philanderson881.wixsite.com/my-site-1 another fine and simple ready-made website, good to go!!!
+
+https://philanderson881.wixsite.com/philanderson-uk-2 super basic skeleton, nothing here
+
+https://philanderson881.wixsite.com/ideaftest01 interesting shopping site - an ok start, but it's a bit old fashioned and lacking in some things ... maybe erase this one!!!
+
+https://philanderson881.wixsite.com/ot-enables-u one of the first sites I ever built!
+
+https://philanderson881.wixsite.com/consulting this was an interesting one for philanderson consulting !
+
+https://philanderson881.wixsite.com/philipandersoncv2 here is one I could turn into an online CV!!!
+
 ## 202410 things to build and try out and learn
 
 login app using fastify jwt tokens and using prisma database https://medium.com/@atatijr/token-based-authentication-with-fastify-jwt-and-typescript-1fa5cccc63c5
+
+charity site all laid out here by relume https://www.relume.io/app/project/P1165402__peAGSDbVuz7RVw4O1P8I9YAv725o3xK4cbUdSDAlzY#mode=sitemap
+
+glide made a complete ai app for me with route checking - regular route joe https://routecheck-ir0u.glide.page/dl/d0a5f4
 
 ### 202410 family pc management
 
@@ -39,6 +111,27 @@ padstart
 // add stopwatch to project
 console.time()
 ```
+
+image
+
+```js
+img.src.value
+```
+
+
+?= operator to eliminate try catch 
+
+https://javascript.plainenglish.io/say-goodbye-to-try-catch-with-this-new-ecmascript-operator-e2b798c7b7a8
+
+zod is perhaps the best array and object library
+
+lodash is a good lightweight solution for dealing with arrays and objects
+
+ndarray is multidimensional array
+
+math.js works with matrices and multidimensional arrays 
+
+numJs is inspired by numPy for simple mathematical calculations
 
 signal is a listener over a primitive
 
@@ -120,6 +213,53 @@ build a website 1) repeatable design 2) break page into sections 3) great headin
 
 airtable nocode and low-code database
 
+webflow best for designers
+
+wix - build a fresh site in moments
+
+bubble.io easy to design apps with data as well ... try it
+
+jetflow.io adds dynamic sorting of data to your site
+
+learn airtable with aaron aatt.io
+
+airtable sync with google sheets amazing
+
+https://airtable.com/appLIaO5OGfxtKGpW/tblBrDKGh1n2UdIfE/viwqPtPpy7621wMlz?blocks=hide
+
+strapi is open source headless cms
+
+headless cms disjoints the database data from the front end, providing a seamless point to obtain your data
+
+ifttt
+
+make.com is like zapier or ifttt event handling
+
+zapier is like ifttt
+
+wix.com/velo build ai sites and also incorporate npm and vscode into wix site development 
+
+nocode.tech just gets the best out of no code people and efforts
+
+memberstack is a paid platform to integrate back end authentication etc into your app
+
+snipcart $20 a month for a customer login and shopping cart
+
+stripe payments only take a cut of the card fee and pricing
+
+airtable database eg with google drive integration - could be handy for building an app 
+
+flowbase create reusable components
+
+firebase sql
+
+firestore no-sql
+
+nocodb can integrate with mysql database for example ... or have just pure online database
+
+baserow.io
+
+
 ### 202410 bash
 
 ```bash
@@ -140,6 +280,19 @@ jellyfin-roku
 ottoverse.com free-hls-m3u8-test-urls
 
 arturocuya.com roku-101 get started
+
+### 202410 social Media
+
+youtube motivation video what starts your morning
+
+  1. 20 minutes walk
+  2. pray / praise / worship for 20 minutes continuously
+  3. morning inspiration
+  4. - motivational speeches ... this is my playlist https://www.youtube.com/playlist?list=PLcb1JL22b_y8bJ0BPI5ax0AlgvCgYaCc4
+  5. - sermons - this is my playlist https://www.youtube.com/playlist?list=PLcb1JL22b_y-4ny-zhbxLgFLwiISJYG23
+  6. - worship - this is my playlist https://www.youtube.com/playlist?list=PL269DF39348E75E0D
+  7. - prayer - pray with this guy https://www.youtube.com/playlist?list=PLcb1JL22b_y8wtb0wykPQr-sEA6vRBa4X
+
 
 ### 202410 generating images from code
 
@@ -211,6 +364,23 @@ prodspec creates an interim `intent model` which sits in the middle and creates 
 
 ### 202410 bash
 
+cht.sh
+
+bash is bourne again shell
+
+ps process status
+
+ls -1 list just names one by one
+
+ls -R list files in subfolders
+
+top top processes  
+
+.bash_profile loads when terminal loads
+
+.zprofile and .zshrc load when zshell loads
+
+
 ```bash
 chmod u+x  just for me
 chmod +rwx just for me
@@ -224,6 +394,82 @@ stdin 0
 stdout 1
 stderr 2
 ```
+
+```bash
+alias myip=curl 1.2.3.4
+function mkcd() { mkdir -p "$@" && cd "&@" }
+function gitpush() { git add . && git commit -m "$@" && git push }
+
+Next edit the file ~ /.bash_profile
+
+alias chrome="open -a 'Google Chrome'"
+alias chrome=open -a "Google Chrome"
+alias edge=open -a "Microsoft Edge"
+
+export PATH="/Applications/Google Chrome.app/Contents/MacOS:$PATH"
+source "/Users/tech-a21/.aliases.sh"  # General aliases and functions defined by me
+Now opening a new terminal should contain these new scripts
+```
+
+```bash
+show hidden files and folder ... defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
+function gitTag(){ git tag -a "$1" && -m "$2" && git push -origin tags } 
+sudo find / -name \\*bashrc\\*
+open .    opens window in finder
+open -a "Google Chrome" mysite.html
+Edit ~/.bash_profile file and add the following line alias chrome="open -a 'Google Chrome'"
+
+.bash_profile is where we set the terminal profile launch settings
+
+.bash_profile / .zsh_profile etc
+
+launchctl setenv name environmentvariable
+ps process status
+ps aux lists all processes
+ps -A lists all processes
+top lists top processes
+exe does not exist in linux - any file can be executed if it has the 'execute' permission
+```
+
+environment variables
+
+```bash
+printenv will show environment variables
+env will show environment variables 
+printenv PATH show just PATH
+echo $PATH show just PATH
+export field=value add to environment values so now printenv field returns value
+export name=envaironmentvariable
+launchctl setenv field value permanently adds to environment variables
+```
+
+crontab schedule jobs
+
+```bash
+sudo crontab -e schedules a cron job
+sudo crontab -e // i . (insert mode) // minutes hours days month dayoftheweek path-to-script.sh eg 00 08 * * * // :wq to save and exit
+```
+
+vi editor
+
+```bash
+vi myFile.txt
+vi i opens file in insert mode 
+vi escape :wq save and quit
+vi escape :q quit without saving
+vi :return next line
+vi :space next page
+vi :q quit
+vi :w previous page
+vi :h help
+```
+
+### 202410 mac os
+
+show hidden files - defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
+
+### 202410
+
 
 ## 202410 random tech
 
@@ -247,3 +493,10 @@ phoenix website with database getting started https://code.likeagirl.io/how-to-i
 
 phoenix api https://medium.com/@fredjourney/how-to-build-a-phoenix-hello-world-rest-api-5fc9e3acf331
 
+### 202410 random links
+
+design forms https://coyleandrew.medium.com/design-better-forms-96fadca0f49c
+
+reading list https://ryanholiday.net/reading-list/
+
+when life gives you lemons write better error messages

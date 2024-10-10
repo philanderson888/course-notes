@@ -5,7 +5,6 @@
 - [Controls](#controls)
   - [Contents](#contents)
   - [Introduction](#introduction)
-  - [Overview Summary Notes](#overview-summary-notes)
   - [Controls By Function](#controls-by-function)
   - [NIST](#nist)
   - [CSA+ Control Classes](#csa-control-classes)
@@ -17,7 +16,7 @@
   - [Control Standards](#control-standards)
   - [Control Classifications](#control-classifications)
     - [Preventive Controls](#preventive-controls)
-    - [Detective Controls ** AFTER THE EVENT **](#detective-controls--after-the-event-)
+    - [Detective Controls \*\* AFTER THE EVENT \*\*](#detective-controls--after-the-event-)
     - [Corrective Controls](#corrective-controls)
     - [Deterrent](#deterrent)
     - [Compensating Control](#compensating-control)
@@ -37,19 +36,13 @@
 
 This section deals with the different classes of control
 
-## Overview Summary Notes
-
-
-
 ## Controls By Function
+
 - Prevent
 - Deter
 - Detect
 - Correct during
 - Compensate - can use instead of recommended control 
-
-
-
 
 ## NIST
 

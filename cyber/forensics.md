@@ -103,31 +103,16 @@ Mobile forensics
 ## Forensics Workstation
 
 ```
-       Multi-core + 32GB RAM
-       
-       No internet or severely limited just to sites required for investigation
-       
        TASK and Autopsy Forensic Browser can be found at the following locations:
        
        Task: 
-       
        http://prdownloads.sourceforge.net/sleuthkit/task-1.60.tar.gz?download
 
        Autopsy Forensic Browser:
        http://prdownloads.sourceforge.net/autopsy/autopsy-1.70.tar.gz?download
 
        Google 'sans building a low cost forensics workstation'
-              https://uk.sans.org/reading-room/whitepapers/incident/building-cost-forensics-workstation-895
-       
-       MOLEX
-       SATA
-       PATA
-       SCSI
-       FIREWIRE : POWER WITH DATA (400 AND 600)
-       USB
-       
-       
-       
+              https://uk.sans.org/reading-room/whitepapers/incident/building-cost-forensics-workstation-895       
 ```
 
 1. Get Data = Image
@@ -243,20 +228,11 @@ Prefetch file analysis (not on SSD)
 File System Viewer
 
 ```
-       search file system for info quickly
-       
        VSS volume shadow copy info
-       
        System volume info
-       
        Graphs of creation/deletion activity
-       
        View binary files
-       
        Images including looking for steganography
-       
-       
-       
 ```
 
 Registry viewer view changes deleted keys autostart items
@@ -270,18 +246,3 @@ SIEM security info and event mgt : data will begin to flow in IDS : data flow in
 Detection Of An Active Threat (Real Time ie being attacked now)
 
 OODA Observe Gather info. Care - not ‘analysis paralysis’ Orient What type of attack? Which stage? Decide What can we do Act
-
-Goal - gain initiative
-
-```
-        - move from REACT to WELL THOUGHT OUT RESPONSE
-        
-        
-              
-```
-
-
-
-
-
-

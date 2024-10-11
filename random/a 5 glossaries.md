@@ -100,7 +100,7 @@ Can hold arbitrarily large integer numbers
 
 ## Console Output
 
-```
+```js
 javascript:console.log('hi'); // FROM THE BROWSER WINDOW!!! OR URL LINK!!!
 console.log() produces black text
 [console.info](http://console.info/)() blue text with icon
@@ -126,7 +126,7 @@ Toggle device mode chrome
 ```
 ## const
 
-```
+```js
 const variables are
 UPPERCASE
 block scope and even if global, not assigned to the Window object
@@ -160,7 +160,7 @@ on the loaded file and then choosing 'Headers'
 
 ## History.length/back/forward/go
 
-```
+```js
 Accessing Browser History
 History object is an ARRAY OF URLS LAST VISITED
 
@@ -183,7 +183,7 @@ History has length (back button), back(), forward(), go(x)
 
 ## Immutable
 
-```
+```js
 Immutable objects cannot change
 const references to primitive objects are immutable
 const x = 10; //this is immutable
@@ -221,7 +221,7 @@ window.onresize()
 
 ## Primitive Types
 
-```
+```js
 Primitive types in Javascript are
 number
 string
@@ -237,7 +237,7 @@ can be introduced gradually into your codebase
 
 ## Window - Create, Resize, Manage and Close
 
-```
+```html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -272,7 +272,7 @@ function eulaChecked() {
 
 ## Window.Scroll
 
-```
+```js
 window.scroll(0,100) SCROLL DOWN 100 PIXELS TO POINT (0,100)
 window.scrollTo(0,100) AS ABOVE
 window.scrollBy(0,100) SCROLL DOWN A FURTHER 100 PIXELS
@@ -350,7 +350,7 @@ Android Studio 3.0 onwards now has built-in [Kotlin](notion://www.notion.so/phil
 
 ## BATCH FILES .BAT
 
-```
+```bash
 .cmd
 .bat
 %0 path
@@ -382,7 +382,7 @@ PAUSE
 
 ### Buffer.bytelength
 
-```
+```js
 # memory allocated to a string or other object
 var buf = Buffer.allocUnsafe(15);
 var len = buf.byteLength(buf)
@@ -412,7 +412,7 @@ Bun also has built in
 
   Jest-compatible test runner so don’t need dependencies to write unit tests
 
-```
+```js
 bun install
 
 bun test
@@ -474,10 +474,13 @@ Final document, more theoretical
 
 ## GIT
 
+```bash
 git -status
 git branch SHOW BRANCHES
 git -branch -D <name-of-branch>delete branch
 Git commit -m "name-of-commit"
+```
+
 
 ## Google Lens
 
@@ -488,7 +491,7 @@ Has predictive technology to allow the user to know what they are looking at, wh
 
 ## html
 
-```
+```js
 img.src.value="myImage.jpg"
 w3.org
 ietf.org
@@ -543,13 +546,14 @@ goto
 
 ## kotlin
 
+```java
 flux is a stream
 flow is like a stream with a callback on events onNext, onCompleted, onError
 val is immutable
 var is mutable
 function fun(a: Int, b: Int): Int { return ab } same as {}
 lambda { a: Int, b: Int => ab }
-
+```
 
 
 
@@ -566,7 +570,7 @@ lambda { a: Int, b: Int => ab }
 
 ## php mysqli
 
-```
+```php
 require('C:\xampp\htdocs\log\assets\php\connect-db-mysqli.php'); 
 
 $q="UPDATE tasks SET redgreen='$color' WHERE taskid=$taskid"; 
@@ -785,7 +789,7 @@ CREATE TABLE movies(
 
 PostgreSQL commands
 
-```
+```sql
 INSERT INTO directors (name) VALUES ('first'),('second');
 
 SELECT * FROM public.directors ORDER BY id ASC 

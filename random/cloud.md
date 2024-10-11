@@ -4,71 +4,25 @@
 
 - [cloud](#cloud)
   - [Contents](#contents)
-  - [Introduction](#introduction)
-  - [Cloud Critial Terms](#cloud-critial-terms)
-    - [devops](#devops)
+  - [202410 cloud](#202410-cloud)
+  - [202410 cloud history](#202410-cloud-history)
+  - [202410 aws](#202410-aws)
+  - [202410 cloud terms](#202410-cloud-terms)
+  - [202410 data](#202410-data)
+  - [202410 saas](#202410-saas)
+  - [202410 security](#202410-security)
+  - [202410 vm](#202410-vm)
+  - [202410 data](#202410-data-1)
+  - [202410 encryption](#202410-encryption)
+  - [202410 docker commands](#202410-docker-commands)
+  - [202410 google cloud](#202410-google-cloud)
+  - [202410 azure cloud](#202410-azure-cloud)
+  - [202410 cloud benefits](#202410-cloud-benefits)
+  - [202410 saas iaas paas](#202410-saas-iaas-paas)
+  - [202410 cloud history](#202410-cloud-history-1)
     - [big data](#big-data)
     - [azure](#azure)
-  - [benefits of cloud](#benefits-of-cloud)
-  - [saas / paas / iaas](#saas--paas--iaas)
-  - [cloud history](#cloud-history)
-  - [cloud random terms](#cloud-random-terms)
-  - [SAAS Software As A Service](#saas-software-as-a-service)
-    - [Overview of different cloud platforms](#overview-of-different-cloud-platforms)
-    - [Vendor](#vendor)
-  - [Private Cloud](#private-cloud)
-    - [Deploying Cloud Technology Locally : Azure Stack and AWS Outposts](#deploying-cloud-technology-locally--azure-stack-and-aws-outposts)
-    - [OpenStack which builds a private cloud](#openstack-which-builds-a-private-cloud)
-    - [IoT : AWS, Greengrass, Azure Hub](#iot--aws-greengrass-azure-hub)
-  - [Public Cloud Storage](#public-cloud-storage)
-- [Cloud Identity](#cloud-identity)
-    - [Managing Identity](#managing-identity)
-    - [RBAC Role Based Access Control](#rbac-role-based-access-control)
-- [Cloud Security](#cloud-security)
-  - [Security Config and Compliance](#security-config-and-compliance)
-    - [Security Standards](#security-standards)
-    - [Physical Security](#physical-security)
-    - [Security Standards](#security-standards-1)
-    - [Compliance](#compliance)
-  - [Laws](#laws)
-    - [keys](#keys)
-    - [Verifying validity of a site.](#verifying-validity-of-a-site)
-    - [Key Archival Server](#key-archival-server)
-    - [Signing can provide integrity](#signing-can-provide-integrity)
-    - [PKI as a service](#pki-as-a-service)
-  - [Encryption](#encryption)
-    - [IPSEC](#ipsec)
-  - [Ciphers](#ciphers)
-    - [Asynchronous](#asynchronous)
-    - [Cipher Detail (with images)](#cipher-detail-with-images)
-    - [VPN Tunneling](#vpn-tunneling)
-  - [Access Control (already covered)](#access-control-already-covered)
-    - [Federation : pass the authentication back to original provider](#federation--pass-the-authentication-back-to-original-provider)
-    - [Types of access control](#types-of-access-control)
-  - [Object Authorisation (already covered)](#object-authorisation-already-covered)
-  - [Data Classification](#data-classification)
-  - [Segmentation and Microsegmentation](#segmentation-and-microsegmentation)
-- [Advanced Cloud](#advanced-cloud)
-  - [Serverless Compting : Functions](#serverless-compting--functions)
-  - [Machine Learning](#machine-learning)
-  - [Cognitive Services](#cognitive-services)
-    - [IoT](#iot)
-- [Security Automation](#security-automation)
-    - [Why Automate?](#why-automate)
-    - [Automation Scripting](#automation-scripting)
-    - [Security Services](#security-services)
-    - [Automation Tools](#automation-tools)
-- [Containers](#containers)
-    - [Container services - deploy and manage containers](#container-services---deploy-and-manage-containers)
-    - [Containers](#containers-1)
-- [Cloud And Container Services](#cloud-and-container-services)
-    - [Microservices](#microservices)
-- [DevSecOps](#devsecops)
 - [AWS](#aws)
-  - [AWS Introduction](#aws-introduction)
-  - [Fundamentals](#fundamentals)
-    - [5 Pillars](#5-pillars)
-    - [Security](#security)
       - [IAM Security](#iam-security)
         - [IAM Policy](#iam-policy)
       - [Network Security](#network-security)
@@ -237,81 +191,501 @@
     - [PSC Password Settings Container](#psc-password-settings-container)
     - [Offline Files lab](#offline-files-lab)
 
+## 202410 cloud 
 
-## Introduction
+## 202410 cloud history
 
-## Cloud Critial Terms
+aws 2006 created
 
-Scale horizontally (more nodes)
+## 202410 aws
 
-Scale vertically (CPU RAM and Disk)
+pillars
+- security
+- performance
+- reliability
+- operation
+- cost
 
-Self Healing
+## 202410 cloud terms
 
-Public cloud
+private cloud runs on your local servers
 
-Private cloud
+aws has 16 geographic regions
 
-Hybrid cloud
+scale horizontally builds more nodes
 
-Key Management Service (KMS) storage of encryption keys
+scale vertically makes nodes more powerful
 
-Cloudwatch logging
+self healing
 
-Subnets
+public cloud hosted on shared servers
 
-Route 53 DNS
+private cloud self hosted on dedicated servers
 
-Load Balancing
+hybrid cloud mix of private and public cloud servers
 
-Relational Database Service RDS 
+aws iam identity access management manages users and roles
 
-Big Data
+rbac role based access control
 
-Data Lake
+jea just enough administration
 
-AWS Inspector does vulnerability management
+cloud federation provides trust and authentication
 
-### devops
+saml security assertion markup language provides xml authentication
 
-Devops runs infastructure against scripts
+sso single sign on 
 
-  - Docker - provide running VM on demand with an app
-  - Kubernetes orchestrates docker containers
-  - KubeCtl is kubernetes command line tool
-  - MiniKube is local version of kubernetes for learning kubernetes
+openid connect is built on oauth2.0
 
-  - Vagrant by HashiCorp - build testing/development environments
-  - Packer by HashiCorp - build production environments : one script => multiple platforms
-  - Terraform by HashiCorp - configuration management for infrastructure eg versioning, uses Go.  Best choice if you are using Docker and Packer
+kms key management service to store keys
 
-  - IAAS top tools are 
-    - Puppet
-    - Chef
-    - Ansible
-    - Saltstack (master/minion model)
+cloudwatch logs
 
-  - Chef by Progress - configuration management for software using Ruby - best choice for changeable environments, has agent on nodes, $14k/year for 100 nodes
-  - Immutable environment cannot be changed but has to be rebuilt again from scratch
-  - Changeable environment can alter the configuration of your servers live
-  
-  - Ansible by Red Hat is a complex orchestration tool in Python and YAML to deploy software, configure systems and organises updates and continuous deployments.  Kubernetes can use custom Ansible builds.  Configuration is pushed to the nodes.  Simple to learn with python and YAML, is agentless unlike Chef and Puppet.  $10k/year for 100 nodes
-  - Docker - deploys an app in a container
-  - Ansible - configures and manages the docker app after deployment
-  - Docker for deployment, ansible for configuration after deployment
+subnet
 
-  - Puppet is configuration management tool in Ruby where you declare the desired server state not the way to reach it - configuration is pulled from the server, also has agent on the node, $12k-$20k/year for 100 nodes
+route 53 dns
 
-  - Jenkins is a CI/CD server written in Java
-  - Spinnaker is app configuration management tool by oracle
+load balancing
 
-Microservices
+rds relational database service
 
-Redis is used as an in-memory database and cache
-- RDB Redis Database can persist storage as backups eg hourly, daily
+data lake raw unprocessed data
 
+aws inspector does vulnerability management
 
+service provider eg aws google azure
 
+compute is cpu and ram
+
+compute storage network is cpu ram hard disk and network all of which are required to run a virtual machine
+
+container virtualises the operating system kernel on top of which we run some code using 1) container image 2) runtime 3) instruction set
+
+docker provides running containers
+
+dockerfile provides a) settings b) applications c) services
+
+docker image stored in docker hub
+
+docker engine creates new docker containers
+
+provision an image is to make it ready to run
+
+kubernetes orchestrates docker containers
+
+k8s = kubernetes
+
+kubectl is kubernetes command line tool
+
+minikube can be used to learn kubernetes
+
+vagrant by hashicorp builds develop and test environments
+
+packer by hashicorp builds production environments
+
+terraform by hashicorp builds configuration management using yaml and go
+
+puppet uses agent and is written in ruby where desired state configuration is used to 
+
+ansible by red hat is complex agentless tool using yaml and python to deploy software, configure systems, update systems, provide continual deployment of software, is a simpler version of puppet
+
+ansible configures and manages docker after deployment
+
+saltstack
+
+chef by progress uses agent to provide configuration management using ruby
+
+Chef by Progress - configuration management for software using Ruby - best choice for changeable environments, has agent on nodes, $14k/year for 100 nodes
+
+immutable cannot be changed
+
+jenkins older tool written in java and it provides testing and ci cd deployment
+
+spinnaker is app configuration management tool by oracle
+
+microservices
+
+redis is in-memory database and cache
+
+rdb redis database can persist hourly and daily backups
+
+google compute provides virtual machines
+
+azure rackspace analyses data
+
+puppet version control system config
+
+conjur manages secrets
+
+cloud foundry pushes apps to live instantly
+
+aws cloud formation creates templates to make deployment standardised
+
+capex buy hardware up front
+
+opex operational expenditure pay monthly
+
+iaas lets you build from the ground up
+
+paas means the provider manages the hardware and operating system
+
+risk register list of items which can break
+
+caas communications as a service
+
+caas containers as a service
+
+maas monitoring as a service
+
+naas network as a service
+
+faas function as a service lambda
+
+infrastructure as cloud fully manage using yaml and json
+
+sqs simple queue service one by one
+
+swagger version your api
+
+elk stack elastic search + logstash + kibana
+
+apache lucene is open source linux search software using java 
+
+elastic search allows searching of logs for information since 2010
+
+logstash loads data into aws search engine for data processing
+
+kibana runs analytics on data
+
+data firehose delivers real time streaming data from a provider to a destination with a single unit maximum size of 1MB
+
+grafana visualises logs
+
+prometheus monitors data and is written in go
+
+multi tenant app has one host but multiple users
+
+self healing detects anomalies and redeploys containers
+
+nginx load balancer
+
+apache spark batches work done eg data science or machine learning on a single machine or cluster
+
+apache hadoop allows scaling up by distributing work across sets of clusters, thus ensuring reliability even if a cluster fails
+
+arn amazon resource name is an endpoint
+
+ecr elastic container registry is list of containers 
+
+aws fargate lets aws manage the containers running aws lambda code
+
+ECS elastic container service
+
+EKS elastic kubernetes service
+
+container isolation
+
+aws signer ensures code is hashed
+
+aws code whisperer can highlight security issues as code is being written
+
+aws code guru security can scan for code vulernabilities
+
+docker compose uses yaml to create and manage apps which span across multiple docker containers
+
+docker swarm is a simplified version of kubernetes and provides quick scaling
+
+docker engine builds and runs your docker files so they go live and are usable
+
+dtr docker trusted registry of docker images
+
+bml build measure learn used in cloud computing to iterate quickly
+
+hcl hashicorp configuration language is JSON for deloyment similar to YAML
+
+runbook automation 
+
+privilege identity management is used to manage administrators and what they can do
+
+dsc desired state configuration 
+
+express route is like a dedicated leased line
+
+privilege session management
+
+conjur manages identity and secrets
+
+idempotency uses random hashes to ensure a repeatable operation is not repeated twice unintentionally eg a shopping cart 'buy' button
+
+openshift by red hat runs containers
+
+aws fault domain has a set of power and network
+
+aws availability set is a group of aws fault domains so that if one goes down the other stays up
+
+aws outpost runs aws services on local machine
+
+openstack is open source competitor to aws for private cloud and is supported by dell and redhat
+
+rackspace = openstack and just tend to make the servers available and storage
+
+aws iot greengrass is iot pushed to the edge of the cloud for deployment and monitoring
+
+elastic beanstalk deploys an agnostic application framework so you dont have to worry about the underlying hardware or operating system or library versions running the software - you just deploy your app there and let aws manage the app environment.  it's like netlify where they just manage the app completely and you just deploy it there and aws does all the rest
+
+enrypt data at rest, in transit, vms, databases, logs
+
+log security events, authentication, should be encrypted, should be audited
+
+aws cloudwatch does logging and analysis
+
+aws cloudtrail logs all internal configuration changes
+
+sns simple notification service for alerts
+
+compliance eg fips, pci, iso
+
+framework is set of standards eg nist 
+
+asymmetric keys slow but secure
+
+symmetric keys fast but short term
+
+ssl symmetric session key
+
+ra registration authority approves certificate providers
+
+ca certificate authority approves certificates
+
+## 202410 data
+
+data repository is software to store data
+
+data warehouse is a suite of repositories
+
+data lake has unstructured raw data
+
+data mart is a subset of a data warehouse for a particular purpose
+
+data cube multi dimensional eg time
+
+## 202410 saas
+
+saas is pay monthly so easier to manage costs
+
+saas can easily scale up with low up front costs
+
+saas removes need for local servers etc
+
+saas lets provider manage hardware operating system libraries and underlying support structure eg security, uptime, availability, patching, monitoring
+
+saas crm manages customer relationships eg salesforce
+
+saas erp enterprise resource planning is a suite of apps to run a company
+
+saas legal data protection issues - where and how is your data stored
+
+saas limitations - customisation and integration
+
+transport mode is computer to server over vpn
+
+tunnele mode is router to router over vpn
+
+## 202410 security
+
+something you know password
+
+something you have token
+
+something you are biometric
+
+multifactor
+
+sso
+
+saml pass federated details
+
+oauth open authentication standards
+
+openid authenticates and gains access via oauth
+
+dac discretionary explicit permissions
+
+mac mandatory by government classification
+
+rbac role based access
+
+abac attribute based combination of the above plus other eg time of day
+
+object = user or resource
+
+authenticate = grant access
+
+authorise = level of access once authenticated
+
+network segmentation through switch router vpn firewall
+
+microsegmentation depending on eg identity and access roles and permissions
+
+ids
+
+ips
+
+network ids ips
+
+host ids ips
+
+antivirus
+
+microservices communicate via messages
+
+devsecops 
+
+nagios open source log monitor and alert
+
+zero trust means to trust no one
+
+security of users, network and data
+
+## 202410 vm
+
+start
+
+stop
+
+storage
+
+snapshot
+
+## 202410 data
+
+voice
+
+video
+
+data in transit 
+
+data at rest
+
+data in use
+
+data being created
+
+data already classified
+
+shared responsibility - aws does hardware, os, firewall, network, endpoints and the customer secures data, config, user management
+
+## 202410 encryption
+
+key archival server archives old keys
+
+ipsec is encryption in transit providing encryption, integrity, anti-replay, non-repudiation
+
+ah provides integrity, authentication, anti-replay
+
+esp provides integrity, authentication, encryption, anti-replay
+
+ike facilitates key exchange
+
+isakmp internet security association and key management protocol 
+
+sa security association is live connection
+
+rsa is PKI and can be used to creates and securely exchange session keys
+
+aes advanced encryption standard is for sessions
+
+dh diffie hellman creates symmetric key over a public channel
+
+stream cipher individual bytes
+
+block cipher aes des
+
+pptp vpn tunnel
+
+l2tp/ipsec
+
+gre/ipsec cisco
+
+sstp over https
+
+openvpn over https
+
+## 202410 docker commands
+
+```shell
+# build an image
+docker build
+# pull from internet
+docker pull
+# run
+docker run
+# list
+docker ps -a
+```
+
+## 202410 google cloud
+
+gke google kubernetes engine
+
+google stackdriver alerts monitor log
+
+## 202410 azure cloud
+
+azure application inisghts monitors performance of live apps
+
+aks azure kubernetes service
+
+azure stack is a suite of software and services which can run in azure, on the edge, or locally
+
+azure stack hub runs azure services locally
+
+azure data lake has premium 15 cents per gigabyte, hot 2 cents, cool 1 cent, cold 0.4 cents, archive 0.2 cents 
+
+## 202410 cloud benefits
+
+subscription
+
+speed of change
+
+fail fast
+
+patch quickly
+
+update quickly
+
+scale up in machine power
+
+scale out in numbers
+
+innovate
+
+self healing 
+
+availability match geographical nodes
+
+monitor compliance
+
+## 202410 saas iaas paas
+
+iaas infrastructure is the raw virtual machines, networks, storage, clusters and load balancing
+
+pass platform is the operating system configured to suit the user and also libraries installed, and databases 
+
+saas software is the custom app running live for the user
+
+iaas examples sccm, ec2, azure rackspace, google compute
+
+paas examples are sql, dot net
+
+## 202410 cloud history
+
+mainframes with thin clients
+
+hardware virtualisation in 2000s
+
+docker containers
 
 
 
@@ -321,6 +695,8 @@ Redis is used as an in-memory database and cache
 - Apache Spark runs data engineering on clusters
 - Apache Hive stores big data to SQL
 - Apache Kafka is used for big data stream processing
+
+
 
 ### azure
 
@@ -335,1069 +711,7 @@ Redis is used as an in-memory database and cache
   - can sync with local AD
   - ADFS Federated Services can provide identity services eg 2FA across platforms
 
- ## benefits of cloud
-
- - subscription
- - agile app development
-   - innovate
-   - speed of change
-   - fail fast
-   - patch quickly
-   - respond quickly
-   - update quickly
- - agile customer service
- - elasticity - scale out
- - scale up
- - innovate
- - self healing if node goes offline then spin up new instance
- - availability zones match geographical regions
- - monitor compliance more easily
-
-
-  
-
-
-
-## saas / paas / iaas
-
-- iaas
-  - vm
-  - network
-  - storage
-  - clusters
-  - load balancing
-- paas
-  - apps
-  - db
-- saas - data
-
-- SAAS 
-  - Sharepoint
-  - Exchange
-  - Office 365
-- PAAS
-  - SQL
-  - .NET
-  - AWS
-  - Azure
-- IAAS
-  - SCCM
-  - EC2
-  - Azure Rackspace
-  - Google Compute provides virtual machines
-
-
-
-## cloud history
-
-- mainframes had thin clients
-- hardware virtualisation in 2000s
-- docker containers 
-
-
-## cloud random terms
-
-Puppet - manage system config with version control
-
-Conjur - manage secrets eg in puppet
-
-Ansible - manage sister config - simpler version of puppet
-
-cloud foundry deploy apps on docker containers
-
-kubernetes - manage containers in groups
-
-gke google kubernetes engine
-
-google stackdriver - manage alerts, monitoring and loggine
-
-aws cloud formation - text based config of all apps
-
-CAPEX - buy expenses in advance
-
-OPEX - pay for current expenses real time
-
-orchestration - manage multiple containers
-
-infrastructure as cloud - fully scripted infrastructure environment
-
-risk register - list of things which can break
-
-caas - communinication as a service
-
-maas - monitoring as a service
-
-naas - network as a service
-
-simple queue service - handle messages in order
-
-swagger provides library version control
-
-elk stack - elasticsearch + logstash + kibana
-
-grafana monitors
-
-prometheus monitors
-
-aws lambda - function as a service
-
-container needs 1) image 2) runtime 3) instruction set
-
-cloudfront makes files available via cdn
-
-multi-tenant has one app with multiple users
-
-self healing node can detect anomalies and take action eg redeploy container
-
-nginx - load balancer
-
-apache spark and hadooop processes big data
-
-azure insight processes big data
-
-arn amazon resource name
-
-aks azure container service
-
-container identity
-
-container isolation
-
-code integrity
-
-code identification
-
-docker swarm - orchestration, easy to set up
-
-dtr docker trusted registry - manage docker images
-
-```shell
-# build an image
-docker build
-# pull from internet
-docker pull
-# run
-docker run
-# list
-docker ps -a
-```
-
-docker compose - yaml to manage docker
-
-k8s kubernetes
-
-bml build measure learn 
-
-hcl hashicorp configuration language
-
-orchestrator - runbook automation
-
-privilege identity management - user runas administrator
-
-dsc desired state configuration
-
-expressRoute is like a dedicated leased line
-
-application insights - local client
-
-privilege identity management - admin accounts
-
-privilege session management
-
-conjur - identity and secrets management
-
-idempotency - dont change what does not need to be changed
-
-openshift - containers by red hat
-
-cloudFormation - yaml configure app
-
-multi-tenancy data stored in different containers
-
-availability set - failover machine hosted on different physical server
-
-kubernetes swarm
-
-AWS Outposts
-
-Openstack
-
-GreenGrass
-
-AzureHub
-
-Elastic Beanstalk
-
-
-
-## SAAS Software As A Service
-
-Service Provider eg AWS, Azure, Google
-
-Compute = CPU and RAM
-
-Compute / Storage / Network
-
-Multi-Tenant = one app shared by multiple customers each having individual data
-
-SAAS Examples
-
-CRM
-
-Salesforce
-
-ERP Enterprise Resource Planning integrates the core applications required to run a business into one single system
-
-SAAS Advantages For Users
-
-- Deploy immediately as it’s browser based - no customer installation is required
-- Pay as you go eg per user per month or per storage per month
-- Easy to scale up and down number of users
-- Lower up-front cost (often free trial) and can start with one or two users initially, with very low cost up front initially
-- Less need for on-premises servers and equipment etc
-- Easy to upgrade the application : user does nothing!
-- No local install
-- Subscription
-- Risks of maintenance with vendor
-- Risks of security with vendor
-- Risks of patching with vendor
-
-SAAS Risks For Users
-
-- Trust provider
-    - Availability
-    - Security
-- Legal concerns with storing data outside your company or country
-- Limited customisation
-- Integration
-- Lower performance as going through browser
-
-SAAS Advantages for Software Providers
-
-- Predictable revenue : per month
-- Sell to business directly and not have to get approval of IT support
-- Can keep support costs low as software is running on your own server
-- Stats on usage and crashes
-- Marketing easier as anyone can locate our website
-
-SAAS Disadvantages
-
-- Must provide real business value (try before you buy)
-- Revenue comes in slowly up front
-- Hard to customise
-- Some people don’t like the cloud!
-- Have to run the software
-- Have to support the software
-- Have to do the updates
-- Have to watch security
-
-Cloud vs Hosting
-
-- Cloud providers provide access to a wide range of service
-- Usage based pricing
-
-Cloud benefits
-
-- Faster deployment
-- Pay as you go
-- Lest financial risk up front
-- No on-premises needs
-- Automatic upgrades
-
-Cloud risks
-
-- Trust!
-- Legal
-- Integration
-- Developers less control
-
-### Overview of different cloud platforms
-
-Compute = CPU + RAM = IAAS = Run VM
-
-IAAS = VM from scratch
-
-PAAS = VM run by someone else and we just manage the desktop
-
-CaaS = Containers as a Service
-
-Deploy and manage containers
-
-Kubernetes
-
-FaaS = Function as a Service = Serverless computing
-
-Just build an app as a function and invoke the function directly
-
-Can be extremely cheap
-
-Data
-
-VM with database inside it
-
-Object storage is unstructured data (raw bytes)
-
-Managed database
-
-Relational storage
-
-NoSQL document oriented JSON storage
-
-### Vendor
-
-- AWS
-    - largest ... by a) number of servers b) number of datacenters c) revenue d) percentage of data center market
-    - Services split up into 3 types
-        - Infrastructure = Compute services
-            - EC2 Elastic Compute Cloud
-            - Elastic Beanstalk does PaaS ie virtual desktop
-            - Lambda runs FaaS
-        - Container Services
-            - EKS Elastic Kubernetes Service
-        - Abstracted Services - storage, database, messaging
-    - S3 data
-    - RDS relational DB
-    - DynamoDB is NoSQL
-- Azure
-    - AKS Azure Kubernetes Service
-
-## Private Cloud
-
-Hosting cloud services on premises
-
-### Deploying Cloud Technology Locally : Azure Stack and AWS Outposts
-
-- Azure Stack : subset of its services and makes available to local providers
-- Sold as hardware and software package together
-
-### OpenStack which builds a private cloud
-
-- Known as Rackspace
-- Not supported by AWS/Azure/Google
-- Supported by Dell, RedHat
-
-### IoT : AWS, Greengrass, Azure Hub
-
-## Public Cloud Storage
-
-Data Lake Storage
-
-Azure 100TB £68 per month archive storage
-
-```
-Database
-Repository = one or more databases
-Warehouse = large repository
-Lake = large repository with unstructured data
-Mart = secure parts of the data with authentication
-Cube = data with 3 or more dimensions as found in a spreadsheet
-```
-
-# Cloud Identity
-
-- account protection
-- identity sources
-- identity federation
-- RBAC role based access control
-
-Master root user has control over everything
-
-- password strength
-- password manager
-- multifactor
-- suspicious activity
-- limit amount of damage if breach is occurred
-- use multiple environments so that the impact of one breach is limited (although can be slightly inconvenient)
-
-### Managing Identity
-
-Federation allows us to link local accounts with cloud accounts
-
-SAML can link
-
-OpenID Connect also can connect
-
-Individual users can use social media but not enterprise systems
-
-### RBAC Role Based Access Control
-
-JEA Just Enough Administration
-
-Grant minimum permissions to administrators
-
-# Cloud Security
-
-- Shared responsibility model - AWS responsible for
-    - Global infrastructure
-        - Regions
-        - Availability zones
-        - Edge locations
-    - AWS services
-        - IAM eg key rotation
-        - Database
-        - Storage eg elastic
-        - Compute
-        - Networking
-    - AWS splits services into 3 types
-        - Infrastructure eg Compute
-            - EC2 VM
-            - EBS Elastic Block Store - volumes
-            - VPC virtual private cloud - isolated network
-            - AWS responsibility - hardware, network, endpoints, iam
-            - Customer responsibility - roles, firewall, OS, data
-        - Container
-        - Abstracted services
-- IAM
-    - Users
-    - Groups
-- Configuration management
-    - Centrally store and define config
-    - Roll out configurations across your cloud environment
-    - Architecture of the environment can be updated
-    - Example : update network configuration
-    - Easy to work out which version of the template is in use
-    - OS config
-    - VM config
-    - Firewall config
-        - AWS default for all services is denying access unless specifically granted
-    - Network config
-    - Security config
-    - App config
-    - Examples of configuration management
-        - Chef
-        - Puppet
-        - Ansible
-        - Powershell DSC
-        - Saltstack
-        - do you need agentless?
-    - Configuration management is effective with
-        - Source Control
-        - Automation
-        - CI/CD
-- Configuration compliance
-    - Are configurations actually being applied
-    - Can visually track the config of your environment
-    - Flag differences
-    - Also flag obvious errors eg VM exposed to internet
-    - use one platform to config environment
-    - but another different provider to verify that environment is in compliance!
-    - Effective - independent audit!
-    - Chef IsSpec does this!
-    - Can check your systems against CIS standards
-- Security compliance
-- Encryption
-    - Data in transit
-    - Data at rest! Not enabled by default
-    - Can use PKI with CA using HSM to store keys
-    - Encrypt VMs so disks can’t be copied and accessed outside the cloud environment
-    - DB should be encrypted so cannot be copied and used outside the cloud environment
-    - Encrypt long term archival data
-    - Encrypt logs
-- Logging
-    - Not enabled by default
-    - Generates a lot of data over time so enable a storage service to hold it all
-    - Should be enabled
-    - Should be encrypted
-    - Can audit security events like authentication
-    - Audit event logs from VMs
-    - Provide full visibility
-    - Cost management also
-    - AWS Cloudwatch does logging for your apps
-        - Namespace organises logs
-        - Metrics contain detail
-    - AWS CloudTrail can log all internal configuration changes within the AWS environment
-        - for auditing
-- Log Analysis to analyse logs
-    - Cloudwatch aggregation of data
-    - ML Machine Learning can analyse logs
-    - ML can recognise patterns
-    - ML can provide insights into data
-- Alerting
-    - Good alerts eg there was a problem but it’s been fixed
-    - Email overload
-    - Generate a support ticket
-    - Custom event-driven processes
-    - Generate a chat alert in a group chat from a chat bot which can give and take instructions and information
-    - eg AWS Cloudwatch Alarm
-    - eg SNS Simple Notification Service for AWS CloudTrail eg send email when infrastructure changes
-- ChatOps using a group chat executing ‘bot’ commands to get work done
-    - Chatbots
-        - [Hubot](https://hubot.github.com/): GitHub’s bot written in CoffeeScript and Node.js ([docs](https://github.com/github/hubot/tree/master/docs)) [https://hubot.github.com/](https://hubot.github.com/)
-        - [Lita](https://www.lita.io/): Written in Ruby
-        - [Err](http://errbot.net/): Written in Python
-- Logging Lab : From Pluralsight Intro to AWS Cloud Security
-    - build API gateway
-    - add to AWS lambda which is running the code to read the API
-    - check the execution role for the lambda function
-    - add a policy at iam ⇒ roles ⇒ find the role for the lambda function ⇒ add inline policy ⇒ search for DynamoDB ⇒ grant read access ⇒ name policy ⇒ create
-    - Now test by going to API⇒select our API⇒stages⇒production ⇒ invoke url
-
-## Security Config and Compliance
-
-- Standards
-- Compliance
-- PKI
-- Encryption
-- Tunneling
-
-### Security Standards
-
-Private cloud - responsibility of enterprise
-
-Public cloud - provider does their security, we do ours depending on IaaS PaaS or SaaS
-
-Community cloud - shared
-
-### Physical Security
-
-Physical access
-
-doors
-
-windows
-
-Asset tracking
-
-Facilities Management
-
-Cabling
-
-Power
-
-Climate control : temperature humidity
-
-Backup
-
-### Security Standards
-
-Access only to those who need it
-
-Minimum access granted
-
-IAM Identity and Access Management
-
-lab - create user and add to group
-
-Federated Identity also
-
-SSO single sign on across multiple systems
-
-Logging eg AWS Cloudwatch
-
-### Compliance
-
-Ensure privacy of data
-
-- Certification
-    - 3rd party assessment that a company meets a set of standards
-    - FIPS
-    - ISO
-    - PCI payment card industry
-
-## Laws
-
-Framework : sets out best practice
-
-- Recommended practices
-- Workflows
-- eg NIST in US [https://www.nist.gov/cyberframework](https://www.nist.gov/cyberframework)
-    - NIST Framework
-        - Identify
-            - Assets
-            - Business environment
-            - Governance
-            - Risk assess
-            - Risk manage
-            - Supply chain risk manage
-        - Protect
-            - IAM Identity and Access
-            - User Awareness
-            - Data
-            - Information Protection procedures
-            - Maintenance
-            - Protective technology
-        - Detect
-            - Continuous Monitoring
-            - Logs
-            - Events
-            - Anomalies
-            - Detecting
-        - Respond
-            - IRP Response planning
-            - communications
-            - Analysis
-            - Mitigation
-            - Improving
-        - Recover
-
-NIST provides a core reference for others including
-
-CSA Controls
-
-EU-US Privacy shield
-
-Cloud adds an extra layer of compliance to existing compliance records
-
-###  keys
-
-- symmetric fast
-- asymmetric secure but slow
-- ssl uses asymmetric certificate on server to create symmetric key securely and send to client which can decrypt and use
-
-### Verifying validity of a site.
-
-Verification can be public globally or just within a company
-
-RA Registration Authority - verifies identity and tells CA to issue certificate
-
-CA Certificate Authority - corporate registry - issues certificate
-
-### Key Archival Server
-
-Stores backup copies of enterprise private keys
-
-### Signing can provide integrity
-
-Information is hashed and then this is encrypted with private key. Public key is included. Someone can use public key to decrypt and verify hash.
-
-### PKI as a service
-
-## Encryption
-
-- IPSEC
-- TLS
-
-### IPSEC
-
-- Encrypts
-- Integrity
-- Non-repudiation
-- Anti-replay
-- IPSEC Protocols (mostly just AH and ESP)
-    - AH Integrity
-        - Integrity
-        - Authentication
-        - AntiReplay
-    - ESP Encryption : Integrity, Authentication, Encryption, AntiReplay
-    - IKE facilitates key exchange
-    - ISAKMP Internet Security Association and Key Mgt Protocol
-        - controls SA which are live connections
-    - GDIO Group Domain of Interpretation
-        - allows groups to communicate
-
-Transport mode : computer to server
-
-Tunnel mode : VPN ie lan to lan
-
-## Ciphers
-
-### Asynchronous
-
-RSA is used and is used to create and exchange the session key
-
-AES Advanced Encryption Standard (used to be 3DES or RC4)
-
-### Cipher Detail (with images)
-
-Diffie-Hellman (see Khan Acadedy videos on DH and RSA)
-
-Symmetric ciphers
-
-Block Cipher (most common) : blocks 64, 128, 256 bits : AES, DES
-
-Stream Cipher eg RC4 : fast but weaker : encrypt single bytes
-
-### VPN Tunneling
-
-PPTP Microsoft, has flaws
-
-L2TP/IPSEC - very secure but does not work well with NAT
-
-GRE/IPSEC - Cisco
-
-SSTP - Microsoft - over HTTPS
-
-OpenVPN - open source - over HTTPS
-
-## Access Control (already covered)
-
-Something you know (username, password)
-
-Something you have (token, fob)
-
-Something you are (biometric)
-
-Multifactor eg user/pass and email
-
-SSO
-
-### Federation : pass the authentication back to original provider
-
-SAML
-
-OAuth
-
-OpenID
-
-### Types of access control
-
-DAC Dicretionary : permissions assigned by admin
-
-MAC Mandatory : government-assigned clearances for data : confidential, secret, top secret
-
-RBAC Role based : permissions are by role : can set coarse permissions
-
-ABAC Attribute based access control : access controlled by any number of different attribute eg employees in finance at specific hours of day. Can set very fine and granular permissions.
-
-## Object Authorisation (already covered)
-
-Object = user/group/etc
-
-Allow access with identity : authentication
-
-Permit object access rights : authorization
-
-Cloud access will be
-
-- Start/Stop VM
-- Network access
-- Storage access
-- VM Snapshot access
-
-## Data Classification
-
-Voice traffic
-
-video traffic
-
-data entering
-
-data being created
-
-data already classified
-
-- government classification
-- enterprise classification
-
-Take into accounta
-
-- data
-- users
-- user roles
-- user devices
-
-Data is at
-
-- rest : secure hardware, encrypt data, iam for access
-- transit : through RAM and network.
-    - use IPSEC
-    - use VPN
-- use : CRUD operations
-    - endpoint vulnerability : data has been decrypted
-
-Audit data classification
-
-Log data classification decisions
-
-## Segmentation and Microsegmentation
-
-Segmentation : coarse control
-
-- VLAN
-- VRF Virtual Routing and Forwarding
-- Firewall
-
-MicroSegmentation : fine control
-
-- refined segmentation even within one VLAN
-    - popular in private cloud
-- authenticate
-- authorise
-- data classified
-- can be used for compliance requirements
-- can be used to limit systems which can access data
-
-# Advanced Cloud
-
-## Serverless Compting : Functions
-
-Serverless computing can work together with
-
-- API
-- Webhooks
-
-to drive automation! Even between unrelated services!
-
-Serverless functions are code!
-
-## Machine Learning
-
-Logs generate far too much data!
-
-Analyse historical data over the years
-
-Analyse purchasing behaviour of your customers
-
-Analyse marketing campaigns and their success
-
-Discover hidden relationships that you would never have thought of
-
-Build more effective marketing
-
-Big data analysis
-
-- Data lake analysis
-    - Pay £1.50 per hour on Azure so very cheap; only pay for the time your query is actually running
-
-## Cognitive Services
-
-Takes machine learning to another level
-
-Live interaction
-
-Facial recognition
-
-Emotion recognition
-
-Strength of emotions
-
-Speech recognition
-
-Speech ID
-
-Intelligent search across data sources
-
-Text analytics
-
-All of them just use an API
-
-Can include facial or voice recognition to increase the security of your produce
-
-Microsoft has best cognitive services on the market
-
-### IoT
-
-Devices supporting bi-directional communication
-
-IoT eg sensor gathering information eg truck monitoring of fuel efficiency and miles driven
-
-IoT car parks - which bays are available and direct cars to nearest bay or most desirable bay
-
-# Security Automation
-
-### Why Automate?
-
-Engineers are busy
-
-Users are often not well trained
-
-Attackers evolve
-
-Large amounts of data have to be analysed constantly!
-
-- Traffic
-- Alerts
-- Resource utilization
-- Logs
-
-Orchestrate an automated approach
-
-- Mimic normal engineer
-- Define normal operations
-- Define anomalies
-- Define actions
-
-Leave engineer free to
-
-- determine if threat is ongoing
-- find attack source
-- find attack methods
-
-### Automation Scripting
-
-BASH
-
-Batch
-
-Perl
-
-Powershell
-
-- parse log files
-- monitor traffic
-- communicate
-
-Can buy pre-built solutions
-
-Automation = one task
-
-Orchestration = many tasks and integrate different automation solutions
-
-### Security Services
-
-Firewall : coarse filtering
-
-In/Out
-
-Rules can be automated
-
-IDS/IPS : fine filtering
-
-NIPS/NIDS/HIDS/HIPS
-
-AntiVirus / AntiMalware
-
-Can automate the updating of av and logs
-
-### Automation Tools
-
-- CLI
-    - can be used to test against code injection, XSS, site misconfiguration attacks etc
-    - can use OWASP
-- Web GUI
-- API - don’t really want your security to expose an API
-- Cloud portal testing
-- Vendor tools
-
-Testing can be triggered, scheduled or constant
-
-# Containers
-
-- benefits
-- docker
-- public cloud container services
-- Kubernetes
-
-Container virtualizes the OS kernel
-
-Containers can be provisioned in a matter of seconds
-
-Efficiently use underlying compute, storage and network
-
-Allow self-healing
-
-Docker is industry standard
-
-Docker images built using Docker client
-
-Dockerfile completely describes all a) settings b) applications c) services in container
-
-Dockerfile is kept under source control
-
-Docker image stored in repository eg Docker Hub
-
-Docker Engine provisions new containers based on image and tag eg ubuntu:latest
-
-Provisioning an image
-
-1. Local - use that
-2. Get from the docker repository in use
-
-Complelely headless interaction : absolutely no requirement to log in
-
-Containers have no patching whatsoever
-
-Containers do not need to be troubleshooted - just erase and start again
-
-Containers are small and not meant to be long lived
-
-Runs same anywhere eg local, dev, production
-
-### Container services - deploy and manage containers
-
-VM provisioned to support containers
-
-Orchestration
-
-Interaction via firewall rules and load balancers
-
-### Containers
-
-```
-Works the same across all operating systems
-
-Isolation
-
-Standard API
-
-Containers can give us
-
-    automation
-    
-    resilience
-    
-    resource utilization
-```
-
-# Cloud And Container Services
-
-```
-Shared responsibility
-- AWS Secures platform, firewall, OS, network, IAM
-- Customer secures data, firewall config, IAM
-```
-
-### Microservices
-
-```
-Applications are broken down into services which are
-
-Single purpose
-
-Decoupled
-
-Self Contained
-
-And that communicate with one another via messages
-
-Easy to 
-
-- Develop
-- Update
-- Robust
-- Scalable
-```
-
-# DevSecOps
-
-```
-Is the integration of Devops with security at an early stage of the devops life cycle.
-
-Devops critical tools
-
-ansible to create scripts which work across platforms to build virtual machines 
-Kubernetes to deploy code into containers and manage containers
-Jenkins server to coordinate builds
-Nagios monitoring
-```
-
 # AWS
-
-## AWS Introduction
-
-AWS has a free online guide to its services and we will be starting here for our AWS studies https://aws.amazon.com/getting-started/fundamentals-core-concepts/?e=gs2020&p=gsrc
-
-## Fundamentals
-
-AWS has 175 services!
-
-### 5 Pillars
-
-- Security
-- Performance Efficiency
-- Reliability
-- Operational Excellence
-- Cost Optimization
-
-### Security
-
-Zero Trust - potentially all services and apps can be malicious including all network infrastructure
-
-3 Levels Of Security
-
-- IAM Identity and Access
-- Network Security
-- Data Encryption
 
 #### IAM Security
 

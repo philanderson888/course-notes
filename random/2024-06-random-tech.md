@@ -1,8 +1,8 @@
-# learning 7000 lines
+# 2024 tech notes
 
 ## contents
 
-- [learning 7000 lines](#learning-7000-lines)
+- [2024 tech notes](#2024-tech-notes)
 	- [contents](#contents)
 	- [streaming](#streaming)
 	- [azure](#azure)

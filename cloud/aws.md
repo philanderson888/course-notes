@@ -4,17 +4,41 @@
 
 - [code](#code)
   - [contents](#contents)
+  - [202420 AWS update](#202420-aws-update)
+  - [terms](#terms)
   - [AWS](#aws)
   - [building a aws amazon linux default machine](#building-a-aws-amazon-linux-default-machine)
     - [set /.ssh/config to automatically accept new host fingerprints](#set-sshconfig-to-automatically-accept-new-host-fingerprints)
+
+## 202420 AWS update
+
+## terms
+
+- EC2 is split down into regions, availability zones, local zones, aws outposts, wavelength zones
+- EC2 region is a geographic area
+- EC2 availability zone is a location within a region
+- EC2 local zones allow placing resources close to your end users
+- EC2 outposts places AWS services in a particular data center
+- EC2 wavelength zone delivers content to the edge of 5G networks to be close to users on mobile networks
+- VPC is virtual private cloud is a logical private network and can consist of a gateway, multiple subnets, multiple machine instances per subnet, and one availability zone per subnet
+- VPC internet gateway connects to the public internet
+- VPC endpoint connects to AWS services privately
+- VPC peering connection can route traffic between two endpoints
+- VPC route tables route traffic between VPC subnets
+- Traffic Mirroring takes a copy of network traffic and sends it to security devices for monitoring
+- Transmit Gateway is a central hub
+- Flow log
+- VPN connections connects your real physical network to your virtual network
+- vm instance is virtualised hardware
+- vm instance is virtualised hardware
+- container is virtualised operating system on which we run an app - code, libraries, runtime, environment variables and config
+- container is a virtualised operating system
 
 
 ## AWS
 
 - AWS
     - Terms
-        - Region → Availability Zones
-        - VPC → Containers
         - EC2 → Load Balance
             - Application Load Balancer
                 - Enhances classic load balancer

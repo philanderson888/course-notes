@@ -5,10 +5,6 @@
 - [random](#random)
   - [contents](#contents)
   - [Astronomy](#astronomy)
-    - [Asteroid Missions](#asteroid-missions)
-  - [Search For Life](#search-for-life)
-    - [Planetary Exploration - Mars](#planetary-exploration---mars)
-    - [Planetary Exploration - Venus](#planetary-exploration---venus)
     - [Spaceflight - Manned By Date](#spaceflight---manned-by-date)
     - [Spaceflight - Unmanned By Date](#spaceflight---unmanned-by-date)
   - [chemistry](#chemistry)
@@ -106,43 +102,6 @@
 
 
 ## Astronomy
-
-
-### Asteroid Missions
-
-
-2023 returning Osiris-Rex from Asteroid Bennu with samples to earth
-
-2016 launched Osiris-Rex to Asteroid Bennu
-
-## Search For Life
-
-```
-Venus
-Venus may have life!
-Scientists have discovered sulphur on Venus which can be produced by volcanic but it doesn't look like volcanically generated sulphur.
-They also find hydrogen sulphide H2S and sulphur dioxide. These are incompatible ie when they combine or are present together, then they will naturally react together and eliminate. So it's a puzzle that they both exist. The only solution is that both molecules are being created by something. The answer is life! Life forms are creating both molecules, so is there life on Venus? In the clouds of Venus??? Puzzling!!!
-```
-
-
-### Planetary Exploration - Mars
-
-```
-Curiosity is the Mars Rover. It is currently driving round Mars.
-https://mars.nasa.gov/msl/home/
-This is a RTG Radioisotope Thermal Generator.
-Mars Exploration Spirit and Opportunity in 2004
-Spirit Mars Opportunity is solar-powered and is still working!
-```
-
-
-### Planetary Exploration - Venus
-
-```
-Russia - 16 Venera probes to Venus 
-Nasa - Pioneer to research the possibility of life on Venus in the clouds
-```
-
 
 ### Spaceflight - Manned By Date
 

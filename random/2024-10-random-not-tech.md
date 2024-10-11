@@ -11,6 +11,17 @@
   - [life](#life)
   - [mars](#mars)
   - [venus](#venus)
+  - [chemistry](#chemistry)
+  - [animals](#animals)
+  - [war israel](#war-israel)
+  - [aircraft](#aircraft)
+  - [war](#war)
+  - [war history](#war-history)
+  - [war artillery](#war-artillery)
+  - [war wwi](#war-wwi)
+  - [war wwii](#war-wwii)
+  - [war russia](#war-russia)
+  - [war usa army](#war-usa-army)
   - [glossary](#glossary)
 
 
@@ -45,6 +56,34 @@ opportunity rover in 2004
 venera probes - russia sent 16 of them to venus
 
 pioneer - nasa project to probe life in the clouds of venus
+
+
+## chemistry
+
+## biology
+
+## animals
+
+## anatomy
+
+## war israel
+
+## aircraft
+
+## war
+
+## war history
+
+## war artillery
+
+## war wwi
+
+## war wwii
+
+## war russia
+
+## war usa army
+
 
 
 ## glossary

@@ -15,6 +15,7 @@ February 2023
   - [Author](#author)
   - [Last Updated](#last-updated)
   - [Contents](#contents)
+  - [202410 quick commands](#202410-quick-commands)
   - [Introduction](#introduction)
   - [Install](#install)
   - [Basic Commands](#basic-commands)
@@ -60,6 +61,12 @@ February 2023
     - [commits](#commits)
     - [branches](#branches)
     - [stashing](#stashing)
+
+## 202410 quick commands
+
+```bash
+git diff 
+```
 
 
 ## Introduction

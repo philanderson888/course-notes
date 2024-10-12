@@ -6,6 +6,7 @@
   - [202410 frameworks](#202410-frameworks)
   - [202410 nist](#202410-nist)
   - [202410 controls](#202410-controls)
+  - [202410 monitoring](#202410-monitoring)
   - [202410 incidents](#202410-incidents)
   - [202410 types of attack](#202410-types-of-attack)
   - [202410 response](#202410-response)
@@ -775,6 +776,48 @@ access controls eg rbac role based access, rule based access eg no log on at cer
 
 recovery controls return to normal function eg drp disaster recovery planning, recovery of data backup, alternate sites
 
+## 202410 monitoring
+
+winpcap network sniffer
+
+libpcap network sniffer
+
+promiscuous mode listens on all ports
+
+network protocol analyser will analyse tcp and udp packets 
+
+protocol analyser is just the protocol in use
+
+packet analyser analyses the payload
+
+traffic analysis looks at a higher level what is being sent 
+
+netflow session analysis
+
+sniffing tools include wireshark, kismet, tcpdump, dsniff, ettercap
+
+siem security information event logs does log monitoring and analysis
+
+ossim open source security information management
+
+ids examples snort, openvas
+
+syslog is linux event log
+
+logging sofware includes kiwi syslog
+
+linux iptables manages firewall
+
+firewall logging 
+
+anomaly based checks deviation from the norm
+
+heuristic is real time
+
+things to monitor - cpu, ram, network throughput, network scans, downloads of particular type or size or timing, unusual traffic to unknown ip addresses, data exfiltration out
+
+full packet capture
+
 ## 202410 incidents
 
 indicator is a pattern of observables
@@ -990,6 +1033,8 @@ mtd max tolerable downtime
 apt advanced persistent threat
 
 ip intellectual property
+
+low and slow to avoid detection
 
 # cyber glossary 1 of 3
 

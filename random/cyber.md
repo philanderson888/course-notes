@@ -11,6 +11,7 @@
   - [202410 types of attack](#202410-types-of-attack)
   - [202410 response](#202410-response)
   - [202410 forensics](#202410-forensics)
+  - [202410 passwords](#202410-passwords)
   - [202410 hashing](#202410-hashing)
   - [202410 intrusion detection and prevention](#202410-intrusion-detection-and-prevention)
   - [202410 incident response](#202410-incident-response)
@@ -907,6 +908,30 @@ dd imaging tool on linux uses if input file and of output file
 ```bash
 dd if=/dev/sda/ of=/mnt/usbstick/backup.img
 ```
+
+## 202410 passwords
+
+have i been pwned
+
+how secure is my password
+
+windows stores in system 32 config sam
+
+windows 10 passwords are md4 hashed
+
+lm uses ascii
+
+ntlm uses md4
+
+ntlm2 uses md5
+
+linux passwords are stored in /etc/passwd and /etc/shadow
+
+mimikatz obtain hashes
+
+hashcat
+
+
 
 ## 202410 hashing
 

@@ -3,6 +3,7 @@
 - [cyber](#cyber)
   - [202410 cyber controls](#202410-cyber-controls)
   - [202410 standards bodies](#202410-standards-bodies)
+  - [202410 frameworks](#202410-frameworks)
   - [202410 nist](#202410-nist)
   - [202410 controls](#202410-controls)
   - [202410 forensics](#202410-forensics)
@@ -667,19 +668,45 @@
 - cis center internet security
 - sans institute for cyber training
 
+## 202410 frameworks
+
+framework is set of policies
+
+compliance tests if policies are enacted
+
+cisa certified information systems auditor
+
+cism certified information systems manager
+
+isms information security management system
+
+iso 27001 provides risk management
+
+itil best practice in service strategy, service design, service transition, service operation, service improvement
+
+implementation of policies can be partial, risk informed, repeatable, adaptive with continuous improvement
+
+security by default
+
+cobit control objectives for it is a business framework to manage computers in business
+
+togaf the open group architecture framework on the overall design of computer and security architecture and how it applies to a business
+
+nist 800-137 continuous monitoring defines strategy for monitoring, continuous monitoring, collecting information, analysis, mitigate threats, update and improve 
+
 ## 202410 nist
 
 nist has 5 core functions
 
 identify eg risk assessment, managing of assets, goven, business environments, risk management strategies
 
-protect from attack
+protect from attack eg information processes, access control, user training, data security, maintenance
 
-detect attacks
+detect attacks and anomalies
 
-respond to attacks
+respond to attacks with an irp plan, communication, analysis, mitigation
 
-recover from attacks
+recover from attacks with cycle of improvement
 
 ## 202410 controls
 
@@ -707,7 +734,7 @@ operational controls such as policy, clean desk policy, disaster recovery policy
 
 cis control categories: hardware, software, vulnerabilities, admin privileges, client security, servers, logs, email, browser, malware, network, data, firewall, router, switch, boundary, training, apps, incident response, pen tests
 
-policies such as acceptable use, password, lockout, disaster recovery, data protection
+policies such as acceptable use, password, lockout, disaster recovery, data protection, account management, privacy, surveillance, security assurance (monitoring), monitoring, physical monitoring, data classification, data retention, version control, recovery policy, separation of duty, job rotation, sop standard operating procedures, dual control shared ownership, least privilege, auditing, mandatory vacation, succession planning
 
 auditing checks if controls are in place
 
@@ -821,6 +848,12 @@ write blocker
 registry viewer
 
 siem security and event management looks at logs
+
+rpo recovery point objective is last point a backup was taken
+
+rto recovery time objective is time to restore data, must be less then max tolerable downtime
+
+mtd max tolerable downtime
 
 # cyber glossary 1 of 3
 

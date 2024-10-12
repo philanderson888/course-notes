@@ -1,6 +1,11 @@
 # cyber
 
 - [cyber](#cyber)
+  - [202410 reconnaisance](#202410-reconnaisance)
+  - [202410 osint](#202410-osint)
+  - [202410 social engineering](#202410-social-engineering)
+  - [202410 scanning](#202410-scanning)
+  - [202410 cyber attacking](#202410-cyber-attacking)
   - [202410 cyber controls](#202410-cyber-controls)
   - [202410 standards bodies](#202410-standards-bodies)
   - [202410 frameworks](#202410-frameworks)
@@ -9,12 +14,14 @@
   - [202410 monitoring](#202410-monitoring)
   - [202410 incidents](#202410-incidents)
   - [202410 types of attack](#202410-types-of-attack)
+  - [202410 web site hacking](#202410-web-site-hacking)
   - [202410 response](#202410-response)
   - [202410 forensics](#202410-forensics)
   - [202410 passwords](#202410-passwords)
   - [202410 hashing](#202410-hashing)
   - [202410 intrusion detection and prevention](#202410-intrusion-detection-and-prevention)
   - [202410 incident response](#202410-incident-response)
+  - [risk](#risk)
   - [202410 cyber terms](#202410-cyber-terms)
 - [cyber glossary 1 of 3](#cyber-glossary-1-of-3)
   - [bastion host](#bastion-host)
@@ -659,6 +666,92 @@
   - [cyber random terms](#cyber-random-terms)
   - [cyber a-z terms](#cyber-a-z-terms)
 
+## 202410 reconnaisance
+
+topology discovery
+
+operating system fingerprint
+
+service discovery
+
+email harvesting
+
+social media profiling
+
+dns harvesting
+
+phishing
+
+## 202410 osint
+
+organisation
+
+employees
+
+systems hardware operating systems and software
+
+suppliers
+
+customers
+
+google dork
+
+exploit database
+
+gb hackers
+
+wikileaks
+
+tap r00t passwords
+
+google dorking site filetype related intitle allintitle inurl inanchor intext daterange:a-b define exclude
+
+whois information
+
+central ops dot net
+
+htttrack copy whole website
+
+archive.org wayback machine
+
+## 202410 social engineering
+
+whaling 
+
+## 202410 scanning
+
+port scan
+
+metasploit
+
+cve
+
+wireshark
+
+nmap
+
+parrot security linux is like kali linux
+
+massscan can scan the entire internet 
+
+## 202410 cyber attacking
+
+kill chain is steps of an attack eg military find the target, fix on the target, track the target, prepare an exploit, engage using the exploit, assess the outcome
+
+cyber kill chain reconnaisance, weaponisation, delivery, exploit, install, command and control, actions
+
+zombie computers perform stealth scans
+
+weaponisation chooses the exploit to match the vulnerability
+
+pivot point of entry
+
+c2 command and control
+
+post-exploitation we have lateral discovery and spread on a network
+
+action on objectives eg exfiltrate
+
 ## 202410 cyber controls
 
 - prevention
@@ -881,6 +974,20 @@ rat remote access trojan
 
 netcat is advanced linux scripting tool
 
+wifi pineapple does wifi scan
+
+## 202410 web site hacking
+
+owasp open web app security project
+
+zap zed attack proxy to find vulnerabilities in web site
+
+spider crawls web
+
+nikto web vulnerability scan
+
+proxy with burpsuite 
+
 ## 202410 response
 
 coa courses of action matrix what to do
@@ -1001,6 +1108,16 @@ communication using out-of-band phones, secure messaging
 
 classify the threat
 
+## risk
+
+sle single loss expectancy
+
+ef exposure factor
+
+ale annual loss expectancy
+
+aro annual rate occurrence
+
 ## 202410 cyber terms
 
 soc security operations centre
@@ -1060,6 +1177,12 @@ apt advanced persistent threat
 ip intellectual property
 
 low and slow to avoid detection
+
+air gap around isolated machine
+
+sheep dip to investigate viruses
+
+sandbox network isolation
 
 # cyber glossary 1 of 3
 

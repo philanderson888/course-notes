@@ -5,6 +5,8 @@
   - [202410 standards bodies](#202410-standards-bodies)
   - [202410 nist](#202410-nist)
   - [202410 controls](#202410-controls)
+  - [202410 forensics](#202410-forensics)
+  - [202410 hashing](#202410-hashing)
   - [202410 cyber terms](#202410-cyber-terms)
 - [cyber glossary 1 of 3](#cyber-glossary-1-of-3)
   - [bastion host](#bastion-host)
@@ -663,6 +665,7 @@
   - csd computer security division
   - fips federal information processing standards eg fips 200
 - cis center internet security
+- sans institute for cyber training
 
 ## 202410 nist
 
@@ -732,7 +735,52 @@ access controls eg rbac role based access, rule based access eg no log on at cer
 
 recovery controls return to normal function eg drp disaster recovery planning, recovery of data backup, alternate sites
 
+## 202410 forensics
+
+forensic strategy would include obtaining a forensic image of machine, cracking password, analyse data, checking logs, volume shadow copies, system volume analysis, view images looking for steganography
+
+forensic workstation uses imaging, analysis, chain of custody, hashing, password cracker, cryptography
+
+forensic forms include chain of custody, incident details, incident response runbook of what to do in case of an incident, call list of people to notify in the case of an incident
+
+forensic toolkit includes workstation, write blockers, adapters, cables, blank media, cameras, crime tape, tamper-proof seals, forms
+
+linux live cd runs in ram and does not affect the status of the host machine being analysed
+
+memory forensics analyses ram
+
+live aquisition is while the machine is still running
+
+dd imaging tool on linux uses if input file and of output file
+
+```bash
+dd if=/dev/sda/ of=/mnt/usbstick/backup.img
+```
+
+## 202410 hashing
+
+sha secure hash algorithm
+
+sha-1 160 bits
+
+sha-256/512 used in ipsec and ssl
+
+mda-5 older and not totally rock solid but much faster than sha so is often used in many tools as a quick solution
+
+```bash
+certutil -hashfile md5/sha1/sha512
+
+fciv file checksum integrity verifier
+
+md5sum/sha1sum/sha512sum -c to compare file with a hash
+```
+
+
+
+
 ## 202410 cyber terms
+
+ooda observe attack orient and pivot depending on attack decide what to do act 
 
 tailgating through a door
 
@@ -748,12 +796,31 @@ coa courses of action matrix
 
 fips 199 impact analysis high medium low
 
+encase is a forensic suite of tools
 
+endpoint investigator can analyse clients
 
+sleuth kit is set of command line tools
 
+autopsy is a gui suite of tools
 
+cellebrite is mobile phone and table forensic analyser
 
+ufed universal forensic extraction device can be used on mobile phones
 
+forensically clean device does not affect the data which is being analysed
+
+autopsy is the gui to sleuthkit
+
+sleuthkit analyses computers forensically
+
+companies doing forensics involve f-response, encase, forensic toolkit
+
+write blocker
+
+registry viewer
+
+siem security and event management looks at logs
 
 # cyber glossary 1 of 3
 

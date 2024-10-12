@@ -1,6 +1,11 @@
 # cyber
 
 - [cyber](#cyber)
+  - [202410 cyber controls](#202410-cyber-controls)
+  - [202410 standards bodies](#202410-standards-bodies)
+  - [202410 nist](#202410-nist)
+  - [202410 controls](#202410-controls)
+  - [202410 cyber terms](#202410-cyber-terms)
 - [cyber glossary 1 of 3](#cyber-glossary-1-of-3)
   - [bastion host](#bastion-host)
   - [birthday attack](#birthday-attack)
@@ -643,6 +648,112 @@
   - [degauss](#degauss-1)
   - [cyber random terms](#cyber-random-terms)
   - [cyber a-z terms](#cyber-a-z-terms)
+
+## 202410 cyber controls
+
+- prevention
+- deterrence
+- detection
+- correct during a live attack
+- compensate by bypassing with an alternative action
+
+## 202410 standards bodies
+
+- nist national institute for standards and tech eg 800-53 baseline and nist sp800 control standards
+  - csd computer security division
+  - fips federal information processing standards eg fips 200
+- cis center internet security
+
+## 202410 nist
+
+nist has 5 core functions
+
+identify eg risk assessment, managing of assets, goven, business environments, risk management strategies
+
+protect from attack
+
+detect attacks
+
+respond to attacks
+
+recover from attacks
+
+## 202410 controls
+
+access
+
+audit
+
+response
+
+risk
+
+technical controls include firewall, antivirus, permissions, auditing, intrusion detection, intrusion prevention, encryption, motion detection, updating and patching operating system and software
+
+operational controls such as training, security guards, configuration, contingency planning, response planning, maintenance, physical controls, media controls, clean desk policy, change management
+
+management controls such as planning, risk assessment and authorisation, policies and procedures, user training, irp incident response policy, auditing, log management
+
+physical controls eg alarm, lock, fence, cctv, mantrap, guards, badge, keypad, proximity card
+
+logical controls eg antivirus, permissions, intrusion detection, passwords, biometric, smartcards, encryption, backups, group policy, least privilege, time of day restrictions, disabling generic accounts
+
+admin controls eg policies and procedures, separation of duties, job rotation, disaster planning, security awareness training
+
+operational controls such as policy, clean desk policy, disaster recovery policy, business continuity plan, procedures, acceptable use policy
+
+cis control categories: hardware, software, vulnerabilities, admin privileges, client security, servers, logs, email, browser, malware, network, data, firewall, router, switch, boundary, training, apps, incident response, pen tests
+
+policies such as acceptable use, password, lockout, disaster recovery, data protection
+
+auditing checks if controls are in place
+
+risk assessment to monetise the risk and mitigate the risk
+
+vulnerability assessment pays for penetration test to probe for weaknesses eg firewall, physical, software, services
+
+change management looks at cost of change, risk of change, rollback procedures, approval
+
+configuration management looks at predictability and version control
+
+preventative controls aim to stop attack eg server hardening, create security baseline configurations for firewall, group policy, services, apps, data, security awareness training, separation of duties, biometrics, encryption, mantrap, badge, guards
+
+preventative controls also include training, guards, disabling unused accounts
+
+detective controls detect after the event eg logs, system logs, video, job rotation, auditing, cctv, guards, monitoring and alerts
+
+corrective controls eg intrusion detection and prevention and restoring a backup
+
+deterrent controls such as warning signs, video cameras
+
+compensating controls propose a different course of action to the default eg one time password if smart card is not operational, take a system offline, restore corrupted data from a backup
+
+access controls eg rbac role based access, rule based access eg no log on at certain hours, dacl discretionary access based on user groups, mac mandatory access eg top secret, secret, restricted, confidential, unclassified using selinux
+
+recovery controls return to normal function eg drp disaster recovery planning, recovery of data backup, alternate sites
+
+## 202410 cyber terms
+
+tailgating through a door
+
+sid security id
+
+rid domain id (relative id)
+
+guid globally unique user id
+
+selinux security enhanced
+
+coa courses of action matrix
+
+fips 199 impact analysis high medium low
+
+
+
+
+
+
+
 
 # cyber glossary 1 of 3
 

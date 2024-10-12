@@ -6,8 +6,13 @@
   - [202410 frameworks](#202410-frameworks)
   - [202410 nist](#202410-nist)
   - [202410 controls](#202410-controls)
+  - [202410 incidents](#202410-incidents)
+  - [202410 types of attack](#202410-types-of-attack)
+  - [202410 response](#202410-response)
   - [202410 forensics](#202410-forensics)
   - [202410 hashing](#202410-hashing)
+  - [202410 intrusion detection and prevention](#202410-intrusion-detection-and-prevention)
+  - [202410 incident response](#202410-incident-response)
   - [202410 cyber terms](#202410-cyber-terms)
 - [cyber glossary 1 of 3](#cyber-glossary-1-of-3)
   - [bastion host](#bastion-host)
@@ -667,6 +672,8 @@
   - fips federal information processing standards eg fips 200
 - cis center internet security
 - sans institute for cyber training
+- itil best practice frameworks eg iso-27001, iso-27002
+- mitre attack framework
 
 ## 202410 frameworks
 
@@ -724,6 +731,12 @@ operational controls such as training, security guards, configuration, contingen
 
 management controls such as planning, risk assessment and authorisation, policies and procedures, user training, irp incident response policy, auditing, log management
 
+hr responsible for hiring staff, job descriptions, policy and procedures
+
+legal create non-disclosure agreements
+
+marketing prepare press releases during an incident
+
 physical controls eg alarm, lock, fence, cctv, mantrap, guards, badge, keypad, proximity card
 
 logical controls eg antivirus, permissions, intrusion detection, passwords, biometric, smartcards, encryption, backups, group policy, least privilege, time of day restrictions, disabling generic accounts
@@ -762,6 +775,72 @@ access controls eg rbac role based access, rule based access eg no log on at cer
 
 recovery controls return to normal function eg drp disaster recovery planning, recovery of data backup, alternate sites
 
+## 202410 incidents
+
+indicator is a pattern of observables
+
+threat actor 
+
+campaign is series of attacks
+
+ioc indicators of compromise what has been attacked
+
+severity eg services were degraded ie partially affected, or interrupted with full taking down of a service 
+
+downtime
+
+category
+
+response time critical immediate, urgent which is 24 hours, normal which is 7 days
+
+has data been affected and if so how much and what has happened to the data
+
+economic effect of the incident
+
+recovery time
+
+criticality of the system under attack
+
+## 202410 types of attack
+
+ddos
+
+icmp flood = ping flood = smurf attack
+
+fraggle attack = udp ping flood
+
+tcp syn flood
+
+sinkhole router traffic
+
+blackhole drops all packets
+
+rogue wifi
+
+evil twin wifi
+
+rogue switch copies packets
+
+unauthorised device on network running eg wireshark 
+
+beaconing to phone home
+
+scan sweep of network
+
+dropper drops malware on system
+
+masquerade replaces good executable with corrupt one
+
+dll injection
+
+rat remote access trojan
+
+netcat is advanced linux scripting tool
+
+## 202410 response
+
+coa courses of action matrix what to do
+
 ## 202410 forensics
 
 forensic strategy would include obtaining a forensic image of machine, cracking password, analyse data, checking logs, volume shadow copies, system volume analysis, view images looking for steganography
@@ -777,6 +856,8 @@ linux live cd runs in ram and does not affect the status of the host machine bei
 memory forensics analyses ram
 
 live aquisition is while the machine is still running
+
+order of volatility - cpu, swap file, routing and switch tables, ram with encryption keys, temp files, hard drives, logs, config files, network topology, archived data
 
 dd imaging tool on linux uses if input file and of output file
 
@@ -802,10 +883,61 @@ fciv file checksum integrity verifier
 md5sum/sha1sum/sha512sum -c to compare file with a hash
 ```
 
+## 202410 intrusion detection and prevention
 
+security onion ids
 
+sguil ids
+
+sgutil ids
+
+## 202410 incident response
+
+csirt computer security incident response team will involve legal, hr and marketing
+
+incident response policy will have a playbook guide, runbook immediate action steps, emergency contacts and first responders
+
+prepare for incident with incident response plan, hardening, prepare communications
+
+detect incident
+
+validate the incident is actually an incident
+
+incident classification
+
+incident identification
+
+analyse incident using reverse engineering
+
+incident prioritisation
+
+incident lockdown to prevent futher use or data exploitation
+
+incident response
+
+incident escalation
+
+incident remediation eg containment, eradication, recovery
+
+contain the incident using segmentation, removal, isolation 
+
+eradicate the incident and recover using using santising machines, wiping machines, disposing of machines, degauss drives, terminating services, removing files
+
+recover using reimaging machines, rebuilding machines, redeploying software etc
+
+validate recovery is complete also patch and update systems
+
+improve for the future with lessons learned, update change control and incident response plan
+
+communication using out-of-band phones, secure messaging
+
+classify the threat
 
 ## 202410 cyber terms
+
+soc security operations centre
+
+soc incident analyst
 
 ooda observe attack orient and pivot depending on attack decide what to do act 
 
@@ -854,6 +986,10 @@ rpo recovery point objective is last point a backup was taken
 rto recovery time objective is time to restore data, must be less then max tolerable downtime
 
 mtd max tolerable downtime
+
+apt advanced persistent threat
+
+ip intellectual property
 
 # cyber glossary 1 of 3
 

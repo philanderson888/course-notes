@@ -1,175 +1,14 @@
-# MTA Server Notes Flow 1
+# a plus
 
-MTA 98-365 Server Admin Fundamentals
+- [a plus](#a-plus)
+	- [a plus](#a-plus-1)
+- [N+](#n)
+	- [a plus labs](#a-plus-labs)
+- [MTA Server Notes Flow 1](#mta-server-notes-flow-1)
+- [Networking Flow 3 (Win 10 Networking)](#networking-flow-3-win-10-networking)
 
 
-AD LDS		Lightweight Directory Services : store data and 
-		replicate it around your domain or forest
-
-AD RMS		Rights Management : Restrict who can email/print/
-			save Office 365 documents
-
-WDS		Windows Deployment Services ==> STORE WINDOWS IMAGES
-			ISO	DVD
-			WIM	Windows Image ==> 
-			
-				boot.wim	WinPE :
-						Preinstallation
-						Environment : screens
-						when installing
-						windows
-
-				install.wim	Actual Windows 							install
-
-				custom.wim	
-		WDS : create share, deploy WIM images from this share
-		
-		Client : PXE Network Boot (hit F12 key to trigger)
-
-WSUS		Windows Server Update Services
-			Download and TEST UPDATES before ROLLOUT
-
-```
-
-Other features
-
-```
-Bitlocker	
-
-	Chip required : TPM 1.2  : store encryption keys				Full drive encryption but MUST HAVE 100MB UNENCRYPTED TO 
-			BOOT COMPUTER
-
-	|--100mb plain text---|----rest bitlocker, secure--------|			<< 'sign boot files' >>
-
-	     SECURE BOOT	
-
-
-
-
-
-Cluster		
-	Pair of computers to provide REDUNDANCY : if one fails the
-	other takes over
-		Active-active : both live
-		Active-passive : one live
-		
-
-
-
-
-NLB Network Load Balancing
-						<<server farm>>
-
-					---->	ServerA
-	client	-----	NLB : shares	---->	ServerB
-			out requests	---->	ServerC
-			equally
-
-
-
-
-
-
-
-
-DNS	maps name to IP   name is full name (FQDN ie 							server.domain.com)
-WINS	map simple 'hostname' to IP  myPC <==> 1.2.3.4
-	hosts file
-	lmhosts file
-
-		C:\\Windows\\System32\\drivers\\etc
-
-Server core : COMMAND LINE ONLY (does have notepad!!)
-	shutdown -s                -t  3600     (seconds)
-		 -r  restart     
-	netdom	/renamecomputer
-		also join domain
-	netsh   set IP 
-
-		netsh interface ip set address
-			name="ethernet" source=static
-			address=10.1.1.2 mask=255.255.255.0
-		set DNS server IP
-			
-
-Requirements
-	1.4Ghz, 512MB, 32GB 	2008R2
-	1.4Ghz, 512MB, 32GB	2016  
-
-	Note : 512MB  for core
-	       2GB    for desktop servers with GUI
-
-Image
-
-	SID	Unique 'security ID' for all objects
-
-	Sysprep	PREPARE COMPUTER FOR IMAGING
-
-		/generalise	remove SIDS from computer
-		/oobe		out of box experience 
-					
-		
-
-Answer File
-
-	Deployment ==> AUTO SETUP OF COMPUTERS
-
-		Raw ISO (default install) 		
-			+ Answer File ==> answer all questions
-		SIM : System Image Manager ==> CREATE ANSWER FILES					CALLED 
-
-				autounattend.xml	
-		
-
-Licensing
-
-	OEM	Original Equipment Manufacture : licence is tied
-			to the hardware
-	Retail	Shop purchase : you own the licence, transferable
-
-	Volume	One key for many computers
-
-		KMS Key management Server
-			Larger companies : run your own server
-			to manage licences
-
-		MAK Buy one key with x activations in advance eg 1000
-			computers
-
-	SLMGR
-		/ato	activate online
-		/ipk	install product key
-		/dli	display license info
-		/dlv	                verbose
-		/rearm	extend a trial
-
-	CAL Client Access Licence
-
-		grant access to a server eg Remote Desktop 
-			(Terminal Services)
-			((MSTSC))
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-
-
-
-## Comptia A+ Notes
+## a plus
 
 WebSites
 
@@ -4199,6 +4038,341 @@ Carrying data quickly inside eg BT
 
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+## a plus labs
+
+
+NBTSTAT -n
+
+NETSTAT -a
+
+PING. PING everlasting. (-t)
+
+PING TEST FOR CONNECTIVITY
+
+PING -t CONTINUOUS
+
+PING -n 5 FIVE PINGS
+
+PING >> PING.txt
+
+PATHPING SHOW ROUTERS ON WAY
+
+TRACERT SHOWS DETAILS OF ALL 'HOPS' (ROUTERS) TO DESTINATION
+
+ARP -a ((ARP MAPS IP ADDRESS TO MAC ADDRESS))
+
+Create a SHARE - can you block access for a named user to the share from the Windows 7 machine?
+
+Group Policy : Set Password and Lockout Policy
+
+NSLOOKUP : Find DNS Server for a domain
+
+IPCONFIG /ALL /RELEASE /RENEW /DISPLAYDNS /FLUSHDNS
+
+DNS : ADD A/AAAA/MX/CNAME records
+
+DNS : ADD REVERSE PTR ZONE AND RECORD
+
+Wireshark : Install on Windows 7 and run IPCONFIG /Release /Renew with filter udp.port==67 applied
+
+Create Printer On Server and Print
+
+Group Policy : Set Password Policy
+
+Group Policy : Set Account Lockout Policy
+
+Wifi : Go to [http://ui.linksys.com/E1200/2.0.04/](http://ui.linksys.com/E1200/2.0.04/)
+
+REMOTE DESKTOP FROM CLIENT TO SERVER
+
+NSLOOKUP [GOOGLE.COM](http://google.com/) (LOOKS AT DNS SERVERS FOR DOMAIN)
+
+IPCONFIG /ALL : GET IP, MASK, GATEWAY, DNS AND MAC ADDRESS
+
+IPCONFIG /RELEASE : RELEASE IP ADDRESS
+
+IPCONFIG /RENEW : GET A NEW IP ADDRESS
+
+IPCONFIG /DISPLAYDNS : SHOW SAVED (CACHED) DNS INFO
+
+IPCONFIG /FLUSHDNS : CLEAR DNS INFORMATION
+
+NETSTAT -a (( LOOKS AT OPEN PORTS ON YOUR COMPUTER ))
+
+NBTSTAT -c
+
+DHCP LAB
+
+DNS : ADD AN ‘A’ RECORD TO DNS SERVER
+
+DNS : ADD AN ‘AAAA’ IPV6 RECORD TO DNS SERVER
+
+DNS : ADD AN ‘MX’ EMAIL RECORD TO DNS SERVER
+
+DNS : ADD AN ‘WWW’ ALIAS RECORD TO DNS SERVER
+
+IIS : INSTALL IIS ROLE ON YOUR SERVER
+
+IIS : VIEW DEFAULT WEBSITE WITH [HTTP://LOCALHOST](http://localhost/)
+
+[HTTP://127.0.0.1](http://127.0.0.1/)
+
+HTTP://<IP-OF-YOUR-SERVER>
+
+HTTP://<NAME-OF-YOUR-SERVER>
+
+VIEW DEFAULT WEBSITE FROM WIN7 MACHINE
+
+CHANGE DEFAULT WEBSITE TO ‘HELLO WORLD’
+
+ADD A HEADER TO YOUR WEBSITE WITH THIS CODE
+
+```
+<H1>Heading</H1>
+```
+
+DISKMGMT.MSC VIEW HARD DRIVE INFORMATION
+
+COMPMGMT.MSC VIEW COMPUTER MANAGEMENT OVERVIEW
+
+SERVICES.MSC VIEW RUNNING SERVICES ON YOUR COMPUTER
+
+EVENTVWR.MSC VIEW EVENT VIEW LOGS (GO TO WINDOWS => SYSTEM LOG)
+
+TASKMGR
+
+RESMON
+
+PERFMON
+
+PERFMON WITH DCS OUTPUT TO FILE WHICH CAN BE PLAYED BACK LATER
+
+GROUP POLICY : SET PASSWORD POLICY
+
+GROUP POLICY : SET ACCOUNT LOCKOUT POLICY
+
+whatismyip : FIND OUT THE IP ADDRESS OF YOUR PUBLIC ROUTER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# MTA Server Notes Flow 1
+
+MTA 98-365 Server Admin Fundamentals
+
+
+AD LDS		Lightweight Directory Services : store data and 
+		replicate it around your domain or forest
+
+AD RMS		Rights Management : Restrict who can email/print/
+			save Office 365 documents
+
+WDS		Windows Deployment Services ==> STORE WINDOWS IMAGES
+			ISO	DVD
+			WIM	Windows Image ==> 
+			
+				boot.wim	WinPE :
+						Preinstallation
+						Environment : screens
+						when installing
+						windows
+
+				install.wim	Actual Windows 							install
+
+				custom.wim	
+		WDS : create share, deploy WIM images from this share
+		
+		Client : PXE Network Boot (hit F12 key to trigger)
+
+WSUS		Windows Server Update Services
+			Download and TEST UPDATES before ROLLOUT
+
+```
+
+Other features
+
+```
+Bitlocker	
+
+	Chip required : TPM 1.2  : store encryption keys				Full drive encryption but MUST HAVE 100MB UNENCRYPTED TO 
+			BOOT COMPUTER
+
+	|--100mb plain text---|----rest bitlocker, secure--------|			<< 'sign boot files' >>
+
+	     SECURE BOOT	
+
+
+
+
+
+Cluster		
+	Pair of computers to provide REDUNDANCY : if one fails the
+	other takes over
+		Active-active : both live
+		Active-passive : one live
+		
+
+
+
+
+NLB Network Load Balancing
+						<<server farm>>
+
+					---->	ServerA
+	client	-----	NLB : shares	---->	ServerB
+			out requests	---->	ServerC
+			equally
+
+
+
+
+
+
+
+
+DNS	maps name to IP   name is full name (FQDN ie 							server.domain.com)
+WINS	map simple 'hostname' to IP  myPC <==> 1.2.3.4
+	hosts file
+	lmhosts file
+
+		C:\\Windows\\System32\\drivers\\etc
+
+Server core : COMMAND LINE ONLY (does have notepad!!)
+	shutdown -s                -t  3600     (seconds)
+		 -r  restart     
+	netdom	/renamecomputer
+		also join domain
+	netsh   set IP 
+
+		netsh interface ip set address
+			name="ethernet" source=static
+			address=10.1.1.2 mask=255.255.255.0
+		set DNS server IP
+			
+
+Requirements
+	1.4Ghz, 512MB, 32GB 	2008R2
+	1.4Ghz, 512MB, 32GB	2016  
+
+	Note : 512MB  for core
+	       2GB    for desktop servers with GUI
+
+Image
+
+	SID	Unique 'security ID' for all objects
+
+	Sysprep	PREPARE COMPUTER FOR IMAGING
+
+		/generalise	remove SIDS from computer
+		/oobe		out of box experience 
+					
+		
+
+Answer File
+
+	Deployment ==> AUTO SETUP OF COMPUTERS
+
+		Raw ISO (default install) 		
+			+ Answer File ==> answer all questions
+		SIM : System Image Manager ==> CREATE ANSWER FILES					CALLED 
+
+				autounattend.xml	
+		
+
+Licensing
+
+	OEM	Original Equipment Manufacture : licence is tied
+			to the hardware
+	Retail	Shop purchase : you own the licence, transferable
+
+	Volume	One key for many computers
+
+		KMS Key management Server
+			Larger companies : run your own server
+			to manage licences
+
+		MAK Buy one key with x activations in advance eg 1000
+			computers
+
+	SLMGR
+		/ato	activate online
+		/ipk	install product key
+		/dli	display license info
+		/dlv	                verbose
+		/rearm	extend a trial
+
+	CAL Client Access Licence
+
+		grant access to a server eg Remote Desktop 
+			(Terminal Services)
+			((MSTSC))
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Networking Flow 3 (Win 10 Networking)
 
 Networking
@@ -6022,11 +6196,5 @@ TWO WAYS TODAY TO PRODUCE HASHES
 
 			MYFAVPASSWORD ==> HASH AND STORE XLJASDFSA;LKJFDAS
 ```
-
-
-
-
-
-
 
 

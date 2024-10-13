@@ -20,6 +20,11 @@
 	- [javasccript](#javasccript)
 	- [javasccript appendix](#javasccript-appendix)
 	- [random](#random-3)
+	- [commercial avaition](#commercial-avaition)
+	- [space companies](#space-companies)
+	- [cars](#cars)
+	- [chips](#chips)
+	- [shortcuts mac](#shortcuts-mac)
 
 ## streaming
 
@@ -1576,3 +1581,63 @@ security.txt at root of website says if vulnerability reporting is in scope, and
 humans.txt at root of website
 
 ```
+
+
+
+
+## commercial avaition
+
+delta airlines
+
+
+## space companies
+
+axiom space - houston - space station
+
+trans astra - mine water from asteriod
+
+astro forge - mine asteroid
+
+
+
+## cars
+
+ip ingress protection
+
+ip6 complete protection against dust over time
+
+ip7 water resistant for short periods
+
+ ## chips
+
+silicon
+
+tsmc taiwan semiconductor manufacturing company
+
+duv deep ultra violet gives precision down to the atom
+
+euv extreme ultra violet lithography down to the atom - has only one company - asml - has 180 million dollar machines to etch smallest chips
+
+300mm chip wafer has 10 billion chips
+
+7nm chip has 5 companies - micron, skymix, samsung, intel, tsmc
+
+lithography has 3 companies - asml, nikon, canon
+
+asml super small use of silicon in chips
+
+fabless companies design chips - qualcomm nvidia
+
+5nm chips has 2 companies - tsmc and samsung
+
+3nm chip race has 2 companies - tsmc and samsung
+
+silicon wafers in a grid in layers - each layer printed using lithography
+
+lithography - etching chips using ?light? - 50 billion transistors on one chip
+
+28nm chips in cars up to 40nm
+
+## shortcuts mac
+
+command-shift-minus shows hidden files

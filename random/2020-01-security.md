@@ -4,6 +4,7 @@
 
 - [infrastructure](#infrastructure)
 	- [contents](#contents)
+	- [a plus labs](#a-plus-labs)
 	- [Encryption - Data In Transit](#encryption---data-in-transit)
 	- [Active Directory](#active-directory)
 	- [Encryption](#encryption)
@@ -159,7 +160,8 @@
 			- [SESSION REPLAY](#session-replay)
 	- [infrastructure random terms](#infrastructure-random-terms)
 	- [wifi](#wifi-1)
-	- [network necurity](#network-necurity)
+	- [network security](#network-security-1)
+
 
 
 
@@ -3784,7 +3786,7 @@ GAMING : PORT SETTINGS
 
 
 
-## network necurity 
+## network security 
 
 ```
 SLE Single Loss Expectancy

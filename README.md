@@ -10,6 +10,7 @@ This is a repository of tech notes on a variety of topics
   - [Git](#git)
   - [Shell Scripting](#shell-scripting)
   - [Programming](#programming)
+  - [ai programming](#ai-programming)
   - [Infrastructure](#infrastructure)
   - [cyber](#cyber)
   - [database](#database)
@@ -39,6 +40,10 @@ websites deployed are all listed here
 ## Programming
 
 [Programming](programming)
+
+## ai programming
+
+[ai programming](/random/2024-10-ai-programming.md)
 
 ## Infrastructure
 

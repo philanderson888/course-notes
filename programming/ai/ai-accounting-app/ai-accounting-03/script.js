@@ -1,16 +1,38 @@
 let combinedData = [];
 
 // get your own key from google cloud platform at https://console.cloud.google.com/apis/credentials
-const googleSheetsApiKey = 'getYourOwnKey';
+let googleSheetsApiKey = 'getYourOwnKey';
+
+getApiKey = () => {
+    console.log(' ');
+    console.log('getApiKey()...');
+    console.log(' ');
+    fetch('api-key.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log(' ');
+        console.log('data...');
+        console.log(data);
+        console.log(' ');
+        console.log('data.apiKey...');
+        console.log(data.googleSheetsApiKey);
+        console.log(' ');
+        googleSheetsApiKey = data.googleSheetsApiKey;
+        console.log('loadGoogleSheetData()...');
+        loadGoogleSheetDataApiv4();   
+        loadGoogleSheetDataApiv3();
+    })
+    .catch(error => console.error('Error loading data:', error));
+}
 
 // Automatically load the data when the app launches
 window.addEventListener('DOMContentLoaded', () => {
-
     console.log(' ');
     console.log('DOMContentLoaded...');
-    console.log('loadGoogleSheetData()...');
-    loadGoogleSheetDataApiv4();   
-    loadGoogleSheetDataApiv3();
+    console.log(' ');
+    console.log('first get the api key...');
+    console.log('second load the data...');
+    getApiKey();
 });
 
 function loadGoogleSheetDataApiv3() {

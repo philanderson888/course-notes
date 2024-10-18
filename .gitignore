@@ -3,3 +3,4 @@ launch.json
 out/
 
 .env
+api-key.json

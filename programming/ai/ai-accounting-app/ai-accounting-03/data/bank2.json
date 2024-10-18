@@ -1,0 +1,16 @@
+[
+    {
+        "date": "2024-01-01",
+        "category": "Food",
+        "payee": "Supermarket",
+        "amount": -50.00,
+        "description": "Groceries"
+    },
+    {
+        "date": "2024-01-15",
+        "category": "Salary",
+        "payee": "Company ABC",
+        "amount": 2000.00,
+        "description": "Monthly salary"
+    }
+]

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Accounting App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Accounting Application</h1>
+
+    <div id="filter-section">
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" value="2020-01-01">
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" value="2020-08-01">
+        <button id="filter-data">Filter</button>
+    </div>
+
+    <div id="report-section">
+        <h2>Combined Income and Expense Report</h2>
+        <h3>Using Google Sheets API version 4</h3>
+        <table id="report-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Category</th>
+                    <th>Payee</th>
+                    <th>Amount</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h2>Category Summary</h2>
+    <table id="summary-table" border="1">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Total Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Summary rows will be inserted here by JavaScript -->
+    </tbody>
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h2>Expenditure by Category Bar Chart</h2>
+    <div id="categoryChartContainer">
+        <canvas id="categoryChart" width="400" height="200"></canvas>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h2>Expenditure by Category Pie Chart</h2>
+    <div id="categoryPieChartContainer">
+        <canvas id="categoryPieChart"></canvas>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    
+    <div id="report-section-2">
+        <h3>Using Google Sheets API version 3</h3>
+        <div id="json">json here</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

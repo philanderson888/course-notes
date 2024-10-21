@@ -10,6 +10,8 @@
   - [new api](#new-api)
   - [working example on code pen using google sheets api version 3](#working-example-on-code-pen-using-google-sheets-api-version-3)
   - [working example on code pen using google sheets api version 3 and 4](#working-example-on-code-pen-using-google-sheets-api-version-3-and-4)
+  - [ai accounting app 04 - categorise data](#ai-accounting-app-04---categorise-data)
+  - [ai accounting app 05 - add bar chart of summary data](#ai-accounting-app-05---add-bar-chart-of-summary-data)
 
 ## introduction
 
@@ -374,4 +376,21 @@ function myItems(jsonString){
 
 https://codepen.io/philanderson888/pen/RwXgZav
 
+
+## ai accounting app 04 - categorise data
+
+next agenda item is to categorise incoming data and tabulate and display the totals as per each category
+
+this is now complete and working 
+
+## ai accounting app 05 - add bar chart of summary data
+
+using chat gpt to add two charts
+
+- pie chart
+- bar chart
+
+of the summary data
+
+all works and looks great!!!
 

@@ -45,6 +45,9 @@ websites deployed are all listed here
 
 [ai programming](/random/2024-10-ai-programming.md)
 
+[accounting app - move to javascript repository as permanent home](/programming/ai/ai-accounting-app/)
+- version 06 adds both bar chart and pie chart and the ability to filter by 2 dates, and the charts update accordingly
+
 ## Infrastructure
 
 [Infrastructure](infrastructure)

@@ -66,6 +66,9 @@ websites deployed are all listed here
 
 - version 08 adds ability to amend css to highlight chosen button and also to amend the headings to show the data period under review
 
+- version 09 
+  - removes salary from the expenditure
+  - removes transfers
 
 ## Infrastructure
 

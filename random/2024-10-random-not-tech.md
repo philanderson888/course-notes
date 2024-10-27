@@ -5,6 +5,7 @@
 - [202410 random not tech](#202410-random-not-tech)
   - [contents](#contents)
   - [Random](#random)
+  - [english dictionary](#english-dictionary)
   - [Sport](#sport)
     - [Football](#football)
     - [Politics](#politics)
@@ -50,6 +51,35 @@ Hera
 Wars By Date
 1973 Israel vs Syria - 100 Israel tanks vs 12000 Syria tanks
 ```
+
+## english dictionary
+
+metaphor - picture
+
+personification
+
+assonance repeats vowel sounds
+
+colloquial slang
+
+euphamism picture
+
+idiom common phrase
+
+allegory story
+
+didactic with a teaching or moral flavour
+
+pathos sad
+
+oxymoron opposites
+
+juxtaposed contrasting ideas
+
+antithesis opposite
+
+homophone same sound different meaning eg their there
+
 
 
 ## Sport

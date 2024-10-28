@@ -12,6 +12,8 @@
   - [working example on code pen using google sheets api version 3 and 4](#working-example-on-code-pen-using-google-sheets-api-version-3-and-4)
   - [ai accounting app 04 - categorise data](#ai-accounting-app-04---categorise-data)
   - [ai accounting app 05 - add bar chart of summary data](#ai-accounting-app-05---add-bar-chart-of-summary-data)
+  - [ai accounting app 09](#ai-accounting-app-09)
+    - [add a button for last 7 days](#add-a-button-for-last-7-days)
 
 ## introduction
 
@@ -394,3 +396,18 @@ of the summary data
 
 all works and looks great!!!
 
+## ai accounting app 09
+
+add buttons to filter by date
+
+ensure active button is blue
+
+remove reporting for any entries where numerical amount is zero.
+
+remove reporting for categories 'Transfer' and 'Salary' and 'Initial Balance'
+
+adjust css for bar chart width
+
+adjust css for pie chart width
+
+### add a button for last 7 days

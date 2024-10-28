@@ -265,7 +265,9 @@ function displayCategoryBarChart(sortedCategories) {
                     text: 'Expenditure'
                 }
             }
-        }
+        },
+        responsive: true, 
+        maintainAspectRatio: false,
     };
 
     window.categoryChart = new Chart(ctx, {
@@ -425,19 +427,10 @@ function formatDate(date) {
 //
 // --------------------------------------------------------------------------
 
-function updateCategoryChart(data) {
-    const categoryTotals = {};
 
-    data.forEach(entry => {
-        if (categoryTotals[entry.category]) {
-            categoryTotals[entry.category] += -1 * entry.amount;
-        } else {
-            categoryTotals[entry.category] = -1 * entry.amount;
-        }
-    });
-
-    const categories = Object.keys(categoryTotals);
-    const totals = Object.values(categoryTotals);
+function updateCategoryBarChart(sortedCategories) {
+    const categories = sortedCategories.map(([category]) => category);
+    const totals = sortedCategories.map(([, total]) => total);
 
     const chartData = {
         labels: categories,
@@ -478,19 +471,9 @@ function updateCategoryChart(data) {
     window.categoryChart.update();    
 }
 
-function updateCategoryPieChart(data) {
-    const categoryTotals = {};
-
-    data.forEach(entry => {
-        if (categoryTotals[entry.category]) {
-            categoryTotals[entry.category] += -1 * entry.amount;
-        } else {
-            categoryTotals[entry.category] = -1 * entry.amount;
-        }
-    });
-
-    const categories = Object.keys(categoryTotals);
-    const totals = Object.values(categoryTotals);
+function updateCategoryPieChart(sortedCategories) {
+    const categories = sortedCategories.map(([category]) => category);
+    const totals = sortedCategories.map(([, total]) => total);
 
     const chartData = {
         labels: categories,

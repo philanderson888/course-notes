@@ -16,6 +16,7 @@
   - [ai accounting app 10](#ai-accounting-app-10)
   - [ai accounting app 11](#ai-accounting-app-11)
   - [ai accounting app 12](#ai-accounting-app-12)
+  - [ai accounting app 13](#ai-accounting-app-13)
 
 ## introduction
 
@@ -443,4 +444,12 @@ combine other categories as well to provide clarity
 round to the nearest £100
 
 eliminate values which fall to zero after rounding
+
+## ai accounting app 13
+
+create a sub table which exposes the sub categories inside a consolidated item eg Charity
+
+create another sub table for Mortgage and Utility items eg Electricity
+
+
 

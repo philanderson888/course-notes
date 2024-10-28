@@ -206,9 +206,43 @@ function displayCategorySummary(data) {
         }
     });
 
-    // Convert the categoryTotals object to an array and sort it by value in descending order
-    sortedCategories = Object.entries(categoryTotals)
-        .map(([category, total]) => [category, Math.round(total / 5) * 5]) // Round to nearest 5
+    // Consolidate categories
+    const categoryTotalsConsolidated = {};
+    for (const [category, total] of Object.entries(categoryTotals)) {
+        if (category.includes('Charity')) {
+            categoryTotalsConsolidated['Charity'] = (categoryTotalsConsolidated['Charity'] || 0) + total;
+        } else if (category.includes('Acting school')) {
+            categoryTotalsConsolidated['Kids'] = (categoryTotalsConsolidated['Kids'] || 0) + total;
+        } else if (category.includes('Girls')) {
+            categoryTotalsConsolidated['Kids'] = (categoryTotalsConsolidated['Kids'] || 0) + total;
+        } else if (category.includes('Kids')) {
+            categoryTotalsConsolidated['Kids'] = (categoryTotalsConsolidated['Kids'] || 0) + total;
+        } else if (category.includes('Travel')) {
+            categoryTotalsConsolidated['Travel'] = (categoryTotalsConsolidated['Travel'] || 0) + total;
+        } else if (category.includes('Telecoms')) {
+            categoryTotalsConsolidated['Mortgage and Utilities'] = (categoryTotalsConsolidated['Mortgage and Utilities'] || 0) + total;
+        } else if (category.includes('Utilities')) {
+            categoryTotalsConsolidated['Mortgage and Utilities'] = (categoryTotalsConsolidated['Mortgage and Utilities'] || 0) + total;
+        } else if (category.includes('Mortgage')) {
+            categoryTotalsConsolidated['Mortgage and Utilities'] = (categoryTotalsConsolidated['Mortgage and Utilities'] || 0) + total;
+        } else if (category.includes('Eating Out')) {
+            categoryTotalsConsolidated['Food'] = (categoryTotalsConsolidated['Food'] || 0) + total;
+        } else if (category.includes('Eating out')) {
+            categoryTotalsConsolidated['Food'] = (categoryTotalsConsolidated['Food'] || 0) + total;
+        } else if (category.includes('Holiday')) {
+            categoryTotalsConsolidated['Holiday'] = (categoryTotalsConsolidated['Holiday'] || 0) + total;
+        } else if (category.includes('Invest')) {
+            categoryTotalsConsolidated['Investments'] = (categoryTotalsConsolidated['Investments'] || 0) + total;
+        } else {
+            categoryTotalsConsolidated[category] = total;
+        }
+    }
+
+    // Convert the categoryTotals object to an array and sort it by value in descending order, filtering out zero values after rounding to the nearest 100
+    const roundingFactor = 100;
+    sortedCategories = Object.entries(categoryTotalsConsolidated)
+        .map(([category, total]) => [category, Math.round(total / roundingFactor) * roundingFactor])
+        .filter(([, roundedTotal]) => roundedTotal !== 0)
         .sort((a, b) => b[1] - a[1]);
 
     // Display sorted data in the table

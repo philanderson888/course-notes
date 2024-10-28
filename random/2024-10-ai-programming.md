@@ -436,3 +436,11 @@ update pie chart also to display items in order of descending category value
 
 add a total underneath the category table 
 
+combine charity categories into one consolidated charity category
+
+combine other categories as well to provide clarity
+
+round to the nearest £100
+
+eliminate values which fall to zero after rounding
+

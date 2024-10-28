@@ -109,44 +109,8 @@ getApiKey = () => {
     .then(data => {
         googleSheetsApiKey = data.googleSheetsApiKey;
         loadGoogleSheetDataApiv4();   
-        loadGoogleSheetDataApiv3();
     })
     .catch(error => console.error('Error loading data:', error));
-}
-
-function loadGoogleSheetDataApiv3() {
-    var id = '1A7-9gAZbPcMF7ZWu25AxLL3RwhL8iRA8_TO9o_LzDuI';
-    var gid = '1953160326';
-    var url = 'https://docs.google.com/spreadsheets/d/'+id+'/gviz/tq?tqx=out:json&tq&gid='+gid;
-    
-    fetch(url)
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("json").innerHTML = myItems(data.slice(47, -2));
-        });
-        
-    function myItems(jsonString){
-        var json = JSON.parse(jsonString);
-        var table = '<table><tr>'
-        json.table.cols.forEach(column => table += '<th>' + column.label + '</th>')
-        table += '</tr>'
-
-        let counter = 0;
-        json.table.rows.forEach(row => {
-            counter++;
-            if (counter < 5) {
-                table += '<tr>'
-                row.c.forEach(cell => {
-                    try { var valeur = cell.f ? cell.f : cell.v }
-                    catch (e) { var valeur = '' }
-                    table += '<td>' + valeur + '</td>'
-                });
-                table += '</tr>';
-            }
-        });
-        table += '</table>';
-        return table;
-    }
 }
 
 function loadGoogleSheetDataApiv4() {
@@ -168,7 +132,12 @@ function loadGoogleSheetDataApiv4() {
 
 function parseGoogleSheetData(data) {
     const headers = data.values[0];
-    combinedData = data.values.slice(1).map(row => {
+
+    const filterByCategory = data.values.slice(1).filter(entry => entry[headers.indexOf('Category')] !== 'Transfers' && entry[headers.indexOf('Category')] !== 'Transfer' && entry[headers.indexOf('Category')] !== 'Salary' && entry[headers.indexOf('Category')] !== 'Initial Balance');
+
+    const filterByCategoryAndAmount = filterByCategory.filter(entry => entry[headers.indexOf('Amount')] !== '0.00');
+
+    combinedData = filterByCategoryAndAmount.map(row => {
         return {
             date: row[headers.indexOf('Date')],
             category: row[headers.indexOf('Category')],
@@ -336,15 +305,9 @@ function displayCategoryPieChart(data) {
         }]
     };
 
-    const options = {
-        responsive: false, 
-        maintainAspectRatio: false,
-    };
-
     window.categoryPieChart = new Chart(ctx, {
         type: 'pie',
         data: chartData,
-        options: options
     });
     
 }
@@ -356,19 +319,20 @@ function displayCategoryPieChart(data) {
 // --------------------------------------------------------------------------
 
 function filterData() {
+
     const startDate = new Date(document.getElementById('start-date').value);
     const endDate = new Date(document.getElementById('end-date').value);
 
-    const filteredData = combinedData.filter(entry => {
+    const filterByDateAndCategory = combinedData.filter(entry => {
         const [day, month, year] = entry.date.split('/');
         const entryDateUK = new Date(`${month}/${day}/${year}`);
         return entryDateUK >= startDate && entryDateUK <= endDate;
     });
 
-    displayData(filteredData);
-    displayCategorySummary(filteredData);
-    updateCategoryChart(filteredData);
-    updateCategoryPieChart(filteredData);
+    displayData(filterByDateAndCategory);
+    displayCategorySummary(filterByDateAndCategory);
+    updateCategoryChart(filterByDateAndCategory);
+    updateCategoryPieChart(filterByDateAndCategory);
 }
 
 function filterByYear(year) {

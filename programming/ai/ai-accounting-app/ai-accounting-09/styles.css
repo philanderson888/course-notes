@@ -23,6 +23,13 @@ th, td {
     text-align: left;
 }
 
+#categoryBarChartContainer {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
 #categoryPieChartContainer {
-    width: 50%;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 3%;
 }

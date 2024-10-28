@@ -15,6 +15,7 @@
   - [ai accounting app 09](#ai-accounting-app-09)
   - [ai accounting app 10](#ai-accounting-app-10)
   - [ai accounting app 11](#ai-accounting-app-11)
+  - [ai accounting app 12](#ai-accounting-app-12)
 
 ## introduction
 
@@ -430,4 +431,8 @@ add order categories by descending value
 update bar chart also to display items in order of descending category value
 
 update pie chart also to display items in order of descending category value
+
+## ai accounting app 12
+
+add a total underneath the category table 
 

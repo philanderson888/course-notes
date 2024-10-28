@@ -13,7 +13,7 @@
   - [ai accounting app 04 - categorise data](#ai-accounting-app-04---categorise-data)
   - [ai accounting app 05 - add bar chart of summary data](#ai-accounting-app-05---add-bar-chart-of-summary-data)
   - [ai accounting app 09](#ai-accounting-app-09)
-    - [add a button for last 7 days](#add-a-button-for-last-7-days)
+  - [ai accounting app 10](#ai-accounting-app-10)
 
 ## introduction
 
@@ -410,4 +410,16 @@ adjust css for bar chart width
 
 adjust css for pie chart width
 
-### add a button for last 7 days
+## ai accounting app 10
+
+add a button for last 7 days
+
+add a button for last 30 days
+
+add a button for last 90 days
+
+add a button for last 180 days
+
+add a button for last 365 days
+
+

@@ -14,6 +14,7 @@
   - [ai accounting app 05 - add bar chart of summary data](#ai-accounting-app-05---add-bar-chart-of-summary-data)
   - [ai accounting app 09](#ai-accounting-app-09)
   - [ai accounting app 10](#ai-accounting-app-10)
+  - [ai accounting app 11](#ai-accounting-app-11)
 
 ## introduction
 
@@ -422,4 +423,11 @@ add a button for last 180 days
 
 add a button for last 365 days
 
+## ai accounting app 11
+
+add order categories by descending value
+
+update bar chart also to display items in order of descending category value
+
+update pie chart also to display items in order of descending category value
 

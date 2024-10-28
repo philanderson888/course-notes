@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Accounting App</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .active-button {
+            background-color: #007BFF;
+            color: white;
+            border: 2px solid #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Accounting Application</h1>
+
+    <div id="filter-section">
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" value="2020-01-01">
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" value="2022-08-01">
+        <button id="filter-data">Filter</button>
+    </div>
+
+    <div class="filter-buttons-row">
+
+        <div id="year-buttons">
+            <button id="show-2022">Show 2022</button>
+            <button id="show-2023">Show 2023</button>
+            <button id="show-2024">Show 2024</button>
+        </div>   
+        
+        <div id="month-buttons">
+            <button id="show-jan-2024">January</button>
+            <button id="show-feb-2024">February</button>
+            <button id="show-mar-2024">March</button>
+            <button id="show-apr-2024">April</button>
+            <button id="show-may-2024">May</button>
+            <button id="show-jun-2024">June</button>
+            <button id="show-jul-2024">July</button>
+            <button id="show-aug-2024">August</button>
+            <button id="show-sep-2024">September</button>
+            <button id="show-oct-2024">October</button>
+            <button id="show-nov-2024">November</button>
+            <button id="show-dec-2024">December</button>
+        </div>
+
+        <div id="recent-buttons">
+            <button id="last-7-days">Last 7 Days</button>
+            <button id="last-30-days">Last 30 Days</button>
+            <button id="last-90-days">Last 90 Days</button>
+            <button id="last-180-days">Last 180 Days</button>
+            <button id="last-365-days">Last 365 Days</button>
+        </div>     
+
+    </div>
+
+    <div id="report-section">
+        <h2 id="report-heading">Combined Income and Expense Report</h2>
+        <h3>Using Google Sheets API version 4</h3>
+        <table id="report-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Category</th>
+                    <th>Payee</th>
+                    <th>Amount</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <h2 id="summary-heading">Category Summary</h2>
+    <table id="summary-table" border="1">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Total Amount</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2 id="bar-chart-heading">Expenditure by Category Bar Chart</h2>
+    <div id="categoryBarChartContainer">
+        <canvas id="categoryChart" width="400" height="200"></canvas>
+    </div>
+
+    <h2 id="pie-chart-heading">Expenditure by Category Pie Chart</h2>
+    <div id="categoryPieChartContainer">
+        <canvas id="categoryPieChart"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

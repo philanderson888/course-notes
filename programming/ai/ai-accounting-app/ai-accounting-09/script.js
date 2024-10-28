@@ -6,10 +6,9 @@ let googleSheetsApiKey = 'getYourOwnKey';
 const categoryChart = document.getElementById('categoryChart');
 const categoryPieChart = document.getElementById('categoryPieChart');
 
-document.getElementById('filter-data').addEventListener('click', filterData);
 document.getElementById('filter-data').addEventListener('click', () => {
     filterData();
-    updateActiveButton(null);
+    updateActiveButton('filter-data');
     updateHeadings('Custom', document.getElementById('start-date').value, document.getElementById('end-date').value);
 });
 

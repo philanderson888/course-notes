@@ -33,3 +33,8 @@ th, td {
     margin-left: 10%;
     margin-top: 3%;
 }
+
+.active-filter {
+    background-color: blue;
+    color: white;
+}

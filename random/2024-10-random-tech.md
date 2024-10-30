@@ -5,10 +5,13 @@
   - [202410 github notes](#202410-github-notes)
   - [202410 github code](#202410-github-code)
 - [202410 web programming](#202410-web-programming)
-  - [202410 html](#202410-html)
   - [202410 css](#202410-css)
   - [202410 javascript](#202410-javascript)
+  - [202410 web terms](#202410-web-terms)
+  - [node programming](#node-programming)
 - [202410 programming](#202410-programming)
+  - [202410 programming oop](#202410-programming-oop)
+  - [202410 mongo](#202410-mongo)
   - [202410 programming tools](#202410-programming-tools)
 - [202410 graphics](#202410-graphics)
 - [202410 ai](#202410-ai)
@@ -18,11 +21,14 @@
   - [202410 p5js images](#202410-p5js-images)
   - [202410 coding school](#202410-coding-school)
   - [google deployment using prodspec and](#google-deployment-using-prodspec-and)
-  - [202410 bash](#202410-bash-1)
+  - [202410 scripting bash](#202410-scripting-bash)
+  - [202410 scripting - environment variables](#202410-scripting---environment-variables)
+  - [202410 scripting crontab schedule jobs](#202410-scripting-crontab-schedule-jobs)
+  - [202410 programming vi editor](#202410-programming-vi-editor)
   - [202410 mac os](#202410-mac-os)
   - [202410 streaming](#202410-streaming)
   - [202410 powershell](#202410-powershell)
-- [202410 random tech](#202410-random-tech)
+  - [202410 c sharp](#202410-c-sharp)
 - [202410 domains](#202410-domains)
 - [202410 websites](#202410-websites)
 
@@ -47,23 +53,41 @@ github javascript
 
 ## 202410 web programming
 
-### 202410 html
-
-html form value is a string
-
-html valueAsDate
-
-html valueAsNumber
-
-javascript date.valueOf() converts date string to unix time
-
 ### 202410 css
 
 defensivecss.dev
 
 css margin collapse combines top and bottom margins into one which equals the largest of the two
 
+css selector has attribute and value 
+
+display block none 
+
+visibility hidden visible still is in dom just not visible
+
+parents up to root element
+
+parents until element
+
+find element 
+
+next sibling
+
+next element if it matches the given element type
+
+box model has width then add on padding border and margin
+
+outline does not add to css width
+
 ### 202410 javascript
+
+form value is a string
+
+valueAsDate
+
+valueAsNumber
+
+date.valueOf() converts date string to unix time
 
 padstart
 
@@ -158,6 +182,216 @@ deviceorientation is alpha beta gamma position
 
 dtd frameset contains frames, strict like xml, transitional has older html
 
+encode/decodeURI changes characters to ascii codes
+
+entity is a replacement code for a reserved character eg greater than symbol replaced by &gt; 
+
+downloads.onChanged event when a javascript download starts, is in progress, or ends
+
+file api to read/write files
+
+file list loads multiple files
+
+file reader reads file into ram
+
+form label autocomplete autofocus action name novalidate pattern placeholder required step
+
+form method get creates ?field=value
+
+form method post sends data in body
+
+form formaction overrides default form action just for this one button
+
+form.submit() method submits the form programatically
+
+form target indicates where the response is to be sent to after the form has been submitted -blank -self -parent -top
+
+fraction display <sup>1</sup>/<sub>10</sub>
+
+math.js supports fractions with math.fraction('1/3');
+
+hgroup multiple header items
+
+history forward back go length
+
+canvas globalcompositeoperation provides layering
+
+canvas moveTo jumps without creating line
+
+ismap part of larger image
+
+address link state link visited hover active
+
+pageX/Y is pixel coordinate of mouse when clicked
+
+polyfill translates new feature back to vanilla javascript
+
+link preload will prioritise the fetch, not actually fetch it before the user clicks the link
+
+removeChild  using child.parentNode.removeChild()
+
+string replace
+
+table rowspan="2"
+
+orientationchange event
+
+touch start move end 
+
+touch list of points of contact
+
+screen availHeight Width is visible pixels, minus any taskbar etc supplied by the operating system
+
+shiftKey true when shift was held down
+
+serialize form data to a string
+
+serializearray form data to json array [ {}, {} ]
+
+event dispatcher can be used to manually trigger a given event
+
+script async with callback
+
+script defer until page loaded
+
+checkbox.checked
+
+input disabled
+
+input value 
+
+canvas font, stoke text, text align, transform, translate, move to, line to, stroke, fill, fill style, fill text, stroke style, line width, stroke text
+
+worker post message to communicate with it
+
+worker on message triggered when message is received  onmessage = event => event.data
+
+worker terminate
+
+window location is current url and has href protocol host hostname port pathway search hash
+
+window location search is part after question mark ie query string
+
+pageXYOffset is x y pixels page has scrolled down from starting position
+
+radio onClick checked name value and can both read the checked status and cause a box to be ticked using the 'checked' attribute
+
+typeof 
+
+clear interval after set interval
+
+javascript numbers are 64 bit
+
+prototype can replace default field or function with another
+
+### 202410 web terms
+
+zod types
+
+cloudflare durable session
+
+cloudflare d1 sls
+
+cloudflare r2 is no sql
+
+cloudflare edge nodes allow the user to access data far faster
+
+cloudflare edge nodes even run javascript
+
+orm object relational mapper 
+
+codebase.show/projects/realworld
+
+phoenix website with database getting started https://code.likeagirl.io/how-to-install-elixir-and-phoenix-on-mac-dc21f8ce5a15 
+
+phoenix api https://medium.com/@fredjourney/how-to-build-a-phoenix-hello-world-rest-api-5fc9e3acf331
+
+uri is a string which identifies a resoource
+
+url is a string which identifies a resource and a method of getting it eg http
+
+urn is a string which identifies a resource by name in a particular name space isbn number or phone number
+
+ascii literal eg "\u0041"
+
+big int can hold arbitrarily large numbers
+
+javascript primites are number string boolean symbols null undefined
+
+window scroll and scroll to will move the window by given number of pixels
+
+window scroll by will scroll down a further x pixels
+
+robots.txt gives instructions to search crawlers
+
+security.txt who to report vulnerabilites to 
+
+humans.txt is the people who have worked on this project
+
+### node programming
+
+npm cache will store all http data
+
+response status eg 200
+
+response json gets the response as json object
+
+response send 
+
+process add listener, event emitter
+
+process argv is array of arguments passed in when process was started
+
+process pid is process pid allocated by operating system at process startup
+
+node_env debug or production
+
+file system create read/write stream for file when sending - this sends the file as a stream of data rather than as a single file
+
+file system read file write file access stat
+
+file system stats is file is directory is socket sizes
+
+npm owner of module
+
+buffer byte length in bytes
+
+os cpus length is the number of cpu cores
+
+closure provides global access to the function and it executes immediately iife
+
+emitter in library 'events' with methods emit on once remove all listeners
+
+stream uses buffer data type 
+
+stream has methods read write duplex transform push end
+
+stream pipe will direct output to a given destination
+
+buffer is raw bits and bytes
+
+buffer alloc will create a buffer of a given size
+
+buffer to string
+
+buffer write
+
+repl read eval print loop can provide a live javascript environment if we just type the word 'node' in the command line
+
+std in out error is standard pipe for sending data in and out of a running program
+
+std in on resume
+
+path sep normalise dirname extname basename
+
+http request app base url ip hostname method originalurl params path query route
+
+http response download end json jsonp redirect render send sendfile sendstatus status
+
+socket emit sends message from one host to another over a given socket of ip:port
+
+source map gets original file back after minification
+
 ## 202410 programming
 
 viewport is visible area of web page eg mobile device.  viewport initial scale = 1
@@ -183,6 +417,67 @@ class nested static does not have access to parent class members
 constructor no-argument eg bike = new Bike()
 
 class Number has subclass byte integer double short long bigdecimal biginteger atomicinteger atomiclong
+
+event publisher notifies that event has taken place
+
+event subscriber is notified of the event
+
+execution stack is the 'stack'
+
+heap stores larger objects with pointers.  memory is reclaimed when no pointers exist to this object.
+
+polling requests data at intervals
+
+### 202410 programming oop
+
+final means a class cannot inherit from this class
+
+static does not need to be instantiated but is available across the whole class
+
+inner class does have access to parent variables
+
+non virtual member cannot be overridden
+
+static final is a constant eg PI
+
+struct cannot inherit
+
+### 202410 mongo
+
+```js
+mySchema=new MongooseSchema({})
+show dbs
+use db
+db.dropDatabase()
+show collections
+db.mytable.insert({})
+db.mytable.insert([{},{},{})
+db.mytable.find().pretty();
+db.mytable.update(ID,data)
+db.mytable.remove(ID)
+db.mytable.find({"a":"value"})
+db.mytable.findOne
+
+
+$or
+$gte
+$ne
+$lt
+
+.explain("executionStats")
+
+db.mytable.ensureIndex({"a":1})
+db.mytable.getIndexes()
+db.mytable.dropIndex({"a":1})
+.limit(10)
+.sort({"name":1})
+.sort({"name":-1})
+.find({"name":/.*Phil.*/})
+.aggregate({$group:{_id:"$field",total:{$sum:1}}})
+$sum
+$avg
+$max
+```
 
 ### 202410 programming tools
 
@@ -361,7 +656,7 @@ problem is that of M infrastructure providers with N service models producing M 
 
 prodspec creates an interim `intent model` which sits in the middle and creates `M + N` solutions to be maintained
 
-### 202410 bash
+### 202410 scripting bash
 
 cht.sh
 
@@ -430,7 +725,7 @@ top lists top processes
 exe does not exist in linux - any file can be executed if it has the 'execute' permission
 ```
 
-environment variables
+### 202410 scripting - environment variables
 
 ```bash
 printenv will show environment variables
@@ -442,14 +737,14 @@ export name=envaironmentvariable
 launchctl setenv field value permanently adds to environment variables
 ```
 
-crontab schedule jobs
+### 202410 scripting crontab schedule jobs
 
 ```bash
 sudo crontab -e schedules a cron job
 sudo crontab -e // i . (insert mode) // minutes hours days month dayoftheweek path-to-script.sh eg 00 08 * * * // :wq to save and exit
 ```
 
-vi editor
+### 202410 programming vi editor
 
 ```bash
 vi myFile.txt
@@ -525,31 +820,13 @@ get-vmgroup -name x
 
 add-vmgroupmember -vmgroup x -vm y
 
+### 202410 c sharp
 
+event delegate connects event to the method handler
 
+event handler += adds handler to existing handlers
 
-
-## 202410 random tech
-
-zod types
-
-cloudflare durable session
-
-cloudflare d1 sls
-
-cloudflare r2 is no sql
-
-cloudflare edge nodes allow the user to access data far faster
-
-cloudflare edge nodes even run javascript
-
-orm object relational mapper 
-
-codebase.show/projects/realworld
-
-phoenix website with database getting started https://code.likeagirl.io/how-to-install-elixir-and-phoenix-on-mac-dc21f8ce5a15 
-
-phoenix api https://medium.com/@fredjourney/how-to-build-a-phoenix-hello-world-rest-api-5fc9e3acf331
+HttpCookie
 
 ## 202410 domains
 

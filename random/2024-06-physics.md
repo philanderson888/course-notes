@@ -5,6 +5,7 @@
 - [physics](#physics)
   - [contents](#contents)
   - [physics](#physics-1)
+    - [202410 maths](#202410-maths)
 
 
 
@@ -112,3 +113,6 @@ boson has integer spin
 - gravitational force
 ```
 
+### 202410 maths
+
+maths floating point number is mantissa x radix to the power exponent

@@ -26,6 +26,10 @@
   - [housing](#housing)
   - [hollywood](#hollywood)
   - [actors](#actors)
+  - [202410 space](#202410-space)
+  - [202410 cars](#202410-cars)
+  - [202410 chips](#202410-chips)
+  - [202410 mac shortcuts](#202410-mac-shortcuts)
 
 
 
@@ -311,3 +315,40 @@ https://new.enfield.gov.uk/services/planning/elp-2039-reg-18-for-consultation-pl
 rachel zegler hunger games
 
 
+## 202410 space 
+
+axiom space station is worlds first commercial space station
+
+trans astra aims to decompose an asterioid into constituent components for use as space raw resources eg fuel
+
+astro forge company
+
+## 202410 cars
+
+ip ingress protection
+
+ip6 dust resistant
+
+ip7 water resistant for short periods
+
+## 202410 chips
+
+tsmc taiwan semiconductor manufacturing company
+
+duv deep ultra violet down to the atom
+
+euv extreme ultra violet lithography down to the atom - only one company in the world to do this - asml
+
+7nm chips produced by micron skymix samsung intel tsmc
+
+fabless designs chips for use by qualcomm and nvidia
+
+5nm chips produced by tsmc and samsung
+
+3nm chip race only tsmc and samsung
+
+lithography etches using light
+
+## 202410 mac shortcuts
+
+command shift dot show hidden files

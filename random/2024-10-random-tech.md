@@ -1,264 +1,39 @@
-## 202410 random tech
+## 202410 tech notes
 
-- [202410 random tech](#202410-random-tech)
-  - [202410 cyber](#202410-cyber)
-    - [202410 vulnerability scanning tools](#202410-vulnerability-scanning-tools)
-    - [202410 network scanning tools](#202410-network-scanning-tools)
-    - [202410 cyber government bodies](#202410-cyber-government-bodies)
-    - [202410 cyber corporate tools](#202410-cyber-corporate-tools)
-    - [202410 osint](#202410-osint)
-    - [202410 domain info](#202410-domain-info)
-    - [202410 password tools](#202410-password-tools)
-    - [202410 cyber attack](#202410-cyber-attack)
-    - [202410 cyber forensics](#202410-cyber-forensics)
-  - [202410 javascript](#202410-javascript)
-  - [202410 programming tools](#202410-programming-tools)
-  - [202410 graphics](#202410-graphics)
-  - [202410 programming](#202410-programming)
-  - [202410 links](#202410-links)
-  - [202410 domains](#202410-domains)
-  - [202410 live websites](#202410-live-websites)
-- [websites](#websites)
-- [202410 things to build and try out and learn](#202410-things-to-build-and-try-out-and-learn)
-  - [202410 family pc management](#202410-family-pc-management)
+- [202410 tech notes](#202410-tech-notes)
+- [202410 tech links](#202410-tech-links)
+  - [202410 github notes](#202410-github-notes)
+  - [202410 github code](#202410-github-code)
+- [202410 web programming](#202410-web-programming)
   - [202410 html](#202410-html)
-- [202410 css](#202410-css)
-- [202410 javascript](#202410-javascript-1)
+  - [202410 css](#202410-css)
+  - [202410 javascript](#202410-javascript)
+- [202410 programming](#202410-programming)
+  - [202410 programming tools](#202410-programming-tools)
+- [202410 graphics](#202410-graphics)
 - [202410 ai](#202410-ai)
 - [202410 nocode and low-code](#202410-nocode-and-low-code)
   - [202410 bash](#202410-bash)
   - [202410 roku](#202410-roku)
-  - [202410 social Media](#202410-social-media)
-  - [202410 generating images from code](#202410-generating-images-from-code)
+  - [202410 p5js images](#202410-p5js-images)
   - [202410 coding school](#202410-coding-school)
   - [google deployment using prodspec and](#google-deployment-using-prodspec-and)
   - [202410 bash](#202410-bash-1)
   - [202410 mac os](#202410-mac-os)
-  - [202410](#202410)
   - [202410 streaming](#202410-streaming)
   - [202410 powershell](#202410-powershell)
-- [windows infrastructure](#windows-infrastructure)
-- [windows encryption](#windows-encryption)
-- [202410 random tech](#202410-random-tech-1)
-  - [202410 random links](#202410-random-links)
+- [202410 random tech](#202410-random-tech)
+- [202410 domains](#202410-domains)
+- [202410 websites](#202410-websites)
 
-### 202410 cyber
 
-discovery scan of network
+## 202410 tech links
 
-scope of scan is ip range
+### 202410 github notes
 
-assessment scan of vulnerabilities
+github course notes
 
-dep data execution prevention cannot execute data as an executable
-
-tryhackme
-
-dirbuster can brute force attack your file system
-
-getent gets entries in sensitive linux system files
-
-tryhackme learn all about cyber in safe environment
-
-htttrack copy website
-
-oval open vulnerability assessment language
-
-scap security content automation protocol standardises xml security reporting
-
-xccdf xml security checklists
-
-cvss threat score
-
-ocsp online certificate status protocol manages certificates
-
-sigcheck file analyser
-
-openssl manage tls certificates
-
-certutil manage certificates
-
-ssl strip downgrades channel from https to http
-
-kali linux list of tools https://www.kali.org/tools/
-
-networkminer extracts key data from network traffic
-
-nvd national vulnerability database
-
-pci dss data security standards
-
-rum real user monitoring 
-
-#### 202410 vulnerability scanning tools
-
-openvas vulnerability assessment scanner also called greenbone
-
-nessus vulnerability scanner
-
-nikto does web app vulnerability scanning
-
-qualsys cloud scanning
-
-zap zed attack proxy scans websites
-
-#### 202410 network scanning tools
-
-nmap network mapper
-
-zenmap gui to nmap
-
-bro linux ids
-
-cacti network monitoring gui tool
-
-nagios network monitoring gui tools
-
-snort ids and ips sends data to sguil
-
-sguil network capture
-
-squert is front end to sguil network capture database
-
-hping can scan networks and launch attacks
-
-hping3 is scriptable
-
-angry ip scanner can aggressively scan any network
-
-qualsys is advanced corporate cyber protection tool
-
-nexpose is open source vulnerability scanning tool
-
-pineapple wifi scanning tool
-
-#### 202410 cyber government bodies
-
-cis center internet security
-
-nist national institute science technology
-
-#### 202410 cyber corporate tools
-
-siem security info event management allows large company to manage and analyse logs
-
-alien vault siem
-
-netcraft
-
-#### 202410 osint
-
-truthfinder scans dark web for activity eg your name email password
-
-theharvester scans sites for info
-
-pipl social media tracking tool
-
-peekyou people search
-
-flashpoint global osint alerting tool 
-
-#### 202410 domain info
-
-centralops.net domain info
-
-whois
-
-geoip 
-
-#### 202410 password tools
-
-mimikatz hack passwords
-
-#### 202410 cyber attack
-
-msf metasploit framework cyber vulnerabilities and attacks
-
-armitage cyber attack
-
-burp suite can scan and attack web apps, by port swigger
-
-meterpreter launches payloads in cyber attack
-
-veil create payload
-
-ettercap network attack tool eg man in middle
-
-loic network stress testing tool and dos attack tool
-
-beef browser exploitation framework
-
-exploit-db of payloads
-
-webgoat has fake vulnerabilities
-
-#### 202410 cyber forensics
-
-cellebrite can forensically analyse a phone
-
-ftk forensic toolkit analyse digital crime scene
-
-### 202410 javascript
-
-partykit collaboration software hosted on cloudflare
-
-hsts http strict transport security ensures https is enforced
-
-coords.accuracy altitude heading latitude longitude speed
-
-ctlKey true if control key was held down during the event
-
-devicemotion is acceleration in x y z direction and also rotationRate alpha beta gamma
-
-deviceorientation is alpha beta gamma position
-
-dtd frameset contains frames, strict like xml, transitional has older html
-
-### 202410 programming tools
-
-hadoop breaks large files into 128mb chunks
-
-### 202410 graphics 
-
-dp density per pixel
-
-### 202410 programming
-
-viewport is visible area of web page eg mobile device.  viewport initial scale = 1
-
-partial class combined into one class
-
-webgl games
-
-mvc model view controller talks to database
-
-soa service oriented architecture uses services to build an app
-
-rest api represational state transfer is standard web api standard
-
-angular 2010 google 
-
-declarative ui designs the ui first and lets the data follow using widgets and state
-
-xslt xsl extensible stylesheet language transformer transforms from one xml to another
-
-class nested static does not have access to parent class members
-
-constructor no-argument eg bike = new Bike()
-
-class Number has subclass byte integer double short long bigdecimal biginteger atomicinteger atomiclong
-
-### 202410 links
-
-Evangelism https://docs.google.com/document/d/1l_Hh81_yfsgw27UYBKAHq2pe8bj-FcGfUw4fdWxPoP0
-
-Scripture https://docs.google.com/document/d/1vL4WYy4k_0H_rwzGMMFVaX_NVDHlzFXDujnFz7wX84U
-
-Ancestry https://docs.google.com/document/d/11DuuW2Pma8KJU_RNxmyFnlCGFj1dLpFxQX3_pqxwrm8
-
-2023 Life Plan And Review, Goals - Google Docs
-
-2023 Finances - Google Docs
+### 202410 github code
 
 github cyber - https://github.com/philanderson888/course-notes/tree/master/cyber
 
@@ -266,76 +41,11 @@ github random https://github.com/philanderson888/course-notes/blob/master/cyber/
 
 github cloud https://github.com/philanderson888/course-notes/blob/master/cloud
 
-github science https://github.com/philanderson888/personal/issues/27
-
-github personal Issues https://github.com/philanderson888/personal/issues
-
-github personal https://github.com/philanderson888/personal
-
-github scriptures https://github.com/philanderson888/personal/blob/master/christian/scriptures.md
-
-github course notes
-
 github node
 
 github javascript
 
-### 202410 domains
-
-caniplaythisgame.org Forwards to philanderson.uk Squarespace
-
-christiansinpakistan.org https://www.jesusislord.uk/orphan-school
-
-effectivemethodsofevangelism.com  Forwards to philanderson.uk
-
-philanderson.co.uk
-
-philanderson.uk easily
-
-### 202410 live websites
-
-## websites
-
-https://philanderson.uk 
-
-https://philanderson881.wixsite.com/philanderson-uk another beautiful ready-made site, love this one!
-
-https://philanderson881.wixsite.com/mysite video editor website with good blog as well, like the fonts etc and simplity of this site - yes I like it!
-
-https://philanderson881.wixsite.com/mysite/blog  video editor website with good blog as well, like the fonts etc and simplity of this site - yes I like it!
-
-https://philanderson881.wixsite.com/my-site-1 another fine and simple ready-made website, good to go!!!
-
-https://philanderson881.wixsite.com/philanderson-uk-2 super basic skeleton, nothing here
-
-https://philanderson881.wixsite.com/ideaftest01 interesting shopping site - an ok start, but it's a bit old fashioned and lacking in some things ... maybe erase this one!!!
-
-https://philanderson881.wixsite.com/ot-enables-u one of the first sites I ever built!
-
-https://philanderson881.wixsite.com/consulting this was an interesting one for philanderson consulting !
-
-https://philanderson881.wixsite.com/philipandersoncv2 here is one I could turn into an online CV!!!
-
-## 202410 things to build and try out and learn
-
-login app using fastify jwt tokens and using prisma database https://medium.com/@atatijr/token-based-authentication-with-fastify-jwt-and-typescript-1fa5cccc63c5
-
-charity site all laid out here by relume https://www.relume.io/app/project/P1165402__peAGSDbVuz7RVw4O1P8I9YAv725o3xK4cbUdSDAlzY#mode=sitemap
-
-glide made a complete ai app for me with route checking - regular route joe https://routecheck-ir0u.glide.page/dl/d0a5f4
-
-### 202410 family pc management
-
-```powershell
-List physical drives , their size and type eg ssd or sata
-List logical drives, their size, filing system , and on which logical drive they reside
-Turn it into a service to run on launch
-For each logical drive list folders over a given size eg 10mb
-For each folder over that given size list any files over a given size eg 2MB
-Have the ability to exclude certain file types from the search
-Also have the ability to exclude carts in folders by name from the search over a given size
-```
-
+## 202410 web programming
 
 ### 202410 html
 
@@ -347,13 +57,13 @@ html valueAsNumber
 
 javascript date.valueOf() converts date string to unix time
 
-## 202410 css
+### 202410 css
 
 defensivecss.dev
 
 css margin collapse combines top and bottom margins into one which equals the largest of the two
 
-## 202410 javascript
+### 202410 javascript
 
 padstart
 
@@ -434,6 +144,53 @@ svelte does front end and sveltekit builds a full stack app talking to back end 
 
 npm-check-updates can upgrade package.json dependencies
 
+partykit collaboration software hosted on cloudflare
+
+hsts http strict transport security ensures https is enforced
+
+coords.accuracy altitude heading latitude longitude speed
+
+ctlKey true if control key was held down during the event
+
+devicemotion is acceleration in x y z direction and also rotationRate alpha beta gamma
+
+deviceorientation is alpha beta gamma position
+
+dtd frameset contains frames, strict like xml, transitional has older html
+
+## 202410 programming
+
+viewport is visible area of web page eg mobile device.  viewport initial scale = 1
+
+partial class combined into one class
+
+webgl games
+
+mvc model view controller talks to database
+
+soa service oriented architecture uses services to build an app
+
+rest api represational state transfer is standard web api standard
+
+angular 2010 google 
+
+declarative ui designs the ui first and lets the data follow using widgets and state
+
+xslt xsl extensible stylesheet language transformer transforms from one xml to another
+
+class nested static does not have access to parent class members
+
+constructor no-argument eg bike = new Bike()
+
+class Number has subclass byte integer double short long bigdecimal biginteger atomicinteger atomiclong
+
+### 202410 programming tools
+
+hadoop breaks large files into 128mb chunks
+
+## 202410 graphics 
+
+dp density per pixel
 
 ## 202410 ai
 
@@ -531,20 +288,10 @@ ottoverse.com free-hls-m3u8-test-urls
 
 arturocuya.com roku-101 get started
 
-### 202410 social Media
-
-youtube motivation video what starts your morning
-
-  1. 20 minutes walk
-  2. pray / praise / worship for 20 minutes continuously
-  3. morning inspiration
-  4. - motivational speeches ... this is my playlist https://www.youtube.com/playlist?list=PLcb1JL22b_y8bJ0BPI5ax0AlgvCgYaCc4
-  5. - sermons - this is my playlist https://www.youtube.com/playlist?list=PLcb1JL22b_y-4ny-zhbxLgFLwiISJYG23
-  6. - worship - this is my playlist https://www.youtube.com/playlist?list=PL269DF39348E75E0D
-  7. - prayer - pray with this guy https://www.youtube.com/playlist?list=PLcb1JL22b_y8wtb0wykPQr-sEA6vRBa4X
 
 
-### 202410 generating images from code
+
+### 202410 p5js images
 
 paste this code in this online editor https://editor.p5js.org/
 
@@ -605,6 +352,8 @@ Animating with Media Objects
 can create images as above
 
 can create charts like this https://codepen.io/philanderson888/pen/OJKRGXx
+
+
 
 ### google deployment using prodspec and 
 
@@ -718,8 +467,6 @@ vi :h help
 
 show hidden files - defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
 
-### 202410
-
 ### 202410 streaming
 
 dash dynamic adaptive streaming over http - best for high quality and best for on demand streaming. used by shaka, vlc, videojs, libdash
@@ -779,49 +526,6 @@ get-vmgroup -name x
 add-vmgroupmember -vmgroup x -vm y
 
 
-## windows infrastructure
-
-vm fairness moves vms to the least uses hosts.  vms are moved if cpu or ram exceeds 60/70/80 percent based on cpu average over last 5 minutes or current ram now and is checked every 30 minutes
-
-vm sequencing determines the order that vms start up or shut down
-
-storage pool is two or more drives connected together
-
-storage spaces is use of a storage pool to create duplicate copies of data so if one data store fails, the duplicate is available
-
-storage quality of service monitors storage performance, noisy neighbours, 
-
-noisy neighbour consumes resources on a multitenant host
-
-scale out file server is designed to be scalable to avoid bottlenecks, scaling out nodes, bandwidth and performance
-
-clustered file server has one share available on one node at any one time
-
-storage replica enables replication of volumes between servers, clusters or sites to facilitate disaster recovery.  immediate synchronous replication on lan, delayed asynchronous replication across wan
-
-synchronous replication is guaranteed
-
-asynchronous replication is slower and not guaranteed
-
-dedup storage deduplication eliminates duplicate blocks of data
-
-virtual receive side scaling allows multiple virtual cpus to serve one network adapter, to prevent bottlenecks of transmission at that adapter
-
-nic teaming groups multiple network adapters together
-
-.vmcx virtual machine config file
-
-.vhdx virtual machine storage file
-
-.avdx virtual machine delta 
-
-.avhds virtual machine shared hard disk
-
-.vmrs vm running state is equivalent of ram 
-
-## windows encryption
-
-group policy add recovery agent to store keys
 
 
 
@@ -847,10 +551,40 @@ phoenix website with database getting started https://code.likeagirl.io/how-to-i
 
 phoenix api https://medium.com/@fredjourney/how-to-build-a-phoenix-hello-world-rest-api-5fc9e3acf331
 
-### 202410 random links
+## 202410 domains
 
-design forms https://coyleandrew.medium.com/design-better-forms-96fadca0f49c
+caniplaythisgame.org Forwards to philanderson.uk Squarespace
 
-reading list https://ryanholiday.net/reading-list/
+christiansinpakistan.org https://www.jesusislord.uk/orphan-school
 
-when life gives you lemons write better error messages
+effectivemethodsofevangelism.com  Forwards to philanderson.uk
+
+philanderson.co.uk
+
+philanderson.uk easily
+
+## 202410 websites
+
+https://philanderson.uk 
+
+https://philanderson881.wixsite.com/philanderson-uk another beautiful ready-made site, love this one!
+
+https://philanderson881.wixsite.com/mysite video editor website with good blog as well, like the fonts etc and simplity of this site - yes I like it!
+
+https://philanderson881.wixsite.com/mysite/blog  video editor website with good blog as well, like the fonts etc and simplity of this site - yes I like it!
+
+https://philanderson881.wixsite.com/my-site-1 another fine and simple ready-made website, good to go!!!
+
+https://philanderson881.wixsite.com/philanderson-uk-2 super basic skeleton, nothing here
+
+https://philanderson881.wixsite.com/ideaftest01 interesting shopping site - an ok start, but it's a bit old fashioned and lacking in some things ... maybe erase this one!!!
+
+https://philanderson881.wixsite.com/ot-enables-u one of the first sites I ever built!
+
+https://philanderson881.wixsite.com/consulting this was an interesting one for philanderson consulting !
+
+https://philanderson881.wixsite.com/philipandersoncv2 here is one I could turn into an online CV!!!
+
+
+
+

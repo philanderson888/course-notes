@@ -4,6 +4,9 @@
 
 - [202410 random not tech](#202410-random-not-tech)
   - [contents](#contents)
+  - [non tech](#non-tech)
+    - [202410 notes personal](#202410-notes-personal)
+    - [202410 github non tech notes](#202410-github-non-tech-notes)
   - [Random](#random)
   - [english dictionary](#english-dictionary)
   - [Sport](#sport)
@@ -24,6 +27,35 @@
   - [hollywood](#hollywood)
   - [actors](#actors)
 
+
+
+
+
+
+
+## non tech
+
+### 202410 notes personal
+
+Evangelism https://docs.google.com/document/d/1l_Hh81_yfsgw27UYBKAHq2pe8bj-FcGfUw4fdWxPoP0
+
+Scripture https://docs.google.com/document/d/1vL4WYy4k_0H_rwzGMMFVaX_NVDHlzFXDujnFz7wX84U
+
+Ancestry https://docs.google.com/document/d/11DuuW2Pma8KJU_RNxmyFnlCGFj1dLpFxQX3_pqxwrm8
+
+2023 Life Plan And Review, Goals - Google Docs
+
+2023 Finances - Google Docs
+
+### 202410 github non tech notes
+
+github science https://github.com/philanderson888/personal/issues/27
+
+github personal https://github.com/philanderson888/personal/issues
+
+github personal https://github.com/philanderson888/personal
+
+github scriptures https://github.com/philanderson888/personal/blob/master/christian/scriptures.md
 
 
 

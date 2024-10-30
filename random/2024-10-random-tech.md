@@ -1,3 +1,253 @@
+## 202410 random tech
+
+- [202410 random tech](#202410-random-tech)
+  - [202410 cyber](#202410-cyber)
+    - [202410 vulnerability scanning tools](#202410-vulnerability-scanning-tools)
+    - [202410 network scanning tools](#202410-network-scanning-tools)
+    - [202410 cyber government bodies](#202410-cyber-government-bodies)
+    - [202410 cyber corporate tools](#202410-cyber-corporate-tools)
+    - [202410 osint](#202410-osint)
+    - [202410 domain info](#202410-domain-info)
+    - [202410 password tools](#202410-password-tools)
+    - [202410 cyber attack](#202410-cyber-attack)
+    - [202410 cyber forensics](#202410-cyber-forensics)
+  - [202410 javascript](#202410-javascript)
+  - [202410 programming tools](#202410-programming-tools)
+  - [202410 graphics](#202410-graphics)
+  - [202410 programming](#202410-programming)
+  - [202410 links](#202410-links)
+  - [202410 domains](#202410-domains)
+  - [202410 live websites](#202410-live-websites)
+- [websites](#websites)
+- [202410 things to build and try out and learn](#202410-things-to-build-and-try-out-and-learn)
+  - [202410 family pc management](#202410-family-pc-management)
+  - [202410 html](#202410-html)
+- [202410 css](#202410-css)
+- [202410 javascript](#202410-javascript-1)
+- [202410 ai](#202410-ai)
+- [202410 nocode and low-code](#202410-nocode-and-low-code)
+  - [202410 bash](#202410-bash)
+  - [202410 roku](#202410-roku)
+  - [202410 social Media](#202410-social-media)
+  - [202410 generating images from code](#202410-generating-images-from-code)
+  - [202410 coding school](#202410-coding-school)
+  - [google deployment using prodspec and](#google-deployment-using-prodspec-and)
+  - [202410 bash](#202410-bash-1)
+  - [202410 mac os](#202410-mac-os)
+  - [202410](#202410)
+  - [202410 streaming](#202410-streaming)
+  - [202410 powershell](#202410-powershell)
+- [windows infrastructure](#windows-infrastructure)
+- [windows encryption](#windows-encryption)
+- [202410 random tech](#202410-random-tech-1)
+  - [202410 random links](#202410-random-links)
+
+### 202410 cyber
+
+discovery scan of network
+
+scope of scan is ip range
+
+assessment scan of vulnerabilities
+
+dep data execution prevention cannot execute data as an executable
+
+tryhackme
+
+dirbuster can brute force attack your file system
+
+getent gets entries in sensitive linux system files
+
+tryhackme learn all about cyber in safe environment
+
+htttrack copy website
+
+oval open vulnerability assessment language
+
+scap security content automation protocol standardises xml security reporting
+
+xccdf xml security checklists
+
+cvss threat score
+
+ocsp online certificate status protocol manages certificates
+
+sigcheck file analyser
+
+openssl manage tls certificates
+
+certutil manage certificates
+
+ssl strip downgrades channel from https to http
+
+kali linux list of tools https://www.kali.org/tools/
+
+networkminer extracts key data from network traffic
+
+nvd national vulnerability database
+
+pci dss data security standards
+
+rum real user monitoring 
+
+#### 202410 vulnerability scanning tools
+
+openvas vulnerability assessment scanner also called greenbone
+
+nessus vulnerability scanner
+
+nikto does web app vulnerability scanning
+
+qualsys cloud scanning
+
+zap zed attack proxy scans websites
+
+#### 202410 network scanning tools
+
+nmap network mapper
+
+zenmap gui to nmap
+
+bro linux ids
+
+cacti network monitoring gui tool
+
+nagios network monitoring gui tools
+
+snort ids and ips sends data to sguil
+
+sguil network capture
+
+squert is front end to sguil network capture database
+
+hping can scan networks and launch attacks
+
+hping3 is scriptable
+
+angry ip scanner can aggressively scan any network
+
+qualsys is advanced corporate cyber protection tool
+
+nexpose is open source vulnerability scanning tool
+
+pineapple wifi scanning tool
+
+#### 202410 cyber government bodies
+
+cis center internet security
+
+nist national institute science technology
+
+#### 202410 cyber corporate tools
+
+siem security info event management allows large company to manage and analyse logs
+
+alien vault siem
+
+netcraft
+
+#### 202410 osint
+
+truthfinder scans dark web for activity eg your name email password
+
+theharvester scans sites for info
+
+pipl social media tracking tool
+
+peekyou people search
+
+flashpoint global osint alerting tool 
+
+#### 202410 domain info
+
+centralops.net domain info
+
+whois
+
+geoip 
+
+#### 202410 password tools
+
+mimikatz hack passwords
+
+#### 202410 cyber attack
+
+msf metasploit framework cyber vulnerabilities and attacks
+
+armitage cyber attack
+
+burp suite can scan and attack web apps, by port swigger
+
+meterpreter launches payloads in cyber attack
+
+veil create payload
+
+ettercap network attack tool eg man in middle
+
+loic network stress testing tool and dos attack tool
+
+beef browser exploitation framework
+
+exploit-db of payloads
+
+webgoat has fake vulnerabilities
+
+#### 202410 cyber forensics
+
+cellebrite can forensically analyse a phone
+
+ftk forensic toolkit analyse digital crime scene
+
+### 202410 javascript
+
+partykit collaboration software hosted on cloudflare
+
+hsts http strict transport security ensures https is enforced
+
+coords.accuracy altitude heading latitude longitude speed
+
+ctlKey true if control key was held down during the event
+
+devicemotion is acceleration in x y z direction and also rotationRate alpha beta gamma
+
+deviceorientation is alpha beta gamma position
+
+dtd frameset contains frames, strict like xml, transitional has older html
+
+### 202410 programming tools
+
+hadoop breaks large files into 128mb chunks
+
+### 202410 graphics 
+
+dp density per pixel
+
+### 202410 programming
+
+viewport is visible area of web page eg mobile device.  viewport initial scale = 1
+
+partial class combined into one class
+
+webgl games
+
+mvc model view controller talks to database
+
+soa service oriented architecture uses services to build an app
+
+rest api represational state transfer is standard web api standard
+
+angular 2010 google 
+
+declarative ui designs the ui first and lets the data follow using widgets and state
+
+xslt xsl extensible stylesheet language transformer transforms from one xml to another
+
+class nested static does not have access to parent class members
+
+constructor no-argument eg bike = new Bike()
+
+class Number has subclass byte integer double short long bigdecimal biginteger atomicinteger atomiclong
+
 ### 202410 links
 
 Evangelism https://docs.google.com/document/d/1l_Hh81_yfsgw27UYBKAHq2pe8bj-FcGfUw4fdWxPoP0
@@ -469,6 +719,110 @@ vi :h help
 show hidden files - defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
 
 ### 202410
+
+### 202410 streaming
+
+dash dynamic adaptive streaming over http - best for high quality and best for on demand streaming. used by shaka, vlc, videojs, libdash
+
+libdash provides open source oop library to mpeg dash streaming for live and vod
+
+scte-35 marker indicates where other content eg adverts can be inserted into a video stream
+
+watermarking helps to protect streaming content 
+
+abr adaptive bitrate streaming assumes that lowering the bitrate is more important than letting the user experience buffering, rendering the most suitable content renditions
+
+rendition is a version of a stream at a given resolution for streaming at a given bitrate
+
+manifest defines files to be fetched as part of adaptive bitrate streaming abr stream
+
+playready drm by microsoft created 2007
+
+widevine drm bought by google in 2010
+
+cpm cost per mille is the money an advertiser will pay to have 1000 of their adverts shown eg $10 is average cpm on youtube
+
+csai client side ad insertion
+
+ssai server side ad insertion
+
+addressable advertising customises adverts
+
+live to vod provides extended restart after the live stream finishes
+
+psb public service broadcaster
+
+spi stream performance index is an overall figure which indicates the health of a stream
+
+### 202410 powershell 
+
+resize-vhd
+
+get-vm
+
+get-vm -name x | format-list *
+
+get-vm | format name, state, groups
+
+move-vm -name x -newvmhost y
+
+vmgroup of vms
+
+vmgroup of type vmcollection is a group of actual vms
+
+vmgroup of type management is a group of vm collection groups (which are groups of vms)
+
+new-vmgroup -name x -grouptype vmcollectiontype
+
+get-vmgroup -name x
+
+add-vmgroupmember -vmgroup x -vm y
+
+
+## windows infrastructure
+
+vm fairness moves vms to the least uses hosts.  vms are moved if cpu or ram exceeds 60/70/80 percent based on cpu average over last 5 minutes or current ram now and is checked every 30 minutes
+
+vm sequencing determines the order that vms start up or shut down
+
+storage pool is two or more drives connected together
+
+storage spaces is use of a storage pool to create duplicate copies of data so if one data store fails, the duplicate is available
+
+storage quality of service monitors storage performance, noisy neighbours, 
+
+noisy neighbour consumes resources on a multitenant host
+
+scale out file server is designed to be scalable to avoid bottlenecks, scaling out nodes, bandwidth and performance
+
+clustered file server has one share available on one node at any one time
+
+storage replica enables replication of volumes between servers, clusters or sites to facilitate disaster recovery.  immediate synchronous replication on lan, delayed asynchronous replication across wan
+
+synchronous replication is guaranteed
+
+asynchronous replication is slower and not guaranteed
+
+dedup storage deduplication eliminates duplicate blocks of data
+
+virtual receive side scaling allows multiple virtual cpus to serve one network adapter, to prevent bottlenecks of transmission at that adapter
+
+nic teaming groups multiple network adapters together
+
+.vmcx virtual machine config file
+
+.vhdx virtual machine storage file
+
+.avdx virtual machine delta 
+
+.avhds virtual machine shared hard disk
+
+.vmrs vm running state is equivalent of ram 
+
+## windows encryption
+
+group policy add recovery agent to store keys
+
 
 
 ## 202410 random tech

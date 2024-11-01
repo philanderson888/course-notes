@@ -12,11 +12,20 @@
 - [202410 programming](#202410-programming)
   - [202410 programming oop](#202410-programming-oop)
   - [202410 mongo](#202410-mongo)
+  - [202410 cloud aws](#202410-cloud-aws)
+  - [202410 aws notes](#202410-aws-notes)
+  - [202410 bash](#202410-bash)
+  - [202410 powershell](#202410-powershell)
+  - [202410 powershell for vm](#202410-powershell-for-vm)
+  - [202410 powershell for cloud](#202410-powershell-for-cloud)
+  - [2012410 azure cli](#2012410-azure-cli)
+  - [202410 azure](#202410-azure)
+  - [202410 choco](#202410-choco)
   - [202410 programming tools](#202410-programming-tools)
 - [202410 graphics](#202410-graphics)
 - [202410 ai](#202410-ai)
 - [202410 nocode and low-code](#202410-nocode-and-low-code)
-  - [202410 bash](#202410-bash)
+  - [202410 bash](#202410-bash-1)
   - [202410 roku](#202410-roku)
   - [202410 p5js images](#202410-p5js-images)
   - [202410 coding school](#202410-coding-school)
@@ -27,7 +36,6 @@
   - [202410 programming vi editor](#202410-programming-vi-editor)
   - [202410 mac os](#202410-mac-os)
   - [202410 streaming](#202410-streaming)
-  - [202410 powershell](#202410-powershell)
   - [202410 c sharp](#202410-c-sharp)
 - [202410 domains](#202410-domains)
 - [202410 websites](#202410-websites)
@@ -479,6 +487,324 @@ $avg
 $max
 ```
 
+### 202410 cloud aws
+
+aws
+
+iam list-accounts
+
+iam list-users
+
+iam list-access-keys
+
+iam get-account-summary
+
+iam list-account-aliases
+
+iam list-groups
+
+iam list-instance-profiles
+
+iam list-mfa-devices
+
+iam list-policies
+
+iam list-roles
+
+iam list-user-policies
+
+ec2 describe-security-groups
+
+ec2 describe-subnets
+
+ec2 run instances --image --count --instance-type --key-name --security-group-ids --subnet-id
+
+ec2 describe-instances --filters --query
+
+ec2 create-tags --resources --tags
+
+ec2 describe-tags
+
+ec2 terminate-instances
+
+s3 cp myFile.txt s3://my-bucket/my-file.txt
+
+s3 sync myFolder s3://my-bucket/my-folder
+
+s3 ls s3://my-bucket -recursive
+
+
+
+
+### 202410 aws notes
+
+ec2 is amazon compute cloud also called amazon compute
+
+amazon compute is short for amazon compute cloud also known as ec2
+
+acu azure compute unit is a measure of the power of a machine
+
+acu 100 matches the power of a standard_a1 machine
+
+sku stock keeping unit is a barcode on a product
+
+sku in aws is a unique product for sale eg a given machine with a given spec
+
+ec2 has regions which are split into availability zones and these are split into local zones and these are split into aws outposts
+
+ec2 region is geographic
+
+ec2 availability zone is logical grouping within a geographical region, perhaps serviced by different electricity suppliers
+
+ec2 availability zone has one per subnet
+
+ec2 availability zone is a collection of data centers inside a region
+
+ec2 local zones allow placing of rescourcees physically close to you for sake of latency
+
+ec2 outposts put aws services in particular data center
+
+ec2 wavelength zone delivers content to edge of 5g networks to be close to end users on mobile networks
+
+ed2 edge zone is cloud front
+
+ec2 cloudwatch monitors instances
+
+ec2 autoscaling automatically adds instances depending on cloudwatch metrics and sns simple notification service
+
+ec2 autoscale vm group and load balancer
+
+ec2 autoscale policy
+
+ecs elastic container service can manage containers and containerised apps 
+
+aws lambda serverless code
+
+eks elastic kubernetes service manages kubernetes clusters
+
+aws fargate runs serverless instances of ecs elastic container service and eks elastic kubernetes service
+
+sns simple notification service
+
+ec2 fleet management of a group of instances
+
+ec2 elastic beanstalk hosts apps
+
+vpc virtual private cloud has gateway, subnets, instances
+
+vpc endpoint connects internally to another aws node
+
+vpc peering can route traffic between two endpoints
+
+traffic mirroring copies all network traffic for monitoring and logging purposes
+
+transmit gateway is a central hub
+
+flow log
+
+vpn connects vpc virtual private cloud to real network
+
+vm instance
+
+container runs app
+
+container is a virtual operating system configured so an app just installs and runs 
+
+load balancer 
+
+application load balancer has path routing to different target groups and host routing to different hosts, also has a waf web app firewall.
+
+application load balancer is good when using containers to route traffic for your app
+
+application load balancer request tracing will log all http requests
+
+rds relational database service eg auorora, postgres, mariadb oracledb
+
+aws dynamo db is non relational
+
+s3 ebs elastic block storage mimics real hard drive 
+
+s3 ebs elastic block storage has block level replication, volume snapshots, encrypted volumes, dynamic resize
+
+ads aws directory service which uses microsoft active diretory service
+
+iam congnito sign in via 3rd party apps eg facebook
+
+iam roles apply to apps
+
+cloudwatch has events logs alarms
+
+cloudtrail logs to s3 bucket
+
+cdk cloud development kit
+
+instance pricing can be viewed at cloud price . net eg standard_a1 is 37 dollars a month
+
+### 202410 bash
+
+wget downloads files
+
+gpg encrypts files using openpgp default is to extract and decrypt -c encrypt -d decrypt 
+
+pgp pretty good privacy
+
+gnupc gnu privacy guard
+
+sudo apt-get update upgrade
+
+sudo apt-get install tmux git ranger vim # basic terminal tools
+
+sudo apt-get install lubuntu-desktop -y
+
+sudo apt-get install xrdp -y && systemctl start xrdp
+
+### 202410 powershell
+
+ss64.com
+
+start powershell starts a new shell
+
+set-executionpolicy -executionpolicy remotesigned ensures anything running has been approved and signed
+
+ise integrated scripting environment helps to learn by showing all the commands dynamically
+
+enable-windowsoptionalfeature -featurename microsoft-windows-subsystem-linux
+
+get-alias
+
+get-command
+
+get-command *name*
+
+get-command -CommandType Cmdlet/Function/Workflow
+
+
+
+
+### 202410 powershell for vm
+
+resize-vhd
+
+get-vm
+
+get-vm -name x | format-list *
+
+get-vm | format name, state, groups
+
+move-vm -name x -newvmhost y
+
+vmgroup of vms
+
+vmgroup of type vmcollection is a group of actual vms
+
+vmgroup of type management is a group of vm collection groups (which are groups of vms)
+
+new-vmgroup -name x -grouptype vmcollectiontype
+
+get-vmgroup -name x
+
+add-vmgroupmember -vmgroup x -vm y
+
+### 202410 powershell for cloud
+
+connect-azaccount
+
+set-azcontext -subscriptionid
+
+add-content myfile.txt "some data"
+
+new-azvm -resourcegroupname -image -size -name
+
+new-azvmconfig --name --instancesize --imagename 
+
+new-azurevm --servicename --affinitygroup
+
+get-credential
+
+get-azpublicipaddress
+
+new-azresourcegroup -name 
+
+new-azsqldatabase -servername -databasename 
+
+### 2012410 azure cli
+
+install-module az  # older module was called 'azure'
+
+get-module azure*
+
+get-installedmodule -name az
+
+connect-azaccount
+
+az login
+
+az account list - who is logged in
+
+az account set --subscription
+
+az group list - of resource groups
+
+az group create --name --location
+
+az group delete --name -y
+
+az resource list
+
+az vm list-sizes eg standard_d2_v3
+
+az vm create --name --group --image --size --admin-username --generate-ssh-keys
+
+az vm list --group --show-details
+
+ssh user@ip
+
+az vm stop --name
+
+az vm delete --name
+
+az vm open-port --port 80 --name --priority
+
+az network vnet list  - list virtual networks
+
+az network nic list - of all network cards
+
+az group create --name --location
+
+### 202410 azure
+
+az vm list-sizes 
+
+az vm d series general purpose e series extra ram f series extra cpu
+
+nested virtualization d2_v3 d2s_v3 d4s_v4 e4s_v3
+
+azure operator service manager uses cli to manage infrastructure
+
+azure powershell
+
+azure cloud shell
+
+### 202410 choco
+
+choco install library -y
+
+choco install notepadplusplus sublimetext3 vscode googlechrome nodejs -y
+
+choco install virtualbox -y
+
+choco install vagrant -y
+
+choco install intellijidea-community -y
+
+choco install visualstudio2019community -y
+
+choco install docker-desktop --pre -y
+
+choco install minikube -y
+
+
+
 ### 202410 programming tools
 
 hadoop breaks large files into 128mb chunks
@@ -796,29 +1122,7 @@ psb public service broadcaster
 
 spi stream performance index is an overall figure which indicates the health of a stream
 
-### 202410 powershell 
 
-resize-vhd
-
-get-vm
-
-get-vm -name x | format-list *
-
-get-vm | format name, state, groups
-
-move-vm -name x -newvmhost y
-
-vmgroup of vms
-
-vmgroup of type vmcollection is a group of actual vms
-
-vmgroup of type management is a group of vm collection groups (which are groups of vms)
-
-new-vmgroup -name x -grouptype vmcollectiontype
-
-get-vmgroup -name x
-
-add-vmgroupmember -vmgroup x -vm y
 
 ### 202410 c sharp
 

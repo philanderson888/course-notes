@@ -1,39 +1,98 @@
-
 # Cyber Labs
 
-## Cyber Labs Online
+## contents
 
-[TryHackMe](https://tryhackme.com)
+- [Cyber Labs](#cyber-labs)
+  - [contents](#contents)
+  - [Steghide](#steghide)
+    - [Vulnversity](#vulnversity)
+  - [Cyber Labs on AWS](#cyber-labs-on-aws)
+    - [AWS Linux Virtual Machine](#aws-linux-virtual-machine)
+      - [Build A New Instance (T2 Large)](#build-a-new-instance-t2-large)
+      - [Connect](#connect)
+    - [AWS Linux Install Apache](#aws-linux-install-apache)
+    - [AWS Linux Install Mongo](#aws-linux-install-mongo)
+    - [AWS Build Ubuntu](#aws-build-ubuntu)
+    - [AWS Upgrade Ubuntu To Latest](#aws-upgrade-ubuntu-to-latest)
+    - [AWS Ubuntu via CLI](#aws-ubuntu-via-cli)
+    - [Ubuntu Install Apache](#ubuntu-install-apache)
+    - [Ubuntu Install NGINX](#ubuntu-install-nginx)
+    - [Ubuntu Install python](#ubuntu-install-python)
+    - [Ubuntu install nmap (1 minute install)](#ubuntu-install-nmap-1-minute-install)
+    - [Ubuntu Install Docker](#ubuntu-install-docker)
+    - [Docker Install Metasploitable](#docker-install-metasploitable)
+    - [NMap Scan Metasploitable](#nmap-scan-metasploitable)
+    - [Ubuntu Install Metasploit Part I](#ubuntu-install-metasploit-part-i)
+    - [install metasploit (Part II)](#install-metasploit-part-ii)
+    - [Ubuntu Install MongoDB](#ubuntu-install-mongodb)
+      - [start mongodb](#start-mongodb)
+      - [run mongo client](#run-mongo-client)
+    - [AWS Kali with VNC](#aws-kali-with-vnc)
+    - [Kali Install OpenVAS  (1 hour with attended input)](#kali-install-openvas--1-hour-with-attended-input)
+    - [Ubuntu Install Docker](#ubuntu-install-docker-1)
+    - [Docker Install Metasploitable](#docker-install-metasploitable-1)
+      - [Run an exploit](#run-an-exploit)
+    - [AWS Run Container](#aws-run-container)
+  - [Kali](#kali)
+    - [Kali Handbook](#kali-handbook)
+    - [About Kali](#about-kali)
+    - [Installing Kali](#installing-kali)
+  - [Docker Kali](#docker-kali)
+  - [Penetration](#penetration)
+  - [Metasploit](#metasploit)
+    - [What is Metasploit?](#what-is-metasploit)
+  - [Metasploitable](#metasploitable)
+  - [intro](#intro)
+    - [Windows VMs we can attack](#windows-vms-we-can-attack)
+    - [Metasploitable Setup](#metasploitable-setup)
+      - [Data Path](#data-path)
+      - [Documentation Path](#documentation-path)
+      - [Exploit Modules Path](#exploit-modules-path)
+      - [Scripts including Meterpreter Path](#scripts-including-meterpreter-path)
+  - [Other Cyber Labs](#other-cyber-labs)
+    - [NMap](#nmap)
+    - [netdiscover](#netdiscover)
+    - [dig](#dig)
+    - [traceroute](#traceroute)
+  - [red tools](#red-tools)
+  - [port and host scanning](#port-and-host-scanning)
+    - [vulnerability scanners](#vulnerability-scanners)
+    - [openvas](#openvas)
+    - [armitage = gui for metasploit](#armitage--gui-for-metasploit)
+    - [metasploit](#metasploit-1)
+    - [zenmap - host and port scan](#zenmap---host-and-port-scan)
+    - [nikto - web server vulnerability scanner](#nikto---web-server-vulnerability-scanner)
+    - [mbsa - windows server scanner](#mbsa---windows-server-scanner)
+  - [ids](#ids)
+    - [securityonion ids](#securityonion-ids)
+    - [sguil ids](#sguil-ids)
+    - [sgutil ids](#sgutil-ids)
+  - [sysinternals suite of tools from microsoft](#sysinternals-suite-of-tools-from-microsoft)
+    - [autoruns - what is set to auto start](#autoruns---what-is-set-to-auto-start)
+    - [accesschk - search for unauthorised privileges](#accesschk---search-for-unauthorised-privileges)
+    - [accessenum - enumerate access?](#accessenum---enumerate-access)
+    - [du disk usage](#du-disk-usage)
+    - [sigcheck - verify root certificate](#sigcheck---verify-root-certificate)
+  - [cyber tools](#cyber-tools)
+    - [veil](#veil)
+    - [evasion](#evasion)
+    - [pcap](#pcap)
+    - [networkminer.exe](#networkminerexe)
+    - [sysmon](#sysmon)
+    - [pcap](#pcap-1)
+    - [ossim](#ossim)
+  - [Forensic Labs](#forensic-labs)
+    - [CyberChef](#cyberchef)
+    - [autopsy](#autopsy)
+    - [Lab 11](#lab-11)
+    - [Lab 12 : Network Segmentation : PFSense](#lab-12--network-segmentation--pfsense)
+    - [Lab 12 : install backdoor malware](#lab-12--install-backdoor-malware)
+    - [Lab 13 : Password sniffing](#lab-13--password-sniffing)
+    - [Lab 14 : Using email to hack](#lab-14--using-email-to-hack)
+    - [Lab 14 : Exploiting XSS with MITM attack](#lab-14--exploiting-xss-with-mitm-attack)
 
-Juice Shop online  https://owasp.org/www-project-juice-shop/
 
-CTF Capture The Flag online
-
-Exploit-db.com
-
-https://ctf.learncloudsec.net/index.php
-
-cybersecuritychallenge.co.uk
-
-https://www.hackthebox.eu/ 
-
-https://www.root-me.org/
-
-https://0xrick.github.io/c/categories/#Hack-The-Box
-
-Peekyou.com 
-
-pipl.com 
-
-carrot2.org
-
-https://google-gruyere.appspot.com/
-
-## Regex labs
-
-see regexone and also regexr for some REGEX labs
-
-### Steghide
+## Steghide
 
 ```bash
 # install
@@ -42,14 +101,9 @@ sudo apt-get install steghide
 steghide info file
 # extract embedded data from a file
 steghide extract -sf file
-
 ```
 
-
-
-
-
-#### Vulnversity
+### Vulnversity
 
 https://tryhackme.com/room/vulnversity
 
@@ -83,16 +137,6 @@ cd /usr/share/wordlists/dirbuster
 gobuster dir -u http://10.10.196.4:3333 -w directory-list-2.3-medium.txt
 
 ```
-
-
-### [Mimikatz](#Mimikatz%20-%20Obtain%20Hash)
-
-
-
-
-
-
-
 
 
 ## Cyber Labs on AWS

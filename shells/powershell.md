@@ -3,15 +3,9 @@
 ## contents
 - [powershell](#powershell)
 	- [contents](#contents)
-	- [introduction](#introduction)
-- [installing](#installing)
-		- [Open Explorer At  Path](#open-explorer-at--path)
-	- [PS Core](#ps-core)
-		- [Setting The Default Path In Powershell](#setting-the-default-path-in-powershell)
-		- [Invoke-webrequest  connects to a web socket](#invoke-webrequest--connects-to-a-web-socket)
-		- [Port Scan](#port-scan)
-	- [Intro](#intro)
-	- [ISE](#ise)
+	- [install powershell](#install-powershell)
+		- [sett default path](#sett-default-path)
+		- [invoke web request equivalent of `curl`](#invoke-web-request-equivalent-of-curl)
 	- [Simple commands](#simple-commands)
 		- [Selecting Columns](#selecting-columns)
 		- [SORT](#sort)
@@ -41,13 +35,7 @@
 	- [download and run msi](#download-and-run-msi)
 	- [Powershell with Active Directory](#powershell-with-active-directory)
 
-## introduction
-
-powershell is the default shell program installed with windows and should be used in preference to the older `cmd` command-line program which is still also available as `cmd.exe` although the command set is much more limited and cannot manipulate objects as powershell does, but only strings.
-
-# installing
-
-to install powershell one can run `winget`
+## install powershell
 
 ```powershell
 winget search Microsoft.Powershell
@@ -55,20 +43,7 @@ winget install --id Microsoft.Powershell --source winget
 winget install --id Microsoft.Powershell.Preview --source winget
 ```
 
-### Open Explorer At  Path
-
-```csharp
-# Open Explorer At Given Path
-ii c:\my\folder
-```
-
-## PS Core
-
-[PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/)
-
-[PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
-
-### Setting The Default Path In Powershell
+### sett default path
 
 ```powershell
 new-item -type file -force $profile
@@ -80,73 +55,25 @@ cd \default\path
 Navigate to Documents\WindowsPowerShell\profile.ps1 and edit the path
 ```
 
-### Invoke-webrequest  connects to a web socket
+### invoke web request equivalent of `curl` 
 
-this example installs azure client
-- download a file and save it as a `msi` file
-- run msiexec against that file with the /quiet parameter ie run the install
-- remove the installed file
+- download installer
+- run installer
+- remove installer
 
 ```powershell
-Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; rm .\AzureCLI.msi
+Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi
+
+Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'
+
+rm .\AzureCLI.msi
 ```
 
-### Port Scan
 
-[Success Center](https://support.solarwinds.com/SuccessCenter/s/article/Use-PowerShell-to-test-that-a-port-is-open-on-a-server)
-
-## Intro
-
-```
-<https://technet.microsoft.com/en-gb/itpro/powershell/windows/index>
-	
-
-cmd ==> old command line
-
-powershell ==> return to powershell
-
-Why use?  What are benefits?
-
-	CMD ==> MANIPULATING STRINGS
-
-	POWERSHELL ==> MANIPULATE FULL OBJECTS
-
-		EG ACTIVE DIRECTORY USER 'OBJECT' CAN BE 'PIPED' 
-
-			GET-XXXX  |  SET-XXX
-
-Summary of commands
-
-	ss64.com/ps
-
-	technet 2015/06/11
-
-	technet ff714569
-
-Getting Started
-
-	technet dd772285
-```
-
-## ISE
-
-```
-ISE Integrated Scripting Environment
-	
-	GOOD FOR WRITING AND RUNNING SCRIPTS  .ps1 files
-```
 
 ## Simple commands
 
 ```
-get-alias		SHORTCODE FOR MANY COMMANDS
-			+ OLDER LEGACY COMMANDS AS WELL
-get-command
-
-get-command get*	START WITH get
-
-get-command *acl* 	COMMANDS CONTAINING acl
-
 get-command -CommandType Cmdlet/Function/Workflow
 
 Get-Command -Module DISM

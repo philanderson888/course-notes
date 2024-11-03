@@ -1,46 +1,60 @@
-# tech notes
+# notes
 
-This is a repository of tech notes on a variety of topics
+notes on various topics
+- technical infrastructure
+  - hardware
+  - software
+  - servers
+  - security
+  - cyber security
+  - cloud
+- programming
+  - javscript
+  - node
+  - react
+  - flutter
+  - python
+  - java
+  - ... and some others
+- scripting
+  - powershell
+  - bash
+    - zsh
+- languages
+- space
+- ... and some other topics
+
 
 ## Contents
 
-- [tech notes](#tech-notes)
+- [notes](#notes)
   - [Contents](#contents)
-  - [Web](#web)
-  - [Git](#git)
-  - [Shell Scripting](#shell-scripting)
-  - [Programming](#programming)
+  - [git](#git)
+  - [scripting](#scripting)
+  - [programming](#programming)
   - [ai programming](#ai-programming)
     - [accounting app reading from google sheets](#accounting-app-reading-from-google-sheets)
-  - [Infrastructure](#infrastructure)
   - [cyber](#cyber)
-  - [database](#database)
-    - [sqlite](#sqlite)
   - [random](#random)
-  - [glossaries](#glossaries)
 
-## Web
 
-websites deployed are all listed here
 
-[web](web)
+## git
 
-## Git
+[git](/random/2020-01-git.md)
 
-[Git](git)
+## scripting
 
-## Shell Scripting
+[bash](/shells/bash.md)
 
-[Shell Scripting - Bash, Zsh, CMD and Powershell shells](shells)
+[zsh](/shells/zsh.md)
 
-- [bash](shells/bash.md)
-- [zsh](shells/zsh.md)
-- [cmd](shells)
-- [powershell](shells/powershell.md)
+[powershell](/shells/powershell.md)
 
-## Programming
+## programming
 
-[Programming](programming)
+[programming](/programming/README.md)
+
 
 ## ai programming
 
@@ -70,30 +84,10 @@ websites deployed are all listed here
   - removes salary from the expenditure
   - removes transfers
 
-## Infrastructure
-
-[Infrastructure](infrastructure)
-
 ## cyber
 
 [cyber](cyber/README.md)
 
-## database
-
-### sqlite
-
-[sqlite](database/sqlite/README.md)
-
 ## random
 
-- [Web Random Terms](https://github.com/philanderson888/javascript/blob/main/notes/random-web-terms-and-glossary.md)
-- [Programming Random Terms](https://github.com/philanderson888/javascript/blob/main/notes/random-programming-terms.md)
-- [Cloud Random Terms](cloud/cloud-random-terms.md)
-- [Random facts](random/randomFactsAndTerms.md)
-
-## glossaries
-
-- [programming glossary 1](programming/programming-glossary.md)
-- [programming glossary 2](https://github.com/philanderson888/javascript/blob/main/notes/glossary-programming.md)
-- [traditional web glossary](https://github.com/philanderson888/javascript/blob/main/notes/glossary-web.md)
-- [modern web glossary](https://github.com/philanderson888/javascript/blob/main/notes/glossary-modern-web.md)
+[random notes](/random/)

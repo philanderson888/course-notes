@@ -3,6 +3,7 @@
 ## contents
 - [powershell](#powershell)
 	- [contents](#contents)
+	- [update](#update)
 	- [Remote Powershell](#remote-powershell)
 	- [invoking remote commands](#invoking-remote-commands)
 	- [invoke script for temporary session](#invoke-script-for-temporary-session)
@@ -12,6 +13,9 @@
 	- [CALL WORKFLOW WITH PARAMETERS](#call-workflow-with-parameters)
 	- [Powershell - Advanced](#powershell---advanced)
 
+## update
+
+please see more recent files at https://github.com/philanderson888/scripts/powershell for more detailed analysis of powershell and other scripts
 
 ## Remote Powershell
 

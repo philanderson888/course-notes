@@ -5,6 +5,7 @@
 - [bash](#bash)
   - [contents](#contents)
   - [introduction](#introduction)
+  - [update](#update)
   - [common commands](#common-commands)
     - [ls](#ls)
     - [top](#top)
@@ -45,6 +46,10 @@
 ## introduction
 
 bash stands for `bourne-again shell` and is just one of the shells available on a mac computer but has become the default to use for nearly everyone, apart from the `[z-shell (zsh)](zsh.md)` which has also become very popular
+
+## update
+
+please see more recent files at https://github.com/philanderson888/scripts/bash for more detailed analysis of bash and other scripts
 
 ## common commands
 

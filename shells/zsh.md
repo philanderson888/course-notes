@@ -5,6 +5,7 @@
 - [zsh](#zsh)
   - [contents](#contents)
   - [intrduction](#intrduction)
+  - [update](#update)
   - [reference link](#reference-link)
   - [zsh - Z Shell : Custom Shell for MAC](#zsh---z-shell--custom-shell-for-mac)
     - [Using](#using)
@@ -14,6 +15,10 @@
 ## intrduction
 
 zshell is a custom shell for linux/mac  users
+
+## update
+
+please see more recent files at https://github.com/philanderson888/scripts/bash for more detailed analysis of bash and other scripts including zsh
 
 ## reference link
 

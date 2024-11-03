@@ -4,9 +4,13 @@
 - [powershell](#powershell)
 	- [contents](#contents)
 	- [Remote Powershell](#remote-powershell)
-	- [download and run exe](#download-and-run-exe)
-	- [download and run msi](#download-and-run-msi)
+	- [invoking remote commands](#invoking-remote-commands)
+	- [invoke script for temporary session](#invoke-script-for-temporary-session)
+	- [invoke script for permanent session](#invoke-script-for-permanent-session)
 	- [Powershell with Active Directory](#powershell-with-active-directory)
+	- [Powershell Workflow](#powershell-workflow)
+	- [CALL WORKFLOW WITH PARAMETERS](#call-workflow-with-parameters)
+	- [Powershell - Advanced](#powershell---advanced)
 
 
 ## Remote Powershell
@@ -88,6 +92,7 @@ RECEIVE-PSSESSION
 CONNECT-PSSESSION
 ```
 
+## invoking remote commands
 
 ```
 <http://ss64.com/nt/syntax-variables.html>
@@ -103,60 +108,47 @@ Get-Culture  eg language
 
 REMOTE POWERSHELL TAB
 
-CONSTRAINED POWERSHELL ENDPOINTS
-LIMIT WHICH COMMANDS MAY BE RUN DURING A SESSION
+CONSTRAINED POWERSHELL ENDPOINTS LIMIT WHICH COMMANDS MAY BE RUN DURING A SESSION
 
-```
 SESSION CONFIG FILES LIMIT WHICH COMMANDS CAN BE RUN
 
+```bash
 New-PSSessionConfigurationFile
 ```
 
-ONE-OFF : TEMP SESSION
+## invoke script for temporary session
 
-```
+```bash
 INVOKE-COMMAND 
 	-ComputerName x 
 	-ScriptBlock { y }
 ```
 
-PERMANENT SESSION
+## invoke script for permanent session
 
-```
+```bash
 $s = NEW-PSWORKFLOWSESSION
 	-ComputerName x
-	
-				Note : $s=New-PSSession : DOES THAT WORK
-				
+
+# Note : $s=New-PSSession : DOES THAT WORK
+			
 ENTER-PSSession $s   (or Enter-PSSession -ComputerName x)
 
-	INVOKE-COMMAND 
+INVOKE-COMMAND 
 
-	EXIT-PSSESSION
+EXIT-PSSESSION
 
 DISCONNECT-PSSESSION
+
 Connect-PSSession
+
 GET-PSSESSION -ComputerName x
 
 Receive-PSSession : get all the output
 ```
 
-## download and run exe
 
-this downloads and runs and exe file
 
-```powershell
-Invoke-WebRequest -Uri http://www.lancsngfl.ac.uk/cmsmanual/getfile.php?src=9/JRuler.exe -OutFile .\JRuler.exe; .\JRuler.exe; rm .\JRuler.exe
-```
-
-## download and run msi
-
-- download with `invoke-webrequest`
-- install with start-process msiexec
-
-```powershell
-Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; rm .\AzureCLI.msi
-```
 
 ## Powershell with Active Directory
 
@@ -206,12 +198,11 @@ Set-ADAccountControl -identity X        SET UAC
 KList Purge of Kerberos Caches
 ```
 
-Powershell Workflow
+## Powershell Workflow
 
-```
-WORKFLOW CAN BE USED TO OBTAIN RESULTS WHERE ORDER OF GETTING RESULTS
-	IS NOT CRITICAL IE EXECUTE COMMANDS IN PARALLEL
+WORKFLOW CAN BE USED TO OBTAIN RESULTS WHERE ORDER OF GETTING RESULTS IS NOT CRITICAL IE EXECUTE COMMANDS IN PARALLEL
 
+```bash
 workflow x {
 
 inlinescript{ write-host hello }
@@ -228,39 +219,45 @@ inlinescript{ write-host hello }
 		}
 	}
 }
+```
 
 TO RUN THIS WORKFLOW JUST TYPE 'x' AT POWERSHELL PROMPT
 
-	both commands will execute : first to finish will output, then
-		next one etc
+both commands will execute : first to finish will output, then next one etc
 
-	PARALLEL : commands execute ASYNCHRONOUSLY
-	SEQUENCE : commands execute SYNCHRONOUSLY
+PARALLEL : commands execute ASYNCHRONOUSLY
 
-CALL WORKFLOW WITH PARAMETERS
+SEQUENCE : commands execute SYNCHRONOUSLY
+
+## CALL WORKFLOW WITH PARAMETERS
 
 SAY WE WANT TO PASS AN ARRAY OF COMPUTERS INTO A WORKFLOW
 
+```
 run  '  x  -Computers "pc1","pc2","pc3"
+```
 
 Workflow syntax would be
 
+```bash
 workflow x {
 	param([string[]]$Computers)
 	...use $Computers as array
 }
 ```
 
-Powershell - Advanced (display and don't type)
+## Powershell - Advanced
 
-```
+
 Test if a file contains data or not.  Only Create Destination If Content Exists.
 
-	$content = Get-Content "C:\\OneDrive\\PC\\2016_03 Internet.txt"
-
-	$content |
+```bash
+# target path
+$content = Get-Content "C:\\OneDrive\\PC\\2016_03 Internet.txt"
+# get content
+$content |
   foreach {if ($_.Length -gt 0) {Out-File `
-  ($_.PSPath + '.csv') -Append -InputObject $_.ToString()}}
-
-  get-content abc.txt | foreach {out-file { def.txt -append -inputobject $_.ToString() } }
+	  ($_.PSPath + '.csv') -Append -InputObject $_.ToString()}}
+# print content
+get-content abc.txt | foreach {out-file { def.txt -append -inputobject $_.ToString() } }
 ```

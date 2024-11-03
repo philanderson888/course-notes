@@ -15,7 +15,6 @@
   - [202410 cloud aws](#202410-cloud-aws)
   - [202410 aws notes](#202410-aws-notes)
   - [202410 bash](#202410-bash)
-  - [202410 powershell](#202410-powershell)
   - [202410 powershell for vm](#202410-powershell-for-vm)
   - [202410 powershell for cloud](#202410-powershell-for-cloud)
   - [2012410 azure cli](#2012410-azure-cli)
@@ -657,27 +656,6 @@ sudo apt-get install tmux git ranger vim # basic terminal tools
 sudo apt-get install lubuntu-desktop -y
 
 sudo apt-get install xrdp -y && systemctl start xrdp
-
-### 202410 powershell
-
-ss64.com
-
-start powershell starts a new shell
-
-set-executionpolicy -executionpolicy remotesigned ensures anything running has been approved and signed
-
-ise integrated scripting environment helps to learn by showing all the commands dynamically
-
-enable-windowsoptionalfeature -featurename microsoft-windows-subsystem-linux
-
-get-alias
-
-get-command
-
-get-command *name*
-
-get-command -CommandType Cmdlet/Function/Workflow
-
 
 
 

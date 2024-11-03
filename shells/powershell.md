@@ -3,551 +3,96 @@
 ## contents
 - [powershell](#powershell)
 	- [contents](#contents)
-	- [install powershell](#install-powershell)
-		- [sett default path](#sett-default-path)
-		- [invoke web request equivalent of `curl`](#invoke-web-request-equivalent-of-curl)
-	- [Simple commands](#simple-commands)
-		- [Selecting Columns](#selecting-columns)
-		- [SORT](#sort)
-		- [FORMAT OUTPUT AS A TABLE](#format-output-as-a-table)
-		- [Piping Output](#piping-output)
-		- [write-host to screen](#write-host-to-screen)
-		- [Variables - Naming Conventions](#variables---naming-conventions)
-		- [Variables - Naming Conventions](#variables---naming-conventions-1)
-		- [Conditional Operators if](#conditional-operators-if)
-	- [list files](#list-files)
-	- [get file details](#get-file-details)
-	- [create files and edit files](#create-files-and-edit-files)
-	- [remove a folder](#remove-a-folder)
-	- [Environment Variables](#environment-variables)
-		- [Get Environment Variables](#get-environment-variables)
-	- [Powershell Functions](#powershell-functions)
-		- [Function with no parameters](#function-with-no-parameters)
-		- [Function with parameters](#function-with-parameters)
-	- [Powershell Summary So Far](#powershell-summary-so-far)
-	- [functions](#functions)
-		- [Tail](#tail)
-		- [TCP](#tcp)
-		- [Telnet](#telnet)
-		- [Wait](#wait)
-	- [Remote Powershell (Module 6)](#remote-powershell-module-6)
+	- [Remote Powershell](#remote-powershell)
 	- [download and run exe](#download-and-run-exe)
 	- [download and run msi](#download-and-run-msi)
 	- [Powershell with Active Directory](#powershell-with-active-directory)
 
-## install powershell
 
-```powershell
-winget search Microsoft.Powershell
-winget install --id Microsoft.Powershell --source winget
-winget install --id Microsoft.Powershell.Preview --source winget
-```
-
-### sett default path
-
-```powershell
-new-item -type file -force $profile
-# now edit the document at c:\users\user\documents\powershell\
-cd \default\path
-
-# or
-
-Navigate to Documents\WindowsPowerShell\profile.ps1 and edit the path
-```
-
-### invoke web request equivalent of `curl` 
-
-- download installer
-- run installer
-- remove installer
-
-```powershell
-Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi
-
-Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'
-
-rm .\AzureCLI.msi
-```
-
-
-
-## Simple commands
-
-```
-get-command -CommandType Cmdlet/Function/Workflow
-
-Get-Command -Module DISM
-
-get-help <<COMMAND>>
-
-	-examples
-	-full
-	-detailed
-	-online
-	-ShowWindow
-```
-
-### Selecting Columns
-
-```powershell
-get-command | select name, modulename
-
-out-GridView		pop out results (sort yourself)
-
-get-process | select name,cpu		SHOW ALL PROCESSES
-```
-
-### SORT
-
-```
-get-process | select name,cpu | sort cpu   (-desc)
-```
-
-### FORMAT OUTPUT AS A TABLE
-
-```
-get-netIPAddress | ft      FORMAT AS TABLE
-		 | format-table  or format-list
-```
-
-### Piping Output
-
-```
-get-service
-
-get-service homegroupprovider
-
-get-service homegroupprovider | select name, status, starttype
-
-				| set-service -startuptype disabled
-
-set-service homegroupprovider -startuptype disabled
-
-get-service *xb* | set-service -startuptype disabled
-```
-
-### write-host to screen
-
-```
-write-host can be used to force output to screen
-```
-
-Pausing
-
-```
-PAUSE
-```
-
-quiet mode
-
-```
--CONFIRM:$FALSE
-```
-
-FOREACH : PARSING THROUGH OUTPUT
-
-```
-get-service | foreach { // FOR EACH SERVICE RUN THIS CODE  }
-
-get-service | foreach { $_.DisplayName  }
-```
-
-### Variables - Naming Conventions
-
-```powershell
-# PascalCase for global variables
-# camelCase for local variables
-```
-
-### Variables - Naming Conventions
-
-```powershell
-# Declare a variable
-$x
-# Initialize a variable
-$myString="hi"
-# Declare a number
-$a=1;$b=2;write-host($a+$b)
-```
-
-### Conditional Operators if
-
-```
-if (condition){}
-else {}
-
-if (A -eq B){}
-
-		-eq	equal
-		-ne	not equal
-		-gt	>
-		-lt	<
-		-ge	>=
-		-le	<=
-		-like 	wildcard   if(abcdef -like "abc*")    TRUE
-		-and/or
-		-not   also  ! is valid
-		-is/isNot/as	matching object types
-				if ($a is "String") { }
-
-Get-process | where cpu -gt 10
-```
-
-## list files 
-
-```
-DIR
-LS
-get-childitem 
-
-		-recurse     SUBFOLDERS
-
-		-path xxx
-```
-
-## get file details
-
-```
-GET-ITEM		file PROPERTIES
-	| select *	FULL DETAILS
-
-GET-CONTENT
-			WRITE OUT CONTENTS IN AN ARRAY LINE BY LINE
-			(( deal with each line using foreach loop))
-
-OUT-FILE		SEND DATA TO A FILE
-
-			DEFAULT : OVERWRITE
-			-append : APPEND TO END
-
-	out-file abc.txt -append -inputobject 'addThisIn' -encoding utf8
-```
-
-## create files and edit files
-
-```
-Copy-Item
-Move-Item
-New-Item
-Remove-Item
-Rename-Item
-	
-Clear/Copy/Get/Invoke/Move/New/Remove/Rename-Item
-```
-
-## remove a folder
-
-```ps
-rd -recurse my-folder-with-all-sub-folders
-```
-
-Running Scripts
-
-```
-.ps1
-
-PowerShell is secure by default. The first implication of this philosophy is that PowerShell won't execute scripts until you explicitly give it permission to do so. PowerShell has four execution policies that govern how it should execute scripts:
-
-	Restricted. PowerShell won't run any scripts. This is PowerShell's defaxecution policy.
-
-	AllSigned. PowerShell will only run scripts that are signed with a digital signature. If you run a script signed by a publisher PowerShell hasn't seen before, PowerShell will ask whether you trust the script's publisher.
-
-	RemoteSigned. PowerShell won't run scripts downloaded from the Internet unless they have a digital signature, but scripts not downloaded from the Internet will run without prompting. If a script has a digital signature, PowerShell will prompt you before it runs a script from a publisher it hasn't seen before.
-
-	Unrestricted. PowerShell ignores digital signatures but will still prompt you before running a script downloaded from the Internet.
-
-To display the current execution policy, you need to enter the command
-
-	Get-ExecutionPolicy
-
-To set the execution policy, Run Powershell as Administrator then enter the command
-
-	Set-ExecutionPolicy policy unrestricted 
-
-	where policy is one of the policy names (e.g., RemoteSigned).
-
-NOTE : TO PERMIT .PS1 SCRIPTS TO RUN YOU MUST FIRST ENTER (INTERACTIVELY)	THE COMMAND 
-
-	set-executionpolicy -executionpolicy unrestricted
-```
-
-PATH TO SCRIPTS
-
-```
-.\\file.ps1 will run script IN THIS FOLDER 
-
-	c:\\path\\file.ps1 will run script in particular folder
-```
-
-Unblock a ps1 file downloaded from internet
-
-```
-One thing that's important to understand about execution policies is the meaning of the phrase "downloaded from the Internet." 
-	
-	In Windows, this phrase means that the file has an alternative data stream that indicates the file was downloaded from the Internet zone. 
-		
-	To unblock a script, right-click the .ps1 file, choose Properties, then click the Unblock
-```
-
-Best Practice : Create C:Scripts for all scripts
-
-```
-Because PowerShell doesn't execute scripts from the current directory, I recommend that you create a directory, add this directory to your Path, and store your PowerShell scripts in this directory. That way, you can avoid any problems.
-```
-
-Executing A Script In Quotes With & Character
-
-```
-If you simply type the script's name in quotes like you did in Cmd.exe, PowerShell assumes the pathname is a string and outputs the pathname instead of running the script. 
-
-	To work around this, you can use PowerShell's invocation operator, &, to execute the quoted string as a command, as in
-
-	PS C:\\> & "C:\\Program Files\\Scripts\\HelloWorld"
-```
-
-## Environment Variables
-
-### Get Environment Variables
-
-```powershell
-# list environment variables 
-ls env:
-# or 
-cd env:
-ls
-
-# get individual variables to use in scripts
-echo $env:USERNAME
-echo $env:COMPUTERNAME
-echo $env:PATH
-
-# update
-$env:PATH = $env:PATH + "c:\flutter\bin;"
-```
-
-## Powershell Functions
-
-### Function with no parameters
-
-```
-function global:MyAmazingScript{
-	echo "You are in my amazing script - watch out"
-}
-MyAmazingScript
-```
-
-### Function with parameters
-
-```
-function global:mkcd{
-    echo 'running script'
-    $path = $args[0]
-    echo $path
-    New-Item $path -ItemType Directory
-    cd $path
-
-}
-mkcd $args[0]e
-```
-
-## Powershell Summary So Far
-
-Get-Help
-Get-Command
-Get-Process
-Get-NetIPAdapter
-Get-Process *xxx* | select name,cpu | sort cpu -desc | -select first 5
-
-```
--outGridView
-| ft           format as table
-```
-
-get-service
-set-service -name homegroupprovider -startuptype disabled
-
-write-host x
-
-$a=1
-
--eq -ne -lt -gt -le -ge ! not and/or is/isnot ((TYPE CHECKER))
-
-Powershell Modules
-
-get-module -listAvailable	will show all available powershell modules on your computer
-
-get-command -module x will show all commands in a module
-
-Powershell Version
-
-$PSVersionTable shows the version of Powershell that is currently running!
-
-
-## functions
-
-Create a folder WindowsPowerShell and add it to your Path
-
-```powershell
-Function global:mkcd {
-  mkdir $args[0]
-  cd $args[0]
-}
-mkcd $args[0]
-```
-
-Use an elevated Powershell prompt to set the ExecutionPolicy to RemoteSigned and from now on you can call mkcd test to create a folder test and go into it.
-
-```
-@ turns off displaying command as it gets executed
-
-echo text output to scr    
-
-@echo off turns off the command permanently
-
-pause
-
-goto
-```
-
-### Tail
-
-Tail enables us to look at the last x lines of a file
-
-```
-Get-Content D:\\log.txt -Tail 3
-```
-
-### TCP
-
-Connect to any open socket using
-
-```
-New-Object System.Net.Sockets.TcpClient("a2k4.com", 2300)
-```
-
-### Telnet
-
-Install using
-
-```
-dism /online /enable-feature /featurename:telnetclient
-```
-
-### Wait
-
-Wait enables us to see live when a file has been updated
-
-```
-Get-Content D:\\log.txt –Wait
-```
-
-## Remote Powershell (Module 6)
+## Remote Powershell
 
 Remote Management Listener Service On Client
 
-```
-CLIENT : ADD LISTENER		
-
-	winrm quickconfig
-
-or
-
-	Enable-PSRemoting -force     no confirmation
-
-Powershell ports are 5985 and 5986 : this opens Windows firewall to allow these ports to be open
+```bash
+# CLIENT : ADD LISTENER		
+winnrm quickconfig
+# or
+Enable-PSRemoting -force     no confirmation
+# Powershell ports are 5985 and 5986
+# this opens Windows firewall to allow these ports to be open
 ```
 
 WinRS Remote Shell command : run from server
 
-```
-SERVER : RUN COMMAND 		
-
-	winrs -r:<hostname> ipconfig
+```bash
+# SERVER : RUN COMMAND 		
+winrs -r:<hostname> ipconfig
 ```
 
 invoke-command
 
-```
-EXECUTE SCRIPT FROM REMOTE MACHINE
-
+```bash
+# EXECUTE SCRIPT FROM REMOTE MACHINE
 invoke-command -computername x -scriptblock { y }
-
-RUN ONE COMMAND ON MULTIPLE COMPUTERS
-
-	       -computername x,y,z
-
-	     	READ LIST OF SERVERS FROM A FILE
-
-	       -ComputerName (Get-Content list-of-servers.txt)
-
+# RUN ONE COMMAND ON MULTIPLE COMPUTERS
+    -computername x,y,z
+# READ LIST OF SERVERS FROM A FILE
+    -ComputerName (Get-Content list-of-servers.txt)
 invoke-command -computername x -filepath y.ps1
 ```
 
 PSSession : new/connect/disconnect/remove/enter/exit : powershell remote session
 
-```
-new-PSSession		CREATE PERMANENT SESSION
+```bash
+# CREATE PERMANENT SESSION
+new-PSSession		
+$s=new-PSSession -ComputerName x
 
-	$s=new-PSSession -ComputerName x
+# remove session
+remove-PSSession
 
-remove-PSSession	REMOVE SESSION
+# CONNECT/DISCONNECT TO EXISTING SESSION
 
-CONNECT/DISCONNECT TO EXISTING SESSION
+```bash
+connect-PSSession -Session $s
+INVOKE-COMMAND -Session $ { }....  # RUN IN THIS SESSION
+disconnect-PSSession -Session $s
 
-	connect-PSSession -Session $s
-		INVOKE-COMMAND -Session $ { }....  RUN IN THIS SESSION
-	disconnect-PSSession -Session $s
+# LIVE INTERACTIVE SESSION ON ANOTHER COMPUTER
 
-LIVE INTERACTIVE SESSION ON ANOTHER COMPUTER
+enter-PSSession  -ComputerName x
 
-	enter-PSSession  -ComputerName x
-
-		OPEN UP PROMPT DIRECTED AT REMOTE PC
-
-	exit OR exit-PSSession
+# OPEN UP PROMPT DIRECTED AT REMOTE PC
+exit 
+# OR 
+exit-PSSession
 ```
 
 FROM HOST TO GUEST VM
 
-```
-INSTEAD OF -ComputerName  use -VMName  
-
-	RUN SAME SCRIPTS AS ABOVE
-
-list all VMs
-
-	GET-VM
+```bash
+# INSTEAD OF -ComputerName  use -VMName  
+# RUN SAME SCRIPTS AS ABOVE
+# list all VMs
+GET-VM
 ```
 
 Remote Commands : summary
 
+```bash
 INVOKE-COMMAND
 ENTER-PSSESSION
 EXIT-PSSESSION
 DISCONNECT-PSSESSION
 RECEIVE-PSSESSION
 CONNECT-PSSESSION
+```
 
-Extra Notes From Module 6
-
-RESOURCES NOT COPIED ACROSS: ONLY SCRIPTING COMMANDS
-KERBEROS : SO MUST BE DOMAIN
-OR SSL CERTIFS
-
-ENVIRONMENT VARIABLES
-%HOMEPATH%
-%WINDIR%
-%username%
-%systemroot%
-%systemdrive%
 
 ```
 <http://ss64.com/nt/syntax-variables.html>
 
 INVOKE-COMMAND  -COMPUTERNAME LON-CL1, LON-CL3 -SCRIPTBLOCK {}
-
-GET-EVENTLOG -LOG SYSTEM
-Get-EventLog System -Newest 5
 
 $s = new-PSWorkflowSession -ComputerName Lon-CL1,LON-CL3
 

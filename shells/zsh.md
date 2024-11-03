@@ -7,7 +7,6 @@
   - [intrduction](#intrduction)
   - [reference link](#reference-link)
   - [zsh - Z Shell : Custom Shell for MAC](#zsh---z-shell--custom-shell-for-mac)
-    - [Installing](#installing)
     - [Using](#using)
   - [Oh My Zsh](#oh-my-zsh)
   - [.zshrc](#zshrc)
@@ -29,16 +28,6 @@ nano .zshrc
 ```
 
 
-
-### Installing
-
-```js
-sudo apt-get update
-# install zsh
-sudo apt-get install -y zsh
-# check the version
-zsh --version
-```
 
 ### Using
 

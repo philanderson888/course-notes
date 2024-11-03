@@ -1,0 +1,18 @@
+name: Check For Broken Links
+
+on: [push]
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run lychee link checker
+        uses: lycheeverse/lychee-action@v1.6.1
+        with:
+          args: --verbose --no-progress --timeout 30 ./  # Specify the directory or files to check
+
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

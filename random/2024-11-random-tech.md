@@ -8,6 +8,7 @@
   - [202411 artificial intelligence](#202411-artificial-intelligence)
   - [202411 artificial intelligence in videos](#202411-artificial-intelligence-in-videos)
   - [202411 maths](#202411-maths)
+  - [202411 tech to investigate](#202411-tech-to-investigate)
 
 ## 202411 scripted notes
 
@@ -36,4 +37,10 @@ Sine Rule: sin A over A = Sin B over B
 Volume of sphere is 4/3 PI R cubed
 
 Volume of cone is 1/3 PI R squared x height
+
+## 202411 tech to investigate
+
+google earth timeline can now show us how a landscape has changed over the years
+
+
 

@@ -3,12 +3,34 @@ body {
     margin: 20px;
 }
 
+h1, h2, h3 {
+    color: rgb(0, 128, 128);
+}
+
 h1 {
     text-align: center;
+    background-color: rgb(137, 215, 215);
+    padding: 20px 0;
+}
+
+h2 {
+    background-color: rgb(179, 232, 232);
+    padding: 15px 0;
+}
+
+#report-heading {
+    cursor: pointer;
+}
+
+#raw-transactions {
+    display: none;
+
 }
 
 #upload-section, #filter-section, #report-section {
-    margin: 20px 0;
+    margin: 40px 0;
+    padding: 20px 0;
+    background-color: azure;
 }
 
 table {

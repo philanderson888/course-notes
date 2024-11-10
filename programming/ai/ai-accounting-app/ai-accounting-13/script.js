@@ -6,6 +6,15 @@ let googleSheetsApiKey = 'getYourOwnKey';
 const categoryChart = document.getElementById('categoryChart');
 const categoryPieChart = document.getElementById('categoryPieChart');
 
+document.getElementById('report-heading').addEventListener('click', () => {
+    const rawTransactions = document.getElementById('raw-transactions');
+    if (rawTransactions.style.display === 'none') {
+        rawTransactions.style.display = 'block';
+    } else {
+        rawTransactions.style.display = 'none';
+    } 
+});
+
 document.getElementById('filter-data').addEventListener('click', () => {
     filterData();
     updateActiveButton('filter-data');
@@ -30,10 +39,64 @@ document.getElementById('show-2024').addEventListener('click', () => {
     updateHeadings('Year', 2024);
 });
 
+document.getElementById('last-1-day').addEventListener('click', () => {
+    console.log(' ');
+    console.log('last 1 day button clicked...');
+    filterLastDays(1);
+});
+
+document.getElementById('last-2-days').addEventListener('click', () => {
+    console.log(' ');
+    console.log('last 2 days button clicked...');
+    filterLastDays(2);
+});
+
+document.getElementById('last-3-days').addEventListener('click', () => {
+    console.log(' ');
+    console.log('last 3 days button clicked...');
+    filterLastDays(3);
+});
+
+document.getElementById('last-4-days').addEventListener('click', () => {
+    console.log(' ');
+    console.log('last 4 days button clicked...');
+    filterLastDays(4);
+});
+
+document.getElementById('last-5-days').addEventListener('click', () => {
+    console.log(' ');
+    console.log('last 5 days button clicked...');
+    filterLastDays(5);
+});
+
+document.getElementById('last-6-days').addEventListener('click', () => {
+    console.log(' ');
+    console.log('last 6 days button clicked...');
+    filterLastDays(6);
+});
+
 document.getElementById('last-7-days').addEventListener('click', () => {
     console.log(' ');
     console.log('last 7 days button clicked...');
     filterLastDays(7);
+});
+
+document.getElementById('last-10-days').addEventListener('click', () => {
+    console.log(' ');
+    console.log('last 10 days button clicked...');
+    filterLastDays(10);
+});
+
+document.getElementById('last-14-days').addEventListener('click', () => {
+    console.log(' ');
+    console.log('last 14 days button clicked...');
+    filterLastDays(14);
+});
+
+document.getElementById('last-21-days').addEventListener('click', () => {
+    console.log(' ');
+    console.log('last 21 days button clicked...');
+    filterLastDays(21);
 });
 
 document.getElementById('last-30-days').addEventListener('click', () => {
@@ -82,31 +145,41 @@ function updateActiveButton(activeId) {
 }
 
 function updateHeadings(type, start, end = null) {
+    const filterHeading = document.getElementById('filter-heading');
     const reportHeading = document.getElementById('report-heading');
-    const summaryHeading = document.getElementById('summary-heading');
+    const incomeHeading = document.getElementById('income-summary');
+    const expenditureHeading = document.getElementById('expenditure-summary');
     const barChartHeading = document.getElementById('bar-chart-heading');
     const pieChartHeading = document.getElementById('pie-chart-heading');
     
     if (type === 'Custom') {
+        filterHeading.textContent = `Filter By Date - ${start} to ${end}`;
         reportHeading.textContent = `Combined Income and Expense Report - ${start} to ${end}`;
-        summaryHeading.textContent = `Category Summary - ${start} to ${end}`;
-        barChartHeading.textContent = `Expenditure by Category Bar Chart - ${start} to ${end}`;
-        pieChartHeading.textContent = `Expenditure by Category Pie Chart - ${start} to ${end}`;
+        incomeHeading.textContent = `Income Summary - ${start} to ${end}`;
+        expenditureHeading.textContent = `Expenditure Summary - ${start} to ${end}`;
+        barChartHeading.textContent = `Expenditure Summary - ${start} to ${end}`;
+        pieChartHeading.textContent = `Expenditure Summary - ${start} to ${end}`;
     } else if (type === 'Year') {
+        filterHeading.textContent = `Filter By Year - ${start}`;
         reportHeading.textContent = `Combined Income and Expense Report - ${start}`;
-        summaryHeading.textContent = `Category Summary - ${start}`;
-        barChartHeading.textContent = `Expenditure by Category Bar Chart - ${start}`;
-        pieChartHeading.textContent = `Expenditure by Category Pie Chart - ${start}`;
+        incomeHeading.textContent = `Income Summary - ${start}`;
+        expenditureHeading.textContent = `Expenditure Summary - ${start}`;
+        barChartHeading.textContent = `Expenditure Summary - ${start}`;
+        pieChartHeading.textContent = `Expenditure Summary - ${start}`;
     } else if (type === 'Month') {
+        filterHeading.textContent = `Filter By Month - ${start}`;
         reportHeading.textContent = `Combined Income and Expense Report - ${start}`;
-        summaryHeading.textContent = `Category Summary - ${start}`;
-        barChartHeading.textContent = `Expenditure by Category Bar Chart - ${start}`;
-        pieChartHeading.textContent = `Expenditure by Category Pie Chart - ${start}`;
+        incomeHeading.textContent = `Income Summary - ${start}`;
+        expenditureHeading.textContent = `Expenditure Summary - ${start}`;
+        barChartHeading.textContent = `Expenditure Summary - ${start}`;
+        pieChartHeading.textContent = `Expenditure Summary - ${start}`;
     } else if (type === 'Recent') {
+        filterHeading.textContent = `Filter - ${start}`;
         reportHeading.textContent = `Combined Income and Expense Report - ${start}`;
-        summaryHeading.textContent = `Category Summary - ${start}`;
-        barChartHeading.textContent = `Expenditure by Category Bar Chart - ${start}`;
-        pieChartHeading.textContent = `Expenditure by Category Pie Chart - ${start}`;
+        incomeHeading.textContent = `Income Summary - ${start}`;
+        expenditureHeading.textContent = `Expenditure Summary - ${start}`;
+        barChartHeading.textContent = `Expenditure Summary - ${start}`;
+        pieChartHeading.textContent = `Expenditure Summary - ${start}`;
     }
 }
 
@@ -133,18 +206,18 @@ getApiKey = () => {
 }
 
 function loadGoogleSheetDataApiv4() {
-    const spreadsheetId = '1A7-9gAZbPcMF7ZWu25AxLL3RwhL8iRA8_TO9o_LzDuI';
+    const spreadsheetId = '1JBQkV95ga83ccbg5ZHRKOooNYNietvdTCIpEzBKZIXw';
     const range = 'CombinedAll';   
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${googleSheetsApiKey}`;
-    
+
     fetch(url)
     .then(response => response.json())
     .then(data => {
         parseGoogleSheetData(data);
         displayData(combinedData);
-        const sortedCategories = displayCategorySummary(combinedData);
-        displayCategoryBarChart(sortedCategories);
-        displayCategoryPieChart(sortedCategories);
+        const sortedExpenditureCategories = displayCategorySummary(combinedData);
+        displayCategoryBarChart(sortedExpenditureCategories);
+        displayCategoryPieChart(sortedExpenditureCategories);
     })
     .catch(error => console.error('Error loading data:', error));
 }
@@ -152,7 +225,7 @@ function loadGoogleSheetDataApiv4() {
 function parseGoogleSheetData(data) {
     const headers = data.values[0];
 
-    const filterByCategory = data.values.slice(1).filter(entry => entry[headers.indexOf('Category')] !== 'Transfers' && entry[headers.indexOf('Category')] !== 'Transfer' && entry[headers.indexOf('Category')] !== 'Salary' && entry[headers.indexOf('Category')] !== 'Initial Balance');
+    const filterByCategory = data.values.slice(1).filter(entry => entry[headers.indexOf('Category')] !== 'Transfers' && entry[headers.indexOf('Category')] !== 'Transfer' && entry[headers.indexOf('Category')] !== 'Initial Balance');
 
     const filterByCategoryAndAmount = filterByCategory.filter(entry => entry[headers.indexOf('Amount')] !== '0.00');
 
@@ -241,25 +314,26 @@ function displayCategorySummary(data) {
 
     // Convert the categoryTotals object to an array and sort it by value in descending order, filtering out zero values after rounding to the nearest 100
     const roundingFactor = 100;
-    sortedCategories = Object.entries(categoryTotalsConsolidated)
+    sortedExpenditureCategories = Object.entries(categoryTotalsConsolidated)
         .map(([category, total]) => [category, Math.round(total / roundingFactor) * roundingFactor])
         .filter(([, roundedTotal]) => roundedTotal !== 0)
+        .filter(([, roundedTotal]) => roundedTotal > 0)
         .sort((a, b) => b[1] - a[1]);
 
     // Display sorted data in the table
-    const summaryTableBody = document.querySelector('#summary-table tbody');
-    summaryTableBody.innerHTML = '';
-    sortedCategories.forEach(([category, roundedTotal]) => {
+    const expenditureSummaryTableBody = document.querySelector('#expenditure-summary-table tbody');
+    expenditureSummaryTableBody.innerHTML = '';
+    sortedExpenditureCategories.forEach(([category, roundedTotal]) => {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${category}</td>
             <td>${roundedTotal.toFixed(2)}</td>
         `;
-        summaryTableBody.appendChild(row);
+        expenditureSummaryTableBody.appendChild(row);
     });
 
     // Display the total expenditure
-    const totalExpenditure = sortedCategories.reduce((sum, [, total]) => sum + total, 0);
+    const totalExpenditure = sortedExpenditureCategories.reduce((sum, [, total]) => sum + total, 0);
     document.getElementById('total-expenditure').textContent = `Total Expenditure - £${totalExpenditure.toFixed(2)}`;
     
 
@@ -300,8 +374,6 @@ function displayCategorySummary(data) {
    
 
 
-
-
     const mortgageAndUtilitiesTotals = {};
 
     for (const [category, total] of Object.entries(categoryTotals)) {
@@ -332,7 +404,33 @@ function displayCategorySummary(data) {
     const totalMortgageAndUtilitiesExpenditure = sortedMortgageAndUtilitiesCategories.reduce((sum, [, total]) => sum + total, 0);
     document.getElementById('total-mortgage-and-utilities-expenditure').textContent = `Total Mortgage And Utilities Expenditure - £${totalMortgageAndUtilitiesExpenditure.toFixed(0)}`;   
 
-    return sortedCategories;
+
+
+    // add on income summary
+    sortedIncomeCategories = Object.entries(categoryTotalsConsolidated)
+    .map(([category, total]) => [category, -1 * Math.round(total / roundingFactor) * roundingFactor])
+    .filter(([, roundedTotal]) => roundedTotal !== 0)
+    .filter(([, roundedTotal]) => roundedTotal > 0)
+    .sort((a, b) => b[1] - a[1]);
+
+    // Display sorted data in the table
+    const incomeSummaryTableBody = document.querySelector('#income-summary-table tbody');
+    incomeSummaryTableBody.innerHTML = '';
+    sortedIncomeCategories.forEach(([category, roundedTotal]) => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${category}</td>
+            <td>${roundedTotal.toFixed(2)}</td>
+        `;
+        incomeSummaryTableBody.appendChild(row);
+    });
+
+    // Display the total income
+    const totalIncome = sortedIncomeCategories.reduce((sum, [, total]) => sum + total, 0);
+    
+    document.getElementById('total-income').textContent = `Total Income - £${totalIncome.toFixed(2)}`;
+
+    return sortedExpenditureCategories;
 }
 
 
@@ -342,9 +440,9 @@ function displayCategorySummary(data) {
 //
 // --------------------------------------------------------------------------
 
-function displayCategoryBarChart(sortedCategories) {
-    const categories = sortedCategories.map(([category]) => category);
-    const totals = sortedCategories.map(([, total]) => total);
+function displayCategoryBarChart(sortedExpenditureCategories) {
+    const categories = sortedExpenditureCategories.map(([category]) => category);
+    const totals = sortedExpenditureCategories.map(([, total]) => total);
 
     const ctx = categoryChart.getContext('2d');
 
@@ -386,9 +484,9 @@ function displayCategoryBarChart(sortedCategories) {
     });
 }
 
-function displayCategoryPieChart(sortedCategories) {
-    const categories = sortedCategories.map(([category]) => category);
-    const totals = sortedCategories.map(([, total]) => total);
+function displayCategoryPieChart(sortedExpenditureCategories) {
+    const categories = sortedExpenditureCategories.map(([category]) => category);
+    const totals = sortedExpenditureCategories.map(([, total]) => total);
 
     const ctx = categoryPieChart.getContext('2d');
 
@@ -442,9 +540,9 @@ function filterData() {
     });
 
     displayData(filterByDateAndCategory);
-    const sortedCategories = displayCategorySummary(filterByDateAndCategory);
-    updateCategoryBarChart(sortedCategories);
-    updateCategoryPieChart(sortedCategories);
+    const sortedExpenditureCategories = displayCategorySummary(filterByDateAndCategory);
+    updateCategoryBarChart(sortedExpenditureCategories);
+    updateCategoryPieChart(sortedExpenditureCategories);
 }
 
 function filterByYear(year) {
@@ -459,9 +557,9 @@ function filterByYear(year) {
     });
 
     displayData(filteredData);
-    const sortedCategories = displayCategorySummary(filteredData);
-    updateCategoryBarChart(sortedCategories);
-    updateCategoryPieChart(sortedCategories);    
+    const sortedExpenditureCategories = displayCategorySummary(filteredData);
+    updateCategoryBarChart(sortedExpenditureCategories);
+    updateCategoryPieChart(sortedExpenditureCategories);    
 }
 
 function filterByMonth(year, month) {
@@ -477,9 +575,9 @@ function filterByMonth(year, month) {
     });
 
     displayData(filteredData);
-    const sortedCategories = displayCategorySummary(filteredData);
-    updateCategoryBarChart(sortedCategories);
-    updateCategoryPieChart(sortedCategories);
+    const sortedExpenditureCategories = displayCategorySummary(filteredData);
+    updateCategoryBarChart(sortedExpenditureCategories);
+    updateCategoryPieChart(sortedExpenditureCategories);
 }
 
 function filterLastDays(days) {
@@ -504,9 +602,36 @@ function filterLastDays(days) {
     
     filterData();
 
-    if (days === 7) {
+    if (days === 1) {
+        updateHeadings('Recent', 'Last 1 Day');
+        updateActiveButton('last-1-day');
+    } else if (days === 2) {
+        updateHeadings('Recent', 'Last 2 Days');
+        updateActiveButton('last-2-days');
+    } else if (days === 3) {
+        updateHeadings('Recent', 'Last 3 Days');
+        updateActiveButton('last-3-days');
+    } else if (days === 4) {
+        updateHeadings('Recent', 'Last 4 Days');
+        updateActiveButton('last-4-days');
+    } else if (days === 5) {
+        updateHeadings('Recent', 'Last 5 Days');
+        updateActiveButton('last-5-days');
+    } else if (days === 6) {
+        updateHeadings('Recent', 'Last 6 Days');
+        updateActiveButton('last-6-days');
+    } else if (days === 7) {
         updateHeadings('Recent', 'Last 7 Days');
         updateActiveButton('last-7-days');
+    } else if (days === 10) {
+        updateHeadings('Recent', 'Last 10 Days');
+        updateActiveButton('last-10-days');
+    } else if (days === 14) {
+        updateHeadings('Recent', 'Last 14 Days');
+        updateActiveButton('last-14-days');
+    } else if (days === 21) {
+        updateHeadings('Recent', 'Last 21 Days');
+        updateActiveButton('last-21-days');
     } else if (days === 30) {
         updateHeadings('Recent', 'Last 30 Days');
         updateActiveButton('last-30-days');
@@ -537,9 +662,9 @@ function formatDate(date) {
 // --------------------------------------------------------------------------
 
 
-function updateCategoryBarChart(sortedCategories) {
-    const categories = sortedCategories.map(([category]) => category);
-    const totals = sortedCategories.map(([, total]) => total);
+function updateCategoryBarChart(sortedExpenditureCategories) {
+    const categories = sortedExpenditureCategories.map(([category]) => category);
+    const totals = sortedExpenditureCategories.map(([, total]) => total);
 
     const chartData = {
         labels: categories,
@@ -580,9 +705,9 @@ function updateCategoryBarChart(sortedCategories) {
     window.categoryChart.update();    
 }
 
-function updateCategoryPieChart(sortedCategories) {
-    const categories = sortedCategories.map(([category]) => category);
-    const totals = sortedCategories.map(([, total]) => total);
+function updateCategoryPieChart(sortedExpenditureCategories) {
+    const categories = sortedExpenditureCategories.map(([category]) => category);
+    const totals = sortedExpenditureCategories.map(([, total]) => total);
 
     const chartData = {
         labels: categories,

@@ -12,6 +12,9 @@
   - [202411 tech to investigate](#202411-tech-to-investigate)
   - [202411 video final cut pro](#202411-video-final-cut-pro)
   - [202411 cloud](#202411-cloud)
+  - [202411 inspired websites](#202411-inspired-websites)
+
+
 
 ## 202411 scripted notes
 
@@ -69,3 +72,18 @@ apache spark is used to crunch huge amounts of cloud data using distributed para
 df = spark.read.json("logs.json")
 df.where("age > 21").select("name.first").show()
 ```
+
+## 202411 inspired websites
+
+this is an inspired portfolio website https://tunis-nextjs.netlify.app/home-dark
+
+?? use squarespace to build me a website automatically ???
+
+framer is just totally inspiring ... learn how to build my portfolio site using it !!!
+
+like this one ... copy it !!! https://najm.framer.website/
+
+framer templates are just amazing
+
+dropdowns .. i love the framer website ones https://www.framer.com/meetups/
+

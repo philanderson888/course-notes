@@ -123,6 +123,7 @@ document.getElementById('last-365-days').addEventListener('click', () => {
     filterLastDays(365);
 });
 
+// Add event listeners for each month button
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 months.forEach((month, index) => {
     document.getElementById(`show-${month.toLowerCase()}-2024`).addEventListener('click', () => {
@@ -252,8 +253,21 @@ function displayData(data) {
     let counter = 0;
     data.forEach(entry => {
         counter++;
-        if (counter < 30) {
+
+        let invalidDescription = false;
+        if (entry.description === undefined) {
+            invalidDescription = true;
+            entry.description = '';
+        }
+
+        let invalidCategory = false;
+        if (entry.category === 'General' || entry.category === 'Transport' || entry.category === 'Bills' || entry.category === 'Groceries' || entry.category === 'Shopping' || entry.category === 'Entertainment') {
+            invalidCategory = true;
+        }
+
+        if (counter < 100) {
             const row = document.createElement('tr');
+            row.style = (invalidCategory || invalidDescription) ? 'background-color: #ffcccc;' : '';
             row.innerHTML = `
                 <td>${entry.date}</td>
                 <td>${entry.category}</td>
@@ -324,6 +338,12 @@ function displayCategorySummary(data) {
     expenditureSummaryTableBody.innerHTML = '';
     sortedExpenditureCategories.forEach(([category, roundedTotal]) => {
         const row = document.createElement('tr');
+
+        invalidCategory = false;
+        if (category === 'General' || category === 'Transport' || category === 'Bills' || category === 'Groceries' || category === 'Shopping' || category === 'Entertainment') {
+            invalidCategory = true;
+        }
+        row.style = invalidCategory ? 'background-color: #ffcccc;' : ''; 
         row.innerHTML = `
             <td>${category}</td>
             <td>${roundedTotal.toFixed(2)}</td>

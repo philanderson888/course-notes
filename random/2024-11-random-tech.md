@@ -13,6 +13,9 @@
   - [202411 video final cut pro](#202411-video-final-cut-pro)
   - [202411 cloud](#202411-cloud)
   - [202411 inspired websites](#202411-inspired-websites)
+  - [202411 javascript](#202411-javascript)
+  - [202411 writing videos](#202411-writing-videos)
+  - [202411 javascript](#202411-javascript-1)
 
 
 
@@ -64,7 +67,7 @@ google earth timeline can now show us how a landscape has changed over the years
 option w adds a 3 second gap 
 
 
-## 202411 cloud
+## 202411 cloud 
 
 apache spark is used to crunch huge amounts of cloud data using distributed parallel processing ... install using `pip install pyspark` and use the command `pyspark` or run with docker image `docker run -it --rm spark:python3 /opt/spark/bin/pyspark` and can run code with for example 
 
@@ -86,4 +89,18 @@ like this one ... copy it !!! https://najm.framer.website/
 framer templates are just amazing
 
 dropdowns .. i love the framer website ones https://www.framer.com/meetups/
+
+## 202411 javascript
+
+npx is-my-node-vulnerable
+
+open js foundation
+
+## 202411 writing videos
+
+a good way to create a video is to create a web page first and go through it live when you are coding - genius !!! so build it first then go through and explain it , document it and create a video of you building it.  this is genius as it helps others and helps yourself be concise and make sure it is all working before you begin - genius !!!
+
+## 202411 javascript
+
+.mjs stands for module javascript and stands for ES javascript using import export syntax
 

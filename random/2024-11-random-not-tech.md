@@ -19,6 +19,10 @@
     - [kids](#kids-1)
     - [General](#general-1)
     - [Space](#space)
+  - [AI maths](#ai-maths)
+  - [AI shop](#ai-shop)
+  - [CAD design](#cad-design)
+  - [courses](#courses)
 
 ## 202411 money
 
@@ -137,3 +141,72 @@ new restaurant on moon - good food, no atmosphere
 
 Did you hear about the claustrophobic astronaut?
 He just needed a little space.
+
+
+anaconda looks amazing ... a bit like docker on your local machine, you can install dependencies etc and not affect local machine
+
+stable diffusion, flux ... image generation .... 
+
+
+abacus ai can search latest web, can generate videos, and code. can analyse documents etc.  (not free 10 per month)
+
+
+
+whats more amazing than a talking dog? a spelling bee ...
+
+
+
+deep face live can swap out your face real time ... wow !
+
+
+
+https://pixverse.ai/ stunning video generation
+
+
+ai tool sora used to create videos but can be $200 per minute of video!
+
+
+ai animations ... wow !!! can i make one into another!
+
+
+giphy can be used for graphics animation
+
+create ai music ... https://uppbeat.io/pricing  for £70 for a year  sign in with google eg piano worship soaking music at https://uppbeat.io/browse/search?query=piano%20worship%20soaking&type=music
+
+
+
+https://app.sketchup.com/app
+
+omni gen can edit images big time - wow !!! must download it locally to use properly though
+
+
+
+## AI maths
+
+this is crazy - it can just do AI maths for you no problem !
+
+https://nb.anaconda.cloud/jupyterhub/user/a3d9771b-a225-400b-a120-19cb03108948/lab/workspaces/auto-Q/tree/Untitled.ipynb?
+
+
+
+
+
+
+## AI shop
+
+build your own store ... not sure if this is something I want to do as we already have it ... can possibly try it out to see how it all works!
+
+https://app.buildyourstore.ai/create-shopify-account/
+
+auto DS auto drop ships stuff for you ... wow !!!
+
+## CAD design
+
+free CAD is free ! 
+
+https://app.sketchup.com/app  house design!
+
+
+## courses
+
+the linux foundation does some free courses eg serverless 

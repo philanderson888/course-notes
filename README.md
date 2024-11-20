@@ -84,6 +84,22 @@ notes on various topics
   - removes salary from the expenditure
   - removes transfers
 
+- version 14
+  - adds a css red highlighting for transactions which have to have their descriptions upgraded or their categories amended
+
+- version 15
+  - adds a giving category
+
+- version 16
+  - add a giving summary
+
+- version 17
+  - add a more detailed giving summary
+
+- version 18
+  - add a sophisticated giving output
+
+ 
 ## cyber
 
 [cyber](cyber/README.md)

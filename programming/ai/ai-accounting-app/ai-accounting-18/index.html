@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Accounting App</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .active-button {
+            background-color: #007BFF;
+            color: white;
+            border: 2px solid #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Accounting Application</h1>
+
+    <div id="report-section">
+
+        <h2 id="filter-heading">Filter By Date</h2>
+
+        <div class="filter-buttons-row">
+
+            <div id="year-buttons">
+                <button id="show-2022">Full Year 2022</button>
+                <button id="show-2023">Full Year 2023</button>
+                <button id="show-2024">Full Year 2024</button>
+            </div>   
+            
+            <div id="month-buttons">
+                <button id="show-jan-2024">January</button>
+                <button id="show-feb-2024">February</button>
+                <button id="show-mar-2024">March</button>
+                <button id="show-apr-2024">April</button>
+                <button id="show-may-2024">May</button>
+                <button id="show-jun-2024">June</button>
+                <button id="show-jul-2024">July</button>
+                <button id="show-aug-2024">August</button>
+                <button id="show-sep-2024">September</button>
+                <button id="show-oct-2024">October</button>
+                <button id="show-nov-2024">November</button>
+                <button id="show-dec-2024">December</button>
+            </div>
+
+            <div id="recent-buttons">
+                <button id="last-1-day">Last 1 Day</button>
+                <button id="last-2-days">Last 2 Days</button>
+                <button id="last-3-days">Last 3 Days</button>
+                <button id="last-4-days">Last 4 Days</button>
+                <button id="last-5-days">Last 5 Days</button>
+                <button id="last-6-days">Last 6 Days</button>
+                <button id="last-7-days">Last 7 Days</button>
+                <button id="last-10-days">Last 10 Days</button>
+                <button id="last-14-days">Last 14 Days</button>
+                <button id="last-21-days">Last 21 Days</button>
+                <button id="last-30-days">Last 30 Days</button>
+                <button id="last-60-days">Last 60 Days</button>
+                <button id="last-90-days">Last 90 Days</button>
+                <button id="last-180-days">Last 180 Days</button>
+                <button id="last-365-days">Last 365 Days</button>
+            </div>     
+
+        </div>
+
+        <div id="filter-section">
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" value="2020-01-01">
+            <label for="end-date">End Date:</label>
+            <input type="date" id="end-date" value="2022-08-01">
+            <button id="filter-data">Filter</button>
+        </div>
+    </div>
+
+    <div id="report-section">
+        <h2 id="report-heading">Raw Transactions (click to expand)</h2>
+        <div id="raw-transactions">
+            <h3>all income and expenditure raw transactions in the given filtered date range</h3>
+            <table id="report-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Category</th>
+                        <th>Payee</th>
+                        <th>Amount</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="report-section">
+        <h2 id="charity-report-heading">Giving (click to expand)</h2>
+        <div id="charity-raw-transactions">
+            <h3>all giving raw transactions in the given filtered date range</h3>
+            <table id="charity-report-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Category</th>
+                        <th>Payee</th>
+                        <th>Amount</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="report-section">
+        <h2 id="income-summary">Income Summary</h2>
+        <table id="income-summary-table" border="1">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Total Amount</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h2 id="total-income">
+            Total Income - £0
+        </h2>
+    </div>
+    
+
+    <div id="report-section">
+        <h2 id="expenditure-summary">Expenditure Summary</h2>
+        <table id="expenditure-summary-table" border="1">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Total Amount</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h2 id="total-expenditure">
+            Total Expenditure - £0
+        </h2>
+    </div>
+
+    <div id="report-section">
+        <h2 id="mortgage-and-utilties-heading">Mortgage And Utilities Summary</h2>
+        <table id="mortgage-and-utilities-table">
+            <thead>
+                <tr>
+                    <th>Mortgage & Utilities Category</th>
+                    <th>Total (£)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <h2 id="total-mortgage-and-utilities-expenditure">
+            Total Mortgage And Utilities Expenditure - £0
+        </h2>
+    </div>
+
+    <div id="report-section">
+        <h2 id="charity-heading">Charity Summary</h2>
+        <div id="hide-me">
+            <h3>Main Charity Categories</h3>
+            <table id="charity-table">
+                <thead>
+                    <tr>
+                        <th>Charity Category</th>
+                        <th>Amount (£)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <h3>Smaller Charity Categories</h3>
+            <table id="smaller-charity-table">
+                <thead>
+                    <tr>
+                        <th>Charity Category</th>
+                        <th>Amount (£)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>     
+        </div>
+
+        <h3>Church Tithes And Offerings</h3>
+        <table id="tithes-and-offerings-table">
+            <thead>
+                <tr>
+                    <th>Charity Category</th>
+                    <th>Amount (£)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <h3>UK Charity Giving</h3>
+        <table id="uk-charity-giving-table">
+            <thead>
+                <tr>
+                    <th>Charity Category</th>
+                    <th>Amount (£)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <h3>UK Giving To Individuals</h3>
+        <table id="uk-individual-giving-table">
+            <thead>
+                <tr>
+                    <th>Charity Category</th>
+                    <th>Amount (£)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <h3>International Giving To Individuals And Groups Directly</h3>
+        <table id="international-charity-giving-table">
+            <thead>
+                <tr>
+                    <th>Charity Category</th>
+                    <th>Amount (£)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <h2 id="total-charity-expenditure">
+            Total Charity Expenditure - £0
+        </h2>   
+    </div>
+
+    <div id="report-section">
+        <h2 id="bar-chart-heading">Expenditure by Category Bar Chart</h2>
+        <div id="categoryBarChartContainer">
+            <canvas id="categoryChart" width="400" height="200"></canvas>
+        </div>
+    </div>
+
+    <div id="report-section">
+        <h2 id="pie-chart-heading">Expenditure by Category Pie Chart</h2>
+        <div id="categoryPieChartContainer">
+            <canvas id="categoryPieChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

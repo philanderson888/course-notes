@@ -320,9 +320,9 @@ function displayCharityData(data) {
             entry.description = '';
         }
 
-        let invalidCategory = false;
-        if (entry.category !== 'Charity') {
-            invalidCategory = true;
+        let invalidCategory = true;
+        if (entry.category.toLowerCase().includes('charity')) {
+            invalidCategory = false;
         }
 
         if (counter < maxRows) {

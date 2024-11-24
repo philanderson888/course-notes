@@ -4,17 +4,68 @@
 
 - [2024-11 random tech](#2024-11-random-tech)
   - [contents](#contents)
-  - [202411 cloud](#202411-cloud)
+  - [202411 money](#202411-money)
   - [202411 video](#202411-video)
+  - [202411 images](#202411-images)
+  - [202411 audio](#202411-audio)
+  - [202411 ai](#202411-ai)
+  - [202411 design](#202411-design)
+  - [202411 linux](#202411-linux)
+  - [2024 libraries](#2024-libraries)
+  - [202411 cloud](#202411-cloud)
+  - [202411 video](#202411-video-1)
   - [202411 javascript](#202411-javascript)
   - [202411 node](#202411-node)
   - [202411 ai robots](#202411-ai-robots)
-  - [202411 maths](#202411-maths)
   - [202411 javascript](#202411-javascript-1)
   - [sanitising input strings](#sanitising-input-strings)
   - [202411 react new features](#202411-react-new-features)
   - [202411 roku](#202411-roku)
   - [2024211 powershell](#2024211-powershell)
+  - [202411 tech](#202411-tech)
+  - [202411 tech history](#202411-tech-history)
+
+## 202411 money
+
+m2 is total cash or near-cash money supply of a country
+
+## 202411 video
+
+pixverse generates video
+deep face live swap out face
+abacus ai generate video
+sora generate video
+
+## 202411 images
+
+stable diffusion generates images
+ai animations
+giphy create animations
+omni can generate images real time but must install locally
+
+## 202411 audio
+
+upbeat 70 per year generate ai music
+
+## 202411 ai
+
+ai maths
+
+ai shop ... buildyourstore.ai with shopify and auto-ds
+
+## 202411 design
+
+sketchup generate 3d images
+
+free CAD
+
+## 202411 linux
+
+the linux foundation does free courses
+
+## 2024 libraries
+
+anaconda can install different versions of your library dependencies on your machine like docker
 
 ## 202411 cloud
 
@@ -47,17 +98,7 @@ developer nvidia.com has latest work by nvidia
 
 nvida have an omniverse for training robots
 
-## 202411 maths
 
-circle area is pi r squared
-
-Cosine Rule: a squared = b squared + c squared - 2bc cosine A
-
-Sine Rule: sin A over A = Sin B over B
-
-Volume of sphere is 4/3 PI R cubed
-
-Volume of cone is 1/3 PI R squared x height
 
 
 
@@ -417,4 +458,10 @@ $a=1; if ($a -is "Int32") { write-host "a is a number" }
 
 get-process | where cpu -gt 10
 
+## 202411 tech
 
+roku open source libraries used are all to be found at roku.com/ossfiles
+
+## 202411 tech history
+
+2002 anthony woods created company roku.  woods joined netflix in 2007 and worked on the project griffin player.  after 10 months woods left and netflix spun the griffin project into roku.  first boxes sold in 2008.

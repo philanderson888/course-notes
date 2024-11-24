@@ -26,15 +26,11 @@
 
 ## 202411 money
 
-m2 is an estimatee of the total money supply, including cash plus near-cash assets
+m2 is total cash or near-cash money supply of a country
 
 ## 202411 jokes
 
 ### general
-
-eat snails because i dont like fast food
-
-something smells and i think it is between your left eye and your right eye
 
 mathematician stop at nothing to avoid using negative numbers
 

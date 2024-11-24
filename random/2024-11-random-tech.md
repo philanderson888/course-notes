@@ -4,31 +4,37 @@
 
 - [2024-11 random tech](#2024-11-random-tech)
   - [contents](#contents)
-  - [202411 scripted notes](#202411-scripted-notes)
-  - [202411 ai robots](#202411-ai-robots)
-  - [202411 artificial intelligence](#202411-artificial-intelligence)
-  - [202411 artificial intelligence in videos](#202411-artificial-intelligence-in-videos)
-  - [202411 maths](#202411-maths)
-  - [202411 tech to investigate](#202411-tech-to-investigate)
-  - [202411 video final cut pro](#202411-video-final-cut-pro)
   - [202411 cloud](#202411-cloud)
-  - [202411 inspired websites](#202411-inspired-websites)
+  - [202411 video](#202411-video)
   - [202411 javascript](#202411-javascript)
-  - [202411 writing videos](#202411-writing-videos)
+  - [202411 node](#202411-node)
+  - [202411 ai robots](#202411-ai-robots)
+  - [202411 maths](#202411-maths)
   - [202411 javascript](#202411-javascript-1)
   - [sanitising input strings](#sanitising-input-strings)
   - [202411 react new features](#202411-react-new-features)
   - [202411 roku](#202411-roku)
 
+## 202411 cloud
 
+apache spark distributed computing for huge amounts of data ... pip install pyspark
 
-## 202411 scripted notes
+## 202411 video
 
-a) record voice
+opus clips can split up long videos
 
-b) upload to video
+## 202411 javascript
 
-c) upload video to youtube so can listen to it
+npx is my node vulnerable
+
+open js has free and paid courses to learn javascript
+
+## 202411 node
+
+npx is-my-node-vulnerable
+
+open js foundation
+
 
 ## 202411 ai robots
 
@@ -39,14 +45,6 @@ nvidia isaac sim is a way of training ai robots
 developer nvidia.com has latest work by nvidia
 
 nvida have an omniverse for training robots
-
-## 202411 artificial intelligence
-
-waymo has autonomous cars right now
-
-## 202411 artificial intelligence in videos
-
-clip anything from opus clip turns long form videos into short-form social media readily digestible clips.
 
 ## 202411 maths
 
@@ -60,48 +58,7 @@ Volume of sphere is 4/3 PI R cubed
 
 Volume of cone is 1/3 PI R squared x height
 
-## 202411 tech to investigate
 
-google earth timeline can now show us how a landscape has changed over the years
-
-
-## 202411 video final cut pro 
-
-option w adds a 3 second gap 
-
-
-## 202411 cloud 
-
-apache spark is used to crunch huge amounts of cloud data using distributed parallel processing ... install using `pip install pyspark` and use the command `pyspark` or run with docker image `docker run -it --rm spark:python3 /opt/spark/bin/pyspark` and can run code with for example 
-
-```py 
-df = spark.read.json("logs.json")
-df.where("age > 21").select("name.first").show()
-```
-
-## 202411 inspired websites
-
-this is an inspired portfolio website https://tunis-nextjs.netlify.app/home-dark
-
-?? use squarespace to build me a website automatically ???
-
-framer is just totally inspiring ... learn how to build my portfolio site using it !!!
-
-like this one ... copy it !!! https://najm.framer.website/
-
-framer templates are just amazing
-
-dropdowns .. i love the framer website ones https://www.framer.com/meetups/
-
-## 202411 javascript
-
-npx is-my-node-vulnerable
-
-open js foundation
-
-## 202411 writing videos
-
-a good way to create a video is to create a web page first and go through it live when you are coding - genius !!! so build it first then go through and explain it , document it and create a video of you building it.  this is genius as it helps others and helps yourself be concise and make sure it is all working before you begin - genius !!!
 
 ## 202411 javascript
 
@@ -235,42 +192,17 @@ concurrent rendering manages rendering priorities ... `useTransition`
 
 we can mark some updates as `non-urgent` so more critical renders are run first
 
-```jsx
-
-Search
-Write
-2
-
-Philip Anderson
-React 19: Goodbye to Old Features, Hello to the Future
-Adhithi Ravichandran
-Adhithi Ravichandran
-
-·
-Follow
-
-7 min read
-·
-Sep 26, 2024
-482
-
-
-12
-
-
-
-
-
-
-Photo by Ankush Minda on Unsplash
-React 19 is shaping up to be an important update, enhancing the performance and developer experience introduced in React 18. This new version isn’t just about small tweaks; its packed with improvements that will change how you build and optimize your React applications. Let’s dive into what’s new, why it matters, and how you can start using these features with practical code examples.
+react 19 updates
 
 1. Advanced Concurrent Rendering: Making UIs More Responsive
+
 Concurrent rendering was a big step forward in React 18, but React 19 refines it even further. The enhancements in React 19 allow you to manage rendering priorities with more granularity, making your apps feel snappier and more responsive, especially when juggling heavy computations or multiple user interactions.
 
 Code Snippet: Optimizing with useTransition
+
 React’s useTransition hook helps manage state transitions, allowing you to mark updates as non-urgent. This keeps your UI responsive by prioritizing more critical renders first.In this example, startTransition allows React to defer the less urgent state update (search results) until more critical updates are complete, improving user experience during heavy operations.
 
+```jsx
 import React, { useState, useTransition } from 'react';
 
 function SearchComponent() {
@@ -391,18 +323,10 @@ export async function submitForm(data) {
 ```
 
 
-avoid these things in `react` ... `useEffect` ... instead use server actions and server components 
+avoid react `useEffect` ... use server actions and server components 
 
-
-
-flutter vs react native - flutter wins easily
-
-
-oracle cloud provides a free .. tag `free` instance with 
 
 ## 202411 roku
-
-things to have a look at
 
 roku hero grid channel .. 8 years old !!!  https://github.com/rokudev/hero-grid-channel
 

@@ -445,15 +445,47 @@ prototype can replace default field or function with another
 
 zod types
 
+web sql allows browsers to store info using sqlite in the browser
+
+web sql is being deprecated in favour of web storage and indexed db and OPFS
+
+indexed db is replacing web sql database in the browser
+
+edge is built on chromium
+
+sqlite.org 
+
+cloudflare getting started
+
+npm create cloudflare@latest -- d1-tutorial
+
+cloudflare
+
 cloudflare durable session
 
+cloudflare d1 is sqlite database on the edge which your worker.js instance can access
+
+npx wrangler d1 create my-database will create a sqlite database in the cloud
+
+wrangler.toml will bind your local js worker to the d1 cloud database
+
 cloudflare d1 sls
+
+cloudflare d1 is a serverless database based on sqlite and launched in 2022
+
+cloudflare d1 demo at northwind.d1sql.com
 
 cloudflare r2 is no sql
 
 cloudflare edge nodes allow the user to access data far faster
 
 cloudflare edge nodes even run javascript
+
+chromium is web browser built by google and used in chrome, edge, samsung browser and opera
+
+sqlite is the most deployed database in the world
+
+edge is better than chrome because it collects far less data and its tracker blocker does not rely on a website to do the right thing, and it also gives better malware protection
 
 orm object relational mapper 
 
@@ -463,7 +495,7 @@ phoenix website with database getting started https://code.likeagirl.io/how-to-i
 
 phoenix api https://medium.com/@fredjourney/how-to-build-a-phoenix-hello-world-rest-api-5fc9e3acf331
 
-uri is a string which identifies a resoource
+uri is a string which identifies a resource
 
 url is a string which identifies a resource and a method of getting it eg http
 

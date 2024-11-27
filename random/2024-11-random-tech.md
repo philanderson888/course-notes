@@ -13,7 +13,6 @@
   - [202411 linux](#202411-linux)
   - [2024 libraries](#2024-libraries)
   - [202411 cloud](#202411-cloud)
-  - [202411 video](#202411-video-1)
   - [202411 javascript](#202411-javascript)
   - [202411 node](#202411-node)
   - [202411 ai robots](#202411-ai-robots)
@@ -21,7 +20,6 @@
   - [sanitising input strings](#sanitising-input-strings)
   - [202411 react new features](#202411-react-new-features)
   - [202411 roku](#202411-roku)
-  - [2024211 powershell](#2024211-powershell)
   - [202411 tech](#202411-tech)
   - [202411 tech history](#202411-tech-history)
 
@@ -31,27 +29,22 @@ m2 is total cash or near-cash money supply of a country
 
 ## 202411 video
 
-pixverse generates video
-deep face live swap out face
-abacus ai generate video
-sora generate video
+generate video abacus ai sora ai deep face ai pixverse ai
+opus ai splits long into short videos
 
 ## 202411 images
 
-stable diffusion generates images
-ai animations
-giphy create animations
-omni can generate images real time but must install locally
+generate images stable diffusion, omni ai but must install locally
 
 ## 202411 audio
 
-upbeat 70 per year generate ai music
+generate music upbeat ai £70 per year
 
 ## 202411 ai
 
 ai maths
 
-ai shop ... buildyourstore.ai with shopify and auto-ds
+generate shop ... build your store ai has shopify and auto ds 
 
 ## 202411 design
 
@@ -71,10 +64,6 @@ anaconda can install different versions of your library dependencies on your mac
 
 apache spark distributed computing for huge amounts of data ... pip install pyspark
 
-## 202411 video
-
-opus clips can split up long videos
-
 ## 202411 javascript
 
 npx is my node vulnerable
@@ -87,20 +76,13 @@ npx is-my-node-vulnerable
 
 open js foundation
 
-
 ## 202411 ai robots
 
 Clone AI humanoid robot
 
-nvidia isaac sim is a way of training ai robots
+ai to train robots - isaac sim ai, omniverse ai
 
-developer nvidia.com has latest work by nvidia
-
-nvida have an omniverse for training robots
-
-
-
-
+developer.nvidia.com
 
 ## 202411 javascript
 
@@ -384,79 +366,6 @@ automated channell testing 3 years old https://github.com/rokudev/automated-chan
 
 hello world https://github.com/rokudev/hello-world 
 
-## 2024211 powershell
-
-ss64.com
-
-start powershell begins new shell
-
-set-executionpolicy remotesigned
-
-ise integrated scripting environment
-
-enable-windowsoptionalfeature microsoft-windows-subsystem-linux
-
-get-alias
-
-get-command *name* -CommandType Cmdlet/Function/Workflow
-
-get-command -Module DISM
-
-get-help -examples -full -detailed -online -showwindow
-
-get-command | select field1, field2 # outputs as two columns only, without other information
-
-get-command | select name, modulename
-
-get-process | select name, cpu | out-gridview
-
-out-gridview # tabulates result as a sortable pop-out window
-
-get-process | select name, cpu | sort cpu -desc # sort by column
-
-format-table # output format
-
-format-list # output format
-
-get-netipaddress
-
-get-service *name* | select name, status, starttype
-
-get-service homegroupprovider | set-service -startuptype disabled
-
-set-service *name* -startuptype disabled
-
-write-host # send output to screen
-
-write-output # to other destinations
-
-pause
-
--confirm:false # do not ask for user confirmation
-
-get-serivce | foreach { $_.DisplayName } # foreach item 
-
-$camelCase # local variables
-
-$PascalCase # global variables
-
-$x # declare variable
-
-$y="hello" $ initialise variables
-
-$num1=1;$num2=2;write-host($a+$b)
-
-if ($a -eq $b) {}
-
-conditions -eq -ne -gt -lt -ge -le -and -or -not ! -is -isNot -as
-
-if ($a -like "thisstring") # contains
-
-$a=1; $a.getType() # returns Int32
-
-$a=1; if ($a -is "Int32") { write-host "a is a number" }
-
-get-process | where cpu -gt 10
 
 ## 202411 tech
 

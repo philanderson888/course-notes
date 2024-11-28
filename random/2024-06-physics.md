@@ -5,7 +5,8 @@
 - [physics](#physics)
   - [contents](#contents)
   - [physics](#physics-1)
-    - [202410 maths](#202410-maths)
+  - [school physics](#school-physics)
+  - [chemistry](#chemistry)
 
 
 
@@ -113,6 +114,37 @@ boson has integer spin
 - gravitational force
 ```
 
-### 202410 maths
 
-maths floating point number is mantissa x radix to the power exponent
+## school physics
+
+atom 
+
+molecule
+
+mass number is protons + neutrons
+
+atomic number is protons
+
+atomic mass
+
+formula mass
+
+mole in grams
+
+isotope is same protons different neutrons
+
+conservation of mass
+
+conservation of momentum
+
+conservation of angular momentum
+
+newton force = - force
+
+newton state continue as is unless force acts to change it
+
+## chemistry
+
+concentration is mass of solute in solution measured in moles per cubic metre
+
+mass = moles * 

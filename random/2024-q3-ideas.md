@@ -16,6 +16,11 @@
     - [vite and svelte demo](#vite-and-svelte-demo)
     - [other sites](#other-sites)
   - [app ideas](#app-ideas)
+  - [worship](#worship)
+    - [Ideas And Motivation](#ideas-and-motivation)
+    - [Equipment](#equipment)
+      - [Mic](#mic)
+    - [Song Writing](#song-writing)
 
 ## domains
 
@@ -153,3 +158,54 @@ Create an app to log when I am clicking in an app and perhaps key logging to kno
 GFA connect website ... just send messages from sponsor to child via coordinator ... both ways ... with notifications ... 
 
 
+
+## worship
+
+### Ideas And Motivation
+
+I really can express myself truly in song and prose ... can really go for it!
+
+### Equipment
+
+#### Mic
+
+Neumann KMS-105 or 104 mic
+
+dbx286 mic
+
+electrovoice RE20 dynamic mic
+
+shock mounts for your microphone
+
+### Song Writing
+
+Get rough outline
+
+Create loop
+
+Play loop over and over till get clarity on it
+
+Add drums
+
+Add instruments
+
+Practice Singing again https://docs.google.com/document/d/1zBLsZJyRR3pbRDefpoUDIc_aZJSsRTJB8Juv2qxSSQs/edit
+
+
+Like worship videos
+
+Street preaching
+
+Instagram live
+
+Facebook live
+
+Tiktok videos
+
+Instagram posts and stories
+
+Facebook ...
+
+Youtube videos ... shorts ...
+
+Tshirts 

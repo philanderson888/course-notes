@@ -1,29 +1,5 @@
 # notes
 
-notes on various topics
-- technical infrastructure
-  - hardware
-  - software
-  - servers
-  - security
-  - cyber security
-  - cloud
-- programming
-  - javscript
-  - node
-  - react
-  - flutter
-  - python
-  - java
-  - ... and some others
-- scripting
-  - powershell
-  - bash
-    - zsh
-- languages
-- space
-- ... and some other topics
-
 
 ## Contents
 

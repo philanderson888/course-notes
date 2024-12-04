@@ -4,7 +4,6 @@
 
 - [infrastructure](#infrastructure)
 	- [contents](#contents)
-	- [a plus labs](#a-plus-labs)
 	- [Encryption - Data In Transit](#encryption---data-in-transit)
 	- [Active Directory](#active-directory)
 	- [Encryption](#encryption)
@@ -441,14 +440,6 @@ REVOKING A CERTIFICATE
 				   STATUS PROTOCOL)
 
 		CHECK FOR JUST ONE CERTIFICATE : IS IT VALID?
-
-BACK UP CERTIFICATES
-
-	RECOVERY AGENT : AUTHORISED ADMINISTRATOR WHO
-		CAN RECOVER KEYS FOR USERS/COMPUTERS
-		IF NECESSARY
-
-			((WITHIN ACTIVE DIRECTORY))
 
 	ESCROW = TRUSTED 3RD PARTY TO HOLD OUR CERTIFICATES
 			IN CASE OF DISASTER

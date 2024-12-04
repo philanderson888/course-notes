@@ -2562,13 +2562,6 @@ Revoke = Annul
 
 			Online Certificate Status Protocol
 
-Back Up Keys
-
-	Data Recovery Agent : RECOVER ALL KEYS FOR ALL USERS
-					(Dangerous)
-
-	Key Recovery Agent : RECOVER ONE KEY FOR ONE USER : SAFER
-
 Escrow : Hold keys in trust
 
 	IN ORDER TO MAKE RECOVERY WORK, WE CAN GIVE OUR KEYS

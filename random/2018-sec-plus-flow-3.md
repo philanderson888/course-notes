@@ -3007,14 +3007,6 @@ Revoke = Annul a certificate
 
         QUICK : only check for 1 certificate
 
-Back up certificates
-    
-    If a user is UNAVAILABLE AND WANT TO RECOVER THEIR
-    CERTIFICATE, MUST APPOINT A
-
-        DATA RECOVERY AGENT : RECOVER ANY CERTIFICATE
-        KEY RECOVERY AGENT  : RECOVERY ONE CERTIFICATE
-
     ESCROW : STORE CERTIFICATES WITH 3RD PARTY COMPANY
 
         !!! CAREFUL !!!

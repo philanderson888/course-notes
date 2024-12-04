@@ -4,6 +4,9 @@
 
 - [cloud](#cloud)
   - [Contents](#contents)
+  - [202412 learning from baddie for business](#202412-learning-from-baddie-for-business)
+  - [202412 cloud](#202412-cloud)
+  - [202412 web](#202412-web)
   - [202410 cloud](#202410-cloud)
   - [202410 cloud history](#202410-cloud-history)
   - [202410 aws](#202410-aws)
@@ -161,8 +164,6 @@
   - [Storage Microsoft](#storage-microsoft)
     - [Storage QoS](#storage-qos)
     - [Commercial Cloud Storage Solutions](#commercial-cloud-storage-solutions)
-  - [Networking](#networking)
-- [VMs](#vms)
   - [VMGroups](#vmgroups)
   - [VM Management Groups](#vm-management-groups)
   - [VM Migration](#vm-migration)
@@ -447,9 +448,87 @@
 
 
 
+## 202412 learning from baddie for business
+
+- make content for tiktok fist and then distribute to other platforms
+- be consistent eg 2 to 3 times a week
+- focus on quality 
+- keep remaking posts until you see traction
+- try pinterest as well!!!
+- see yourself as a content created
+- main form of money is short form video creation
+- digital assets ... make them 
+- if you have a skill then create long form on youtube and use your short form social media to funnel the people you know onto the long form content from the short form social media sites
+- youtube assets are digital assets over 5 to 10 years
+- sell digital products eg books, songs
+- get and keep a stable income !!! first !!! that is where i am  !!!
+- social media will actually pay you to keep and stay on their platform
+- tiktok live streams even faceless ... try it ... 
+- tiktok shop affiliate
+- tiktop creativity program - post videos over 1 minute
+- facebook pays ads on reels
+- facebook pays in-stream ads for videos over 3 minutes
+- instagram ads on reels ... low payouts ...
+- instagram add url to a) caption b) story in sticker icon => link => url c) bio d) reel e) pay for ad with link
+- can post shorts to pinterest, twitter, youtube shorts, snapchat, instagram, facebook, tiktok
+- can share facebook reels to groups within that niche
+- facebook monetisation for videos over 4 minutes
+- ecommerce store 34000 dollars wow
+- tiktok live streams for pointing to the store
 
 
 
+## 202412 cloud
+
+CDK cloud development kit
+
+
+
+## 202412 web
+
+zod are types for javascript
+
+?= operator returns [error, null] or [null, result] 
+
+```js
+async function fetchData() {
+  try {
+    const response = await fetch("https://api.example.com/data");
+    try {
+      const data = await response.json();
+      return data;
+    } catch (parseError) {
+      console.error('Failed to parse JSON:', parseError);
+    }
+  } catch (networkError) {
+    console.error('Network error:', networkError);
+  }
+}
+// becomes
+async function fetchData() {
+  const [networkError, response] ?= await fetch("https://api.example.com/data");
+  if (networkError) return console.error('Network error:', networkError);
+  const [parseError, data] ?= await response.json();
+  if (parseError) return console.error('Failed to parse JSON:', parseError);
+  return data;
+}
+// or add error handler
+function customErrorHandler() {
+  return {
+    [Symbol.result]() {
+      return [new Error("Custom error message"), null];
+    },
+  };
+}
+
+const [error, result] ?= customErrorHandler();
+// overall we can simplify to one line
+const [error, data] ?= await fetch("https://api.example.com/data");
+// also
+await using [error, resource] ?= getResource();
+// handle errors first ... fail fast
+
+```
 
 
 
@@ -2979,18 +3058,6 @@ Goal is to guarantee I/O operations per sec IOPS
 
 Backblaze for cheap online
 
-## Networking
-
-vRSS virtual Receive Site Scaling
-
-# VMs
-
-.vmcx configuration data .vmrs vm runtime state
-
-Get all data about a running VM
-
-Get-VM -Name vm02 |Format-List *
-
 ## VMGroups
 
 ```powershell
@@ -3066,6 +3133,9 @@ Control Panel, Sync Center, Offline Files, Enable
 # cyber
 - [cloud](#cloud)
   - [Contents](#contents)
+  - [202412 learning from baddie for business](#202412-learning-from-baddie-for-business)
+  - [202412 cloud](#202412-cloud)
+  - [202412 web](#202412-web)
   - [202410 cloud](#202410-cloud)
   - [202410 cloud history](#202410-cloud-history)
   - [202410 aws](#202410-aws)
@@ -3223,8 +3293,6 @@ Control Panel, Sync Center, Offline Files, Enable
   - [Storage Microsoft](#storage-microsoft)
     - [Storage QoS](#storage-qos)
     - [Commercial Cloud Storage Solutions](#commercial-cloud-storage-solutions)
-  - [Networking](#networking)
-- [VMs](#vms)
   - [VMGroups](#vmgroups)
   - [VM Management Groups](#vm-management-groups)
   - [VM Migration](#vm-migration)

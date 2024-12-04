@@ -1,3 +1,133 @@
+## 2024-q4
+
+
+## contents
+
+- [Older](#older)
+- [Shopping](#shopping)
+  - [Evangelism](#evangelism)
+  - [prayer](#prayer)
+    - [missions](#missions)
+    - [random](#random)
+
+
+
+## 202412 quotes
+
+If your beliefs are never challenged by your community, I have news for you: you don’t have friends, you have fans.
+
+Protect the ever-loving heck out of your ability to do — don’t let big ideas get in the way of that.” (Avi Siegel)
+
+
+## skills
+
+### current skills
+
+- brightscript
+- streaming
+- a+
+- net+
+- sec+
+- cybersec+
+- mcse 
+- mcsa
+- mct
+- windows 10
+- .net
+- java
+- js
+- node
+- frameworks react vue angular
+- java 
+- kotlin
+- flutter
+- python
+- go
+- c
+- c++
+- bash
+- scripting
+- powershell
+- devops
+- docker
+- kubernetes
+
+## career goals
+
+- stay relevant
+- stay up to date
+- stay focused
+- help others find their destiny
+- help others understand tech
+- build videos to help others understand how to build stuff
+
+- create my own apps to serve others
+
+- high value
+- spot high value opportunities
+- develop niche and high value opportunities
+
+## career progression steps 1 : mobile
+
+- flutter advanced skills eg state management ... provider, riverpod, bloc, performance optimisation
+- react native
+
+## career progression steps 2 : cloud and devops
+
+- aws
+- azure
+- google cloud
+- aws amplify
+- google firebase
+- azure app services
+- aws certified developer
+- associate google cloud engineer
+- azure fundamentals
+- docker
+- kubernetes
+- github actions
+
+## career progression steps 3 : full stack
+
+- react
+- vue
+- nextjs with server side rendering and static site generation
+- frontend masters courses
+- node
+- express
+- mongodb
+- postgresql
+- graphql
+- fullstackopen course
+
+## career progression steps 4 : data science and machine learning
+
+- python for data science eg numpy, pandas, matplotlib, seaborn, scikit-learn (coursera and datacamp courses)
+- tensorflow
+- pytorch
+- ai apps 
+
+
+## career progression steps 5 : personal projects
+
+- apps
+- monetisation
+
+## progression
+
+build one website per week from scratch - get really good at it, and really fast also
+
+
+
+## 202412 apps
+
+space quiz - ai to find 1000 questions on space and present them as a quiz!!!
+
+flutter app to plot my location over time ... then build on this ...
+
+flutter app to key log ... would be interesting !!!
+
+gfa message app between sponsor and child ... build it
 
 ### 202410 notes personal
 
@@ -50,14 +180,8 @@ Hire Christian models
 
   https://shopchristianmodels.org/
 
-payment stripe / snipcart / shopify 30 per month / paypal
 
-  https://friendly-leakey-f345f4.netlify.app/
 
-Hasura cloud auto generates queries
-
-Stuff To Sell
-Prayer sheet free download or contribute sum of any amount
 
 
 
@@ -249,11 +373,6 @@ Is Jesus just a prophet ? Much more than that - he is the great I AM who always 
 
 
 
-
-
-Website
-Use Flutter or Vue and Firebase 
-Build all from scratch
 Build one website per week until get good, quick and skilful at it!  Log over time how much I get done in a fixed timescale!
 	caniplaythisgame.org
 Don’t use WIX
@@ -357,9 +476,8 @@ website as an experiment with church data and stats - largest churches in each c
 
 
 
-### charity - ai image prompts
+## charity ai image prompts
 
-```
 gospel christians openly singing and worshipping the lord, playing the piano and lifting up hands
 
 people praying and worshipping the lord
@@ -371,12 +489,19 @@ you are a book illustrator. please generate 10 images to accompany my book 'Pray
 a group of people worshipping jesus, their eyes closed and their hands raised in worship and adoration, with smiles on their faces, with an angelic halo surrounding the room and the atmosphere, with a glowing warmth from heaven above filling the room with heavenly perfume, musicians softly playing instruments such as a piano and guitars
 
 a section through a beautiful three bedroomed house with an office upstairs, and a kitchen, a dining room and a large open lounge area downstairs.  Outside off the lounge is an covered area for summer parties.  Surrounding the house is a large garden.  Playing in the garden are 3 dogs.
-```
 
 
 ### charity - old and random notes
 
+
+142000 children helped
+
+Peter Armstrong bibles for Pakistan
+
+shaloom wants bibles
+
 # Older
+
 Look to America for help with prayer, money, wisdom, advice, motivation
 
 purityringsonline.com for Philippa

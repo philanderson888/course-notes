@@ -1,6 +1,252 @@
 ## delete me notes
 
 
+## delete me notes thursday 5 december
+
+yesterday did around 100 terms
+
+abacus
+sora
+pixverse
+opus
+stable diffusion
+omni
+uppbeat
+mjs module
+anaconda versions
+spark distributed processing
+open js
+cloudflare sqlite database d1
+uri is uniform resource indicator has no protocol attached
+elastic compute cloud
+azure compute unit
+sku stock keeping unit
+region availability = subnet, local zone = physical , outpost = one datacenter
+auto scale
+elastic container service
+lambda code
+elastic kubernetes
+fargate container on demand
+sns simple notification service
+fleet of nodes
+beanstalk manages apps
+vpc peer network
+mirror
+dynamo db
+elastic block storage
+cognito sign in
+claude 3
+hugging face
+framer
+wix
+orm object relational mapper
+npm cache
+pandas
+numpy
+matplot lib
+seaborn data visualisation
+pytorch
+tensor flow
+coursera
+quic http3
+conflict free replicated data type
+yjs types over network 
+gossip sharing
+epidemic sharing
+zed editor
+zod typescript types
+party kit 
+hsts forces https
+flutter
+dart
+state
+aws amplify
+nextjs
+jetboost sorting of data from webflow
+make.com automation
+snipcart
+stripe
+flowbase
+aws
+kubernetes
+terraform
+build your store ai
+destructure js object
+currying js functions
+debounce js trigger of functions
+throttle js functions in a time interval
+memoization caches results
+uri resource
+url method
+urn name
+elastic compute cloud
+acu azure compute unit 100=a1
+lambda function on demand
+fargate container on demand
+beanstalk app hosting
+vpc peering takes load off vpcs when the load is too much
+dynamo database
+structured full deep clone of js object
+iife runs immedidately
+sanitise html input strings
+react concurrent render
+react streaming suspense begins render as part of stream
+react auto error recovery
+isaac ai train robots
+npx is my code vulnerable
+clone ai
+omniverse ai train robots
+elastic compute cloud
+elastic block storage
+durable replicates blocks
+m2 money supply
+the linux foundation
+react server components
+react server actions
+congruent shape
+flutter state management - provider, riverpod, bloc
+react native
+aws amplify
+python pandas
+python numpy
+python matplotlib
+python seaborn
+python scikit learn ai
+python tensor flow
+python pytorch
+defensive css
+css margin collapse
+js library ndarray like lodash
+num.js like numpy
+signal event if primitive changes
+solidjs
+svelte beates nextjs
+ip ingress protection
+ip6 dust
+ip7 water
+tsmc taiwan semiconductor manu co
+deep uv
+extreme uv
+vm fairness when load is too high
+deduplication eliminates duplicate blocks based on hash
+nic teaming
+vmcx vm config
+vhdx vhd
+vmrs vm ram storage
+google dork
+whois
+htttrack
+cve
+massscan
+cisa auditor
+cis manager
+jea just enough administration
+saml is xml permissions
+open id
+packer 
+script async
+script defer
+hasattribute
+getattribute
+setattribute
+stroketext
+fillstyle
+filltext
+strokestyle
+worker
+postmessage
+onmessage
+window.open
+document.write
+document.open
+window.history
+window.closed
+encodeurl with percent 20 characters for spaces etc
+document.appendchild(script)
+script equals createelement(script)
+script source equals url
+cordova
+ngrok network exposing private to internet
+make
+bubble
+airtree
+zapier
+airtable
+firestore
+baserow
+appium does mobile and web tests
+sanity.io is headless cms
+nginx
+docker swarm
+docker compose
+k8s kubernetes
+bml build measure learn
+compute
+saas
+nist
+aws inspector
+docker
+kubectl
+minikube
+vagrant over local vms
+packer
+ansible
+terraform
+puppet
+chef
+salt stack
+jenkins
+redis
+hadoop
+spark
+hive
+kafka
+express route
+document db
+hd insight
+stor simple
+conjur
+ansible
+cloud foundry
+google kubernetes engine gke
+stack driver
+capex capital expenditure up front
+opex operational expenditure
+orchestration
+iaas
+caas communications as a service
+maas monitoring as a service
+swagger
+elk
+grafana
+prometheus
+
+
+
+## delete me cyber terms thursday 5 dec
+
+sans
+cis
+
+## delete me non tech terms thursday 5 dec
+
+neutrino
+cosmic ray
+lepton
+
+
+## delete me physics notes
+
+neutrino
+cosmic ray
+leptop half spin 
+muon 
+tau lepton
+neutrino
+electron neutrino
+
+
+
 ## delete me notes wednesday 4 december
 
 make.com

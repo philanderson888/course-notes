@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: rgb(0, 128, 128);
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(137, 215, 215);
+    padding: 20px 0;
+}
+
+h2 {
+    background-color: rgb(179, 232, 232);
+    padding: 15px 0;
+}
+
+#report-heading {
+    cursor: pointer;
+}
+
+#charity-report-heading {
+    cursor: pointer;
+}
+
+#raw-transactions {
+    display: none;
+}
+
+#charity-raw-transactions {
+    display: none;
+}
+
+#upload-section, #filter-section, #report-section {
+    margin: 40px 0;
+    padding: 20px 0;
+    background-color: azure;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#categoryBarChartContainer {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+#categoryPieChartContainer {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.active-filter {
+    background-color: blue;
+    color: white;
+}
+
+
+/*
+.filter-buttons-row {
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center;
+}
+
+.year-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.month-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.recent-buttons {
+    display: flex;
+    justify-content: center;
+}
+*/
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.invalidCategory {
+    background-color: #ffcccc;
+}
+
+#hide-me {
+    display: none;
+}

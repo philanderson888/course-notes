@@ -239,7 +239,7 @@ getApiKey = () => {
 }
 
 function loadGoogleSheetDataApiv4() {
-    const spreadsheetId = '1JBQkV95ga83ccbg5ZHRKOooNYNietvdTCIpEzBKZIXw';
+    const spreadsheetId = '18rKgkHg7FajRpTk5-ezZW5LT6gDzgX7CSgrS3Nq4WTw';
     const range = 'CombinedAll';   
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${googleSheetsApiKey}`;
 

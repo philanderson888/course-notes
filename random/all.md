@@ -9,8 +9,12 @@
 - [medium](#medium)
 - [Worship](#worship-1)
   - [202412 tech latest](#202412-tech-latest)
+  - [202412 stuff to build](#202412-stuff-to-build)
+  - [202412 ai](#202412-ai)
+  - [202412](#202412)
   - [202412 web](#202412-web)
   - [202412 quotes](#202412-quotes)
+  - [202412 devops](#202412-devops)
   - [202412 no code](#202412-no-code)
   - [skills](#skills)
     - [current skills](#current-skills)
@@ -85,9 +89,6 @@
   - [Space](#space)
   - [religious](#religious)
 - [2024-12](#2024-12)
-  - [202412 stuff to build](#202412-stuff-to-build)
-  - [ai glossary](#ai-glossary)
-  - [202412](#202412)
   - [202412 infrastructure](#202412-infrastructure)
   - [202412 web](#202412-web-1)
   - [202412 css](#202412-css)
@@ -819,6 +820,56 @@
 - [CompTIA Sec+ Notes Flow 3 (2018)](#comptia-sec-notes-flow-3-2018)
   - [Windows Labs List](#windows-labs-list)
 
+## 202412 charity
+
+questions from zoe
+
+what is the church address?
+
+what is your home address?
+
+who is your wifi provider?
+
+can we have a copy of the electricity bill? and rent?
+
+how far is the journey from your home to the school and how long does it take? and return journey?
+
+what is your daily and weekly schedule?
+
+what is the breakdown of each teacher salary?
+
+what is the teacher availability?
+
+what subjects are taught in the school?
+
+what time does the teaching start and finish at the school, on a weekly basis?
+
+are all subjects christian based?
+
+do you have any receipts for books and other stationery?
+
+how many orphans are in the school
+
+what is the address of the school? what is the email? what is the phone number?
+
+what is the daily and weekly schedule of the school
+
+analyse the breakdown of the money sent - how is it spent?
+
+how many assistants are helping to run the ministry
+
+is your ministry only christian? is anything else involved?
+
+do the children have access to a state education?
+
+how many laptops are in use?
+
+what do you use for transport?
+
+who looks after the orphans in the evening?
+
+can we have a copy of the receipt from the hospital from muscan operation
+
 ## 202412 video baddie in busineess
 
 video business
@@ -1306,6 +1357,110 @@ for you are glorious and worthy to be praised ... the lamb ..
 amazon nova ai
 appium is website and mobile testing
 
+
+
+## 202412 stuff to build
+
+hasura cloud enables a robust api to be built from your data
+
+make.com is like zapier or ifttt event handling
+
+ifttt
+
+zapier is like ifttt
+
+## 202412 ai 
+
+supervised learning has a labelled data set
+
+reinforcement learning is like rewarding a dog for good behaviour
+
+feed forward neural network only moves in one direction
+
+recurrent neural network has loops
+
+convulutional neural network handles images to find edges or shapes
+
+regular neural network is basic block
+
+full connected layer - all neurons connected to next layer
+
+pooling layer summarises data
+
+L1 vs L2 regularisation - prevents overfitting - L1 use few features L2 uses all features with smaller weights
+
+gradient descent optimises parameters
+
+batch gradient descent uses whole data set
+
+stochastic gradient descent is faster but can be less stable as only using few parameters
+
+loss function is a measure of the ai failure rate
+
+overfitting gets focused on existing data instead of being ready for new data
+
+adapter stiches existing technology to new ai framework
+
+automation gets tedious work done eg clickup automations 
+
+generative ai creates content eg images and videos ie it generates stuff rather than just analyses stuff
+
+hallucination is incorrect results
+
+IPL information processing language is a foundational AI language from 1950s
+
+LLM large language model uses human language
+
+NLG natural language generation generates human readable output
+
+SOM self organising maps/models - AI analyes its own data to simplify it and create mappings from within its own data, to understand the data structures within
+
+AGI artificial general intelligence is an all-round AI 
+
+Frontier AI is on the current cusp and leading edge of AI technology
+
+disambiguation is removing of possible double meanings or confusion in the actual meaning of a word or phrase
+
+domain is an area of expertise or knowledge
+
+ontology is similar to taxonomy classification of species but does so with nodes and also adds descriptions
+
+guardrails ensure ai does not produce inappropriate content
+
+neural network mimics the function of the brain to drive inputs and outputs
+
+interpretability is the ability to explain how results were derived ... same as accountability or explainability
+
+digital twin mimics a real world object eg a bridge
+
+HITL human in the loop allows input from human
+
+multi agent system can have agents directly talk to each other
+
+multimodal ai can work across different media eg text, images, video
+
+zero shot learning allows the ai to learn completely from scratch, a dangerous proposition
+
+anthromorphism allocates human qualities to ai
+
+context window is the allocatable amount of memory used for input and output to and from an ai system eg the size of the text chat box for ai chat gpt
+
+reinforcement learning uses cycles to get better
+
+token is smallest unit of text that an ai engine can understand
+
+## 202412
+
+x.ai api 
+
+get started with x.ai docs function-calling page 
+
+https://docs.x.ai/docs/guides/function-calling#introduction
+
+
+
+
+
 ## 202412 web
 
 partykit is hosting with cloudflare durable workers
@@ -1317,6 +1472,18 @@ aws amplify build web apps from git
 If your beliefs are never challenged by your community, I have news for you: you don’t have friends, you have fans.
 
 Protect the ever-loving heck out of your ability to do — don’t let big ideas get in the way of that.” (Avi Siegel)
+
+## 202412 devops
+
+iaac infrastructure as code
+
+increased complexity
+
+more security risks
+
+team collaboration is required
+
+
 
 ## 202412 no code
 
@@ -1656,32 +1823,33 @@ Way Truth Life
 
 
 
-
 Cards
+
 Boomf Exploding Cards
+
 GroupGreeting
-Design
-Figma alternatives
+
 Sketchpad - Draw, Create, Share!
+
 Squiggly Line Generator
+
 Showcase
+
 Philip Anderson’s albums | Flickr
+
 Hire a designer
+
 Dribble.com
 
-
-
-
-
-
-Religion
 Is Jesus just a prophet ? Much more than that - he is the great I AM who always was always Is and always will be
 
-
-
 Build one website per week until get good, quick and skilful at it!  Log over time how much I get done in a fixed timescale!
-    caniplaythisgame.org
-Don’t use WIX
+
+
+
+
+
+
 
 
 ## example sites
@@ -1728,7 +1896,15 @@ Conversion stories website
 
 Video Games filter
 
-    Are there any wholesome video games which are approved for Christian use and do not involve any use of magic or witchcraft or excessive violence or blood imagery or use of foul language ? Caniplaythisgame.com caniwatchthismovie.com caniwatchthis.com and related domain in each country . Cani watch this.Co.uk Caniwatchthis.de Cani watch this.Fr. Puisjemeregardez.Fr for example !
+    Are there any wholesome video games which are approved for Christian use and do not involve any use of magic or witchcraft or excessive violence or blood imagery or use of foul language ? 
+    
+    Caniplaythisgame.com 
+    
+    caniwatchthismovie.com 
+    
+    caniwatchthis.com 
+    
+    Can i watch this.Co.uk
 
 The Miracles Database
 
@@ -1753,25 +1929,42 @@ Start Company 1) Google AdWords 3) Build A Website 3) Generate Leads And Validat
 - prayfortheuk.com
 - Conversionexperience.com
 - HelpForPakistan.com  start with victor
-- Evangelismtraining.com what tools do people need to be trained to be an evangelist? And what tools do evangelists need ? What support do they need ? Conferences - cost and effectiveness ? Online campaigns - how to set up ? What percentages of the population are true genuine converted Christians and how to tell this ?  
+- Evangelismtraining.com what tools do people need to be trained to be an evangelist? And what tools do evangelists need ? What support do they need ? 
+
+Conferences - cost and effectiveness
+
+Online campaigns - how to set up ? 
+
+What percentages of the population are true genuine converted Christians and how to tell this ?  
 
 What is the most engaging way to present the gospel message ? Which methods have you used recently? Which methods have borne fruit ? Which methods do you think are the most effective for evangelism towards different age groups ? 0-10, 11-12, 13-15, 16-19,20-25,26-30,31-35,36-50,50 plus create a website which has forums where people can express their opinions quickly and easily in different forums and even to create and manage such forums and call it effective methods of evangelism . com and become the worlds expert on evangelism and evangelistic methods in our present day and age . 
 
-- RunTheRace.com RunTheGospel.org #ihaveatestimony website of testimonies with life visions from the Lord and what they have done so far with regards to fulfilling this vision and bringing it to pass and into reality . . . and if they require support to help fulfill this vision and to bring it to reality and to fruition . . . runTheRace.com is taken but can see if it’s available. Same with runtherace.org but for £70 can see if owner will sell the domain . . . LifeVision.org
-- Extremegiving.com testimonies of the power of god when we simply trust in the lord with our giving , and the miracles that take place as a result 
+RunTheRace.com RunTheGospel.org #ihaveatestimony website of testimonies with life visions from the Lord and what they have done so far with regards to fulfilling this vision and bringing it to pass and into reality . . . and if they require support to help fulfill this vision and to bring it to reality and to fruition . . . runTheRace.com is taken but can see if it’s available. Same with runtherace.org but for £70 can see if owner will sell the domain . . . LifeVision.org
+
+Extremegiving.com testimonies of the power of god when we simply trust in the lord with our giving , and the miracles that take place as a result 
 BuildMeAWebsite.com offer to buy it for $50 people who need a website and people who want to offer to build a website for free . . . Volunteer contributions to building a website charitably without charge … 4 areas to give and receive support - graphic design … technical design … coding … support and running the site after it is built . Not really advertised as a Christian initiative but anyone who wants to offer can help . 
-- ChangeTheWorldThroughGiving.org
-- CanIPlayThisGame.com - use movies.com or similar database and filter by popularity and rating
-- areyouabeliever.org 
-- Opportunitiesforgiving.com
+
+ChangeTheWorldThroughGiving.org
+
+CanIPlayThisGame.com - use movies.com or similar database and filter by popularity and rating
+
+areyouabeliever.org 
+
+Opportunitiesforgiving.com
 
 Do you have a vision from the lord … 
-- GospelVision.com 
-- HeWhoHasAVision.org
-- PersonWithAVision.org 
-- HeavenlyVision.com/org 
-- VisionFromTheLord.com/org
-- GospelHelpWanted.com/org 
+
+GospelVision.com 
+
+HeWhoHasAVision.org
+
+PersonWithAVision.org 
+
+HeavenlyVision.com/org 
+
+VisionFromTheLord.com/org
+
+GospelHelpWanted.com/org 
 
 
 
@@ -2400,78 +2593,6 @@ woman dies, has vision => i will give you 30 more years ... she gets surgery to 
 # 2024-12
 
 
-## 202412 stuff to build
-
-hasura cloud enables a robust api to be built from your data
-
-make.com is like zapier or ifttt event handling
-
-ifttt
-
-zapier is like ifttt
-
-## ai glossary
-
-adapter stiches existing technology to new ai framework
-
-automation gets tedious work done eg clickup automations 
-
-generative ai creates content eg images and videos ie it generates stuff rather than just analyses stuff
-
-hallucination is incorrect results
-
-IPL information processing language is a foundational AI language from 1950s
-
-LLM large language model uses human language
-
-NLG natural language generation generates human readable output
-
-SOM self organising maps/models - AI analyes its own data to simplify it and create mappings from within its own data, to understand the data structures within
-
-AGI artificial general intelligence is an all-round AI 
-
-Frontier AI is on the current cusp and leading edge of AI technology
-
-disambiguation is removing of possible double meanings or confusion in the actual meaning of a word or phrase
-
-domain is an area of expertise or knowledge
-
-ontology is similar to taxonomy classification of species but does so with nodes and also adds descriptions
-
-guardrails ensure ai does not produce inappropriate content
-
-neural network mimics the function of the brain to drive inputs and outputs
-
-interpretability is the ability to explain how results were derived ... same as accountability or explainability
-
-digital twin mimics a real world object eg a bridge
-
-HITL human in the loop allows input from human
-
-multi agent system can have agents directly talk to each other
-
-multimodal ai can work across different media eg text, images, video
-
-zero shot learning allows the ai to learn completely from scratch, a dangerous proposition
-
-anthromorphism allocates human qualities to ai
-
-context window is the allocatable amount of memory used for input and output to and from an ai system eg the size of the text chat box for ai chat gpt
-
-reinforcement learning uses cycles to get better
-
-token is smallest unit of text that an ai engine can understand
-
-## 202412
-
-x.ai api 
-
-get started with x.ai docs function-calling page 
-
-https://docs.x.ai/docs/guides/function-calling#introduction
-
-
-
 
 ## 202412 infrastructure
 
@@ -2499,7 +2620,7 @@ asynchronous replication delayed on wan
 
 dedup storage of blocks of data
 
-virtual receive side scaling allows multiple cpus to serve one nic to prevent bottleneck of traffic
+virtual receive side scaling offloads network network traffic handling off the main cpu onto another cpu to free up the main cpu
 
 nic teaming
 
@@ -3097,7 +3218,7 @@ count(10);
 
 webtransport over http/3 replaces websockets
 
-
+multiplexing sends data in parallel over http3
 
 ```
 // package.json
@@ -3112,7 +3233,7 @@ async function sendData(url, data) {
 }
 ```
 
-quic by google enables multiple streams within one connection and also has zero round trip time 0-RTT - it's a wrapper over udp 
+quic quick udp internett connections by google enables multiple streams within one connection and also has zero round trip time 0-RTT - it's a wrapper over udp - adds its own features to make it reliability
 
 0-RTT zero round trip time
 
@@ -3120,7 +3241,7 @@ solidjs builds fast UI with max reactivity in 2018 - no virtual dom but builds n
 
 crdt conflict-free replicated data type is a data structure that is replicated across multiple computers on a network - discrepancies are automatically resolved and convergence is guaranteed ... used by redis and cosmosdb ... idea is that all merges are allowed through and conflicts are resolved by going forwards rather than backwards ... also zed uses this
 
-yjs exposes shared types over synchronised crdt local peer-to-peer systems.  data can be stored locally and automatically syncs when the internet connection is restored
+yjs enables shared data structures that users can work on at the same time
 
 gossip protocol relies on peers to spread data - there is no central repository
 
@@ -3266,7 +3387,7 @@ npm create cloudflare@latest -- d1-tutorial
 
 cloudflare
 
-cloudflare durable session
+cloudflare durable session eg online games, chats, iot device state
 
 cloudflare d1 is sqlite database on the edge which your worker.js instance can access
 
@@ -5505,6 +5626,10 @@ Lab : creating a VM in Azure
 # DevOps Intro
 
 [https://github.com/spartaglobal/new-curriculum/tree/master/devops/mutable-pipelines/devops-intro](https://github.com/spartaglobal/new-curriculum/tree/master/devops/mutable-pipelines/devops-intro)
+
+CI continuous merging to feature branch and run tests
+
+CD continuous delivery puts features ready to be released
 
 ### CI-CD-CD
 

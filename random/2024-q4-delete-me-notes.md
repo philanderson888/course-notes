@@ -1,5 +1,103 @@
 ## delete me notes
 
+## delete me notes friday 6 december
+
+partykit hosting
+vercel react hosting
+firebase free database
+mongdo free database
+bolt build login apps
+bolt build database apps
+
+nova ai
+appium testing
+partykit hosting
+netlify hosting
+vercel hosting
+firebawse database
+mongo database
+red hat
+supercomputers
+linux
+ai
+video
+scripture
+devops
+terraform
+github actions
+github workflow
+learning
+action
+build a company website 
+ai solutions
+robotic solutions
+capture the market
+learn all about AI
+study it intensely
+build a website about robotics and AI
+aws amplify full stack apps
+jetboost
+make.com
+zapier automation
+claude desktop access to files
+c
+c++
+java
+.net
+python
+other languagges
+node
+express
+vue
+react
+angular
+solid
+lightning
+svelte
+webassembly
+webgl
+d3 
+deployment
+ci/cd
+pipelines
+deployment
+docker
+kubernetes
+terraform
+vagrant
+packer
+no code
+low code
+automation
+zapier
+make
+bubble
+firebase
+flutter
+java
+kotlin
+cannot do everything
+all the choices are so overwhelming
+c
+c++
+.net
+java
+flutter
+500 pounds per day
+videos
+youtube
+tiktok
+instagram
+snapchat
+pinterest
+facebook
+webgl
+javascript
+node
+vue
+bolt websites amazing app builder
+local work
+
 
 ## delete me notes thursday 5 december
 

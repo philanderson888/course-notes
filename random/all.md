@@ -47,7 +47,8 @@
   - [mythology](#mythology)
   - [war history](#war-history)
   - [english dictionary](#english-dictionary)
-  - [Football](#football)
+  - [Football current](#football-current)
+  - [football history](#football-history)
     - [Politics](#politics)
   - [uk history](#uk-history)
   - [usa money](#usa-money)
@@ -885,11 +886,41 @@ fashion products ... match outfits
 
 go into a store and try stuff on! wow!  that's an amazing idea !!!  but it has to be a niche that you pick!!! perriesian instagram 
 
- affiliate marketing with amazon
+affiliate marketing with amazon for example interior deigner ella has instagram account with links to products on amazon but they first go to this page on shop LTK . com and from there you can click 'shop here' to go to amazon or other page and buy the item against your affiliate id - wow!
 
+or this one with printables - maple printables with actually the affiliate link in her bio page /linkin.bio/ at https://linkin.bio/mapleprintables/  - this person has created their own shop on etsy selling their products https://www.etsy.com/shop/mapleprintables/?etsrc=sdt&utm_campaign=linkinbio&utm_medium=referral&utm_source=later-linkinbio  ... which are actually DIGITAL PRINTS ...
 
+pinterest can be used for print on demand as well
 
+categories
+- digital products
+- non-product 
 
+digital content posting calendar
+
+digital planner
+
+fitness guide
+
+weekly meal plan
+
+cookbook
+
+printable wall art
+
+travel guide
+
+ebook
+
+canva ebook templates which are editable in canva
+
+canva templates !!! interesting !!!
+
+scroll on etsy
+
+scroll on printables.com  
+
+instagram ugc content creator 
 
 
 
@@ -1277,7 +1308,7 @@ appium is website and mobile testing
 
 ## 202412 web
 
-partykit is hosting like netlify
+partykit is hosting with cloudflare durable workers
 
 aws amplify build web apps from git
 
@@ -1888,7 +1919,13 @@ antithesis opposite
 homophone same sound different meaning eg their there
 
 
-## Football
+## Football current
+
+manchester united strikers rashford and rasmus hojulund, midfield bruno fernandes (captain) and casemeira, also ericcson
+
+
+
+## football history
 
 2023 mason mount chelsea to man utd
 
@@ -2143,61 +2180,13 @@ average sea level rise is 3.4mm per year
 
 16 of 17 global hottest years all occurred since 2000
 
+carbon dioxide and carbon monixide concentrations in the atmosphere
+
 ## satellites
 
 poseidon monitors global ice and sea levels
 
 json satellite monitors global ice and sea levels
-
-
-
-record globally 16 of the 17 hottest years have all occurred since the year 2000.
-2:06:11
-[Music] both NASA and Esa have been monitoring the distribution and concentrations of
-2:06:18
-CO2 in the atmosphere since 1992. this visualization from data collected
-2:06:24
-in 2006 shows the yearly fluctuations of carbon dioxide and carbon monoxide
-2:06:31
-While most CO2 emanates from the populist northern hemisphere seasonal fires in Africa Australia and
-2:06:39
-South America generate much of the carbon monoxide prolonged droughts and more severe
-2:06:46
-forest fires are another aspect accompanying increased levels of atmospheric CO2 that are currently
-2:06:52
-unfolding such events inject a huge pulse of greenhouse gases into the atmosphere
-2:06:59
-magnifying the problem the European space agency's Copernicus
-2:07:06
-program with its Sentinel Earth observation satellites has committed to making information about the changing
-2:07:12
-climate freely available to policy makers businesses and research institutions
-2:07:21
-Joseph ashbacher is issa's director of Earth observation programs
-2:07:26
-what you see here on this graph is the CO2 concentrations of the atmosphere
-2:07:32
-over the last 800 000 years and you see that these values are going up and down in different phases you see on the the
-2:07:40
-blue lines here are indicating ice ages and the Orange Lines here indicating
-2:07:46
-periods between ice ages or periods where it's much warmer but you also see that over the last 800 000 years the
-2:07:52
-value was always below 300 parts per million and suddenly since the last century it goes up very steep towards
-2:08:00
-400 parts per million or even Beyond distinguish delegates the recent climate
-2:08:06
-Summit cop 25 held in Madrid made little progress toward an international agreement to cut greenhouse gas
-2:08:12
-emissions while some businesses and economies will have to adjust that task only gets more
-2:08:20
-difficult as time passes and far greater adjustments will be forced upon everyone
-2:08:26
-the Earth is the only place we know that Harbors life but the stability that has enabled this Web of Life is fragile
-2:08:37
-plants and animals interact for Mutual benefit our benign environment results from the
-2:08:43
-complex and varied creatures with which we share the planet it's important that we look after our
 
 ## business
 
@@ -9429,9 +9418,6 @@ Crinoderms - starfish
 Cephalopod - octopus family 
 
 
-
-
-
 ```
 prokaryotes single cell
 
@@ -9443,7 +9429,14 @@ eukaryotes multiple cell
 ```
 anatomy
 physiology
-skeletaly system
+skeletal system 
+muscular system 
+cariovascular system 
+respiratory system 
+lever systems 
+planes of movement
+axes of movement
+
 ```
 
 

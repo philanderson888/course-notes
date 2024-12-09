@@ -1,5 +1,9 @@
 ## delete me notes
 
+## delete me notes monday 9 december
+
+
+
 ## delete me notes friday 6 december
 
 partykit hosting

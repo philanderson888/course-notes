@@ -106,7 +106,7 @@ Python for Everybody - Full Course with Dr. Chuck (Charles Severance)
 
 ## Rust
 
-[rust](rust.md)
+[rust](https://github.com/philanderson888/rust)
 
 ## Ruby
 

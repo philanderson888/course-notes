@@ -13,7 +13,6 @@
   - [202412 ai](#202412-ai)
   - [202412](#202412)
   - [202412 web](#202412-web)
-  - [202412 quotes](#202412-quotes)
   - [202412 devops](#202412-devops)
   - [202412 no code](#202412-no-code)
   - [skills](#skills)
@@ -32,9 +31,6 @@
     - [one euro properties](#one-euro-properties)
   - [ideas to generate money](#ideas-to-generate-money)
     - [conversations](#conversations)
-  - [example sites](#example-sites)
-  - [example clothing sites](#example-clothing-sites)
-  - [tshirt examples](#tshirt-examples)
   - [ideas](#ideas)
   - [domain ideas - spiritual](#domain-ideas---spiritual)
   - [ideas - far out !!!](#ideas---far-out-)
@@ -900,26 +896,6 @@ instagram ugc content creator
 
 
 
-December
-
-Show your power
-
-I am a friend of God
-
-Praise Him ... Praise Him and Lift Him up ...
-
-I love to praise Him 
-
-Let your living waters flow over my soul
-
-how great is our god ... sing with me ...
-
-be magnified o lord
-
-ill stand with arms high and heart abandoned
-
-
-
 
 Fast
 ======
@@ -951,15 +927,6 @@ praise the lord hallelu i dont care
 more of your glory more of your power 
 
 We want to see Jesus Lifted High
-
-
-
-
-
-
-
-
-
 
 
 medium
@@ -995,14 +962,13 @@ let your living waters flow
 
 Great Is He He's The King Of Kings
 
-
-
-
-
-
-
-
 Hands Up Hearts Open Wide As The Sky
+
+You made a way
+
+
+Worship
+========
 
 You are great yes you are
 
@@ -1010,20 +976,6 @@ There is none like you
 
 Oh the blood of Jesus
 
-You made a way
-
-
-
-
-
-
-
-
-
-
-
-Worship
-========
 
 our god is a lion - the lion and the lamb
 
@@ -1267,7 +1219,13 @@ for you are glorious and worthy to be praised ... the lamb ..
 ## 202412 tech latest
 
 amazon nova ai
+
 appium is website and mobile testing
+
+microsoft recall takes a screenshot every 5 seconds if the content changes then does image analysis to extract the text and understand what is on the screen
+
+
+
 
 
 
@@ -1282,6 +1240,8 @@ ifttt
 zapier is like ifttt
 
 ## 202412 ai 
+
+google deepmind has built genie 2 which can create playable games on the fly
 
 supervised learning has a labelled data set
 
@@ -1370,20 +1330,11 @@ get started with x.ai docs function-calling page
 https://docs.x.ai/docs/guides/function-calling#introduction
 
 
-
-
-
 ## 202412 web
 
 partykit is hosting with cloudflare durable workers
 
 aws amplify build web apps from git
-
-## 202412 quotes
-
-If your beliefs are never challenged by your community, I have news for you: you don’t have friends, you have fans.
-
-Protect the ever-loving heck out of your ability to do — don’t let big ideas get in the way of that.” (Avi Siegel)
 
 ## 202412 devops
 
@@ -1394,8 +1345,6 @@ increased complexity
 more security risks
 
 team collaboration is required
-
-
 
 ## 202412 no code
 
@@ -1555,18 +1504,9 @@ google keyword planner
 
 create a website selling robots - buy the domain, build the site, start and go live ... now !!!  ... see turo.com ... tesla y = 480 per month ... would it pay for itself in hire car fees ??? might be worth a try !?!?!?!?  could just buy one for a year and see how it goes ? or I could just build a websitee and see which customers are attracted???
 
-Design and sell a big mug on ChristianGoods.co.uk
-
 https://www.garyhabermas.com/video/video.htm
 
 women buy more clothing than men
-
-Hire Christian models
-
-  https://shopchristianmodels.org/
-
-
-
 
 
 
@@ -1646,64 +1586,12 @@ State of religion survey
 
 Partner with people on Instagram who want to see heaven on earth ? Who are the most effective evangelists ? Where are most conversions coming from ? How are people being reached which led to their conversion ? What is the testimony of a persons conversion ? Ask people what was the trigger which caused them to convert ? Interview people and find out their salvation story ! And blog about it ! Tweet about it ! Turn it into videos of testimony !!! Just put it out there on YouTube all under my one account !!! Start with Sandra !!! Create a book of testimonies of people who were converted and publish it ! Conversions !!! Volume 1. Create and publish a book. Push to instagram only for now . Just stay on one platform only and build interest and focus that way. What are the key triggers that are causing people to be converted across the globe ? Social media ? Which ones ? Is anyone tracking this statistically ? Create an open website holding this information !!! Conversion statistics . Influences towards conversion. Key triggers on the road to conversion. Final trigger which caused conversion to take place .
 
-
-Go Live
-Go Live!!!!! Chat!!! Talk!!! Make Friends!!!!
-Go live IG
-Go live FB
-Pastor Phil - online church Instagram Facebook YouTube live ! … get to it ! be brave and walk by faith ! be prayerful and be humble ! As the other person had, it would be good to have someone else read out messages !!!
-One off bible study
+Go Live IG FB
+Pastor Phil - online church Instagram Facebook YouTube live ! … get to it ! be brave and walk by faith ! be prayerful and be humble ! As the other person had, it would be good to have someone One off bible study
 Pray for people
-Join clubhouse meetings
 Preach
 Watch back my own worship sessions and give myself feedback
 There are 8 billion people in the world - can I see even one saved through my influence ? Jesus Christ for all nations 
-
-
-
-
-Brand
-
-
-#OneJesus
-Divinely Inspired Clothing
-PhilAnderson designs t/a PhilAnderson Consulting
-Phil Anderson Software Solutions
-PhilAnderson evangelism 
-
-TheJesusMan ... brave ... strong ... preacher
-Save Pakistan 
-Code Across The Globe
-Social Media - Instagram, Facebook, Youtube, Clubhouse, TikTok, Twitter, Telegram,
-Followers Instagram
-Followers LinkedIn
-Friends Facebook
-Subscribers YouTube
-Twitter 20 followers 2022
-Instagram daily
-Facebook ignore
-Facebook birthdays
-Read the bible aloud on YouTube or get my avatar to do it
-Online Business
-start small - tshirts, house, business, apps, worship, songs …
-Art
-Just put pen to paper and draw!
-Create all artwork and videos myself from scratch
-for all artwork, do it myself completely !!! digital art !!!
-
-
-Unsplash.com
-Blog my artwork on Instagram
-https://nervous-pare-b73c83.netlify.app/blog
-
-
-
-videos of still images ... ! 
-
-a good video has one photo per second
-
-
-
 
 Sermons
 
@@ -1714,91 +1602,6 @@ Teleprompter Macbook $40, IPad/Iphone £18
 Speech generator 
 Speechelo $50 
 Create a written article then translate it to Arabic then speak it in Arabic Supported voices and languages  |  Cloud Text-to-Speech API  |  Google Cloud
-
-
-
-
-
-
-
-
-
-
-Superman compression top https://www.amazon.co.uk/GYM-GALA-Superman-Classic-Compression/dp/B07V865MJ6
-
-Way Truth Life 
-
-
-
-
-
-
-
-
-Cards
-
-Boomf Exploding Cards
-
-GroupGreeting
-
-Sketchpad - Draw, Create, Share!
-
-Squiggly Line Generator
-
-Showcase
-
-Philip Anderson’s albums | Flickr
-
-Hire a designer
-
-Dribble.com
-
-Is Jesus just a prophet ? Much more than that - he is the great I AM who always was always Is and always will be
-
-Build one website per week until get good, quick and skilful at it!  Log over time how much I get done in a fixed timescale!
-
-
-
-
-
-
-
-
-## example sites
-
-- ChargeBee
-
-## example clothing sites
-
-- Beacon Threads
-- Shake The Nations 
-- Palms And Prints Shop *** I Like This ***
-- Shields Of Strength
-- Lindbergh
-
-## tshirt examples
-
-- Team Jesus
-- I Believe with cross
-- https://www.redbubble.com/i/t-shirt/Exercise-Daily-Walk-with-the-LORD-WOMENS-VERSION-by-discipledarren/12265801.WFLAH.XYZ
-- Cross Training
-- Zazzle Jesus T Shirts
-
-
-Jewellery
-
-ShieldsOfStrength Mens Jewellery
-
-https://www.teepublic.com/en-gb/t-shirt/2342854-christian-fitness-apparel
-
-jesus is god https://robbydawkins.myshopify.com/products/jesus-is-god?variant=40443530444893
-
-
-
-
-
-
-
 
 ## ideas
 
@@ -4450,6 +4253,8 @@ machine code is raw binary instructions executed directly by the cpu eg `1011011
 fastest is machine code then assembly then byte code as it has a vm wrapper
 
 ## history
+
+2024 intel has 124000 employees, tsmc 76000, nvidia 30000 and amd 6000 
 
 2021 supercomputer frontier 18 exaflops using 40 mega watts of power using 30000 litres of water per minute for liquid cooling.  cost in 2021 was 600 million dollars
 

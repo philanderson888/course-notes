@@ -1241,6 +1241,11 @@ zapier is like ifttt
 
 ## 202412 ai 
 
+feed this into chat gpt and see what happens 
+
+write me a python script which launches a server locally for an html file which has a big text box.  when i enter text into that box and press submit, it should send that request for code to the openai o3-mini api with seed medium reasoning_effort, take the resulting code, save it to a temporary file on the desktop, then execute that file in a new python terminal.  A few more details - it can find my api key in ~/api_key.  please add some extra prompting into the request to the api to specify that it should only return raw code without any formatting or markdown at all.  you will be executing on a mac laptop.
+
+
 google deepmind has built genie 2 which can create playable games on the fly
 
 supervised learning has a labelled data set

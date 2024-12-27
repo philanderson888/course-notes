@@ -5,4 +5,5 @@ launch.json
 out/
 
 .env
+api.json
 api-key.json

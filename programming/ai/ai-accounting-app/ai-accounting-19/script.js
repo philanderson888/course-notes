@@ -46,7 +46,7 @@ function renderData(cleansedData) {
     console.log(cleansedData);
     displayCleansedData(cleansedData);
     const sortedExpenditureCategories = displaySummaryData(cleansedData);
-    displayGraphicalData(sortedExpenditureCategories);
+    displayCharts(sortedExpenditureCategories);
 }
 
 function displayCleansedData(cleansedData) {
@@ -56,9 +56,9 @@ function displayCleansedData(cleansedData) {
     displayCleansedCharityTransactions(cleansedData);
 }
 
-function displayGraphicalData(sortedExpenditureCategories) {
-    displayCategoryBarChart(sortedExpenditureCategories);
-    displayCategoryPieChart(sortedExpenditureCategories);
+function displayCharts(sortedExpenditureCategories) {
+    displayBarChart(sortedExpenditureCategories);
+    displayPieChart(sortedExpenditureCategories);
 }
 
 function formatDate(date) {

@@ -5,10 +5,10 @@
 //
 // --------------------------------------------------------------------------
 
-function displayCategoryBarChart(sortedExpenditureCategories) {
+function displayBarChart(sortedExpenditureCategories) {
 
     console.log(' ');
-    console.log('displayCategoryBarChart() ...');
+    console.log('display bar chart ...');
 
     const categories = sortedExpenditureCategories.map(([category]) => category);
     const totals = sortedExpenditureCategories.map(([, total]) => total);
@@ -53,10 +53,10 @@ function displayCategoryBarChart(sortedExpenditureCategories) {
     });
 }
 
-function displayCategoryPieChart(sortedExpenditureCategories) {
+function displayPieChart(sortedExpenditureCategories) {
 
     console.log(' ');
-    console.log('displayCategoryPieChart() ...');
+    console.log('display pie chart ...');
 
     const categories = sortedExpenditureCategories.map(([category]) => category);
     const totals = sortedExpenditureCategories.map(([, total]) => total);

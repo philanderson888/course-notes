@@ -21,8 +21,8 @@ function filterData() {
     displayDataRows(filterByDateAndCategory);
     displayCharityDataRows(filterByDateAndCategory);
     const sortedExpenditureCategories = displayCategorySummary(filterByDateAndCategory);
-    updateCategoryBarChart(sortedExpenditureCategories);
-    updateCategoryPieChart(sortedExpenditureCategories);
+    updateBarChart(sortedExpenditureCategories);
+    updatePieChart(sortedExpenditureCategories);
 }
 
 function filterByYear(year) {
@@ -42,8 +42,29 @@ function filterByYear(year) {
     displayDataRows(filteredData);
     displayCharityDataRows(filteredData);
     const sortedExpenditureCategories = displayCategorySummary(filteredData);
-    updateCategoryBarChart(sortedExpenditureCategories);
-    updateCategoryPieChart(sortedExpenditureCategories);    
+    updateBarChart(sortedExpenditureCategories);
+    updatePieChart(sortedExpenditureCategories);    
+}
+
+function filterByTaxYear(year) {
+
+    console.log(' ');
+    console.log(`filter by tax year ...${year} ...`);
+
+    const startDate = new Date(`${year}-04-06`);
+    const endDate = new Date(`${year+1}-04-05`);
+
+    const filteredData = cleansedData.filter(entry => {
+        const [day, month, year] = entry.date.split('/');
+        const entryDateUK = new Date(`${month}/${day}/${year}`);
+        return entryDateUK >= startDate && entryDateUK <= endDate;
+    });
+
+    displayDataRows(filteredData);
+    displayCharityDataRows(filteredData);
+    const sortedExpenditureCategories = displayCategorySummary(filteredData);
+    updateBarChart(sortedExpenditureCategories);
+    updatePieChart(sortedExpenditureCategories);    
 }
 
 function filterByMonth(year, month) {
@@ -65,8 +86,8 @@ function filterByMonth(year, month) {
     displayDataRows(filteredData);
     displayCharityDataRows(filteredData);
     const sortedExpenditureCategories = displayCategorySummary(filteredData);
-    updateCategoryBarChart(sortedExpenditureCategories);
-    updateCategoryPieChart(sortedExpenditureCategories);
+    updateBarChart(sortedExpenditureCategories);
+    updatePieChart(sortedExpenditureCategories);
 }
 
 function filterLastDays(days) {

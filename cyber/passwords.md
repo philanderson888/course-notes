@@ -4,7 +4,6 @@
 - [Mimikatz](#mimikatz)
     - [Mimikatz LSADump::SAM](#mimikatz-lsadumpsam)
     - [Mimikatz Pass The Hash](#mimikatz-pass-the-hash)
-  - [Responder](#responder)
   - [Password cracking](#password-cracking)
     - [OnlineHashCrack.com](#onlinehashcrackcom)
     - [Cain and abel](#cain-and-abel)
@@ -72,11 +71,6 @@ and any password matches will show up.
 We can now use these credentials to log into a domain!
 
 cal
-
-### Responder
-
-Obtains the hash over the network
-
 
 ### Password cracking
 

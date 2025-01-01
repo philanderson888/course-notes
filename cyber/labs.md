@@ -198,8 +198,6 @@ incident response
         play book 
         runbook automation 
 
-    first responder 
-
     identify
 
     categorise

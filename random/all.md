@@ -176,7 +176,6 @@
       - [Network Security](#network-security)
         - [VPC Virtual Private Cloud](#vpc-virtual-private-cloud)
     - [AWS secure web app demo](#aws-secure-web-app-demo)
-  - [AWS Container Services](#aws-container-services)
   - [AWS Abstracted Services](#aws-abstracted-services)
   - [AWS Environment Security](#aws-environment-security)
     - [IAM](#iam)
@@ -187,7 +186,6 @@
     - [AWS KMS key service](#aws-kms-key-service)
     - [AWS Example : Bank](#aws-example--bank)
     - [RDS relational database](#rds-relational-database)
-    - [EMR big data](#emr-big-data)
     - [Elastic beanstalk - app deployment](#elastic-beanstalk---app-deployment)
     - [AWS Environment Variables](#aws-environment-variables)
   - [Serverless Computing](#serverless-computing)
@@ -546,7 +544,6 @@
     - [fpdns does DNS fingerprinting](#fpdns-does-dns-fingerprinting)
     - [hassh does SSH fingerprinting](#hassh-does-ssh-fingerprinting)
     - [ja3 does SSL fingerprinting](#ja3-does-ssl-fingerprinting)
-  - [Burner phone](#burner-phone)
   - [Pivot Point of entry](#pivot-point-of-entry)
   - [httrack.com - website download](#httrackcom---website-download)
   - [Droplet - mini vm](#droplet---mini-vm)
@@ -573,8 +570,6 @@
 - [red team tools](#red-team-tools)
     - [dirbuster](#dirbuster-1)
   - [burpsuite](#burpsuite)
-  - [getent](#getent)
-    - [hping3](#hping3)
   - [mac overflow attack](#mac-overflow-attack-1)
   - [tasting](#tasting-1)
   - [defensive tools](#defensive-tools)
@@ -719,6 +714,33 @@
       - [SESSION HIJACKING](#session-hijacking)
       - [SESSION REPLAY](#session-replay)
   - [a plus labs](#a-plus-labs)
+
+## 202501 cloud
+
+- rds relational database service
+- emr elastic map reduce - process huge amounts of data with parallel processing
+- elastic beanstalk run apps
+
+
+## 202401 cyber
+
+### hping3
+
+advanced ping tool which can be used for ddos attacks, can send tcp instead of icmp packets, spoof source ip addresses
+
+### responder
+
+responder is fake ipv6 name resolution service to deceive a windows machine into presenting its credentials to a fake machine
+
+### getent
+
+linux command which `gets entries` from sensitive password and other files and databases in linux
+
+```bash
+getent passwd 0
+getent group root - look up root users
+getent passwd phil - look up user phil
+```
 
 ## 202412 charity
 
@@ -5027,11 +5049,7 @@ view app logs CloudTrail
 view aws logs CloudWatch
 ```
 
-## AWS Container Services
 
-- RDS - we secure data and access
-- EMR Elastic Map Reduce allows Big Data Frameworks to run in the cloud - we secure data and access
-- Elastic Beanstalk - deploy apps - user configures firewall and encrypts data
 
 ## AWS Abstracted Services
 
@@ -5158,8 +5176,6 @@ should restrict unauthorised access
 Access via API which calls database. Data is encrypted on database but decrypted with KMS key and sent to customer
 
 ### RDS relational database
-
-### EMR big data
 
 ### Elastic beanstalk - app deployment
 
@@ -7081,8 +7097,6 @@ tryhackme
 
 dirbuster can brute force attack your file system
 
-getent gets entries in sensitive linux system files
-
 tryhackme learn all about cyber in safe environment
 
 htttrack copy website
@@ -7144,10 +7158,6 @@ snort ids and ips sends data to sguil
 sguil network capture
 
 squert is front end to sguil network capture database
-
-hping can scan networks and launch attacks
-
-hping3 is scriptable
 
 angry ip scanner can aggressively scan any network
 
@@ -7434,7 +7444,7 @@ sguil ids
 sgutil ids
 ## 202410 incident response
 csirt computer security incident response team will involve legal, hr and marketing
-incident response policy will have a playbook guide, runbook immediate action steps, emergency contacts and first responders
+incident response policy will have a playbook guide, runbook immediate action steps, emergency contacts and first responder
 prepare for incident with incident response plan, hardening, prepare communications
 detect incident
 validate the incident is actually an incident
@@ -7927,8 +7937,6 @@ tools - nmap, ettercap, p0f, fpdns, hassh
 ### fpdns does DNS fingerprinting
 ### hassh does SSH fingerprinting
 ### ja3 does SSL fingerprinting
-## Burner phone
-is a prepaid phone that is used and then binned BurnerApp permits a temporary phone number to be created so that people don’t know your real number. Can be disposed of instantly.
 ## Pivot Point of entry
 point of weakness or access
 ## httrack.com - website download
@@ -8001,8 +8009,6 @@ CHAP compares HASHes at each end
 ## Offensive Tools
 JRAT takes control
 Mimikatz reads usernames and hashes from RAM of a Windows PC
-wireshark - glean hostnames, IP
-responder - responds to DNS broadcasts and tricks computers into revealing NTLMv2 Hash
 hashcat brute force hash cracker
 wordscrape the internet
 # red team tools
@@ -8014,15 +8020,6 @@ xss cross site scripting attack
 repeated requests
 blue team
 interception proxy
-## getent
-retrieves data from, for example, secure password files on an operating system
-getent passwd 0
-getent group root - look up root users
-getent passwd phil - look up user phil
-### hping3
-ddos attack
-(( spamhouse don't route - don't route these packets))
-(( peer drop - drop these packets))
 ## mac overflow attack
 Flood switch buffer memory (CAM = Content Addressable Memory) so it's full and cannot resolve addresses which causes the switch to default to sending out traffic on all ports which is very dangerous and not secure
 ## tasting
@@ -8181,10 +8178,6 @@ buffer overflow - mitigate with input validation
 buffer overflow attack runs code from RAM
 buffer overflow mitigate with input validation
 bulletproof ISP - no questions asked!!!
-burner app
-burner phone
-Burner phone is a prepaid phone that is used and then binned
-BurnerApp permits a temporary phone number to be created so that people don't know your real number. Can be disposed of instantly.
 BURP is pentest for web app
 BURP suite is interception proxy
 C2 = command and conquer = C&C
@@ -8376,8 +8369,7 @@ imaging: use encase or dd
 incident summary - what, when, who, scope, how
 Industroyer/CrashOverride
 ingress IN
-Injection: DSniff ettercap hping nemesis scapy
-Injection: ettercap dsniff hping nemesis
+Injection: DSniff ettercap nemesis scapy
 Insecam   [http://www.insecam.org/en/bytype/DLink/?page=2](http://www.insecam.org/en/bytype/DLink/?page=2)
 Installation
 Interception proxy - sits as a proxy server between the client and the internet

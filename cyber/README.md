@@ -59,7 +59,6 @@
     - [Metasploit](#metasploit)
     - [hashcat](#hashcat)
     - [ProRat](#prorat)
-    - [responder](#responder)
     - [RIG Redkit, Infinity and Goon also known as HTML/Meadgive](#rig-redkit-infinity-and-goon-also-known-as-htmlmeadgive)
     - [Sweet Orange also known as Win32/Anogre](#sweet-orange-also-known-as-win32anogre)
     - [Wordscrape](#wordscrape)
@@ -1037,10 +1036,6 @@ Kali exploit kit
 Hashcat - brute force hash-cracking tool.
 
 ### ProRat
-
-### responder
-
-responder : responds to DNS broadcasts and deceives computers into revealing their NTLMv2 salted hash
 
 ### RIG Redkit, Infinity and Goon also known as HTML/Meadgive
 

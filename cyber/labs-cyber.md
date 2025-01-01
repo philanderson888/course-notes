@@ -1326,8 +1326,6 @@ red : nikto vulnerability scan
 
 red : LOIC (Low Orbit Ion Cannon) DOS attack
 
-red : hping3 : DOS attack
-
 ### Lab 12 : install backdoor malware
 
 Red : Metasploit : install backdoor vulnerability

@@ -38,7 +38,7 @@
 
 ### accounting app reading from google sheets
 
-[accounting app - move to javascript repository as permanent home](/programming/ai/ai-accounting-app/)
+[accounting app - move to javascript repository as permanent home](/programming/ai/accounting-app/)
 
 - a great way to implement 
 

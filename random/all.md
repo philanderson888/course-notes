@@ -715,6 +715,347 @@
       - [SESSION REPLAY](#session-replay)
   - [a plus labs](#a-plus-labs)
 
+
+
+## 202501 06 rust
+
+variables
+
+ownership
+
+structs
+
+enums
+
+error handling
+
+generics
+
+threads
+
+oop
+
+cargo
+
+library
+
+install
+
+rustup
+
+rustup update
+
+cargo new myproject
+
+rustfmt main.rs will format the file
+
+cargo --version
+
+cargo build
+
+cargo run
+
+cargo check
+
+cargo build --release
+
+cargo run --release
+
+ordering
+
+rng
+
+shadowing overwrites previous variable
+
+blocks
+
+rust does not have null
+
+clone
+
+ownership
+
+passing by reference
+
+mutable reference
+
+string slices
+
+slices of other objects eg arrays or other collections
+
+struct
+
+enum
+
+unit like struct useful for testing
+
+methods 
+
+associated functions
+
+enums
+
+enum with different types
+
+methods on enums
+
+option enum returns some or none
+
+match similar to switch
+
+patterns match against a type
+
+unwrap_or(value) ensures a default value is provided if none is supplied
+
+unwrap_or_else
+
+if ... let 
+
+collections
+
+vectors objects
+
+strings characters
+
+hashmaps key-value pairs
+
+vector can have an enum which holds different types!
+
+string.push_str(_slice_)
+
+hashmap<K,T>
+
+value = hashmap.get(_key_)
+
+for(key,value) in &hashmap { // key, value }
+
+if hashmap.contains_key(*_key_) {}
+
+build a hashmap using two input vectors 
+
+hashmap.insert will update if exists or add new if does not exist
+
+hashmap.entry will only add a new one if it does not exist.  it will not overwrite an existing one.
+
+ownership - to avoid issues we can build a reference to an item or we can clone an item
+
+error
+
+recoverable - Result<T,E> to get a result or an error
+
+Result<T> returns OK(T) or Err(E) eg let file_output = match _file_input {  OK(file) => file, Err(error) => {'log an error'}}
+
+recoverable - Option<> where results are optional
+
+irrecoverable - panic
+
+unwrap is shortcut to return OK or panic if Err
+
+expect is like unwrap but allows us not to panic if there is an error  let file_output = File::open(myFile).expect("failed to open file");
+
+propogate errors up the stack by using the ? operator which returns the error
+
+traits to define behaviour like interfaces
+
+conditional traits
+
+blanket traits for any type which implements trait X we can implement trait Y
+
+lifetimes prevent dangling references
+
+lifetimes ensure reference is valid for lifetime of object it references 
+
+lifetimes use ' apostrophe keyword
+
+lifetimes prevent errors due to 'dangling' and 'use-after-free'
+
+mutex can be used to block a thread until we are finished with it ... we have to remember to lock and unlock the thread
+
+oop
+
+inheritance is done via traits which we can think of as implementing interfaces
+
+traits are used to define polymorphism which overrides default behaviour
+
+abstraction can achieve abstraction 
+
+? operator unwraps result or error
+
+generics
+
+traits are like interfaces which define behaviour eg mandate a method signature
+
+we can use trait in the return type also 
+
+threads
+
+fearless concurrency
+
+mutex one thread
+
+arc to access multiple threads
+
+atomic reference counting we know how many threads have access to the data
+
+channels can transfer data between threads
+
+sync 
+
+send
+
+rust threads are 1-1 with operating system threads
+
+spawn function takes closure as an argument
+
+closure takes no arguments and returns nothing
+
+join handle waits for thread to finish and gets result from thread completing
+
+send()
+
+recv()
+
+shared state concurrency is when multiple threads share the same data
+
+mutex allows only one thread access to the data as mutable (thread can change the data) at any one time
+
+
+
+
+
+
+## 202501 04 delete me
+
+mojo is python on raw metal for ai
+
+quic 
+
+http3
+
+yjs peer to peer sharing
+
+sendgrid
+
+gtag
+
+verto.sh open source
+
+erlang whatsapp
+
+elixir discord
+
+phoenix websites for erlang and elixir
+
+golang
+
+google prodspec
+
+google annealing desired state config
+
+prisma db
+
+framer websites
+
+wix websites
+
+deno
+
+npm
+
+pnpm
+
+rust
+
+.net
+
+c sharp
+
+c sharp latest developments
+
+python as well
+
+apply for rust jobs!
+
+syntax fm
+
+ui path
+
+agent workers try them out
+
+cisa 
+
+packer
+
+terraform
+
+kubernetes
+
+docker
+
+deployment
+
+github pipelines
+
+deploy an app to github and other places
+
+cordova apps
+
+apple apps
+
+android apps
+
+flutter apps
+
+bolt apps
+
+aws learning
+
+javascript weekly 
+
+node weekly
+
+syntax fm
+
+google deep mind
+
+supervised learning
+
+reinforcement learning feed back when right
+
+feed forward neural network only goes forward
+
+recurrent has loops
+
+convolutional searches images for shapes
+
+abacus ai
+
+sora ai
+
+## 202501 04 delete me c sharp 
+
+ildasm 
+
+nuget 
+
+nuspec 
+
+try parse 
+
+xunit 
+
+wpf 
+
+linq
+
+polymorphism overrides default behaviour 
+
+abstract has interface 
+
+sealed cannot derive child classes 
+
+
+
 ## 202501 03 delete me
 
 3 jan 100 terms
@@ -1538,7 +1879,7 @@ try transformers.js for AI
 
 transformers sentiment detection, object detection 
 
-prismadb is an ORM mapper from database to objects in typescript
+prismadb makes it easy to work with data and uses postgresql in the background.  it is an orm mapper which maps from app models to database tables
 
 jerryscript runs on IOT devices
 
@@ -1751,15 +2092,7 @@ digital content posting calendar
 
 digital planner
 
-fitness guide
-
-weekly meal plan
-
-cookbook
-
 printable wall art
-
-travel guide
 
 ebook
 
@@ -3161,7 +3494,7 @@ m2 is cash or near cash in the economy
 
 abacus ai
 
-sora ai
+sora ai is open ai
 
 deep fake ai
 
@@ -10214,34 +10547,7 @@ diploid is a cell with a pair of chromosomes
 
 stem cells are cells which can change into different cells
 
-embryonic is cells which can change into any cell in the body, come from embryos.```````````````````````````````````````````````````````````````      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+embryonic cells which can change into any cell in the body
 
 
 

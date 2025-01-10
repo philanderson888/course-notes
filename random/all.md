@@ -715,6 +715,268 @@
       - [SESSION REPLAY](#session-replay)
   - [a plus labs](#a-plus-labs)
 
+## 202501 german
+
+auf jeden fall definitely
+
+aufregender more exciting 
+
+aufregend exciting
+
+verärgert annoyed
+
+sei bitte nicht verärgert please don't be annoyed
+
+auf jeden fall definitely
+
+dorf village
+
+gefahr danger
+
+gefährlich dangerous
+
+gefährlicher more dangerous
+
+leer empty
+
+die Straße the street
+
+immer always
+
+langweilig boring
+
+lauter louder
+
+manchmal sometimes
+
+stark strong
+
+stärker stronger
+
+klug smart
+
+groß big/tall
+
+stimme to agree 
+
+ich stimme zu i agree
+
+ich stimme dir zu i agree with you
+
+kluger smarter
+
+du spinnst you're crazy
+
+various words
+
+genutzt used
+
+werden will/become
+
+die unten the below
+
+nouns
+
+Gerät device
+
+adjectives
+
+lustiger funnier
+
+lustig funny
+
+verbs
+
+blieben to stay
+
+gesperrt blocked
+
+angemeldet logged in
+
+aufgehoben lifted/abolished
+
+trage wear
+
+noch still
+
+
+
+
+## 202501 images
+
+sketch.io vectors
+
+moqups.com
+
+flinto mockup
+
+
+
+## 202501 08 general 
+
+roadmap.sh
+
+ast abstract syntax tree
+
+back blaze
+
+bricks 
+
+cursor ai 
+
+cdk cloud development kit
+
+aws code deploy
+
+aws code pipeline
+
+declarative programming looks at desired end state
+
+defensive css
+
+django python
+
+flask python smaller
+
+imperative step by step
+
+net bsd is open source linux
+
+anthromorphism 
+
+crdt conflict free replicated data type 
+
+yjs replicates using crdt
+
+gossip peer to peer
+
+epidemic = peer to peer
+
+
+
+
+## 202501 08 c#
+
+types
+
+nullable types
+
+tuples
+
+.net 8
+
+c# 12
+
+constructors
+
+ref
+
+.net aspire
+
+.net maui
+
+ef8
+
+blazor
+
+pgo profile guided optimisation
+
+aot ahead of time compilation
+
+blazor full stack
+
+inline arrays is alternative to unsafe stackalloc declaration
+
+gacutil 
+
+xsd xml schema definition
+
+string.empty
+
+constructor
+
+destructor
+
+subscriber
+
+delegate 
+
+interface
+
+action delegate has no parameters and returns no value
+
+broadcaster
+
+linq
+
+ienumerable
+
+## 202501 08 rust
+
+ownership
+
+lifetimes
+
+generics
+
+traits define behaviour and are like interfaces to implement
+
+struct
+
+enum
+
+associated function
+
+methods
+
+threads
+
+oop
+
+cargo
+
+rustup
+
+shadowing overwrites variable
+
+mutable reference
+
+string slices are like constants
+
+option enum returns some or none
+
+result enum returns ok or err
+
+match same as switch
+
+unwrap exposes for example an option value or a result value
+
+unwrap or provides a default value
+
+unwrap or else
+
+if ... let
+
+vector is a collection
+
+hashmap of key value pairs
+
+push_str
+
+block variable 
+
+matches are fully exhaustive
+
+_ is catchall which matches any value of a type
+
+traits
+
+unwrap will cause a panic if the result is err - so only use when prototyping
+
+expect will cause a panic if the result is err - so only use when prototyping
+
+return result with ? operator which also will propogate any errors to the calling code
+
 
 
 ## 202501 06 rust
@@ -1604,7 +1866,6 @@ multi modal
 multi agent
 zero shot
 anthromorphism
-context window
 reinforcement learning
 token
 jea just enough administration
@@ -1789,7 +2050,6 @@ multi agent system
 multimodal
 zero shot
 anthromorphism
-context window
 reinforcement learning
 token 
 jea just enough administration
@@ -2546,6 +2806,8 @@ zero shot learning allows the ai to learn completely from scratch, a dangerous p
 anthromorphism allocates human qualities to ai
 
 context window is the allocatable amount of memory used for input and output to and from an ai system eg the size of the text chat box for ai chat gpt
+
+context window is amount of data processed by the AI at any one time
 
 reinforcement learning uses cycles to get better
 

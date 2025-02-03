@@ -418,3 +418,58 @@ ps -A
 top
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+```bash
+cht.sh
+when-life-gives-you-lemons-write-better-error-messages
+alias myip=curl 1.2.3.4
+function mkcd() { mkdir -p "$@" && cd "&@" }
+function gitpush() { git add . && git commit -m "$@" && git push }
+/.bash_profile
+  alias chrome="open -a 'Google Chrome'"
+
+
+
+export PATH=$PATH:/Users/Shared/android
+export PATH=$PATH:/Users/Shared/flutter/bin
+export PATH=$PATH:~/.pub-cache/bin
+alias chrome=open -a "Google Chrome"
+alias edge=open -a "Microsoft Edge"
+alias gohome=cd /Users/Shared/
+alias myip=curl 1.2.3.4
+
+export PATH="/Applications/Google Chrome.app/Contents/MacOS:$PATH"
+
+function mkcd()   {    mkdir -p "$@" && cd "$@"                            }
+function gitpush(){    git add . &&    git commit -m "$@" &&    git push   }
+function gitTag() {    git tag -a "$1" -m "$2" &&  git push origin --tags  }
+
+# or is it this - mkcd () {     mkdir "$1"      cd "$1"   }
+
+source "~/.aliases.sh"
+
+# bun completions
+[ -s "/Users/phil/.bun/_bun" ] && source "/Users/phil/.bun/_bun"
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+clear terminal
+clear && printf '\\e[3J'
+
+```
+
+
+
+

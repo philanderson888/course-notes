@@ -1,0 +1,8 @@
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-12-save-checkbox/target/debug/deps/libintl_memoizer-131c8e62788c407d.rmeta: /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/intl-memoizer-0.5.2/src/lib.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/intl-memoizer-0.5.2/src/concurrent.rs
+
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-12-save-checkbox/target/debug/deps/libintl_memoizer-131c8e62788c407d.rlib: /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/intl-memoizer-0.5.2/src/lib.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/intl-memoizer-0.5.2/src/concurrent.rs
+
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-12-save-checkbox/target/debug/deps/intl_memoizer-131c8e62788c407d.d: /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/intl-memoizer-0.5.2/src/lib.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/intl-memoizer-0.5.2/src/concurrent.rs
+
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/intl-memoizer-0.5.2/src/lib.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/intl-memoizer-0.5.2/src/concurrent.rs:

@@ -1,0 +1,10 @@
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-10-save-edits/target/debug/deps/libpiet_coregraphics-153fc4f5555f2990.rmeta: /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/lib.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/ct_helpers.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/gradient.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/text.rs
+
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-10-save-edits/target/debug/deps/libpiet_coregraphics-153fc4f5555f2990.rlib: /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/lib.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/ct_helpers.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/gradient.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/text.rs
+
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-10-save-edits/target/debug/deps/piet_coregraphics-153fc4f5555f2990.d: /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/lib.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/ct_helpers.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/gradient.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/text.rs
+
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/lib.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/ct_helpers.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/gradient.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/piet-coregraphics-0.6.2/src/text.rs:

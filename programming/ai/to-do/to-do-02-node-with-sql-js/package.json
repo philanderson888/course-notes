@@ -1,0 +1,13 @@
+{
+  "name": "todo-console-app",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "sql.js": "^1.8.0",
+    "inquirer": "^9.2.12",
+    "console-table-printer": "^2.11.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

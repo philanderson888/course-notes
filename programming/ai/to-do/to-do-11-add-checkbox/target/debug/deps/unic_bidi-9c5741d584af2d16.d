@@ -1,0 +1,18 @@
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-11-add-checkbox/target/debug/deps/libunic_bidi-9c5741d584af2d16.rmeta: /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/lib.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/pkg_info.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/format_chars.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/level.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/bidi_info.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/explicit.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/implicit.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/prepare.rs
+
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-11-add-checkbox/target/debug/deps/libunic_bidi-9c5741d584af2d16.rlib: /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/lib.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/pkg_info.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/format_chars.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/level.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/bidi_info.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/explicit.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/implicit.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/prepare.rs
+
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-11-add-checkbox/target/debug/deps/unic_bidi-9c5741d584af2d16.d: /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/lib.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/pkg_info.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/format_chars.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/level.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/bidi_info.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/explicit.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/implicit.rs /Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/prepare.rs
+
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/lib.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/pkg_info.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/format_chars.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/level.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/bidi_info.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/explicit.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/implicit.rs:
+/Users/phil/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unic-bidi-0.9.0/src/prepare.rs:
+
+# env-dep:CARGO_PKG_DESCRIPTION=UNIC — Unicode Bidirectional Algorithm
+# env-dep:CARGO_PKG_NAME=unic-bidi
+# env-dep:CARGO_PKG_VERSION=0.9.0

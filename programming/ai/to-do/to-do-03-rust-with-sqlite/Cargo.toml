@@ -1,0 +1,11 @@
+[package]
+name = "to-do-03-rust-with-sqlite"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = "0.30"
+rand = "0.8.5"
+faker_rand = "0.1"
+dialoguer = "0.10"
+prettytable = "0.10.0"

@@ -7,3 +7,5 @@ out/
 .env
 api.json
 api-key.json
+
+/target/debug/

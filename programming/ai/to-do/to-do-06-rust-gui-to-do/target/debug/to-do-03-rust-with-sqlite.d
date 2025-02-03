@@ -1,0 +1,1 @@
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-06-rust-gui-to-do/target/debug/to-do-03-rust-with-sqlite: /Users/phil/github/course-notes/programming/ai/to-do/to-do-06-rust-gui-to-do/src/main.rs

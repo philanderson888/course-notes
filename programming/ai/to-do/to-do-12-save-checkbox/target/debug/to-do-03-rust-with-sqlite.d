@@ -1,0 +1,1 @@
+/Users/phil/github/course-notes/programming/ai/to-do/to-do-12-save-checkbox/target/debug/to-do-03-rust-with-sqlite: /Users/phil/github/course-notes/programming/ai/to-do/to-do-12-save-checkbox/src/main.rs
